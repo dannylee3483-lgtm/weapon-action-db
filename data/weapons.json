@@ -16908,6 +16908,80 @@
       ],
       "id": "sc-011",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "태양 화염 망치 (Hammer of Sol)",
+      "game": "Destiny 2",
+      "developer": "Bungie",
+      "actionName": "타오르는 망치 (Burning Maul)",
+      "actionType": "특수기",
+      "description": "선브레이커 티탄이 태양 에너지로 소환한 거대한 망치를 활성화하는 슈퍼 어빌리티. 기본 발동 시 망치를 크게 휘둘러 넓은 부채꼴 범위의 적을 강타하며, 충전 사용 시 망치를 땅에 내리쳐 타오르는 화염 소용돌이를 생성해 지속적인 지역 거부 효과를 발휘한다. 슈퍼 게이지가 허용하는 한 기본·충전 공격을 자유롭게 조합할 수 있어 다수 적 처리와 단일 고화력 딜 모두 대응 가능하다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "spin"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "area-denial",
+          "damage-over-time",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "슈퍼 게이지",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~20f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Burning Maul은 해머 전투의 핵심 판타지인 '무게감'과 '폭발적 위력'을 두 가지 모드로 분리하여 구현한다. 빠른 스윙 모드는 기동성과 연속 타격을 제공하고, 충전 내리치기는 화염 소용돌이를 통한 지속 피해와 지역 제압을 담당해 단일 슈퍼 어빌리티 안에서 상황 대응 전략을 강요한다는 점이 설계의 핵심이다. 소환 시 망치에 태양 에너지가 응집되는 연출과 지면 타격 시 충격파의 강렬한 시각·음향 피드백이 FPS 장르에서 근접 전투의 '내리치는 감각'을 극대화하는 모범 사례로 평가된다. 슈퍼 게이지라는 리소스 제약이 무한 무적 상태를 방지하는 동시에, 게이지가 허용하는 동안 반복 사용을 허용하는 구조는 '강력한 힘을 쥔 동안만 무적'이라는 긴장감 있는 판타지를 구현한다. 근접 거리를 강제하는 리스크가 압도적 화력이라는 리워드와 맞교환되어, 플레이어로 하여금 적진 한가운데 돌진하는 플레이 스타일을 유도하는 행동 유도 설계(affordance design)의 우수한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Destiny+2+%ED%83%80%EC%98%A4%EB%A5%B4%EB%8A%94+%EB%A7%9D%EC%B9%98+%28Burning+Maul%29+gameplay",
+        "images": [],
+        "wiki": "https://www.destinypedia.com/Burning_Maul",
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "fire",
+        "area-denial",
+        "super-ability",
+        "crowd-control",
+        "solar-energy",
+        "titan",
+        "knockdown",
+        "close-range",
+        "fps-melee"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "태양 화염 망치"
+      ],
+      "id": "hm-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
