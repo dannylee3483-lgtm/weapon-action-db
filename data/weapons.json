@@ -17899,6 +17899,75 @@
       ],
       "id": "kt-044",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Dual Blades)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "피어싱 바인드 (Piercing Bind / 刺突縛り)",
+      "actionType": "실크바인드 기술 (Silkbind Attack)",
+      "description": "실크벌레를 발사해 몬스터에 줄을 걸어 묶은 뒤, 쌍검을 연속으로 휘두르며 몬스터를 고속으로 관통하는 공격이다. 실크벌레 1마리를 소비하며 묶인 상태에서 다수의 베기 히트를 가한 후 반대편으로 뛰쳐나오며, 공격 중 몬스터의 이동을 일시적으로 억제하는 효과가 있어 파티 전투에서도 높은 전술적 가치를 지닌다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "poise-breaking",
+          "crowd-control",
+          "repositioning"
+        ],
+        "resourceCost": "실크벌레 1마리",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~60f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "피어싱 바인드는 유한 자원인 실크벌레를 소비해 고화력 관통 공격을 실행하는 명확한 리스크-리워드 구조를 갖는다. 몬스터에 물리적으로 묶여 함께 이동하는 메커니즘 덕분에 플레이어는 몬스터의 움직임을 역이용해 포지셔닝을 반전시킬 수 있으며, 이는 근접 밀착을 강제하는 쌍검의 본질을 강화한다. 공격 중 몬스터 이동 억제 효과는 파티플레이에서 협력 가치를 부여하고, 단독 플레이에서도 고딜 타이밍을 능동적으로 창출하는 전술 도구로 기능한다. 기존 쌍검의 데몬 모드 중심 지속 딜 플레이에 '와이어버그를 통한 공간 제어'라는 새로운 레이어를 추가함으로써, 연속 콤보 외에도 단발 고화력 타격이라는 새로운 플레이 판타지를 쌍검에 부여한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%ED%94%BC%EC%96%B4%EC%8B%B1+%EB%B0%94%EC%9D%B8%EB%93%9C+%28Piercing+Bind+%2F+%E5%88%BA%E7%AA%81%E7%B8%9B%E3%82%8A%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Dual+Blades",
+        "gif": null
+      },
+      "tags": [
+        "dual-blades",
+        "silkbind",
+        "wirebug",
+        "monster-hunter",
+        "gap-closer",
+        "crowd-control",
+        "resource-management",
+        "penetrating-strike",
+        "party-utility"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-016",
+      "addedDate": "2026-03-15"
     }
   ]
 }
