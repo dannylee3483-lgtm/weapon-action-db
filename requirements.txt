@@ -3,3 +3,6 @@
 #
 # server.py용 (Python 표준 라이브러리, 설치 불필요):
 #   http.server, socketserver, webbrowser, os, sys
+
+# yt_watcher.py용 (YouTube URL 자동 채우기 워처)
+yt-dlp

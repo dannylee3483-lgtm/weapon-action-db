@@ -13,5 +13,17 @@ if %errorlevel% neq 0 (
 )
 
 cd /d "%~dp0"
+
+:: yt-dlp 설치 확인
+yt-dlp --version >nul 2>&1
+if %errorlevel% neq 0 (
+    echo  [yt-dlp] 설치 중...
+    pip install yt-dlp -q
+)
+
+:: YouTube URL 워처 백그라운드 실행
+start "YouTube URL Watcher" /min python yt_watcher.py
+
+:: 서버 실행
 python server.py
 pause
