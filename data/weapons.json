@@ -16838,6 +16838,76 @@
       ],
       "id": "ax-021",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "대형 낫 (Great Scythe)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "목 베기 (Neck Swipe)",
+      "actionType": "무기술",
+      "description": "낮게 웅크리며 낫을 수평으로 빠르게 후려치는 무기 스킬로, 낫 자루 끝까지 활용한 광범위한 수평 판정이 특징이다. 발동 후 R1 버튼으로 추가 베기 공격을 연계할 수 있어 지속적인 출혈 축적이 가능하다. 낮은 자세 덕분에 일부 상단 공격을 회피하면서 동시에 반격하는 로우 프로파일 효과도 겸한다.",
+      "motionType": [
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "wide-hitbox",
+          "low-profile"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~6f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "출혈 상태이상과 무기술 시스템을 결합한 설계로, FP라는 유한 리소스를 소모해 단순 타격 이상의 복합 가치를 창출한다. '낮은 자세 진입 → 수평 베기 → R1 연계'라는 3단 구조는 무기술 하나에 회피·공격·콤보 확장이라는 세 가지 역할을 동시에 부여해 상황 판단의 깊이를 높인다. 낫 자루의 긴 리치를 최대한 활용한 광범위한 수평 히트박스는 1:1 교전과 군중전 모두에서 유효하도록 설계되었다. 출혈 누적이라는 심리적 압박이 상대의 행동을 억제하는 메타 레이어를 형성하며, FP 소비와 발동 딜레이라는 리스크 대비 출혈 폭발 피해라는 명확한 리워드 구조가 리스크-리워드 밸런스의 교과서적 사례를 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EB%AA%A9+%EB%B2%A0%EA%B8%B0+%28Neck+Swipe%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Great+Scythe",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "weapon-art",
+        "horizontal-slash",
+        "fp-cost",
+        "low-profile",
+        "combo-starter",
+        "status-effect",
+        "crowd-control",
+        "scythe",
+        "fromsoft"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "대형 낫",
+        "낫 계열"
+      ],
+      "id": "sc-011",
+      "addedDate": "2026-03-15"
     }
   ]
 }
