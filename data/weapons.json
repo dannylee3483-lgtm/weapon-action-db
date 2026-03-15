@@ -11454,6 +11454,219 @@
       ],
       "id": "kt-036",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "카프카 (Kafka)",
+      "game": "Bayonetta 2",
+      "developer": "PlatinumGames",
+      "actionName": "카프카 연속기 / Kafka Combo Chain (PPKK)",
+      "actionType": "콤보",
+      "description": "양손·양발에 장착한 접철식 나비칼 카프카로 PPKK 입력을 통해 상반신 베기→하반신 발차기를 교번 연결하는 기본 연속기. 각 타격마다 나비칼의 열림-닫힘 모션이 시각적으로 명확히 표현되며, 마지막 K 입력에서 마담 버터플라이의 거대한 발차기 윅드 위브가 발동되어 높은 피니시 대미지를 준다. 마녀 시간(Witch Time) 상태에서 이어지면 윅드 위브 배율이 대폭 상승한다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "purple",
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "wicked-weave-finisher",
+          "witch-time-compatible",
+          "full-body-attack"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~45f (전체 콤보)",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "카프카의 접철식 나비칼은 각 히트마다 '열림-닫힘' 애니메이션이 동반되어 타격 피드백을 독자적으로 구성한다. PPKK 순서로 상반신→하반신이 교번 공격되도록 설계해 플레이어가 '전신을 사용하는 전투'를 직관적으로 체감하게 하며, 이는 모션 다양성이 전략 다양성으로 직결되는 구조다. 윅드 위브 피니셔는 마녀 시간 활용의 리워드로 기능해 회피-카운터-연속기라는 베요네타 핵심 루프를 완성한다. 버터플라이 날개 이펙트가 윅드 위브 발동 여부를 시각적으로 구분해 정보 전달과 심미성을 동시에 충족하며, 이는 게임플레이 정보를 연출에 내재화하는 원칙의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Bayonetta+2+%EC%B9%B4%ED%94%84%EC%B9%B4+%EC%97%B0%EC%86%8D%EA%B8%B0+%2F+Kafka+Combo+Chain+%28PPKK%29+gameplay",
+        "images": [],
+        "wiki": "https://bayonetta.fandom.com/wiki/Kafka",
+        "gif": null
+      },
+      "tags": [
+        "dual-blades",
+        "butterfly-knife",
+        "wicked-weave",
+        "combo-finisher",
+        "witch-time",
+        "full-body-attack",
+        "visual-feedback",
+        "platinum-games",
+        "stylish-action"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "아그니 & 루드라 (Agni & Rudra)",
+      "game": "Devil May Cry 3: Dante's Awakening",
+      "developer": "Capcom",
+      "actionName": "프롭 쉬레더 / Prop Shredder (검마 스타일)",
+      "actionType": "무기술",
+      "description": "검마(Swordmaster) 스타일 전용으로, 아그니와 루드라를 수평으로 펼쳐 헬리콥터 날개처럼 고속 회전시키는 Prop에서 연속 입력으로 Shredder로 전환하는 광역 연속기. Prop 단독으로도 전방 다중 히트 판정을 가지며, Shredder로 전환하면 회전 반경이 확대되어 주변 360도를 불꽃(아그니)과 선풍(루드라)의 이중 이펙트로 가득 채운다. 버튼 유지 시간에 따라 판정 지속이 연장되어 사실상 지속형 광역기로 기능한다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow",
+          "cyan"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "multi-hit",
+          "dual-element",
+          "crowd-control",
+          "hold-extendable"
+        ],
+        "resourceCost": "없음 (검마 스타일 전용)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~60f+ (유지 가능)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "아그니 & 루드라는 속성이 다른 두 검을 각각 별개의 개체로 취급해 단일 무기와 차별화한 점이 핵심 설계다. Prop Shredder는 불꽃(우)과 선풍(좌)이 서로 다른 색상으로 시각 분리되어 이중 속성을 플레이어가 즉각 인지하도록 하며, 이는 복잡한 속성 시스템을 연출로 설명하는 방식이다. '검마 스타일'이라는 외부 조건에 잠금 해제되는 구조는 스타일 시스템의 숙련 보상으로 기능하며, 캐주얼 플레이어와 고급 플레이어 사이의 표현 격차를 자연스럽게 벌린다. 다중 히트의 연속 스태거는 리스크 없이 데미지를 쌓는 '안전 딜링' 창구이며, 이 같은 중거리 광역기는 스타일리시 액션에서 플레이어가 멋과 효율을 동시에 달성하도록 설계된 균형추 역할을 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%ED%94%84%EB%A1%AD+%EC%89%AC%EB%A0%88%EB%8D%94+%2F+Prop+Shredder+%28%EA%B2%80%EB%A7%88+%EC%8A%A4%ED%83%80%EC%9D%BC%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Agni_%26_Rudra",
+        "gif": null
+      },
+      "tags": [
+        "dual-swords",
+        "dual-element",
+        "fire-wind",
+        "aoe",
+        "multi-hit",
+        "swordmaster-style",
+        "crowd-control",
+        "hold-to-extend",
+        "devil-may-cry"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "단검 (Daggers)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "형체 없는 페인트 / Formless Feint",
+      "actionType": "카운터",
+      "description": "적의 공격 직전 입력 시 무적 판정의 잔상 회피로 분신을 남겨두고 본체가 빠져나가는 도적(Thief) 전용 기술. 회피 성공 시 잔상이 적의 시선을 잠시 끌어 짧은 반격 기회를 제공하며, 이 시간 내에 이중 단검 속공으로 연결하면 크리티컬 대미지 배율이 적용된다. 타이밍 윈도우가 매우 좁아 숙련자 전용이지만 성공 시 공수 전환의 쾌감이 극대화된다.",
+      "motionType": [
+        "dodge-cancel",
+        "counter",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "black"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "invincibility-frames",
+          "afterimage-decoy",
+          "critical-window",
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~18f (무적 구간)",
+          "recovery": "~16f"
+        }
+      },
+      "designNotes": "Formless Feint는 '회피 자체가 반격의 트리거'라는 패리 계열 메카닉을 도적의 정체성(은신·교란)으로 재해석한 설계다. 잔상이 분신으로 남아 적 AI를 일시적으로 속이는 구조는 단순 무적 회피가 아닌 '정보 조작'이라는 레이어를 추가해 도적 클래스 판타지를 강화한다. 크리티컬 타이밍 윈도우는 '위험 감수 → 정밀 실행 → 높은 보상'의 리스크-리워드 구조를 명확히 제시하며, 성공률이 0%~100%의 이분법이 아닌 숙련도 연속체로 작동해 학습 곡선을 완만하게 유지한다. 보스 포함 모든 적에게 적용 가능한 범용 설계는 숙련자가 어떤 조우에서도 이 기술로 주도권을 가져갈 수 있도록 보장하며, 이는 고위험-고보상 기술의 이상적인 설계 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%ED%98%95%EC%B2%B4+%EC%97%86%EB%8A%94+%ED%8E%98%EC%9D%B8%ED%8A%B8+%2F+Formless+Feint+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Formless_Feint",
+        "gif": null
+      },
+      "tags": [
+        "dual-daggers",
+        "counter",
+        "invincibility-frames",
+        "afterimage-decoy",
+        "critical-hit",
+        "risk-reward",
+        "thief",
+        "dodge-cancel",
+        "punish"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "단검"
+      ],
+      "id": "db-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
