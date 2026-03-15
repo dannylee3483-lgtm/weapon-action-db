@@ -12360,7 +12360,7 @@
       },
       "designNotes": "투척 후 회수라는 '리소스 루프' 구조가 이 액션의 핵심 설계 원칙이다. 해머를 투척하고 전장 안에서 이동해 회수하는 행동 자체가 리스크(근접 이동)와 리워드(쿨타임 단축 + 강화 공격)의 트레이드오프를 형성한다. 이 구조는 타이탄이 단순 돌격 클래스에서 벗어나 위치 판단과 리소스 관리를 요구하는 전술적 플레이어로 기능하게 한다. Sunspot 생성과 결합하면 단일 투척으로 피해·버프·지역 제어 세 가지 목표를 동시에 달성하는 고밀도 설계이다. 물리적 오브젝트를 전장에 남기는 아이디어는 FPS 장르에서 해머 무기에 새로운 공간적 게임플레이 레이어를 부여한 독창적 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Destiny+2+%ED%95%B4%EB%A8%B8+%ED%88%AC%EC%B2%99+%2F+Throwing+Hammer+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=dqdX0Ji9bVk",
         "images": [],
         "wiki": "https://www.destinypedia.com/Throwing_Hammer",
         "gif": null
@@ -12424,7 +12424,7 @@
       },
       "designNotes": "이 액션은 '전문화된 도구' 설계 원칙의 교과서적 예시다. 횡방향 약공격이 군중 처리를 담당하고 수직 강격이 엘리트 타게팅을 맡는 역할 분리 구조 덕분에, 플레이어는 상황에 따라 타격 방향을 의식적으로 선택해야 한다. 느린 선딜이 명확한 패널티로 작동해 강격 타이밍을 읽힌 적의 반격 기회를 보장하며, 이는 고위험-고보상 구조를 유지한다. 협동 게임이라는 장르 특성상 아군의 CC에 이어 강격을 연결하는 팀 플레이 시너지가 설계 의도에 포함되어 있다. 단일 무기에 '팀 내 엘리트 처리 전담'이라는 명확한 플레이 정체성을 부여한 것은 역할 설계와 무기 설계를 일치시킨 좋은 결과다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Warhammer%3A+Vermintide+2+%EC%88%98%EC%A7%81+%EA%B0%95%EA%B2%A9+%2F+Overhead+Heavy+Smash+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=NzPFNyVwMgE",
         "images": [],
         "wiki": "https://vermintide2.fandom.com/wiki/Two-Handed_Hammer",
         "gif": null
@@ -12495,7 +12495,7 @@
       },
       "designNotes": "Ground Slam은 액션 RPG에서 '묵직한 해머' 판타지를 충실히 구현하면서도 빌드 시스템과 유기적으로 연결된 설계의 좋은 예다. Armour Stacks와 Seismic Cry를 통해 단순 버튼 입력이 선행 자원 관리의 보상으로 기능하도록 설계하여, 타격 자체가 전략적 결정의 결과물이 된다. 부채꼴 충격파의 시각적 균열 이펙트는 타격감을 강화하고 공격 범위를 직관적으로 인식하게 하는 피드백 설계의 모범 사례다. 느린 선딜과 넓은 피해 범위의 균형은 포킹보다 확정 처벌(punish)에 특화된 전술적 포지셔닝을 유도한다. PoE2의 해머 전투 시스템은 이 액션을 중심으로 워크라이 리소스 사이클을 구성하여 단일 스킬이 빌드의 핵심 축으로 기능하도록 설계했다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Path+of+Exile+2+%EB%8C%80%EC%A7%80+%EA%B0%95%ED%83%80+%2F+Ground+Slam+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=NI8590SoqPA",
         "images": [],
         "wiki": "https://www.poewiki.net/wiki/Ground_Slam",
         "gif": null
