@@ -7828,6 +7828,204 @@
       ],
       "id": "ft-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "장궁 (Longbow)",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "집중 (Concentration)",
+      "actionType": "특수기",
+      "description": "R1 버튼으로 발동하는 시간 감속 메카닉으로, 활을 겨냥한 상태에서 주변 시간이 급격히 느려져 정밀한 조준이 가능해진다. 느려진 시간 안에서 여러 적의 급소를 차례로 조준해 연속 처치할 수 있으며, 집중 게이지가 소진되면 효과가 즉시 종료된다. 스텔스 진입 직후나 적 다수가 몰린 전투 전환점에서 결정적인 다중 타격을 가능하게 해주는 핵심 생존 도구다.",
+      "motionType": [
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "multi-target",
+          "headshot-enabled"
+        ],
+        "resourceCost": "집중 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "게이지 지속 구간",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "집중 메카닉은 '제어된 전능감'을 핵심 보상으로 삼는 설계다. 플레이어에게 일시적으로 무적에 가까운 조준 환경을 제공하되, 제한된 게이지라는 자원 관리 요소로 남용을 억제한다. 다수 적을 순식간에 제압하는 카타르시스를 설계하면서도, 게이지 회복을 위해 스텔스 접근이나 근접 전투와의 전략적 전환을 자연스럽게 유도한다는 점에서 리소스-리워드 구조가 뚜렷하다. 시간 감속이라는 시각적 연출이 '사무라이 영화의 결정적 한 발'이라는 테마와 완벽하게 부합하며, 게임플레이와 내러티브 일관성을 동시에 달성한다. 단순 범용 버프가 아니라 활이라는 무기에만 종속된 전용 메카닉으로 설계되어 무기 정체성을 강화하는 좋은 레퍼런스다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%A7%91%EC%A4%91+%28Concentration%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "time-slow",
+        "precision-shot",
+        "resource-management",
+        "multi-target",
+        "stealth-synergy",
+        "long-range",
+        "bow",
+        "cinematic",
+        "samurai"
+      ],
+      "applicableWeapons": [
+        "장궁",
+        "단궁",
+        "활"
+      ],
+      "id": "bw-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "단궁 (Shortbow)",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "오중연사 (Fivefold Flurry)",
+      "actionType": "무기술",
+      "description": "스트라이더/레인저 직업 전용 스킬로, 극히 빠른 연사로 5발의 화살을 순식간에 발사하는 기술이다. 각 화살은 독립적으로 명중 판정을 가지며, 단일 부위에 집중 조준하면 강력한 부위 파괴 데미지를 누적시킬 수 있다. 대형 몬스터의 약점 부위에 전탄 명중 시 막대한 피해를 기록할 수 있어 DPS 극대화 전술의 핵심 기술로 자리잡는다.",
+      "motionType": [
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "part-break",
+          "weak-point-focus"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~30f (5연사 구간)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "오중연사는 '집중 딜링'이라는 활의 핵심 판타지를 메카닉 수준에서 구현한 설계다. 5발이 개별 명중 판정을 가지도록 설계해 약점 부위 집중 사격이라는 행동을 게임플레이 언어로 직접 번역했다. 거리와 발사 각도에 따라 전탄 명중 여부가 달라지므로, 최적 사거리 유지와 위치 파악이 숙련도를 결정하는 핵심 변수가 된다. 강화 버전인 '육중연사'로의 업그레이드 경로를 두어 성장의 방향성과 목표 의식을 명확히 부여하며, 단순 버튼 입력을 넘어 공간 이해를 요구하는 깊이 있는 활 액션의 훌륭한 레퍼런스다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EC%98%A4%EC%A4%91%EC%97%B0%EC%82%AC+%28Fivefold+Flurry%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Fivefold_Flurry",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "rapid-fire",
+        "part-break",
+        "dps-burst",
+        "skill-based",
+        "weak-point",
+        "strider",
+        "ranger",
+        "position-dependent"
+      ],
+      "applicableWeapons": [
+        "단궁",
+        "장궁",
+        "활"
+      ],
+      "id": "bw-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "활 (Bow)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "용관통포 (Dragon Piercer)",
+      "actionType": "차지",
+      "description": "최대 충전 상태에서만 발동 가능한 활의 극기(極技)로, 몸을 크게 회전하며 모아진 에너지를 단 한 발의 거대한 화살에 담아 직선으로 관통 발사한다. 발사된 화살은 몬스터를 직선으로 꿰뚫으며 다수의 히트 판정을 연속 발생시켜, 긴 몸통을 가진 대형 몬스터에 특히 파괴적인 효과를 낸다. 발동 전 특유의 회전 선딜이 길어 타이밍 숙련이 필수지만, 명중 시 활 기술 중 최고 수준의 부위 데미지를 기록한다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "beam"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "pierce",
+          "multi-hit",
+          "knockdown",
+          "charge-required"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~15f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "용관통포는 '최대 충전'이라는 선행 조건과 '관통 다중 히트'라는 보상 사이의 긴장감을 통해 전투 리듬을 설계하는 하이 리스크-하이 리워드의 교과서적 사례다. 활의 충전 단계 시스템과 긴밀히 결합되어, 플레이어는 전투 내내 올바른 충전 상태를 유지하면서 발동 타이밍을 노려야 한다. 몬스터의 자세와 각도를 읽어 최대 관통 히트를 노리는 공간 이해력을 요구하므로, 숙련도에 따라 데미지 격차가 극명하게 갈린다. 긴 선딜이 카운터 타이밍 공격으로도 활용 가능해 수비적 읽기와 공격적 딜링이 동시에 요구되는 복합적 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%9A%A9%EA%B4%80%ED%86%B5%ED%8F%AC+%28Dragon+Piercer%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Dragon+Piercer",
+        "gif": null
+      },
+      "tags": [
+        "pierce",
+        "charge-shot",
+        "high-risk-high-reward",
+        "multi-hit",
+        "finisher",
+        "position-dependent",
+        "bow",
+        "monster-hunter",
+        "part-break"
+      ],
+      "applicableWeapons": [
+        "활"
+      ],
+      "id": "bw-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
