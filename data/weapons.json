@@ -2604,6 +2604,207 @@
       ],
       "id": "gs-018",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Sakai Clan Katana",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "스탠드오프 (Standoff)",
+      "actionType": "카운터",
+      "description": "Jin이 단독 적과 대치한 상태에서 정확한 타이밍에 적의 공격을 반격하는 Quick-Time Event 카운터. 성공 시 적을 경직시키고 큰 데미지를 주며, 게임의 긴장감과 검술의 반응성을 구현한 핵심 메커닉.",
+      "motionType": [
+        "counter",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish"
+        ],
+        "specialProperties": [
+          "counter",
+          "timing-based",
+          "stagger"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~10f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "스탠드오프는 플레이어의 반응 속도와 리듬감각을 직접 시험하며, 정확한 타이밍 요구로 습득 곡선을 형성한다. 성공 시 극적인 시각 피드백으로 만족감을 극대화하여, 일본 검술의 '마(間)' 개념—거리와 시간 감각—을 게임 메커닉으로 우아하게 구현했다. 또한 플레이어의 숙련도가 전투 효율을 직접 좌우하도록 설계하여 성장의 쾌감을 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%8A%A4%ED%83%A0%EB%93%9C%EC%98%A4%ED%94%84+%28Standoff%29+gameplay",
+        "images": [],
+        "wiki": "https://ghostoftsushima.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "timing-based",
+        "japanese-swordplay",
+        "parry",
+        "stagger",
+        "responsive",
+        "quick-time-event"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-022",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "카타나 중단 콤보 (Mid-Stance Combo Chain)",
+      "actionType": "콤보",
+      "description": "니오 2의 카타나 중단 자세에서 구성되는 4~5단 연속 슬래시 콤보. 각 연격은 누적 경직도를 쌓으며, 마지막 동작은 강화 공격(Skill)으로 전환 가능하여 플레이어가 상황에 맞춰 콤보를 변칙적으로 운영할 수 있다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "skill-transition",
+          "combo-extender",
+          "stance-dependent"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~6-8f per hit",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "니오 2의 스탠스 시스템(저/중/고)과 연계된 카타나 콤보는 플레이어가 상황에 맞춰 공격 속도와 리치를 선택하도록 유도한다. 중단은 균형 잡힌 선택지로서 빠른 연타 압박과 강화 공격으로의 리스크-리워드 선택을 제공한다. 이는 '액션성'과 '전략성'의 교점을 보여주며, 플레이어의 숙련도에 따라 운용 폭이 기하급수적으로 확장되는 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%B9%B4%ED%83%80%EB%82%98+%EC%A4%91%EB%8B%A8+%EC%BD%A4%EB%B3%B4+%28Mid-Stance+Combo+Chain%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Katana",
+        "gif": null
+      },
+      "tags": [
+        "stance-system",
+        "combo-chain",
+        "skill-transition",
+        "fast-weapon",
+        "dexterity-scaling",
+        "multi-hit",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검",
+        "쌍검"
+      ],
+      "id": "kt-023",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Jian (Chinese Straight Sword)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "치 강화 참격 (Fortified Spirit Attack)",
+      "actionType": "차지 공격",
+      "description": "우롱의 검 무기(Jian)는 플레이어의 치(Chi) 게이지를 소비하여 강화된 참격을 시연한다. 치 강화 상태에서의 공격은 발광 이펙트와 함께 범위가 확대되고 높은 경직력을 가지며, 우롱의 핵심 전투 메커닉인 리소스 관리를 대표하는 액션.",
+      "motionType": [
+        "slash",
+        "charge",
+        "aura"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "blue",
+          "purple",
+          "cyan"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "chi-based",
+          "enhanced-range",
+          "poise-breaking",
+          "spirit-damage"
+        ],
+        "resourceCost": "치(Chi) 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~12f",
+          "recovery": "~16f"
+        }
+      },
+      "designNotes": "우롱의 설계 철학은 플레이어의 '리소스 관리'를 전투의 핵심으로 삼는다. 치 강화 공격은 강력하지만 제한된 자원을 소비하므로, 플레이어는 적의 패턴 분석과 최적 타이밍 계산으로 언제 강화를 쓸지 판단해야 한다. 이는 전투를 '선택과 기다림의 연쇄'로 만들어 전략적 깊이를 부여하며, 동양 검술의 '기(氣)' 개념을 게임 메커닉으로 자연스럽게 구현한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%B9%98+%EA%B0%95%ED%99%94+%EC%B0%B8%EA%B2%A9+%28Fortified+Spirit+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://wulong.wiki.fextralife.com/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "chi-management",
+        "resource-based",
+        "spiritual-damage",
+        "enhanced-attack",
+        "poise-breaker",
+        "eastern-philosophy",
+        "team-ninja"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-024",
+      "addedDate": "2026-03-15"
     }
   ]
 }
