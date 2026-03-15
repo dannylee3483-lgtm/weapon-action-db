@@ -7616,6 +7616,218 @@
       ],
       "id": "wh-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "메탈 너클 / 장갑 (Metal Knuckles)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "스타샤워 (Starshower)",
+      "actionType": "무기술",
+      "description": "티파가 빠른 속도로 전방 대상에게 권격과 발차기를 연달아 퍼붓는 회전형 연타기. 각 타격이 '무한한 힘(Unbridled Strength)' 게이지를 축적하며, 이후 차지 공격의 위력을 단계적으로 강화한다. 히트 판정이 촘촘하게 이어져 적의 기력(Stagger) 게이지를 빠르게 채울 수 있다.",
+      "motionType": [
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "stagger-buildup",
+          "buff-self",
+          "multi-hit"
+        ],
+        "resourceCost": "ATB 게이지 1칸",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~60f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "스타샤워는 단순한 데미지기가 아닌 '상태 전이 트리거'로 설계되었다. 이 액션 하나가 Unbridled Strength 스택을 올려 이후 차지 공격의 위력 등급을 바꾸므로, 플레이어는 항상 '지금 쓸 것인가, 더 쌓을 것인가'를 선택해야 한다. 다수 히트 판정은 적 기력 게이지 누적 속도를 높여 팀 전술의 개막기 역할을 하며, 타격감 있는 히트스톱과 효과음이 각 타격을 명확히 구분해 멀티히트 피드백을 극대화한다. ATB 비용 1칸이라는 낮은 진입장벽이 공격적인 플레이 사이클을 촉진한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EC%8A%A4%ED%83%80%EC%83%A4%EC%9B%8C+%28Starshower%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Starshower",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "stagger-buildup",
+        "buff-self",
+        "atb-cost",
+        "martial-arts",
+        "combo-starter",
+        "spin-attack",
+        "tifa",
+        "ff7r"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "장갑",
+        "너클"
+      ],
+      "id": "ft-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "발록 (Balrog) — 마수 권각",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "이그니션 콤보 (Ignition Mode Combo / Combustion)",
+      "actionType": "콤보",
+      "description": "단테의 마수 무기 발록(Balrog)을 이그니션(Ignition) 모드로 전환 후 사용하는 불꽃 권격 연타. 전방을 향한 고속 잽-훅-어퍼컷 시퀀스로 구성되며, 마지막 어퍼컷이 적을 공중으로 띄워 에어리얼 콤보로 이어진다. 각 타격에 불 속성 이펙트가 붙어 화염 대미지가 연속 누적된다.",
+      "motionType": [
+        "combo",
+        "launcher"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "launcher"
+        ],
+        "specialProperties": [
+          "fire-damage",
+          "aerial-launch",
+          "style-rank-gain",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~80f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "발록의 이그니션 콤보는 '모드 전환 비용 대비 보상' 설계의 교과서적 사례다. Blow 모드(발차기 중심)와 Ignition 모드(권격 중심) 전환이 무료이며, 두 모드를 혼합하는 행위만으로도 스타일 랭크가 상승해 공격성을 자연스럽게 유도한다. 불꽃 이펙트는 순수 비주얼이 아닌 실제 화염 속성 대미지로 반영되어 시각-기능 일치성이 높다. 어퍼컷으로 에어리얼 상태를 생성하는 런처 역할이 내포되어 지상-공중 콤보 전환점으로서의 역할 분담이 명확하며, DMC5의 하이 스킬 실링을 구현하는 핵심 무기다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EC%9D%B4%EA%B7%B8%EB%8B%88%EC%85%98+%EC%BD%A4%EB%B3%B4+%28Ignition+Mode+Combo+%2F+Combustion%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Balrog",
+        "gif": null
+      },
+      "tags": [
+        "fire-element",
+        "combo-launcher",
+        "mode-switch",
+        "style-rank",
+        "aerial-follow-up",
+        "poise-breaking",
+        "devil-may-cry",
+        "balrog",
+        "ignition"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "장갑",
+        "너클"
+      ],
+      "id": "ft-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투술 (베어 핸드)",
+      "game": "Yakuza 0",
+      "developer": "Ryu Ga Gotoku Studio (SEGA)",
+      "actionName": "타이거 드롭 (Tiger Drop / 虎落とし)",
+      "actionType": "카운터",
+      "description": "적의 공격이 들어오는 순간 극도로 좁은 타이밍 윈도우에 입력하면 피격 판정을 무시하고 강력한 역습 일격을 꽂아 넣는 카운터 기. 기류가 허리를 낮추며 상대의 팔을 스치듯 비켜내는 동시에 심부를 향한 단타 직권(直拳)을 내지른다. 명중 시 적이 크게 날아가며 단타 기준 극도로 높은 대미지를 입힌다.",
+      "motionType": [
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "counter-window",
+          "poise-breaking",
+          "high-damage-single-hit",
+          "invincible-on-activation"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~5f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "타이거 드롭은 '극단적 리스크-리워드 설계'의 정수를 보여준다. 입력 윈도우가 매우 좁아 타이밍 실패 시 그대로 피격당하는 위험이 있지만, 성공하면 일격에 보스급 체력을 크게 깎는 폭발적 보상이 주어진다. 이 구조는 플레이어가 자연스럽게 적의 공격 패턴을 분석하고 읽도록 강제함으로써, 기술 습득 자체가 게임 학습 곡선의 절정이 된다. 시각적으로는 화려하지 않지만 단단한 효과음과 명확한 히트스톱이 '역습 성공'이라는 감각을 강렬하게 전달하며, 야쿠자 시리즈 팬덤에서 전설적 지위를 가진 기술로 격투 메카닉 깊이의 상징이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Yakuza+0+%ED%83%80%EC%9D%B4%EA%B1%B0+%EB%93%9C%EB%A1%AD+%28Tiger+Drop+%2F+%E8%99%8E%E8%90%BD%E3%81%A8%E3%81%97%29+gameplay",
+        "images": [],
+        "wiki": "https://yakuza.fandom.com/wiki/Tiger_Drop",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "high-risk-reward",
+        "single-hit",
+        "knockdown",
+        "timing-based",
+        "punish",
+        "poise-breaking",
+        "yakuza",
+        "kiryu",
+        "tiger-drop"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손",
+        "격투술"
+      ],
+      "id": "ft-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
