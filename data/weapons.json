@@ -15361,6 +15361,79 @@
       ],
       "id": "hm-011",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Greatsword)",
+      "game": "Monster Hunter Rise: Sunbreak",
+      "developer": "Capcom",
+      "actionName": "강철팔 자세 (Strongarm Stance / 剛腕構え)",
+      "actionType": "카운터",
+      "description": "선블레이크에서 추가된 실크바인드 계열 스위치 스킬로, 헌터가 대검을 정면에 세우고 양팔을 고정한 방어 자세를 취한다. 이 자세 유지 중 몬스터의 공격을 정면으로 받으면 충격을 흡수·축적하여 다음 반격 베기의 위력을 극적으로 증폭시킨다. 자세 해제 시 축적된 힘을 해방하는 강력한 종결 차지 베기로 연결되며, 와이어버그를 소비한다.",
+      "motionType": [
+        "counter",
+        "charge",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "counter",
+          "poise-breaking",
+          "damage-absorb",
+          "super-armor"
+        ],
+        "resourceCost": "와이어버그 (Wirebug)",
+        "frameApprox": {
+          "startup": "~18f (자세 진입)",
+          "active": "~40f (카운터 수용 윈도우)",
+          "recovery": "~45f (반격 슬래시 후 딜레이)"
+        }
+      },
+      "designNotes": "강철팔 자세는 '의도적으로 맞아야 한다'는 반직관적 설계를 통해 대검의 핵심 철학인 기다림과 결단을 극한까지 밀어붙인다. 몬스터의 공격 패턴을 완전히 읽어낸 플레이어만이 최대 위력 반격을 실현할 수 있어, 숙련도와 보상이 정직하게 연동된다. 와이어버그라는 희소 자원을 소모하므로 남발이 불가능하고 타이밍 선택이 전략적 의사결정이 된다. 공격을 '버티는' 슈퍼아머 구간이 있어 몬스터의 예측불가 패턴 앞에서도 투지를 이어갈 수 있어, 대검 특유의 둔중한 리듬감 안에서 카타르시스를 극대화하는 피드백 루프를 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise%3A+Sunbreak+%EA%B0%95%EC%B2%A0%ED%8C%94+%EC%9E%90%EC%84%B8+%28Strongarm+Stance+%2F+%E5%89%9B%E8%85%95%E6%A7%8B%E3%81%88%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Great+Sword",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "charge",
+        "greatsword",
+        "risk-reward",
+        "wirebug",
+        "silkbind",
+        "poise-breaking",
+        "super-armor",
+        "sunbreak",
+        "damage-absorb"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-039",
+      "addedDate": "2026-03-15"
     }
   ]
 }
