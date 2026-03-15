@@ -22599,6 +22599,74 @@
       ],
       "id": "sp-027",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Whip (Lash)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "비전 카운터 (Arcane Counter)",
+      "actionType": "카운터",
+      "description": "적의 공격을 피한 직후 정확한 타이밍에 공격 버튼을 입력하면 발동되는 즉각 반격 기술. 퓨리가 채찍을 크게 휘두르며 강력한 일격을 가하고, 성공 시 비전 에너지를 충전해 이후 홀로우 기술 연계에 활용할 수 있다. 일반 회피 대비 훨씬 높은 대미지와 스태거를 부여하며, 게임 전반의 전투 리듬을 정의하는 핵심 메카닉이다.",
+      "motionType": [
+        "counter",
+        "slash",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "counter-attack",
+          "resource-gain",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "다크사이더스 III의 전투 철학을 집약한 메카닉으로, 단순 회피와 카운터 사이의 선택을 강제함으로써 전투를 단순 생존이 아닌 퍼포먼스 최적화의 장으로 전환한다. 비전 에너지 충전이라는 부가 보상은 위험 감수에 대한 명확한 인센티브를 제공하며, 홀로우 시스템과의 자원 순환 루프를 완성한다. 세키로의 패리와 유사한 '적극적 방어' 개념을 채찍이라는 무기에 접목해, 긴 사거리가 만들어내는 독특한 공간 활용 반격을 구현한 점이 차별화 포인트다. 회피 판정 직후의 좁은 입력 창은 숙련도를 명확히 변별하면서도 실패 시 패널티(회피만 소모)가 치명적이지 않아 학습 곡선이 완만하게 설계되어 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EB%B9%84%EC%A0%84+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28Arcane+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Fury",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "whip",
+        "resource-gain",
+        "risk-reward",
+        "timing-based",
+        "arcane-energy",
+        "dodge-counter",
+        "punish",
+        "hollow-system"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
