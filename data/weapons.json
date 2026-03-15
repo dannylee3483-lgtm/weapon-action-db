@@ -22527,6 +22527,78 @@
       ],
       "id": "bw-020",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "마법창 (Magick Spear)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "환영 분신 / Mirour Vestige",
+      "actionType": "특수기",
+      "description": "마법창수(Mystic Spearhand) 직업의 고유 기술로, 아리즌의 마력이 응축된 환영 분신을 소환한다. 분신은 아리즌이 창으로 가하는 공격을 동시에 모방하며, 적을 서로 다른 각도에서 협공해 실질적으로 대미지를 배가시킨다. 분신은 시간이 지나면 자동 소멸하지만 공격을 성공적으로 적중시킬수록 지속 시간이 갱신된다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "purple",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "poise-breaking",
+          "damage-amplifier"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~22f",
+          "active": "~지속형 (공격 히트로 갱신)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "환영 분신은 '행동 증폭(Action Echo)' 원칙의 교과서적 구현으로, 플레이어의 모든 입력이 시각적·수치적으로 두 배의 피드백을 즉각 반환한다. 분신을 유지하기 위해 지속적으로 공격을 이어가야 한다는 갱신 조건이 공격적 플레이스타일을 강제 없이 자연스럽게 유도한다는 점이 탁월하다. 마법과 물리를 동시에 다루는 마법창수의 직업 정체성을 단 하나의 기술로 집약해 표현했으며, 분신이 적을 다른 각도에서 타격하므로 포지셔닝에 따른 약점 공략 전략에 실질적 깊이를 더한다. 리스크-리워드 구조 측면에서 분신 유지를 위한 지속 근접 공격이 카운터 피격 노출 위험을 수반해 공격과 생존 사이의 균형 잡힌 긴장감을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%ED%99%98%EC%98%81+%EB%B6%84%EC%8B%A0+%2F+Mirour+Vestige+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.wiki.fextralife.com/Mirour+Vestige",
+        "gif": null
+      },
+      "tags": [
+        "mystic-spearhand",
+        "phantom-clone",
+        "damage-amplifier",
+        "magic-spear",
+        "multi-hit",
+        "aggression-reward",
+        "action-echo",
+        "spear-magic-hybrid",
+        "doppelganger",
+        "hit-sustained"
+      ],
+      "applicableWeapons": [
+        "창",
+        "마법창"
+      ],
+      "id": "sp-027",
+      "addedDate": "2026-03-16"
     }
   ]
 }
