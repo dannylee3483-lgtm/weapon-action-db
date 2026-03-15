@@ -11024,6 +11024,218 @@
       ],
       "id": "sh-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "헤비 소드 (Large Sword) — 베스트로이/전쟁의 검 계열",
+      "game": "NieR: Automata",
+      "developer": "PlatinumGames",
+      "actionName": "헤비 콤보 피니셔 (Heavy Combo Finisher)",
+      "actionType": "콤보",
+      "description": "2B가 대형 검 장착 시 실행하는 3타 콤보의 마지막 타격. 우하단 사선베기 → 좌수평베기에 이어 양손으로 수직 내리찍어 지면에 충격파를 발생시킨다. 포드 프로그램(레이저·탄막)과 어느 타이밍에도 자유롭게 연계할 수 있어 탄막 슈터의 리듬이 접목된 독특한 전투 감각을 만들어낸다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe-impact"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~12f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "NieR: Automata의 헤비 소드 콤보는 '속도와 위력의 교환'이라는 명확한 트레이드오프를 구현한다. 스몰 소드 대비 현저히 느리지만 한 방의 대미지와 스태거가 압도적으로 높아, 플레이어가 적의 경직 타이밍과 무기 특성을 함께 고려하게 만드는 전략적 선택지를 부여한다. 콤보 피니셔의 지면 충격파는 시각·청각 피드백이 의도적으로 과장되어 있어 긴 선딜을 참은 플레이어에게 심리적 보상을 극대화한다. 포드 캔슬이 모든 콤보 프레임에 허용된다는 점은 플레이어가 직접 리듬과 딜 타이밍을 설계하게 해 숙련도 표현의 폭을 크게 확장한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%ED%97%A4%EB%B9%84+%EC%BD%A4%EB%B3%B4+%ED%94%BC%EB%8B%88%EC%85%94+%28Heavy+Combo+Finisher%29+gameplay",
+        "images": [],
+        "wiki": "https://nierautomata.wiki.fextralife.com/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "heavy-sword",
+        "combo-finisher",
+        "pod-synergy",
+        "stagger",
+        "overhead-slam",
+        "action-rpg",
+        "crowd-control",
+        "weapon-switching"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-028",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "그레이트소드 (Greatsword) — 워리어 직업",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "아크 오브 오블리터레이션 (Arc of Obliteration)",
+      "actionType": "차지 공격",
+      "description": "워리어 직업의 대표 대검 스킬. 버튼을 길게 눌러 최대 3단계까지 차지하면 전신을 180도 회전시키며 극대의 단일 베기를 해방한다. 풀차지 시 적을 넉다운시키고 화면 진동을 동반한 폭발적 임팩트를 발생시키며, 중간 단계에서 해제하면 반동 캔슬로 즉시 후속 입력이 가능하다.",
+      "motionType": [
+        "charge",
+        "sweep",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "charge-levels",
+          "aoe-impact"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~90f (풀차지 기준)",
+          "active": "~18f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "아크 오브 오블리터레이션은 '차지 시간 = 위험과 보상의 직접 교환'이라는 공식을 가장 직관적으로 구현한 대검 기술 중 하나다. 긴 선딜 동안 플레이어는 완전히 무방비 상태가 되어 적의 공격 패턴을 읽고 안전한 차지 타이밍을 찾는 전략적 의사결정을 강제한다. 3단계 차지 시스템은 중간 해제 옵션을 열어 두어 숙련 플레이어에게 상황별 유연성을 부여하고, 이 미세 조정이 숙련도 격차를 만드는 핵심 축이 된다. 풀차지 시의 화면 진동과 과장된 히트스톱은 긴 기다림에 대한 보상으로서 강렬한 타격감을 완성하며, 대검 판타지가 요구하는 '무게감'을 피드백으로 직접 번역한 설계 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EC%95%84%ED%81%AC+%EC%98%A4%EB%B8%8C+%EC%98%A4%EB%B8%94%EB%A6%AC%ED%84%B0%EB%A0%88%EC%9D%B4%EC%85%98+%28Arc+of+Obliteration%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.wiki.fextralife.com/Arc+of+Obliteration",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "greatsword",
+        "warrior",
+        "knockdown",
+        "poise-breaking",
+        "risk-reward",
+        "stamina-management",
+        "charge-levels"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-029",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "그레이트소드 (Greatsword) — 노크티스",
+      "game": "Final Fantasy XV",
+      "developer": "Square Enix",
+      "actionName": "워프 스트라이크 — 대검 (Warp-Strike with Greatsword)",
+      "actionType": "특수기",
+      "description": "노크티스가 대형 검을 장착한 상태로 워프 크리스탈을 적에게 투척 후 순간이동으로 따라붙어 강력한 하강 베기를 꽂아 넣는 기술. 거리에 비례하여 대미지 보너스가 증가하며, 대검 특유의 '크래시' 속성으로 착지 시 충격파가 추가되어 주변 소형 적을 날려 버린다. HP 위기 상태(붉은 게이지)에서 홀드 입력 시 피니시 버전으로 전환되어 피해량이 대폭 증가한다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "charge",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "white",
+          "purple"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "knockdown",
+          "distance-scaling-damage",
+          "aerial",
+          "aoe-impact"
+        ],
+        "resourceCost": "MP",
+        "frameApprox": {
+          "startup": "~8f (크리스탈 발사 기준)",
+          "active": "~15f (착지 타격)",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "FFXV 워프 스트라이크의 '거리 = 대미지 배율' 공식은 단순하지만 플레이어를 능동적으로 포지셔닝하게 만드는 강력한 동기 구조다. 대검 장착 시 착지 충격파 AOE가 추가되어 원거리 갭 클로저인 동시에 군중 제어 도구로 기능하는 이중 역할을 수행한다. HP 위기 상태에서의 극대화 버전은 리스크-리워드 구조를 HP 관리라는 생존 레이어와 연결하여, 낮은 HP를 전략적으로 허용하는 심리적 결단을 게임플레이의 깊이로 승화시킨다. 크리스탈 발사 → 순간이동 → 타격의 3단계 연출은 각 단계를 명확히 인지시키는 구조화된 액션 문법으로, 복잡한 시스템을 시각적으로 직관화하는 UI 디자인의 좋은 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XV+%EC%9B%8C%ED%94%84+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC+%E2%80%94+%EB%8C%80%EA%B2%80+%28Warp-Strike+with+Greatsword%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Warp-strike",
+        "gif": null
+      },
+      "tags": [
+        "warp-strike",
+        "gap-closer",
+        "greatsword",
+        "distance-scaling",
+        "aoe",
+        "aerial",
+        "crisis-mechanic",
+        "mp-cost",
+        "final-fantasy"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "1H검",
+        "창"
+      ],
+      "id": "gs-030",
+      "addedDate": "2026-03-15"
     }
   ]
 }
