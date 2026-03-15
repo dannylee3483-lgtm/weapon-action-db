@@ -12518,6 +12518,215 @@
       ],
       "id": "hm-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Blades of Chaos (혼돈의 검)",
+      "game": "God of War (2018)",
+      "developer": "Santa Monica Studio",
+      "actionName": "카오스의 소용돌이 / Cyclone of Chaos",
+      "actionType": "특수기",
+      "description": "크레이토스가 혼돈의 검을 양팔로 회전시키며 전방 360도 범위를 연속 타격하는 스킬. 체인의 원심력을 이용해 넓은 호를 그리며 불꽃 속성 대미지를 부여하고, 버튼 홀드로 회전을 유지할수록 총 대미지가 누적된다. 공중에 있는 적도 타격 가능해 수직 범위까지 커버하며 다수의 적을 동시에 저지한다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "area-of-effect",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음 (스킬 구매 후 자유 사용)",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~60f+",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "혼돈의 검은 본래 중·장거리 체인 무기임에도 이 기술은 '밀착 범위 제어'라는 역할을 담당해 무기의 근거리 취약점을 메운다. 버튼 홀드 구조는 플레이어에게 명확한 리스크-리워드를 제공하며, 유지할수록 총 대미지가 올라가지만 이동이 제한되어 상황 판단 능력을 요구한다. 불꽃 이펙트와 체인이 빙빙 도는 시각 표현이 크레이토스의 힘을 직관적으로 전달하고, 연쇄 타격의 히트스톱이 쾌감을 극대화한다. 군중 제어 도구로서 메인 콤보 흐름에 자연스럽게 삽입되도록 설계되어 특수기임에도 학습 문턱이 낮다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%282018%29+%EC%B9%B4%EC%98%A4%EC%8A%A4%EC%9D%98+%EC%86%8C%EC%9A%A9%EB%8F%8C%EC%9D%B4+%2F+Cyclone+of+Chaos+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "chain-weapon",
+        "area-of-effect",
+        "crowd-control",
+        "fire",
+        "spin-attack",
+        "hold-mechanic",
+        "blades-of-chaos",
+        "god-of-war",
+        "combo-extender",
+        "360-attack"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "쌍검"
+      ],
+      "id": "wh-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Witch's Locks (마녀의 자물쇠)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "불꽃 채찍 / Flame Whip",
+      "actionType": "무기술 (Weapon Art)",
+      "description": "마녀의 자물쇠를 화염으로 가열해 일정 시간 동안 채찍 전체에 불꽃 속성을 부여하는 웨폰 아츠. 발동 시 채찍이 붉은 불꽃에 휩싸이며 이후 모든 공격에 화염 추가 대미지가 적용된다. 지능과 신앙 양쪽 스탯이 동시에 화염 강화 효과에 스케일링되어, 혼합 빌드를 구성할수록 폭발적인 대미지 증폭을 발휘한다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "fire-buff",
+          "bleed-buildup",
+          "long-range-poke"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~24f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "채찍 무기군 특유의 긴 사거리와 낮은 스태거력이라는 단점을 '버프형 웨폰 아츠'로 보완한 설계가 핵심이다. 지능·신앙 이중 스케일링은 소울즈 시리즈에서 드문 혼합 빌드 지원 무기로, 특정 캐릭터 빌드에 강한 정체성을 부여한다. FP 소비라는 자원 관리 요소가 더해져 '지금 버프를 쓸 것인가'라는 전략적 판단을 유도하며, 적 밀착을 피하면서 화염 대미지를 누적하는 장거리 소모전 전략을 완성시킨다. 불꽃 이펙트가 채찍 궤적을 강조해 긴 리치의 시각적 인상을 극대화하고, 위험한 발동 시간이 '준비 의식'처럼 기능해 사용 전 긴장감을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EB%B6%88%EA%BD%83+%EC%B1%84%EC%B0%8D+%2F+Flame+Whip+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Witch%27s+Locks",
+        "gif": null
+      },
+      "tags": [
+        "weapon-art",
+        "fire-buff",
+        "long-range",
+        "bleed",
+        "faith-intelligence",
+        "hybrid-scaling",
+        "dark-souls-3",
+        "whip",
+        "status-buildup",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "鎖鎌 Kusarigama (쇠사슬 낫)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "분동 당겨치기 / Chain Snare (鎖引き絡め)",
+      "actionType": "특수기",
+      "description": "하단 자세에서 분동(추)을 적에게 던져 감은 뒤 강하게 당겨 플레이어 앞으로 끌어오는 기술. 성공 시 적의 자세(Ki)를 크게 무너뜨리며 즉각적인 낫 연계 공격으로 자연스럽게 이어진다. 원거리에서 도주하는 적을 강제로 접근시키거나, 대형 적의 균형을 깨어 처형 타이밍을 만들어내는 데 활용된다.",
+      "motionType": [
+        "throw",
+        "combo",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "pull",
+          "poise-breaking",
+          "combo-starter"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~20f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "쇠사슬의 물리적 특성인 '원거리 포획'을 그대로 게임 메카닉으로 구현한 사례로, 무기의 아이덴티티를 가장 직접적으로 표현한다. 원거리 포획 후 근접 연계라는 흐름은 플레이어에게 공간 지배 전략을 제시하며, 적이 도주하는 패턴을 처벌(punish)하는 역할도 겸해 수비적 플레이어를 능동적으로 전환시킨다. 하단 자세 특화 배치는 자세 선택에 전략적 의미를 부여하고 쿠사리가마만의 고유 스타일을 강화한다. 성공 시 큰 Ki 대미지와 명확한 연계 보상이 주어져 스킬 사용 동기가 분명하며, 숙련도에 따른 활용 차이가 뚜렷해 기술 성장 곡선이 훌륭하게 설계되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EB%B6%84%EB%8F%99+%EB%8B%B9%EA%B2%A8%EC%B9%98%EA%B8%B0+%2F+Chain+Snare+%28%E9%8E%96%E5%BC%95%E3%81%8D%E7%B5%A1%E3%82%81%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Kusarigama",
+        "gif": null
+      },
+      "tags": [
+        "chain-weapon",
+        "pull-mechanic",
+        "gap-closer",
+        "poise-break",
+        "combo-starter",
+        "kusarigama",
+        "nioh-2",
+        "stance-system",
+        "low-stance",
+        "punish"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "낫"
+      ],
+      "id": "wh-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
