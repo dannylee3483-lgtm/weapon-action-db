@@ -21471,6 +21471,75 @@
       ],
       "id": "wh-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 — Windfall 유파",
+      "game": "Absolver",
+      "developer": "Sloclap",
+      "actionName": "윈드폴 편향 반격 (Windfall School Deflect Counter)",
+      "actionType": "카운터",
+      "description": "Windfall 유파의 고유 패시브 시스템으로, 플레이어가 적의 공격이 닿는 순간 특정 방향으로 스텝을 밟으면 공격이 자동으로 편향(deflect)되어 무효화된다. 편향 성공 시 공격 판정이 사라지며 상대가 짧은 경직에 빠지고, 플레이어는 즉시 콤보 덱의 다음 공격을 이어붙이는 카운터 타이밍이 열린다. 버튼 입력 타이밍이 아닌 '이동 방향'으로 발동되는 구조여서, 전투 중 자연스러운 움직임과 방어가 통합된다.",
+      "motionType": [
+        "dodge-cancel",
+        "counter",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "movement-deflect",
+          "passive-counter",
+          "no-resource-cost",
+          "flow-state-synergy"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f (스텝 방향 입력 기준)",
+          "active": "~8f (편향 판정 윈도우)",
+          "recovery": "~6f"
+        }
+      },
+      "designNotes": "대부분의 게임이 '정확한 타이밍에 버튼을 누르는' 패리를 채택하는 반면, Windfall의 편향 반격은 '이동 방향'이라는 공간적 판단으로 방어를 해결한다. 이는 플레이어가 전투 중 항상 포지셔닝을 의식하도록 유도하며, 방어와 기동이 별개의 행위가 아닌 하나의 흐름임을 몸으로 체득하게 만드는 설계다. 리소스 소모가 전혀 없기 때문에 숙련도가 올라갈수록 방어에서 공격으로의 전환이 매끄러워지며, '잘 하면 공짜로 반격 기회를 얻는다'는 강화 보상 구조가 학습 동기를 지속적으로 자극한다. 또한 이 시스템은 유파 선택에 정체성을 부여하는 핵심 차별점으로 기능하여, 캐릭터 빌드 선택에 전략적 의미를 더한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Absolver+%EC%9C%88%EB%93%9C%ED%8F%B4+%ED%8E%B8%ED%96%A5+%EB%B0%98%EA%B2%A9+%28Windfall+School+Deflect+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://absolver.fandom.com/wiki/Windfall",
+        "gif": null
+      },
+      "tags": [
+        "directional-deflect",
+        "passive-counter",
+        "movement-based",
+        "no-resource",
+        "stance-identity",
+        "flow-combat",
+        "martial-arts",
+        "hand-to-hand"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손 격투"
+      ],
+      "id": "ft-021",
+      "addedDate": "2026-03-16"
     }
   ]
 }
