@@ -21540,6 +21540,75 @@
       ],
       "id": "ft-021",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "하이랄 방패 / 가디언 방패 / 일반 방패류",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "방패 튕겨내기 (Shield Parry / シールドはじき)",
+      "actionType": "패리",
+      "description": "적의 공격 타이밍에 맞춰 A 버튼을 눌러 방패로 공격을 튕겨내는 패리 기술. 일반 근접 공격뿐 아니라 가디언 로봇의 레이저빔, 리잘포스의 화살 등 다양한 발사체를 정확한 타이밍에 반사시킬 수 있으며, 성공 시 적에게 경직을 부여하거나 발사체를 역방향으로 반사해 큰 피해를 돌려준다. 특히 가디언 레이저 반사에 성공하면 가디언을 즉사시킬 수도 있어 전투의 극적 반전을 만들어낸다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "projectile-reflect",
+          "poise-breaking",
+          "perfect-timing-window",
+          "weapon-durability-cost"
+        ],
+        "resourceCost": "방패 내구도 소모 (실패 시 방패 날아감)",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~4f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "방패 튕겨내기는 BotW 전투 시스템에서 리스크-리워드 구조의 정점을 보여주는 메카닉이다. 타이밍 성공 시 방패 내구도 소모 없이 적을 무력화하는 강력한 보상을 얻지만, 실패하면 방패가 날아가 무방비 상태가 되는 명확한 페널티가 존재한다. 특히 가디언 레이저 반사는 단순 방어기술을 강력한 역공 수단으로 변환하는 설계로, '도구를 창의적으로 활용하는 플레이어'에게 극적 보상을 제공하며 약자가 강자를 역전하는 경험을 가능하게 한다. 발사체의 속도와 방향에 따라 반사 결과가 달라지는 물리 기반 구현은 세계 일관성을 강화하고, 내구도 시스템이라는 글로벌 자원 압박이 패리 성공에 더 큰 가치를 부여해 플레이어의 스킬 향상 동기를 자연스럽게 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EB%B0%A9%ED%8C%A8+%ED%8A%95%EA%B2%A8%EB%82%B4%EA%B8%B0+%28Shield+Parry+%2F+%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89%E3%81%AF%E3%81%98%E3%81%8D%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Shield_Parry",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "projectile-reflect",
+        "timing-based",
+        "risk-reward",
+        "defensive-mechanic",
+        "guardian-laser",
+        "shield",
+        "zelda",
+        "physics-based",
+        "durability-system"
+      ],
+      "applicableWeapons": [
+        "방패"
+      ],
+      "id": "sh-016",
+      "addedDate": "2026-03-16"
     }
   ]
 }
