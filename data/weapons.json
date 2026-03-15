@@ -20015,7 +20015,7 @@
       },
       "designNotes": "히트 스매시는 '위기 상황에서의 리소스 폭발' 디자인 패턴을 격투 게임 맥락에서 정제한 사례다. 게이지를 전부 소모하는 높은 비용을 치르되 체력 회복과 칩 데미지라는 두 가지 보상을 동시에 제공함으로써, 열세 국면에서 역전을 시도하는 극적인 의사결정을 유도한다. 가드를 뚫는 칩 데미지는 상대방의 소극적 방어를 억제해 공격적인 압박 교환을 강제하며, 이는 Tekken 8의 핵심 디자인 철학인 '공격이 최선의 수비'를 단일 기술 수준에서 구현한다. 각 캐릭터마다 완전히 다른 고유 모션을 부여한 것은 캐릭터 판타지를 클라이맥스 순간에 극대화하는 연출 전략으로, 리소스 소비의 카타르시스와 캐릭터 정체성 표현을 동시에 달성한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%ED%9E%88%ED%8A%B8+%EC%8A%A4%EB%A7%A4%EC%8B%9C+%2F+Heat+Smash+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=dNHDtmFw22o",
         "images": [],
         "wiki": "https://tekken.fandom.com/wiki/Heat",
         "gif": null
