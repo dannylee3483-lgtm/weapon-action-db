@@ -8509,7 +8509,7 @@
       },
       "designNotes": "God of War (2018)의 Perfect Block은 '실드를 장비했다는 수동적 안도감'을 '능동적 리스크 테이킹'으로 전환시킨 설계다. 성공 시 즉각적인 경직과 함께 화려한 시각·청각 피드백이 제공되어 숙련 플레이어에게 강한 보상 감각을 준다. 반면 실패하면 가드 없이 데미지를 그대로 받기 때문에 높은 리스크-리워드 구조가 성립한다. 이 메카닉은 소울류의 패시브 가드 문화에서 벗어나 보스전마다 타이밍 학습을 유도하며, 게임 전반의 전투 긴장감을 지속적으로 유지시킨다. Dauntless Shield(Ragnarok)로 계승될 때 리워드가 더욱 강화되어 시스템의 성장 방향성도 명확하게 보여준다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EC%99%84%EB%B2%BD+%EB%B0%A9%EC%96%B4+%2F+Perfect+Block+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=njCbWoqsAhg",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Guardian_Shield",
         "gif": null
@@ -8580,7 +8580,7 @@
       },
       "designNotes": "Bull Rush는 방패라는 방어적 도구를 가장 공격적인 돌진기로 재정의한 역발상 설계다. 차지 시간과 결과물이 선형적으로 연결되어 플레이어가 스스로 리스크 수위를 조절할 수 있으며, 이는 짧은 런 기반 로그라이크 게임에서 매 전투마다 의사결정을 강제한다. 차지 중 전방 아머는 공격 의지를 지지하는 설계로, 돌진 자체가 보상받는 플레이로 느껴지게 한다. Boons와의 시너지 시스템 덕분에 같은 Bull Rush라도 빌드마다 전혀 다른 역할(crowd-control, gap-closer, burst finisher)을 수행해 반복 플레이에서의 신선함을 유지한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Hades+%ED%99%A9%EC%86%8C+%EB%8F%8C%EC%A7%84+%2F+Bull+Rush+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=8eOEniUoxbk",
         "images": [],
         "wiki": "https://hades.fandom.com/wiki/Shield_of_Chaos",
         "gif": null
@@ -8650,7 +8650,7 @@
       },
       "designNotes": "Guard Counter는 FromSoftware가 Elden Ring에서 방패 전투의 전통적인 '거북이 플레이' 비판을 내부적으로 해결한 설계 솔루션이다. 가드 후 즉각 입력 창이 짧아 반응 속도를 요구하고, 성공 시 일반 공격보다 훨씬 강한 포이즈 대미지로 즉각적인 보상이 주어진다. 이는 방패를 단순 피해 감소 도구에서 공격 개시 도구로 격상시키며, 리스크(스태미나 소모 + 반응 실패 시 취약) 대비 리워드(크리티컬 연계)가 명확한 교환 구조를 형성한다. 디지털 조작의 단순함에도 불구하고 적의 공격 패턴 학습을 전제로 하기 때문에 심화 전투 이해도를 자연스럽게 끌어올리는 교육적 설계이기도 하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EA%B0%80%EB%93%9C+%EC%B9%B4%EC%9A%B4%ED%84%B0+%2F+Guard+Counter+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=gutHlBCPO_c",
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Guard+Counter",
         "gif": null
