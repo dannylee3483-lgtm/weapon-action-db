@@ -86,6 +86,16 @@ def git_auto_push(count, label=""):
             ["git", "push"],
             cwd=str(repo_dir), capture_output=True, text=True
         )
+        if r2.returncode != 0:
+            # push 충돌 시 rebase 후 재시도
+            subprocess.run(
+                ["git", "pull", "--rebase", "origin", "main"],
+                cwd=str(repo_dir), capture_output=True
+            )
+            r2 = subprocess.run(
+                ["git", "push"],
+                cwd=str(repo_dir), capture_output=True, text=True
+            )
         if r2.returncode == 0:
             pok(f"GitHub Push 완료  [{commit_msg}]")
         else:
