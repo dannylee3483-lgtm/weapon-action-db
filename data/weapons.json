@@ -4231,6 +4231,223 @@
       ],
       "id": "kt-027",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "소검 쌍수 (Dual Small Swords)",
+      "game": "NieR: Automata",
+      "developer": "PlatinumGames",
+      "actionName": "공중 연격 피니쉬 (Aerial Rave Finish)",
+      "actionType": "콤보",
+      "description": "2B가 지상 소검 콤보의 런처 타격으로 적을 띄운 뒤 공중에서 연속 5~6회 고속 베기를 가하고 마지막 타격에서 적을 지면으로 내리찍는 공중 추격 콤보. 각 히트 간격이 매우 짧아 전체 히트를 연속으로 입히면 스태거 상태를 유지할 수 있다. Pod 지원사격 타이밍과 맞물리도록 설계되어 있어 입체적인 딜링 루프를 형성한다.",
+      "motionType": [
+        "combo",
+        "slash",
+        "launcher"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "low",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "aerial-only",
+          "multi-hit",
+          "juggle",
+          "pod-synergy"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~35f (총 6히트)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "NieR: Automata의 소검 공중 콤보는 PlatinumGames 특유의 '아름다운 폭력' 철학이 집약된 시퀀스로, 타격음·이펙트·캐릭터 애니메이션이 삼위일체로 리듬감을 형성한다. 런처 → 공중 연격 → 착지 마무리라는 3단계 구조가 리워드 루프를 직관적으로 제시하며, 각 단계에서 Pod 액션 삽입 여부를 선택해 딜량을 조절할 수 있어 숙련도 표현 범위가 넓다. 히트스탑이 짧게 설계되어 끊김 없이 스피드감이 유지되고, 적의 중량에 따라 체공 시간이 달라져 상황 판단을 자연스럽게 유도한다. 회피 캔슬과의 조합으로 공중 무한 루프에 가까운 고급 테크닉이 가능해 마스터리 천장이 매우 높다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%EA%B3%B5%EC%A4%91+%EC%97%B0%EA%B2%A9+%ED%94%BC%EB%8B%88%EC%89%AC+%28Aerial+Rave+Finish%29+gameplay",
+        "images": [],
+        "wiki": "https://nierautomata.wiki.fextralife.com/Small+Swords",
+        "gif": null
+      },
+      "tags": [
+        "aerial-combo",
+        "multi-hit",
+        "juggle",
+        "fast-paced",
+        "pod-synergy",
+        "stylish-action",
+        "launcher",
+        "hitsound-design"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "소검",
+        "단검류"
+      ],
+      "id": "db-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "카오스의 날 (Blades of Chaos)",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "카오스의 사이클론 (Cyclone of Chaos)",
+      "actionType": "무기술",
+      "description": "크라토스가 양쪽 사슬 날을 몸을 축으로 고속 회전시켜 주변 360° 범위의 적들을 연속 타격하는 범위 공격기. L1+○ 입력으로 발동되며 사슬 길이를 최대로 활용해 중거리 적까지 커버한다. 입력을 반복하면 회전이 연장되고 마지막 타격에서 경직과 밀쳐내기 효과가 적용된다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "aoe",
+          "crowd-control",
+          "chain-weapon",
+          "knockback",
+          "multi-hit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~45f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Cyclone of Chaos는 사슬 무기의 물리적 원심력을 전투 시스템으로 직접 변환한 설계의 정수로, 무기 서사와 메카닉이 완벽히 일치한다. 방어 입력(L1)과 공격 입력(○)의 조합은 '방어에서 공격으로의 심리적 전환'을 버튼 레벨에서부터 표현하며, 이는 크라토스의 캐릭터성(분노의 폭발)과도 서사적으로 연결된다. 군중 제어와 밀쳐내기가 동시에 적용되어 혼전 상황에서 공간을 확보하는 전술적 선택지로 기능하고, 위험(다중 적 근접)에 대한 리워드(대범위 클리어)가 명확하다. 회전 연장 가능 구조는 쿨다운 없이 판단 비용만으로 리스크를 조율하게 해 전투의 긴장감을 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EC%B9%B4%EC%98%A4%EC%8A%A4%EC%9D%98+%EC%82%AC%EC%9D%B4%ED%81%B4%EB%A1%A0+%28Cyclone+of+Chaos%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.wiki.fextralife.com/Blades+of+Chaos",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "crowd-control",
+        "chain-weapon",
+        "spin-attack",
+        "knockback",
+        "multi-hit",
+        "360-attack",
+        "blades-of-chaos",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "사슬형 무기",
+        "채찍"
+      ],
+      "id": "db-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "이중 라이트세이버 (Dual Lightsabers)",
+      "game": "Star Wars Jedi: Survivor",
+      "developer": "Respawn Entertainment",
+      "actionName": "듀얼 스탠스 콤보 피니쉬 (Dual Stance Combo Finisher)",
+      "actionType": "콤보",
+      "description": "Cal Kestis가 이중 라이트세이버 스탠스에서 기본 5타 콤보를 마무리하는 피니쉬 기술로, 양 세이버를 교차 회전시키며 전방의 적에게 집중 타격을 가한다. 마지막 타격에서 포스 에너지가 방출되어 주변 소형 적들에게 추가 범위 피해를 준다. 개별 타격 대미지는 낮지만 히트 수가 많아 방어형 적의 포스처를 빠르게 깎는 데 최적화되어 있다.",
+      "motionType": [
+        "combo",
+        "slash",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "posture-break",
+          "stance-exclusive",
+          "aoe-finish"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~50f (5타 전체)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Jedi: Survivor의 이중 라이트세이버 스탠스는 '공격이 최선의 방어'라는 플레이 스타일을 구조적으로 지원하며, 히트 수 중심의 포스처 분쇄 메카닉이 이 철학을 구체화한다. 단발 위력이 아닌 지속 압박으로 돌파구를 여는 방식은 보스의 방어 패턴을 역이용하는 전략적 레이어를 추가해 전투 독해력을 요구한다. 피니쉬 타격의 소규모 범위 피해는 잡몹 정리와 보스전 딜링을 하나의 콤보로 처리할 수 있게 해 전장 상황 적응력을 높인다. 스탠스 전환 시스템과 결합해 다히트 포스처 분쇄라는 이 스탠스의 역할이 다른 스탠스와 명확히 차별화되며, 스탠스 선택 자체가 전술 메타게임을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Star+Wars+Jedi%3A+Survivor+%EB%93%80%EC%96%BC+%EC%8A%A4%ED%83%A0%EC%8A%A4+%EC%BD%A4%EB%B3%B4+%ED%94%BC%EB%8B%88%EC%89%AC+%28Dual+Stance+Combo+Finisher%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "posture-break",
+        "stance-system",
+        "dual-lightsaber",
+        "combo-finisher",
+        "pressure",
+        "guard-break",
+        "aoe-finish"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "이중 라이트세이버"
+      ],
+      "id": "db-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
