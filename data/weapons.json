@@ -2437,7 +2437,7 @@
       },
       "designNotes": "Monster Hunter의 대검은 느린 공격 속도를 보정하는 이동성 기술로 Tackle을 제공한다. 단순 회피가 아닌 공격적 방어로 설계되어 플레이어가 적의 공격에 대응하면서 위치를 유리하게 이동할 수 있다. 명확한 리스크-리워드 구조로 초보자도 배우기 쉽지만 숙련자는 고급 타이밍으로 더 효과적으로 활용할 수 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/watch?v=e5so8ZO52iA",
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%ED%83%9C%ED%81%B4+%28Tackle%29+gameplay",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
         "gif": null
@@ -2508,7 +2508,7 @@
       },
       "designNotes": "God of War Ragnarök의 Glaive Storm은 폭발적인 파워와 시각적 임팩트로 플레이어에게 만족감을 제공한다. 범위 기술임에도 정확한 타이밍 입력이 필요해 숙련도가 반영되며, 쿨다운 제약이 있어 남용을 방지한다. 프로즌 이펙트의 청각적-시각적 피드백이 뛰어나 플레이어가 강력한 영향을 직관적으로 느낀다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/watch?v=vSg4IaKYwAA",
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EA%B8%80%EB%A0%88%EC%9D%B4%EB%B8%8C+%EC%8A%A4%ED%86%B0+%28Glaive+Storm%29+gameplay",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
         "gif": null
@@ -2648,7 +2648,7 @@
       },
       "designNotes": "스탠드오프는 플레이어의 반응 속도와 리듬감각을 직접 시험하며, 정확한 타이밍 요구로 습득 곡선을 형성한다. 성공 시 극적인 시각 피드백으로 만족감을 극대화하여, 일본 검술의 '마(間)' 개념—거리와 시간 감각—을 게임 메커닉으로 우아하게 구현했다. 또한 플레이어의 숙련도가 전투 효율을 직접 좌우하도록 설계하여 성장의 쾌감을 극대화한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/watch?v=Ci__gl2QcfI",
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%8A%A4%ED%83%A0%EB%93%9C%EC%98%A4%ED%94%84+%28Standoff%29+gameplay",
         "images": [],
         "wiki": "https://ghostoftsushima.fandom.com/wiki/Combat",
         "gif": null
@@ -2855,7 +2855,7 @@
       },
       "designNotes": "쌍검의 정체성을 정의하는 핵심 메카닉으로, 빠른 공격 속도를 추구하는 플레이어에게 극단적으로 보상을 제공한다. 체력과 스태미나라는 이중 자원을 소모하여 무한 사용을 제한하며, 리소스 관리 vs 화력 극대화라는 전술적 선택을 강요한다. 숙련도가 높을수록 DPS 상승이 극적이어서 '익히기 보상' 설계의 모범 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/watch?v=c5IkaGU4BYM",
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%8D%B0%EB%AA%AC+%EB%AA%A8%EB%93%9C+%28Demon+Mode%29+gameplay",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Dual+Blades",
         "gif": null
@@ -3204,6 +3204,222 @@
         "rapid-weapon"
       ],
       "id": "sp-003",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Leviathan Axe",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "도끼 투척 & 소환 (Axe Throw & Recall)",
+      "actionType": "특수기",
+      "description": "레비아탄 도끼를 원하는 방향으로 투척해 얼음 피해와 함께 적 또는 환경 오브젝트에 명중시키고, 삼각 버튼으로 손에 불러들인다. 귀환 경로에 있는 적에게 추가 타격이 발생하며, 도끼가 박힌 동안 크레이토스는 맨손 콤보를 자유롭게 이어갈 수 있다. 명중 시 Frost 스택이 누적되며 일정량 이상 쌓이면 적이 빙결 경직 상태에 빠진다.",
+      "motionType": [
+        "throw",
+        "charge"
+      ],
+      "element": {
+        "type": "얼음",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "shimmer",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "freeze",
+          "multi-hit",
+          "recall-damage",
+          "hands-free-combat",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~4f (명중 순간)",
+          "recovery": "~18f (리콜 전까지 맨손 콤보 전환 가능)"
+        }
+      },
+      "designNotes": "도끼를 투척한 후 '무기 없는 전투 단계'를 강제로 창출해 플레이어가 맨손 콤보와 도끼 전투를 교차하는 복합 리듬을 자연스럽게 학습하도록 유도한다. 리콜 타이밍을 콤보 피니셔로 연계할 수 있어 전술적 깊이를 제공하면서, 얼음 축적 시스템 덕분에 투척 행위 자체가 상태 이상 설정 도구로도 기능해 멀티레이어 전략 구조를 형성한다. 귀환 순간 강렬한 진동·사운드 피드백이 리워드 루프를 완성하며, 이 메카닉은 이후 수많은 액션 게임의 '귀환형 원거리 무기' 설계 원형으로 평가받는다. 원거리와 근거리 레인지를 단일 버튼으로 오가는 직관적인 조작 설계도 UX 측면에서 탁월하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EB%8F%84%EB%81%BC+%ED%88%AC%EC%B2%99+%26+%EC%86%8C%ED%99%98+%28Axe+Throw+%26+Recall%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
+        "gif": null
+      },
+      "tags": [
+        "axe-throw",
+        "recall-mechanic",
+        "ice-element",
+        "freeze",
+        "hands-free-combat",
+        "multi-phase",
+        "distance-control",
+        "tool-weapon",
+        "combo-extender"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "투척 무기"
+      ],
+      "id": "ax-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "斧 (Heavy Axe)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "용의 춤 (Dragon Dance / 龍の舞)",
+      "actionType": "무기술",
+      "description": "도끼를 양손으로 빠르게 휘돌리며 주변 360° 범위에 걸쳐 회전 베기를 3연속으로 실행하는 무기술이다. 앞 두 회전은 광범위한 쓸기 판정을 가지며, 마지막 타격은 강력한 다운 효과를 가진 수직 강타로 마무리된다. 쿠라이(九頼) 스탠스에서 발동 시 피해량이 증폭되며, 각 회전 직후 Ki 맥박(Ki Pulse) 타이밍을 맞추면 Ki 손실을 크게 절감하고 즉시 다음 액션으로 연계할 수 있다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "launcher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "area-of-effect",
+          "ki-pulse-cancel"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~42f (전체 회전 구간)",
+          "recovery": "~26f (Ki Pulse 성공 시 단축)"
+        }
+      },
+      "designNotes": "니오 2 도끼의 '느리지만 넓고 강하다'는 무기 정체성을 완벽하게 구현하는 무기술로, 큰 Ki 소모가 리스크이자 차별화 포인트다. Ki Pulse 연계 숙련도에 따라 같은 기술이 Ki 자살기가 될 수도, 고효율 딜 사이클의 핵심이 될 수도 있어 스킬 격차가 극명하게 드러나는 설계다. 쿠라이 스탠스 보너스와의 조합은 상황 판단과 자원 관리를 동시에 요구하는 복합적 결정을 만들어낸다. 마지막 수직 강타의 다운 판정은 이어지는 스턴 잠금 콤보의 입구가 되어, 기술 완성이 전투 흐름 전체를 장악하는 전환점으로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%9A%A9%EC%9D%98+%EC%B6%A4+%28Dragon+Dance+%2F+%E9%BE%8D%E3%81%AE%E8%88%9E%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Axe+Skills",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "area-of-effect",
+        "ki-pulse",
+        "stance-dependent",
+        "knockdown",
+        "poise-breaking",
+        "risk-reward",
+        "crowd-control",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "해머",
+        "대형 타격 무기"
+      ],
+      "id": "ax-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Throwing Axe",
+      "game": "Assassin's Creed Valhalla",
+      "developer": "Ubisoft Montreal",
+      "actionName": "투도끼 분노 (Throwing Axe Fury)",
+      "actionType": "특수기",
+      "description": "에이보르가 연속으로 여러 자루의 투도끼를 빠르게 투척해 전방 적들에게 대량의 출혈 피해를 입히는 어빌리티다. 각 도끼 명중 시 출혈(Bleed) 상태 이상이 누적되며, 조준 방향을 실시간으로 바꿔 여러 적에게 분산 투척하는 것도 가능하다. 발동 중 짧은 피격 감소 구간이 있어 근접 압박에서 벗어나는 탈출기로도 효과적으로 활용된다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "multi-target",
+          "damage-reduction-frames",
+          "escape-tool"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~55f (전체 투척 시퀀스)",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "바이킹 테마에 걸맞게 '무기를 낭비하듯 퍼붓는' 호방한 판타지를 구현하면서도 출혈 상태 이상 시스템과 결합해 전략적 선택지를 부여하는 설계다. 근접 특화 캐릭터인 에이보르에게 중거리 압박 도구를 제공함으로써 전투 레인지 유연성을 높여 전장 상황 대응력을 강화한다. 발동 중 피격 감소는 절체절명의 상황에서 역전 기회를 주는 감정적 전환 장치로 기능하며, 쿨다운 자원은 무분별한 남용을 자연스럽게 억제하면서 사용 타이밍의 가치를 끌어올린다. 단순한 투사체 발사를 넘어 출혈 지속 피해와 시각적 과부하가 결합된 '전황 압도' 경험을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Assassin%27s+Creed+Valhalla+%ED%88%AC%EB%8F%84%EB%81%BC+%EB%B6%84%EB%85%B8+%28Throwing+Axe+Fury%29+gameplay",
+        "images": [],
+        "wiki": "https://assassinscreed.fandom.com/wiki/Throwing_Axe_Fury",
+        "gif": null
+      },
+      "tags": [
+        "axe-throw",
+        "bleed-buildup",
+        "multi-target",
+        "damage-reduction-frames",
+        "escape-tool",
+        "cooldown-resource",
+        "viking-theme",
+        "burst-damage",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "투척 무기"
+      ],
+      "id": "ax-003",
       "addedDate": "2026-03-15"
     }
   ]
