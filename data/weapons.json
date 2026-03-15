@@ -9113,6 +9113,229 @@
       ],
       "id": "kt-033",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "스피어핸드 (Spearhand)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "메일스트롬 (Maelstrom)",
+      "actionType": "무기술",
+      "description": "스피어핸드가 창을 고속 회전시키며 전방에 거대한 회오리 에너지장을 형성하는 차지 기술이다. 차지 초기 단계에서 주변 적을 중심부로 끌어당기는 흡입 효과가 발생하고, 완전 차지 시 광범위 회전 폭발로 군집한 적 전체에 극대 대미지를 가한다. 난전에서 다수의 적을 자동으로 집결시킨 뒤 단타에 일괄 처리하는 군중 제어의 정점 기술이다.",
+      "motionType": [
+        "spin",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "knockdown",
+          "poise-breaking",
+          "pull-effect",
+          "area-of-effect"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60f (차지 포함)",
+          "active": "~90f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "메일스트롬은 '흡입→집결→폭발'의 3단계 시퀀스를 통해 단순 광역기를 전술적 군중 제어 도구로 승화시킨 설계의 정수다. 차지 중 피격 취약성이라는 명확한 리스크와 다수 적 일괄 처리라는 극단적 리워드가 균형을 이뤄, 숙련도가 결과물에 직접 반영되는 구조를 갖는다. 흡입 효과는 플레이어가 사전에 포지셔닝을 계획하도록 유도하며, 적의 재배치를 능동적으로 컨트롤하는 쾌감을 제공한다. '느린 기술이 강력할 때의 만족감' 공식을 교과서적으로 구현하면서, 창의 원심력과 광역 장악력이라는 스피어핸드 직업 정체성을 하나의 기술에 압축해 표현했다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EB%A9%94%EC%9D%BC%EC%8A%A4%ED%8A%B8%EB%A1%AC+%28Maelstrom%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Maelstrom_(Dragon%27s_Dogma_2)",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "charge-attack",
+        "spin",
+        "pull-effect",
+        "area-of-effect",
+        "spearhand",
+        "finisher",
+        "poise-breaking",
+        "risk-reward",
+        "vortex"
+      ],
+      "applicableWeapons": [
+        "창",
+        "폴암"
+      ],
+      "id": "sp-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "스파이럴 스러스트 (Spiral Thrust)",
+      "actionType": "무기술 (와이어버그 실크바인드)",
+      "description": "와이어버그 실크를 이용해 랜스를 전방으로 겨눈 채 나선 궤적으로 고속 돌진하는 실크바인드 기술이다. 헌터가 창을 몸 앞에 고정한 채 코르크스크류 형태로 회전하며 전진해 다단 히트를 가하고, 기동성이 낮은 랜스에 강력한 갭 클로저 역할을 부여한다. 최종 히트에는 넉백 효과가 있으며, 몬스터의 특정 부위를 집중 공략하는 데 효과적이다.",
+      "motionType": [
+        "thrust",
+        "spin",
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "gap-closer",
+          "launcher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "multi-hit",
+          "poise-breaking",
+          "repositioning"
+        ],
+        "resourceCost": "와이어버그 게이지",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~60f (다단 히트)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "스파이럴 스러스트는 '방어형·근거리 고착 무기에 공격적 기동성 부여'라는 Rise 랜스 리디자인 철학의 핵심을 담은 기술이다. 기존 랜스의 단점인 낮은 이동성을 와이어버그 시스템과 결합해 해소하면서도, 나선 회전이라는 창 고유의 물리적 원리를 시각적으로 구현해 무기 판타지를 유지했다. 와이어버그 게이지라는 공유 자원을 지불하므로 다른 실크바인드 기술과의 우선순위 판단이 생기고, 전략적 선택지의 깊이를 증가시킨다. 다단 히트 구조는 부위 파괴를 핵심 루프로 삼는 몬스터 헌터 시리즈의 시스템 설계와 긴밀히 연동되며, 강점 부위 집중 공략 시 단타 무기 대비 명확한 우위를 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%9F%B4+%EC%8A%A4%EB%9F%AC%EC%8A%A4%ED%8A%B8+%28Spiral+Thrust%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Lance",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "multi-hit",
+        "silkbind",
+        "wirebug",
+        "dash-attack",
+        "lance",
+        "poise-breaking",
+        "repositioning",
+        "spin",
+        "corkscrew"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "건랜스"
+      ],
+      "id": "sp-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "여의봉 찌르기 자세 (棍勢·刺 / Thrust Stance)",
+      "game": "Black Myth: Wukong",
+      "developer": "Game Science",
+      "actionName": "자세술: 찌르기 포커스 공격 (棍勢·刺 蓄力 / Thrust Stance Focus Strike)",
+      "actionType": "차지 공격 (자세 변환)",
+      "description": "천명인이 여의봉을 창처럼 전방으로 겨누는 자세로 전환한 뒤 포커스 포인트를 소모해 초고속 다단 찌르기를 해방하는 기술이다. 창술의 반복 찌르기 리듬을 봉술에 접목한 자세로, 좁은 히트박스 대신 극도로 빠른 연속 타격과 단일 부위 집중 대미지를 특징으로 한다. 최종 타격은 강한 넉백을 발생시켜 거리 조절과 추가 콤보 연계에 활용할 수 있다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "stance-change",
+          "knockback",
+          "focus-point-cost",
+          "burst-damage"
+        ],
+        "resourceCost": "포커스 포인트",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~40f (다단)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "찌르기 자세는 '창 무기의 핵심 특성(고속 직선 찌르기)'을 봉술이라는 틀 안에서 재현한 크로스 웨폰 디자인의 성공 사례다. 포커스 포인트 자원 시스템이 강력한 기술의 남발을 억제하고, 콤보 중 최적 타이밍에 소모해야 하는 판단력을 요구해 숙련도 곡선을 형성한다. 히트박스가 좁아 정확한 조준이 필요하지만 적중 시 단일 부위에 대미지가 누적되는 구조는 '목표를 정확히 꿰뚫는' 창 전투의 기술적 감각을 봉술로 성공적으로 번역한다. 여의봉이 '자유롭게 형태를 바꾸는 신화적 병기'라는 설정을 세 가지 자세 시스템으로 기계적으로 구현해, 서사와 게임플레이의 일체감을 달성한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Black+Myth%3A+Wukong+%EC%9E%90%EC%84%B8%EC%88%A0%3A+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%ED%8F%AC%EC%BB%A4%EC%8A%A4+%EA%B3%B5%EA%B2%A9+%28%E6%A3%8D%E5%8B%A2%C2%B7%E5%88%BA+%E8%93%84%E5%8A%9B+%2F+Thrust+Stance+Focus+Strike%29+gameplay",
+        "images": [],
+        "wiki": "https://blackmythwukong.wiki.fextralife.com/Thrust+Stance",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "thrust",
+        "stance-system",
+        "focus-mechanic",
+        "polearm",
+        "combo-extender",
+        "punish",
+        "knockback",
+        "myth-based",
+        "burst-damage"
+      ],
+      "applicableWeapons": [
+        "창",
+        "폴암",
+        "봉"
+      ],
+      "id": "sp-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
