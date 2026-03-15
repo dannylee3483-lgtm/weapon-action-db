@@ -1809,7 +1809,7 @@
       },
       "designNotes": "그레이트소드는 MHW에서 '기다림'과 '빈틈 포착'을 핵심 스킬로 만든 무기다. TCS는 충전 레벨이 시각·청각적으로 명확히 구분되어 플레이어가 현재 상태를 즉시 인지할 수 있고, 충전 중단 vs 완성이라는 실시간 의사결정을 지속적으로 요구한다. 몬스터의 행동 사이클을 숙지한 플레이어만이 풀충전을 완성할 수 있어 지식-실행-보상이 직결되는 구조를 형성한다. 충전 성공 후 터지는 굉음과 대미지 숫자는 강력한 피드백 루프를 제공하며, 단일 타격 무기의 극한을 표현한 교과서적 고위험-고보상 설계다.",
       "mediaLinks": {
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=cpC6BDIDcQI",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
         "gif": null
@@ -1881,7 +1881,7 @@
       },
       "designNotes": "루드비히의 성검은 블러드본 트릭 웨폰 시스템의 본질을 가장 명료하게 보여주는 무기다. 변형 공격은 단순한 스탠스 전환이 아니라 그 자체로 완결된 공격 행위이며, 콤보 중간에 삽입해 박자를 뒤흔드는 믹스업 도구로 기능한다. 한손-양손 전환의 파워 곡선이 명확해 상황에 따른 최적 선택을 플레이어 스스로 판단하게 만든다. Rally 메카닉과의 시너지는 '피격 → 즉각 반격 → HP 회복'이라는 극적 서사를 단 두 번의 입력으로 실현시켜, 위험 감수와 능동적 반격이 보상받는 블러드본의 전투 철학을 단일 기술로 압축해 보여준다.",
       "mediaLinks": {
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=eR4zox8P8pI",
         "images": [],
         "wiki": "https://bloodborne.wiki.fextralife.com/Ludwig%27s+Holy+Blade",
         "gif": null
@@ -1951,7 +1951,7 @@
       },
       "designNotes": "Nioh 2의 대태도는 '스탠스'와 '기(Ki) 관리'라는 이중 레이어 위에 전투를 설계해, 각 스킬이 특정 상황에 최적화된 역할을 갖는다. 회전베기는 중단 스탠스의 핵심 군중 제어 옵션으로, 광역 커버리지와 다단히트를 통해 다수 적 처리 효율을 극대화한다. 다단히트 구조는 기 펄스(Ki Pulse) 타이밍을 자연스럽게 유도해 고숙련 플레이어가 기 회수를 극대화하도록 설계된 피드백 구조를 갖는다. 길고 화려한 이펙트 지속 시간은 스펙터클을 제공하는 동시에 대태도 고유의 물리적 무게감과 호쾌함을 연출하며, 스탠스 전환을 통해 군중 제어와 강타를 상황에 맞게 선택하게 하는 구조는 전투 판단력을 핵심 역량으로 만드는 Team Ninja 설계 철학의 정수다.",
       "mediaLinks": {
-        "youtube": null,
+        "youtube": "https://www.youtube.com/watch?v=5Ek4bDdgW8E",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Odachi",
         "gif": null
@@ -2020,7 +2020,7 @@
       },
       "designNotes": "Upheaval은 '느린 선딜 = 높은 보상'이라는 리스크-리워드 원칙의 교과서적 사례다. 긴 선딜레이 동안 적의 공격을 회피하는 리스크를 감수해야 하지만, 성공 시 Will 게이지를 폭발적으로 소진시켜 기절→Burst 연쇄를 유발함으로써 막대한 추가 딜 기회를 열어준다. 타이탄이라는 '대지의 거신'의 중량감을 시각·청각·진동 피드백으로 완벽히 전달하며, 기절-버스트 루프라는 FFXVI 핵심 전투 사이클에서 기절 유발자 역할을 명확히 담당한다. 쿨다운 리소스 덕분에 전투 흐름을 끊지 않으면서도 '결정적 순간'을 포착해 쓰는 타이밍 판단력을 플레이어에게 요구한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EB%8C%80%EC%A7%80%EC%A7%84%EA%B2%A9+%28Upheaval%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=hpCTBv7e9w4",
         "images": [],
         "wiki": "https://finalfantasyxvi.wiki.fextralife.com/Upheaval",
         "gif": null
@@ -2088,7 +2088,7 @@
       },
       "designNotes": "Spinning Wheel은 오다치의 핵심 정체성인 '압도적 도달 거리'를 가장 순수하게 표현한 기술이다. 기본 공격이 느리고 묵직한 오다치 특성과 대비되게 이동을 동반한 회전이 가능해, 다수 적에게 포위된 위기 상황을 역전하는 공격적 탈출 옵션으로 기능한다. 기 소모가 커서 Nioh 2의 핵심 시스템인 기 관리와 긴밀하게 맞물리며, 플레이어가 '지금 쓸 것인가'를 끊임없이 계산하도록 유도한다. 회전 중 이동 궤적이 적 군집을 자연스럽게 관통하도록 설계되어 공간 장악이라는 오다치만의 아이덴티티를 전투 상황에서 직접 체감하게 한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%88%98%EC%B0%A8+%28%E6%B0%B4%E8%BB%8A%2C+Spinning+Wheel%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=YOKkUyZeMys",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Odachi+Skills",
         "gif": null
@@ -2157,7 +2157,7 @@
       },
       "designNotes": "Fume UGS의 짓밟기 연계는 'Dark Souls II 대형 무기 철학'—즉 최대의 희생으로 최대의 결과를 쟁취한다—의 정수다. 매우 긴 선딜레이는 고수에게도 읽힐 수 있지만, 성공 시 적을 즉각 다운시켜 공격 흐름을 완전히 장악하는 역전 효과를 제공한다. 2단 구조는 단순한 강공격 이상의 내러티브—'공간을 열고, 짓뭉개다'—를 부여하여 타격 이후 만족감을 배가시킨다. 게임 내 가장 무거운 무기의 무게감을 전투 리듬에 녹여내어, 플레이어가 '이 기술을 언제 쓸 것인가'라는 판단을 끊임없이 하도록 설계된 훌륭한 리스크-리워드 구조를 갖는다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+II%3A+Scholar+of+the+First+Sin+%EC%A7%93%EB%B0%9F%EA%B8%B0+%EB%82%B4%EB%A6%AC%EC%B0%8D%EA%B8%B0+%EC%97%B0%EA%B3%84+%28Stomp+R2+Follow-up%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=qIvPi5i3dM0",
         "images": [],
         "wiki": "https://darksouls2.wiki.fextralife.com/Fume+Ultra+Greatsword",
         "gif": null
@@ -2226,7 +2226,7 @@
       },
       "designNotes": "그레이트소드의 핵심 리스크-리워드 루프를 집약한 기술로, 3단계 충전까지의 긴 딜레이가 플레이어에게 몬스터 행동 패턴 예측을 강제하며 숙련도 스케일링 설계의 정수를 보여준다. 타클(Tackle) 메카닉과 연계해 충전 중 피격 내성을 부여함으로써 리스크를 '회피'가 아닌 '흡수'로 관리하는 독창적 UX를 구현한다. 충전 단계별 이펙트와 사운드가 점층적으로 고조되어 진행 피드백과 카타르시스를 동시에 선사하며, 초보자에게도 '왜 느린 무기를 써야 하는가'의 이유를 직관적으로 납득시키는 완성도 높은 보상 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%A7%84+%ED%83%80%EB%A9%94%EA%B8%B0%EB%A6%AC+%28True+Charged+Slash+%2F+%E7%9C%9F%E3%83%BB%E6%BA%9C%E3%82%81%E6%96%AC%E3%82%8A%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=cpC6BDIDcQI",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
         "gif": null
@@ -2297,7 +2297,7 @@
       },
       "designNotes": "니오 2 오다치의 넓은 공격 범위와 Ki 관리 시스템을 결합한 대표적 AOE 기술이다. 다단 히트 구조는 각 타격마다 Ki 펄스 타이밍을 제공해 공격 중에도 Ki 회복 기회를 부여하는 독특한 밸런스를 만든다. 긴 모션은 잡몹 그룹에는 강력하지만 보스전에서는 사용 판단을 요구하여 상황 인지 능력을 게임플레이 핵심 요소로 끌어올린다. 오다치의 무거운 무게감을 회전 관성으로 표현해 시각적 신뢰성과 조작 피드백을 동시에 충족시키는 설계이며, 무기 판타지와 시스템 로직이 일체화된 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%B2%9C%EC%A7%80%ED%9A%8C%EC%A0%84+%28Spinning+Heaven+and+Earth+%2F+%E5%A4%A9%E5%9C%B0%E5%9B%9E%E8%BB%A2%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=7UGT_HgQ4dA",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Odachi+Skills",
         "gif": null
@@ -2372,7 +2372,7 @@
       },
       "designNotes": "지연 폭발 메카닉이 플레이어에게 '버스트 윈도우 최대화'라는 명확한 목표를 제시하는 설득력 높은 리소스 관리 설계다. Lightfall Sword의 스택 시스템은 일반 공격·중공격·원소 스킬 모두를 가중치로 활용해 모든 입력이 의미를 갖도록 만들며, 숙련도와 최종 폭발 대미지가 직결되는 구조로 강렬한 대리 만족을 제공한다. '얼마나 빠르게 더 많이 때리느냐'라는 단순한 질문이 팀 컴포지션·버프 타이밍·스킬 로테이션 최적화로 이어지는 전략적 깊이를 만든다. 빙하의 시각 언어(청백색 결정 이펙트)와 물리 대미지(빙원 기사 설정)의 결합은 캐릭터 정체성과 게임플레이 메카닉을 완벽하게 통합한 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Genshin+Impact+%EB%B9%99%ED%95%98+%EA%B3%84%EC%8B%9C+%28Glacial+Illumination+%2F+%E5%86%B0%E6%A3%B1%E7%A0%A5%E9%8B%92%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=GFdPxC9jgU0",
         "images": [],
         "wiki": "https://genshin-impact.fandom.com/wiki/Glacial_Illumination",
         "gif": null
@@ -2437,7 +2437,7 @@
       },
       "designNotes": "Monster Hunter의 대검은 느린 공격 속도를 보정하는 이동성 기술로 Tackle을 제공한다. 단순 회피가 아닌 공격적 방어로 설계되어 플레이어가 적의 공격에 대응하면서 위치를 유리하게 이동할 수 있다. 명확한 리스크-리워드 구조로 초보자도 배우기 쉽지만 숙련자는 고급 타이밍으로 더 효과적으로 활용할 수 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%ED%83%9C%ED%81%B4+%28Tackle%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=xV-nqLqA5yA",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
         "gif": null
@@ -2508,7 +2508,7 @@
       },
       "designNotes": "God of War Ragnarök의 Glaive Storm은 폭발적인 파워와 시각적 임팩트로 플레이어에게 만족감을 제공한다. 범위 기술임에도 정확한 타이밍 입력이 필요해 숙련도가 반영되며, 쿨다운 제약이 있어 남용을 방지한다. 프로즌 이펙트의 청각적-시각적 피드백이 뛰어나 플레이어가 강력한 영향을 직관적으로 느낀다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EA%B8%80%EB%A0%88%EC%9D%B4%EB%B8%8C+%EC%8A%A4%ED%86%B0+%28Glaive+Storm%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=n7_D4KD8AjI",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
         "gif": null
@@ -2582,7 +2582,7 @@
       },
       "designNotes": "Moon Shadow는 Nioh 2의 Odachi 신비로운 기술로 이동성과 공격을 동시에 제공하는 설계가 우수하다. 발동 중 무적 프레임이 있어 타이밍 좋은 회피로 피해를 완전히 무시할 수 있으며, 높은 Ki 소모로 스팸 방지가 가능하다. 달의 궤적을 따라 이동하는 연출이 직관적이며, 숙련된 플레이어는 이 기술로 공격과 방어를 동시에 수행할 수 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EB%8B%AC%EA%B7%B8%EB%A6%BC%EC%9E%90+%28Moon+Shadow%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=U8Q12klxzH0",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Odachi",
         "gif": null
@@ -2648,7 +2648,7 @@
       },
       "designNotes": "스탠드오프는 플레이어의 반응 속도와 리듬감각을 직접 시험하며, 정확한 타이밍 요구로 습득 곡선을 형성한다. 성공 시 극적인 시각 피드백으로 만족감을 극대화하여, 일본 검술의 '마(間)' 개념—거리와 시간 감각—을 게임 메커닉으로 우아하게 구현했다. 또한 플레이어의 숙련도가 전투 효율을 직접 좌우하도록 설계하여 성장의 쾌감을 극대화한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%8A%A4%ED%83%A0%EB%93%9C%EC%98%A4%ED%94%84+%28Standoff%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=KewVAkQDJ1w",
         "images": [],
         "wiki": "https://ghostoftsushima.fandom.com/wiki/Combat",
         "gif": null
@@ -2715,7 +2715,7 @@
       },
       "designNotes": "니오 2의 스탠스 시스템(저/중/고)과 연계된 카타나 콤보는 플레이어가 상황에 맞춰 공격 속도와 리치를 선택하도록 유도한다. 중단은 균형 잡힌 선택지로서 빠른 연타 압박과 강화 공격으로의 리스크-리워드 선택을 제공한다. 이는 '액션성'과 '전략성'의 교점을 보여주며, 플레이어의 숙련도에 따라 운용 폭이 기하급수적으로 확장되는 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%B9%B4%ED%83%80%EB%82%98+%EC%A4%91%EB%8B%A8+%EC%BD%A4%EB%B3%B4+%28Mid-Stance+Combo+Chain%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=0FRPHwB7YZU",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Katana",
         "gif": null
@@ -2785,7 +2785,7 @@
       },
       "designNotes": "우롱의 설계 철학은 플레이어의 '리소스 관리'를 전투의 핵심으로 삼는다. 치 강화 공격은 강력하지만 제한된 자원을 소비하므로, 플레이어는 적의 패턴 분석과 최적 타이밍 계산으로 언제 강화를 쓸지 판단해야 한다. 이는 전투를 '선택과 기다림의 연쇄'로 만들어 전략적 깊이를 부여하며, 동양 검술의 '기(氣)' 개념을 게임 메커닉으로 자연스럽게 구현한 예시다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%B9%98+%EA%B0%95%ED%99%94+%EC%B0%B8%EA%B2%A9+%28Fortified+Spirit+Attack%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=IvsE1QSixAQ",
         "images": [],
         "wiki": "https://wulong.wiki.fextralife.com/Weapons",
         "gif": null
@@ -2855,7 +2855,7 @@
       },
       "designNotes": "쌍검의 정체성을 정의하는 핵심 메카닉으로, 빠른 공격 속도를 추구하는 플레이어에게 극단적으로 보상을 제공한다. 체력과 스태미나라는 이중 자원을 소모하여 무한 사용을 제한하며, 리소스 관리 vs 화력 극대화라는 전술적 선택을 강요한다. 숙련도가 높을수록 DPS 상승이 극적이어서 '익히기 보상' 설계의 모범 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%8D%B0%EB%AA%AC+%EB%AA%A8%EB%93%9C+%28Demon+Mode%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=QF_SzXkV0IY",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Dual+Blades",
         "gif": null
@@ -2925,7 +2925,7 @@
       },
       "designNotes": "높은 Ki 소모를 통해 사용 빈도를 제한하되, 이동성과 연속 피해로 충분한 대가를 제공한다. 회전 중 약한 적의 공격을 관통하도록 설계해, 방어보다 공격으로 상황을 주도하는 '공격적 방어' 철학을 구현했다. Nioh 2의 고 난도 콘텐츠에서 핵심 생존 전술이 되며, 리스크와 리워드의 균형이 뛰어나다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%9A%8C%EC%98%A4%EB%A6%AC+%28Tempest%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=WkASTIJirZY",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Dual+Swords",
         "gif": null
@@ -2994,7 +2994,7 @@
       },
       "designNotes": "Wo Long의 전투 철학인 '기 관리와 타이밍'을 집약한 액션이다. 높은 스태거 파워로 적을 경직시키고 콤보 윈도우를 열지만, 앞으로 돌진하는 모션으로 인해 포지셔닝 리스크를 감수해야 한다. 리스크와 리워드가 명확하며, 숙련도에 따라 전투 템포 조절과 거리 관리의 중요성을 자연스럽게 학습하게 한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%B2%9C%EC%9D%B8%EC%B0%B8+%28Heavens%27+Wrath%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=fUdvtFF9qj4",
         "images": [],
         "wiki": null,
         "gif": null
@@ -3054,7 +3054,7 @@
       },
       "designNotes": "Nioh 2의 스탠스 시스템은 같은 무기로도 플레이 방식을 크게 달라지게 함으로써 전술적 깊이를 극대화한다. Mid Stance는 공격 속도와 방어력의 균형을 제공하여, 플레이어가 상황에 맞는 선택을 할 수 있도록 유도한다. Ki Pulse 시스템과의 연결로 공격하면서 스태미나를 회복한다는 능동적인 리소스 관리 경험을 제공한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Mid-Stance+Rapid+Thrust+Combo+%28%EC%A4%91%EB%8B%A8+%EC%9E%90%EC%84%B8+%EC%97%B0%EC%87%84+%EC%B0%8C%EB%A5%B4%EA%B8%B0%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=I3CWzd5M4hU",
         "images": [],
         "wiki": "https://nioh.wiki.fextralife.com/Spear",
         "gif": null
@@ -3118,7 +3118,7 @@
       },
       "designNotes": "Monster Hunter의 랜스 디자인은 공격성과 방어성을 완벽히 균형잡은 무기다. 차지 공격은 높은 리스크-리워드를 제공하며, 카운터-스러스트는 방어적 플레이에 능동성을 부여한다. 몬스터의 공격 패턴을 읽고 방어-반격하는 일련의 상호작용은 사냥의 재미를 극대화하는 핵심 설계 원칙이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+Charge+Attack+%26+Counter-Thrust+%28%EB%8F%8C%EC%A7%84+%EA%B3%B5%EA%B2%A9+%26+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B0%8C%EB%A5%B4%EA%B8%B0%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=HYPCHkoflOU",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Lance",
         "gif": null
@@ -3184,7 +3184,7 @@
       },
       "designNotes": "Hades의 스피어 스핀 공격은 로그라이크 게임의 핵심 설계 철학을 구현한다: 빠른 피드백, 명확한 판정, 높은 시각적 명확성. 짧은 모션 시간과 즉각적인 히트 피드백으로 플레이어에게 조종감을 제공하며, 다수 적 처리로 카타르시스를 극대화한다. 미니멀한 이펙트 디자인은 화면 가독성을 유지하면서도 강력한 피드백을 전달한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Hades+Rapid+Spin+Attack+%28%EC%97%B0%EC%87%84+%ED%9A%8C%EC%A0%84+%EA%B3%B5%EA%B2%A9%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=a2gcJzTMG0U",
         "images": [],
         "wiki": "https://hades.fandom.com/wiki/Spear",
         "gif": null
@@ -3256,7 +3256,7 @@
       },
       "designNotes": "도끼를 투척한 후 '무기 없는 전투 단계'를 강제로 창출해 플레이어가 맨손 콤보와 도끼 전투를 교차하는 복합 리듬을 자연스럽게 학습하도록 유도한다. 리콜 타이밍을 콤보 피니셔로 연계할 수 있어 전술적 깊이를 제공하면서, 얼음 축적 시스템 덕분에 투척 행위 자체가 상태 이상 설정 도구로도 기능해 멀티레이어 전략 구조를 형성한다. 귀환 순간 강렬한 진동·사운드 피드백이 리워드 루프를 완성하며, 이 메카닉은 이후 수많은 액션 게임의 '귀환형 원거리 무기' 설계 원형으로 평가받는다. 원거리와 근거리 레인지를 단일 버튼으로 오가는 직관적인 조작 설계도 UX 측면에서 탁월하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EB%8F%84%EB%81%BC+%ED%88%AC%EC%B2%99+%26+%EC%86%8C%ED%99%98+%28Axe+Throw+%26+Recall%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=i0jwqCN7oAg",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
         "gif": null
@@ -3328,7 +3328,7 @@
       },
       "designNotes": "니오 2 도끼의 '느리지만 넓고 강하다'는 무기 정체성을 완벽하게 구현하는 무기술로, 큰 Ki 소모가 리스크이자 차별화 포인트다. Ki Pulse 연계 숙련도에 따라 같은 기술이 Ki 자살기가 될 수도, 고효율 딜 사이클의 핵심이 될 수도 있어 스킬 격차가 극명하게 드러나는 설계다. 쿠라이 스탠스 보너스와의 조합은 상황 판단과 자원 관리를 동시에 요구하는 복합적 결정을 만들어낸다. 마지막 수직 강타의 다운 판정은 이어지는 스턴 잠금 콤보의 입구가 되어, 기술 완성이 전투 흐름 전체를 장악하는 전환점으로 기능한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%9A%A9%EC%9D%98+%EC%B6%A4+%28Dragon+Dance+%2F+%E9%BE%8D%E3%81%AE%E8%88%9E%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=ZJD9gjKb5wA",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Axe+Skills",
         "gif": null
@@ -3399,7 +3399,7 @@
       },
       "designNotes": "바이킹 테마에 걸맞게 '무기를 낭비하듯 퍼붓는' 호방한 판타지를 구현하면서도 출혈 상태 이상 시스템과 결합해 전략적 선택지를 부여하는 설계다. 근접 특화 캐릭터인 에이보르에게 중거리 압박 도구를 제공함으로써 전투 레인지 유연성을 높여 전장 상황 대응력을 강화한다. 발동 중 피격 감소는 절체절명의 상황에서 역전 기회를 주는 감정적 전환 장치로 기능하며, 쿨다운 자원은 무분별한 남용을 자연스럽게 억제하면서 사용 타이밍의 가치를 끌어올린다. 단순한 투사체 발사를 넘어 출혈 지속 피해와 시각적 과부하가 결합된 '전황 압도' 경험을 제공한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Assassin%27s+Creed+Valhalla+%ED%88%AC%EB%8F%84%EB%81%BC+%EB%B6%84%EB%85%B8+%28Throwing+Axe+Fury%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=MXvejsIyRTY",
         "images": [],
         "wiki": "https://assassinscreed.fandom.com/wiki/Throwing_Axe_Fury",
         "gif": null
@@ -3470,7 +3470,7 @@
       },
       "designNotes": "Frost Fury는 단순 근접 스윕이 아닌 '에너지 차징→방출'의 2단계 구조로 플레이어에게 명확한 캐스팅 윈도우를 부여한다. 이는 높은 보상(광폭 범위+높은 경직)에 대한 대가로 취약 시간을 설계한 클래식 risk-reward 구조다. 시각적 피드백(얼음 오라 확산, 이펙트 폭발)이 강력해 액션의 무게감과 즉각적 만족감을 전달하며, 다양한 적군 구성에 대한 문제 해결 수단으로 기능한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnarok+Frost+Fury+%28%ED%94%84%EB%A1%9C%EC%8A%A4%ED%8A%B8+%ED%93%A8%EB%A6%AC%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=H2XpI0VYSDg",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
         "gif": null
@@ -3536,7 +3536,7 @@
       },
       "designNotes": "Nioh 2의 dodge-cancel 시스템은 수비적 행동(회피)을 공격적 이득(거리 확보+반격)으로 변환하는 혁신적 UX다. 플레이어의 타이밍 숙련도를 보상하며, 적 공격의 틈새를 적극적으로 활용하도록 유도한다. 이 디자인은 '회피 후 안전하게 반격'이라는 전형적 액션RPG 루틴을 '회피 자체가 반격'으로 재정의하여 전투 리듬감을 획기적으로 향상시킨다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Backflip+Strike+%28%EB%B0%B1%ED%94%8C%EB%A6%BD+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=nxcxrZNbrrw",
         "images": [],
         "wiki": "https://nioh.wiki.fextralife.com/Axes",
         "gif": null
@@ -3601,7 +3601,7 @@
       },
       "designNotes": "Spiral Cleave는 Wo Long의 Qi 시스템의 핵심을 반영한다. 높은 보상(광폭 AoE+높은 경직)을 얻기 위해 플레이어는 회복 타이밍과 스태미나 관리 양쪽을 동시에 고려해야 한다. 이는 단순 피해 딜링을 넘어 '리소스 관리→예측→실행'의 3단계 의사결정 사이클을 강제하며, 중국 전통 무술의 '기(氣) 흐름'이라는 철학적 컨셉을 메카닉 레벨로 구현한 우수한 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+Spiral+Cleave+%28%EB%82%98%EC%84%A0%ED%98%95+%EC%A0%88%EB%8B%A8%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=fd7CqgFXi2I",
         "images": [],
         "wiki": "https://wololongfallandynasty.wiki.fextralife.com/Polearms",
         "gif": null
@@ -3667,7 +3667,7 @@
       },
       "designNotes": "Team Ninja는 Kusarigama를 고속 회전 콤보의 중심축으로 설계하여 초보자부터 상급자까지 접근 가능하게 만들었다. 높은 콤보 지속성과 낮은 시간당 패널티의 균형으로 리스크-리워드를 효과적으로 구성했으며, 스태미나 관리가 핵심 메커닉이 된다. 쇠사슬 무기의 독특한 광역 회전 특성이 타 무기들과 차별화되어 플레이스타일 다양성을 높인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Kusarigama+Spin+%28%EC%BF%A0%EC%82%AC%EB%A6%AC%EA%B0%80%EB%A7%88+%EC%8A%A4%ED%95%80%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=FB1XuUUM-wA",
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Kusarigama",
         "gif": null
@@ -3732,7 +3732,7 @@
       },
       "designNotes": "Atlus는 Makoto의 캐릭터 컨셉인 강화와 공격성을 Agneyastra로 집약했으며, 이는 SP 소모와 높은 위력의 명확한 트레이드오프로 구성된다. 전체 대상 공격이므로 집단 전투에서의 전략적 가치가 높으며, 화염 속성 비주얼 피드백이 강렬하여 플레이어의 카타르시스를 극대화한다. 선택적 SP 소비 메커닉으로 턴 기반 전술의 깊이를 더한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Persona+5+Royal+Agneyastra+%28%EC%95%A0%EA%B7%B8%EB%84%A4%EC%95%BC%EC%8A%A4%ED%8A%B8%EB%9D%BC%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=cMkktqZSMzo",
         "images": [],
         "wiki": "https://megamitensei.fandom.com/wiki/Makoto_Niijima",
         "gif": null
@@ -3798,7 +3798,7 @@
       },
       "designNotes": "MercurySteam은 Castlevania 시리즈의 특수 무기 전통을 이어가면서 Scythe를 방어 지향 상대에 특화된 무기로 설계했다. 차지 메커닉으로 위력 스케일링을 제어하며, 어둠 속성의 마력을 시각화하여 게임의 고딕 분위기를 강화한다. 중거리 이상의 우수한 범위와 높은 경직력으로 단독 전투 우위를 제공하면서도, 마력 자원 관리로 남용을 방지한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+2+Reaper%27s+Scythe+%28%EC%A3%BD%EC%9D%8C%EC%9D%98+%EB%82%AB%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=J-geM17GuyA",
         "images": [],
         "wiki": "https://castlevania.fandom.com/wiki/Scythe",
         "gif": null
