@@ -15715,6 +15715,79 @@
       ],
       "id": "sc-010",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "Thunder Hammer (선더 해머)",
+      "game": "Warhammer 40,000: Space Marine 2",
+      "developer": "Saber Interactive",
+      "actionName": "분노의 강하 / Hammer of Wrath",
+      "actionType": "특수기",
+      "description": "돌격 해병대원이 점프팩을 점화하여 공중으로 도약한 뒤, 선더 해머를 내리찍어 착지 충격과 함께 전기 충격파를 사방으로 방사하는 기술이다. 착지 지점 주변의 광범위한 적들을 동시에 넉다운시키며, 밀집된 그로트나 카오스 전사 무리를 한 번에 흩어놓는 광역 제압기로 기능한다. 공중 접근과 지상 폭발이 결합된 이 기술은 수세에서 공세로 순간 전환하는 역전의 도구 역할을 한다.",
+      "motionType": [
+        "overhead",
+        "leap",
+        "charge"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "area-of-effect",
+          "gap-closer"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~12f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "점프팩과 선더 해머의 조합은 '하늘에서 내려꽂는 철망치' 판타지를 극한까지 구현한 디자인이다. 체공 시간이라는 취약 구간(피격 위험)과 착지 광역 충격파라는 대보상이 선명한 리스크-리워드 구조를 형성하여, 플레이어가 위험을 감수하며 전장에 뛰어드는 쾌감을 설계적으로 보장한다. 착지와 동시에 방사되는 전기 충격파는 '내가 이 전장의 중심'이라는 존재감을 시각·청각적으로 강렬하게 전달하며, Warhammer 40K 세계관 특유의 황제의 분노를 체감하게 한다. 군중 제어 도구로서도 탁월해, 수세에 몰린 팀이 전선을 재정비할 시간을 벌어주는 전략적 가치를 지닌다. 해머 무기 고유의 '느리지만 압도적인' 정체성과 점프팩의 기동성을 결합하여, 카테고리 약점인 기동성 부재를 보완하는 영리한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warhammer+40%2C000%3A+Space+Marine+2+%EB%B6%84%EB%85%B8%EC%9D%98+%EA%B0%95%ED%95%98+%2F+Hammer+of+Wrath+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "jump-attack",
+        "area-of-effect",
+        "crowd-control",
+        "gap-closer",
+        "knockdown",
+        "electric",
+        "heavy-weapon",
+        "risk-reward",
+        "thunder-hammer",
+        "assault-class"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "대형 무기"
+      ],
+      "id": "hm-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
