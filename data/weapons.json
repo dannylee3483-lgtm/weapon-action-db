@@ -22504,7 +22504,7 @@
       },
       "designNotes": "오중 연사는 단일 입력으로 다중 히트 피해를 구현한 리스크-리워드 구조의 모범 사례다. 충전이라는 코스트를 지불해야만 5발 분량의 누적 피해를 얻을 수 있어, 플레이어는 반드시 적의 행동 창을 읽고 타이밍을 결정해야 한다. 약점 부위 전탄 명중 시 배율이 급증하도록 설계되어 '정확하게 겨냥한 행동'에 대한 보상이 수치로 명확하게 느껴진다. 이는 Dragon's Dogma 시리즈의 핵심 전투 철학인 '약점 부위 집중 공략'을 궁수 클래스에서 가장 직관적으로 구현한 스킬이다. 5발이 연속으로 발사되는 시각·청각 피드백이 명확해 전탄 명중 여부를 즉각적으로 체감할 수 있어 플레이어 만족도 설계 측면에서도 우수하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%98%A4%EC%A4%91+%EC%97%B0%EC%82%AC+%28Fivefold+Flurry%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=XKg_r2qqt3k",
         "images": [],
         "wiki": "https://dragonsdogma2.wiki.fextralife.com/Fivefold+Flurry",
         "gif": null
