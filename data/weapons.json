@@ -8463,6 +8463,218 @@
       ],
       "id": "mg-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Guardian Shield (가디언 방패)",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "완벽 방어 / Perfect Block",
+      "actionType": "패리",
+      "description": "크라토스가 가디언 방패를 정확한 타이밍에 들어올려 적의 공격을 완벽히 차단한다. 성공 시 방패에서 강렬한 섬광 이펙트가 발생하며 적을 순간 경직시켜 즉각적인 반격 창구를 열어준다. 타이밍을 놓치면 스태미나 소모 없이 데미지를 받으므로 높은 집중력을 요구한다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "stagger",
+          "no-resource-on-success"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~5f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "God of War (2018)의 Perfect Block은 '실드를 장비했다는 수동적 안도감'을 '능동적 리스크 테이킹'으로 전환시킨 설계다. 성공 시 즉각적인 경직과 함께 화려한 시각·청각 피드백이 제공되어 숙련 플레이어에게 강한 보상 감각을 준다. 반면 실패하면 가드 없이 데미지를 그대로 받기 때문에 높은 리스크-리워드 구조가 성립한다. 이 메카닉은 소울류의 패시브 가드 문화에서 벗어나 보스전마다 타이밍 학습을 유도하며, 게임 전반의 전투 긴장감을 지속적으로 유지시킨다. Dauntless Shield(Ragnarok)로 계승될 때 리워드가 더욱 강화되어 시스템의 성장 방향성도 명확하게 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EC%99%84%EB%B2%BD+%EB%B0%A9%EC%96%B4+%2F+Perfect+Block+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Guardian_Shield",
+        "gif": null
+      },
+      "tags": [
+        "perfect-block",
+        "parry",
+        "timing-based",
+        "stagger",
+        "risk-reward",
+        "shield",
+        "counter-window",
+        "boss-pattern-reading",
+        "feedback-design",
+        "god-of-war"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "보조 무기"
+      ],
+      "id": "sh-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Shield of Chaos (카오스의 방패 / 아이기스)",
+      "game": "Hades",
+      "developer": "Supergiant Games",
+      "actionName": "황소 돌진 / Bull Rush",
+      "actionType": "차지",
+      "description": "방패를 앞으로 내밀며 전방으로 강력하게 돌진하는 차지 공격이다. 스페셜 버튼을 길게 눌러 전면 방어 자세를 유지하며 전진하고, 버튼을 놓는 순간 적을 크게 넉백시킨다. 차지 유지 시간이 길수록 대미지와 돌진 거리가 증가하며, 차지 중에는 전방 피해를 흡수하는 아머 효과가 적용된다.",
+      "motionType": [
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gold",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "gap-closer",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "gap-closer",
+          "armor-during-charge",
+          "charge-scalable"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~30f (최소 차지)",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Bull Rush는 방패라는 방어적 도구를 가장 공격적인 돌진기로 재정의한 역발상 설계다. 차지 시간과 결과물이 선형적으로 연결되어 플레이어가 스스로 리스크 수위를 조절할 수 있으며, 이는 짧은 런 기반 로그라이크 게임에서 매 전투마다 의사결정을 강제한다. 차지 중 전방 아머는 공격 의지를 지지하는 설계로, 돌진 자체가 보상받는 플레이로 느껴지게 한다. Boons와의 시너지 시스템 덕분에 같은 Bull Rush라도 빌드마다 전혀 다른 역할(crowd-control, gap-closer, burst finisher)을 수행해 반복 플레이에서의 신선함을 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+%ED%99%A9%EC%86%8C+%EB%8F%8C%EC%A7%84+%2F+Bull+Rush+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Shield_of_Chaos",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "gap-closer",
+        "knockdown",
+        "armor",
+        "risk-reward",
+        "shield",
+        "bull-rush",
+        "boon-synergy",
+        "roguelite",
+        "hades"
+      ],
+      "applicableWeapons": [
+        "방패"
+      ],
+      "id": "sh-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Medium Shield / Tower Shield (중형 방패 / 타워 실드)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "가드 카운터 / Guard Counter",
+      "actionType": "카운터",
+      "description": "방패로 적의 공격을 성공적으로 막은 직후 헤비 어택 버튼을 입력해 발동하는 강력한 카운터 공격이다. 일반 헤비 어택보다 월등히 높은 포이즈 대미지를 지니며, 적의 포이즈를 즉시 붕괴시켜 크리티컬(치명타) 공격으로 이어갈 수 있다. Elden Ring에서 처음 도입된 메카닉으로, 방패 전투의 패시브성을 근본적으로 탈피시켰다.",
+      "motionType": [
+        "counter",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "high-poise-damage",
+          "guard-counter",
+          "critical-setup"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f (가드 후 입력)",
+          "active": "~6f",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "Guard Counter는 FromSoftware가 Elden Ring에서 방패 전투의 전통적인 '거북이 플레이' 비판을 내부적으로 해결한 설계 솔루션이다. 가드 후 즉각 입력 창이 짧아 반응 속도를 요구하고, 성공 시 일반 공격보다 훨씬 강한 포이즈 대미지로 즉각적인 보상이 주어진다. 이는 방패를 단순 피해 감소 도구에서 공격 개시 도구로 격상시키며, 리스크(스태미나 소모 + 반응 실패 시 취약) 대비 리워드(크리티컬 연계)가 명확한 교환 구조를 형성한다. 디지털 조작의 단순함에도 불구하고 적의 공격 패턴 학습을 전제로 하기 때문에 심화 전투 이해도를 자연스럽게 끌어올리는 교육적 설계이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EA%B0%80%EB%93%9C+%EC%B9%B4%EC%9A%B4%ED%84%B0+%2F+Guard+Counter+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Guard+Counter",
+        "gif": null
+      },
+      "tags": [
+        "guard-counter",
+        "poise-breaking",
+        "critical-setup",
+        "counter",
+        "shield",
+        "stamina-management",
+        "high-poise-damage",
+        "timing-based",
+        "punish",
+        "elden-ring"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "1H검",
+        "도끼",
+        "해머"
+      ],
+      "id": "sh-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
