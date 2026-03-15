@@ -22105,6 +22105,78 @@
       ],
       "id": "wh-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Unarmed Martial Arts)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "그래플 카운터 & 환경 처치 (Grapple Counter & Environmental Kill)",
+      "actionType": "카운터",
+      "description": "적의 공격을 타이밍에 맞춰 회피한 직후, 위 선은 자동으로 상대를 붙잡는 그래플 상태에 진입한다. 이 상태에서 플레이어는 주변 환경 오브젝트(전기 박스, 불판, 차량 보닛, 창문 등)에 적을 내던지는 환경 처치(Environmental Kill)를 실행하거나, 일반 투척으로 이어 콤보를 연장할 수 있다.",
+      "motionType": [
+        "counter",
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "environmental-interaction",
+          "context-sensitive",
+          "crowd-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~20f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "회피 성공 직후 자동 그래플로 전환되는 구조는 '타이밍 도전에 대한 즉각적이고 명확한 보상'이라는 액션 설계 원칙의 교과서적 사례다. 환경 오브젝트와의 연동은 전투 공간 자체를 무기로 전환시켜 플레이어의 공간 인식 능력에 실질적인 가치를 부여하며, 매 전투를 시각적으로 다채롭게 만드는 연출 다양성도 확보한다. 회피 판정 창이 비교적 넉넉하게 설계되어 있어 리듬감 있는 전투 흐름을 유지하기 쉽고, 이는 무기 없는 맨손 전투에서도 강렬한 쾌감을 제공하는 핵심 요소다. 환경 처치의 스펙터클한 연출은 근접 격투 게임에서 드문 '맥락 의존형 피니시' 구조로, 플레이어의 공간 탐색 동기를 전투 루프 안으로 통합하는 설계적 성취를 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%EA%B7%B8%EB%9E%98%ED%94%8C+%EC%B9%B4%EC%9A%B4%ED%84%B0+%26+%ED%99%98%EA%B2%BD+%EC%B2%98%EC%B9%98+%28Grapple+Counter+%26+Environmental+Kill%29+gameplay",
+        "images": [],
+        "wiki": "https://sleepingdogs.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "grapple",
+        "environmental-kill",
+        "context-sensitive",
+        "unarmed",
+        "martial-arts",
+        "open-world",
+        "rhythm-combat",
+        "crowd-control",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투"
+      ],
+      "id": "ft-023",
+      "addedDate": "2026-03-16"
     }
   ]
 }
