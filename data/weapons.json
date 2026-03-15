@@ -18968,6 +18968,75 @@
       ],
       "id": "sw-017",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "어둠 마검 / 에이콘 능력 (오딘)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix",
+      "actionName": "자네츠켄 / Zantetsuken (斬鉄剣)",
+      "actionType": "특수기",
+      "description": "오딘 에이콘의 시그니처 필살기. 암흑파·무영검 등 오딘 계열 기술을 사용하며 전용 '자네츠켄 게이지'를 축적한 뒤, 게이지가 가득 찼을 때 발동하면 거대한 어둠의 마검 에너지를 전방으로 해방해 적을 일격에 절단한다. 체력 임계값 이하의 적에게는 즉사 판정이 발동되며, 화면 전체를 가르는 암흑 슬래시 이펙트와 함께 단일 대상에게 극대 피해를 입힌다.",
+      "motionType": [
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "instant-kill-threshold",
+          "gauge-payoff",
+          "poise-breaking"
+        ],
+        "resourceCost": "자네츠켄 게이지 (Zantetsuken Gauge)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~8f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "자네츠켄은 '게이지 축적 → 폭발적 방출'이라는 리소스 관리 설계의 교과서적 사례다. 오딘 에이콘의 모든 파생 기술이 게이지 빌드업이라는 공통 목적으로 연결되어, 기술 선택 자체에 전략적 목표 지향성이 생긴다. 게이지가 가득 차는 순간 발동 기회가 명확히 시각화되고 압도적인 이펙트·대미지로 즉각적인 보상 피드백을 제공해 '준비 → 실행 → 보상' 사이클의 만족감을 극대화한다. 즉사 임계값이라는 조건부 보너스는 플레이어에게 발동 타이밍에 대한 추가적인 판단 레이어를 부여하며, 단순 딜 버튼이 아닌 전략적 피니쉬 기술로 격상시키는 핵심 설계 요소다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EC%9E%90%EB%84%A4%EC%B8%A0%EC%BC%84+%2F+Zantetsuken+%28%E6%96%AC%E9%89%84%E5%89%A3%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Zantetsuken_(Final_Fantasy_XVI)",
+        "gif": null
+      },
+      "tags": [
+        "gauge-management",
+        "dark-magic",
+        "eikon",
+        "finisher",
+        "instant-kill",
+        "high-damage",
+        "resource-build",
+        "visual-impact",
+        "single-target"
+      ],
+      "applicableWeapons": [
+        "마법",
+        "에이콘 능력"
+      ],
+      "id": "mg-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
