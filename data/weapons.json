@@ -8242,6 +8242,227 @@
       ],
       "id": "sw-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "마법봉 (Wand)",
+      "game": "Hogwarts Legacy",
+      "developer": "Avalanche Software",
+      "actionName": "고대 마법 폭발 (Ancient Magic)",
+      "actionType": "특수기",
+      "description": "전투 중 다양한 주문 사용과 콤보 수행으로 축적되는 고대 마법 게이지를 소모해 폭발적인 마법 에너지를 방출한다. 표적 중심으로 거대한 광역 충격파가 발생하며, 범위 내 모든 적을 강하게 넉백시킨다. 별도의 캐스팅 모션 없이 즉각 발동되어 콤보 도중 자연스럽게 삽입 가능하다.",
+      "motionType": [
+        "charge",
+        "explosion"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "white",
+          "gold",
+          "purple"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "area-of-effect",
+          "gauge-based"
+        ],
+        "resourceCost": "고대 마법 게이지",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~30f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "고대 마법은 전투 퍼포먼스에 따라 보상을 제공하는 피드백 루프 설계의 교과서적 사례다. 적을 다양한 방식으로 공격하고 디버프를 조합할수록 게이지가 빠르게 차오르기 때문에, 플레이어가 단조로운 스팸 패턴 대신 주문 다양성을 자연스럽게 추구하도록 유도한다. 장르 특성상 복잡한 콤보 메모리가 없는 캐주얼 플레이어도 이 시스템을 통해 '잘 싸웠다'는 명확한 피드백을 받을 수 있다. 화려한 백색-금색 이펙트와 강한 히트스톱이 결합되어 게이지 소모의 카타르시스를 극대화하며, 전투 숙련도를 시각적 만족감으로 직접 번역하는 디자인 원칙을 구현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hogwarts+Legacy+%EA%B3%A0%EB%8C%80+%EB%A7%88%EB%B2%95+%ED%8F%AD%EB%B0%9C+%28Ancient+Magic%29+gameplay",
+        "images": [],
+        "wiki": "https://hogwartslegacy.fandom.com/wiki/Ancient_Magic",
+        "gif": null
+      },
+      "tags": [
+        "ancient-magic",
+        "gauge-system",
+        "crowd-control",
+        "area-of-effect",
+        "combat-reward",
+        "spell-variety",
+        "instant-cast",
+        "knockdown",
+        "visual-spectacle"
+      ],
+      "applicableWeapons": [
+        "마법봉",
+        "마법 지팡이"
+      ],
+      "id": "mg-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "아치스태프 (Archistaff)",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "대선풍 (Maelstrom)",
+      "actionType": "차지",
+      "description": "소서러 직업의 최상위 주문으로, 수 초에 달하는 긴 캐스팅 후 거대한 토네이도를 소환한다. 생성된 회오리바람은 일정 시간 동안 유지되며 범위 내 모든 적을 공중으로 끌어올려 연속 피해를 입히고 완전히 무력화한다. 파티원이나 포폰(Pawn)이 캐스터를 보호하거나 서포트 스킬로 캐스팅을 가속할 수 있어 협력 플레이의 핵심 기술로 기능한다.",
+      "motionType": [
+        "charge",
+        "spin"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "wave",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "launcher",
+          "finisher"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "sustained-damage",
+          "knockdown",
+          "lift",
+          "cooperative-casting",
+          "area-of-effect"
+        ],
+        "resourceCost": "마나",
+        "frameApprox": {
+          "startup": "~180f",
+          "active": "~300f",
+          "recovery": "~60f"
+        }
+      },
+      "designNotes": "메일스트롬은 극단적으로 긴 캐스팅 시간을 통해 리스크-리워드 구조를 최대로 끌어올린 설계다. 캐스팅 중 완전히 취약해지는 구조가 파티원의 역할 분담과 보호를 자연스럽게 강제하며, 멀티플레이 협력 설계가 싱글의 포폰 AI까지 자연스럽게 연장된다. 발동 시의 화면을 압도하는 거대한 비주얼과 모든 적이 무력화되는 보상이 긴 준비 과정의 기대감과 강렬한 대비를 이루어, 게임 전체에서 가장 기억에 남는 전투 순간을 만들어낸다. '준비 과정 자체가 플레이어의 기술을 테스트하는 퍼즐'이라는 관점에서, 단순한 강력 기술을 넘어 전투 상황 판단력을 요구하는 고차원적 설계 원칙을 담고 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EB%8C%80%EC%84%A0%ED%92%8D+%28Maelstrom%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Maelstrom",
+        "gif": null
+      },
+      "tags": [
+        "maelstrom",
+        "crowd-control",
+        "charge-spell",
+        "cooperative-casting",
+        "high-risk-high-reward",
+        "sustained-aoe",
+        "sorcerer",
+        "tornado",
+        "lift",
+        "pawn-synergy"
+      ],
+      "applicableWeapons": [
+        "아치스태프",
+        "스태프",
+        "마법 지팡이"
+      ],
+      "id": "mg-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에이콘 능력 — 오딘 (Eikon Ability: Odin)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix",
+      "actionName": "블라인드 저스티스 (Blind Justice)",
+      "actionType": "특수기",
+      "description": "오딘 에이콘의 능력으로, 클라이브 주변에 어둠의 칼날들을 사방으로 소환하여 버튼 입력마다 하나씩 표적에 꽂아 넣는 다단히트 기술이다. 검이 박힐 때마다 누적 피해와 스태거 게이지를 쌓고, 마지막 발동 시 소환된 모든 검이 일제히 폭발하며 거대한 어둠의 참격을 쏟아낸다. 콤보 루틴 도중 자유롭게 삽입 가능해 다른 에이콘 기술과의 조합 자유도가 매우 높다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "explosion"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "stagger-buildup",
+          "combo-extender",
+          "willpower-damage"
+        ],
+        "resourceCost": "에이콘 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~15f per hit",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "블라인드 저스티스는 격투 게임의 저압 압박 기술 구조를 액션 RPG에 이식한 우수한 사례다. 각 버튼 입력이 독립적 히트로 연결되어 타격 리듬을 플레이어가 직접 제어하는 느낌을 주며, 스태거 게이지 축적에 특화된 명확한 전략적 역할이 콤보 설계 내에서 위치를 확고히 한다. 에이콘 어빌리티 슬롯 자유 교체 구조와 결합되어 플레이어마다 고유한 콤보 루틴을 구성하는 자기표현의 도구로 기능하며, 어두운 시각 이펙트가 오딘 서사와 연동되어 게임플레이와 내러티브가 유기적으로 융합된 디자인을 구현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EB%B8%94%EB%9D%BC%EC%9D%B8%EB%93%9C+%EC%A0%80%EC%8A%A4%ED%8B%B0%EC%8A%A4+%28Blind+Justice%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Blind_Justice_(Final_Fantasy_XVI)",
+        "gif": null
+      },
+      "tags": [
+        "blind-justice",
+        "odin",
+        "eikon",
+        "multi-hit",
+        "stagger-buildup",
+        "dark-element",
+        "ability-slot",
+        "combo-extender",
+        "action-rpg",
+        "willpower-damage"
+      ],
+      "applicableWeapons": [
+        "에이콘 능력",
+        "마법 검",
+        "어둠 속성 무기"
+      ],
+      "id": "mg-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
