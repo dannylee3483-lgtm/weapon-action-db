@@ -17540,6 +17540,80 @@
       ],
       "id": "wh-016",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "미시마류 가라테 (철권 스타일 격투기)",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "전풍신권 (Electric Wind God Fist / EWGF)",
+      "actionType": "무기술",
+      "description": "카즈야 미시마 계열 캐릭터들의 상징 기술로, F→N→D→D/F + 2 입력에 정확한 프레임 타이밍이 요구된다. 완벽히 입력 시 전기 이펙트가 터지며 상단 주먹이 발동하고, 가드 시에도 +5f 유리 프레임이 발생하는 극히 드문 특성을 가진다. 히트 시 상대를 공중으로 띄워 쥴링 콤보로 연결할 수 있어 공수 양면에서 핵심 기술로 기능한다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "plus-on-block",
+          "knockdown",
+          "poise-breaking",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~13f",
+          "active": "~3f",
+          "recovery": "~16f (가드 시 +5f 유리)"
+        }
+      },
+      "designNotes": "EWGF는 '입력 정밀도가 성능을 결정한다'는 격투 게임 설계 철학의 정수를 보여준다. 동일한 버튼 조합이라도 입력 타이밍 한 프레임 차이에 따라 평범한 Wind God Fist와 완전히 다른 성능이 발휘되며, 이 차이가 수직적 숙련도 커브와 고수·초보 간 명확한 역량 차별을 형성한다. 블록 시에도 유리 프레임을 유지하는 독특한 설계는 '공격이 곧 방어'라는 공격적 플레이 사이클을 장려하며, 상대방에게 끊임없는 수세적 의사결정 부담을 준다. 높은 실행 장벽이 성취감과 장기 투자 동기를 동시에 제공하는 '게이트키퍼' 설계 원리의 교과서적 예시이며, Tekken 8에서는 히트 이펙트와 슬로우모션 연출이 강화되어 성공 입력에 대한 시각·청각 피드백이 한층 명확해졌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%EC%A0%84%ED%92%8D%EC%8B%A0%EA%B6%8C+%28Electric+Wind+God+Fist+%2F+EWGF%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "ewgf",
+        "execution-barrier",
+        "frame-advantage",
+        "launcher",
+        "risk-reward",
+        "plus-on-block",
+        "mishima-style",
+        "fighting-game",
+        "fist",
+        "punish-tool"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "격투기"
+      ],
+      "id": "ft-015",
+      "addedDate": "2026-03-15"
     }
   ]
 }
