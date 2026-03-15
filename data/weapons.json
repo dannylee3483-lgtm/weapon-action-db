@@ -1971,6 +1971,214 @@
       ],
       "id": "gs-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Greatsword (Titan Eikonic Ability)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix Creative Business Unit III",
+      "actionName": "대지진격 (Upheaval)",
+      "actionType": "특수기",
+      "description": "클라이브가 타이탄의 힘을 담아 대검을 높이 들어 올린 뒤 지면에 강렬하게 내리꽂는 기술이다. 충격파가 전방으로 방사형으로 퍼져 광역 피해를 주며, 특히 Will 게이지(기절 게이지)를 대량으로 소진시키는 것이 핵심이다. 타이탄 에이코닉 어빌리티 중 주력 기절 유발기로, 강인한 적을 기절 상태로 만들어 Burst 단계 진입을 앞당기는 데 특화되어 있다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "땅",
+        "effectColor": [
+          "brown",
+          "gold",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "will-damage",
+          "aoe",
+          "knockdown"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~20f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Upheaval은 '느린 선딜 = 높은 보상'이라는 리스크-리워드 원칙의 교과서적 사례다. 긴 선딜레이 동안 적의 공격을 회피하는 리스크를 감수해야 하지만, 성공 시 Will 게이지를 폭발적으로 소진시켜 기절→Burst 연쇄를 유발함으로써 막대한 추가 딜 기회를 열어준다. 타이탄이라는 '대지의 거신'의 중량감을 시각·청각·진동 피드백으로 완벽히 전달하며, 기절-버스트 루프라는 FFXVI 핵심 전투 사이클에서 기절 유발자 역할을 명확히 담당한다. 쿨다운 리소스 덕분에 전투 흐름을 끊지 않으면서도 '결정적 순간'을 포착해 쓰는 타이밍 판단력을 플레이어에게 요구한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EB%8C%80%EC%A7%80%EC%A7%84%EA%B2%A9+%28Upheaval%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasyxvi.wiki.fextralife.com/Upheaval",
+        "gif": null
+      },
+      "tags": [
+        "stagger",
+        "will-damage",
+        "earth-element",
+        "aoe",
+        "charge-attack",
+        "poise-breaking",
+        "eikonic-ability",
+        "burst-setup",
+        "finisher"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Odachi (大太刀)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "수차 (水車, Spinning Wheel)",
+      "actionType": "무기술",
+      "description": "오다치를 양손으로 쥐고 수평 축으로 360도 회전시키며 전방으로 이동해 주변 전체를 광역으로 베는 무기술이다. 회전 모션 중 캐릭터가 전진하므로 이동하며 다수의 적을 연속으로 타격할 수 있으며, 여러 충돌 판정이 겹쳐 군중 제어에 탁월하다. 고중자세(高·中姿勢)에서 발동 가능하며 기(氣) 소모가 상당하지만 그에 걸맞는 범위와 위력을 제공한다.",
+      "motionType": [
+        "spin",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "aoe",
+          "crowd-control",
+          "repositioning",
+          "multi-hit"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~60f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Spinning Wheel은 오다치의 핵심 정체성인 '압도적 도달 거리'를 가장 순수하게 표현한 기술이다. 기본 공격이 느리고 묵직한 오다치 특성과 대비되게 이동을 동반한 회전이 가능해, 다수 적에게 포위된 위기 상황을 역전하는 공격적 탈출 옵션으로 기능한다. 기 소모가 커서 Nioh 2의 핵심 시스템인 기 관리와 긴밀하게 맞물리며, 플레이어가 '지금 쓸 것인가'를 끊임없이 계산하도록 유도한다. 회전 중 이동 궤적이 적 군집을 자연스럽게 관통하도록 설계되어 공간 장악이라는 오다치만의 아이덴티티를 전투 상황에서 직접 체감하게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%88%98%EC%B0%A8+%28%E6%B0%B4%E8%BB%8A%2C+Spinning+Wheel%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Odachi+Skills",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "spin-attack",
+        "crowd-control",
+        "ki-management",
+        "wide-range",
+        "odachi",
+        "repositioning",
+        "multi-hit",
+        "high-risk-high-reward"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "오다치"
+      ],
+      "id": "gs-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Fume Ultra Greatsword",
+      "game": "Dark Souls II: Scholar of the First Sin",
+      "developer": "FromSoftware",
+      "actionName": "짓밟기 내리찍기 연계 (Stomp R2 Follow-up)",
+      "actionType": "차지 공격",
+      "description": "Fume Ultra Greatsword를 양손으로 쥔 상태에서 강공격(R2)을 입력하면 발로 지면을 힘차게 밟아 근접 적을 밀쳐내는 충격파를 일으키고, 연이어 거대한 검을 머리 위로 치켜들어 전방 넓은 범위에 수직으로 내리찍는 2단 연계 기술이다. 첫 번째 짓밟기는 거리를 벌리는 공간 확보 역할을 하고, 두 번째 내리찍기는 게임 내 최상위권의 포이즈 파괴력으로 인간형 적을 즉각 넘어뜨린다. PvP와 PvE 모두에서 손에 꼽히는 고위험·고보상 기술로 평가받는다.",
+      "motionType": [
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "black",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "two-hit-combo",
+          "aoe"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~15f",
+          "recovery": "~60f"
+        }
+      },
+      "designNotes": "Fume UGS의 짓밟기 연계는 'Dark Souls II 대형 무기 철학'—즉 최대의 희생으로 최대의 결과를 쟁취한다—의 정수다. 매우 긴 선딜레이는 고수에게도 읽힐 수 있지만, 성공 시 적을 즉각 다운시켜 공격 흐름을 완전히 장악하는 역전 효과를 제공한다. 2단 구조는 단순한 강공격 이상의 내러티브—'공간을 열고, 짓뭉개다'—를 부여하여 타격 이후 만족감을 배가시킨다. 게임 내 가장 무거운 무기의 무게감을 전투 리듬에 녹여내어, 플레이어가 '이 기술을 언제 쓸 것인가'라는 판단을 끊임없이 하도록 설계된 훌륭한 리스크-리워드 구조를 갖는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+II%3A+Scholar+of+the+First+Sin+%EC%A7%93%EB%B0%9F%EA%B8%B0+%EB%82%B4%EB%A6%AC%EC%B0%8D%EA%B8%B0+%EC%97%B0%EA%B3%84+%28Stomp+R2+Follow-up%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls2.wiki.fextralife.com/Fume+Ultra+Greatsword",
+        "gif": null
+      },
+      "tags": [
+        "two-handed",
+        "stomp",
+        "overhead-slam",
+        "high-risk-high-reward",
+        "poise-breaking",
+        "knockdown",
+        "ultra-greatsword",
+        "pvp-threat",
+        "two-hit-combo"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "울트라 대검"
+      ],
+      "id": "gs-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
