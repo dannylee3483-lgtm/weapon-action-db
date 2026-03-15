@@ -17329,6 +17329,78 @@
       ],
       "id": "kt-043",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍곡도 (Dual Curved Swords)",
+      "game": "Dark Souls II: Scholar of the First Sin",
+      "developer": "FromSoftware",
+      "actionName": "파워 스탠스 L1 연격 / Power Stance Dual Attack",
+      "actionType": "무기술",
+      "description": "동일 카테고리 무기 두 자루를 각 스탯 요구치의 150% 이상으로 장비한 뒤 L2(LT)를 길게 눌러 파워 스탠스를 발동하면, L1(LB) 입력 시 양손의 무기를 동시에 구사하는 특수 듀얼 공격 모션이 실행된다. 쌍곡도 조합의 경우 하체를 낮추며 양 검을 좌우 교차로 크게 휘어 넓은 수평호를 그리는 1타와, 연속 입력 시 나선형으로 연계되는 2타 패턴을 보여준다. 스태미나 소모가 크지만 히트박스가 광범위해 군중 처리와 포이즈 데미지에 효과적이며, 무기 조합에 따라 L1 모션이 완전히 달라진다.",
+      "motionType": [
+        "sweep",
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "crowd-control",
+          "dual-weapon-sync"
+        ],
+        "resourceCost": "스태미나 (고비용)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~14f",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "파워 스탠스는 다크 소울 2가 도입한 '무기 조합 기반 전투 확장' 시스템의 핵심으로, 동일 카테고리 무기 두 개를 스탯 요구치 초과 장비할 때만 해금되는 리워드 구조를 가진다. 단순한 한 손 무기 두 개 장비를 '고위험·고리워드'의 독립 전투 스타일로 격상시킴으로써, 빌드 투자에 대한 명확한 보상 피드백을 제공한다. 무기 카테고리 조합에 따라 L1 모션이 완전히 달라지는 모듈형 디자인은 빌드 다양성을 폭발적으로 늘려 리플레이어빌리티를 높인다. 이 시스템은 이후 엘든 링의 '쌍검 특수 모션' 및 DS3의 '분리 무기 강화'로 계승되며, 소울라이크 장르에서 쌍검 전투 설계의 기준점을 마련한 혁신적 사례로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+II%3A+Scholar+of+the+First+Sin+%ED%8C%8C%EC%9B%8C+%EC%8A%A4%ED%83%A0%EC%8A%A4+L1+%EC%97%B0%EA%B2%A9+%2F+Power+Stance+Dual+Attack+gameplay",
+        "images": [],
+        "wiki": "https://darksouls2.wiki.fextralife.com/Power+Stance",
+        "gif": null
+      },
+      "tags": [
+        "dual-wielding",
+        "power-stance",
+        "crowd-control",
+        "poise-breaking",
+        "build-variety",
+        "soulslike",
+        "weapon-synergy",
+        "stamina-management",
+        "stat-gate",
+        "fromsoft"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "쌍곡도",
+        "쌍도끼",
+        "쌍창",
+        "쌍단검"
+      ],
+      "id": "db-015",
+      "addedDate": "2026-03-15"
     }
   ]
 }
