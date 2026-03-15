@@ -18109,6 +18109,76 @@
       ],
       "id": "sc-013",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "해머 (Hammer)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "실크바인드 충파 (Silkbind Shockwave)",
+      "actionType": "무기술",
+      "description": "와이어버그의 실크를 이용해 전방으로 고속 이동하면서 해머를 고속 회전시켜 강력한 충격파를 발생시키는 기술이다. 회전 구간 내내 슈퍼아머가 부여되어 적의 공격을 맞아도 경직되지 않으며, 히트 시 높은 KO 데미지가 축적된다. 본래 기동성이 낮은 해머의 단점을 와이어버그라는 고유 리소스 소모로 해결하는 갭 클로저 역할도 겸한다.",
+      "motionType": [
+        "spin",
+        "charge",
+        "gap-closer"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "super-armor",
+          "KO-buildup",
+          "gap-closer",
+          "poise-breaking"
+        ],
+        "resourceCost": "와이어버그 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~28f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "실크바인드 충파는 Monster Hunter Rise의 와이어버그 시스템을 해머 고유의 플레이스타일에 정밀하게 통합한 사례다. 해머는 전통적으로 기동성이 낮고 차지 중 이동이 제한되어 갭 클로징이 취약했는데, 이 기술이 와이어버그라는 소모성 자원을 댓가로 그 약점을 정확히 보완한다. 슈퍼아머를 통한 생존성 부여와 높은 KO 축적이라는 보상이 명확한 리스크-리워드 구조를 형성하며, 자원 관리 판단력을 플레이어에게 지속적으로 요구한다. 회전 모션의 시각적 다이나미즘과 충격파 이펙트가 타격 피드백을 직관적으로 전달해 조작 만족도가 높다. 단일 기술이 기동성·생존성·스턴 누적이라는 세 가지 역할을 동시에 처리하도록 설계된 점이 Rise 시스템 디자인 철학을 잘 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%8B%A4%ED%81%AC%EB%B0%94%EC%9D%B8%EB%93%9C+%EC%B6%A9%ED%8C%8C+%28Silkbind+Shockwave%29+gameplay",
+        "images": [],
+        "wiki": "https://mhrise.wiki.fextralife.com/Hammer",
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "silkbind",
+        "ko-buildup",
+        "gap-closer",
+        "super-armor",
+        "wirebug",
+        "spin-attack",
+        "poise-breaking",
+        "resource-management",
+        "stun"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-015",
+      "addedDate": "2026-03-15"
     }
   ]
 }
