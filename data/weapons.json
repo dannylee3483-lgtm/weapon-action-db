@@ -19106,6 +19106,81 @@
       ],
       "id": "kt-046",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "스위치 액스 (Switch Axe)",
+      "game": "Monster Hunter Rise: Sunbreak",
+      "developer": "Capcom",
+      "actionName": "무적의 도박사 / Invincible Gambit",
+      "actionType": "실크바인드 기술",
+      "description": "와이어버그 1개를 소비해 전방으로 짧게 돌진하며 초갑각(슈퍼아머) 상태에 진입, 적의 공격에 경직되지 않으면서 도끼 모드로 3연속 강격을 퍼붓는 기술이다. 피해를 그대로 받으면서도 공격을 강행하는 '피해 교환'형 구조이며, 마지막 타격은 파일 폭발을 동반한 강력한 피니셔로 마무리된다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "super-armor",
+          "gap-closer",
+          "damage-trade",
+          "poise-breaking"
+        ],
+        "resourceCost": "와이어버그 1개",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~65f (3단 연속)",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "무적의 도박사는 '피해 감수'와 '딜 보장'의 트레이드오프를 기술 하나에 집약한 고위험-고보상 디자인의 교과서다. 슈퍼아머 덕분에 몬스터의 공격 타이밍을 무시하고 일방적으로 딜을 꽂아넣을 수 있지만, 받는 피해는 그대로여서 전투 전반의 체력 관리를 끊임없이 압박하는 구조다. 플레이어가 '회피'와 '공격'의 이분법을 버리고 능동적인 피해 트레이드를 전술로 삼도록 유도하며, 이는 Sunbreak 전체의 '공격성 극대화' 설계 철학과 일치한다. 와이어버그라는 유한 자원을 소비하므로 기술 타이밍과 자원 관리를 동시에 시험하며, 숙련도가 높아질수록 효율이 기하급수적으로 증가하는 '숙련도 표현의 계단'을 내장하고 있다. 초보는 쉽게 꺼내기 어렵고 고수는 전투 흐름을 장악하는 도구로 쓰는, 기술 난이도와 전략적 가치가 비례하는 이상적인 고급 기술 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise%3A+Sunbreak+%EB%AC%B4%EC%A0%81%EC%9D%98+%EB%8F%84%EB%B0%95%EC%82%AC+%2F+Invincible+Gambit+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Switch+Axe",
+        "gif": null
+      },
+      "tags": [
+        "super-armor",
+        "hyper-armor",
+        "risk-reward",
+        "silkbind",
+        "wirebug",
+        "gap-closer",
+        "damage-trade",
+        "phial-burst",
+        "aggressive-play",
+        "sunbreak"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "스위치 액스"
+      ],
+      "id": "ax-023",
+      "addedDate": "2026-03-15"
     }
   ]
 }
