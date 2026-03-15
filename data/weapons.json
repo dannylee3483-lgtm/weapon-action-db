@@ -4664,6 +4664,216 @@
       ],
       "id": "sp-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "스위치 액스 (Switch Axe)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "제로섬 방전 / Zero Sum Discharge",
+      "actionType": "특수기",
+      "description": "몬스터의 신체 부위에 밀착해 매달린 채 검 모드 피알 에너지를 연속 폭발로 방출하는 기술이다. 피알 게이지가 소진될 때까지 몬스터에 달라붙어 극대 피해를 누적하며, 마지막 폭발로 자동 이탈한다. 특정 부위 집중 파괴에 최적화된 딜링 패턴으로 스위치 액스의 핵심 피날레 기술이다.",
+      "motionType": [
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "part-break-focused",
+          "mounting-synergy"
+        ],
+        "resourceCost": "피알 게이지 (Phial)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~120f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "제로섬 방전은 고위험-고보상 구조의 정수를 보여주는 설계다. 몬스터에 밀착한 채 장시간 노출 상태를 유지해야 하므로 타이밍과 위치 판단이 필수이며, 성공 시 폭발적인 피해량으로 즉각적인 보상이 주어진다. 피알 게이지라는 전용 자원 소모 구조는 남용을 방지하면서 준비 과정에 전략적 무게감을 부여한다. 몬스터의 행동 패턴을 읽어야 안전하게 실행 가능하므로 숙련도와 직결된 학습 보상이 뚜렷하며, 스위치 액스의 변신 시스템과 결합되어 무기 고유의 아이덴티티를 강하게 표현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%A0%9C%EB%A1%9C%EC%84%AC+%EB%B0%A9%EC%A0%84+%2F+Zero+Sum+Discharge+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Switch+Axe",
+        "gif": null
+      },
+      "tags": [
+        "high-risk-high-reward",
+        "phial-burst",
+        "part-break",
+        "close-range",
+        "finisher",
+        "switch-axe",
+        "monster-hunter",
+        "axe-sword-transform",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "스위치 액스"
+      ],
+      "id": "ax-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "도끼 (Axe)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "금강 / Adamantine",
+      "actionType": "특수기",
+      "description": "하단 자세(Low Stance)에서 발동하며 대지에 뿌리를 내리듯 몸을 굳혀 적의 공격을 받아내는 반격 기술이다. 피격 시 대미지를 일부 흡수하며 오히려 Ki 게이지가 회복되는 독특한 메카닉을 지닌다. 발동 중 이동은 불가능하지만 슈퍼아머가 적용되어 연속 공격에도 자세를 유지한다.",
+      "motionType": [
+        "counter",
+        "charge"
+      ],
+      "element": {
+        "type": "땅",
+        "effectColor": [
+          "yellow",
+          "gold",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "super-armor",
+          "ki-recovery",
+          "poise-breaking",
+          "counter"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~60f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "금강은 도끼 무기 고유의 '느리지만 강인하다'는 판타지를 메카닉으로 구현한 설계 사례다. 이동 불능이라는 명백한 약점을 슈퍼아머와 Ki 회수라는 이점으로 상쇄해 리스크-리워드 균형을 정교하게 유지한다. 적의 공격 패턴을 읽어야 안전하게 발동할 수 있어 전투 이해도를 요구하는 스킬 게이팅 역할을 한다. Ki 회수 메카닉은 도끼의 높은 Ki 소모를 보완하는 자원 관리 루프를 형성해 장기전 전략 가치를 높이며, 느린 무기라는 선입견을 깨는 독창적인 아이덴티티 부여 방식이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EA%B8%88%EA%B0%95+%2F+Adamantine+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Axe",
+        "gif": null
+      },
+      "tags": [
+        "super-armor",
+        "ki-recovery",
+        "counter-play",
+        "stance-based",
+        "poise-breaking",
+        "risk-reward",
+        "low-stance",
+        "axe",
+        "adamantine",
+        "resource-loop"
+      ],
+      "applicableWeapons": [
+        "도끼"
+      ],
+      "id": "ax-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "전쟁 도끼 (War Axe)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "돌격 충전 / Stampede Charge",
+      "actionType": "특수기",
+      "description": "레이더(Raider) 캐릭터가 전속력으로 달려들며 어깨로 들이받는 돌격 기술이다. 피격된 적은 넉백되거나 벽에 충돌 시 기절 상태에 빠지며, 달린 거리에 비례해 충돌 피해와 넉백 거리가 증가한다. 이후 추가 콤보로 즉시 연계 가능하여 포지셔닝과 연속 압박을 동시에 수행한다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "wall-slam",
+          "gap-closer",
+          "terrain-interaction"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~15f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Stampede Charge는 대형 전쟁 도끼의 운동량과 전사의 압도적인 체격을 전투 메카닉으로 직접 번역한 설계다. 거리에 비례한 피해 증가는 플레이어가 전장 공간을 능동적으로 활용하도록 유도해 지형 인식을 핵심 전략 요소로 승격시킨다. 벽 충돌 시 추가 기절 효과는 포지셔닝 성공에 대한 명확하고 극적인 보상이며, 이후 콤보 연계 가능성이 모멘텀 유지의 흥분감을 증폭시킨다. 멀티플레이어 중심 게임 특성상 상대의 회피 타이밍을 역이용하는 심리전 요소와 결합되어 단순한 돌진 이상의 전략적 깊이를 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EB%8F%8C%EA%B2%A9+%EC%B6%A9%EC%A0%84+%2F+Stampede+Charge+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Raider",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "knockdown",
+        "wall-slam",
+        "momentum",
+        "terrain-interaction",
+        "raider",
+        "charge-attack",
+        "crowd-control",
+        "positioning",
+        "combo-opener"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "전쟁 도끼"
+      ],
+      "id": "ax-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
