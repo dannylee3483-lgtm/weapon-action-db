@@ -21189,6 +21189,75 @@
       ],
       "id": "ft-020",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "롱보우 (Longbow)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "폭풍 연사 / Tenfold Flurry",
+      "actionType": "차지 연사기",
+      "description": "활시위를 최대로 당긴 뒤 버튼을 해제하는 순간, 10발의 화살을 연속으로 퍼붓는 폭발적 연사 스킬이다. 각 화살은 독립적인 히트 판정을 가지며, 단일 대형 적에게 집중하면 극히 짧은 시간 안에 막대한 누적 피해를 입힌다. 인챈트 화살과 조합하면 모든 화살에 속성이 부여되어 원소 축적량이 폭발적으로 상승한다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "elemental-amplifier",
+          "burst-window"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60f (풀 차지 기준)",
+          "active": "~30f (10발 발사 구간)",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "단순한 '많이 쏜다'는 개념을 리스크-리워드 구조로 정교하게 설계한 스킬이다. 풀 차지 동안 캐릭터는 완전히 무방비 상태가 되므로, 플레이어는 적의 행동 패턴 중 안전 창(punish window)을 정확히 읽어야 한다. 10발이라는 다중 히트 구조는 단일 강타보다 속성 축적 및 부위 파괴에 특화되어, '언제 쏘느냐'만큼 '무엇에 쏘느냐'라는 전략적 타겟 선택을 핵심 재미로 끌어올린다. 비주얼 피드백 측면에서도 연발 화살이 차례로 꽂히는 시각·청각 연출이 만족감을 극대화하며, 플레이어 숙련도를 화려하게 표현하는 쇼케이스 액션으로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%ED%8F%AD%ED%92%8D+%EC%97%B0%EC%82%AC+%2F+Tenfold+Flurry+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Tenfold_Flurry_(Dragon%27s_Dogma_2)",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "charge-release",
+        "burst-damage",
+        "elemental-amplifier",
+        "punish-window",
+        "risk-reward",
+        "archer",
+        "single-target",
+        "stamina-cost",
+        "high-dps"
+      ],
+      "applicableWeapons": [
+        "롱보우",
+        "콤포짓 보우"
+      ],
+      "id": "bw-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
