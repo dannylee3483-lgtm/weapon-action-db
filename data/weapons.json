@@ -19323,6 +19323,75 @@
       ],
       "id": "wh-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "풍의 식 (Ethereal Wind Weaving)",
+      "game": "Ghostwire: Tokyo",
+      "developer": "Tango Gameworks",
+      "actionName": "풍의 식 연사 (Wind Weaving Rapid Shot / 風の式)",
+      "actionType": "기본 공격",
+      "description": "아키토가 양손으로 식법(式法) 수인을 맺어 바람 속성 에테르를 농축시킨 뒤, 빠른 속도로 복수의 바람 화살을 연속 발사하는 원거리 기본 공격이다. R2를 반복 입력하면 탄환이 연속으로 날아가며, 적의 코어 위크 포인트에 명중하면 코어가 노출되어 잡기 처형이 가능해진다. 에테르 에너지(ET) 게이지를 소모하며 탄이 소진되면 짧은 재장전 모션이 강제 삽입된다.",
+      "motionType": [
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "cyan",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "particle",
+          "beam",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "weak-point-targeting",
+          "rapid-fire",
+          "execution-setup"
+        ],
+        "resourceCost": "에테르 에너지(ET)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~4f (발당)",
+          "recovery": "~15f (재장전 시 ~70f)"
+        }
+      },
+      "designNotes": "풍의 식은 총기를 손 제스처로 대체한다는 독창적 판타지를 기본기 수준에서 가장 직접적으로 구현한 액션이다. 빠른 탄속과 긴 사거리로 안전 거리 유지 전략을 지원하면서도, ET 게이지라는 탄약 자원 제약으로 무한 연사를 억제해 플레이어가 주기적으로 전술 판단을 내리게 만든다. 재장전 취약 구간의 존재는 '공격 → 후퇴 → 재충전'의 리듬감 있는 전투 루프를 형성하며, 코어 노출 → 처형이라는 시각적·기계적 보상 구조가 원거리 사격에 명확한 목표 의식을 부여한다. 세 속성(풍·화·수) 중 가장 속도 중심으로 설계되어 진입 난이도가 낮고, 시스템 전체 온보딩 역할을 동시에 수행하는 복합적 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostwire%3A+Tokyo+%ED%92%8D%EC%9D%98+%EC%8B%9D+%EC%97%B0%EC%82%AC+%28Wind+Weaving+Rapid+Shot+%2F+%E9%A2%A8%E3%81%AE%E5%BC%8F%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "rapid-fire",
+        "resource-management",
+        "weak-point",
+        "wind-element",
+        "hand-gesture",
+        "ranged",
+        "execution-setup",
+        "ethereal-weaving"
+      ],
+      "applicableWeapons": [
+        "마법",
+        "원거리 공격"
+      ],
+      "id": "mg-015",
+      "addedDate": "2026-03-16"
     }
   ]
 }
