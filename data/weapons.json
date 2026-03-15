@@ -8026,6 +8026,222 @@
       ],
       "id": "bw-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "나노슈트 블레이드 (Nano Suit Blade)",
+      "game": "Stellar Blade",
+      "developer": "Shift Up",
+      "actionName": "스톰 서지 / Storm Surge",
+      "actionType": "베타 스킬 (Beta Skill)",
+      "description": "EVE가 베타 에너지를 집중하여 전방을 향해 8~12회의 연속 고속 베기를 퍼붓는 공세형 베타 스킬이다. 시전 중 EVE는 전진하며 타격 범위를 유지하고, 마지막 일격에서 에너지 파동이 추가로 방출된다. 베타 게이지를 소모하는 대신 근거리 다수 히트로 높은 총 대미지와 연속 압박을 보장한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "cyan",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "forward-momentum",
+          "beta-gauge-cost",
+          "stagger-lock"
+        ],
+        "resourceCost": "베타 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~60f (다수 히트)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Storm Surge는 리소스(베타 게이지) 소모라는 명확한 기회비용 위에 화려한 연속 타격이라는 보상을 얹어, 리스크-리워드 균형을 직관적으로 체감하게 만드는 구조다. 각 히트마다 누적되는 경미한 스태거가 '압박 상태'를 형성해 적의 반격 기회를 억제하고, 마지막 에너지 파동이 시각·청각적 클라이맥스를 연출해 기술이 완결되었음을 명확히 피드백한다. 버튼 하나로 연속기를 실행할 수 있어 초심자 접근성을 확보하면서도, 게이지 관리를 통해 숙련자에게는 전략적 선택 레이어를 제공하는 2층 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Stellar+Blade+%EC%8A%A4%ED%86%B0+%EC%84%9C%EC%A7%80+%2F+Storm+Surge+gameplay",
+        "images": [],
+        "wiki": "https://stellar-blade.wiki.fextralife.com/Skills",
+        "gif": null
+      },
+      "tags": [
+        "beta-skill",
+        "multi-hit",
+        "burst-damage",
+        "resource-cost",
+        "forward-momentum",
+        "high-spectacle",
+        "combo-finisher",
+        "energy-blade",
+        "stagger-lock",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "1H검"
+      ],
+      "id": "sw-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "클라이브의 브로드소드 (Clive's Broadsword)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix",
+      "actionName": "히트웨이브 / Heatwave",
+      "actionType": "이콘 어빌리티 (Eikon Ability)",
+      "description": "피닉스 이콘 어빌리티 중 하나로, 클라이브가 검을 위로 비스듬히 올려치며 화염 에너지로 이루어진 초승달 형태의 파동을 전방으로 발사한다. 이 파동은 적의 원거리 투사체와 충돌하면 이를 상쇄하고 더 강력한 반사체로 되돌려 보내는 특수 속성을 지닌다. 근거리 직격 시에는 불 속성 대미지와 경직을 부여하며, Phoenix Shift(돌진)와 연계해 즉각 거리를 좁혀 콤보를 이어갈 수 있다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "wave",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "projectile-reflect",
+          "fire-damage",
+          "gap-closer",
+          "combo-extender"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~15f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Heatwave는 근·원거리 상황 모두에 대응 가능한 멀티롤 어빌리티로, 전투 리듬을 끊지 않으면서도 전술적 깊이를 추가한다. 투사체 반사 속성은 플레이어가 피하기 대신 '역이용'을 선택할 수 있게 해, 수동적 회피를 능동적 역전의 카타르시스로 전환하는 설계다. Eikon 어빌리티를 자유롭게 슬롯에 조합하는 FFXVI의 빌드 시스템 안에서, Heatwave는 Phoenix Shift와 결합할 때 원거리 견제→돌진→근접 콤보로 이어지는 완결된 코어 루프를 형성한다. 쿨다운 제약은 남용을 방지하면서 사용 타이밍에 전략적 무게를 부여해 스킬 선택 자체가 의사결정이 되도록 만든다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%ED%9E%88%ED%8A%B8%EC%9B%A8%EC%9D%B4%EB%B8%8C+%2F+Heatwave+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Heatwave_(Final_Fantasy_XVI)",
+        "gif": null
+      },
+      "tags": [
+        "eikon-ability",
+        "projectile-reflect",
+        "fire",
+        "gap-closer",
+        "combo-starter",
+        "phoenix",
+        "cooldown",
+        "risk-reward",
+        "ranged-melee-hybrid",
+        "ff16"
+      ],
+      "applicableWeapons": [
+        "1H검"
+      ],
+      "id": "sw-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "피노키오의 검 (Pinocchio's Blade)",
+      "game": "Lies of P",
+      "developer": "Neowiz / Round8 Studio",
+      "actionName": "완벽 방어 카운터 / Perfect Guard Counter",
+      "actionType": "패리",
+      "description": "피노키오가 공격이 닿기 직전의 극히 짧은 타이밍에 가드 버튼을 입력하면 발동하는 퍼펙트 가드로, 피해를 완전히 차단하고 적에게 강한 스태거를 부여한다. 성공 시 상대의 균형이 무너지며 강력한 반격 공격(카운터 스매시)을 무방비 상태의 적에게 즉시 연결할 수 있다. 일반 가드와 달리 무기 내구도(Guard Regain) 소모가 없고, 적의 공격력 자체를 꺾는 공격적 방어 구조를 가진다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "damage-negate",
+          "poise-breaking",
+          "stagger-on-success",
+          "no-guard-regain-cost"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f (입력 인식)",
+          "active": "~4f (퍼펙트 윈도우)",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Lies of P의 퍼펙트 가드는 Sekiro식 패리를 계승하면서도, 실패 시 일반 가드로 대미지를 흡수하는 안전망을 두어 소울라이크 입문자의 진입 장벽을 낮추는 점이 독창적이다. 성공 피드백으로 금속 반향음과 금빛 섬광이 동시에 제공되어, 타이밍 학습이 청각·시각적 보상 루프로 강화된다. '방어 = 수동적'이라는 편견을 깨고 방어 행위 자체가 공격의 시작점이 되도록 설계하여, 숙련도가 오를수록 전투가 더 공격적으로 전환되는 성장 곡선을 만들어낸다. 페이블 아츠(Fable Arts)와 연계하면 패리→카운터→페이블 아츠 3단 응수 콤보가 성립되어, 숙련자에게는 더 높은 표현력을 허용하는 층위 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lies+of+P+%EC%99%84%EB%B2%BD+%EB%B0%A9%EC%96%B4+%EC%B9%B4%EC%9A%B4%ED%84%B0+%2F+Perfect+Guard+Counter+gameplay",
+        "images": [],
+        "wiki": "https://lies-of-p.wiki.fextralife.com/Perfect+Guard",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "perfect-guard",
+        "counter",
+        "soulslike",
+        "stagger",
+        "timing-based",
+        "risk-reward",
+        "defensive-offense",
+        "poise-breaking",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "대검",
+        "카타나"
+      ],
+      "id": "sw-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
