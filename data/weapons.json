@@ -3425,93 +3425,288 @@
     {
       "weaponCategory": "도끼",
       "weaponSubtype": "Leviathan Axe",
-      "game": "God of War",
+      "game": "God of War Ragnarok",
       "developer": "Santa Monica Studio",
-      "actionName": "도끼 소환 (Axe Recall)",
-      "actionType": "특수기",
-      "description": "크라토스가 던지거나 꽂아둔 레비아탄 도끼를 손으로 불러들이는 액션. 도끼가 허공을 가로질러 귀환하는 경로에 있는 모든 적을 얼음 속성으로 관통 타격하며, 손에 받아드는 순간 냉기 충격파가 발생한다. 이 귀환 기능 덕분에 원거리 투척과 근접 콤보가 끊김 없이 이어진다.",
+      "actionName": "Frost Fury (프로스트 퓨리)",
+      "actionType": "차지 공격",
+      "description": "도끼의 얼음 에너지를 모아 강력한 광폭 범위 공격을 방출하는 차지 기술. Kratos가 도끼를 비스듬히 들고 얼음 기운을 모은 후 180도 회전 스윕으로 주변 적들을 동시에 밀어낸다. 이 공격은 아이들의 얼음 치유 수치를 소비하지만 대신 광범위 군중 제어와 함께 높은 경직 피해를 입힌다.",
       "motionType": [
-        "throw",
-        "combo"
+        "charge",
+        "sweep",
+        "overhead"
       ],
       "element": {
         "type": "얼음",
         "effectColor": [
-          "blue",
           "cyan",
-          "white"
+          "white",
+          "light-blue"
         ],
         "effectStyle": [
-          "particle",
           "aura",
-          "slash-trail"
+          "wave",
+          "particle"
         ]
       },
       "mechanics": {
-        "startupSpeed": "fast",
-        "range": "long",
-        "staggerPower": "medium",
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
         "comboRole": [
           "finisher",
-          "extender"
+          "launcher"
         ],
         "specialProperties": [
-          "return-projectile",
-          "freeze",
-          "pierce"
+          "poise-breaking",
+          "crowd-control",
+          "area-of-effect"
         ],
-        "resourceCost": "없음",
+        "resourceCost": "아이의 얼음 에너지 (Runic Attack cooldown)",
         "frameApprox": {
-          "startup": "~6f",
-          "active": "~30f (귀환 중)",
-          "recovery": "~12f"
+          "startup": "~45f",
+          "active": "~25f",
+          "recovery": "~30f"
         }
       },
-      "designNotes": "도끼 소환은 '공격과 회수의 순환'을 하나의 버튼으로 압축한 혁신적 설계다. 던진 도끼를 언제든 소환할 수 있다는 조건 덕분에 플레이어는 도끼 없는 상태(맨손 공격)와 소환 타이밍 사이에서 능동적인 전략 선택을 하게 된다. 귀환 경로의 적 관통 타격은 '이동 중인 투사체도 전투 자원이 된다'는 원칙을 구현하며, 맨주먹 콤보 → 소환 피니시로 이어지는 리듬이 뚜렷한 전투 문법을 형성한다. 소환의 물리적 타격감(도끼가 손에 꽂히는 효과음과 진동 피드백)은 행동에 무게감을 부여해 수행 만족도를 극대화한다.",
+      "designNotes": "Frost Fury는 단순 근접 스윕이 아닌 '에너지 차징→방출'의 2단계 구조로 플레이어에게 명확한 캐스팅 윈도우를 부여한다. 이는 높은 보상(광폭 범위+높은 경직)에 대한 대가로 취약 시간을 설계한 클래식 risk-reward 구조다. 시각적 피드백(얼음 오라 확산, 이펙트 폭발)이 강력해 액션의 무게감과 즉각적 만족감을 전달하며, 다양한 적군 구성에 대한 문제 해결 수단으로 기능한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EB%8F%84%EB%81%BC+%EC%86%8C%ED%99%98+%28Axe+Recall%29+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnarok+Frost+Fury+%28%ED%94%84%EB%A1%9C%EC%8A%A4%ED%8A%B8+%ED%93%A8%EB%A6%AC%29+gameplay",
         "images": [],
-        "wiki": "https://godofwar.wiki.fextralife.com/Leviathan+Axe",
+        "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
         "gif": null
       },
       "tags": [
-        "axe-recall",
-        "frost",
-        "projectile-return",
+        "charge-attack",
+        "aoe",
         "crowd-control",
-        "pierce",
-        "god-of-war",
-        "leviathan-axe",
-        "freeze",
-        "combo-enabler"
+        "ice-element",
+        "poise-break",
+        "runic-attack",
+        "high-impact",
+        "axe-special"
       ],
       "applicableWeapons": [
         "도끼",
-        "투척 무기"
+        "양손 도끼"
       ],
       "id": "ax-004",
       "addedDate": "2026-03-15"
     },
     {
       "weaponCategory": "도끼",
-      "weaponSubtype": "斧 (Axe)",
+      "weaponSubtype": "Tonfa",
       "game": "Nioh 2",
       "developer": "Team Ninja",
-      "actionName": "대회전 (大回転, Spinning Axe)",
-      "actionType": "무기술",
-      "description": "도끼를 양손으로 잡고 몸을 축으로 크게 회전하며 주변 전체를 광역 타격하는 무기술. 회전 모션 중 특정 타이밍에 기(Ki) 펄스를 발동시킬 수 있어 소모된 기를 즉시 회복하면서 공격을 이어갈 수 있다. 마지막 회전 타격은 강한 경직을 유발하며 복수의 적을 동시에 휩쓸 수 있다.",
+      "actionName": "Backflip Strike (백플립 스트라이크)",
+      "actionType": "특수기",
+      "description": "검기(Ki) 회복 상태에서 발동 가능한 토리와 도끼 하이브리드의 뒤로 구르는 회피 액션과 동시에 공격을 연결하는 고급 기술. 플레이어가 적의 공격을 피하면서 회피 거리를 확보한 후 즉시 회피 모멘텀을 이용해 반격 공격으로 전환한다. 이는 dodge-cancel 메카닉의 핵심으로 적극적인 회피와 공격을 하나의 액션으로 통합한다.",
       "motionType": [
+        "dodge-cancel",
+        "counter",
         "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "i-frame",
+          "stance-change"
+        ],
+        "resourceCost": "Ki (회피 검기)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Nioh 2의 dodge-cancel 시스템은 수비적 행동(회피)을 공격적 이득(거리 확보+반격)으로 변환하는 혁신적 UX다. 플레이어의 타이밍 숙련도를 보상하며, 적 공격의 틈새를 적극적으로 활용하도록 유도한다. 이 디자인은 '회피 후 안전하게 반격'이라는 전형적 액션RPG 루틴을 '회피 자체가 반격'으로 재정의하여 전투 리듬감을 획기적으로 향상시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Backflip+Strike+%28%EB%B0%B1%ED%94%8C%EB%A6%BD+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Axes",
+        "gif": null
+      },
+      "tags": [
+        "dodge-cancel",
+        "i-frame",
+        "counter-attack",
+        "ki-management",
+        "offensive-defense",
+        "high-skill",
+        "punish-window"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "쌍검",
+        "봉"
+      ],
+      "id": "ax-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Poleaxe",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "Spiral Cleave (나선형 절단)",
+      "actionType": "콤보",
+      "description": "기(Qi) 회복 후 발동하는 포크스 형 도끼의 중급 콤보 피니셔. 플레이어가 180도 회전하며 도끼의 넓은 날을 아래에서 위로 크게 휘두르는 동작으로, 단일 대상뿐 아니라 주변 적들도 함께 히트시킬 수 있다. 낙마된 적이나 다운 상태의 적을 추가 피해로 실을 수 있으며, 스태미나 관리와 Qi 타이밍이 성공 여부를 결정한다.",
+      "motionType": [
         "sweep",
+        "spin",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "extender"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "poise-breaking",
+          "crowd-control"
+        ],
+        "resourceCost": "Qi (회복 필요)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~20f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Spiral Cleave는 Wo Long의 Qi 시스템의 핵심을 반영한다. 높은 보상(광폭 AoE+높은 경직)을 얻기 위해 플레이어는 회복 타이밍과 스태미나 관리 양쪽을 동시에 고려해야 한다. 이는 단순 피해 딜링을 넘어 '리소스 관리→예측→실행'의 3단계 의사결정 사이클을 강제하며, 중국 전통 무술의 '기(氣) 흐름'이라는 철학적 컨셉을 메카닉 레벨로 구현한 우수한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+Spiral+Cleave+%28%EB%82%98%EC%84%A0%ED%98%95+%EC%A0%88%EB%8B%A8%29+gameplay",
+        "images": [],
+        "wiki": "https://wololongfallandynasty.wiki.fextralife.com/Polearms",
+        "gif": null
+      },
+      "tags": [
+        "qi-management",
+        "combo-finisher",
+        "poise-break",
+        "crowd-control",
+        "risk-reward",
+        "stamina-cost",
+        "chinese-martial-arts"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "창",
+        "박봉"
+      ],
+      "id": "ax-006",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "Kusarigama",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "Kusarigama Spin (쿠사리가마 스핀)",
+      "actionType": "기본 공격|콤보",
+      "description": "쇠사슬에 달린 낫을 고속으로 회전시키는 광역 공격. 적을 넓은 범위에서 타격하며 스태미나 소모로 연쇄 사용 가능. 높은 콤보 지속성과 중거리 도달 거리가 특징.",
+      "motionType": [
+        "sweep",
+        "spin",
         "combo"
       ],
       "element": {
         "type": "없음",
         "effectColor": [
           "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "opener"
+        ],
+        "specialProperties": [
+          "continuous",
+          "crowd-control"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~30f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Team Ninja는 Kusarigama를 고속 회전 콤보의 중심축으로 설계하여 초보자부터 상급자까지 접근 가능하게 만들었다. 높은 콤보 지속성과 낮은 시간당 패널티의 균형으로 리스크-리워드를 효과적으로 구성했으며, 스태미나 관리가 핵심 메커닉이 된다. 쇠사슬 무기의 독특한 광역 회전 특성이 타 무기들과 차별화되어 플레이스타일 다양성을 높인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Kusarigama+Spin+%28%EC%BF%A0%EC%82%AC%EB%A6%AC%EA%B0%80%EB%A7%88+%EC%8A%A4%ED%95%80%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Kusarigama",
+        "gif": null
+      },
+      "tags": [
+        "combo-focused",
+        "crowd-control",
+        "stamina-intensive",
+        "wide-range",
+        "rotation"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "연쇄 무기"
+      ],
+      "id": "sc-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "Naginata Scythe",
+      "game": "Persona 5 Royal",
+      "developer": "Atlus",
+      "actionName": "Agneyastra (애그네야스트라)",
+      "actionType": "특수기|화염 속성",
+      "description": "Makoto의 Persona Qillin이 발동하는 전체 대상 화염 속성 기술. 낫 형태의 무기로 연속 베기를 수행한 후 화염 에너지를 방출하여 모든 적을 동시에 타격. 높은 위력과 화염 상태 이상 부여.",
+      "motionType": [
+        "slash",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
           "orange"
         ],
         "effectStyle": [
+          "explosion",
           "slash-trail",
           "particle"
         ]
@@ -3521,113 +3716,105 @@
         "range": "medium",
         "staggerPower": "high",
         "comboRole": [
-          "extender",
-          "finisher"
+          "finisher",
+          "ender"
         ],
         "specialProperties": [
-          "area-of-effect",
-          "ki-pulse-integrated",
-          "poise-breaking"
+          "all-target",
+          "status-ailment"
         ],
-        "resourceCost": "기(Ki)",
+        "resourceCost": "SP",
         "frameApprox": {
-          "startup": "~18f",
-          "active": "~40f",
+          "startup": "~20f",
+          "active": "~25f",
           "recovery": "~20f"
         }
       },
-      "designNotes": "Nioh 2의 도끼 회전 공격은 '높은 위험·높은 보상' 구조를 ki 시스템과 정교하게 엮은 사례다. 도끼는 타 무기 대비 기 소모가 크고 모션이 느리지만, 회전 중 기 펄스 타이밍을 맞추면 소모를 상쇄하여 '무거운 무기 = 느리고 취약하다'는 편견을 뒤집는다. 광역 범위는 다수전에서 명확한 가치를 부여하며, 기 관리 능력 유무가 숙련자와 초보 간 성능 차이를 만들어 성장 곡선을 설계한다. 시각적 호에 맞게 판정이 정직하게 구현되어 플레이어가 범위를 직관적으로 읽을 수 있어 신뢰도 높은 전투 피드백을 제공한다.",
+      "designNotes": "Atlus는 Makoto의 캐릭터 컨셉인 강화와 공격성을 Agneyastra로 집약했으며, 이는 SP 소모와 높은 위력의 명확한 트레이드오프로 구성된다. 전체 대상 공격이므로 집단 전투에서의 전략적 가치가 높으며, 화염 속성 비주얼 피드백이 강렬하여 플레이어의 카타르시스를 극대화한다. 선택적 SP 소비 메커닉으로 턴 기반 전술의 깊이를 더한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EB%8C%80%ED%9A%8C%EC%A0%84+%28%E5%A4%A7%E5%9B%9E%E8%BB%A2%2C+Spinning+Axe%29+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=Persona+5+Royal+Agneyastra+%28%EC%95%A0%EA%B7%B8%EB%84%A4%EC%95%BC%EC%8A%A4%ED%8A%B8%EB%9D%BC%29+gameplay",
         "images": [],
-        "wiki": "https://nioh2.wiki.fextralife.com/Axe",
+        "wiki": "https://megamitensei.fandom.com/wiki/Makoto_Niijima",
         "gif": null
       },
       "tags": [
-        "spin-attack",
-        "area-of-effect",
-        "ki-management",
-        "ki-pulse",
-        "crowd-control",
-        "nioh2",
-        "high-risk-high-reward",
-        "poise-breaking"
+        "persona-skill",
+        "fire-attribute",
+        "all-target",
+        "high-power",
+        "status-effect"
       ],
       "applicableWeapons": [
-        "도끼"
+        "낫",
+        "나기나타"
       ],
-      "id": "ax-005",
+      "id": "sc-002",
       "addedDate": "2026-03-15"
     },
     {
-      "weaponCategory": "도끼",
-      "weaponSubtype": "Great Axe",
-      "game": "For Honor",
-      "developer": "Ubisoft Montreal",
-      "actionName": "천둥 강습 (Thunder Strike)",
-      "actionType": "차지 공격",
-      "description": "레이더(Raider) 영웅이 대형 도끼를 머리 위로 들었다가 전방으로 내리찍는 차지 공격. 완전 차지 시 언블록어블(Unblockable) 판정이 부여되어 상대방의 가드를 무효화하며, 히트 시 강한 넉다운과 추가 공격 기회를 만들어낸다. 빠른 헤비 공격과의 타이밍 믹스업으로 상대의 반응 판단을 흐트러뜨리는 압박 도구로 기능한다.",
+      "weaponCategory": "낫",
+      "weaponSubtype": "Scythe",
+      "game": "Castlevania: Lords of Shadow 2",
+      "developer": "MercurySteam",
+      "actionName": "Reaper's Scythe (죽음의 낫)",
+      "actionType": "특수 무기|차지 공격",
+      "description": "Gabriel이 특수 무기로 습득하는 어둠 속성 낫. 높은 도달 거리와 넓은 베기 범위를 가지며, 차지 공격으로 강화된 스매시 수행 가능. 상대의 방어를 부분적으로 무시하고 높은 경직력 제공.",
       "motionType": [
+        "slash",
         "overhead",
-        "charge",
-        "combo"
+        "sweep",
+        "charge"
       ],
       "element": {
-        "type": "없음",
+        "type": "어둠",
         "effectColor": [
-          "white",
-          "yellow"
+          "purple",
+          "black"
         ],
         "effectStyle": [
-          "slash-trail",
-          "particle"
+          "particle",
+          "aura"
         ]
       },
       "mechanics": {
-        "startupSpeed": "slow",
-        "range": "medium",
-        "staggerPower": "very-high",
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
         "comboRole": [
-          "finisher",
+          "opener",
+          "extender",
           "punish"
         ],
         "specialProperties": [
-          "unblockable",
-          "knockdown",
-          "guard-bypass",
-          "mixup-tool"
+          "armor-break",
+          "gap-closer"
         ],
-        "resourceCost": "없음",
+        "resourceCost": "마력 (Magic Power)",
         "frameApprox": {
-          "startup": "~700ms",
-          "active": "~200ms",
-          "recovery": "~600ms"
+          "startup": "~15f",
+          "active": "~20f",
+          "recovery": "~18f"
         }
       },
-      "designNotes": "For Honor에서 '언블록어블' 속성은 단순한 무적기가 아니라 가드 중심 플레이에 대한 구조적 카운터다. Thunder Strike는 느린 선딜로 상대에게 회피 기회를 주지만, 완전 차지 시 가드를 뚫는 조건이 방어 메타에 명확한 리스크를 부과한다. 빠른 헤비와 느린 차지 사이의 타이밍 믹스업은 읽기 게임(mind game)의 핵심 축이 되며, 긴 회복 프레임은 막혔을 때 확정 패널티를 보장한다. 이는 '강력한 공격일수록 명확한 단점이 존재해야 한다'는 균형 설계 원칙의 교과서적 구현이다.",
+      "designNotes": "MercurySteam은 Castlevania 시리즈의 특수 무기 전통을 이어가면서 Scythe를 방어 지향 상대에 특화된 무기로 설계했다. 차지 메커닉으로 위력 스케일링을 제어하며, 어둠 속성의 마력을 시각화하여 게임의 고딕 분위기를 강화한다. 중거리 이상의 우수한 범위와 높은 경직력으로 단독 전투 우위를 제공하면서도, 마력 자원 관리로 남용을 방지한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EC%B2%9C%EB%91%A5+%EA%B0%95%EC%8A%B5+%28Thunder+Strike%29+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+2+Reaper%27s+Scythe+%28%EC%A3%BD%EC%9D%8C%EC%9D%98+%EB%82%AB%29+gameplay",
         "images": [],
-        "wiki": "https://forhonor.fandom.com/wiki/Raider",
+        "wiki": "https://castlevania.fandom.com/wiki/Scythe",
         "gif": null
       },
       "tags": [
-        "unblockable",
-        "overhead-slam",
-        "knockdown",
-        "mixup",
-        "for-honor",
-        "guard-bypass",
-        "punish",
+        "special-weapon",
+        "dark-attribute",
         "charge-attack",
-        "mind-game"
+        "high-range",
+        "armor-break"
       ],
       "applicableWeapons": [
-        "도끼",
-        "대검",
-        "해머"
+        "낫",
+        "대형 무기"
       ],
-      "id": "ax-006",
+      "id": "sc-003",
       "addedDate": "2026-03-15"
     }
   ]
