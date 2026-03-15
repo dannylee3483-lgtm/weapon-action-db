@@ -18252,6 +18252,77 @@
       ],
       "id": "ft-016",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "매직 아처 마법 활 (Magick Archer Bow)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "리코셰트 헌터 (Ricochet Hunter)",
+      "actionType": "특수기",
+      "description": "마법 에너지로 충전된 화살을 발사하면 첫 번째 대상에 명중한 뒤 주변 적들 사이를 자동으로 튕겨 다니며 최대 수회 연쇄 타격을 가하는 기술이다. 화살의 탐색 반경 내에 적이 존재하는 한 자동으로 다음 타겟을 선정해 궤적을 꺾어 날아가며, 밀집된 적 무리일수록 연쇄 횟수가 늘어난다. 매직 아처의 정체성을 상징하는 핵심 스킬로, 단일 투사체가 마치 살아있는 것처럼 전장을 누비는 시각적 장관을 연출한다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "purple",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "beam",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "homing",
+          "chain-targeting",
+          "crowd-control",
+          "multi-hit"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~60f (체인 지속)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "리코셰트 헌터는 '한 번의 결정으로 다수에게 영향을 미친다'는 고급 사격술의 판타지를 구현한 디자인 사례다. 플레이어가 첫 타겟만 조준하면 이후 체인은 시스템이 자동으로 연결하는 구조로, 전략적 의사결정과 실행을 분리하여 인지 부하 없이 강력한 결과를 체험하게 한다. 적이 밀집할수록 효과가 기하급수적으로 커지는 보상 구조는 플레이어로 하여금 자연스럽게 군중 유인, 포지셔닝 제어 등 전술적 플레이를 실천하게 유도한다. 물리 법칙과 마법적 연출이 결합된 화살의 꺾이는 궤적은 납득 가능한 판타지를 제공하며, 체인이 이어질 때마다 누적되는 시각·청각 피드백이 성취감을 극대화한다. 리소스 소모 없이 기본 스킬로 이 수준의 연출과 효과를 제공한다는 점에서 접근성과 심도를 동시에 달성한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EB%A6%AC%EC%BD%94%EC%85%B0%ED%8A%B8+%ED%97%8C%ED%84%B0+%28Ricochet+Hunter%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "chain-targeting",
+        "crowd-control",
+        "magick-archer",
+        "multi-hit",
+        "homing",
+        "ricochet",
+        "aoe",
+        "tactical",
+        "fantasy-archery"
+      ],
+      "applicableWeapons": [
+        "매직 아처 활",
+        "마법 활"
+      ],
+      "id": "bw-017",
+      "addedDate": "2026-03-15"
     }
   ]
 }
