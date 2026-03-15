@@ -20543,6 +20543,77 @@
       ],
       "id": "mg-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Greatsword)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "헌팅 엣지 (Hunting Edge / ハンティングエッジ)",
+      "actionType": "와이어버그 기술 (Silkbind Attack)",
+      "description": "와이어버그 실을 이용해 높이 도약한 뒤, 공중에서 대검을 크게 충전하여 수직으로 내리꽂는 실크바인드 기술이다. 지상의 이동 제약을 벗어나 몬스터의 머리 위로 올라타며, 착지와 동시에 폭발적인 수직 타격을 가한다. 히트 시 대형 몬스터에게 대량의 부위 피해와 함께 넘어뜨림 효과를 동반한다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "gap-closer",
+          "poise-breaking",
+          "aerial",
+          "mounting-damage"
+        ],
+        "resourceCost": "와이어버그 1마리",
+        "frameApprox": {
+          "startup": "~42f",
+          "active": "~18f",
+          "recovery": "~38f"
+        }
+      },
+      "designNotes": "헌팅 엣지는 대검의 전통적인 '지상 대기 → 충전 → 강타' 패턴을 수직 차원으로 확장한 설계다. 와이어버그라는 제한 자원을 소비하므로 리스크-리워드가 명확하며, 공중 상승 중 판정이 시작되어 타이밍 실수 시 전체 행동을 낭비하는 패널티가 존재한다. 몬스터 머리 부위에 정확히 착지해야 최대 피해를 주는 에임 요소가 기술 숙련도의 깊이를 형성하고, 단순한 버튼 입력 이상의 3D 공간 읽기를 요구한다. 기존 World의 대검이 인내와 차지 타이밍에 집중했다면, Rise의 헌팅 엣지는 공간 포지셔닝과 자원 관리를 핵심 스킬로 추가하여 무기의 표현 범위를 입체적으로 확장했다. 수직 이동이라는 직관적 시각 연출이 '하늘에서 내려찍는' 판타지를 명확히 전달한다는 점에서 피드백 설계도 우수하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%ED%97%8C%ED%8C%85+%EC%97%A3%EC%A7%80+%28Hunting+Edge+%2F+%E3%83%8F%E3%83%B3%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%A8%E3%83%83%E3%82%B8%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Greatsword",
+        "gif": null
+      },
+      "tags": [
+        "silkbind",
+        "aerial",
+        "gap-closer",
+        "charged-attack",
+        "knockdown",
+        "greatsword",
+        "mounting",
+        "high-risk-high-reward",
+        "positioning",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-044",
+      "addedDate": "2026-03-16"
     }
   ]
 }
