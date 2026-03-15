@@ -20831,6 +20831,77 @@
       ],
       "id": "wh-021",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "프리미티브 보우 / 워 보우 (Primitive Bow / War Bow)",
+      "game": "Horizon Zero Dawn",
+      "developer": "Guerrilla Games",
+      "actionName": "눈물 화살 / Tearblast Arrow",
+      "actionType": "특수기",
+      "description": "기계 부위에 압축 공기를 발사하여 해당 부품을 강제로 분리시키는 정밀 사격 기술이다. 기계의 약점 부위(화염통, 냉각 심장부 등)를 조준하여 발사하면 그 부품을 탈거하거나 노출시켜 후속 공격의 효율을 크게 높인다. 단순 데미지보다는 전투 구조를 재편하는 '상태 조작'에 초점을 맞춘 액션이다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "component-removal",
+          "precision-targeting",
+          "debuff-setup",
+          "resource-drop"
+        ],
+        "resourceCost": "쿨다운 (화살 소모)",
+        "frameApprox": {
+          "startup": "~60f (조준 포함)",
+          "active": "~5f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "눈물 화살은 '데미지 딜링'이 아닌 '전투 구조 변경'을 목적으로 설계된 희귀한 형태의 공격 기술이다. 플레이어가 부위 파괴라는 중간 목표를 설정하고 조준과 자원 소모를 감수하게 만들어, 단순 공격 루프를 전략적 판단 루프로 격상시킨다. 부품 탈거 성공 시 더 큰 피해 기회가 생기는 리스크-리워드 구조는 고난도 기계 사냥의 핵심 재미를 형성한다. 또한 탈거된 부품이 지형에 떨어져 회수 가능한 자원이 되므로, 전투와 수집 루프를 하나의 행동으로 통합하는 설계 효율이 뛰어나다. 이는 활이라는 무기를 '원거리 딜러'에서 '전장 분석가'로 재정의하는 Horizon 전투 철학의 핵심이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Horizon+Zero+Dawn+%EB%88%88%EB%AC%BC+%ED%99%94%EC%82%B4+%2F+Tearblast+Arrow+gameplay",
+        "images": [],
+        "wiki": "https://horizon.fandom.com/wiki/Tearblast_Arrow",
+        "gif": null
+      },
+      "tags": [
+        "component-removal",
+        "precision-targeting",
+        "bow",
+        "debuff-setup",
+        "strategic",
+        "resource-farming",
+        "machine-hunting",
+        "long-range",
+        "risk-reward",
+        "horizon"
+      ],
+      "applicableWeapons": [
+        "프리미티브 보우",
+        "워 보우",
+        "샤프샷 보우"
+      ],
+      "id": "bw-018",
+      "addedDate": "2026-03-16"
     }
   ]
 }
