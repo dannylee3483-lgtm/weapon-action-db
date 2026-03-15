@@ -9336,6 +9336,219 @@
       ],
       "id": "sp-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "바이킹 대형 전투 도끼 (Viking Greataxe)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "폭풍 돌격 / Storm Rush",
+      "actionType": "차지 공격",
+      "description": "레이더(Raider) 영웅의 시그니처 차지 기술로, 짧게 대쉬하며 강력한 불가막기(Unblockable) 타격을 전방에 날린다. 입력 직후 좌·우·상 세 방향 중 하나로 전환 가능해 상대방의 가드 방향을 교란시키는 핵심 믹스업 도구로 기능한다. 적이 방어에 집중하는 순간 공격 방향을 바꿔 가드를 뚫는 '리드(Read)' 플레이의 근간이 되는 액션이다.",
+      "motionType": [
+        "charge",
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "unblockable",
+          "poise-breaking",
+          "direction-change",
+          "knockdown"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~40f",
+          "active": "~10f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Storm Rush는 '정보 비대칭과 심리전'을 물리 메카닉으로 구현한 교과서적 사례다. 차지 중 방향 전환이 가능하다는 단순 규칙이 공격자와 수비자 모두에게 다층적 의사결정을 강제하며, 불가막기 속성은 '반드시 피하거나 반격해야 한다'는 명확한 리스크를 만든다. 느린 선딜로 반응 시간을 충분히 부여하면서도 방향 변환으로 예측을 어렵게 해, 숙련도 차이가 플레이어 실력에 정직하게 반영되는 설계다. 무기의 묵직한 중량감을 손상시키지 않으면서 전략적 깊이를 동시에 제공하는 밸런스의 모범이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%ED%8F%AD%ED%92%8D+%EB%8F%8C%EA%B2%A9+%2F+Storm+Rush+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Raider",
+        "gif": null
+      },
+      "tags": [
+        "unblockable",
+        "direction-change",
+        "mixup",
+        "psychological-pressure",
+        "heavy-attack",
+        "risk-reward",
+        "guard-break",
+        "crowd-control",
+        "high-stagger"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "해머",
+        "대검"
+      ],
+      "id": "ax-013",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "이집트식 전투 도끼 (Egyptian Battle Axe)",
+      "game": "Assassin's Creed Origins",
+      "developer": "Ubisoft Montreal",
+      "actionName": "압도 공격 / Overpower Attack",
+      "actionType": "특수기",
+      "description": "오버파워 게이지가 채워졌을 때 발동하는 도끼 전용 강화 공격으로, 바예크(Bayek)가 도끼를 크게 치켜들고 내리꽂아 주변 적들에게 광역 피해를 주며 다운을 유발한다. 연속 공격이나 패리 성공 시 축적되는 게이지 자원 관리를 요구하며, 발동 시 카메라가 클로즈업되는 연출로 즉각적이고 강렬한 피드백을 제공한다. 도끼 특유의 묵직한 타격감과 함께 방패 장착 적의 가드를 무력화하는 실드 브레이커 역할을 겸한다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "launcher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "shield-breaker",
+          "resource-based"
+        ],
+        "resourceCost": "오버파워 게이지",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~15f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Overpower Attack은 자원 관리를 전투 흐름에 자연스럽게 통합하는 방식의 교과서 사례다. 단순 '데미지 버튼'이 아니라 방패 적 처리, 다수 적 쓰러트리기, 카운터 기회 창출 등 전술적 맥락이 명확히 구분된다. 강한 카메라 연출과 파티클로 '사용했을 때의 보람'을 즉각 전달하면서, 느린 선딜과 긴 후딜로 오남용을 억제하는 리스크-리워드 구조가 뚜렷하다. 도끼의 '무겁고 파괴적인' 판타지를 기계적 속성(방패 파괴)과 시각적 연출 양쪽에서 동시에 구현했다는 점이 설계적으로 특히 우수하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Assassin%27s+Creed+Origins+%EC%95%95%EB%8F%84+%EA%B3%B5%EA%B2%A9+%2F+Overpower+Attack+gameplay",
+        "images": [],
+        "wiki": "https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed:_Origins",
+        "gif": null
+      },
+      "tags": [
+        "overpower",
+        "resource-management",
+        "shield-breaker",
+        "aoe",
+        "knockdown",
+        "heavy-attack",
+        "crowd-control",
+        "finisher",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "해머"
+      ],
+      "id": "ax-014",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "쌍수 전투 도끼 (Dual Battle Axes)",
+      "game": "Diablo IV",
+      "developer": "Blizzard Entertainment",
+      "actionName": "격진 / Upheaval",
+      "actionType": "특수기",
+      "description": "야만용사(Barbarian)가 장착한 도끼들을 땅에 내리꽂으며 전방 원뿔형 범위에 지진파를 일으키는 스킬로, 화염 또는 출혈 상태이상을 함께 부여할 수 있다. 분노(Fury) 자원을 소모하며, 증폭 시 지진파 충격 횟수가 늘어나 다수의 적을 동시에 강타한다. 거대한 불꽃·흙먼지 충격파 이펙트와 화면 흔들림이 야만용사의 파괴적 판타지를 극적으로 연출한다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "knockdown",
+          "bleed-buildup",
+          "crowd-control",
+          "resource-based",
+          "multi-hit"
+        ],
+        "resourceCost": "분노(Fury) 40",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~30f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Upheaval은 ARPG 장르에서 '강력한 일격'과 '지속 폭발' 사이의 균형을 효과적으로 달성한 스킬이다. 분노 자원 소모를 통해 기본 공격과의 자연스러운 순환을 만들고, 충분한 자원이 쌓였을 때 사용하는 명확한 '방출 타이밍'을 플레이어에게 제공한다. 패시브 연계로 출혈·화염 상태이상을 선택 적용할 수 있어 빌드 다양성을 보장하며, 단일 스킬로도 여러 전략적 역할을 수행한다. 땅울림 파티클과 카메라 셰이크는 타격감을 배가시키며, '힘으로 대지를 가른다'는 원시적 쾌감을 시각·촉각적으로 동시에 구현한 점이 설계의 핵심이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%EA%B2%A9%EC%A7%84+%2F+Upheaval+gameplay",
+        "images": [],
+        "wiki": "https://diablo4.wiki.fextralife.com/Upheaval",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "crowd-control",
+        "resource-management",
+        "bleed-buildup",
+        "fury-cost",
+        "ground-slam",
+        "multi-hit",
+        "heavy-attack",
+        "build-variety"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "해머",
+        "대검"
+      ],
+      "id": "ax-015",
+      "addedDate": "2026-03-15"
     }
   ]
 }
