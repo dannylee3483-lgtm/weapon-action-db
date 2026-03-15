@@ -16766,6 +16766,78 @@
       ],
       "id": "sp-022",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "대도끼 (Great Axe)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "원시의 분노 / Primal Rend",
+      "actionType": "무기술",
+      "description": "Inner Release(원초의 방출) 상태에서 5회 GCD 공격을 수행해 Primal Ruination 버프를 적층한 뒤에만 발동 가능한 워리어의 버스트 피니셔. 전사가 대도끼를 크게 들어 올리며 전방으로 도약한 후 지면을 강타, 주 타겟과 130도 원뿔 범위 내 적 전체에게 막대한 광역 피해를 입힌다. 폭발적인 붉은 에너지 이펙트와 함께 발동되며 워리어 단일·광역 로테이션 양쪽의 최고점을 장식하는 결정타다.",
+      "motionType": [
+        "overhead",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "gap-closer",
+          "burst-window-finisher",
+          "buff-dependent"
+        ],
+        "resourceCost": "Inner Release + Primal Ruination 버프 (버스트 창 내 소비)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~20f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Primal Rend는 단순한 강공격이 아니라 버프 관리→GCD 최적화→피니셔 발동으로 이어지는 3단계 조건부 보상 구조를 명확히 구현한다. Inner Release 버스트 창(15초) 안에서만 선행 버프를 충족할 수 있어, 플레이어는 타이밍 압박 속에서 정밀한 로테이션 수행을 강요받으며 성취감을 극대화한다. 도약-광역 내리찍기라는 직관적인 모션이 대형 수치·폭발 이펙트·타격음과 결합되어 시청각 피드백이 정점에 달하고, 잘 완성된 버스트 사이클에 대한 즉각적이고 명확한 보상을 제공한다. 단일 타겟과 다수 타겟 상황 모두에 유효한 원뿔형 AoE 설계로 상황 유연성을 확보하면서도, 선행 조건이 무분별한 남용을 차단해 전략적 판단을 유도하는 리스크-리워드 균형의 교과서적 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%9B%90%EC%8B%9C%EC%9D%98+%EB%B6%84%EB%85%B8+%2F+Primal+Rend+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Primal_Rend",
+        "gif": null
+      },
+      "tags": [
+        "burst-finisher",
+        "aoe",
+        "gap-closer",
+        "overhead-slam",
+        "buff-dependent",
+        "mmorpg",
+        "great-axe",
+        "rotation-finisher",
+        "warrior",
+        "leap-attack"
+      ],
+      "applicableWeapons": [
+        "대도끼",
+        "도끼"
+      ],
+      "id": "ax-021",
+      "addedDate": "2026-03-15"
     }
   ]
 }
