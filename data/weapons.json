@@ -18179,6 +18179,79 @@
       ],
       "id": "hm-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 / 장권 (Palm Strike)",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Studios",
+      "actionName": "데스피스트 / Deathfist (崩山撃)",
+      "actionType": "특수기",
+      "description": "폴 피닉스의 트레이드마크 기술로, 앞으로 반보 돌진하며 강력한 단타 장권을 상대 명치에 꽂아 넣는다. Power Crush(아머) 속성이 있어 상대의 중단·상단 공격을 맞으면서도 끝까지 발동되며, 히트 시 상대를 수평으로 멀리 날려 벽 바운드까지 유발한다. Heat 시스템 활성화 상태에서는 이펙트와 파워가 강화되어 추가 콤보로 이어지는 확정 루트가 열린다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "gap-closer",
+          "armor",
+          "wall-splat"
+        ],
+        "resourceCost": "없음 (Heat 강화 시 Heat 소모)",
+        "frameApprox": {
+          "startup": "~17f",
+          "active": "~3f",
+          "recovery": "~28f (on block)"
+        }
+      },
+      "designNotes": "데스피스트는 '캐릭터 아이덴티티를 단 한 가지 입력으로 표현'하는 디자인 철학의 교과서다. 폴 피닉스라는 캐릭터—우주 최강의 사나이—의 철학을 Power Crush 속성과 단타 고데미지로 구현하여, 이 기술 하나만으로 캐릭터의 전투 개성이 즉각 전달된다. 아머 속성은 '먼저 치고 버티는' 배짱을 전술적 선택지로 만들어 리스크-리워드 구조를 명확히 한다. 반면 로우 공격과 슈퍼아머 미적용 구간이 존재해 숙련 상대에게는 명확한 카운터 수단이 주어지며, 일방적인 밸런스 붕괴를 막는다. Heat 시스템과 결합된 강화 버전은 장면 연출과 피드백 강도를 극적으로 높여 '한 방'의 카타르시스를 더욱 확장한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%EB%8D%B0%EC%8A%A4%ED%94%BC%EC%8A%A4%ED%8A%B8+%2F+Deathfist+%28%E5%B4%A9%E5%B1%B1%E6%92%83%29+gameplay",
+        "images": [],
+        "wiki": "https://tekken.fandom.com/wiki/Paul_Phoenix",
+        "gif": null
+      },
+      "tags": [
+        "power-crush",
+        "armor",
+        "single-hit",
+        "high-damage",
+        "gap-closer",
+        "character-identity",
+        "punish",
+        "wall-splat",
+        "heat-system",
+        "fist-fighting"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손"
+      ],
+      "id": "ft-016",
+      "addedDate": "2026-03-15"
     }
   ]
 }
