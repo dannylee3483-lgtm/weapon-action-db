@@ -19084,7 +19084,7 @@
       },
       "designNotes": "총알 반사는 '방어와 공격의 이분법 해소'라는 디자인 원칙을 극단적으로 구현한 메카닉이다. 회피 행위(총알 막기)가 즉각 공격 수단(반사탄)으로 전환되어, 리스크 회피와 딜링이 동일한 단일 입력으로 처리된다. 게임 전체가 '원히트 킬' 철학 위에 설계되어 있어 반사 성공 시의 보상(즉사)과 실패 시의 패널티(플레이어 즉사) 양쪽이 대칭적으로 극단화되며 극도로 높은 긴장감을 형성한다. 크로노스 시간 감속과의 시너지는 퍼즐적 사고를 전투에 접목해 '최적 경로 시뮬레이션 후 실행'이라는 인지적 레이어를 추가한다. 이 구조는 단순 반사신경 게임이 아닌 계획-실행-보상의 3단계 만족감을 한 번의 슬래시로 압축해 제공하는 고밀도 피드백 설계의 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Katana+ZERO+%EC%B4%9D%EC%95%8C+%EB%B0%98%EC%82%AC+%2F+Bullet+Deflect+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=ACQCDDvzTjU",
         "images": [],
         "wiki": null,
         "gif": null
