@@ -3013,6 +3013,198 @@
       ],
       "id": "db-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "Spear (槍)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "Mid-Stance Rapid Thrust Combo (중단 자세 연쇄 찌르기)",
+      "actionType": "기본 공격|콤보",
+      "description": "중간 자세(Mid Stance)에서 수행하는 빠른 찌르기 연쇄 공격으로, 각 공격 후 Ki Pulse를 통해 스태미나를 회복할 수 있다. 다양한 스탠스 변경으로 플레이 스타일을 유동적으로 전환할 수 있는 Nioh 2의 핵심 메커닉을 잘 보여준다.",
+      "motionType": [
+        "thrust",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "ki-recovery",
+          "stance-switchable"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~8f per hit",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "Nioh 2의 스탠스 시스템은 같은 무기로도 플레이 방식을 크게 달라지게 함으로써 전술적 깊이를 극대화한다. Mid Stance는 공격 속도와 방어력의 균형을 제공하여, 플레이어가 상황에 맞는 선택을 할 수 있도록 유도한다. Ki Pulse 시스템과의 연결로 공격하면서 스태미나를 회복한다는 능동적인 리소스 관리 경험을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+Mid-Stance+Rapid+Thrust+Combo+%28%EC%A4%91%EB%8B%A8+%EC%9E%90%EC%84%B8+%EC%97%B0%EC%87%84+%EC%B0%8C%EB%A5%B4%EA%B8%B0%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Spear",
+        "gif": null
+      },
+      "tags": [
+        "stance-system",
+        "ki-recovery",
+        "rapid-combo",
+        "melee-weapon",
+        "balanced-stance",
+        "soulslike",
+        "japanese-action"
+      ],
+      "applicableWeapons": [
+        "창",
+        "polearm"
+      ],
+      "id": "sp-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "Lance (랜스)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "Charge Attack & Counter-Thrust (돌진 공격 & 카운터 찌르기)",
+      "actionType": "차지 공격|카운터",
+      "description": "랜스의 정체성을 대표하는 차지 공격과 방어 중 반격 메커닉으로, 방패 방어 상태에서 몬스터의 공격을 맞춘 후 즉각 카운터 찌르기로 반격할 수 있다. 공격과 방어가 동등하게 우수하여 플레이어의 방어 술과 공격 기회 포착을 동시에 요구한다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail",
+          "impact"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "extender"
+        ],
+        "specialProperties": [
+          "guard",
+          "counter-opportunity",
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~15f charge",
+          "active": "~12f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "Monster Hunter의 랜스 디자인은 공격성과 방어성을 완벽히 균형잡은 무기다. 차지 공격은 높은 리스크-리워드를 제공하며, 카운터-스러스트는 방어적 플레이에 능동성을 부여한다. 몬스터의 공격 패턴을 읽고 방어-반격하는 일련의 상호작용은 사냥의 재미를 극대화하는 핵심 설계 원칙이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+Charge+Attack+%26+Counter-Thrust+%28%EB%8F%8C%EC%A7%84+%EA%B3%B5%EA%B2%A9+%26+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B0%8C%EB%A5%B4%EA%B8%B0%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Lance",
+        "gif": null
+      },
+      "tags": [
+        "guard-weapon",
+        "counter-attack",
+        "charge-attack",
+        "monster-hunter",
+        "shield-lance",
+        "risk-reward",
+        "tactical-defense"
+      ],
+      "applicableWeapons": [
+        "창",
+        "ranged-weapon"
+      ],
+      "id": "sp-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "Spear (창)",
+      "game": "Hades",
+      "developer": "Supergiant Games",
+      "actionName": "Rapid Spin Attack (연쇄 회전 공격)",
+      "actionType": "기본 공격|콤보",
+      "description": "창의 핵심 특수 공격으로, 버튼을 누르고 있으면 제자리에서 빠르게 회전하며 광역 판정을 만드는 공격이다. 높은 히트 수와 빠른 모션으로 다수의 적을 한 번에 처리할 수 있으며, 로그라이크의 빠른 게임 속도에 최적화되어 있다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "crowd-control",
+          "fast-feedback"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~6f per rotation",
+          "recovery": "~5f"
+        }
+      },
+      "designNotes": "Hades의 스피어 스핀 공격은 로그라이크 게임의 핵심 설계 철학을 구현한다: 빠른 피드백, 명확한 판정, 높은 시각적 명확성. 짧은 모션 시간과 즉각적인 히트 피드백으로 플레이어에게 조종감을 제공하며, 다수 적 처리로 카타르시스를 극대화한다. 미니멀한 이펙트 디자인은 화면 가독성을 유지하면서도 강력한 피드백을 전달한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+Rapid+Spin+Attack+%28%EC%97%B0%EC%87%84+%ED%9A%8C%EC%A0%84+%EA%B3%B5%EA%B2%A9%29+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Spear",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "crowd-control",
+        "fast-action",
+        "roguelike",
+        "multi-hit",
+        "rapid-feedback",
+        "weapon-special"
+      ],
+      "applicableWeapons": [
+        "창",
+        "polearm",
+        "rapid-weapon"
+      ],
+      "id": "sp-003",
+      "addedDate": "2026-03-15"
     }
   ]
 }
