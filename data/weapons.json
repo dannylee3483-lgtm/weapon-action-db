@@ -16352,6 +16352,78 @@
       ],
       "id": "wh-014",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Unarmed Martial Arts)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "환경 처형 (Environmental Takedown)",
+      "actionType": "특수기",
+      "description": "스턴 상태의 적을 그랩한 뒤 근처 환경 오브젝트에 내리꽂는 콘텍스트 감응형 처형 기술. 차 문, 소화전, 환기구, 전기 패널 등 인터랙티브 오브젝트 종류에 따라 전혀 다른 애니메이션과 사운드 피드백이 재생되며, 성공 시 즉사 또는 대량 체력 감소와 Face XP를 동시에 획득한다. 전투 공간 자체를 무기화하는 Wei Shen 특유의 홍콩 누아르 격투 스타일을 상징하는 핵심 메카닉이다.",
+      "motionType": [
+        "throw",
+        "combo",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "instakill-potential",
+          "context-sensitive",
+          "environment-interaction",
+          "xp-reward"
+        ],
+        "resourceCost": "없음 (적 스턴 + 환경 오브젝트 근접 조건)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~60f (처형 연출 구간)",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "환경 처형은 전투 공간을 단순한 배경이 아닌 능동적 전략 자원으로 재정의한 설계다. 플레이어는 전투 시작 전 주변 인터랙티브 오브젝트의 위치를 파악하고, 적을 원하는 위치로 유도하는 공간 전략을 구사하게 되어 버튼 연타 이상의 사고를 강제한다. 콘텍스트 감응 연출 시스템은 동일한 입력(그랩 후 처형)에서도 매번 다른 시각·청각 피드백을 제공함으로써 반복 플레이의 피로감을 억제한다. Face XP 보상을 처형에 연동함으로써 '밀착 접근'이라는 리스크와 '경험치·강력한 피니시'라는 리워드 구조가 명확히 설계되어 있으며, 이는 캐릭터 성장 루프와 전투 메카닉을 유기적으로 결합한 모범 사례다. 특히 오픈월드 게임 내 격투 시스템의 공간 활용 설계 레퍼런스로 자주 인용된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%ED%99%98%EA%B2%BD+%EC%B2%98%ED%98%95+%28Environmental+Takedown%29+gameplay",
+        "images": [],
+        "wiki": "https://sleepingdogs.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "environment-interaction",
+        "context-sensitive",
+        "instakill",
+        "finisher",
+        "unarmed",
+        "martial-arts",
+        "grapple",
+        "urban-combat",
+        "open-world",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투"
+      ],
+      "id": "ft-013",
+      "addedDate": "2026-03-15"
     }
   ]
 }
