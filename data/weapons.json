@@ -21751,6 +21751,77 @@
       ],
       "id": "hm-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "복싱 글러브 (Boxing Gloves)",
+      "game": "Punch-Out!! (Wii)",
+      "developer": "Next Level Games",
+      "actionName": "스타 펀치 / Star Punch",
+      "actionType": "특수기",
+      "description": "상대방의 특정 취약 타이밍에 카운터를 성공시키면 스타 아이콘을 1개 획득하며, 최대 3개까지 축적할 수 있다. Y버튼(또는 모션 컨트롤)으로 축적된 스타 수에 비례한 강력한 업퍼컷을 발동하며, 3스타 풀 차지 상태에서는 상대를 즉시 다운시킬 수 있는 파괴력을 발휘한다. 단순한 강공격이 아니라 관찰-반응-보상의 루프를 완성하는 전략적 자원 관리 메카닉이다.",
+      "motionType": [
+        "counter",
+        "charge",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "resource-based",
+          "counter-reward",
+          "observation-dependent"
+        ],
+        "resourceCost": "스타 (최대 3개 축적)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~6f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "스타 펀치는 '관찰-보상' 피드백 루프를 게임 메카닉으로 구현한 교과서적 사례다. 플레이어가 상대의 패턴을 정확히 읽고 타이밍에 반응해야만 자원을 획득할 수 있어, 단순한 공격이 아닌 '학습의 보상'으로 기능한다. 스타 최대 3개라는 상한선은 자원 관리의 깊이를 더하며, 보유한 스타를 언제 쓸지에 대한 전술적 판단을 요구해 단순 버튼 연타를 거부한다. 발동 시의 황금빛 이펙트와 과장된 타격감은 플레이어의 성취감을 극대화하는 주스(Juice) 디자인의 모범으로, 시각·청각 피드백이 의사결정의 질을 즉각 반영한다. 리스크 없이 취약 타이밍에만 보상을 주는 구조는 초보와 숙련자 모두에게 명확한 목표를 제시하며, 러닝 커브를 게임플레이 자체로 가르치는 내재적 튜토리얼이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Punch-Out%21%21+%28Wii%29+%EC%8A%A4%ED%83%80+%ED%8E%80%EC%B9%98+%2F+Star+Punch+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter-reward",
+        "resource-management",
+        "observation-based",
+        "knockdown",
+        "boxing",
+        "risk-reward",
+        "pattern-recognition",
+        "punish",
+        "star-mechanic",
+        "juice-design"
+      ],
+      "applicableWeapons": [
+        "복싱 글러브",
+        "권투"
+      ],
+      "id": "ft-022",
+      "addedDate": "2026-03-16"
     }
   ]
 }
