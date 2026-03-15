@@ -19752,6 +19752,77 @@
       ],
       "id": "sw-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에테리얼 위빙 - 화염 속성 (Ethereal Weaving: Fire)",
+      "game": "Ghostwire: Tokyo",
+      "developer": "Tango Gameworks",
+      "actionName": "화염 위브 차지 샷 (Fire Weave Charged Shot)",
+      "actionType": "차지 공격",
+      "description": "아키토가 손 인(印) 동작으로 화염 에너지를 응축해 거대한 화염구를 발사한다. 기본 사격은 빠른 3연발 불꽃 투사체이지만, 버튼을 유지해 충전하면 폭발 범위가 넓은 대형 화염구가 형성되어 단발로 발사된다. 충격 지점에 소이 잔류 효과가 생성되어 범위 내 적의 이동을 둔화시키고 지속 피해를 누적할 수 있다.",
+      "motionType": [
+        "charge",
+        "explosion"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "area-of-effect",
+          "burning",
+          "crowd-control",
+          "lingering-hazard"
+        ],
+        "resourceCost": "SP (영적 에너지)",
+        "frameApprox": {
+          "startup": "~60f (풀 차지 기준)",
+          "active": "~8f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "화염 위브는 바람(속사·범위)·물(추적·단일)·화염(차지·광역) 세 속성 중 명확한 역할을 담당하며, 속성 간 전환 자체가 전술적 선택지가 된다. 손 인 애니메이션이 길어질수록 화염구가 커지는 시각 피드백은 '언제 쏠 것인가'라는 타이밍 결정을 직관적으로 투명하게 만드는 뛰어난 UX 설계다. SP라는 공유 자원 풀은 속성 선택을 단순한 버튼 조작에서 경제적 자원 배분 결정으로 격상시키며 연속 교전에서의 긴장감을 유지한다. 소이 잔류 효과는 공간 점령과 영역 통제라는 층위를 추가해, 단순 투사체 게임을 넘어 적 배치를 읽고 지면을 활용하는 전술적 사고를 촉진한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostwire%3A+Tokyo+%ED%99%94%EC%97%BC+%EC%9C%84%EB%B8%8C+%EC%B0%A8%EC%A7%80+%EC%83%B7+%28Fire+Weave+Charged+Shot%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "magic",
+        "charge-attack",
+        "area-of-effect",
+        "fire",
+        "hand-signs",
+        "resource-management",
+        "crowd-control",
+        "lingering-hazard",
+        "ethereal-weaving"
+      ],
+      "applicableWeapons": [
+        "마법",
+        "에테리얼 위빙"
+      ],
+      "id": "mg-016",
+      "addedDate": "2026-03-16"
     }
   ]
 }
