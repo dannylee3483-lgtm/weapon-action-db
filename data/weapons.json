@@ -16075,6 +16075,75 @@
       ],
       "id": "db-014",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "트윈 바인 (Twin Vine / 双蔓)",
+      "actionType": "스위치 스킬",
+      "description": "와이어버그 실크 두 가닥을 몬스터에게 발사해 고정한 뒤, 그 장력을 이용해 자신이 몬스터 쪽으로 고속 돌진하며 랜스로 강력한 찌르기를 날리는 기술. 기존 가드 대시를 대체하는 스위치 스킬로, 방어 중심의 랜스에 공격적 이니셔티브를 부여한다. 몬스터와의 거리가 멀어졌을 때 실크 한 번으로 즉시 간격을 좁히고 딜 타임을 확보한다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "repositioning",
+          "tether",
+          "multi-hit"
+        ],
+        "resourceCost": "와이어버그 게이지",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~10f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "트윈 바인은 기동성이 낮은 랜스의 근본적 약점—즉 거리 조절과 재배치—을 와이어버그 시스템으로 해결한 탁월한 재설계다. 기존 랜스는 가드 대시로 소폭 이동하며 몬스터의 움직임에 수동적으로 반응하는 구조였으나, 트윈 바인은 플레이어가 먼저 실크를 '꽂아' 몬스터에게 끌려가는 방식으로 관계를 역전시킨다. 실크 소모와 이동 중 피격 리스크를 감수하고 즉각적 딜 타임을 획득하는 리스크-리워드 구조가 명확하여, 고숙련자일수록 더 공격적인 플레이를 자연스럽게 유도한다. 랜스 고유의 '방어 = 공격'이라는 아이덴티티를 유지하면서도 라이즈의 '빠르고 역동적인' 게임 디자인 방향을 무기 레벨에서 충실히 구현한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%ED%8A%B8%EC%9C%88+%EB%B0%94%EC%9D%B8+%28Twin+Vine+%2F+%E5%8F%8C%E8%94%93%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Lance",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "silk-bind",
+        "lance",
+        "repositioning",
+        "tether",
+        "switch-skill",
+        "monster-hunter",
+        "wirebug",
+        "aggressive"
+      ],
+      "applicableWeapons": [
+        "랜스"
+      ],
+      "id": "sp-021",
+      "addedDate": "2026-03-15"
     }
   ]
 }
