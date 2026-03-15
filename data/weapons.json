@@ -18537,6 +18537,79 @@
       ],
       "id": "kt-045",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "스타다이버 / Stardiver",
+      "actionType": "특수기",
+      "description": "드래군이 하늘 높이 도약한 뒤 드래곤 에너지를 온몸에 두르며 수직으로 낙하하는 피니쉬 기술이다. Dragon's Eye 버프가 활성 상태일 때만 사용 가능하며, 착지 지점 주변의 적에게 광역 피해를 입힌다. Dragon Sight 및 Lance Charge 버프 윈도우와 정렬 시 드래군 콤보 중 최상위 피해량을 자랑하는 로테이션의 정점 기술이다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "conditional-use",
+          "burst-window",
+          "knockdown"
+        ],
+        "resourceCost": "쿨다운 (30초)",
+        "frameApprox": {
+          "startup": "~60f (도약 체공 포함)",
+          "active": "~10f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Stardiver는 드래군 로테이션의 최종 보상 액션으로, Dragon's Eye 선행 버프 없이는 사용 자체가 불가한 조건부 잠금 설계가 핵심이다. 이는 플레이어가 콤보 흐름을 유지하면서 버프 타이밍을 중장기적으로 계획해야 함을 강제하며, 단순 버튼 연타가 아닌 리소스 관리 능력을 요구한다. 도약-낙하라는 시각적 서사는 '용의 힘을 빌린 창술사'라는 클래스 판타지를 직관적으로 구현하며, 긴 체공 시간은 극적인 연출과 함께 이동 불가라는 명확한 리스크를 부여한다. Dragon Sight·Lance Charge 버프 윈도우와의 정밀한 정렬이 DPS 최적화의 핵심이 되어, 숙련도에 따른 성능 차이가 뚜렷이 드러나는 우수한 스킬 표현 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%8A%A4%ED%83%80%EB%8B%A4%EC%9D%B4%EB%B2%84+%2F+Stardiver+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Stardiver",
+        "gif": null
+      },
+      "tags": [
+        "burst-finisher",
+        "leap-attack",
+        "aoe",
+        "conditional-skill",
+        "combo-ender",
+        "dragon-energy",
+        "high-damage",
+        "buff-window",
+        "dragoon"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "폴암"
+      ],
+      "id": "sp-023",
+      "addedDate": "2026-03-15"
     }
   ]
 }
