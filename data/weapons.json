@@ -12942,6 +12942,205 @@
       ],
       "id": "ft-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "리커브 보우 (Recurve Bow)",
+      "game": "Tomb Raider (2013)",
+      "developer": "Crystal Dynamics",
+      "actionName": "차지 헤드샷 (Charged Headshot)",
+      "actionType": "차지 공격",
+      "description": "활시위를 최대로 당겨 정확도를 높인 뒤 적의 머리를 조준해 즉사시키는 공격이다. 차지 시간에 따라 화살의 속도와 피해량이 증가하며, 소음이 없어 은신 상태를 유지한 채 원거리 제거가 가능하다. 쓰러진 적에게서 화살을 회수할 수 있어 자원 관리 측면에서도 중요한 전술로 작동한다.",
+      "motionType": [
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "stealth-kill",
+          "one-shot-kill",
+          "silent",
+          "resource-recovery"
+        ],
+        "resourceCost": "화살",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~5f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "차지-릴리즈 메카닉은 플레이어에게 '언제 쏠 것인가'라는 명확한 의사결정 순간을 부여하며, 헤드샷 즉사라는 고보상이 정밀 조준 행동을 강화한다. 소음 없는 처치 방식은 총기와 차별화된 전략적 선택지를 제공하고, 다수 적 처리 순서를 플레이어가 스스로 계획하도록 유도한다. 화살 회수 시스템은 자원 소비 후 전투 공간으로의 자연스러운 이동을 설계하는 경제적 디자인의 모범 사례다. 서바이벌 내러티브와의 결합으로 '탄약이 귀한' 압박감이 매 발사 결정에 무게를 더해 생존 장르 특유의 긴장감을 무기 메카닉 자체에서 연출한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tomb+Raider+%282013%29+%EC%B0%A8%EC%A7%80+%ED%97%A4%EB%93%9C%EC%83%B7+%28Charged+Headshot%29+gameplay",
+        "images": [],
+        "wiki": "https://tombraider.fandom.com/wiki/Recurve_Bow",
+        "gif": null
+      },
+      "tags": [
+        "stealth",
+        "precision",
+        "headshot",
+        "charged-shot",
+        "silent",
+        "resource-management",
+        "one-shot-kill",
+        "survival",
+        "cover-based",
+        "aim"
+      ],
+      "applicableWeapons": [
+        "활",
+        "석궁"
+      ],
+      "id": "bw-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "하트시킹 보우 코로나크트 (Coronacht, Heart-Seeking Bow)",
+      "game": "Hades",
+      "developer": "Supergiant Games",
+      "actionName": "파워샷 (Power Shot)",
+      "actionType": "차지 공격",
+      "description": "활시위를 완전히 당겨 에너지를 모은 뒤 발사하는 고위력 단발 화살로, 완전 차지 시 화살이 적을 관통하여 뒤에 있는 적까지 연속으로 피해를 준다. 올림포스 신들의 보온(Boon)과 결합되면 번개·냉기·불 등 다양한 원소 효과가 추가되어 매 런마다 전혀 다른 빌드로 플레이할 수 있다. 차지 중에는 이동이 제한되어 위치 선정과 타이밍 판단이 핵심 기술 요소가 된다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "pierce",
+          "boon-synergy",
+          "build-diversity"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~3f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Hades의 보온(Boon) 시스템과 파워샷의 조합은 매 런마다 다른 무기 아이덴티티를 부여해 로그라이크 특유의 반복 플레이에서도 신선함을 지속시키는 메타 디자인의 핵심이다. 완전 차지와 빠른 약공격 사이의 선택은 상황 판단 능력을 요구하며, 차지 중 이동 불가 페널티가 리스크로 작용해 공간 관리 스킬을 강조한다. 관통 효과는 밀집 적 무리 속에서 극대화되어 '어디서 쏠 것인가'를 전투의 핵심 질문으로 만들며 전략적 위치 선정에 명확한 보상을 부여한다. 원거리 무기임에도 근접 특수기를 가져 다양한 상황에 대응 가능한 유연성을 확보한 다목적 설계의 좋은 예다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+%ED%8C%8C%EC%9B%8C%EC%83%B7+%28Power+Shot%29+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Coronacht",
+        "gif": null
+      },
+      "tags": [
+        "roguelike",
+        "boon-synergy",
+        "pierce",
+        "charged-shot",
+        "glass-cannon",
+        "positioning",
+        "build-diversity",
+        "crowd-control",
+        "one-shot",
+        "ranged"
+      ],
+      "applicableWeapons": [
+        "활"
+      ],
+      "id": "bw-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "헌팅 보우 (Hunting Bow)",
+      "game": "The Last of Us",
+      "developer": "Naughty Dog",
+      "actionName": "은신 차지 사격 (Stealth Charged Shot)",
+      "actionType": "스텔스 공격",
+      "description": "은신 상태에서 활시위를 당겨 적을 조준하는 무음 원거리 공격이다. 차지를 오래 유지할수록 에임이 흔들리기 시작해 완벽한 타이밍에 발사를 결정해야 하며, 적의 신체 부위에 따라 다른 효과(머리: 즉사, 다리: 넘어짐)가 발생한다. 쓰러진 적이나 환경에서 화살을 회수할 수 있어 탄약 희소성이 높은 상황에서 핵심 전략이 된다.",
+      "motionType": [
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "stealth-kill",
+          "silent",
+          "aim-sway",
+          "resource-recovery",
+          "hitbox-targeting"
+        ],
+        "resourceCost": "화살 (회수 가능)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~5f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "에임 흔들림(aim sway) 메카닉은 차지 시간에 비례한 압박감을 실시간으로 시각화하여 '지금 쏠 것인가, 더 기다릴 것인가'라는 긴장된 의사결정 순간을 만들어낸다. 화살 회수 시스템은 자원을 소비한 전투 공간으로 플레이어를 자연스럽게 유도하여 레벨 클리어 후 탐색 행동을 게임플레이에 유기적으로 통합한 경제 설계의 좋은 예다. 신체 부위별 상이한 효과는 단순 연사보다 정밀 플레이에 보상을 부여하며 상황에 맞는 목표 선정 전략을 유도한다. 탄약 희소성 경제 설계와 결합해 매 발사가 신중한 결정이 되도록 강제함으로써 생존 공포 장르 특유의 무게감을 무기 메카닉 자체에서 구현하는 뛰어난 통합 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Last+of+Us+%EC%9D%80%EC%8B%A0+%EC%B0%A8%EC%A7%80+%EC%82%AC%EA%B2%A9+%28Stealth+Charged+Shot%29+gameplay",
+        "images": [],
+        "wiki": "https://thelastofus.fandom.com/wiki/Bow",
+        "gif": null
+      },
+      "tags": [
+        "stealth",
+        "survival-horror",
+        "resource-scarcity",
+        "aim-sway",
+        "stealth-kill",
+        "tension",
+        "cover-based",
+        "resource-recovery",
+        "precision",
+        "silent"
+      ],
+      "applicableWeapons": [
+        "활",
+        "석궁"
+      ],
+      "id": "bw-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
