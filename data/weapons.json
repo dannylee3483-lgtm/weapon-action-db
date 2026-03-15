@@ -22080,7 +22080,7 @@
       },
       "designNotes": "채찍이라는 무기 카테고리가 흔히 가지는 '원거리 타격' 기능에 '끌어당기기'라는 물리적 상호작용을 더해, 공격 후 다음 콤보로의 전환을 자연스럽게 잇는 설계다. Hollow 형태 전환이라는 리소스 관리 결정을 통해 번개 사슬 투척을 꺼내는 타이밍이 전략적 선택지가 되며, 단순 딜링을 넘어 적의 포지션을 능동적으로 재배치한다는 점에서 공간 제어(Spatial Control)라는 디자인 원칙을 채찍 무기로 구현한 사례다. 아크 방전 보조 피해는 시각적 피드백이 뚜렷해 플레이어가 복수 타격을 직관적으로 인식하게 하며, 기본 스콘 채찍→번개 사슬 전환의 폼 체인지 리듬이 전투 흐름에 리듬감을 부여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EB%B2%88%EA%B0%9C+%EC%82%AC%EC%8A%AC+%ED%88%AC%EC%B2%99+%28Storm+Hollow+Chain+Cast%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=qZdPFlG_h0U",
         "images": [],
         "wiki": "https://darksiders.fandom.com/wiki/Storm_Hollow",
         "gif": null
