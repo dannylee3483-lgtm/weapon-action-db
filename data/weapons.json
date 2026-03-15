@@ -21098,7 +21098,7 @@
       },
       "designNotes": "Whirlwind은 Diablo 2부터 이어진 바바리안의 상징적 스킬로, '공격 중 기동성(movement-while-attacking)'이라는 판타지를 가장 직접적으로 구현한 hold-input 설계의 교과서적 예시다. 버튼을 누르는 한 계속 회전하며 자유롭게 이동할 수 있어 플레이어에게 '폭풍의 중심이 된다'는 강렬한 에이전시를 제공한다. 분노 소모와 Enhanced 강화의 분노 생성 루프 전환은 자원 경제학적 긴장감을 내재화하며, 빌드 설계의 핵심 결정 노드로 기능한다. 적 밀도가 높을수록 효율이 극대화되는 포지셔닝 보상 구조는 플레이어가 군중 속으로 적극 진입하도록 유도하여 바바리안 특유의 공격적 플레이스타일을 강제한다. 도끼가 고속 회전하는 시각 이펙트는 20년간 바바리안의 아이덴티티를 각인시킨 아이코닉한 피드백 루프다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%ED%9A%8C%EC%98%A4%EB%A6%AC%EB%B0%94%EB%9E%8C+%2F+Whirlwind+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=ri1Hjuvf_38",
         "images": [],
         "wiki": "https://diablo.fandom.com/wiki/Whirlwind_(Diablo_IV)",
         "gif": null
