@@ -15932,6 +15932,78 @@
       ],
       "id": "bw-013",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "버스터 소드 (Buster Sword)",
+      "game": "Final Fantasy VII Rebirth",
+      "developer": "Square Enix",
+      "actionName": "인피니티즈 엔드 (Infinity's End)",
+      "actionType": "차지 공격",
+      "description": "Cloud이 버스터 소드를 머리 위로 치켜들며 ATB 에너지를 최대로 응축한 뒤, 전방으로 수직 내리베기를 작렬시키는 고화력 피니시 기술이다. 완전 차지 성공 시 타격 지점에 거대한 에너지 폭발이 발생하며, Cloud 단일 기술 중 최고 수준의 대미지를 보장한다. ATB 게이지 2칸을 소모하는 대신 적의 스태거(기절) 게이지를 단번에 붕괴시킬 수 있는 결정적 한 수로 활용된다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "explosion",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "knockdown",
+          "high-single-target-damage"
+        ],
+        "resourceCost": "ATB 2칸",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~10f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Infinity's End는 JRPG 액션의 리스크-리워드 구조를 극명하게 구현한 기술이다. ATB 2칸이라는 자원 비용과 긴 선딜이라는 이중의 위험을 감수해야 하지만, 보상으로 게임 내 최고 수준의 단타 대미지를 제공한다. 차지 중 Cloud가 완전히 무방비 상태가 되는 점은 플레이어에게 전투 흐름 예측과 타이밍 판단이라는 전략적 도전을 부여한다. 스태거 상태의 적에게 사용할 때 극대화되는 구조는 파티 전체의 상태이상 축적과 연계해야 한다는 협력 플레이 시너지 설계를 내포하고 있다. 버스터 소드의 육중한 질감과 Cloud 특유의 과묵한 강인함을 연출에 녹여내어, 게임플레이 피드백과 캐릭터 정체성이 하나로 결합된 아이코닉한 기술이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Rebirth+%EC%9D%B8%ED%94%BC%EB%8B%88%ED%8B%B0%EC%A6%88+%EC%97%94%EB%93%9C+%28Infinity%27s+End%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Infinity%27s_End",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "overhead-slam",
+        "atb-finisher",
+        "single-target",
+        "poise-breaking",
+        "buster-sword",
+        "greatsword",
+        "jrpg",
+        "cinematic-finish",
+        "high-damage"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "버스터 소드"
+      ],
+      "id": "gs-040",
+      "addedDate": "2026-03-15"
     }
   ]
 }
