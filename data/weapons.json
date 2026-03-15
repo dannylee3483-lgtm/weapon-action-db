@@ -19611,6 +19611,75 @@
       ],
       "id": "wh-019",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 무술 (Bare-Knuckle Martial Arts)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "환경 처형 카운터 (Environmental Takedown Counter)",
+      "actionType": "카운터",
+      "description": "적의 공격 타이밍에 맞춰 카운터를 입력하면 웨이 선이 상대를 잡아채 주변 환경 오브젝트를 활용한 처형 공격을 가한다. 벽에 머리를 박거나, 전기 분전함에 집어던지거나, 가스통에 충돌시키는 등 맥락에 따라 전혀 다른 연출이 재생된다. 타이밍 창이 넉넉하면서도 처형 연출의 시각적 충격이 크기 때문에 반격의 카타르시스를 극대화한다.",
+      "motionType": [
+        "counter",
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "none",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "environmental-interaction",
+          "context-sensitive",
+          "invincible-during-animation"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~10f (그랩 판정)",
+          "recovery": "없음 (처형 애니메이션 전체 무적)"
+        }
+      },
+      "designNotes": "환경 처형 카운터는 전투 공간 자체를 무기로 만드는 컨텍스트 어웨어 디자인의 교과서적 사례다. 플레이어는 자연스럽게 주변 오브젝트의 위치를 파악하게 되어 전투가 단순 버튼 입력에서 공간 인지 게임으로 격상된다. 카운터 윈도우가 충분히 관대하여 진입 장벽을 낮추는 동시에 처형 연출은 오브젝트마다 달라 반복 플레이에서도 신선함이 유지된다. 처형 성공 시 즉각적인 적 제거라는 실질적 리워드가 보장되어 리스크(타이밍 실패 시 피격)와 보상의 비대칭 구조가 명확하고, 이는 플레이어를 적극적으로 카운터에 도전하도록 동기부여한다. 이후 다수 오픈월드 액션 게임의 환경 상호작용 전투 설계에 직접적인 영향을 미친 레퍼런스로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%ED%99%98%EA%B2%BD+%EC%B2%98%ED%98%95+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28Environmental+Takedown+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://sleeping-dogs.fandom.com/wiki/Sleeping_Dogs_Wiki",
+        "gif": null
+      },
+      "tags": [
+        "environmental-takedown",
+        "counter-attack",
+        "context-sensitive",
+        "bare-knuckle",
+        "urban-combat",
+        "risk-reward",
+        "crowd-control",
+        "instant-kill"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손 격투"
+      ],
+      "id": "ft-018",
+      "addedDate": "2026-03-16"
     }
   ]
 }
