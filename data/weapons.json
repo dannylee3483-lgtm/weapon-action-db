@@ -18892,6 +18892,82 @@
       ],
       "id": "ft-017",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "Engine Blade (기관검)",
+      "game": "Final Fantasy XV",
+      "developer": "Square Enix",
+      "actionName": "워프 스트라이크 (Warp-Strike)",
+      "actionType": "특수기",
+      "description": "노크티스가 장착한 검을 전방으로 투척함과 동시에 번개처럼 워프 이동하며 적에게 강력한 근접 타격을 가하는 기술. 잠금 상태에서 워프 버튼을 길게 누르면 발동되며, 장거리 적이나 공중에 뜬 적에게도 순간적으로 접근할 수 있다. 타격 직후 주변 워프 포인트(절벽, 가로등, 고지대)로 추가 워프해 HP·MP를 빠르게 회복하는 루프와 연결된다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "aerial-reach",
+          "teleport",
+          "mp-cost",
+          "poise-breaking"
+        ],
+        "resourceCost": "MP",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~4f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "워프 스트라이크는 이동과 공격을 단일 입력으로 통합함으로써 FFXV 전투의 유동성과 판타지 검사 정체성을 한 번에 전달하는 핵심 디자인이다. MP라는 공유 자원을 소모 조건으로 설정해 남발을 억제하고, 위기 시 워프 회복 루프(고지대 워프 → HP·MP 재생)와 연결해 리스크-리워드 구조를 자연스럽게 형성한다. 공중 적·원거리 적에 대한 도달 수단을 별도 기술 없이 처리함으로써 수직·수평 전투 공간 모두를 하나의 액션으로 커버하는 경제적인 설계다. 투척-워프-충돌의 3단 시각 연출이 마법검사로서의 캐릭터 설정을 플레이어가 직접 체감하게 만드는 내러티브 강화 요소로도 작동한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XV+%EC%9B%8C%ED%94%84+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC+%28Warp-Strike%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Warp-strike",
+        "gif": null
+      },
+      "tags": [
+        "warp",
+        "gap-closer",
+        "teleport-strike",
+        "aerial-reach",
+        "mp-resource",
+        "risk-reward",
+        "mobility",
+        "vertical-combat",
+        "identity-expression"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "대검",
+        "창"
+      ],
+      "id": "sw-017",
+      "addedDate": "2026-03-15"
     }
   ]
 }
