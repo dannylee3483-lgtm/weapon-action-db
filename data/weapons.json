@@ -17188,6 +17188,77 @@
       ],
       "id": "bw-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "롱소드 / 한손 기사검",
+      "game": "Kingdom Come: Deliverance",
+      "developer": "Warhorse Studios",
+      "actionName": "마스터 스트라이크 (Master Strike / Meisterhau)",
+      "actionType": "카운터",
+      "description": "적의 공격 모션을 읽고 극히 좁은 타이밍 안에 반대 방향 베기를 입력해 상대의 검을 쳐내는 동시에 역습을 가하는 고급 검술 기법이다. 방향 지시가 틀리거나 타이밍이 어긋나면 오히려 피해를 입기 때문에 판단과 숙련 모두를 요구하지만, 성공 시 단 일격으로 적의 체력 대부분을 제거하거나 즉사시킬 수 있다. 역사적인 HEMA(유럽 역사 검술)의 '마이스터하우' 기법에 직접 기반한 리얼리즘 전투 시스템의 핵심 기술이다.",
+      "motionType": [
+        "counter",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "one-shot-potential",
+          "direction-based"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~10f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "마스터 스트라이크는 단순한 패리와 달리 '어느 방향에서 오는 공격에 어느 방향으로 반격할 것인가'라는 공간적 판단까지 요구하며, 실제 중세 검술 원리를 게임 인터페이스로 충실히 번역한 드문 사례다. 좁은 타이밍 창과 방향성 입력이 결합된 이중 난이도는 학습 곡선을 가파르게 만들지만, 터득 후에는 일반 전투를 결정적으로 지배할 수 있는 강력한 보상으로 이어져 숙달의 의미를 명확히 한다. 화려한 이펙트나 슬로모션 연출 없이 오직 시스템적 깊이만으로 만족감을 전달하는 설계는, 피드백이 시각 과장이 아닌 전투 결과 자체에서 나오는 것을 보여준다. 역사적 기법의 정확한 재현은 플레이어가 게임을 통해 실제 검술 원리를 체득하는 교육적 가치까지 부여하며, 장르 내에서 독보적인 리얼리즘 포지셔닝을 확보한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Kingdom+Come%3A+Deliverance+%EB%A7%88%EC%8A%A4%ED%84%B0+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC+%28Master+Strike+%2F+Meisterhau%29+gameplay",
+        "images": [],
+        "wiki": "https://kingdom-come-deliverance.fandom.com/wiki/Master_Strike",
+        "gif": null
+      },
+      "tags": [
+        "master-strike",
+        "counter",
+        "hema",
+        "historical-fencing",
+        "direction-based",
+        "high-skill-cap",
+        "risk-reward",
+        "realism",
+        "one-shot-potential",
+        "meisterhau"
+      ],
+      "applicableWeapons": [
+        "한손검",
+        "롱소드",
+        "사브르",
+        "단검"
+      ],
+      "id": "sw-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
