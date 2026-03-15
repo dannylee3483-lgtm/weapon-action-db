@@ -19964,6 +19964,79 @@
       ],
       "id": "db-017",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 / 권법 (Unarmed / Martial Arts)",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "히트 스매시 / Heat Smash",
+      "actionType": "특수기",
+      "description": "히트 시스템이 활성화된 상태에서 전용 입력으로 발동하는 강타 기술로, 히트 게이지를 전량 소비하는 대신 캐릭터 고유의 강력한 타격을 가한다. 가드 중인 상대에게도 칩 데미지가 적용되며, 발동 시 소량의 체력이 회복되는 효과가 동반된다. 각 캐릭터마다 완전히 다른 모션을 가지며, 미시마 카즈야의 경우 번개를 두른 직권, 폴 피닉스는 폭발적인 데스 피스트 형태로 구현된다.",
+      "motionType": [
+        "combo",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "chip-damage",
+          "health-restore",
+          "resource-burst",
+          "knockdown",
+          "poise-breaking"
+        ],
+        "resourceCost": "히트 게이지 전량",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~5f",
+          "recovery": "~26f"
+        }
+      },
+      "designNotes": "히트 스매시는 '위기 상황에서의 리소스 폭발' 디자인 패턴을 격투 게임 맥락에서 정제한 사례다. 게이지를 전부 소모하는 높은 비용을 치르되 체력 회복과 칩 데미지라는 두 가지 보상을 동시에 제공함으로써, 열세 국면에서 역전을 시도하는 극적인 의사결정을 유도한다. 가드를 뚫는 칩 데미지는 상대방의 소극적 방어를 억제해 공격적인 압박 교환을 강제하며, 이는 Tekken 8의 핵심 디자인 철학인 '공격이 최선의 수비'를 단일 기술 수준에서 구현한다. 각 캐릭터마다 완전히 다른 고유 모션을 부여한 것은 캐릭터 판타지를 클라이맥스 순간에 극대화하는 연출 전략으로, 리소스 소비의 카타르시스와 캐릭터 정체성 표현을 동시에 달성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%ED%9E%88%ED%8A%B8+%EC%8A%A4%EB%A7%A4%EC%8B%9C+%2F+Heat+Smash+gameplay",
+        "images": [],
+        "wiki": "https://tekken.fandom.com/wiki/Heat",
+        "gif": null
+      },
+      "tags": [
+        "heat-system",
+        "resource-burst",
+        "chip-damage",
+        "comeback-mechanic",
+        "fighting-game",
+        "unarmed",
+        "risk-reward",
+        "character-identity",
+        "pressure-tool"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투"
+      ],
+      "id": "ft-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
