@@ -284,15 +284,19 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 round_num   = 0
 
                 while True:
-                    if cat_idx % len(CATEGORIES) == 0:
+                    pos_in_round = cat_idx % len(CATEGORIES)
+                    if pos_in_round == 0:
                         round_num += 1
-                        if not self._sse(f"── 라운드 {round_num} · {len(CATEGORIES)}개 카테고리 순환 시작 ──", "sep"):
+                        if not self._sse(f"── 라운드 {round_num} 시작 · {len(CATEGORIES)}개 카테고리 순환 ──", "sep"):
                             break
 
-                    cat  = CATEGORIES[cat_idx % len(CATEGORIES)]
+                    cat  = CATEGORIES[pos_in_round]
                     args = base_args + ["-c", cat, "-n", str(BATCH_SIZE)]
 
-                    if not self._sse(f"[{cat}] 수집중 · 누적 {total_added}개", "batch"):
+                    if not self._sse(
+                        f"[R{round_num} · {pos_in_round + 1}/{len(CATEGORIES)}] {cat} 수집중 · 누적 {total_added}개",
+                        "batch"
+                    ):
                         break
 
                     alive, batch_collected, proc_ok = self._run_one_batch(args)
