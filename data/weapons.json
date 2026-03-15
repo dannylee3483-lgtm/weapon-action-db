@@ -17259,6 +17259,76 @@
       ],
       "id": "sw-014",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "일본도 (日本刀)",
+      "game": "Samurai Shodown",
+      "developer": "SNK",
+      "actionName": "이센 / Issen (一閃)",
+      "actionType": "카운터",
+      "description": "상대의 공격이 명중하는 찰나에 강베기 입력을 맞추면 발동하는 궁극의 카운터 기술. 성공 시 화면이 백색으로 섬광하며 시간이 순간 정지하고, 단 한 번의 참격으로 상대 체력의 50~100%에 달하는 피해를 입힌다. 실패하면 단순 강베기로 처리되어 오히려 반격을 받을 위험이 있다.",
+      "motionType": [
+        "slash",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "counter",
+          "invincibility-frames",
+          "screen-flash",
+          "time-slow",
+          "one-shot-potential"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f (카운터 윈도우)",
+          "active": "~4f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "이센은 '리스크-리워드의 극단적 압축'을 구현한 카운터 디자인의 걸작이다. 성공 시 게임을 단번에 뒤집을 수 있는 압도적 피해를 보상하지만, 실패 시 오히려 불리한 상황을 자초한다는 점에서 플레이어의 읽기 능력과 결단력을 극한까지 시험한다. 화면 섬광과 시간 정지 연출은 성공의 카타르시스를 극대화하고 관전자에게도 스펙터클을 제공함으로써 e스포츠 관람 가치를 높인다. 기술 입력 자체는 단순하지만 '언제 시도할 것인가'라는 심층 읽기 싸움 메타게임을 만들어, 짧은 라운드 안에 드라마틱한 역전극을 가능하게 한다. 격투 게임 장르에서 카운터 시스템이 어떻게 긴장감과 드라마를 동시에 설계할 수 있는지 보여주는 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Samurai+Shodown+%EC%9D%B4%EC%84%BC+%2F+Issen+%28%E4%B8%80%E9%96%83%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "one-shot-potential",
+        "risk-reward",
+        "fighting-game",
+        "screen-flash",
+        "punish",
+        "high-stakes",
+        "katana",
+        "read-the-opponent"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일본도"
+      ],
+      "id": "kt-043",
+      "addedDate": "2026-03-15"
     }
   ]
 }
