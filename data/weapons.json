@@ -13617,7 +13617,7 @@
       },
       "designNotes": "방패를 단순한 방어 도구가 아닌 공격 도구로 활용하게 함으로써 공방 전환의 리듬을 자연스럽게 형성한다. Dauntless 버전은 피격을 감수하면서 카운터를 발동하는 구조로, 플레이어가 적의 패턴을 능동적으로 학습하도록 유도한다. 방패 강타의 스태거는 레비아탄 도끼 콤보의 오프너로 작동하여 다음 행동으로 이어지는 유기적인 전투 흐름을 만든다. 타격 시 진동과 사운드 디자인이 공격의 무게감을 직관적으로 전달하여 피드백 밀도가 높다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EB%B0%A9%ED%8C%A8+%EA%B0%95%ED%83%80+%2F+Shield+Bash+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=GERJ06U56ts",
         "images": [],
         "wiki": null,
         "gif": null
@@ -13686,7 +13686,7 @@
       },
       "designNotes": "홀드 시간으로 위력과 거리를 직접 조절하는 구조는 단순한 입력(홀드→릴리스)에 상황 판단·적 배치 읽기·차지량 결정을 복합적으로 요구해 스킬 익스프레션 깊이를 확보한다. 충전 중 이동 불가라는 취약 구간은 리스크-리워드 균형을 잡아주며, 성공 시 넉다운으로 확정되는 추가 타격 기회가 보상의 명확성을 높인다. Aspect of Chaos의 방패 투척 연계는 빌드 탐색 욕구를 자극하는 시스템적 깊이를 부여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Hades+%EB%8F%8C%EA%B2%A9+%2F+Bull+Rush+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=8eOEniUoxbk",
         "images": [],
         "wiki": "https://hades.wiki.gg/wiki/Shield_of_Chaos",
         "gif": null
@@ -13754,7 +13754,7 @@
       },
       "designNotes": "일반 패리의 좁은 히트박스와 엄격한 타이밍을 충격파 히트박스 확장으로 완화하면서 크리티컬이라는 동일한 최대 보상은 유지한다. '실행 난이도 완화, 보상 동등'이라는 접근성 설계 원칙을 잘 구현하며, FP 비용이 무한 남용을 제어하는 역할을 한다. 황금빛 시각 이펙트는 패리 성공 피드백을 강화하고, 실패 시 긴 경직 페널티는 리스크를 명확하게 전달한다. 적의 공격 리듬 학습 요구를 유지하여 완전한 단순화를 피하고 숙련 성장감을 보존한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%99%A9%EA%B8%88+%ED%8C%A8%EB%A6%AC+%2F+Golden+Parry+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=IivhqproGjI",
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Golden+Parry",
         "gif": null
