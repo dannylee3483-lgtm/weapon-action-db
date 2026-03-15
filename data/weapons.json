@@ -16004,6 +16004,77 @@
       ],
       "id": "gs-040",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "Dual Blades",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "비단벌레 도약 회전베기 / Shrouded Vault (翔蟲式回転斬り)",
+      "actionType": "실크바인드 기술",
+      "description": "와이어버그를 발사해 전방으로 급가속한 뒤 양 날을 고속 회전시키며 몬스터를 연속으로 베어내는 실크바인드 기술이다. 착지 직후 자동으로 데몬 모드가 발동되어 이후 모든 공격의 위력과 원소 누적량이 상승한다. 이동과 버프 발동을 단일 입력으로 묶어 공격 로테이션의 핵심 기점으로 활용된다.",
+      "motionType": [
+        "spin",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "demon-mode-activation",
+          "wirebug-propelled",
+          "buff-on-landing"
+        ],
+        "resourceCost": "와이어버그 1개",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~22f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "와이어버그라는 한정 자원을 소비해 이동·공격·버프 발동을 단일 액션에 압축시킨 것이 핵심 설계 강점이다. 자원 투자에 대한 즉각적인 보상(데몬 모드 자동 발동)을 제공함으로써 리스크-리워드 루프가 명확하게 성립한다. 또한 착지 타이밍이 데몬 모드 진입 신호로 기능해 플레이어가 상태 전환을 시각·촉각적으로 명확히 인지할 수 있다. 회전 슬래시의 넓은 판정은 빠른 몬스터에 대한 접근 보증 역할도 겸하며, 공격 직후 데몬 콤보로의 연계 흐름이 자연스러워 쌍검 특유의 '달라붙어 난도질'하는 판타지를 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EB%B9%84%EB%8B%A8%EB%B2%8C%EB%A0%88+%EB%8F%84%EC%95%BD+%ED%9A%8C%EC%A0%84%EB%B2%A0%EA%B8%B0+%2F+Shrouded+Vault+%28%E7%BF%94%E8%9F%B2%E5%BC%8F%E5%9B%9E%E8%BB%A2%E6%96%AC%E3%82%8A%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Dual+Blades",
+        "gif": null
+      },
+      "tags": [
+        "dual-blades",
+        "gap-closer",
+        "demon-mode",
+        "silkbind",
+        "wirebug",
+        "spin-attack",
+        "resource-management",
+        "buff-on-landing",
+        "aggression",
+        "monster-hunter-rise"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
