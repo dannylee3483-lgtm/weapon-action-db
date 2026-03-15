@@ -18087,7 +18087,7 @@
       },
       "designNotes": "풍요의 수확은 '내가 파티에 먼저 투자해야 내 스킬이 강해진다'는 상호의존형 리소스 설계를 구현한다. 아케인 서클이라는 GCD 비용을 선투자해야만 스택이 생성되므로, 혜택을 받으려면 파티에 기여해야 하는 윤리적 동기 구조가 형성된다. 최대 8스택 조건은 8인 파티를 전제로 하되 적은 스택으로도 사용 가능하게 설계되어, 솔로-파티 양쪽에서 일관된 유용성을 확보한다. 또한 FFXIV의 2분 버스트 윈도우 구조와 맞물려 파티원 전체가 동시에 강력한 스킬을 터뜨리는 타이밍에 자연스럽게 흡수되며, 이 '준비→배분→회수→폭발'의 4단계 사이클이 리퍼 직업 판타지(죽음의 수확자)를 게임플레이 루프로 직접 표현하는 데 성공한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV%3A+Endwalker+%ED%92%8D%EC%9A%94%EC%9D%98+%EC%88%98%ED%99%95+%28Plentiful+Harvest%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=1wPMvM-d_d8",
         "images": [],
         "wiki": "https://ffxiv.consolegameswiki.com/wiki/Plentiful_Harvest",
         "gif": null
