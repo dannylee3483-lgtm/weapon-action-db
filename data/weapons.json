@@ -19823,6 +19823,74 @@
       ],
       "id": "mg-016",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "군용 카타나 (Military Katana)",
+      "game": "Katana ZERO",
+      "developer": "Askiisoft",
+      "actionName": "크로노스 반사 베기 (Chronos Bullet Deflect)",
+      "actionType": "카운터",
+      "description": "크로노스 약물로 유발된 시간 지연 상태에서 플레이어가 날아오는 총알을 향해 카타나를 휘둘러 발사체를 발사자에게 그대로 반사시킨다. 반사된 총알은 일격필살 판정을 가지며, 근접 위험 없이 원거리 적을 역이용하는 핵심 생존 기술이다. 별도의 특수 버튼 없이 기본 슬래시 타이밍만으로 실행되어, 게임의 단순 조작 철학을 그대로 체현한다.",
+      "motionType": [
+        "slash",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish"
+        ],
+        "specialProperties": [
+          "one-hit-kill",
+          "projectile-reflect",
+          "time-dilation-dependent"
+        ],
+        "resourceCost": "크로노스 게이지 (시간 지연 슬롯)",
+        "frameApprox": {
+          "startup": "~3f (슬로우 모션 내 기준)",
+          "active": "~2f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "이 메카닉은 '행동 압축(action compression)' 원칙의 정수를 보여준다. 단일 슬래시 입력 하나가 근접 공격·발사체 방어·원거리 킬을 동시에 달성하여, 버튼 수를 최소화하면서도 전술적 깊이를 극대화한다. 시간 지연과 결합되어 플레이어는 총알 궤적을 읽고 반사 각도를 계산하는 퍼즐적 판단을 요구받으며, 이는 '카타나 액션'이 반사 신경 게임이 아닌 '읽기 게임'임을 명확히 한다. 일격필살 원칙이 아군·적군 모두에 동일하게 적용되므로, 반사 성공은 극적인 역전감을 주고 실패는 즉각적 리스타트로 귀결되는 명확한 리스크-리워드 구조를 형성한다. 이 설계는 플레이어가 '무적의 암살자'라는 판타지를 유지하면서도 한 순간도 집중을 늦출 수 없게 만드는 긴장의 균형을 성공적으로 달성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Katana+ZERO+%ED%81%AC%EB%A1%9C%EB%85%B8%EC%8A%A4+%EB%B0%98%EC%82%AC+%EB%B2%A0%EA%B8%B0+%28Chronos+Bullet+Deflect%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "bullet-deflect",
+        "time-dilation",
+        "one-hit-kill",
+        "counter",
+        "projectile-reflect",
+        "risk-reward",
+        "action-compression",
+        "2d-action",
+        "katana",
+        "chronos"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-047",
+      "addedDate": "2026-03-16"
     }
   ]
 }
