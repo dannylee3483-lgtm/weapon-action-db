@@ -785,6 +785,8 @@ async function startCollect() {
             lastDetailEl = null;
           }
           // 나머지 log (미디어 URL 등)는 콘솔에 표시하지 않음
+        } else if (eventType === 'git') {
+          appendLine(data, 'cl-git');
         } else if (eventType === 'start') {
           appendLine(data, 'cl-start');
         } else if (eventType === 'batch-done') {
@@ -991,6 +993,8 @@ async function toggleInfinite() {
             lastDetailEl.textContent = ' · ' + stripped;
             lastDetailEl = null;
           }
+        } else if (eventType === 'git') {
+          appendLine(data, 'cl-git');
         } else if (eventType === 'start') {
           appendLine(data, 'cl-start');
         } else if (eventType === 'batch') {

@@ -1137,6 +1137,7 @@ select option { background: var(--bg3); }
 .cl-start     { color: #60a0ff; font-weight: 600; }
 .cl-batch     { color: #a0c0ff; font-weight: 700; letter-spacing: 0.03em; margin-top: 4px; }
 .cl-log       { color: #9090b8; }
+.cl-git       { color: #4db8ff; font-size: 0.82em; margin-top: 2px; }
 
 .cl-done-banner {
   background: rgba(80,200,120,0.1);

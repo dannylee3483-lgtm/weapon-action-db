@@ -1,36 +1,44 @@
 """
-Weapon Action DB — YouTube URL 자동 채우기 워처
+Weapon Action DB — YouTube URL 자동 채우기 워처 (Claude 판별 버전)
 
 weapons.json을 주기적으로 감시하다가 YouTube embed URL이 없는 항목이 생기면
-yt-dlp로 실제 watch?v= URL을 찾아 자동으로 교체합니다.
+yt-dlp로 후보 5개 검색 → Claude가 최적 영상 선택 → 자동 교체 + git push
 
 실행:
   python yt_watcher.py
 
 필요:
   pip install yt-dlp
+  (Claude CLI: collect.py와 공유)
 """
 
 import json
 import os
+import re
 import subprocess
 import sys
 import time
 from datetime import datetime
 from pathlib import Path
 
+# collect.py의 Claude CLI 호출 함수 재사용
+sys.path.insert(0, str(Path(__file__).parent))
+from collect import call_claude
+
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 DB_PATH  = Path(__file__).parent / "data" / "weapons.json"
-POLL_SEC = 30  # weapons.json 감시 주기 (초)
-REQ_GAP  = 3   # yt-dlp 요청 사이 간격 (과부하·차단 방지)
+POLL_SEC = 30   # weapons.json 감시 주기 (초)
+REQ_GAP  = 5    # 항목 사이 간격 (yt-dlp + Claude 호출 포함)
+CANDIDATES = 5  # 후보 영상 수
 
 BOLD  = "\033[1m"
 GREEN = "\033[32m"
 YEL   = "\033[33m"
 DIM   = "\033[90m"
 RED   = "\033[31m"
+CYAN  = "\033[36m"
 RST   = "\033[0m"
 
 def ts():
@@ -39,6 +47,7 @@ def ts():
 def log(msg):  print(f"  {DIM}[{ts()}]{RST} {msg}", flush=True)
 def ok(msg):   print(f"  {DIM}[{ts()}]{RST} {GREEN}✓{RST} {msg}", flush=True)
 def err(msg):  print(f"  {DIM}[{ts()}]{RST} {RED}✗{RST} {msg}", flush=True)
+def dim(msg):  print(f"  {DIM}[{ts()}] {msg}{RST}", flush=True)
 
 # ─── yt-dlp ───────────────────────────────────────────────────────
 def find_ytdlp():
@@ -51,19 +60,76 @@ def find_ytdlp():
             return r.stdout.strip().splitlines()[0]
     return None
 
-def search_video_id(ytdlp, game, action_name):
-    """yt-dlp ytsearch1 로 첫 번째 video ID 반환"""
+def search_candidates(ytdlp, game, action_name, n=CANDIDATES):
+    """yt-dlp로 후보 영상 n개 검색 → [(id, title, channel), ...] 반환"""
     query = f"{game} {action_name} gameplay"
     try:
         r = subprocess.run(
-            [ytdlp, f"ytsearch1:{query}",
-             "--get-id", "--no-playlist", "--quiet", "--no-warnings"],
-            capture_output=True, text=True, timeout=30
+            [ytdlp, f"ytsearch{n}:{query}",
+             "--dump-json", "--flat-playlist", "--quiet", "--no-warnings"],
+            capture_output=True, text=True, timeout=40
         )
-        lines = r.stdout.strip().splitlines()
-        return lines[0].strip() if r.returncode == 0 and lines else None
-    except Exception:
+        results = []
+        for line in r.stdout.strip().splitlines():
+            try:
+                info    = json.loads(line)
+                vid_id  = info.get("id", "")
+                title   = info.get("title", "")
+                channel = info.get("channel") or info.get("uploader") or ""
+                if vid_id and len(vid_id) == 11:
+                    results.append((vid_id, title, channel))
+            except json.JSONDecodeError:
+                continue
+        return results
+    except Exception as e:
+        err(f"yt-dlp 오류: {e}")
+        return []
+
+# ─── Claude 판별 ──────────────────────────────────────────────────
+def pick_best_video(candidates, game, action_name, description=""):
+    """
+    Claude에게 후보 영상 중 최적 선택 요청.
+    반환: 선택된 video_id (str) 또는 None
+    """
+    if not candidates:
         return None
+    if len(candidates) == 1:
+        return candidates[0][0]
+
+    lines = "\n".join(
+        f"{i+1}. 제목: {title}  |  채널: {channel}  |  ID: {vid_id}"
+        for i, (vid_id, title, channel) in enumerate(candidates)
+    )
+    desc_hint = f"\n액션 설명: {description}" if description else ""
+
+    prompt = f"""당신은 게임 영상 전문가입니다.
+다음 YouTube 검색 결과 중 "{game}" 게임의 "{action_name}" 액션을 가장 잘 보여주는 영상 1개를 고르세요.{desc_hint}
+
+후보 영상:
+{lines}
+
+선택 기준 (우선순위 순):
+1. 해당 게임·해당 액션이 실제로 등장하는 영상
+2. 게임플레이·액션 쇼케이스 (리뷰·튜토리얼보다 우선)
+3. 조회 수나 채널 신뢰도가 높을 것 같은 영상
+
+응답 형식: 선택한 영상의 ID(11자리)만 한 줄로 반환. 그 외 어떤 설명도 붙이지 마세요.
+예시: dQw4w9WgXcQ"""
+
+    try:
+        response = call_claude(prompt, timeout=60).strip()
+        # 11자리 YouTube ID 추출
+        m = re.search(r'\b([A-Za-z0-9_-]{11})\b', response)
+        if m:
+            vid_id = m.group(1)
+            valid  = {v for v, _, _ in candidates}
+            if vid_id in valid:
+                return vid_id
+        # fallback: 후보 목록에 없으면 첫 번째
+        return candidates[0][0]
+    except Exception as e:
+        err(f"Claude 판별 오류: {e}")
+        return candidates[0][0]
 
 # ─── DB ───────────────────────────────────────────────────────────
 def load_db():
@@ -100,7 +166,7 @@ def git_push(count):
             r2 = subprocess.run(["git", "push"],
                                 cwd=str(repo), capture_output=True, text=True)
         if r2.returncode == 0:
-            ok(f"GitHub Push 완료  [{msg}]")
+            print(f"  [git] Push 완료  [{msg}]", flush=True)
         else:
             err(f"git push 실패: {r2.stderr.strip()[:100]}")
     except FileNotFoundError:
@@ -120,15 +186,32 @@ def process_once(ytdlp, done_ids):
     updated = 0
 
     for w in pending:
-        vid = search_video_id(ytdlp, w.get("game", ""), w.get("actionName", ""))
-        done_ids.add(w["id"])  # 성공/실패 무관하게 이번 세션 재시도 방지
+        wid    = w["id"]
+        game   = w.get("game", "")
+        action = w.get("actionName", "")
+        desc   = w.get("description", "")
+        done_ids.add(wid)  # 성공/실패 무관 — 이 세션에선 재시도 안 함
+
+        dim(f"[{wid}] {game} / {action} — 후보 검색 중...")
+        candidates = search_candidates(ytdlp, game, action)
+
+        if not candidates:
+            err(f"[{wid}] 후보 영상 없음")
+            time.sleep(REQ_GAP)
+            continue
+
+        dim(f"[{wid}] 후보 {len(candidates)}개 → Claude 판별 중...")
+        vid = pick_best_video(candidates, game, action, desc)
 
         if vid:
+            # 선택된 영상 제목 찾기
+            chosen_title = next((t for v, t, _ in candidates if v == vid), "")
             w["mediaLinks"]["youtube"] = f"https://www.youtube.com/watch?v={vid}"
-            ok(f"[{w['id']}] {w.get('actionName','')}  →  {vid}")
+            ok(f"[{wid}] {action}")
+            dim(f"     → {vid}  {chosen_title[:60]}")
             updated += 1
         else:
-            err(f"[{w['id']}] {w.get('actionName','')}  →  영상 못 찾음")
+            err(f"[{wid}] 영상 선택 실패")
 
         time.sleep(REQ_GAP)
 
@@ -140,8 +223,8 @@ def process_once(ytdlp, done_ids):
 # ─── 메인 ─────────────────────────────────────────────────────────
 def main():
     print()
-    print(f"  {BOLD}{YEL}📺  YouTube URL 워처{RST}")
-    print(f"  {DIM}감시 주기: {POLL_SEC}초 | yt-dlp 요청 간격: {REQ_GAP}초{RST}")
+    print(f"  {BOLD}{YEL}📺  YouTube URL 워처{RST}  {DIM}(Claude 판별 모드){RST}")
+    print(f"  {DIM}감시 주기: {POLL_SEC}초 · 후보: {CANDIDATES}개 · 간격: {REQ_GAP}초{RST}")
     print(f"  {DIM}종료: Ctrl+C{RST}")
     print(f"  {'─' * 44}")
     print()

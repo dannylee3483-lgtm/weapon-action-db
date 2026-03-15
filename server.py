@@ -161,7 +161,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 line = ANSI.sub("", raw_line).rstrip()
                 if not line:
                     continue
-                if line.strip().startswith("✓"):
+                if line.strip().startswith("[git]"):
+                    event = "git"  # git push 결과 — 수집 카운트 제외
+                elif line.strip().startswith("✓"):
                     event = "ok"
                     batch_collected += 1
                 elif line.strip().startswith("✗"):

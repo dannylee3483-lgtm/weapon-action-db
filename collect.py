@@ -97,7 +97,7 @@ def git_auto_push(count, label=""):
                 cwd=str(repo_dir), capture_output=True, text=True
             )
         if r2.returncode == 0:
-            pok(f"GitHub Push 완료  [{commit_msg}]")
+            print(f"  [git] Push 완료  [{commit_msg}]", flush=True)
         else:
             perr(f"git push 실패: {r2.stderr.strip()[:200]}")
     except FileNotFoundError:
