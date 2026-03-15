@@ -3863,7 +3863,7 @@
       },
       "designNotes": "진격의 참격은 '기다림'을 플레이어의 핵심 스킬로 승격시킨 설계의 정수다. 몬스터 공격 타이밍을 읽고 슈퍼아머를 신뢰하는 결단이 요구되며, 이 긴장감이 히트 시 폭발적인 데미지 보상으로 귀결된다. 차지 중단 없이 레벨만 낮아지는 리스크 완충 설계는 절망감보다 회복 기회를 부여해 플레이어 좌절을 최소화한다. 단일 히트 최대 데미지 구조는 약점 부위 집중이라는 몬스터 헌터의 핵심 전략 루프와 자연스럽게 맞물리며, '정확한 위치에 맞추는 기술'을 직접 보상하는 피드백 설계를 완성한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%A7%84%EA%B2%A9%EC%9D%98+%EC%B0%B8%EA%B2%A9+%2F+True+Charged+Slash+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=dayYZdBxCvo",
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Greatsword",
         "gif": null
@@ -3930,7 +3930,7 @@
       },
       "designNotes": "Tiger Sprint은 대형 무기의 가장 큰 약점인 '기동성 결여'를 직접 보완하는 설계로, 오다치가 대검임에도 공격적이고 역동적인 플레이를 가능하게 한다. 빠른 이동과 강력한 타격을 단일 입력으로 묶어 리스크 없이 공세를 시작하는 오프너 역할을 완수한다. Ki 펄스 타이밍이 히트 직후 개방되는 구조는 자원 효율을 유지하며 공격성을 이어가도록 유도하며, 이는 Nioh 2의 '공격이 곧 방어' 시스템 철학과 완벽하게 호응한다. 스탠스 전환과 결합 시 다양한 전투 흐름을 창출해 단순한 돌진기 이상의 전략적 층위를 부여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%98%B8%EB%9E%91%EC%9D%B4+%EC%A7%88%EC%A3%BC+%2F+Tiger+Sprint+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=7JbmjpPj-dU",
         "images": [],
         "wiki": null,
         "gif": null
@@ -4003,7 +4003,7 @@
       },
       "designNotes": "월광파는 근접 무기에 원거리 위협을 부여함으로써 '대검은 느리고 단거리'라는 고정관념을 역이용하는 설계다. 적이 안전 거리를 확보하려 물러날수록 오히려 위험에 빠지는 역설적 압박을 창출하여, 공격자와 방어자 모두에게 예측 불가능한 긴장감을 부여한다. 마법 데미지 특성 덕분에 물리 방어에 치중한 빌드를 자연스럽게 견제해 메타 다양성에도 기여한다. 시각적으로 인상적인 월광 파동 연출은 신비감과 전략적 정보(마법 속성 무기임을 즉시 인식)를 동시에 전달하는 효율적인 비주얼 피드백 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+%EC%9B%94%EA%B4%91%ED%8C%8C+%2F+Moonlight+Wave+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=Fxye4HkYNqg",
         "images": [],
         "wiki": "https://darksouls.wiki.fextralife.com/Moonlight+Greatsword",
         "gif": null
@@ -4069,7 +4069,7 @@
       },
       "designNotes": "모탈 드로우는 세키로의 핵심 전투 철학인 '체간(포이즈) 시스템'과 완벽하게 연동되는 기술로, 방어적 플레이어를 역이용하는 리스크-리워드 구조를 형성한다. 긴 차지 전조 동작은 적에게도 대응 시간을 부여하여 공방의 읽기 싸움을 심화시키며, 일방적인 필살기가 아닌 전략적 판단이 필요한 기술로 설계되었다. 발도 시의 넓은 판정은 다수 적을 동시에 처리할 수 있게 하면서도 소모되는 기 자원이 '이 타이밍이 최선인가'라는 지속적인 의사결정을 유도한다. 시각적으로 발도 모션의 하얀 섬광 이펙트가 히트 확인 전 기대감을 극대화하며, 성공 시 강렬한 피드백으로 숙련도를 보상한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EB%AA%A8%ED%83%88+%EB%93%9C%EB%A1%9C%EC%9A%B0+%28Mortal+Draw%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=7MKJojFAUo8",
         "images": [],
         "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Mortal+Draw",
         "gif": null
@@ -4137,7 +4137,7 @@
       },
       "designNotes": "결투 시스템은 사무라이 영화의 '전투 전 긴장의 정점'을 게임 메카닉으로 구현한 탁월한 설계 사례다. 대치 상태에서의 시간 압박과 단 하나의 버튼이라는 단순한 인터페이스가 강렬한 감정적 몰입을 유발하며, 복잡한 조작 없이 심리적 긴장감만으로 도전감을 형성한다. 성공(즉사)과 실패(큰 피해) 사이의 극단적인 결과 차이는 고위험-고보상 구조의 교과서적 구현이다. 슬로우 모션과 카메라 연출이 시각적 쾌감을 극대화하여 보상 심리를 강화하고, 이 메카닉이 게임의 핵심 정체성인 '진 사카이의 이중성'이라는 내러티브와도 맞닿아 있어 스토리와 게임플레이의 유기적 통합을 이룬다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EA%B2%B0%ED%88%AC+%EA%B1%B0%ED%95%A9%EB%B2%A0%EA%B8%B0+%28Standoff+Iai+Strike%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=u_2H_9pyiEY",
         "images": [],
         "wiki": "https://ghostoftsushima.wiki.fextralife.com/Standoff",
         "gif": null
@@ -4208,7 +4208,7 @@
       },
       "designNotes": "잔다쓰는 '공격이 곧 회복'이라는 역설적 루프를 통해 소극적 플레이를 구조적으로 억제하고 지속적인 공격성을 장려하는 경이로운 전투 경제 설계다. 블레이드 모드 에너지 소모 → 자유 절단 → 잔다쓰 회복이라는 세 단계 사이클이 자원 관리와 스킬 표현을 동시에 요구하며, 숙련된 플레이어일수록 자원 손실 없이 전투를 지속할 수 있다는 점에서 실력 차이가 눈에 보이는 뛰어난 스킬 피드백 구조다. 고주파 블레이드로 기계 적을 물리적으로 해체하는 시각적 연출은 사이버펑크 세계관과 완벽히 통합되어 있으며, 단순한 피니셔 이상의 내러티브 의미(라이덴의 사이보그 정체성)까지 담아낸다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Metal+Gear+Rising%3A+Revengeance+%EC%9E%94%EB%8B%A4%EC%93%B0+%28Zandatsu+%2F+%E6%96%AC%E5%A5%AA%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=Pku8XWcy7Hc",
         "images": [],
         "wiki": "https://metalgearrising.fandom.com/wiki/Zandatsu",
         "gif": null
@@ -4279,7 +4279,7 @@
       },
       "designNotes": "NieR: Automata의 소검 공중 콤보는 PlatinumGames 특유의 '아름다운 폭력' 철학이 집약된 시퀀스로, 타격음·이펙트·캐릭터 애니메이션이 삼위일체로 리듬감을 형성한다. 런처 → 공중 연격 → 착지 마무리라는 3단계 구조가 리워드 루프를 직관적으로 제시하며, 각 단계에서 Pod 액션 삽입 여부를 선택해 딜량을 조절할 수 있어 숙련도 표현 범위가 넓다. 히트스탑이 짧게 설계되어 끊김 없이 스피드감이 유지되고, 적의 중량에 따라 체공 시간이 달라져 상황 판단을 자연스럽게 유도한다. 회피 캔슬과의 조합으로 공중 무한 루프에 가까운 고급 테크닉이 가능해 마스터리 천장이 매우 높다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%EA%B3%B5%EC%A4%91+%EC%97%B0%EA%B2%A9+%ED%94%BC%EB%8B%88%EC%89%AC+%28Aerial+Rave+Finish%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=z6La_S9YoJ4",
         "images": [],
         "wiki": "https://nierautomata.wiki.fextralife.com/Small+Swords",
         "gif": null
@@ -4353,7 +4353,7 @@
       },
       "designNotes": "Cyclone of Chaos는 사슬 무기의 물리적 원심력을 전투 시스템으로 직접 변환한 설계의 정수로, 무기 서사와 메카닉이 완벽히 일치한다. 방어 입력(L1)과 공격 입력(○)의 조합은 '방어에서 공격으로의 심리적 전환'을 버튼 레벨에서부터 표현하며, 이는 크라토스의 캐릭터성(분노의 폭발)과도 서사적으로 연결된다. 군중 제어와 밀쳐내기가 동시에 적용되어 혼전 상황에서 공간을 확보하는 전술적 선택지로 기능하고, 위험(다중 적 근접)에 대한 리워드(대범위 클리어)가 명확하다. 회전 연장 가능 구조는 쿨다운 없이 판단 비용만으로 리스크를 조율하게 해 전투의 긴장감을 유지한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EC%B9%B4%EC%98%A4%EC%8A%A4%EC%9D%98+%EC%82%AC%EC%9D%B4%ED%81%B4%EB%A1%A0+%28Cyclone+of+Chaos%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=V_dTRQOOWBc",
         "images": [],
         "wiki": "https://godofwar.wiki.fextralife.com/Blades+of+Chaos",
         "gif": null
@@ -4427,7 +4427,7 @@
       },
       "designNotes": "Jedi: Survivor의 이중 라이트세이버 스탠스는 '공격이 최선의 방어'라는 플레이 스타일을 구조적으로 지원하며, 히트 수 중심의 포스처 분쇄 메카닉이 이 철학을 구체화한다. 단발 위력이 아닌 지속 압박으로 돌파구를 여는 방식은 보스의 방어 패턴을 역이용하는 전략적 레이어를 추가해 전투 독해력을 요구한다. 피니쉬 타격의 소규모 범위 피해는 잡몹 정리와 보스전 딜링을 하나의 콤보로 처리할 수 있게 해 전장 상황 적응력을 높인다. 스탠스 전환 시스템과 결합해 다히트 포스처 분쇄라는 이 스탠스의 역할이 다른 스탠스와 명확히 차별화되며, 스탠스 선택 자체가 전술 메타게임을 형성한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Star+Wars+Jedi%3A+Survivor+%EB%93%80%EC%96%BC+%EC%8A%A4%ED%83%A0%EC%8A%A4+%EC%BD%A4%EB%B3%B4+%ED%94%BC%EB%8B%88%EC%89%AC+%28Dual+Stance+Combo+Finisher%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=7A7PchrHvCk",
         "images": [],
         "wiki": null,
         "gif": null
