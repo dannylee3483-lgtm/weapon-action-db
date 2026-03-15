@@ -14611,6 +14611,192 @@
       ],
       "id": "sp-018",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Greatsword",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "오버헤드 스매시 / Overhead Smash",
+      "actionType": "강공격",
+      "description": "양손으로 들린 대검을 높이 들었다가 내려찍는 느린 강공격. 높은 위력과 광범위의 스태거 파워를 가지며 상대의 방어를 뚫기에 충분하다. 느린 시작과 긴 리커버리로 인해 타이밍 판단이 중요하며, 성공 시 압도적 우위를 확보할 수 있다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~40f",
+          "active": "~5f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Dark Souls의 대검은 느린 공격 속도를 강력한 위력으로 보상하는 전형적인 무거운 무기 설계. 오버헤드 스매시는 상대의 패리 타이밍을 무시할 수 있는 압도적 파워를 제공하며, 긴 리커버리는 플레이어에게 거리 조절과 신중한 공격 선택의 중요성을 강조. 이는 '느린 무게감'이 역설적으로 '숙련된 플레이'를 요구하는 클래식 액션 게임 설계의 핵심.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C+%EC%8A%A4%EB%A7%A4%EC%8B%9C+%2F+Overhead+Smash+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Greatsword",
+        "gif": null
+      },
+      "tags": [
+        "heavy-weapon",
+        "risk-reward",
+        "crowd-control",
+        "poise-breaker",
+        "pvp-viable",
+        "slow-startup"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "울트라 그레이트소드"
+      ],
+      "id": "gs-034",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Longsword",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "호의 일격 / Arc of Might",
+      "actionType": "차지 공격",
+      "description": "검 사용자의 차지 공격으로, 칼날을 모아 넓은 호를 그리며 내려찍는 동작. 차지 시간에 따라 위력이 증가하며, 최대 차지 시 대형 몬스터도 경직시킬 수 있는 스태거 파워를 발휘한다. 전방향 범위 공격으로 여러 적을 동시에 제압할 수 있다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "crowd-control"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "charge-scaling"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~12f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Dragon's Dogma의 차지 공격 시스템은 플레이어의 '숙련도'를 보상하는 메커닉. Arc of Might는 차지 타이밍을 통해 리스크(노출 시간)와 리워드(위력)의 완벽한 균형을 제시. 광범위 히트박스는 군중 전투에서 우월성을 제공하며, 대형 몬스터와의 1대1 전투에서는 정확한 차지 판단과 타이밍이 승패를 결정하도록 설계.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%ED%98%B8%EC%9D%98+%EC%9D%BC%EA%B2%A9+%2F+Arc+of+Might+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Longsword",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "crowd-control",
+        "poise-breaker",
+        "skill-based",
+        "positioning-dependent",
+        "stamina-management"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "롱소드",
+        "그레이트소드"
+      ],
+      "id": "gs-035",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Steel Sword",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "actionName": "강타 / Heavy Slash",
+      "actionType": "강공격",
+      "description": "Geralt이 양손으로 들린 검을 힘껏 휘두르는 강공격. 기본 공격보다 느리지만 높은 피해와 넓은 범위를 제공하며 적의 갑옷 방어를 관통한다. 스태미나 소비가 크지만 체인 연결로 연속 공격이 가능하여 전투의 리듬감을 제공한다.",
+      "motionType": [
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "crowd-control"
+        ],
+        "specialProperties": [
+          "armor-penetration",
+          "knockdown"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~8f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "The Witcher 3의 검 전투는 경쾌함과 무게감의 균형을 추구. 강타는 기본 공격보다 느리지만 더 강력한 '선택지'로, 플레이어의 전술적 판단을 유도. 스태미나 시스템과 결합하면 무한 연격 대신 '리소스 관리와 타이밍 선택'을 강요하여 전투의 전략적 깊이를 극대화. 갑옷 관통 기능은 적의 유형에 따른 적응적 플레이를 장려.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EA%B0%95%ED%83%80+%2F+Heavy+Slash+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "action-rpg",
+        "stamina-management",
+        "heavy-attack",
+        "armor-penetration",
+        "crowd-control",
+        "tactical-combat"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "스틸소드",
+        "1H검"
+      ],
+      "id": "gs-036",
+      "addedDate": "2026-03-15"
     }
   ]
 }
