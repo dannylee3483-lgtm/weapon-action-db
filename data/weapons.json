@@ -4448,6 +4448,222 @@
       ],
       "id": "db-006",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드라우프니르 창 (Draupnir Spear)",
+      "game": "God of War: Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "창 폭발 / Spear Detonation",
+      "actionType": "특수기",
+      "description": "크라토스가 드라우프니르 창을 적 또는 지형에 찔러 박아두고, L1 버튼으로 꽂힌 창 전체를 동시에 폭발시켜 범위 피해를 입힌다. 창은 무한 복제되므로 여러 개를 연속으로 꽂아 연쇄 폭발 콤보를 구성할 수 있다. 폭발 시 바람 속성 충격파가 발생해 주변 적을 광역으로 넘어뜨린다.",
+      "motionType": [
+        "thrust",
+        "explosion",
+        "combo"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "area-of-effect",
+          "multi-plant",
+          "environmental-interaction"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~20f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "드라우프니르 창의 폭발 메카닉은 '투자와 회수'의 리스크-리워드 구조를 명확히 구현한다. 창을 꽂는 선투자 행동과 이후 폭발 트리거라는 2단계 구조가 단순 버튼 반응이 아닌 전략적 판단을 유도하며, 무한 복제 속성은 자원 관리 부담 없이 전술 다양성을 극대화한다. 지형과의 상호작용(벽·바닥 고정)은 공간 활용 능력을 보상하는 레이어드 디자인으로, 전투를 3차원 퍼즐에 가깝게 만든다. 강렬한 바람 충격파 시각 연출은 타격감과 연출 만족도를 동시에 제공하며, 드라우프니르 신화 서사(황금 반지의 복제 속성)와 무기 메카닉이 유기적으로 연결된 내러티브 디자인이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War%3A+Ragnar%C3%B6k+%EC%B0%BD+%ED%8F%AD%EB%B0%9C+%2F+Spear+Detonation+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Draupnir_Spear",
+        "gif": null
+      },
+      "tags": [
+        "spear",
+        "detonation",
+        "area-of-effect",
+        "wind-element",
+        "two-stage-attack",
+        "knockdown",
+        "environmental",
+        "god-of-war",
+        "combo-extender",
+        "multi-hit"
+      ],
+      "applicableWeapons": [
+        "창",
+        "투척 무기"
+      ],
+      "id": "sp-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "카운터 찌르기 / Counter Thrust",
+      "actionType": "카운터",
+      "description": "가드 자세를 유지하다 적의 공격을 방어하는 순간 자동으로 강력한 전방 찌르기를 내지른다. 일반 가드와 달리 피해를 흡수하는 동시에 반격 찌르기 판정이 발생하며, 성공 시 일반 찌르기보다 높은 위력의 공격이 발동된다. 적의 공격 타이밍을 읽는 숙련도에 따라 전투 흐름 전체를 역전시키는 핵심 기술이다.",
+      "motionType": [
+        "thrust",
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "auto-counter",
+          "guard-point",
+          "damage-on-block",
+          "stance-maintain"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~3f (반격 트리거 후)",
+          "active": "~12f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "랜스의 카운터 찌르기는 '수비가 곧 공격'이라는 역설적 설계 원칙을 체현한다. 가드 자세 자체가 공격 기회로 전환되어 방어형 플레이에 공격적 보상을 부여하는 명쾌한 리스크-리워드 구조가 핵심이다. 자동 트리거 방식으로 진입 장벽을 낮추면서도, 카운터 성공 여부는 몬스터 공격 패턴 숙지에 달려 있어 숙련도 층위가 자연스럽게 형성된다. 스태미나를 방어와 반격에 공유함으로써 장기전의 자원 관리 판단을 강제하며, 이는 랜스 특유의 '요새형' 전투 리듬과 정체성을 강화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Counter+Thrust+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Lance",
+        "gif": null
+      },
+      "tags": [
+        "lance",
+        "counter",
+        "guard-point",
+        "auto-counter",
+        "defensive-offense",
+        "stamina-management",
+        "monster-hunter",
+        "parry",
+        "thrust",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "건랜스"
+      ],
+      "id": "sp-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "야리 (Spear)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "스피어폴 / Spearfall",
+      "actionType": "무기술",
+      "description": "캐릭터가 창을 지지대 삼아 도약한 후 공중에서 창끝을 아래로 향해 적에게 강하게 내리꽂는 플런징 어택이다. 착지 시 지면 충격파가 발생해 주변 적에게도 범위 피해를 입힌다. 적의 머리 위를 공략하는 수직 궤도라 수평 가드를 우회하기 쉬우며, 착지 직후 즉각 연계 콤보로 전환이 가능하다.",
+      "motionType": [
+        "thrust",
+        "overhead",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "overhead-attack",
+          "area-of-effect",
+          "guard-bypass"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~22f (도약 포함)",
+          "active": "~10f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "스피어폴은 창이라는 무기의 '긴 수평 사거리'와 '수직 낙하 공격'이라는 상반된 특성을 하나의 모션으로 통합한 우아한 설계다. 수직 방향 공격은 대부분의 수평 가드를 자연스럽게 우회하며, 도약이라는 준비 동작이 가독성 높은 예고 신호(telegraph)로 기능해 공방 교환의 리듬을 형성한다. Ki(기) 소비 구조는 난무 사용을 억제하고 타이밍 선택을 강제하며, Nioh 2의 하이·미들·로우 스탠스 시스템과 결합하면 위력 극대화 vs 후속기 연계 속도라는 심화 선택지가 생겨 숙련도 심화 경로를 자연스럽게 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%8A%A4%ED%94%BC%EC%96%B4%ED%8F%B4+%2F+Spearfall+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Spear",
+        "gif": null
+      },
+      "tags": [
+        "spear",
+        "plunging-attack",
+        "overhead",
+        "area-of-effect",
+        "guard-bypass",
+        "knockdown",
+        "ki-management",
+        "nioh",
+        "poise-breaking",
+        "vertical-attack"
+      ],
+      "applicableWeapons": [
+        "창",
+        "야리"
+      ],
+      "id": "sp-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
