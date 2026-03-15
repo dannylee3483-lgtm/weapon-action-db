@@ -17968,6 +17968,76 @@
       ],
       "id": "db-016",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "쌍도끼 (Dual Axes)",
+      "game": "Diablo IV",
+      "developer": "Blizzard Entertainment",
+      "actionName": "렌드 / Rend",
+      "actionType": "특수기",
+      "description": "야만용사가 앞으로 돌진하며 양손의 도끼로 적들을 크게 베어내는 기술로, 즉각적인 물리 피해와 함께 5초간 지속되는 강렬한 출혈 상태를 부과한다. 출혈 스택은 누적 적용되며, 이후 '찢기(Rupture)' 기술과 연동해 쌓인 출혈 피해를 한 번에 폭발시키는 2단계 콤보 루프의 핵심 시작점 역할을 한다. 분노(Fury) 35를 소모하며, 군중 밀집 상황에서 전방 넓은 범위를 커버하는 스윕 판정이 특징이다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "dot-damage",
+          "gap-closer",
+          "multi-hit"
+        ],
+        "resourceCost": "분노(Fury) 35",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~20f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "렌드는 즉각 피해보다 지속 피해(DoT) 축적에 특화된 설계로, 야만용사 출혈 빌드의 핵심 '원인' 역할을 담당한다. 출혈을 쌓은 뒤 찢기(Rupture)로 폭발시키는 2단계 리소스 루프는 단순 반복 타격을 넘어 자원 관리와 타이밍 판단을 요구하는 전략적 깊이를 부여한다. 전방 돌진과 광역 스윕 판정을 결합해 군중 관리와 출혈 스택 적립을 동시에 수행할 수 있으며, 이는 고밀도 콘텐츠에서 특히 효율이 두드러진다. 붉은 출혈 이펙트와 육중한 효과음이 '상처를 찢는다'는 행위를 강하게 시각·청각적으로 전달해, 리소스 폭발 전략의 만족감을 극대화하는 피드백 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%EB%A0%8C%EB%93%9C+%2F+Rend+gameplay",
+        "images": [],
+        "wiki": "https://diablo.fandom.com/wiki/Rend",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "dot-damage",
+        "dual-axe",
+        "barbarian",
+        "resource-loop",
+        "crowd-control",
+        "gap-closer",
+        "combo-setup",
+        "diablo"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "쌍도끼"
+      ],
+      "id": "ax-022",
+      "addedDate": "2026-03-15"
     }
   ]
 }
