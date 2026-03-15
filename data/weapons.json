@@ -5299,6 +5299,214 @@
       ],
       "id": "wh-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "Gloves (권투 장갑)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "별빛 소나기 / Starshower",
+      "actionType": "특수기",
+      "description": "티파가 적에게 달려들어 눈부신 속도로 12타 이상의 연속 타격을 퍼붓는 기술이다. 타격마다 섬광 파티클이 흩뿌려지며 적의 스태거 게이지를 지속적으로 깎아낸다. 높은 히트 수는 적의 취약 상태(스태거) 유발에 직결되어 파티 전체 공세의 발판이 된다.",
+      "motionType": [
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "stagger-buildup",
+          "high-hit-count"
+        ],
+        "resourceCost": "ATB 1게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~60f",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "Starshower는 단순 대미지 딜링을 넘어 스태거 게이지 관리라는 전략적 층위를 권투 연타에 부여한 설계다. 12타 이상의 히트가 화면을 수놓는 시각적 카타르시스를 제공하면서, 매 히트가 적의 취약 상태를 향한 '투자'로 기능하여 플레이어가 기술을 소비하는 것이 아닌 투자한다고 느끼게 만든다. 타격음이 타격마다 누적되고 이펙트가 점층적으로 강해지는 구조는 연타 피드백의 정점을 구현한다. ATB 소비임에도 후딜이 짧아 파티 전환 직전 마무리 기술로 쓰기 적합하며, 팀 전투 리듬을 끊지 않는 배려가 설계에 깔려 있다. 스태거-딜-스태거 순환의 연결고리 역할을 단 하나의 기술로 담아낸 효율적인 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EB%B3%84%EB%B9%9B+%EC%86%8C%EB%82%98%EA%B8%B0+%2F+Starshower+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Starshower",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "stagger-buildup",
+        "rapid-strikes",
+        "party-synergy",
+        "fist-combat",
+        "combo-finisher",
+        "visual-feedback",
+        "atb-cost"
+      ],
+      "applicableWeapons": [
+        "권투 장갑",
+        "너클",
+        "클로"
+      ],
+      "id": "ft-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Bare Fist)",
+      "game": "Yakuza 0",
+      "developer": "Ryu Ga Gotoku Studio",
+      "actionName": "코마키 타이거 드롭 / Komaki Tiger Drop",
+      "actionType": "카운터",
+      "description": "적의 공격이 명중하기 직전 프레임에 발동하는 코마키 유파의 비전 카운터 기술로, 상대의 공격 모션을 읽고 정면에서 받아치며 막대한 대미지를 입힌다. 성공 시 적이 크게 튕겨나가는 임팩트 이펙트와 강렬한 효과음이 재생되며, 타이밍을 놓치면 그대로 피격된다. 판정 윈도우가 극도로 짧아 프레임 단위의 정밀한 타이밍 숙련이 필수다.",
+      "motionType": [
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "counter-attack",
+          "armor-frames"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~4f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "Tiger Drop은 카운터 메카닉의 리스크-리워드 극단을 오픈월드 RPG에 이식한 희귀한 사례다. 자원 소모가 전혀 없어 '숙련도' 하나만이 이 기술의 통화이며, 이는 플레이어 성장 이정표로서 자연스럽게 기능한다. 성공 시의 압도적인 대미지와 넉다운 연출은 위험을 감수한 것에 대한 완전한 보상을 제공하여 긴장과 해소의 리듬을 극대화한다. 야쿠자 시리즈의 '기다림과 폭발' 전투 철학을 단 하나의 기술로 응축한 것으로, 기술의 존재만으로도 플레이어가 적의 패턴을 적극적으로 읽게 만드는 행동 유도 설계가 탁월하다. 보스전에서 여유롭게 거리를 두다 결정적 순간에 역전하는 쾌감의 핵심 축을 담당한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Yakuza+0+%EC%BD%94%EB%A7%88%ED%82%A4+%ED%83%80%EC%9D%B4%EA%B1%B0+%EB%93%9C%EB%A1%AD+%2F+Komaki+Tiger+Drop+gameplay",
+        "images": [],
+        "wiki": "https://yakuza.fandom.com/wiki/Komaki_Tiger_Drop",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "risk-reward",
+        "knockdown",
+        "timing-based",
+        "master-technique",
+        "fist-combat",
+        "boss-punish",
+        "no-resource-cost"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투 장갑"
+      ],
+      "id": "ft-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Bare Fist)",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Studios",
+      "actionName": "전기 풍신권 / Electric Wind God Fist (EWGF)",
+      "actionType": "특수기",
+      "description": "진 카자마 계열 캐릭터의 상징인 풍신권 계열 최고 등급 기술로, f,N,d,df+2 커맨드를 단일 프레임 내에 정확히 입력해야 전기 버전이 발동된다. 성공 시 주먹에서 청백색 전기가 폭발하며 상대를 공중에 부양시켜 저지 콤보 연계를 허용한다. 가드 당해도 상대보다 유리 프레임을 얻어 공방 모두에서 핵심 기술로 활용된다.",
+      "motionType": [
+        "thrust",
+        "launcher"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "just-frame",
+          "juggle-starter",
+          "guard-safe",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~13f",
+          "active": "~3f",
+          "recovery": "~22f (가드 시 +5f 유리)"
+        }
+      },
+      "designNotes": "EWGF는 격투게임 역사상 '숙련도의 가시성'을 가장 명확하게 구현한 기술로 꼽힌다. 동일한 커맨드지만 단 하나의 프레임 타이밍 차이로 일반 풍신권과 완전히 다른 성능이 발동되는 구조는, 버튼 조합을 넘어 근육 기억과 정밀도를 요구하는 '기술 표현'의 영역으로 격투를 승화시킨다. 청백색 전기 이펙트는 성공 여부를 즉각 인식하게 만드는 시각적 QTE 신호로도 기능한다. 가드 시 이득 프레임 덕분에 입문자도 즉시 실전 사용이 가능하면서, 저지 콤보 확정 연계를 완성하려면 추가 숙련이 요구되는 이중 천장 구조가 플레이어를 장기간 붙잡는다. 테켄 3편 이래 30년간 이 설계가 살아남은 것은 높은 기술 천장이 커뮤니티를 결속시키는 가장 강력한 방법임을 증명한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%EC%A0%84%EA%B8%B0+%ED%92%8D%EC%8B%A0%EA%B6%8C+%2F+Electric+Wind+God+Fist+%28EWGF%29+gameplay",
+        "images": [],
+        "wiki": "https://tekken.fandom.com/wiki/Electric_Wind_God_Fist",
+        "gif": null
+      },
+      "tags": [
+        "just-frame",
+        "execution-depth",
+        "juggle-starter",
+        "guard-safe",
+        "skill-expression",
+        "fist-combat",
+        "lightning-element",
+        "fighting-game",
+        "mastery-ceiling"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투 장갑"
+      ],
+      "id": "ft-003",
+      "addedDate": "2026-03-15"
     }
   ]
 }
