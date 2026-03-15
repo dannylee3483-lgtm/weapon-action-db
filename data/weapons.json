@@ -6761,6 +6761,218 @@
       ],
       "id": "kt-030",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "크로스 나기나타 / 그레이트 스피어",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "관통 찌르기 (Impaling Thrust)",
+      "actionType": "무기술 (Ash of War)",
+      "description": "플레이어가 낮은 자세로 몸을 움츠렸다가 극도로 강력한 단일 찌르기를 폭발적으로 내뻗는 Ash of War 기술이다. 공격 실행 중 하이퍼 아머가 부여되어 적의 공격에 경직되지 않고 밀어붙일 수 있으며, 방어 중인 적의 가드를 관통하는 특수 물리 판정으로 높은 자세 대미지를 입힌다.",
+      "motionType": [
+        "thrust",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "hyper-armor",
+          "guard-pierce",
+          "posture-damage",
+          "poise-breaking"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~8f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "관통 찌르기는 '느리지만 무적'의 리스크-리워드 구조를 통해 방패 중심 빌드를 자연스럽게 카운터하는 메타 설계 요소다. 긴 선딜레임에도 불구하고 하이퍼 아머로 강행 돌파가 가능하여 플레이어에게 타이밍 판단과 리스크 감수라는 능동적 선택을 요구한다. 가드 관통 판정은 방패 특화 적에게만 유효한 추가 피해를 적립하여, 상대의 전술을 읽고 선택적으로 사용하는 '메타 카운터' 설계를 구현한다. 창 병기 특유의 긴 사거리와 결합해 중거리 확정 딜 타이밍을 명확하게 제시하며, PvP에서도 방패 의존 전략을 억제하는 게임 플레이 균형 도구로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EA%B4%80%ED%86%B5+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%28Impaling+Thrust%29+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Impaling+Thrust",
+        "gif": null
+      },
+      "tags": [
+        "guard-pierce",
+        "hyper-armor",
+        "thrust",
+        "ash-of-war",
+        "spear",
+        "risk-reward",
+        "poise-breaking",
+        "shield-counter",
+        "pvp"
+      ],
+      "applicableWeapons": [
+        "창",
+        "찌르기검",
+        "그레이트 스피어"
+      ],
+      "id": "sp-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드라우프니르 스피어 (Draupnir Spear)",
+      "game": "God of War: Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "창 연쇄 폭발 (Spear Detonation)",
+      "actionType": "특수기 / 지연 폭발",
+      "description": "크라토스가 드라우프니르 스피어 복사본을 적이나 지형에 여러 개 꽂아 둔 뒤, 트라이앵글을 길게 눌러 모든 창을 동시에 폭발시키는 연쇄 기술이다. 창 하나를 꽂을 때마다 준비 단계가 쌓이고, 기폭 시 누적된 모든 창이 한꺼번에 터져 광역 대미지와 강력한 경직을 유발한다.",
+      "motionType": [
+        "throw",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "gold",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "area-of-effect",
+          "delayed-detonation",
+          "resource-stacking",
+          "crowd-control",
+          "knockdown"
+        ],
+        "resourceCost": "없음 (창 복사본 축적 기반)",
+        "frameApprox": {
+          "startup": "~60f (창 설치 2~3회 포함)",
+          "active": "~15f (폭발)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "연쇄 폭발은 '투자-회수' 패턴을 창 투척이라는 물리적 행위에 직접 녹여낸 독창적인 자원 관리 설계다. 플레이어는 전투 중 지속적으로 창을 꽂아 '잠재 에너지'를 축적하고, 적절한 순간에 폭발로 모든 대미지를 한꺼번에 회수하는 전략적 박자를 유지해야 한다. 지형에 꽂힌 복사본 창이 시각적 단서로 남아 '아직 회수하지 않은 파워'를 직관적으로 인지시키며, 어디에 창을 박느냐에 따라 폭발 방향과 범위가 달라지는 공간 전략 레이어를 추가한다. 기다릴수록 강해지는 구조는 액션 게임의 즉각 피드백 루프와 전략 게임의 자원 최적화 감각을 동시에 제공하는 시스템 설계의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War%3A+Ragnar%C3%B6k+%EC%B0%BD+%EC%97%B0%EC%87%84+%ED%8F%AD%EB%B0%9C+%28Spear+Detonation%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Draupnir_Spear",
+        "gif": null
+      },
+      "tags": [
+        "delayed-detonation",
+        "area-of-effect",
+        "resource-stacking",
+        "crowd-control",
+        "throw",
+        "spear",
+        "wind-element",
+        "finisher",
+        "strategic-play"
+      ],
+      "applicableWeapons": [
+        "창",
+        "투척 창"
+      ],
+      "id": "sp-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "장창류 (Long Spear)",
+      "game": "NieR:Automata",
+      "developer": "PlatinumGames",
+      "actionName": "회선 중공격 연속기 (Spear Heavy Spin Combo)",
+      "actionType": "중공격 콤보",
+      "description": "2B가 장창을 장비한 상태로 중공격을 반복 입력하면 시전되는 연속 타격 콤보로, 광범위한 360도 회전 스윙으로 주변의 적을 일제히 쓸어낸 뒤 대지를 내리찍는 오버헤드 슬램으로 마무리한다. Pod 원거리 지원 사격과 동시에 진행할 수 있어 타격 밀도와 대미지를 극대화할 수 있다.",
+      "motionType": [
+        "spin",
+        "overhead",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "knockdown",
+          "area-of-effect",
+          "pod-synergy"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~22f (스윙) + ~10f (슬램)",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "NieR:Automata의 창 중공격 콤보는 고속의 소검·대검 무기군과 대비되는 '광역 제압'이라는 역할 분담을 명확하게 구현한 무기 설계다. 360도 회전 스윙은 다수 적 클리어링을 담당하고 마무리 슬램은 단일 집중 대미지로 마침표를 찍어, 두 타격의 성격 차이가 전투 리듬에 변주를 부여한다. Pod 사격과의 동시 입력 시너지는 공중 지원 시스템이 근접 무기와 자연스럽게 융합되는 이 게임 고유의 이중 공격 레이어를 극적으로 강조한다. 무기 즉시 교체 시스템과 결합하면 장창의 범위 장점을 살리다가 소검으로 전환해 단일 딜을 집중하는 상황별 무기 선택의 재미를 배가시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=NieR%3AAutomata+%ED%9A%8C%EC%84%A0+%EC%A4%91%EA%B3%B5%EA%B2%A9+%EC%97%B0%EC%86%8D%EA%B8%B0+%28Spear+Heavy+Spin+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://nierautomata.wiki.fextralife.com/Spears",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "area-of-effect",
+        "spin-attack",
+        "overhead-slam",
+        "pod-synergy",
+        "spear",
+        "heavy-attack",
+        "combo-finisher",
+        "multi-enemy"
+      ],
+      "applicableWeapons": [
+        "창",
+        "장창"
+      ],
+      "id": "sp-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
