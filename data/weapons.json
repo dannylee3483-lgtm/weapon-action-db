@@ -17614,6 +17614,77 @@
       ],
       "id": "ft-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "롱보우 (긴 활)",
+      "game": "Genshin Impact",
+      "developer": "HoYoverse",
+      "actionName": "냉동 빙화살 (Frostflake Arrow / 霜华矢)",
+      "actionType": "차지 공격",
+      "description": "감유(Ganyu)가 활시위를 최대로 당겨 Level 2 차지 상태에 도달하면 얼음 속성 화살인 '냉동 빙화살'을 발사한다. 착탄 즉시 1차 크리오 피해를 입히고, 연이어 '냉동 빙화산(Frostflake Bloom)'이 폭발하며 광역 크리오 피해를 추가로 가한다. 이 2단 폭발 구조는 단일 타격 대비 훨씬 넓은 범위와 높은 총 피해량을 보장한다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "얼음",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "cryo-application",
+          "aoe-bloom",
+          "two-stage-hit",
+          "stamina-cost"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~2.5s (최대 차지 기준)",
+          "active": "~0.5f (착탄 후 즉시 블룸 폭발)",
+          "recovery": "~60f"
+        }
+      },
+      "designNotes": "냉동 빙화살은 '2단계 보상 구조'를 통해 차지 시간이라는 위험을 구체적인 이점으로 환원하는 모범적인 설계 사례다. Level 1 차지는 일반 조준 사격에 불과하지만, 충분한 시간을 투자해 Level 2에 도달하면 착탄과 블룸 폭발이라는 두 번의 히트가 발생하며, 이는 단순히 수치를 키운 것이 아니라 히트 수 자체가 증가하는 질적 변화다. 이 구조는 플레이어에게 '지금 쏠 것인가, 더 기다릴 것인가'라는 실시간 의사결정을 강요하며, 적의 공격 타이밍을 읽는 숙련도가 직접 화력 효율로 이어지는 스킬 표현력(skill expression)을 만들어낸다. 블룸 폭발의 광역 범위는 보스 단일 피해와 군중 제거를 동시에 커버하는 역할 유연성을 제공하고, 스태미나 소모라는 비용 구조가 무한 차지를 억제해 전투 리듬을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Genshin+Impact+%EB%83%89%EB%8F%99+%EB%B9%99%ED%99%94%EC%82%B4+%28Frostflake+Arrow+%2F+%E9%9C%9C%E5%8D%8E%E7%9F%A2%29+gameplay",
+        "images": [],
+        "wiki": "https://genshin-impact.fandom.com/wiki/Ganyu",
+        "gif": null
+      },
+      "tags": [
+        "charged-shot",
+        "two-stage-hit",
+        "cryo",
+        "aoe-bloom",
+        "stamina-management",
+        "risk-reward",
+        "ranged",
+        "elemental-archery",
+        "burst-damage",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "활"
+      ],
+      "id": "bw-016",
+      "addedDate": "2026-03-15"
     }
   ]
 }
