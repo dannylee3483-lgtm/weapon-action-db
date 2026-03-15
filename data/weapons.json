@@ -14191,6 +14191,207 @@
       ],
       "id": "kt-039",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "소형검 쌍수 (Twin Small Swords)",
+      "game": "NieR: Automata",
+      "developer": "PlatinumGames",
+      "actionName": "고속 연격 피니셔 / Rapid Combo Finisher",
+      "actionType": "콤보",
+      "description": "2B가 양손에 소형검을 장착한 상태에서 지상 기본 콤보의 마지막 타격으로 몸을 빠르게 회전하며 다중 타격을 가하는 스핀 슬래시. 짧은 모션 안에 높은 히트 수를 압축하여 출혈·마비 칩 효과 누적에 최적화되어 있다. 직후 Pod 프로그램 발동으로 자유롭게 캔슬·연계할 수 있어 딜 루프의 핵심 고리 역할을 한다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "low",
+        "comboRole": [
+          "finisher",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "chip-proc",
+          "pod-cancel"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~18f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "NieR: Automata의 전투는 '단순 조작으로 화려한 표현'을 기본 철학으로 삼는다. 소형검 쌍수 콤보는 버튼 연타만으로 시각적 만족감을 주면서도, Pod 프로그램 캔슬 타이밍을 숙련하면 전혀 다른 층위의 딜 루프가 열리는 깊이를 제공한다. 높은 히트 수는 상태 이상 칩 누적에 직접 연결되어 빌드 다양성을 뒷받침하고, 스핀 피니셔의 약한 넉백은 적을 재배치하여 후속 공격 진입을 원활하게 돕는다. 이 설계는 캐주얼과 하드코어 플레이어 모두가 동일한 입력으로 다른 층위의 경험을 얻을 수 있는 '진입 폭'의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%EA%B3%A0%EC%86%8D+%EC%97%B0%EA%B2%A9+%ED%94%BC%EB%8B%88%EC%85%94+%2F+Rapid+Combo+Finisher+gameplay",
+        "images": [],
+        "wiki": "https://nier.fandom.com/wiki/2B",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "pod-synergy",
+        "chip-proc",
+        "fast-combo",
+        "dual-swords",
+        "combo-extender",
+        "status-buildup",
+        "platinum-games"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "단검"
+      ],
+      "id": "db-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "아그니 & 루드라 (Agni & Rudra)",
+      "game": "Devil May Cry 3: Dante's Awakening",
+      "developer": "Capcom",
+      "actionName": "토네이도 / Tornado",
+      "actionType": "무기술",
+      "description": "Sword Master 스타일 전용 특수기. 단테가 아그니(화염)와 루드라(바람)를 좌우로 전개하며 제자리 회전을 시작하고, 두 원소가 합쳐진 거대한 불꽃 회오리를 주위에 형성한다. 기술 지속 중 근접한 모든 적에게 연속 다중 히트가 들어가며, 레버 입력으로 이동 방향을 미세하게 제어해 다수의 적을 동시에 끌어들일 수 있다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "crowd-control",
+          "elemental-synergy",
+          "persistent-hitbox"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~60f+",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "아그니 & 루드라는 '두 인격의 협력'이라는 서사를 전투 메카닉으로 직접 번역한 사례다. Tornado는 불과 바람 속성을 가진 쌍둥이 검의 원소 시너지를 가장 극적으로 구현하며, DMC 시리즈의 Style Meter 시스템 안에서 군중 처리와 콤보 유지 두 역할을 동시에 수행한다. 지속 피해 판정이 있는 광역 기술임에도 이동 조작이 허용되어 공간 지배 감각을 강화하고, 플레이어에게 '내가 전장을 통제하고 있다'는 에이전시를 부여한다. 리소스 소모 없이 사용 가능하면서도 스타일 게이지를 효율적으로 채울 수 있어, 고급 플레이어가 딜 공백 없이 콤보를 이어가는 핵심 연결 옵션으로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%ED%86%A0%EB%84%A4%EC%9D%B4%EB%8F%84+%2F+Tornado+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Agni_%26_Rudra",
+        "gif": null
+      },
+      "tags": [
+        "dual-swords",
+        "elemental-synergy",
+        "crowd-control",
+        "persistent-hitbox",
+        "style-meter",
+        "sword-master",
+        "spin-attack",
+        "fire-wind"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Dual Swords)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "선풍연격 / Cyclone Strike",
+      "actionType": "무기술",
+      "description": "쌍검 전용 무술기. 앞발을 내딛으며 좌우 검을 엇갈리게 교차 베기로 고속 러시하는 근거리 돌진 기술로, 짧은 전진 거리 동안 다수의 히트를 적에게 몰아넣는다. 각 타격이 적의 기(Spirit) 게이지를 지속적으로 삭감하며, 마지막 타격에서 양 검을 앞으로 동시에 밀어내는 이중 찌르기로 마무리한다.",
+      "motionType": [
+        "slash",
+        "thrust",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "spirit-drain",
+          "multi-hit",
+          "gap-closer"
+        ],
+        "resourceCost": "기(Spirit)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~30f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Wo Long의 전투는 '기(Spirit) 공방'을 중심에 두고 설계되며, 쌍검의 연격 무술기는 이 시스템에서 빠른 Spirit 압박 도구로 기능한다. 개별 타격의 위력은 낮지만 연속적인 Spirit 게이지 삭감을 통해 적의 기세를 고갈시켜 致命擊(결정타) 기회를 빠르게 창출한다. 이는 리스크 낮은 지속 압박과 치명격 보상이라는 리스크-리워드 구조를 명확히 분리하는 선택지를 제공한다. 짧은 전진이 포함되어 Gap Closer 역할도 겸하므로, '빠른 접근 → Spirit 압박 → 치명격'으로 이어지는 공격 플로우를 단일 기술 안에 압축한 설계 효율이 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%84%A0%ED%92%8D%EC%97%B0%EA%B2%A9+%2F+Cyclone+Strike+gameplay",
+        "images": [],
+        "wiki": "https://wolong.wiki.fextralife.com/Dual+Swords",
+        "gif": null
+      },
+      "tags": [
+        "dual-swords",
+        "spirit-drain",
+        "multi-hit",
+        "gap-closer",
+        "spirit-gauge",
+        "team-ninja",
+        "soulslike",
+        "punish-tool"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
