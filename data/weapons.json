@@ -16424,6 +16424,72 @@
       ],
       "id": "ft-013",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "활 (Bow)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "공중 감속 조준 (Aerial Bullet Time)",
+      "actionType": "특수기",
+      "description": "링크가 점프하거나 낙하 중 활을 겨누는 순간 시간이 극적으로 느려지며 정밀 조준 상태에 진입한다. 감속 상태는 스태미나를 지속 소비하며, 그 사이 보스나 강적의 약점 부위를 연속으로 조준·발사할 수 있다. 스태미나가 소진되거나 사격을 마치면 시간이 정상화되며 링크는 낙하를 재개하므로 조준 타이밍과 착지 예측을 동시에 계산해야 한다.",
+      "motionType": [
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "precision-aim",
+          "stamina-drain",
+          "aerial-exclusive"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "스태미나 소진 시까지",
+          "recovery": "착지 후 ~10f"
+        }
+      },
+      "designNotes": "이 메카닉은 '기회 창출을 위한 자원 투자'라는 명확한 리스크-리워드 구조를 제시한다. 스태미나는 달리기·등반 등 탐험 전반과 공유되므로, 전투 중 감속 조준을 남발하면 이동 능력이 약화되는 전략적 긴장감이 생겨난다. 시간 감속은 플레이어에게 슬로모션 영화 연출 같은 판타지를 제공하면서도, 물리·탄도 계산은 실제 속도 기준으로 처리되어 조준 실력이 결과로 직결된다. '공중 진입'이라는 선행 조건이 지형 활용과 전투를 유기적으로 연결하며, 이후 Elden Ring·Horizon 등 다수 작품이 유사 메카닉을 채용한 영향력 있는 디자인 레퍼런스다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EA%B3%B5%EC%A4%91+%EA%B0%90%EC%86%8D+%EC%A1%B0%EC%A4%80+%28Aerial+Bullet+Time%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Bow_(Breath_of_the_Wild)",
+        "gif": null
+      },
+      "tags": [
+        "bullet-time",
+        "aerial",
+        "precision-aim",
+        "stamina-management",
+        "time-slow",
+        "bow",
+        "open-world",
+        "resource-tradeoff",
+        "cinematic",
+        "passive-trigger"
+      ],
+      "applicableWeapons": [
+        "활",
+        "석궁"
+      ],
+      "id": "bw-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
