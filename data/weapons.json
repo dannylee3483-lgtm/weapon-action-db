@@ -7185,6 +7185,213 @@
       ],
       "id": "ax-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "해머 (Hammer)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "빅뱅 콤보 (Big Bang Combo)",
+      "actionType": "차지 콤보",
+      "description": "차지 레벨 3 해제 후 이어지는 대형 연속 타격 콤보. 강력한 오버헤드 '빅뱅' 타격으로 시작해 최대 4타(빅뱅 I~III + 피니셔)를 연속으로 이어갈 수 있으며, 각 타격은 독립적으로 높은 기절 축적량을 지닌다. 피니셔 타격 시 광역 충격파가 발생하며 최대 딜을 발휘한다.",
+      "motionType": [
+        "overhead",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "brown"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "stun-buildup"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~15f (타격당)",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "차지 메카닉으로 리스크-리워드 구조를 명확하게 구현한 교과서적 사례다. 차지 유지 중 이동 속도가 현저히 감소해 포지셔닝 실수를 즉각 처벌하지만, 성공적인 차지 3 빅뱅 콤보는 기절 유발과 고데미지를 동시에 보장한다. 각 빅뱅 타격마다 히트스탑이 설계되어 플레이어에게 타격감과 리듬 감각을 선명하게 전달한다. 몬스터의 기절 내성 증가 시스템과 맞물려 기절 축적 타이밍을 전략적으로 고려하게 만들며, 콤보를 어느 타이밍에 끊을지 판단하는 레이어드 디시전을 플레이어에게 부여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%B9%85%EB%B1%85+%EC%BD%A4%EB%B3%B4+%28Big+Bang+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Hammer",
+        "gif": null
+      },
+      "tags": [
+        "charge-mechanic",
+        "stun-buildup",
+        "overhead-smash",
+        "high-damage",
+        "risk-reward",
+        "combo-finisher",
+        "knockdown",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "워 해머 (War Hammer)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "신벌 (God's Wrath)",
+      "actionType": "특수기",
+      "description": "워리어가 전신의 힘을 집중해 워 해머를 머리 위로 높이 들어올린 후 지면을 향해 수직으로 내리치는 기술. 발동 중 슈퍼 아머가 적용되어 적의 공격을 무시하고 기술을 완성할 수 있다. 타격 지점에서 충격파가 방사형으로 퍼져 주변 복수의 적을 동시에 공중으로 날린다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "super-armor",
+          "aoe",
+          "crowd-control"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~20f",
+          "recovery": "~50f"
+        }
+      },
+      "designNotes": "긴 선딜레이를 슈퍼 아머로 보완하여 고위험-고보상 구조를 명료하게 전달한다. 적의 공격을 감수하면서도 기술을 완성하겠다는 능동적 판단이 광역 런처라는 강력한 보상으로 연결되는 구조는 전투 몰입감을 극대화한다. 충격파의 방사형 판정은 다수 적 대응 시 전략적 가치를 발휘하여 상황 읽기 능력에 보상한다. 웅장한 와인드업 애니메이션은 기술의 무게감을 시각적으로 전달하는 동시에, 멀티플레이 상황에서 파티원이 연계 타이밍을 읽을 수 있는 협력 신호로 이중 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%8B%A0%EB%B2%8C+%28God%27s+Wrath%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma2.wiki.fextralife.com/God's+Wrath",
+        "gif": null
+      },
+      "tags": [
+        "super-armor",
+        "aoe",
+        "overhead-smash",
+        "crowd-control",
+        "launcher",
+        "high-risk-high-reward",
+        "poise-breaking",
+        "knockdown"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "대검"
+      ],
+      "id": "hm-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "프렐레이트 인퍼노 크로지어 (Prelate's Inferno Crozier)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "프렐레이트의 돌진 (Prelate's Charge)",
+      "actionType": "무기술 (Ash of War)",
+      "description": "무기를 불꽃으로 감싸며 전방으로 돌진한 후 화염 충격파와 함께 지면을 강타하는 무기술. 돌진 거리는 입력을 유지하는 시간으로 조절 가능하여 유연한 포지셔닝이 가능하다. 착지 지점에서 화염 폭발이 발생해 광역 화염 피해를 입힌다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "leap"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "knockdown",
+          "fire-damage",
+          "poise-breaking"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~20f",
+          "recovery": "~55f"
+        }
+      },
+      "designNotes": "해머류의 고질적 단점인 단거리 사정을 돌진 거리 가변 메카닉으로 역전시킨 설계가 돋보인다. FP 소모라는 리소스 비용이 무분별한 사용을 억제하고 상황 판단에 무게를 더한다. 돌진 거리의 가변성은 적과의 거리 감각을 정밀하게 요구함으로써 숙련도 표현 폭을 넓히며, 화염 속성 부여는 속성 약점 적에 대한 전략적 선택지로서 추가 게임플레이 레이어를 형성한다. 거대한 해머의 불꽃 돌진이라는 연출은 전투의 드라마틱한 전환점을 시각적으로 강조한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%94%84%EB%A0%90%EB%A0%88%EC%9D%B4%ED%8A%B8%EC%9D%98+%EB%8F%8C%EC%A7%84+%28Prelate%27s+Charge%29+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Prelate's+Inferno+Crozier",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "fire-damage",
+        "ash-of-war",
+        "charge-attack",
+        "poise-breaking",
+        "fp-cost",
+        "knockdown",
+        "variable-range"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "대검"
+      ],
+      "id": "hm-003",
+      "addedDate": "2026-03-15"
     }
   ]
 }
