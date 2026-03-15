@@ -13,6 +13,7 @@ Claude Code CLI(이미 설치된 `claude` 명령)를 사용합니다.
 """
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -55,6 +56,60 @@ def next_id(db, category):
         if re.match(rf"^{re.escape(prefix)}-\d+$", w["id"])
     ]
     return f"{prefix}-{(max(nums) + 1 if nums else 1):03d}"
+
+def _normalize_action(name: str) -> str:
+    """유사도 비교용 정규화: 영어 소문자 + 숫자만 남김"""
+    # 괄호 안 영어 추출 우선
+    m = re.search(r'\(([^)]+)\)', name)
+    if m:
+        inner = m.group(1).split('/')[0].strip()
+        ascii_part = re.sub(r'[^\x00-\x7F]+', '', inner).strip().lstrip(',').strip()
+        if len(re.sub(r'[^a-zA-Z]', '', ascii_part)) >= 3:
+            return re.sub(r'[^a-z0-9 ]', '', ascii_part.lower()).strip()
+    # 괄호 제거 후 non-ASCII 제거
+    no_paren = re.sub(r'\([^)]*\)', '', name).strip()
+    ascii_only = re.sub(r'[^\x00-\x7F]+', '', no_paren)
+    return re.sub(r'[^a-z0-9 ]', '', ascii_only.lower()).strip()
+
+
+def _normalize_game(name: str) -> str:
+    """게임명 정규화: 소문자 + 알파벳·숫자만 (로마자/아라비아 숫자 혼용 대응)"""
+    name = name.lower().strip()
+    # 로마자 숫자 → 아라비아 숫자 변환 (간단한 범위)
+    roman = {"ii": "2", "iii": "3", "iv": "4", "vi": "6",
+             "vii": "7", "viii": "8", "ix": "9"}
+    for r, a in roman.items():
+        name = re.sub(rf'\b{r}\b', a, name)
+    return re.sub(r'[^a-z0-9]', '', name)
+
+
+def is_duplicate(entry, weapons, threshold=0.85):
+    """기존 DB와 유사도 비교 → 중복이면 (True, 기존항목) 반환.
+    - 게임이 다르면 절대 중복 처리하지 않음
+    - 게임명은 퍼지 매칭 (Nioh II ↔ Nioh 2, 표기 차이 흡수)
+    """
+    game   = _normalize_game(entry.get("game", ""))
+    action = _normalize_action(entry.get("actionName", ""))
+    if not game or not action or len(action) < 3:
+        return False, None
+    for w in weapons:
+        w_game = _normalize_game(w.get("game", ""))
+        # 게임명이 다르면 무조건 스킵 — 다른 작품의 같은 액션명은 중복 아님
+        # 부제 포함 여부(Sekiro vs Sekiro: Shadows Die Twice)도 같은 게임으로 인식
+        game_ratio = difflib.SequenceMatcher(None, game, w_game).ratio()
+        same_game  = (game_ratio >= 0.90
+                      or w_game.startswith(game)
+                      or game.startswith(w_game))
+        if not same_game:
+            continue
+        existing = _normalize_action(w.get("actionName", ""))
+        if not existing:
+            continue
+        ratio = difflib.SequenceMatcher(None, action, existing).ratio()
+        if ratio >= threshold:
+            return True, w
+    return False, None
+
 
 def yt_search_url(game, action_name):
     q = quote_plus(f"{game} {action_name} gameplay")
@@ -242,7 +297,8 @@ SCHEMA = """{
   "applicableWeapons": ["이 메카닉을 적용 가능한 무기 유형들"]
 }"""
 
-def build_prompt(category, game, mechanic, query, count, existing_games):
+def build_prompt(category, game, mechanic, query, count, existing_games,
+                 existing_entries=None):
     conditions = []
     if category: conditions.append(f"무기 카테고리: **{category}**")
     if game:     conditions.append(f"게임: **{game}**")
@@ -254,12 +310,22 @@ def build_prompt(category, game, mechanic, query, count, existing_games):
         top = sorted(existing_games)[:12]
         already = f"\n\n이미 DB에 포함된 게임: {', '.join(top)}\n가능하면 다양한 게임에서 수집해주세요."
 
+    dup_block = ""
+    if existing_entries:
+        lines = [f"  - {g} / {a}" for g, a in existing_entries[:80]]
+        dup_block = (
+            "\n\n## 중복 금지 목록\n"
+            "**같은 게임** 내에서 아래 액션과 동일하거나 매우 유사한 액션은 수집하지 마세요.\n"
+            "단, **다른 게임**에서 같은 이름이나 유사한 액션이 등장하는 것은 괜찮습니다.\n"
+            + "\n".join(lines)
+        )
+
     return f"""당신은 액션 게임 무기 액션 전문 연구자입니다.
 
 아래 조건에 맞는 게임 무기 레퍼런스 **{count}개**를 수집하여 JSON 배열로 반환하세요.
 
 ## 수집 조건
-{chr(10).join(conditions)}{already}
+{chr(10).join(conditions)}{already}{dup_block}
 
 ## 각 항목의 JSON 스키마
 ```json
@@ -422,10 +488,22 @@ def main():
     existing_games = {w["game"] for w in db["weapons"]}
     pdim(f"현재 DB: {len(db['weapons'])}개 엔트리")
 
+    # ── 중복 방지용 기존 항목 목록 (조건에 맞는 것만 추려서 프롬프트에 전달)
+    def _entry_matches(w):
+        cat_ok  = (not args.category) or w.get("weaponCategory") == args.category
+        game_ok = (not args.game)     or w.get("game", "").lower() == args.game.lower()
+        return cat_ok or game_ok
+
+    existing_entries = [
+        (w.get("game", ""), w.get("actionName", ""))
+        for w in db["weapons"]
+        if _entry_matches(w)
+    ]
+
     # ── Claude 호출
     prompt = build_prompt(
         args.category, args.game, args.mechanic, args.query,
-        args.count, existing_games
+        args.count, existing_games, existing_entries
     )
 
     print(f"\n  {DIM}Claude에게 요청 중... (최대 3분 소요){RST}", flush=True)
@@ -457,6 +535,13 @@ def main():
     added = []
 
     for entry in entries:
+        # 중복 검사 — 기존 DB + 이번 배치 내 이미 추가된 항목 모두 체크
+        dup, orig = is_duplicate(entry, db["weapons"])
+        if dup:
+            perr(f"[SKIP] {entry.get('actionName')} "
+                 f"≈ {orig.get('actionName')} ({orig.get('game')}) — 유사도 높음")
+            continue
+
         cat = entry.get("weaponCategory", args.category or "기타")
         entry["id"] = next_id(db, cat)
         entry["addedDate"] = datetime.now().strftime("%Y-%m-%d")
@@ -491,8 +576,14 @@ def main():
     if args.dry_run:
         print(f"  {YEL}[DRY RUN] weapons.json에 저장하지 않음{RST}")
     else:
-        save_db(db)
-        pok(f"weapons.json 저장됨 (총 {len(db['weapons'])}개)")
+        # 저장 직전에 최신 DB를 다시 읽어서 새 항목만 병합
+        # → Claude 응답 대기 중(최대 3분) yt_watcher가 채운 URL이 덮어써지는 것 방지
+        fresh_db = load_db()
+        for entry in added:
+            fresh_db["weapons"].append(entry)
+        fresh_db["lastUpdated"] = datetime.now().strftime("%Y-%m-%d")
+        save_db(fresh_db)
+        pok(f"weapons.json 저장됨 (총 {len(fresh_db['weapons'])}개)")
         label = args.category or args.game or args.mechanic or args.query or ""
         git_auto_push(len(added), label)
     print()

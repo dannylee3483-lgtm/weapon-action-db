@@ -72,9 +72,35 @@ def find_ytdlp():
         pass
     return None
 
+def _ascii_action(action_name: str) -> str:
+    """
+    액션 이름에서 영어/ASCII 부분만 추출 → yt-dlp 검색용.
+    예) '진 용격참 (True Charged Slash / 真・溜め斬り)' → 'True Charged Slash'
+        'Mortal Draw (모탈 드로우)'                    → 'Mortal Draw'
+        'Charged Slash'                               → 'Charged Slash'
+    """
+    # 괄호 안 내용 추출
+    m = re.search(r'\(([^)]+)\)', action_name)
+    if m:
+        inner = m.group(1).split('/')[0].strip()  # '/' 앞 부분만
+        ascii_part = re.sub(r'[^\x00-\x7F]+', '', inner).strip().lstrip(',').strip()
+        # 의미 있는 단어가 있어야 사용 (특수문자만 남은 경우 무시)
+        if len(re.sub(r'[^a-zA-Z]', '', ascii_part)) >= 3:
+            return ascii_part
+
+    # 괄호 전체 제거 후 non-ASCII 제거
+    no_paren = re.sub(r'\([^)]*\)', '', action_name).strip()
+    ascii_only = re.sub(r'[^\x00-\x7F]+', '', no_paren).strip()
+    ascii_only = re.sub(r'[&/:]+\s*$', '', ascii_only).strip()  # 말미 특수문자 제거
+    ascii_only = re.sub(r'\s{2,}', ' ', ascii_only).strip()
+    return ascii_only if len(re.sub(r'[^a-zA-Z]', '', ascii_only)) >= 2 else action_name
+
+
 def search_candidates(ytdlp, game, action_name, n=CANDIDATES):
     """yt-dlp로 후보 영상 n개 검색 → [(id, title, channel), ...] 반환"""
-    query = f"{game} {action_name} gameplay"
+    eng_action = _ascii_action(action_name)
+    query = f"{game} {eng_action} gameplay"
+    dim(f"     검색어: {query}")
     try:
         r = subprocess.run(
             ytdlp + [f"ytsearch{n}:{query}",
@@ -195,7 +221,9 @@ def process_once(ytdlp, done_ids):
         return
 
     log(f"embed URL 없는 항목 {len(pending)}개 발견 — 검색 시작")
-    updated = 0
+
+    # URL 변경사항만 모아두기 — 저장 직전에 최신 DB에 병합 (collect 충돌 방지)
+    url_updates: dict = {}  # {wid: youtube_url}
 
     for w in pending:
         wid    = w["id"]
@@ -216,21 +244,24 @@ def process_once(ytdlp, done_ids):
         vid = pick_best_video(candidates, game, action, desc)
 
         if vid:
-            # 선택된 영상 제목 찾기
             chosen_title = next((t for v, t, _ in candidates if v == vid), "")
-            w["mediaLinks"]["youtube"] = f"https://www.youtube.com/watch?v={vid}"
+            url_updates[wid] = f"https://www.youtube.com/watch?v={vid}"
             ok(f"[{wid}] {action}")
             dim(f"     → {vid}  {chosen_title[:60]}")
-            updated += 1
         else:
             err(f"[{wid}] 영상 선택 실패")
 
         time.sleep(REQ_GAP)
 
-    if updated:
-        save_db(db)
-        ok(f"{updated}개 URL 저장됨")
-        git_push(updated)
+    if url_updates:
+        # 저장 직전에 최신 DB를 다시 읽어서 URL만 병합 → collect 덮어쓰기 방지
+        fresh_db = load_db()
+        for w in fresh_db["weapons"]:
+            if w["id"] in url_updates:
+                w.setdefault("mediaLinks", {})["youtube"] = url_updates[w["id"]]
+        save_db(fresh_db)
+        ok(f"{len(url_updates)}개 URL 저장됨")
+        git_push(len(url_updates))
 
 # ─── 메인 ─────────────────────────────────────────────────────────
 def main():

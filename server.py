@@ -235,7 +235,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     # ── /api/collect — SSE 스트리밍 (일반 배치 / 무한 모드)
     def _handle_collect(self):
-        BATCH_SIZE = 3
+        BATCH_SIZE          = 3  # 일반 모드: 배치당 수집 수
+        INFINITE_BATCH_SIZE = 1  # 무한 모드: 1개씩 → 최대 다양성 확보
 
         # 요청 파싱
         try:
@@ -291,7 +292,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                             break
 
                     cat  = CATEGORIES[pos_in_round]
-                    args = base_args + ["-c", cat, "-n", str(BATCH_SIZE)]
+                    args = base_args + ["-c", cat, "-n", str(INFINITE_BATCH_SIZE)]
 
                     if not self._sse(
                         f"[R{round_num} · {pos_in_round + 1}/{len(CATEGORIES)}] {cat} 수집중 · 누적 {total_added}개",
