@@ -22458,6 +22458,75 @@
       ],
       "id": "ft-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "숏보우 (Short Bow)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "오중 연사 (Fivefold Flurry)",
+      "actionType": "무기술",
+      "description": "버튼을 누르고 있는 동안 활을 충전한 뒤 해제 시 5발의 화살을 빠르게 연속 발사하는 궁수의 핵심 기술이다. 각 화살은 독립적인 히트 판정을 가지며, 동일 약점 부위에 전탄 명중 시 폭발적인 누적 피해를 입힌다. 대형 몬스터의 취약 부위를 정확히 조준했을 때 단일 스킬로 최대 화력을 뽑아낼 수 있는 설계다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "weak-point-exploit",
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~30f (충전 포함)",
+          "active": "~40f (5연사 전체)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "오중 연사는 단일 입력으로 다중 히트 피해를 구현한 리스크-리워드 구조의 모범 사례다. 충전이라는 코스트를 지불해야만 5발 분량의 누적 피해를 얻을 수 있어, 플레이어는 반드시 적의 행동 창을 읽고 타이밍을 결정해야 한다. 약점 부위 전탄 명중 시 배율이 급증하도록 설계되어 '정확하게 겨냥한 행동'에 대한 보상이 수치로 명확하게 느껴진다. 이는 Dragon's Dogma 시리즈의 핵심 전투 철학인 '약점 부위 집중 공략'을 궁수 클래스에서 가장 직관적으로 구현한 스킬이다. 5발이 연속으로 발사되는 시각·청각 피드백이 명확해 전탄 명중 여부를 즉각적으로 체감할 수 있어 플레이어 만족도 설계 측면에서도 우수하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%98%A4%EC%A4%91+%EC%97%B0%EC%82%AC+%28Fivefold+Flurry%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma2.wiki.fextralife.com/Fivefold+Flurry",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "charge-attack",
+        "weak-point",
+        "burst-damage",
+        "archer",
+        "bow",
+        "punish",
+        "skill-shot",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "숏보우",
+        "롱보우",
+        "활"
+      ],
+      "id": "bw-020",
+      "addedDate": "2026-03-16"
     }
   ]
 }
