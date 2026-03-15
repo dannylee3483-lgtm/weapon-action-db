@@ -13977,6 +13977,220 @@
       ],
       "id": "gs-033",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "HF Murasama / 고주파 블레이드",
+      "game": "Metal Gear Rising: Revengeance",
+      "developer": "PlatinumGames",
+      "actionName": "잔다츠 / Zandatsu",
+      "actionType": "특수기",
+      "description": "블레이드 모드 진입 시 시간이 슬로우 모션으로 전환되며, 플레이어가 스틱을 조작해 자유로운 각도로 절단선을 그어 적을 임의로 분리할 수 있다. 척수(Spine)를 정밀 절제해 뽑아내면 전기 에너지(EM)와 체력을 회복하는 '잔다츠(斬奪·Cut and Take)' 메카닉이 발동된다. 잘린 신체 부위는 물리 연산으로 실시간 비산하며, 탄약 등 소모품도 함께 회수 가능하다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "dismemberment",
+          "resource-recovery",
+          "time-slow",
+          "poise-breaking"
+        ],
+        "resourceCost": "블레이드 모드 게이지(EM)",
+        "frameApprox": {
+          "startup": "~8f (블레이드 모드 진입)",
+          "active": "슬로우 모션 지속 중 무제한",
+          "recovery": "~20f (모드 해제 후)"
+        }
+      },
+      "designNotes": "블레이드 모드는 단순한 슬로우 모션이 아닌 '자유 절단'이라는 완전히 새로운 입력 패러다임을 도입해 플레이어에게 압도적인 에이전시를 부여한다. 잔다츠의 리소스 회복 구조는 공격적 플레이에 대한 보상으로 기능하여, 위험할수록 더 강해지는 사이클을 형성하는 전형적인 고리스크-고리워드 설계다. 적의 실시간 절단 물리 연산은 플레이어 입력에 즉각 반응하는 시각적 피드백으로, 공격의 무게감과 만족도를 극대화한다. 체력이 위기 상황에서 오히려 잔다츠를 통해 역전하는 설계는 고난이도 구간에서도 긴장감을 유지하게 하는 탁월한 텐션 관리 기법이다. 칼 한 자루로 무엇이든 자를 수 있다는 판타지를 메카닉으로 완전히 구현한 대표 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Metal+Gear+Rising%3A+Revengeance+%EC%9E%94%EB%8B%A4%EC%B8%A0+%2F+Zandatsu+gameplay",
+        "images": [],
+        "wiki": "https://metalgearsolid.fandom.com/wiki/Zandatsu",
+        "gif": null
+      },
+      "tags": [
+        "blade-mode",
+        "time-slow",
+        "dismemberment",
+        "resource-recovery",
+        "risk-reward",
+        "high-frequency-blade",
+        "zandatsu",
+        "platinum-games"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "대검"
+      ],
+      "id": "kt-037",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "사이버네틱 카타나 / Ghostrunner's Blade",
+      "game": "Ghostrunner",
+      "developer": "One More Level",
+      "actionName": "감각 강화 베기 / Sensory Boost Slash",
+      "actionType": "특수기",
+      "description": "감각 강화 게이지가 가득 찼을 때 발동하면 시간이 극단적으로 느려지며 플레이어만 정상 속도로 이동할 수 있다. 이 슬로우 모션 상태에서 날아오는 총탄을 회피하거나 다수의 적 사이를 누비며 연속으로 베어낼 수 있다. 지속 시간은 짧지만, 단 한 번의 히트로 모든 적을 즉사시키는 게임 특성상 극도의 전투 효율을 발휘한다.",
+      "motionType": [
+        "slash",
+        "dodge-cancel",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "shimmer",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "one-hit-kill",
+          "bullet-dodge",
+          "gap-closer"
+        ],
+        "resourceCost": "감각 강화 게이지",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~90f (슬로우 모션 지속, 실시간 기준)",
+          "recovery": "~5f"
+        }
+      },
+      "designNotes": "원히트킬 전투 시스템에서 슬로우 모션은 단순 편의 기능이 아닌, 탄환 회피와 위치 선정을 동시에 계산해야 하는 고밀도 의사결정 공간이 된다. 감각 강화는 '생존을 위한 시간 벌기'와 '공격 루트 설계'를 동시에 요구하며, 플레이어의 3D 공간 인지 능력을 직접 시험하는 설계다. 게이지 리소스로 사용 타이밍을 제한해 남용을 방지하면서도, 압도적인 위기 상황에서 역전의 쾌감을 부여한다. 모든 적이 원히트킬이라는 전제 덕분에 슬로우 모션 중 얻는 모든 위치 정보가 즉시 행동 가능하여 아케이드적 명쾌함이 살아있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostrunner+%EA%B0%90%EA%B0%81+%EA%B0%95%ED%99%94+%EB%B2%A0%EA%B8%B0+%2F+Sensory+Boost+Slash+gameplay",
+        "images": [],
+        "wiki": "https://ghostrunner.fandom.com/wiki/Sensory_Boost",
+        "gif": null
+      },
+      "tags": [
+        "time-slow",
+        "one-hit-kill",
+        "sensory-boost",
+        "cyberpunk",
+        "cyber-katana",
+        "bullet-dodge",
+        "risk-reward",
+        "speedrun-friendly"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-038",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 / 우치가타나",
+      "game": "Rise of the Ronin",
+      "developer": "Team Ninja",
+      "actionName": "카운터스파크 / Counterspark",
+      "actionType": "카운터",
+      "description": "적의 공격이 닿기 직전 타이밍에 패리 버튼을 입력하면 칼날끼리 충돌하며 불꽃이 튀는 카운터스파크가 발동된다. 성공하면 상대의 기(Ki)를 대량으로 깎으며 반격을 완전히 무효화하고, 연속 성공 시 적을 Ki 제로 기절 상태로 만들어 치명타를 가할 수 있다. 실패 시 회피 모션 없이 직접 피해를 받으므로 높은 리스크를 동반한다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "ki-break",
+          "poise-breaking",
+          "knockdown",
+          "precision-timing"
+        ],
+        "resourceCost": "없음 (Ki 소비 없음)",
+        "frameApprox": {
+          "startup": "~3f (입력 윈도우)",
+          "active": "~6f (패리 수용 프레임)",
+          "recovery": "~15f (성공 시), ~30f (실패 시)"
+        }
+      },
+      "designNotes": "카운터스파크는 세키로의 패리와 Nioh의 Ki 펄스를 Team Ninja가 진화시킨 시스템으로, 적의 Ki를 깎는 '간접 자원 관리' 레이어를 전투에 추가한다. 단순히 피해를 막는 것이 아니라 상대의 체력과 동급인 Ki를 공략한다는 이중 목표 구조는 전투의 전략적 깊이를 배가시킨다. 불꽃 이펙트는 시각적으로 명확한 성공 피드백을 제공하며, 연속 카운터스파크의 리듬감은 플레이어가 영화 속 검객이 된 것 같은 몰입감을 형성한다. 실패 시 무방비라는 페널티는 리스크-리워드 구조를 명확히 하며, 숙련도에 따른 보상 차이를 극명하게 드러내는 탁월한 스킬 표현 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Rise+of+the+Ronin+%EC%B9%B4%EC%9A%B4%ED%84%B0%EC%8A%A4%ED%8C%8C%ED%81%AC+%2F+Counterspark+gameplay",
+        "images": [],
+        "wiki": "https://riseoftheronin.wiki.fextralife.com/Counterspark",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "counter",
+        "ki-management",
+        "precision-timing",
+        "risk-reward",
+        "stagger",
+        "team-ninja",
+        "samurai",
+        "spark-effect"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검",
+        "대검",
+        "창"
+      ],
+      "id": "kt-039",
+      "addedDate": "2026-03-15"
     }
   ]
 }
