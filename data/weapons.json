@@ -11889,6 +11889,216 @@
       ],
       "id": "sp-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Switch Axe (スラッシュアックス)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "제로거리 속성 해방 찌르기 / Zero Sum Discharge (ゼロ距離属性解放突き)",
+      "actionType": "특수기",
+      "description": "검 모드 충전 상태(Amped State)에서만 발동 가능하며, 몬스터에 달라붙어 날을 꽂은 채 모든 피알 에너지를 근접 거리에서 폭발적으로 방출한다. 다단 폭발 히트가 끝난 후 역폭발 반동이 플레이어를 뒤로 튕겨내며 자체 피해를 입힌다. 피알 게이지가 완전 소모되므로 이후 도끼 모드 스윙으로 게이지를 재충전해야 한다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "recoil-damage",
+          "phial-discharge",
+          "zero-range",
+          "multi-hit"
+        ],
+        "resourceCost": "피알 게이지 전량",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~150f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "리스크-리워드 설계의 교과서적 사례로, 자체 피해(반동)라는 명확한 위험과 최고 수준의 단발 딜 폭발이라는 보상이 완벽한 균형을 이룬다. 몬스터가 시전 도중 기상하면 도중 이탈로 실패하는 구조가 상황 판단 능력을 지속적으로 요구한다. 모든 자원을 한 번에 소진하는 '올인' 구조가 카타르시스를 극대화하고, 이후 빈 게이지를 채우는 반복 사이클을 자연스럽게 유도해 전투 리듬을 형성한다. 몬스터와의 물리적 밀착이라는 연출이 공격성과 몰입감을 동시에 강화하며, Switch Axe 고유의 변형 웨폰 정체성을 가장 극단적으로 표현한 기술이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%A0%9C%EB%A1%9C%EA%B1%B0%EB%A6%AC+%EC%86%8D%EC%84%B1+%ED%95%B4%EB%B0%A9+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Zero+Sum+Discharge+%28%E3%82%BC%E3%83%AD%E8%B7%9D%E9%9B%A2%E5%B1%9E%E6%80%A7%E8%A7%A3%E6%94%BE%E7%AA%81%E3%81%8D%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Switch+Axe",
+        "gif": null
+      },
+      "tags": [
+        "zero-range",
+        "risk-reward",
+        "phial-discharge",
+        "amped-state",
+        "finisher",
+        "recoil-damage",
+        "resource-dump",
+        "multi-hit",
+        "hyper-armor"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "변형무기"
+      ],
+      "id": "ax-016",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Two-Handed War Axe (양손 전투 도끼)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "존 어택 선풍 / Zone Attack — Thunder Sweep",
+      "actionType": "광역 공격",
+      "description": "레이더(Raider) 클래스가 거대한 양손 도끼를 몸 주위로 360도 회전시키며 인접한 모든 방향의 적을 동시에 타격한다. 오버헤드(상단) 판정 표시와 함께 발동되어 정면 방어를 우회할 수 있으며, 명중 시 강한 스태거로 대형을 붕괴시킨다. 다대다(Breach) 전투에서 밀집한 적 무리를 흩어놓는 데 특화된 광역기다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "360-hit",
+          "overhead-indicator",
+          "knockdown"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~900ms",
+          "active": "~200ms",
+          "recovery": "~600ms"
+        }
+      },
+      "designNotes": "For Honor의 '읽기와 반응' 근접 전투 철학을 충실히 구현한 기술이다. 긴 선딜이라는 명확한 단점이 360도 광역 판정이라는 강력한 장점과 교환되어, 상대방에게 '패링할 것인가, 회피할 것인가'를 판단할 시간을 항상 제공한다. 모션이 크고 시각적으로 명확해 게임의 핵심 재미인 '심리전 기반 근접전'을 방해하지 않으면서도 강한 존재감을 유지한다. 다대다 전투에서 밀집 대형 파괴라는 전략적 역할이 부여되어 레이더 캐릭터를 팀파이트에서 독보적인 포지션으로 만드는 설계적 근거가 된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EC%A1%B4+%EC%96%B4%ED%83%9D+%EC%84%A0%ED%92%8D+%2F+Zone+Attack+%E2%80%94+Thunder+Sweep+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Raider",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "zone-attack",
+        "360-sweep",
+        "team-fight",
+        "telegraphed",
+        "overhead",
+        "stagger",
+        "high-risk-high-reward",
+        "multi-target"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "양손무기"
+      ],
+      "id": "ax-017",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "Large Axe (大斧)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "선풍 / Tornado (旋風)",
+      "actionType": "무기술",
+      "description": "대도끼를 몸 주위로 고속 회전시키며 연속 다단 히트를 주변 적에게 가하는 전투 스킬. 회전 중 매 히트마다 적의 기(Ki)를 지속 소모시켜, 기가 완전 고갈된 적은 '기 절(Ki Crush)' 상태로 전락해 무방비 상태가 된다. 회전 지속 시간 동안 플레이어 기도 소모되므로 무한 유지가 불가능하다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "ki-drain",
+          "ki-crush",
+          "multi-hit",
+          "poise-breaking",
+          "hyper-armor"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~90f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "Nioh 2 기 시스템의 핵심 디자인인 '기 소진→붕괴→확정 딜' 루프를 느린 대형 무기에 적용한 영리한 솔루션이다. 본래 단타 속도의 약점을 다단 히트로 상쇄하면서, 기 드레인이라는 고유한 전략 레이어를 부여해 대검 등 타 무기와 차별화한다. 플레이어 기도 함께 소모되는 상호 소모 구조가 무한 난사를 억제하고 '사용 타이밍 판단'을 자연스럽게 요구한다. 대형 무기 특유의 '느리지만 압도적' 무게감을 숫자(Ki 수치)와 시각(연속 히트 이펙트) 두 채널로 동시에 전달해 피드백 만족도를 높인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%84%A0%ED%92%8D+%2F+Tornado+%28%E6%97%8B%E9%A2%A8%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Axe+Skills",
+        "gif": null
+      },
+      "tags": [
+        "ki-drain",
+        "ki-crush",
+        "multi-hit",
+        "spin-attack",
+        "poise-break",
+        "stamina-war",
+        "crowd-control",
+        "slow-weapon",
+        "hyper-armor"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "대형무기"
+      ],
+      "id": "ax-018",
+      "addedDate": "2026-03-15"
     }
   ]
 }
