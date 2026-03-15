@@ -6391,7 +6391,7 @@
       },
       "designNotes": "패니셔 모드 카운터는 '공격 특화 모드에도 방어적 보상을 부여'하는 역발상 리스크-리워드 구조를 구현한다. 일반적으로 공격 모드는 방어력을 희생하는 트레이드오프를 갖지만, 이 시스템은 반대로 공격 모드에서 올바른 타이밍에 블록할 경우 더 큰 보상을 주는 능동적 방어를 장려한다. ATB 게이지 누적이라는 리소스 보상이 연동되어, 카운터 성공이 다음 행동의 자유도를 높여주는 긍정적 피드백 루프를 형성한다. 투사체와 특수기에 반응하지 않는 제약은 '만능 반격'을 막는 균형추 역할을 하며, 플레이어가 적 행동 패턴을 능동적으로 학습하도록 유도한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%ED%8C%A8%EB%8B%88%EC%85%94+%EB%AA%A8%EB%93%9C+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28Punisher+Mode+Counter%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=dTEO_bdJTkE",
         "images": [],
         "wiki": "https://finalfantasy.fandom.com/wiki/Punisher_Mode",
         "gif": null
@@ -6463,7 +6463,7 @@
       },
       "designNotes": "아크 오브 마이트는 차지 공격 설계의 교과서적 사례를 보여준다. 3단계 차지 시스템은 플레이어에게 '얼마나 기다릴 것인가'라는 지속적인 의사결정 압박을 부여하며, 각 단계마다 뚜렷한 시각·청각 피드백으로 현재 차지 상태를 즉각 전달한다. 긴 선딜레임이라는 높은 리스크는 부위 파괴와 광역 다운이라는 압도적 보상으로 균형을 맞추며, 특히 거대 몬스터 전투에서 '완벽한 타이밍을 기다리는 긴장감'을 핵심 재미 요소로 만든다. 워리어 직업의 정체성인 '묵직한 물리적 판타지'를 시각적 무게감 및 카메라 흔들림과 결합해 히트감을 극대화한 점도 탁월하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%95%84%ED%81%AC+%EC%98%A4%EB%B8%8C+%EB%A7%88%EC%9D%B4%ED%8A%B8+%28Arc+of+Might%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=722ekot90TU",
         "images": [],
         "wiki": "https://dragonsdogma.fandom.com/wiki/Arc_of_Might_(Dragon%27s_Dogma_2)",
         "gif": null
