@@ -21122,6 +21122,73 @@
       ],
       "id": "ax-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Unarmed / Street Fighting)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "환경 카운터 처형 / Environmental Counter Kill",
+      "actionType": "카운터",
+      "description": "적의 공격 직전 타이밍에 카운터 입력을 성공하면 웨이 선이 적을 붙잡아 주변 환경 오브젝트(자동차 보닛, 전신주, 쓰레기통, 유리창 등)에 강제로 충돌시키는 환경 처형 기술이다. 충돌 대상에 따라 수십 가지의 고유 애니메이션이 재생되며, 적은 막대한 피해와 함께 즉시 제압된다. 홍콩 느와르 영화 특유의 연출을 게임플레이로 구현한 대표적인 시그니처 메카닉이다.",
+      "motionType": [
+        "counter",
+        "throw"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "context-sensitive",
+          "instant-takedown",
+          "environmental-interaction"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~4f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "환경 처형 카운터는 전투 공간 전체를 전략적 자원으로 전환시키는 탁월한 설계다. 플레이어는 적을 공격하는 것을 넘어 주변 오브젝트의 위치를 인식하고 동선을 계획하도록 능동적으로 유도되며, 이는 '공간 인식'이라는 고급 플레이 기술을 자연스럽게 교육한다. 충돌 대상에 따라 서로 다른 애니메이션이 재생되어 반복 전투에서도 시각적 신선함과 발견의 쾌감을 제공하는 콘텐츠 밀도를 갖추고 있다. 타이밍 기반 리스크(공격을 맞을 위험)와 리워드(즉각 제압 + 화려한 연출)의 대비가 명확하여 숙련도에 따른 플레이어 만족감의 차이를 극대화한다. 이 시스템은 홍콩 영화의 '공간 활용 격투 미학'을 인터랙티브 메카닉으로 가장 성공적으로 번역한 사례 중 하나로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%ED%99%98%EA%B2%BD+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B2%98%ED%98%95+%2F+Environmental+Counter+Kill+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "environmental-kill",
+        "grapple",
+        "context-sensitive",
+        "hong-kong-action",
+        "unarmed",
+        "instant-takedown",
+        "space-awareness",
+        "cinematic",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투",
+        "격투"
+      ],
+      "id": "ft-020",
+      "addedDate": "2026-03-16"
     }
   ]
 }
