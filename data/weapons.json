@@ -4024,6 +4024,213 @@
       ],
       "id": "gs-021",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 (Katana)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "모탈 드로우 (Mortal Draw)",
+      "actionType": "무기술",
+      "description": "늑대가 칼집에서 검을 빠르게 뽑아내며 광범위한 수평 베기를 실행하는 전투 기술. 버튼을 길게 누르면 차지되어 더 강력한 타격과 함께 넓은 범위에 막대한 기(체간) 대미지를 가한다. 기 대미지가 극도로 높아 방어 위주 적의 체간을 무너뜨리는 데 특화된 피니셔 기술이다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "gap-closer"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~38f",
+          "active": "~12f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "모탈 드로우는 세키로의 핵심 전투 철학인 '체간(포이즈) 시스템'과 완벽하게 연동되는 기술로, 방어적 플레이어를 역이용하는 리스크-리워드 구조를 형성한다. 긴 차지 전조 동작은 적에게도 대응 시간을 부여하여 공방의 읽기 싸움을 심화시키며, 일방적인 필살기가 아닌 전략적 판단이 필요한 기술로 설계되었다. 발도 시의 넓은 판정은 다수 적을 동시에 처리할 수 있게 하면서도 소모되는 기 자원이 '이 타이밍이 최선인가'라는 지속적인 의사결정을 유도한다. 시각적으로 발도 모션의 하얀 섬광 이펙트가 히트 확인 전 기대감을 극대화하며, 성공 시 강렬한 피드백으로 숙련도를 보상한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EB%AA%A8%ED%83%88+%EB%93%9C%EB%A1%9C%EC%9A%B0+%28Mortal+Draw%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Mortal+Draw",
+        "gif": null
+      },
+      "tags": [
+        "combat-art",
+        "poise-break",
+        "iai",
+        "charge-attack",
+        "posture-system",
+        "risk-reward",
+        "finisher",
+        "ki-damage"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-025",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "가타나 (Katana)",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "결투 거합베기 (Standoff Iai Strike)",
+      "actionType": "카운터",
+      "description": "적과 대치 상황에서 상대방의 공격 개시를 기다렸다가 완벽한 타이밍에 초고속으로 발도 반격을 가하는 기술. 적이 돌진을 시작하는 순간 단 하나의 버튼 입력으로 상대의 공격을 무효화하고 치명적인 일격을 가한다. 성공 시 적 하나를 즉사시키며 심화 스킬 습득 후에는 연속으로 여러 적을 처치할 수 있다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "one-shot-kill",
+          "counter",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "결투 시스템은 사무라이 영화의 '전투 전 긴장의 정점'을 게임 메카닉으로 구현한 탁월한 설계 사례다. 대치 상태에서의 시간 압박과 단 하나의 버튼이라는 단순한 인터페이스가 강렬한 감정적 몰입을 유발하며, 복잡한 조작 없이 심리적 긴장감만으로 도전감을 형성한다. 성공(즉사)과 실패(큰 피해) 사이의 극단적인 결과 차이는 고위험-고보상 구조의 교과서적 구현이다. 슬로우 모션과 카메라 연출이 시각적 쾌감을 극대화하여 보상 심리를 강화하고, 이 메카닉이 게임의 핵심 정체성인 '진 사카이의 이중성'이라는 내러티브와도 맞닿아 있어 스토리와 게임플레이의 유기적 통합을 이룬다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EA%B2%B0%ED%88%AC+%EA%B1%B0%ED%95%A9%EB%B2%A0%EA%B8%B0+%28Standoff+Iai+Strike%29+gameplay",
+        "images": [],
+        "wiki": "https://ghostoftsushima.wiki.fextralife.com/Standoff",
+        "gif": null
+      },
+      "tags": [
+        "standoff",
+        "iai",
+        "one-hit-kill",
+        "counter",
+        "samurai-film",
+        "risk-reward",
+        "cinematic",
+        "tension",
+        "parry-window"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-026",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "고주파 블레이드 (High-Frequency Blade)",
+      "game": "Metal Gear Rising: Revengeance",
+      "developer": "PlatinumGames",
+      "actionName": "잔다쓰 (Zandatsu / 斬奪)",
+      "actionType": "특수기",
+      "description": "라이덴이 블레이드 모드에서 적을 자유 절단한 뒤 약점 부위를 정밀하게 잘라내어 에너지 코어를 추출하는 처형 기술. 블레이드 모드 중 적의 척추를 표적 지정하여 절단하면 라이덴이 자동으로 돌진해 스파인 코어를 적출하고, 이를 통해 체력과 블레이드 에너지를 동시에 회복한다. 성공 여부가 생존력과 이후 전투 지속력 모두를 결정짓는 전투의 핵심 루프다.",
+      "motionType": [
+        "slash",
+        "thrust",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "life-steal",
+          "energy-recovery",
+          "execution",
+          "poise-breaking"
+        ],
+        "resourceCost": "블레이드 모드 에너지",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~18f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "잔다쓰는 '공격이 곧 회복'이라는 역설적 루프를 통해 소극적 플레이를 구조적으로 억제하고 지속적인 공격성을 장려하는 경이로운 전투 경제 설계다. 블레이드 모드 에너지 소모 → 자유 절단 → 잔다쓰 회복이라는 세 단계 사이클이 자원 관리와 스킬 표현을 동시에 요구하며, 숙련된 플레이어일수록 자원 손실 없이 전투를 지속할 수 있다는 점에서 실력 차이가 눈에 보이는 뛰어난 스킬 피드백 구조다. 고주파 블레이드로 기계 적을 물리적으로 해체하는 시각적 연출은 사이버펑크 세계관과 완벽히 통합되어 있으며, 단순한 피니셔 이상의 내러티브 의미(라이덴의 사이보그 정체성)까지 담아낸다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Metal+Gear+Rising%3A+Revengeance+%EC%9E%94%EB%8B%A4%EC%93%B0+%28Zandatsu+%2F+%E6%96%AC%E5%A5%AA%29+gameplay",
+        "images": [],
+        "wiki": "https://metalgearrising.fandom.com/wiki/Zandatsu",
+        "gif": null
+      },
+      "tags": [
+        "life-steal",
+        "execution",
+        "blade-mode",
+        "resource-recovery",
+        "cyberpunk",
+        "high-frequency-blade",
+        "aggressive-play",
+        "skill-expression",
+        "loop-mechanic",
+        "finisher"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "대검"
+      ],
+      "id": "kt-027",
+      "addedDate": "2026-03-15"
     }
   ]
 }
