@@ -6555,6 +6555,212 @@
       ],
       "id": "gs-024",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 (일본도)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "모탈 드로우 (Mortal Draw / 発勁斬)",
+      "actionType": "무기술",
+      "description": "칼집에 칼을 넣은 채 대기하다가 순간적으로 발도하며 강력한 수평 베기를 가하는 거합 전투 기술이다. 버튼을 유지하면 차지 버전으로 발동되어 더 넓은 판정과 높은 자세 피해를 부여하며 완전 가드 불가 속성이 추가된다. 영혼 인장(Spirit Emblems)을 소모하므로 자원 관리와 타이밍 판단이 동시에 요구된다.",
+      "motionType": [
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "unblockable-on-charge",
+          "posture-damage-amplified"
+        ],
+        "resourceCost": "영혼 인장 (Spirit Emblems) 1개",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~8f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "모탈 드로우는 세키로의 핵심 전투 철학인 자세 관리(Posture System)를 극대화하는 도구로 설계되었다. 차지 여부에 따라 리스크와 리워드가 명확히 갈리는 구조로, 숙련자는 적의 행동 예측 후 타이밍을 조율하여 더 큰 보상을 추구하게 된다. 거합이라는 전통 검술 개념을 게임 메카닉으로 재해석해 빠른 발도의 시각적 쾌감과 자세 격파 시의 강렬한 피드백을 결합시켰다. Spirit Emblem 소모라는 자원 관리 요소가 남발을 억제하고 상황적 판단력을 지속적으로 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EB%AA%A8%ED%83%88+%EB%93%9C%EB%A1%9C%EC%9A%B0+%28Mortal+Draw+%2F+%E7%99%BA%E5%8B%81%E6%96%AC%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Mortal+Draw",
+        "gif": null
+      },
+      "tags": [
+        "iaijutsu",
+        "posture-damage",
+        "charge-attack",
+        "unblockable",
+        "spirit-emblem",
+        "combat-art",
+        "gap-closer",
+        "high-risk-reward",
+        "draw-slash"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-028",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "진 사카이의 카타나",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "천격 (Heavenly Strike / 天撃)",
+      "actionType": "특수기",
+      "description": "신화 이야기 완료 후 해금되는 비기로, 카타나에 기(Ki)를 극도로 집중시켜 번개 속성을 띤 강력한 단일 베기를 가한다. 적의 가드를 완전히 무시하는 가드 불가 속성을 지니며 피격된 적은 순간 경직된다. 높은 Ki 게이지를 소모하지만 어떠한 방어 태세도 꿰뚫을 수 있어 방어형 적 대응에 핵심적으로 활용된다.",
+      "motionType": [
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "unblockable",
+          "guard-break",
+          "mythic-technique",
+          "stagger"
+        ],
+        "resourceCost": "Ki 게이지",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~6f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Heavenly Strike는 Ghost of Tsushima 전투가 단순 콤보 반복이 아닌 스탠스 전환과 상황 판단에 기반함을 보여주는 핵심 도구다. 가드 불가라는 명확한 기능적 가치를 부여함으로써 방어형 적에 대한 플레이어의 대응 선택지를 명시적으로 확장한다. 번개 이펙트와 강렬한 사운드 피드백의 결합은 고비용 기술 사용에 대한 심리적 만족감을 극대화하여 자원 소모의 아쉬움을 상쇄한다. 신화 이야기라는 서사적 획득 과정을 통해 기술 해금 자체가 게임 경험의 일부가 되도록 설계된 점 또한 플레이어 애착 형성에 기여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%B2%9C%EA%B2%A9+%28Heavenly+Strike+%2F+%E5%A4%A9%E6%92%83%29+gameplay",
+        "images": [],
+        "wiki": "https://ghostoftsushima.fandom.com/wiki/Heavenly_Strike",
+        "gif": null
+      },
+      "tags": [
+        "unblockable",
+        "lightning",
+        "mythic-technique",
+        "guard-break",
+        "ki-cost",
+        "high-damage",
+        "single-strike",
+        "stagger",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-029",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "HF 블레이드 (고주파 블레이드)",
+      "game": "Metal Gear Rising: Revengeance",
+      "developer": "PlatinumGames",
+      "actionName": "블레이드 모드 (Blade Mode / ブレードモード)",
+      "actionType": "특수기",
+      "description": "시간을 슬로우 상태로 전환하며 플레이어가 스틱으로 베기 궤적을 자유롭게 지정하는 고주파 블레이드의 핵심 기술이다. 입력한 방향대로 초정밀 절단이 이루어지며 적의 신체 부위를 임의로 분리할 수 있다. 연료 전지(Fuel Cell)를 소모하며, 잰야츠(Zandatsu)로 연계하여 적의 척추를 탈취하면 즉시 에너지를 회복할 수 있다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "cyan",
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "free-cut",
+          "time-slowdown",
+          "zandatsu-combo",
+          "dismemberment",
+          "energy-recovery"
+        ],
+        "resourceCost": "연료 전지 (Fuel Cell)",
+        "frameApprox": {
+          "startup": "~5f (슬로우 진입)",
+          "active": "지속형 (Fuel Cell 소모 중)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "블레이드 모드는 '자유 의지에 의한 파괴'라는 테마를 메카닉으로 완벽히 구현한 설계다. 방향 입력으로 베기 궤적을 직접 조작하게 함으로써 플레이어의 에이전시를 극대화하며, 단순 버튼 프레스 이상의 물리적 관여감을 만들어낸다. 잰야츠 연계로 소모 자원을 즉시 회복하는 구조는 공격적 플레이에 대한 보상을 즉각 제공하여 리스크-리워드 사이클을 긍정적으로 강화한다. 슬로우 모션 연출은 고강도 액션 속에서도 정밀성을 강조하며, 매 사용마다 시네마틱한 쾌감을 일관되게 부여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Metal+Gear+Rising%3A+Revengeance+%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C+%EB%AA%A8%EB%93%9C+%28Blade+Mode+%2F+%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%A2%E3%83%BC%E3%83%89%29+gameplay",
+        "images": [],
+        "wiki": "https://metalgearrising.fandom.com/wiki/Blade_Mode",
+        "gif": null
+      },
+      "tags": [
+        "blade-mode",
+        "time-slowdown",
+        "free-cut",
+        "zandatsu",
+        "dismemberment",
+        "fuel-cell",
+        "high-frequency-blade",
+        "precision-slash",
+        "energy-recovery",
+        "cyborg-action"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "HF 블레이드"
+      ],
+      "id": "kt-030",
+      "addedDate": "2026-03-15"
     }
   ]
 }
