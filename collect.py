@@ -60,6 +60,41 @@ def yt_search_url(game, action_name):
     q = quote_plus(f"{game} {action_name} gameplay")
     return f"https://www.youtube.com/results?search_query={q}"
 
+def git_auto_push(count, label=""):
+    """weapons.json을 자동으로 git commit & push"""
+    repo_dir = Path(__file__).parent
+    parts = [f"auto: add {count} entr{'y' if count == 1 else 'ies'}"]
+    if label:
+        parts.append(f"({label})")
+    commit_msg = " ".join(parts)
+    try:
+        subprocess.run(
+            ["git", "add", "data/weapons.json"],
+            cwd=str(repo_dir), check=True, capture_output=True
+        )
+        r = subprocess.run(
+            ["git", "commit", "-m", commit_msg],
+            cwd=str(repo_dir), capture_output=True, text=True
+        )
+        if r.returncode != 0:
+            out = r.stdout + r.stderr
+            if "nothing to commit" in out:
+                return  # 변경 없음 — 정상
+            perr(f"git commit 실패: {(r.stderr or r.stdout).strip()[:200]}")
+            return
+        r2 = subprocess.run(
+            ["git", "push"],
+            cwd=str(repo_dir), capture_output=True, text=True
+        )
+        if r2.returncode == 0:
+            pok(f"GitHub Push 완료  [{commit_msg}]")
+        else:
+            perr(f"git push 실패: {r2.stderr.strip()[:200]}")
+    except FileNotFoundError:
+        perr("git 명령을 찾을 수 없습니다 (PATH 확인)")
+    except Exception as e:
+        perr(f"git 오류: {e}")
+
 # ─── Claude CLI 호출 ──────────────────────────────────────────────
 def find_claude_exe():
     """
@@ -449,6 +484,8 @@ def main():
     else:
         save_db(db)
         pok(f"weapons.json 저장됨 (총 {len(db['weapons'])}개)")
+        label = args.category or args.game or args.mechanic or args.query or ""
+        git_auto_push(len(added), label)
     print()
 
 
