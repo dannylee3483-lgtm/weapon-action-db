@@ -20396,6 +20396,79 @@
       ],
       "id": "sp-025",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "아스트랄 체인 (Astral Chain)",
+      "game": "Astral Chain",
+      "developer": "PlatinumGames",
+      "actionName": "결박 / Bind",
+      "actionType": "특수기",
+      "description": "플레이어와 리전(소환 파트너)이 적의 주변을 돌며 두 존재를 잇는 아스트랄 체인을 적에게 감아 행동 불능 상태로 만드는 기술이다. 결박된 적은 이동·공격이 완전히 봉쇄되며, 이 상태에서 가하는 모든 공격은 강화된 피해를 입힌다. 체인의 방향과 장력을 조절해 대형 보스를 일시 포박하거나 다수의 적에게 연속 적용하는 고급 응용도 가능하다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "cyan",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "immobilize",
+          "damage-amplify",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "지속 (포박 유지 중)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "아스트랄 체인의 결박 메카닉은 체인이라는 '연결 구조' 자체를 전투적 자원으로 승화시킨 독창적 설계다. 플레이어의 이동 경로 자체가 공격 패턴이 되는 구조는 전통적인 히트박스 중심의 액션 게임과 명확히 차별화되며, 공간 인식과 포지셔닝을 핵심 스킬로 격상시킨다. 결박 → 집중 공격 → 피해 증폭으로 이어지는 리워드 루프는 위험을 감수한 적극적 포지셔닝에 대한 명확한 보상 구조를 제공한다. 무엇보다 이 메카닉은 게임의 중심 테마인 '파트너십'을 전투 언어로 직접 구현하여, 내러티브와 게임플레이의 유기적 일치를 달성한 사례로 꼽힌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Astral+Chain+%EA%B2%B0%EB%B0%95+%2F+Bind+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "chain-weapon",
+        "immobilize",
+        "partner-mechanic",
+        "poise-breaking",
+        "spatial-awareness",
+        "damage-amplify",
+        "two-character-combat",
+        "positional-gameplay",
+        "platinum-games"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 무기",
+        "연결형 무기"
+      ],
+      "id": "wh-020",
+      "addedDate": "2026-03-16"
     }
   ]
 }
