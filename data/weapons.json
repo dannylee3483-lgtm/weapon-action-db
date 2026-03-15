@@ -20037,6 +20037,79 @@
       ],
       "id": "ft-019",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "소서러 스태프 (Sorcerer's Staff)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "메테오론 (Meteoron)",
+      "actionType": "차지 특수기",
+      "description": "하늘에서 복수의 거대한 운석을 연속으로 불러내어 광역 범위에 낙하시키는 소서러의 최상위 마법. 긴 시전 시간 동안 주문서를 읽으며 완전히 무방비 상태가 되지만, 성공 시 거대한 운석들이 차례로 지면을 강타하며 적 무리를 압도적으로 초토화한다. 보스 몬스터조차 피할 수 없는 파괴력으로 전장의 판도를 단번에 뒤집는다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "explosion"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control",
+          "aoe",
+          "multi-hit"
+        ],
+        "resourceCost": "마나",
+        "frameApprox": {
+          "startup": "~180f",
+          "active": "~120f",
+          "recovery": "~60f"
+        }
+      },
+      "designNotes": "메테오론은 '최대 위험 = 최대 보상'이라는 리스크-리워드 설계의 교과서적 사례다. 극도로 긴 캐스팅 시간 동안 소서러는 완전히 무방비가 되므로, 플레이어는 전장 전체를 읽고 안전한 창구를 능동적으로 만들어야 한다. 팀 플레이에서는 동료들의 어그로 분산·스턴 협력이 자연스럽게 유도되어 협동 플레이의 가치를 극대화한다. 운석이 순차적으로 낙하하는 다단 히트 구조는 시각적 클라이맥스와 지속 긴장감을 동시에 제공하며, 캐스팅 완료 순간의 카타르시스가 매우 강렬하다. '기다림'을 플레이 스킬로 설계하고 그 보상으로 전장 제압감을 돌려주는 것이 이 마법의 핵심 디자인 가치다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EB%A9%94%ED%85%8C%EC%98%A4%EB%A1%A0+%28Meteoron%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma2.wiki.fextralife.com/Meteoron",
+        "gif": null
+      },
+      "tags": [
+        "risk-reward",
+        "aoe",
+        "crowd-control",
+        "high-damage",
+        "cast-time",
+        "sorcerer",
+        "meteor",
+        "multi-hit",
+        "knockdown",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-017",
+      "addedDate": "2026-03-16"
     }
   ]
 }
