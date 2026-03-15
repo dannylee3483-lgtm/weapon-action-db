@@ -20181,6 +20181,78 @@
       ],
       "id": "sh-015",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Great Sword)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "분노 참격 / Rage Slash (怒り斬り)",
+      "actionType": "카운터|차지",
+      "description": "차지 상태 유지 중 몬스터의 공격을 맞아도 경직되지 않는 슈퍼아머를 보유하며, 피격 횟수가 누적될수록 최종 베기의 위력이 최대 3단계까지 강화되는 특수 차지 참격이다. 완전 충전 상태에서 게이지가 붉게 달아오른 뒤 해제하면 일반 강격참을 크게 상회하는 폭발적 피해를 입힌다. 몬스터의 공격 패턴을 회피 대상이 아닌 '강화 자원'으로 역전시키는 고위험-고보상 메카닉이다.",
+      "motionType": [
+        "charge",
+        "slash",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "hyper-armor",
+          "knockdown",
+          "poise-breaking",
+          "damage-scales-on-hits-taken"
+        ],
+        "resourceCost": "없음 (기본 파생기)",
+        "frameApprox": {
+          "startup": "~40f",
+          "active": "~18f",
+          "recovery": "~65f"
+        }
+      },
+      "designNotes": "분노 참격은 '위험을 감수할수록 강해진다'는 리스크-리워드 역전 구조의 교과서적 예시다. 대부분의 액션 게임이 피격을 손실로 정의하는 반면, 이 기술은 피격을 데미지 증폭 자원으로 재해석해 플레이어에게 전혀 다른 심리적 프레임을 제공한다. 단계별 강화를 게이지 색상 변화(흰→주황→빨강)와 효과음으로 명확히 피드백함으로써, 위험 상황에서도 즉각적인 상태 파악이 가능하다. 이는 '몬스터의 공격 패턴을 읽고 맞받아치는' 숙련 플레이를 자연스럽게 유도하며, 대검 특유의 느린 템포를 단점이 아닌 개성 있는 리듬감으로 승화시키는 디자인 철학을 담고 있다. 결과적으로 방어와 공격의 이분법을 해체하고 공수 동시 행위를 하나의 아름다운 무브로 통합한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EB%B6%84%EB%85%B8+%EC%B0%B8%EA%B2%A9+%2F+Rage+Slash+%28%E6%80%92%E3%82%8A%E6%96%AC%E3%82%8A%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunter.fandom.com/wiki/MHRise:Great_Sword",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "charge",
+        "hyper-armor",
+        "risk-reward",
+        "damage-scaling",
+        "great-sword",
+        "poise",
+        "tank-hit",
+        "one-hit-kill",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-043",
+      "addedDate": "2026-03-16"
     }
   ]
 }
