@@ -51,13 +51,25 @@ def dim(msg):  print(f"  {DIM}[{ts()}] {msg}{RST}", flush=True)
 
 # ─── yt-dlp ───────────────────────────────────────────────────────
 def find_ytdlp():
+    """yt-dlp 실행 커맨드 반환 (list 형태). PATH에 없으면 python -m yt_dlp 로 폴백."""
+    # 1) yt-dlp 실행 파일이 PATH에 있는지 확인
     for name in ("yt-dlp", "yt-dlp.exe"):
         r = subprocess.run(
             f"where {name}" if os.name == "nt" else f"which {name}",
             capture_output=True, text=True, shell=True
         )
         if r.returncode == 0 and r.stdout.strip():
-            return r.stdout.strip().splitlines()[0]
+            return [r.stdout.strip().splitlines()[0]]
+    # 2) python -m yt_dlp 폴백
+    try:
+        r = subprocess.run(
+            [sys.executable, "-m", "yt_dlp", "--version"],
+            capture_output=True, text=True
+        )
+        if r.returncode == 0:
+            return [sys.executable, "-m", "yt_dlp"]
+    except Exception:
+        pass
     return None
 
 def search_candidates(ytdlp, game, action_name, n=CANDIDATES):
@@ -65,7 +77,7 @@ def search_candidates(ytdlp, game, action_name, n=CANDIDATES):
     query = f"{game} {action_name} gameplay"
     try:
         r = subprocess.run(
-            [ytdlp, f"ytsearch{n}:{query}",
+            ytdlp + [f"ytsearch{n}:{query}",
              "--dump-json", "--flat-playlist", "--quiet", "--no-warnings"],
             capture_output=True, text=True, timeout=40
         )
