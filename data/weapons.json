@@ -16490,6 +16490,69 @@
       ],
       "id": "bw-014",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "강철검 / 은검 (Steel Sword / Silver Sword)",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "actionName": "리포스트 (Riposte)",
+      "actionType": "카운터",
+      "description": "게롤트가 적의 공격을 정확한 타이밍에 패리한 직후 공격 버튼을 입력하면 빠른 검 찌르기 카운터를 즉시 발동한다. 전투 스킬 트리의 '리포스트' 능력을 해금해야 사용 가능하며, 일반 패리와 달리 공격 기회로 전환된다는 점에서 전술적 가치가 높다. 카운터 이후 빠른 공격 콤보나 표지(Sign)로 자연스럽게 연계할 수 있어 전투 흐름을 주도할 수 있다.",
+      "motionType": [
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "counter-attack",
+          "parry-window",
+          "skill-gate"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~6f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "리포스트는 방어 행동(패리)에 즉각적인 공격 보상을 연결하는 고전적 리스크-리워드 구조를 명확하게 구현한다. 패리 타이밍이라는 좁은 입력 창은 숙련도를 측정하는 스킬 게이트로 기능하며, 성공 시 카운터로 즉각 전환되는 피드백이 학습 동기를 강화한다. 패리 → 카운터 → 콤보로 이어지는 끊김 없는 모션 연계는 전투 주도권이 플레이어에게 즉시 귀환되는 감각을 제공한다. 스킬 트리를 통해 잠금 해제해야 한다는 설계는 능동적인 플레이어 성장 투자와 전투 스타일 선택을 동시에 실현하며, 게롤트의 '훈련된 마법사 전사' 페르소나를 기계적으로 표현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EB%A6%AC%ED%8F%AC%EC%8A%A4%ED%8A%B8+%28Riposte%29+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Riposte",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "parry-reward",
+        "skill-gate",
+        "risk-reward",
+        "precision-timing",
+        "punish",
+        "combo-starter",
+        "witcher"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "카타나"
+      ],
+      "id": "sw-013",
+      "addedDate": "2026-03-15"
     }
   ]
 }
