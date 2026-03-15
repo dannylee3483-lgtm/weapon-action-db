@@ -15069,6 +15069,151 @@
       ],
       "id": "kt-041",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드래군 랜스 (Dragoon Lance)",
+      "game": "Stranger of Paradise: Final Fantasy Origin",
+      "developer": "Team Ninja",
+      "actionName": "점프 / Jump (竜騎士のジャンプ)",
+      "actionType": "특수기",
+      "description": "드래군 직업 고유 기술로, 플레이어가 전장 상공으로 높이 도약한 후 창을 정면으로 향해 강력한 낙하 찌르기를 가한다. 공중 체류 중에는 지면 공격 대부분을 자연스럽게 회피하며, 착지 시 충격 범위 내 적에게 강력한 피어스 대미지와 넉다운을 부여한다. 피니셔 또는 다수의 집중 공격 회피 수단으로 전략적으로 활용된다.",
+      "motionType": [
+        "thrust",
+        "leap",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "airborne-invincibility",
+          "gap-closer"
+        ],
+        "resourceCost": "MP",
+        "frameApprox": {
+          "startup": "~30f (도약 포함)",
+          "active": "~10f (착지 순간)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "파이널 판타지 시리즈의 상징적인 드래군 점프를 액션 게임 문법으로 재해석한 설계다. 도약이라는 '의도적 취약 구간'을 감수해야 하는 고위험-고보상 구조가 핵심으로, 공중 체류 시간을 이용한 회피 가치와 강력한 낙하 대미지 사이에서 플레이어의 판단을 요구한다. 착지 충격파의 광역 판정은 다수전 활용 가치를 높이며, 시각적으로 극적인 상승-하강 아크가 강한 카타르시스를 제공한다. Team Ninja는 JRPG 팬층의 향수를 자극하면서도 자사의 고속 액션 리듬에 자연스럽게 통합해, 클래식 메카닉의 성공적인 장르 전환을 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Stranger+of+Paradise%3A+Final+Fantasy+Origin+%EC%A0%90%ED%94%84+%2F+Jump+%28%E7%AB%9C%E9%A8%8E%E5%A3%AB%E3%81%AE%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%29+gameplay",
+        "images": [],
+        "wiki": "https://stranger-of-paradise.wiki.fextralife.com/Dragoon",
+        "gif": null
+      },
+      "tags": [
+        "dragoon",
+        "leap-attack",
+        "plunge",
+        "high-risk-high-reward",
+        "airborne-invincibility",
+        "knockdown",
+        "spear",
+        "jrpg-reference",
+        "finisher",
+        "mp-cost"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "드래군 랜스"
+      ],
+      "id": "sp-019",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "오세람 합금 창 (Aloy's Spear)",
+      "game": "Horizon Forbidden West",
+      "developer": "Guerrilla Games",
+      "actionName": "공명 폭발 / Resonator Blast",
+      "actionType": "특수기",
+      "description": "알로이가 창으로 연속 공격을 가해 무기 내 공명기에 운동 에너지를 축적한 뒤, 임계치에 도달하면 저장 에너지를 적의 신체에 부착시킨다. 이후 원거리 무기로 해당 에너지를 격발하면 부위 집중 폭발이 발생하며, 근접과 원거리 전투를 하나의 콤보로 연결하는 하이브리드 메카닉이다. 에너지 부착 상태는 일정 시간 유지되어 타이밍 여유를 허용한다.",
+      "motionType": [
+        "combo",
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "cyan",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "delayed-detonation",
+          "synergy-combo",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음 (연속 공격으로 자연 충전)",
+        "frameApprox": {
+          "startup": "~8f (개별 히트)",
+          "active": "~60f+ (충전 콤보 전체)",
+          "recovery": "~20f (격발 후)"
+        }
+      },
+      "designNotes": "근접 공격으로 에너지를 축적하고 원거리 격발로 마무리하는 구조는 Horizon 시리즈의 핵심 정체성인 '근접+원거리 병행 전투'를 한 기술 안에 농축한 설계다. 플레이어가 적에게 밀착하는 위험 부담을 지는 대신 대규모 부위 피해를 기대할 수 있는 리스크-리워드 균형이 명확하다. 공명 에너지의 시각적 충전 표시가 플레이어에게 준비 완료 신호를 직관적으로 전달해 HUD 의존도를 낮추는 우수한 피드백 설계이기도 하다. 창이라는 근접 도구에 전략적 깊이를 부여하여 단순 타격을 넘어 콤보 설계의 핵심 축으로 승격시켰다는 점에서 무기 아이덴티티 설계의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Horizon+Forbidden+West+%EA%B3%B5%EB%AA%85+%ED%8F%AD%EB%B0%9C+%2F+Resonator+Blast+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "resonator-blast",
+        "hybrid-combat",
+        "melee-ranged-combo",
+        "energy-buildup",
+        "delayed-detonation",
+        "spear",
+        "open-world",
+        "crowd-control",
+        "combo-finisher",
+        "tech-weapon"
+      ],
+      "applicableWeapons": [
+        "창",
+        "알로이 창"
+      ],
+      "id": "sp-020",
+      "addedDate": "2026-03-15"
     }
   ]
 }
