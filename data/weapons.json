@@ -22319,6 +22319,78 @@
       ],
       "id": "sc-017",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "쿠나이 체인 / Kunai Chain (Hellfire Spear)",
+      "game": "Mortal Kombat 11",
+      "developer": "NetherRealm Studios",
+      "actionName": "겟 오버 히어 / Get Over Here! (Spear)",
+      "actionType": "특수기",
+      "description": "스콜피온이 지옥불에 휩싸인 쿠나이를 체인에 매달아 전방으로 투척하는 시리즈 시그니처 기술. 쿠나이가 적중하면 체인을 강하게 당겨 상대를 자신의 눈앞으로 끌어오며, 이후 강력한 콤보 연계를 위한 최적의 타이밍을 만들어낸다. '겟 오버 히어!'라는 보이스와 함께 실행되며, 격투 게임 역사상 가장 상징적인 장거리 채찍형 특수기로 평가받는다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "pull",
+          "combo-starter",
+          "gap-closer",
+          "knockdown"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~7f",
+          "active": "~3f",
+          "recovery": "~35f (빗나갈 경우)"
+        }
+      },
+      "designNotes": "체인 투척 → 적 당기기라는 2단계 구조는 단순한 입력으로 극적인 위치 변환을 실현한다는 점에서 채찍 메카닉의 교과서적 설계다. 적중 시 상대를 강제로 근거리로 끌어와 다음 공격권을 완전히 플레이어에게 넘기는 리스크-리워드 역전 구조가 핵심이며, 빗나갈 경우 긴 경직이 생겨 읽힐 위험이 생기는 명확한 트레이드오프가 존재한다. 시각적으로 체인의 궤적과 쿠나이 착탄 이펙트가 직관적으로 성공 여부를 알려줘 피드백 명료성이 탁월하다. 또한 이 기술은 MK 시리즈 초기(1992)부터 계승되어 플레이어 세대를 초월하는 아이콘으로 기능하며, 리스크 있는 존재감 있는 특수기가 캐릭터 정체성과 얼마나 깊이 결합될 수 있는지를 보여주는 디자인 레퍼런스다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Mortal+Kombat+11+%EA%B2%9F+%EC%98%A4%EB%B2%84+%ED%9E%88%EC%96%B4+%2F+Get+Over+Here%21+%28Spear%29+gameplay",
+        "images": [],
+        "wiki": "https://mortalkombat.fandom.com/wiki/Spear",
+        "gif": null
+      },
+      "tags": [
+        "chain-weapon",
+        "pull-mechanic",
+        "combo-starter",
+        "iconic",
+        "fire-element",
+        "gap-closer",
+        "crowd-control",
+        "risk-reward",
+        "whip-type"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "체인",
+        "쿠나이"
+      ],
+      "id": "wh-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
