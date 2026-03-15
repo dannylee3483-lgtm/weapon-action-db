@@ -10603,6 +10603,223 @@
       ],
       "id": "sw-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에인션트 매직 (Ancient Magic)",
+      "game": "Hogwarts Legacy",
+      "developer": "Avalanche Software",
+      "actionName": "에인션트 매직 피니시 (Ancient Magic Finish)",
+      "actionType": "특수기",
+      "description": "전투 중 에인션트 매직 게이지를 모두 채운 뒤 발동하는 주인공 전용 피니시 기술이다. 고대 마법의 폭발적인 에너지를 한꺼번에 방출해 범위 내 다수의 적을 공중으로 띄우고 강렬한 빛의 파동으로 마무리 타격을 가한다. 세계관 내에서 극히 소수만이 다룰 수 있는 희귀 능력이라는 서사적 맥락이 전투 연출에도 반영되어 있다.",
+      "motionType": [
+        "explosion",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "gold",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "poise-breaking",
+          "area-of-effect"
+        ],
+        "resourceCost": "에인션트 매직 게이지",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~60f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "에인션트 매직은 전투 참여에 대한 보상으로 누적되는 게이지 시스템을 통해 플레이어가 능동적인 전투를 유지하도록 설계된 리소스 관리 기반 특수기다. 즉발 사용이 불가능한 충전형 리소스를 배치함으로써 발동 타이밍에 대한 전략적 판단을 요구한다. 금빛·청색의 화려한 이펙트는 '고대 마법의 경이로움'이라는 세계관 설정을 전투 중에도 직접 경험하게 하는 내러티브-게임플레이 일체화 설계다. 적을 공중으로 띄운 뒤 폭발로 마무리하는 클라이맥스 구조는 타격감과 쾌감을 극대화하며, 전투의 절정을 플레이어 스스로 연출하게 만드는 주도감 부여 원칙을 충실히 따른다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hogwarts+Legacy+%EC%97%90%EC%9D%B8%EC%85%98%ED%8A%B8+%EB%A7%A4%EC%A7%81+%ED%94%BC%EB%8B%88%EC%8B%9C+%28Ancient+Magic+Finish%29+gameplay",
+        "images": [],
+        "wiki": "https://hogwartslegacy.wiki.fextralife.com/Ancient+Magic",
+        "gif": null
+      },
+      "tags": [
+        "ancient-magic",
+        "resource-management",
+        "crowd-control",
+        "area-of-effect",
+        "finisher",
+        "narrative-integration",
+        "gauge-system",
+        "arcane",
+        "hogwarts-legacy"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "피닉스 에이코닉 어빌리티 (Phoenix Eikonic Ability)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix Creative Business Unit III",
+      "actionName": "불사조의 불꽃 (Flames of Rebirth)",
+      "actionType": "특수기",
+      "description": "클라이브가 피닉스 에이콘의 힘을 완전히 해방해 거대한 불꽃 폭발을 일으키는 에이코닉 어빌리티다. 발동 시 불사조 형상의 날개가 사용자 주변에 펼쳐지며 넓은 반경의 모든 적에게 강력한 화염 피해를 가하고, 동시에 사용자의 HP를 일정량 회복시키는 이중 효과를 발휘한다. 긴 쿨다운을 감수하는 대신 공격과 생존을 하나의 액션으로 해결하는 전황 역전용 기술이다.",
+      "motionType": [
+        "explosion",
+        "sweep",
+        "spin"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "gold"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "area-of-effect",
+          "lifesteal",
+          "knockdown",
+          "poise-breaking"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~80f",
+          "recovery": "~50f"
+        }
+      },
+      "designNotes": "Flames of Rebirth는 공격과 회복을 단일 스킬에 통합함으로써 위기 상황에서 플레이어가 전세를 역전할 수 있는 '리버설 메카닉'으로 설계되었다. 긴 쿨다운과 느린 발동은 전략적 사용 타이밍에 대한 결단을 요구해 리스크-리워드 밸런스를 형성한다. 불사조의 날개 이펙트는 게임의 핵심 서사 요소인 피닉스 에이콘의 정체성을 전투 중에도 시각적으로 각인시키는 내러티브 강화 역할을 겸한다. 이 기술은 FFXVI 에이코닉 어빌리티 시스템의 교과서적 예시로, 각 에이콘이 공격·방어·기동 등 서로 다른 전투 역할을 맡는 직교적 설계 원칙을 명확히 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EB%B6%88%EC%82%AC%EC%A1%B0%EC%9D%98+%EB%B6%88%EA%BD%83+%28Flames+of+Rebirth%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy16.wiki.fextralife.com/Flames+of+Rebirth",
+        "gif": null
+      },
+      "tags": [
+        "lifesteal",
+        "area-of-effect",
+        "cooldown-management",
+        "risk-reward",
+        "eikonic-ability",
+        "fire",
+        "phoenix",
+        "crisis-reversal",
+        "dual-purpose",
+        "final-fantasy"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "폴리머 글러브 (Polymer Glove)",
+      "game": "Atomic Heart",
+      "developer": "Mundfish",
+      "actionName": "전자기 충격 (Shok)",
+      "actionType": "특수기",
+      "description": "캐릭터 P-3가 오른손의 폴리머 글러브를 통해 강력한 전자기 에너지를 방출하는 기술이다. 발동 시 번개 형태의 에너지파가 전방에 퍼져나가며 적을 일시적으로 마비시키거나 로봇의 방어 시스템을 무력화한다. 전기 속성 스택이 누적될수록 감전 피해가 증폭되어 후속 근접 콤보와 강력한 시너지를 형성한다.",
+      "motionType": [
+        "charge",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "beam",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "stun",
+          "crowd-control",
+          "status-buildup",
+          "combo-enabler"
+        ],
+        "resourceCost": "에너지 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~35f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Shok은 근접 전투 중심 게임에서 원거리 군중 제어 옵션을 제공함으로써 전투 리듬에 숨 고르기 구간을 삽입하는 '세팅 기술' 설계 원칙을 따른다. 마비 효과로 후속 근접 공격의 위험도를 낮추고 콤보 기회를 창출하는 구조는 원거리와 근거리 전투를 유기적으로 연결하는 하이브리드 전투 설계의 핵심이다. 전기 스택 누적 시스템은 단발 사용보다 반복 사용을 유도해 능동적인 스킬 관리를 장려한다. 소련 시대 SF 미학의 번개 이펙트는 게임 세계관의 독특한 아트 디렉션과 전투 피드백을 동시에 달성하는 일체형 설계의 좋은 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Atomic+Heart+%EC%A0%84%EC%9E%90%EA%B8%B0+%EC%B6%A9%EA%B2%A9+%28Shok%29+gameplay",
+        "images": [],
+        "wiki": "https://atomic-heart.fandom.com/wiki/Shok",
+        "gif": null
+      },
+      "tags": [
+        "electric",
+        "crowd-control",
+        "stun",
+        "combo-enabler",
+        "status-buildup",
+        "polymer-glove",
+        "setup-move",
+        "area-of-effect",
+        "atomic-heart",
+        "hybrid-combat"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
