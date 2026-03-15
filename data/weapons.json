@@ -9977,6 +9977,213 @@
       ],
       "id": "wh-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "무술 건틀릿 (Martial Arts Gloves)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "거침없는 힘 / Unbridled Strength",
+      "actionType": "특수기",
+      "description": "티파가 ATB 게이지를 소모해 자신의 기공을 강화시키는 기술로, 사용할 때마다 기본 연격의 최종 타격이 더 강력한 기술로 교체된다. 1회 사용 시 Rise and Fall, 2회 사용 시 Whirling Uppercut, 3회 사용 시 True Strike가 콤보 마지막을 장식한다. 강화 스택은 전투 중 유지되며 ATB를 쌓으면서 지속적으로 데미지와 스태거 효율을 극대화할 수 있다.",
+      "motionType": [
+        "combo",
+        "charge",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "stagger-build",
+          "combo-upgrade",
+          "atb-synergy"
+        ],
+        "resourceCost": "ATB 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Unbridled Strength는 '리소스 투자형 콤보 강화'라는 독특한 설계를 구현한다. ATB 소모를 즉각적인 딜링이 아닌 미래 딜 상승에 대한 투자로 전환함으로써 전투 중 장기적 사고를 유도한다. 기술 스택이 UI 아이콘으로 명확히 표시되어 플레이어가 현재 콤보 단계를 항상 인지하게 해 인포메이션 피드백 설계의 모범을 보인다. 강화된 콤보 종착기의 화려한 시각 연출은 성취 보상감을 극대화하면서 스태거 게이지 누적이라는 실질적 기능도 동시에 수행하는 이중 설계의 좋은 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EA%B1%B0%EC%B9%A8%EC%97%86%EB%8A%94+%ED%9E%98+%2F+Unbridled+Strength+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Unbridled_Strength",
+        "gif": null
+      },
+      "tags": [
+        "combo-upgrade",
+        "atb-system",
+        "stagger-build",
+        "martial-arts",
+        "resource-investment",
+        "combo-extender",
+        "stack-mechanic",
+        "ff7r"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "건틀릿"
+      ],
+      "id": "ft-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "전술 전투 글러브 (Tactical Gauntlets)",
+      "game": "Batman: Arkham City",
+      "developer": "Rocksteady Studios",
+      "actionName": "프리플로우 카운터 / Freeflow Counter",
+      "actionType": "카운터",
+      "description": "적의 공격 직전 배트맨이 상체를 젖히거나 사이드스텝으로 회피하며 즉각 반격을 날리는 시스템으로, 콤보 미터를 끊지 않고 흐름을 유지한다. 주변 여러 적의 공격 징조(머리 위 번개 아이콘)를 동시에 감지해 연속 카운터를 실행할 수 있으며, 정확한 타이밍의 카운터는 더 큰 대미지와 높은 콤보 점수를 부여한다.",
+      "motionType": [
+        "counter",
+        "combo",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "none",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "combo-maintained",
+          "crowd-control",
+          "perfect-timing",
+          "multi-target"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~10f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Freeflow Combat의 카운터는 '흐름 상태 보존'을 핵심 원칙으로 삼아 설계되었다. 공격 징조 아이콘을 명확히 표시함으로써 공방 전환이 반사적으로 이루어지게 해 전투를 리듬 게임에 가깝게 만든다. 콤보 미터가 카운터 중에도 끊기지 않도록 설계되어 플레이어가 방어가 아닌 공세 마인드셋을 계속 유지하게 유도한다. 여러 적 동시 카운터가 가능한 구조는 '슈퍼히어로 묘기' 판타지를 성공적으로 구현하며, 이후 수많은 3D 액션 게임 전투 시스템의 원형이 되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Batman%3A+Arkham+City+%ED%94%84%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0+%EC%B9%B4%EC%9A%B4%ED%84%B0+%2F+Freeflow+Counter+gameplay",
+        "images": [],
+        "wiki": "https://batman.fandom.com/wiki/Freeflow_Combat",
+        "gif": null
+      },
+      "tags": [
+        "freeflow",
+        "counter",
+        "crowd-control",
+        "combat-rhythm",
+        "perfect-timing",
+        "combo-maintained",
+        "multi-target",
+        "iconic-system"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손"
+      ],
+      "id": "ft-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 - 드래건 스타일 (Bare-handed - Dragon Style)",
+      "game": "Yakuza 0",
+      "developer": "Ryu Ga Gotoku Studio",
+      "actionName": "타이거 드롭 / Tiger Drop",
+      "actionType": "카운터",
+      "description": "적의 공격 직전 정확한 타이밍에 실행하는 고위험 카운터 기술로, 발동 시 키류가 측면으로 스텝하며 적의 주먹을 튕겨낸 뒤 강렬한 일격을 복부에 꽂는다. 타이밍이 맞으면 막대한 피해와 함께 보스도 즉시 넘어뜨릴 수 있으나, 잘못된 타이밍에는 발동되지 않고 적의 공격을 그대로 맞게 되는 순수한 리스크-리워드 구조를 가진다.",
+      "motionType": [
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "risk-reward",
+          "boss-counter"
+        ],
+        "resourceCost": "히트 게이지",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~6f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Tiger Drop은 액션 RPG에서 '극한의 리스크-리워드 카운터'를 가장 순수하게 구현한 기술 중 하나다. 히트 게이지(분노 자원) 소모를 통해 강력한 효과를 리소스 비용으로 상쇄하며, 전투를 '저장된 분노를 언제 터뜨리느냐'의 전략 게임으로 전환시킨다. 타이밍 성공 시 강렬한 히트스톱과 사운드 피드백이 성취감을 극대화하고, 보스전에서도 유효하다는 점이 기술의 전략적 가치를 높인다. 드래건 스타일의 상징으로 캐릭터 정체성과 전투 시스템을 동시에 강화하는 아이콘적 설계 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Yakuza+0+%ED%83%80%EC%9D%B4%EA%B1%B0+%EB%93%9C%EB%A1%AD+%2F+Tiger+Drop+gameplay",
+        "images": [],
+        "wiki": "https://yakuza.fandom.com/wiki/Tiger_Drop",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "risk-reward",
+        "heat-action",
+        "knockdown",
+        "boss-counter",
+        "perfect-timing",
+        "dragon-style",
+        "yakuza"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손"
+      ],
+      "id": "ft-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
