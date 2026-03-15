@@ -14392,6 +14392,225 @@
       ],
       "id": "db-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "앵커 레이지 (Anchor Rage)",
+      "actionType": "카운터",
+      "description": "와이어버그로 자신을 지면에 고정한 뒤, 피격 시 쌓이는 분노 게이지를 소비해 폭발적인 카운터 돌진 찌르기를 실행하는 실크바인드 기술이다. 고정 상태에서 공격을 받으면 붉은 오라가 강화되며, 최대 충전 후 전방으로 강력한 찌르기가 자동 발동된다. 카운터 이후 파워 가드 또는 연속 찌르기로 즉시 연계 가능하다.",
+      "motionType": [
+        "counter",
+        "thrust",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "counter",
+          "hyper-armor",
+          "poise-breaking",
+          "damage-boost"
+        ],
+        "resourceCost": "와이어버그 1회",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~25f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "앵커 레이지는 랜스의 '방어하며 버티는' 정체성을 와이어버그 시스템과 결합해 능동적 공격성으로 재해석한 사례다. 위치 고정이라는 제약을 오히려 피격 유도 → 카운터 강화라는 리워드로 역전시켜 리스크-리워드 구조가 선명하다. 분노 게이지 누적 후 타이밍에 맞춰 소비하는 구조는 '맞아주는 즐거움'이라는 역설적 쾌감을 설계한 것으로, 랜스 플레이어의 심리적 만족감을 극대화한다. 붉은 오라가 시각적으로 게이지 상태를 직관적으로 전달해 UI 의존 없이도 피드백이 완결된다. 기존 거북이 전략을 공격적 역습으로 확장한 Rise의 무기 재설계 철학을 가장 잘 보여주는 기술이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%95%B5%EC%BB%A4+%EB%A0%88%EC%9D%B4%EC%A7%80+%28Anchor+Rage%29+gameplay",
+        "images": [],
+        "wiki": "https://mhrise.wiki.fextralife.com/Lance",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "lance",
+        "silkbind",
+        "monster-hunter",
+        "hyper-armor",
+        "risk-reward",
+        "timing-based",
+        "poise-breaking",
+        "rage-mechanic"
+      ],
+      "applicableWeapons": [
+        "랜스",
+        "건랜스",
+        "창"
+      ],
+      "id": "sp-016",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드래곤슬레이어 검창 (Dragonslayer Swordspear)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "번개 돌격 (Lightning Charge)",
+      "actionType": "무기술",
+      "description": "무기에 번개 에너지를 집중하며 자세를 낮춘 뒤 전격을 두르며 전방으로 고속 돌진하는 무기 기술이다. 돌진 전 구간에 걸쳐 번개 속성 피해 판정이 활성화되며, 돌진 말미에 상향 베기로 마무리한다. 무명의 왕 보스의 드래곤 기승 돌진 패턴을 플레이어가 직접 재현할 수 있는 유일한 수단이다.",
+      "motionType": [
+        "charge",
+        "thrust",
+        "leap"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "gap-closer",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "poise-breaking",
+          "lightning-damage",
+          "multi-hit"
+        ],
+        "resourceCost": "FP 15",
+        "frameApprox": {
+          "startup": "~22f",
+          "active": "~40f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "번개 돌격은 보스 오르스타인의 상징적 돌진 패턴을 플레이어가 체험하도록 허용하는 '환상 실현' 설계로, 적이 사용할 때 위협으로 느껴지던 기술을 아이템 획득 후 자신이 재현하는 역전의 쾌감을 의도한다. 돌진 전 구간에 피격 판정이 살아 있어 거리 측정이 핵심 기술이 되고, FP 소모로 남용을 억제해 리소스 관리의 긴장감을 유지한다. 충전 직전 번개가 무기에 집중되는 시각·청각 피드백이 강력함을 예고하며, 착탄 시 강한 경직을 보장해 리워드 피드백이 명확하다. 보스 무브셋과 플레이어 무브셋을 낙하 아이템으로 연결하는 방식은 FromSoftware의 스토리텔링 설계 철학의 전형적 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EB%B2%88%EA%B0%9C+%EB%8F%8C%EA%B2%A9+%28Lightning+Charge%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Dragonslayer+Swordspear",
+        "gif": null
+      },
+      "tags": [
+        "lightning",
+        "charge-attack",
+        "weapon-art",
+        "dark-souls",
+        "gap-closer",
+        "ornstein-homage",
+        "poise-breaking",
+        "boss-reference",
+        "lore-weapon",
+        "multi-hit"
+      ],
+      "applicableWeapons": [
+        "창",
+        "검창",
+        "할버드"
+      ],
+      "id": "sp-017",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "창기사 창 (Dragoon Lance)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "드래곤파이어 다이브 (Dragonfire Dive / 竜炎の突撃)",
+      "actionType": "특수기",
+      "description": "창기사가 하늘 높이 도약한 뒤 불꽃을 두르며 수직으로 낙하하여 착지 지점 주변의 적 전체에 폭발 피해를 가하는 광역 기술이다. 도약 중에는 무적 판정이 발생해 일부 공격을 능동적으로 회피하는 기동 수단으로도 활용된다. 오프 글로벌 쿨다운(oGCD)으로 설계되어 기본 콤보 회전 사이에 삽입해 최대 화력 윈도우를 형성한다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "extender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "gap-closer",
+          "invincibility-frames",
+          "knockdown"
+        ],
+        "resourceCost": "쿨다운 (120초)",
+        "frameApprox": {
+          "startup": "~40f",
+          "active": "~10f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "드래곤파이어 다이브는 창기사의 '드래곤 점프' 판타지를 도약-낙하-폭발이라는 3단 구조로 극적으로 구현한 기술로, 각 단계의 모션이 명확해 강함이 시각적으로 즉시 전달된다. oGCD 설계는 기본 콤보 흐름을 방해하지 않으면서 강력한 피해를 삽입할 수 있어, 회전 콤보 사이 빈 프레임을 채우는 FFXIV 딜러 설계의 핵심 원칙을 잘 구현했다. 120초 장쿨다운과 높은 피해의 교환은 전투 내 '폭발적 순간'을 보장하며 플레이어에게 임팩트를 집중시킨다. 도약 중 무적 판정의 존재는 회피 수단으로도 활용 가능해 기술 심도를 높이고, 불꽃과 드래곤 이미지의 결합은 창기사 직업 정체성을 강화하는 세계관 일체형 시각 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EB%93%9C%EB%9E%98%EA%B3%A4%ED%8C%8C%EC%9D%B4%EC%96%B4+%EB%8B%A4%EC%9D%B4%EB%B8%8C+%28Dragonfire+Dive+%2F+%E7%AB%9C%E7%82%8E%E3%81%AE%E7%AA%81%E6%92%83%29+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Dragonfire_Dive",
+        "gif": null
+      },
+      "tags": [
+        "dragoon",
+        "leap-attack",
+        "aoe",
+        "fire",
+        "ogcd",
+        "gap-closer",
+        "invincibility",
+        "cooldown-management",
+        "burst-window",
+        "final-fantasy"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "할버드"
+      ],
+      "id": "sp-018",
+      "addedDate": "2026-03-15"
     }
   ]
 }
