@@ -18,7 +18,7 @@ cd /d "%~dp0"
 yt-dlp --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo  [yt-dlp] 설치 중...
-    pip install yt-dlp -q
+    python -m pip install yt-dlp -q
 )
 
 :: YouTube URL 워처 백그라운드 실행
