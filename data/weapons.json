@@ -17756,6 +17756,79 @@
       ],
       "id": "sw-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Greatsword)",
+      "game": "Monster Hunter Rise: Sunbreak",
+      "developer": "Capcom",
+      "actionName": "카운터 차지 베기 (Counter Charged Slash / カウンターチャージ斬り)",
+      "actionType": "카운터",
+      "description": "와이어버그를 소비해 카운터 자세를 취하고, 적의 공격이 명중하는 순간 충전 과정을 생략한 채 즉시 진화강격참 수준의 최대 위력 베기를 발동하는 반격기다. 통상적으로 수초가 걸리는 풀 충전 단계를 카운터 반응 하나로 대체하여, 적의 공격 타이밍을 정확히 읽었을 때 폭발적인 대미지 리워드를 즉시 돌려준다. 자세 진입 선딜 동안 무방비 상태가 유지되어 리스크-리워드 구조가 명확하게 성립된다.",
+      "motionType": [
+        "counter",
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "counter",
+          "poise-breaking",
+          "knockdown",
+          "damage-amplified"
+        ],
+        "resourceCost": "와이어버그 1개",
+        "frameApprox": {
+          "startup": "~38f (카운터 자세 진입)",
+          "active": "~8f (반격 판정 + 베기 발동)",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "카운터 차지 베기는 '느린 대검에 능동적 방어 깊이를 부여'하는 설계 철학의 핵심이다. 대검의 정체성인 고위력-장선딜 구조를 그대로 유지하면서, 카운터라는 맥락을 통해 선딜을 '적의 공격 읽기'라는 스킬 표현으로 전환한다. 풀 충전 즉시 발동이라는 강력한 리워드는 숙련도에 비례한 성취감을 형성하고, 자세 진입 중 피격 취약이라는 명확한 패널티가 전략적 판단을 강제한다. 와이어버그 자원 소비가 추가 레이어로 작용해 단순 반사 플레이가 아닌 자원 관리와 타이밍 예측이 결합된 고급 메카닉으로 완성된다. 이는 MH:World의 태클(피격 흡수형)과 대비되는 '완전 카운터형' 설계로, 시리즈 내 대검 플레이스타일의 폭을 넓히는 중요한 디자인 진화다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise%3A+Sunbreak+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B0%A8%EC%A7%80+%EB%B2%A0%EA%B8%B0+%28Counter+Charged+Slash+%2F+%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E6%96%AC%E3%82%8A%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunter.fandom.com/wiki/MHRise:_Great_Sword",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "charge-release",
+        "risk-reward",
+        "wirebug",
+        "poise-breaking",
+        "high-damage",
+        "timing-based",
+        "silkbind",
+        "greatsword",
+        "sunbreak"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-042",
+      "addedDate": "2026-03-15"
     }
   ]
 }
