@@ -19538,6 +19538,79 @@
       ],
       "id": "sp-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Barbed Chain - Flame Hollow (화염 가시 사슬)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "화염 홀로우 충전 강타 / Flame Hollow Charge Strike",
+      "actionType": "차지",
+      "description": "Fury가 화염 홀로우를 활성화한 상태에서 강공격 버튼을 길게 누르면 사슬 끝에 불꽃을 응축시킨 뒤 지면을 강타한다. 충격 지점에서 화염 폭발이 발생하며 주변 범위에 연소 상태이상을 부여한다. 완전히 충전된 강타는 갑옷 적의 방어력을 무력화하는 포이즈 파괴 효과를 지닌다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "sweep"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "burn-status",
+          "area-of-effect",
+          "knockdown"
+        ],
+        "resourceCost": "홀로우 게이지",
+        "frameApprox": {
+          "startup": "~60f (충전 포함)",
+          "active": "~12f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "다크사이더스 III의 화염 홀로우 충전 강타는 홀로우 시스템이 단순한 속성 스킨이 아닌 실질적인 플레이스타일 전환임을 증명하는 대표 기술이다. 충전 시간이라는 명확한 비용을 지불하면 광역 상태이상과 포이즈 파괴라는 고가치 보상을 제공해 리스크-리워드 구조가 투명하다. 채찍 특유의 빠른 연타 리듬에 의도적인 '멈춤'을 삽입함으로써 전투 템포에 강약을 부여하고, 플레이어가 상황에 맞게 속도를 조절하도록 유도한다. 충전 완료 시 화염 이펙트와 타격음이 동시에 집중되어 피드백 응집도가 높으며, 시각적으로도 공격 준비 상태가 명확히 읽혀 상대 AI의 반응을 예측하기 쉬운 디자인이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%ED%99%94%EC%97%BC+%ED%99%80%EB%A1%9C%EC%9A%B0+%EC%B6%A9%EC%A0%84+%EA%B0%95%ED%83%80+%2F+Flame+Hollow+Charge+Strike+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Flame_Hollow",
+        "gif": null
+      },
+      "tags": [
+        "charged-attack",
+        "fire-element",
+        "whip",
+        "hollow-system",
+        "poise-breaking",
+        "burn-status",
+        "area-of-effect",
+        "weapon-transformation",
+        "risk-reward",
+        "darksiders"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 무기"
+      ],
+      "id": "wh-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
