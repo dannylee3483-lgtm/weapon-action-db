@@ -11667,6 +11667,228 @@
       ],
       "id": "db-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드라우프니르 창 (Draupnir Spear)",
+      "game": "God of War: Ragnarok",
+      "developer": "Santa Monica Studio",
+      "actionName": "창 중첩 매설 연폭 (Spear Embed & Chain Detonation) / Spear Throw & Recall",
+      "actionType": "특수기",
+      "description": "드라우프니르 창을 R2로 투척해 적 또는 지형에 꽂아 최대 여러 자루를 중첩 매설하고, 소환 명령으로 일시에 폭파시켜 바람의 충격파를 일으키는 2단계 공격이다. 박힌 창들은 각각 독립된 히트박스를 지니며 연폭 시 연속 피격으로 높은 스태거와 밸런스 파괴를 유발한다. 소환 시 적을 크라토스 방향으로 끌어당기는 부수 효과가 있어 도끼·블레이즈 오브 카오스 콤보 연계에 활용된다.",
+      "motionType": [
+        "throw",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "gap-closer",
+          "crowd-control",
+          "knockdown",
+          "pull-effect"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~120f (매설 유지)",
+          "recovery": "~20f (폭파 후)"
+        }
+      },
+      "designNotes": "매설-폭파의 이단계 설계는 플레이어에게 적 위치 예측과 공간 활용이라는 전략적 사고를 요구하며, 창을 박는 행위는 저리스크이지만 폭파 타이밍 최적화가 고보상을 이끌어내는 비대칭 리스크-리워드 구조를 형성한다. 바이킹 신화 속 드라우프니르(무한 복제의 반지) 설정을 메카닉으로 직접 구현한 내러티브-시스템 통합의 모범 사례로, 설정이 플레이 판타지를 뒷받침한다. 다수의 창이 연쇄 폭발하는 시각·음향 피드백 레이어링이 타격감을 단계적으로 증폭시키며, 레비아탄 도끼·블레이즈 오브 카오스와의 무기 체인 가능성으로 깊이 있는 콤보 생태계를 형성한다. 끌어당기기 효과가 추가 콤보 진입을 보장하여 성공적인 폭파에 대한 명확한 피드백과 보상 루프를 완성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War%3A+Ragnarok+%EC%B0%BD+%EC%A4%91%EC%B2%A9+%EB%A7%A4%EC%84%A4+%EC%97%B0%ED%8F%AD+%28Spear+Embed+%26+Chain+Detonation%29+%2F+Spear+Throw+%26+Recall+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Draupnir_Spear",
+        "gif": null
+      },
+      "tags": [
+        "spear-throw",
+        "mine-placement",
+        "wind-element",
+        "multi-hit",
+        "gap-closer",
+        "strategic-placement",
+        "crowd-control",
+        "combo-enabler",
+        "pull-effect",
+        "high-stagger"
+      ],
+      "applicableWeapons": [
+        "창",
+        "투척 무기"
+      ],
+      "id": "sp-013",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "드래곤슬레이어 소드스피어 (Dragonslayer Swordspear)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "성 로스릭의 빛 (Sacred Lothric Light) / Sacred Lothric Light",
+      "actionType": "무기술",
+      "description": "무기를 지면에 꽂아 짧게 충전한 뒤 전방으로 성스러운 번개 창을 발사하고, 착지 지점에 번개 폭발을 일으키는 2단 공격이다. 1단 번개 창은 직선 관통 판정을 지니며 원거리 적을 타격할 수 있고, 이어지는 지면 폭발은 근접 범위의 복수 적을 동시에 제압한다. 슬래시·스러스트 두 가지 공격 모션을 겸비한 하이브리드 무기이므로 상황에 따라 유효 피격 부위를 전환하여 방어 판정을 혼란시킬 수 있다.",
+      "motionType": [
+        "thrust",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "beam",
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "aoe",
+          "pierce",
+          "knockdown"
+        ],
+        "resourceCost": "FP 24",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~20f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "슬래시·스러스트 겸용이라는 희귀한 하이브리드 무기 설계가 적 방어 판정 혼란이라는 전술적 재미를 추가한다. 무기술 하나가 원거리 포킹과 근접 AOE를 모두 커버하여 창 특유의 '거리 조절' 테마를 단일 스킬로 표현한 설계 압축의 좋은 예시다. FP 비용이 부과됨으로써 무분별한 남발을 억제하고 타이밍 선택의 중요성을 높이는 리소스 설계가 인상적이며, 신앙 스케일링 덕분에 빌드 정체성과 무기 테마가 서사·수치 양면에서 정합성을 갖는다. 번개 빔→지면 폭발로 이어지는 2단 시각 피드백은 성공적인 사용 시 충족감을 단계적으로 제공하여 사용자 만족도를 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EC%84%B1+%EB%A1%9C%EC%8A%A4%EB%A6%AD%EC%9D%98+%EB%B9%9B+%28Sacred+Lothric+Light%29+%2F+Sacred+Lothric+Light+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Dragonslayer+Swordspear",
+        "gif": null
+      },
+      "tags": [
+        "lightning",
+        "weapon-art",
+        "hybrid-moveset",
+        "slash-thrust",
+        "aoe",
+        "long-range",
+        "poise-break",
+        "fp-cost",
+        "faith-scaling",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "창",
+        "소드스피어",
+        "하이브리드 무기"
+      ],
+      "id": "sp-014",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "창류 무기 — 피닉스 랜스 등 (Spear-type / Phoenix Lance)",
+      "game": "Nier: Automata",
+      "developer": "PlatinumGames",
+      "actionName": "회전 연격 및 공중 급강하 (Spinning Combo & Aerial Plunge) / Spear Spin Combo",
+      "actionType": "콤보",
+      "description": "창으로 전방 회전 베기를 3~4회 연속으로 가하며 주변 적을 쓸어내고, 마지막 히트에서 공중으로 도약하여 창을 지면에 꽂아 충격파를 발생시키는 피니시 동작으로 마무리한다. Pod 프로그램과 연계하면 회전 구간에 원거리 지원 사격이 더해져 복수 적을 동시에 제압할 수 있다. 공중 이동 구간이 피격 판정을 잠시 이탈시켜 공격과 회피가 자연스럽게 통합된 흐름을 만든다.",
+      "motionType": [
+        "spin",
+        "leap",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "launcher"
+        ],
+        "specialProperties": [
+          "aoe-sweep",
+          "launch",
+          "pod-synergy",
+          "brief-airborne-dodge"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~80f (회전 구간)",
+          "recovery": "~25f (착지 후)"
+        }
+      },
+      "designNotes": "공격과 이동이 혼합된 회전 모션은 창 특유의 원심력 표현을 직관적으로 달성하며, 플레이어가 위치를 조정하면서 동시에 데미지를 축적할 수 있는 이동-공격 통합 설계의 좋은 예시다. 공중 급강하 마무리는 창의 '꿰뚫기' 본질을 극적으로 표현하고 바닥 충격파라는 보너스 히트로 콤보 종료를 시각·물리적으로 명확히 고지하는 피드백 설계를 보인다. Pod 시스템과의 시너지 가능성은 NieR:A 고유의 근·원거리 복합 전투 아이덴티티를 강화하며, 단순 근접 무기를 하이브리드 전술 도구로 확장시키는 레이어 설계를 잘 보여 준다. 창이 주는 중량감을 빠른 연타 리듬으로 재해석하여 2B의 기동성 테마와 모순 없이 통합한 점이 인상적이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nier%3A+Automata+%ED%9A%8C%EC%A0%84+%EC%97%B0%EA%B2%A9+%EB%B0%8F+%EA%B3%B5%EC%A4%91+%EA%B8%89%EA%B0%95%ED%95%98+%28Spinning+Combo+%26+Aerial+Plunge%29+%2F+Spear+Spin+Combo+gameplay",
+        "images": [],
+        "wiki": "https://nierautomata.wiki.fextralife.com/Spear+Weapons",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "aerial-plunge",
+        "pod-synergy",
+        "aoe-sweep",
+        "melee-ranged-hybrid",
+        "combo-finisher",
+        "mobility-attack",
+        "crowd-control",
+        "stylish-action",
+        "airborne-cancel"
+      ],
+      "applicableWeapons": [
+        "창",
+        "폴암"
+      ],
+      "id": "sp-015",
+      "addedDate": "2026-03-15"
     }
   ]
 }
