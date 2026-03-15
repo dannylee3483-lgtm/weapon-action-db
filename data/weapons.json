@@ -16692,6 +16692,80 @@
       ],
       "id": "gs-041",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "레오니다스의 창 (Spear of Leonidas)",
+      "game": "Assassin's Creed Odyssey",
+      "developer": "Ubisoft Quebec",
+      "actionName": "혼돈의 고리 / Ring of Chaos",
+      "actionType": "특수기",
+      "description": "이글 베어러가 레오니다스의 창을 땅에 꽂으며 주변 360도로 혼돈의 에너지 충격파를 폭발적으로 방출한다. 범위 내 모든 적을 강하게 밀쳐내 방어 대형을 붕괴시키는 광역 CC 기술로, 금빛 에너지 고리가 바깥으로 퍼져나가는 연출이 신화적 유물의 권위를 시각적으로 표현한다. 넉백된 적에게 즉시 추가 공격을 이어갈 수 있는 시간 창이 생성된다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "gold",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "wave",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockback",
+          "aoe",
+          "crowd-control",
+          "shield-breaking",
+          "poise-breaking"
+        ],
+        "resourceCost": "쿨다운 (Warrior 능력 슬롯)",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~18f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Ring of Chaos는 오픈 월드 AC 시리즈 최초로 '창 전용 신화 능력'이라는 정체성을 전투 메카닉 수준에서 구현한 기술이다. 레오니다스의 창이 단순 근접 무기가 아닌 이스마일로스 파워의 그릇임을 전투 중 직접 체감하게 하여 스토리 맥락과 게임플레이가 유기적으로 연결된다. 360도 넉백이라는 설계는 포위 상황을 즉각 역전하는 '패닉 버튼'으로 초보자도 위기 탈출에 접근하기 쉽게 하면서, 넉백 후 발생하는 딜 윈도우를 적극 활용하면 콤보 연장으로 이어지는 이중 용도 구조를 갖춘다. 이는 '방어형 사용'과 '공격형 사용' 두 가지 플레이 스타일 모두에 보상을 주는 설계 원칙의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Assassin%27s+Creed+Odyssey+%ED%98%BC%EB%8F%88%EC%9D%98+%EA%B3%A0%EB%A6%AC+%2F+Ring+of+Chaos+gameplay",
+        "images": [],
+        "wiki": "https://assassinscreed.fandom.com/wiki/Ring_of_Chaos",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "knockback",
+        "crowd-control",
+        "mythical-weapon",
+        "warrior-ability",
+        "panic-button",
+        "isu-power",
+        "ring-attack",
+        "spear-unique"
+      ],
+      "applicableWeapons": [
+        "창",
+        "레오니다스의 창"
+      ],
+      "id": "sp-022",
+      "addedDate": "2026-03-15"
     }
   ]
 }
