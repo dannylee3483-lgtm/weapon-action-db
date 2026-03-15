@@ -15788,6 +15788,78 @@
       ],
       "id": "hm-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Barbs of Scorn (분노의 가시)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "네필림의 안식 반격 / Nephilim's Respite Counter",
+      "actionType": "카운터",
+      "description": "Fury가 적의 공격 직전 타이밍에 정확히 회피하면 '네필림의 안식(Nephilim's Respite)'이 발동되며 채찍으로 즉각적인 강화 반격 기회를 얻는다. 반격 시 채찍이 크게 강화된 판정으로 적을 경직시키며 일반 공격 대비 높은 피해를 주고, 동시에 적에게서 에센스(소울)를 추가 흡수한다. 이 메카닉은 소울라이크 계열의 정밀 회피 철학을 채찍이라는 장거리 무기에 적용한 형태로, 공격 모션을 읽고 판정 직전 프레임에 맞춰야 하는 높은 스킬 표현을 요구한다.",
+      "motionType": [
+        "counter",
+        "slash",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "soul-gain",
+          "enhanced-damage",
+          "stagger",
+          "perfect-timing-reward",
+          "invincibility-frames"
+        ],
+        "resourceCost": "없음 (타이밍)",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~12f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "네필림의 안식 반격은 채찍의 구조적 약점—긴 선딜과 느린 회수—을 타이밍 보상 메카닉으로 뒤집는 독창적 설계다. 완벽 회피 성공 시 에센스 획득과 강화 반격이라는 이중 보상을 제공해 플레이어가 소극적 회피 대신 공격적 타이밍 플레이를 선택하도록 유도한다. 채찍의 긴 사거리와 결합하면 원거리 투사체 공격에도 카운터가 가능하여 단순 근접 패리와 차별화된 무기 고유의 반격 아이덴티티를 형성한다. 고위험-고보상 구조는 숙련 플레이어와 초보 플레이어 사이의 실력 격차를 명확히 드러내며, 게임의 전반적인 소울라이크 난이도 철학을 채찍 전투 어휘로 번역한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EB%84%A4%ED%95%84%EB%A6%BC%EC%9D%98+%EC%95%88%EC%8B%9D+%EB%B0%98%EA%B2%A9+%2F+Nephilim%27s+Respite+Counter+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Nephilim%27s_Respite",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "perfect-dodge",
+        "whip",
+        "souls-like",
+        "skill-expression",
+        "risk-reward",
+        "timing-based",
+        "soul-drain",
+        "chain-weapon"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "체인 무기",
+        "플레일"
+      ],
+      "id": "wh-013",
+      "addedDate": "2026-03-15"
     }
   ]
 }
