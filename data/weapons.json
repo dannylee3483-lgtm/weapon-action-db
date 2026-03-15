@@ -10389,6 +10389,220 @@
       ],
       "id": "bw-009",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "레드퀸 (Red Queen)",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "익시드 레벨3 베기 (Exceed Level 3 Slash)",
+      "actionType": "차지 공격",
+      "description": "레드퀸의 내장 엔진을 최대 3단계까지 충전한 뒤 폭발적인 불꽃 에너지를 방출하는 강력한 참격이다. 콤보 도중 공격 타이밍에 맞춰 R2를 눌러 단계별로 익시드 게이지를 충전하며, 3단계 최대 충전 시 불꽃을 두른 대형 사선 베기가 발동된다. 넓은 범위와 폭발적 대미지로 적의 자세를 크게 무너뜨리며 연속기 피니셔로 기능한다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "fire-damage",
+          "burst-damage"
+        ],
+        "resourceCost": "익시드 게이지 (Exceed Gauge)",
+        "frameApprox": {
+          "startup": "~24f",
+          "active": "~10f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "익시드 시스템은 '콤보 실행 중 리듬 마이크로 입력'이라는 이중 레이어 숙련도 구조를 구현한 걸작이다. 플레이어는 콤보를 유지하면서 동시에 각 공격의 타이밍 윈도우에 R2를 눌러야 하므로, 기본 콤보 숙달 이후에도 추가적인 기술 표현 공간이 열린다. 엔진음 강도와 블레이드 발광 색상이 현재 충전 단계를 즉각적으로 피드백하여, 시스템이 플레이 자체로 스스로를 가르치는 자기설명적 설계를 달성했다. 차지 중 경직 없이 이동 가능하나 회피가 제한되어 리스크-리워드 균형을 유지하며, 스타일 미터 보너스와 결합해 '최대 퍼포먼스' 추구 동기를 강화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EC%9D%B5%EC%8B%9C%EB%93%9C+%EB%A0%88%EB%B2%A83+%EB%B2%A0%EA%B8%B0+%28Exceed+Level+3+Slash%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Exceed",
+        "gif": null
+      },
+      "tags": [
+        "exceed-system",
+        "charge-attack",
+        "fire-damage",
+        "knockdown",
+        "combo-finisher",
+        "skill-expression",
+        "style-meter",
+        "engine-sword",
+        "poise-break",
+        "burst-damage"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "엔진 무기"
+      ],
+      "id": "sw-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "강철검 (Steel Sword)",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "actionName": "렌드 (Rend)",
+      "actionType": "차지 공격",
+      "description": "게랄트가 강철검을 쥔 채 힘을 응축하며 전방으로 거대한 회전 베기를 날리는 차지 어택이다. 버튼을 누른 채 유지할수록 대미지 배율과 히트 범위가 최대 600%까지 누적 증가하며, 최대 차지 시 전방 넓은 부채꼴 범위의 적을 연쇄적으로 베어낸다. 방어구 방어력 관통 효과가 있어 중장갑 적에게 특히 유효하다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "sweep",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "armor-penetration",
+          "poise-breaking",
+          "crowd-control",
+          "scaling-damage"
+        ],
+        "resourceCost": "스태미나 + 아드레날린 포인트",
+        "frameApprox": {
+          "startup": "~40f (최대 차지 기준)",
+          "active": "~18f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "렌드는 '계획된 처형'이라는 위처의 전투 철학을 메카닉으로 구현한다. 차지 시간 투자만큼 대미지가 선형 스케일링되어, 전투 상황 읽기와 리스크 감수 판단이 매 발동마다 발생하는 의미 있는 결정 구조를 만든다. 방어구 관통 속성은 플레이어가 적 유형을 파악하고 도구를 적절히 선택하는 몬스터 헌터 판타지를 강화한다. 스킬 트리 투자(Combat 계열 포인트)를 통해서만 습득 가능해 검술 전문화 빌드에 정체성 보상을 제공하며, 부채꼴 AoE 설계로 군중 제압과 단일 강타 역할을 하나의 기술에 통합했다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EB%A0%8C%EB%93%9C+%28Rend%29+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Rend",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "armor-penetration",
+        "scaling-damage",
+        "crowd-control",
+        "risk-reward",
+        "stamina-management",
+        "sweep-attack",
+        "poise-breaking",
+        "monster-hunter-fantasy",
+        "skill-tree"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "대검"
+      ],
+      "id": "sw-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "구식 네일 (Old Nail / Refined Nail)",
+      "game": "Hollow Knight",
+      "developer": "Team Cherry",
+      "actionName": "회오리베기 (Cyclone Slash)",
+      "actionType": "네일 아트 (특수기)",
+      "description": "더 나이트가 제자리에서 빠르게 360도 회전하며 네일로 주변 모든 방향의 적을 연속 타격하는 네일 아트다. 공격 버튼을 짧게 충전한 뒤 놓으면 발동되며, 6회 이상의 다단 히트로 짧은 시간 안에 집중 대미지를 입힌다. 전방위 커버리지 덕분에 여러 적에게 포위되거나 큰 보스의 근접 부위를 공격할 때 특히 강력하다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "crowd-control",
+          "360-hitbox",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음 (짧은 차지)",
+        "frameApprox": {
+          "startup": "~8f (충전 포함 ~40f)",
+          "active": "~30f (다단 히트)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "회오리베기는 끊임없는 이동을 요구하는 게임에서 '순간적 정지'를 강요하는 역설적 설계로 고위험-고보상 구조를 만든다. 차지 중 완전히 취약해지는 점이 적절한 포지셔닝 학습을 강제하며, 성공 시 보스 근접 공격 창에서 폭발적 DPS를 제공해 숙련도에 대한 강력한 보상을 형성한다. 360도 히트박스는 플레이어가 '포위 상황을 위기가 아닌 기회'로 재인식하도록 유도하여 전투 판단 프레임을 전환시킨다. 리소스 비용 없이 차지 타이밍만으로 접근 가능한 점은 인지 부하를 낮추면서도 대시-캔슬 연계 등 고급 플레이어를 위한 기술 표현 공간을 동시에 열어 놓는 우아한 접근성 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hollow+Knight+%ED%9A%8C%EC%98%A4%EB%A6%AC%EB%B2%A0%EA%B8%B0+%28Cyclone+Slash%29+gameplay",
+        "images": [],
+        "wiki": "https://hollowknight.fandom.com/wiki/Cyclone_Slash",
+        "gif": null
+      },
+      "tags": [
+        "nail-art",
+        "multi-hit",
+        "crowd-control",
+        "360-attack",
+        "charge-release",
+        "high-risk",
+        "positional-punish",
+        "skill-expression",
+        "metroidvania",
+        "no-resource-cost"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "네일"
+      ],
+      "id": "sw-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
