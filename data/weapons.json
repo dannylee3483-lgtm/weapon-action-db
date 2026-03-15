@@ -6135,6 +6135,218 @@
       ],
       "id": "mg-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Guardian Shield (수호의 방패)",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "완벽한 패리 / Perfect Shield Parry",
+      "actionType": "패리",
+      "description": "적의 공격이 닿기 직전 L1 버튼을 눌러 수호의 방패로 정확한 타이밍에 받아치면 적을 스태거 상태로 만든다. 일반 블록과 달리 스태거가 발생하여 강력한 반격 콤보로 이어갈 수 있는 창문이 열린다. 일부 대형 공격도 완벽한 타이밍에 패리하면 무력화할 수 있어, 고도의 리스크-리워드 구조를 형성한다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "stagger",
+          "window-opener",
+          "reactive"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~6f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "완벽한 패리는 일반 방어보다 훨씬 큰 보상을 제공하지만 훨씬 좁은 입력 창을 요구함으로써 강력한 리스크-리워드 구조를 형성한다. 단순 방어와 패리를 같은 버튼(L1)에 배치하여 플레이어가 '언제 방어하는가'에서 '얼마나 정확하게 방어하는가'로 숙련도의 축을 전환시킨다. 스태거 이후 레비아탄 도끼 콤보로 자연스럽게 연결되는 흐름은 공방의 리듬감을 강화한다. 크레이토스의 전투 철학인 '공격적 생존'을 방패라는 수비적 도구로 표현한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EC%99%84%EB%B2%BD%ED%95%9C+%ED%8C%A8%EB%A6%AC+%2F+Perfect+Shield+Parry+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Guardian_Shield",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "perfect-timing",
+        "stagger",
+        "counter-attack",
+        "risk-reward",
+        "shield-defense",
+        "poise-breaking",
+        "reactive-defense",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "1H검+방패"
+      ],
+      "id": "sh-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Shield of Chaos (카오스의 방패, 아이기스)",
+      "game": "Hades",
+      "developer": "Supergiant Games",
+      "actionName": "황소 돌진 / Bull Rush",
+      "actionType": "차지 공격",
+      "description": "공격 버튼을 길게 눌러 충전하면 방패를 앞으로 힘껏 들이밀며 전진하는 강력한 돌진 공격을 발동한다. 충전 중에는 방패가 정면을 가려 전방 피해를 일부 흡수하는 방어 효과가 있다. 차지 완료 시 피격된 적은 높은 피해와 함께 넉백을 받으며, 다양한 신의 은총(Boon)과 시너지를 일으켜 전기·파도 등의 추가 효과를 부여할 수 있다.",
+      "motionType": [
+        "charge",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockback",
+          "gap-closer",
+          "partial-guard",
+          "boon-synergy",
+          "crowd-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~40f (최대 충전 기준)",
+          "active": "~8f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "차지-공격-방어를 단일 입력으로 통합한 Bull Rush는 방패라는 수비적 이미지와 돌진이라는 공격성의 조합으로 독특한 아이덴티티를 창출한다. 충전 시간이 길수록 강력하지만 그동안 이동이 불가능해져 회피 난이도가 상승하는 트레이드오프가 명확하다. Boon 시스템과의 광범위한 호환성 덕분에 플레이어가 자신만의 방패 빌드를 설계할 수 있어 로그라이크적 표현력을 극대화한다. Aspect of Chaos 해금 시 방패 투척+귀환 메카닉으로 완전히 다른 플레이 스타일로 전환된다는 점도 이 무기의 설계 깊이를 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+%ED%99%A9%EC%86%8C+%EB%8F%8C%EC%A7%84+%2F+Bull+Rush+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Shield_of_Chaos",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "gap-closer",
+        "knockback",
+        "bull-rush",
+        "shield-bash",
+        "crowd-control",
+        "boon-synergy",
+        "roguelike",
+        "versatile",
+        "tradeoff"
+      ],
+      "applicableWeapons": [
+        "방패"
+      ],
+      "id": "sh-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Charge Blade (충전검)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "가드 포인트 / Guard Point",
+      "actionType": "카운터",
+      "description": "충전검의 특정 모션 전환 애니메이션 프레임에 자동으로 방어 판정이 발생한다. 이 프레임에서 몬스터의 공격을 받으면 피해를 방어하고 바로 다음 공격 모션으로 이어갈 수 있다. 숙련된 플레이어는 의도적으로 가드 포인트 전환 타이밍을 맞춰 몬스터의 공격을 받아내면서 동시에 콤보를 중단 없이 유지하는 고급 기술로 활용한다.",
+      "motionType": [
+        "parry",
+        "counter",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "auto-guard",
+          "combo-flow",
+          "frame-perfect",
+          "offensive-defense"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f (모션 전환 시)",
+          "active": "~4f",
+          "recovery": "~0f (콤보 계속)"
+        }
+      },
+      "designNotes": "가드 포인트는 방어를 '별도의 행동'이 아닌 '공격 흐름의 일부'로 통합한 혁신적인 설계다. 전용 방어 버튼 없이 콤보 모션 내에 숨겨진 방어 프레임을 활용해야 하므로, 숙련도가 가시적으로 드러나고 숙련된 플레이어에게 강력한 보상을 제공한다. 방어를 위해 공격을 포기하는 기존 패러다임을 깨고 공격과 방어를 동시에 수행하게 함으로써 충전검만의 독특한 플레이 리듬을 만들어낸다. 이 메카닉을 마스터하면 전투 속도가 극적으로 빨라지는 점에서 스킬 표현력(skill expression)의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EA%B0%80%EB%93%9C+%ED%8F%AC%EC%9D%B8%ED%8A%B8+%2F+Guard+Point+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Charge+Blade",
+        "gif": null
+      },
+      "tags": [
+        "guard-point",
+        "counter",
+        "technical",
+        "combo-flow",
+        "frame-perfect",
+        "high-skill-ceiling",
+        "offensive-defense",
+        "auto-guard",
+        "skill-expression",
+        "charge-blade"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "충전검"
+      ],
+      "id": "sh-003",
+      "addedDate": "2026-03-15"
     }
   ]
 }
