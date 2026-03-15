@@ -21332,6 +21332,79 @@
       ],
       "id": "sw-020",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "대형 낫 (Large Scythe / Stygian Nymph)",
+      "game": "Honkai Impact 3rd",
+      "developer": "miHoYo",
+      "actionName": "환생 연참 (Resurgence Chain / リサージェンス連撃)",
+      "actionType": "특수기 / 강화 상태 연격",
+      "description": "세일레(Stygian Nymph)의 기본 공격 5타 또는 특정 조건 충족 시 '리서전스(Resurgence)' 각성 상태가 발동되며, 낫을 고속으로 회전시키는 연속 광역 베기를 반복 가능한 루프 형태로 이어간다. 각성 상태에서는 공격할 때마다 재각성 게이지가 충전되어, 연격을 유지하는 한 상태가 갱신되는 '영속 루프' 구조를 형성한다. HP가 위험 수치 이하로 떨어졌을 때도 리서전스가 자동 발동하여 HP를 회복하며 전투를 지속하는 부활 조건을 겸한다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "loop-sustain",
+          "self-resurrection",
+          "buff-on-activation",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "리서전스 게이지 (자동 충전)",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~40f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "리서전스 연참은 '죽음의 위협을 보상 조건으로 전환'하는 역설적 리스크-리워드 구조의 교과서적 사례다. 일반적인 액션 게임이 HP 위기를 패널티로 설계하는 반면, 이 시스템은 위기 상황을 강화 상태 진입의 트리거로 삼아 플레이어가 위험을 의도적으로 감수하도록 유도한다. 연격을 유지하는 한 각성 상태가 갱신되는 루프 구조는 공격적 플레이스타일에 강한 정체성을 부여하며, 방어적 플레이보다 공세가 더 안전한 역전된 밸런스를 만든다. 낫이라는 무기의 '죽음·재생' 상징성이 메카닉과 정확히 일치하여 세계관과 조작감의 서사적 일관성을 달성한 우수한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Honkai+Impact+3rd+%ED%99%98%EC%83%9D+%EC%97%B0%EC%B0%B8+%28Resurgence+Chain+%2F+%E3%83%AA%E3%82%B5%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9%E9%80%A3%E6%92%83%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "scythe",
+        "loop-mechanic",
+        "self-resurrection",
+        "dark-damage",
+        "risk-reward",
+        "aggressive-playstyle",
+        "buff-sustain",
+        "gacha-action",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "낫"
+      ],
+      "id": "sc-016",
+      "addedDate": "2026-03-16"
     }
   ]
 }
