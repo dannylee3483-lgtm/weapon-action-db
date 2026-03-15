@@ -19891,6 +19891,79 @@
       ],
       "id": "kt-047",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "듀얼 대거 (Dual Dagger)",
+      "game": "Diablo IV",
+      "developer": "Blizzard Entertainment",
+      "actionName": "비틀리는 칼날 (Twisting Blades)",
+      "actionType": "무기술",
+      "description": "로그가 두 자루의 단검을 동시에 적에게 찔러 박아 넣으며 고정시키고, 짧은 딜레이 이후 칼날이 플레이어를 향해 자동 귀환하며 경로상 모든 적을 관통해 추가 피해를 준다. 칼날이 적에게 박혀 있는 동안 해당 적은 증폭된 피해를 받으며, 귀환 경로를 제어하는 포지셔닝이 딜 극대화의 핵심이다. 에너지 소모 스킬로, 쿨타임 없이 에너지가 허용하는 한 연속 사용이 가능하다.",
+      "motionType": [
+        "thrust",
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "purple"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "extender"
+        ],
+        "specialProperties": [
+          "delayed-return",
+          "aoe-on-return",
+          "damage-amplification",
+          "positioning-dependent",
+          "pierce"
+        ],
+        "resourceCost": "에너지(Energy) 25",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~8f",
+          "recovery": "귀환 타이밍 전까지 이동 가능"
+        }
+      },
+      "designNotes": "비틀리는 칼날은 '지연 보상(Delayed Reward)' 구조를 통해 단순 찌르기를 전략적 의사결정으로 승화시킨다. 즉발 피해보다 귀환 경로 관통에서 훨씬 큰 보상이 발생하기 때문에, 플레이어는 적 무리 한복판에서 포지션을 유지하는 리스크를 능동적으로 선택해야 한다. 이 구조는 로그 클래스 판타지인 '빠르고 교활하며 위험을 자초하는' 캐릭터 아이덴티티와 완벽히 일치하며, 능숙한 플레이어일수록 귀환 칼날 경로로 여러 적을 한 선상에 배치해 폭발적인 클리어 속도를 발휘한다. 에너지 시스템과 결합해 '쏘고 이동하고 회수한다'는 리듬감을 형성하며, 반복적인 루프가 지루해지지 않도록 적 배치에 따라 매번 다른 최적 해를 요구하는 점이 숙련도 표현의 폭을 넓힌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%EB%B9%84%ED%8B%80%EB%A6%AC%EB%8A%94+%EC%B9%BC%EB%82%A0+%28Twisting+Blades%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "dual-dagger",
+        "delayed-return",
+        "risk-reward",
+        "aoe",
+        "positioning",
+        "pierce",
+        "rogue",
+        "skill-expression",
+        "energy-management",
+        "combo-setup"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "단검"
+      ],
+      "id": "db-017",
+      "addedDate": "2026-03-16"
     }
   ]
 }
