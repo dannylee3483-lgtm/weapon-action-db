@@ -16285,6 +16285,73 @@
       ],
       "id": "hm-013",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "황소 채찍 (Bullwhip)",
+      "game": "Indiana Jones and the Great Circle",
+      "developer": "MachineGames",
+      "actionName": "채찍 잡아당기기 (Whip Yank)",
+      "actionType": "잡기/콤보 개시기",
+      "description": "채찍을 중원거리 적에게 감아 강제로 끌어당기는 기술. 끌려온 적은 잠시 균형을 잃은 상태가 되어 주먹·무릎 차기 등 밀착 연계 공격의 기회를 만든다. 채찍의 사거리를 역이용해 원거리에서 클로즈레인지 교전을 강제하는 독특한 접전 개시기다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "brown"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "knockdown",
+          "disarm-setup"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "채찍 잡아당기기는 채찍 특유의 '사거리를 무기화'하는 특성을 전투 개시 메커니즘으로 구현한 사례다. 일반적인 돌격형 갭 클로저와 정반대로 '적을 내 쪽으로 끌어오는' 역발상은, 플레이어가 원거리 우위를 유지한 채 밀착전을 강제하는 독특한 주도권 획득 방식을 제공한다. 채찍을 감는 모션과 적의 피격 리액션이 명확한 시청각 피드백으로 기능해, 타이밍 성공 시 즉각적인 보상감이 뚜렷하다. 끌려온 직후의 짧은 취약 창이 리스크-리워드 구조를 형성하여, 연계 공격 선택의 능동성을 플레이어에게 온전히 돌려준다. 인디아나 존스라는 캐릭터 정체성인 '도구와 지략을 통한 전투'를 메커니즘 레이어에 직접 녹여낸 아이코닉한 디자인으로, 채찍이 단순 원거리 공격 수단이 아니라 전투 흐름을 재편하는 '상황 제어 도구'임을 설득력 있게 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Indiana+Jones+and+the+Great+Circle+%EC%B1%84%EC%B0%8D+%EC%9E%A1%EC%95%84%EB%8B%B9%EA%B8%B0%EA%B8%B0+%28Whip+Yank%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "gap-closer",
+        "grab",
+        "combo-starter",
+        "crowd-control",
+        "range-to-close",
+        "stagger",
+        "first-person",
+        "utility-weapon",
+        "indiana-jones"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬"
+      ],
+      "id": "wh-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
