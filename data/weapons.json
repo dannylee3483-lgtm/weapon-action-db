@@ -20975,6 +20975,78 @@
       ],
       "id": "sw-019",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "게이르스코굴 / Geirskogul",
+      "actionType": "특수기",
+      "description": "드래군이 '용의 눈(Eye of the Dragon)' 게이지를 소모해 발동하는 강력한 직선 랜스 찌르기. 용기(龍氣)를 랜스에 집중시켜 정면으로 관통하며, 이 기술을 사용하면 '용의 생명(Life of the Dragon)' 상태로 진입하거나 지속 시간을 연장한다. 용의 생명 상태에서는 강화된 후속기 나스트론드(Nastrond)로 이어지는 연계 구조가 열린다.",
+      "motionType": [
+        "thrust",
+        "charge"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "purple"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "beam"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "extender"
+        ],
+        "specialProperties": [
+          "buff-trigger",
+          "resource-management",
+          "state-transition"
+        ],
+        "resourceCost": "쿨다운 (30초) + 용의 눈 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~8f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "게이르스코굴은 드래군의 고유 자원인 '용의 눈' 게이지 소비와 '용의 생명' 상태 전환을 하나의 기술로 묶은 게이트웨이 디자인이다. 단순 고위력기가 아니라 상태 전환 트리거로 기능하여, 플레이어가 버프 창(Burst Window) 맞춰 스킬 순서를 중·장기적으로 계획하도록 유도한다. 찌르기 직후 푸른 용의 기(氣) 이펙트가 폭발하는 시각적 피드백이 상태 진입 여부를 직관적으로 알려주며, MMORPG 특유의 파티 시너지 타이밍과 개인 자원 관리의 교차점에서 만족감을 극대화한다. 나스트론드로 이어지는 자연스러운 연계 구조는 '용과의 공생'이라는 드래군의 내러티브 테마를 메카닉 차원에서 구현한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EA%B2%8C%EC%9D%B4%EB%A5%B4%EC%8A%A4%EC%BD%94%EA%B5%B4+%2F+Geirskogul+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Geirskogul",
+        "gif": null
+      },
+      "tags": [
+        "spear",
+        "lance",
+        "dragoon",
+        "buff-trigger",
+        "resource-management",
+        "state-transition",
+        "dragon-gauge",
+        "mmorpg",
+        "thrust",
+        "burst-window"
+      ],
+      "applicableWeapons": [
+        "랜스",
+        "창",
+        "폴암"
+      ],
+      "id": "sp-026",
+      "addedDate": "2026-03-16"
     }
   ]
 }
