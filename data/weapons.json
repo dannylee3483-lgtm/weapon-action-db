@@ -20321,6 +20321,81 @@
       ],
       "id": "kt-048",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "Bolt of Gransax (그란삭스의 번개)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "고대 번개 창 (Ancient Lightning Spear)",
+      "actionType": "무기술",
+      "description": "창을 머리 위로 들어 고대 황금빛 번개를 집적한 뒤, 압도적인 사거리로 번개 창을 투척하는 무기술이다. 투척된 번개 창은 적중 시 폭발과 함께 번개 피해를 입히며, 지면에 꽂혀 짧은 시간 동안 추가 타격 판정이 유지된다. 긴 선딜을 감수하는 대신 원거리 교전과 영역 제어를 동시에 수행할 수 있는 고위험-고보상 기술이다.",
+      "motionType": [
+        "throw",
+        "charge",
+        "overhead"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "gold",
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion",
+          "beam"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "ranged-attack",
+          "poise-breaking",
+          "lingering-hitbox",
+          "area-control"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~55f",
+          "active": "~15f + 지속 판정",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "고대 용 그란삭스가 신들의 성채를 공격했던 전설적인 기술을 플레이어가 재현하는 구조로, 무기술이 세계관 로어를 직접 체험하는 매개가 되는 강력한 내러티브 통합 설계 사례다. 긴 선딜은 근거리 사용 시 상당한 리스크를 부과하지만, 압도적인 사거리 덕분에 원거리에서는 보스의 공격 범위 밖에서 일방적으로 교전을 주도할 수 있어 리스크-리워드 곡선이 명확하게 분리된다. 황금빛 번개라는 시각 언어는 Elden Ring의 황금률 미학과 연결되면서도 용의 고대성을 표현하는 색감 차이로 즉각적인 시각 피드백을 제공한다. 착탄 후 지면에 꽂혀 남는 지속 판정은 적의 접근 경로를 차단하는 영역 제어 도구로 기능하며, 단순 투척기를 넘어 공간 전략의 층위를 추가한다. Elden Ring 전반의 핵심 철학인 '위험을 감수한 강공'을 무기술 레이어에서도 충실히 구현하는 대표적 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EA%B3%A0%EB%8C%80+%EB%B2%88%EA%B0%9C+%EC%B0%BD+%28Ancient+Lightning+Spear%29+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Bolt+of+Gransax",
+        "gif": null
+      },
+      "tags": [
+        "long-range",
+        "lightning",
+        "lore-based",
+        "area-control",
+        "boss-punish",
+        "fp-dependent",
+        "lingering-hitbox",
+        "poise-break",
+        "high-damage"
+      ],
+      "applicableWeapons": [
+        "창",
+        "대창",
+        "투척형 창"
+      ],
+      "id": "sp-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
