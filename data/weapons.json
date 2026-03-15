@@ -22247,6 +22247,78 @@
       ],
       "id": "sw-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "리퍼 낫 (Reaper Scythe)",
+      "game": "Deaths' Door",
+      "developer": "Acid Nerve",
+      "actionName": "차지 회전 베기 (Charged Spin Attack)",
+      "actionType": "차지 공격",
+      "description": "공격 버튼을 길게 눌러 차지하면 까마귀 리퍼가 낫을 몸 주위로 크게 한 바퀴 회전시키며 주변 360도를 공격한다. 차지 중 이동 속도가 크게 감소하여 적의 공격에 취약해지며, 완전 차지 방출 시 일반 공격의 약 2배 위력과 함께 넉다운 효과가 발생한다. 다수의 적이 근접한 상황에서 집단을 일소하는 클리어링 기술로, 전투 공간 장악의 핵심 수단이다.",
+      "motionType": [
+        "spin",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "aoe",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~45f (차지 포함)",
+          "active": "~14f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "차지 회전 베기는 Deaths' Door 전투 시스템의 핵심 리스크-리워드 구조를 압축적으로 표현한 기술이다. 차지 중 이동 제한이라는 명확한 비용을 플레이어에게 부과함으로써, 적의 패턴을 읽고 안전한 창을 확보하는 판단력을 시험한다. 광역 넉다운이라는 강력한 보상은 공격적 플레이를 유도하되, 차지 타이밍 실패 시 큰 피해를 감수해야 하므로 무분별한 사용을 억제한다. 낫의 원심력을 활용한 360도 궤적은 무기의 물리적 특성을 게임플레이 메카닉으로 자연스럽게 번역한 사례이며, '저승사자(Reaper)의 한 낫'이라는 캐릭터 아이덴티티를 전투 감각 차원에서 직접적으로 구현한다. 소울라이크에서 영향을 받은 미니멀한 전투 언어 속에서도 차지라는 단 하나의 레이어가 전략적 깊이를 충분히 확보한다는 점에서 검약적 디자인의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Deaths%27+Door+%EC%B0%A8%EC%A7%80+%ED%9A%8C%EC%A0%84+%EB%B2%A0%EA%B8%B0+%28Charged+Spin+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://deathsdoor.fandom.com/wiki/Deaths%27_Door_Wiki",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "aoe",
+        "knockdown",
+        "crowd-control",
+        "scythe",
+        "risk-reward",
+        "souls-like",
+        "360-sweep",
+        "reaper",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "리퍼 낫",
+        "대형 낫"
+      ],
+      "id": "sc-017",
+      "addedDate": "2026-03-16"
     }
   ]
 }
