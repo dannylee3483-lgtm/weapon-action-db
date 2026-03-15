@@ -20902,6 +20902,79 @@
       ],
       "id": "bw-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "이레나 (Elaena / Eve's Blade)",
+      "game": "Stellar Blade",
+      "developer": "Shift Up",
+      "actionName": "베타 버스트 / Beta Burst",
+      "actionType": "특수기",
+      "description": "이브가 전투 중 회피·패리·공격으로 누적한 베타 게이지를 검에 응집시킨 뒤, 전방을 향해 강렬한 에너지 참격 파동을 방출하는 기술이다. 충전량에 따라 위력과 범위가 증가하며, 적중 시 적을 강하게 밀쳐내 추가 공격 기회를 만든다. 베타 스킬 트리 강화를 통해 연속 방출이나 범위 확장 등 변형 파생기로 발전시킬 수 있다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockback",
+          "poise-breaking",
+          "resource-spender",
+          "gap-closer"
+        ],
+        "resourceCost": "베타 게이지",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~10f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "베타 버스트는 '수급 → 누적 → 폭발' 3단계 리소스 루프를 전투 전체의 구조적 골격으로 삼는 정교한 설계다. 회피와 패리 성공 보상으로 게이지가 채워지도록 설계함으로써 방어 플레이에도 공격적 가치를 부여하고, 플레이어가 수동적으로 맞기보다 적극적으로 리스크를 감수하도록 유도한다. '언제 방출할 것인가'라는 타이밍 결정권을 플레이어에게 온전히 위임해 보스 페이즈 전환·스턴 창문 등 전략적 순간과 연계한 자기 주도적 만족감을 극대화한다. 파란-청백색 에너지 슬래시 트레일과 히트스탑, 충격파 이펙트가 결합되어 '강력한 기술을 소모했다'는 즉각적 피드백을 제공하며, 리소스 지출의 심리적 무게를 시각·촉각적으로 정직하게 보상한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Stellar+Blade+%EB%B2%A0%ED%83%80+%EB%B2%84%EC%8A%A4%ED%8A%B8+%2F+Beta+Burst+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "beta-energy",
+        "resource-management",
+        "energy-release",
+        "high-damage",
+        "boss-punish",
+        "risk-reward",
+        "sci-fi",
+        "action-rpg",
+        "finisher",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "이레나",
+        "1H검"
+      ],
+      "id": "sw-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
