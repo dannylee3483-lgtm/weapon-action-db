@@ -428,15 +428,14 @@ def main():
         args.count, existing_games
     )
 
-    print(f"\n  {DIM}Claude에게 요청 중... (최대 3분 소요){RST}", end="", flush=True)
+    print(f"\n  {DIM}Claude에게 요청 중... (최대 3분 소요){RST}", flush=True)
     try:
         response_text = call_claude(prompt, model=args.model)
     except RuntimeError as e:
-        print()
         perr(str(e))
         sys.exit(1)
 
-    print(f" {GREEN}완료{RST}")
+    print(f"  {GREEN}Claude 응답 완료{RST}")
 
     # ── 파싱
     try:
