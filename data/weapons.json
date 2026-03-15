@@ -7392,6 +7392,230 @@
       ],
       "id": "hm-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Blades of Chaos",
+      "game": "God of War: Ragnarok",
+      "developer": "Santa Monica Studio",
+      "actionName": "사이클론 오브 케이오스 (Cyclone of Chaos)",
+      "actionType": "무기술",
+      "description": "크라토스가 혼돈의 블레이드 두 개를 동시에 고속 회전시키며 주변 360도를 불길로 휩쓰는 라이트 룬 어택. 체인이 원심력으로 펼쳐지면서 범위 내 다수 적에게 다단 히트 화염 피해를 입히고, 적을 중심부로 끌어당기는 흡입 효과도 발생한다. 발동 중 크라토스의 이동이 제한되는 대신 넓은 범위를 안정적으로 제압한다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "launcher",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "aoe",
+          "multi-hit",
+          "crowd-control",
+          "pull-in",
+          "fire-damage"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~16f",
+          "active": "~60f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "사이클론 오브 케이오스는 체인 병기의 원심력 개념을 AoE 메카닉으로 직접 번역한 사례다. 360도 범위와 끌어당김 효과가 결합되어 다수전에서 포지셔닝 부담을 줄여주는 '구원기' 역할을 한다. 룬 슬롯 배치를 통해 쿨다운으로 남발을 제한하고 상황 판단 비용을 플레이어에게 부과한다. 발동 중 이동 불가 페널티가 공간 위협의 리스크-리워드를 명확히 하며, 화염 이펙트와 체인 사운드가 개별 히트 피드백을 AoE 연출 속에서도 살아있게 만든다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War%3A+Ragnarok+%EC%82%AC%EC%9D%B4%ED%81%B4%EB%A1%A0+%EC%98%A4%EB%B8%8C+%EC%BC%80%EC%9D%B4%EC%98%A4%EC%8A%A4+%28Cyclone+of+Chaos%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Blades_of_Chaos",
+        "gif": null
+      },
+      "tags": [
+        "chain-whip",
+        "aoe",
+        "fire-element",
+        "crowd-control",
+        "runic-attack",
+        "multi-hit",
+        "spin-attack",
+        "blades-of-chaos",
+        "360-degree",
+        "pull-in"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "체인 블레이드"
+      ],
+      "id": "wh-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Morning Star",
+      "game": "Castlevania: Symphony of the Night",
+      "developer": "Konami",
+      "actionName": "모닝스타 연격 (Morning Star Flail Combo)",
+      "actionType": "기본 공격",
+      "description": "볼과 체인으로 이루어진 모닝스타 채찍을 전방 수평으로 최대 3회 연속 휘두르는 기본 공격 콤보. 공격 버튼을 빠르게 반복 입력하면 모션이 압축되어 단위 시간당 히트 수가 증가하는 연타 모드로 전환된다. 채찍 끝의 볼이 스위트 스팟으로 기능해 중간 체인 부위보다 유의미하게 높은 대미지를 가진다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "신성",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "sweet-spot",
+          "holy-damage",
+          "upgradeable"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~20f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "모닝스타는 '거리 관리(range management)'를 기본 공격 레벨에서 가르치는 교육적 설계를 갖는다. 볼의 스위트 스팟 존재가 플레이어로 하여금 직관적으로 최적 간격을 탐색하게 만들고, 메트로이드바니아의 맵 기반 이동 설계와 자연스럽게 시너지를 이룬다. 연타 입력으로 모션이 압축되는 구조는 안전성(긴 단타)과 딜 효율(짧은 연타) 사이의 선택을 강제해 전투 리듬을 다양화한다. 성 속성 대미지는 적 유형 인식을 유도해 탐색 동기와 전투 전략이 유기적으로 연결된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Symphony+of+the+Night+%EB%AA%A8%EB%8B%9D%EC%8A%A4%ED%83%80+%EC%97%B0%EA%B2%A9+%28Morning+Star+Flail+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://castlevania.fandom.com/wiki/Morning_Star_(whip)",
+        "gif": null
+      },
+      "tags": [
+        "sweet-spot",
+        "multi-hit",
+        "holy-damage",
+        "metroidvania",
+        "range-management",
+        "whip-combo",
+        "distance-control",
+        "flail",
+        "classic-castlevania",
+        "enemy-type-interaction"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "플레일",
+        "볼체인"
+      ],
+      "id": "wh-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Valentine (Snake Sword)",
+      "game": "Soulcalibur VI",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "채찍 형태 연격 (Whip Mode Chain Sweep)",
+      "actionType": "콤보",
+      "description": "아이비 발렌타인이 발렌타인 검을 채찍 형태로 전환하여 전·측방향으로 회전 연격을 가하는 중거리 콤보 시퀀스. 검 형태(근접 단검)와 채찍 형태(중거리 유연 공격) 간 즉각 전환이 가능하며, 채찍 스위프 후 검 형태로 전환해 근접 다운 공격을 연계하는 것이 핵심 패턴이다. 궤적이 곡선을 그려 횡이동하는 상대에게도 판정이 이어진다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "purple",
+          "black",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "stance-switch",
+          "lateral-tracking",
+          "form-change",
+          "mixup-potential",
+          "zone-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~22f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "발렌타인의 스네이크 소드는 단일 무기로 근거리 검 모드와 중거리 채찍 모드를 통합해 '거리에 따른 플레이 스타일 전환'을 캐릭터 아이덴티티 자체로 만든 설계다. 두 형태 간 믹스업이 상대방의 간격 조절 전략을 무력화하며, 예측 불가능성이 격투게임 특유의 심리전 깊이를 배가시킨다. 채찍의 곡선형 히트박스는 측방 이동 억제 효과를 내어 공간 지배의 개념을 시각적으로 직관적으로 전달한다. 긴 리커버리로 리스크-리워드 균형을 유지하면서, 숙련자에게는 폼 체인지 타이밍 자체가 또 하나의 기술 표현 레이어가 된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Soulcalibur+VI+%EC%B1%84%EC%B0%8D+%ED%98%95%ED%83%9C+%EC%97%B0%EA%B2%A9+%28Whip+Mode+Chain+Sweep%29+gameplay",
+        "images": [],
+        "wiki": "https://soulcalibur.fandom.com/wiki/Ivy",
+        "gif": null
+      },
+      "tags": [
+        "snake-sword",
+        "form-change",
+        "stance-switch",
+        "mixup",
+        "lateral-tracking",
+        "zone-control",
+        "whip-mode",
+        "fighting-game",
+        "ivy-valentine",
+        "medium-range"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "스네이크 소드",
+        "체인 소드"
+      ],
+      "id": "wh-006",
+      "addedDate": "2026-03-15"
     }
   ]
 }
