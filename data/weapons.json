@@ -15214,6 +15214,153 @@
       ],
       "id": "sp-020",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "해머 (Hammer)",
+      "game": "Monster Hunter Rise: Sunbreak",
+      "developer": "Capcom",
+      "actionName": "충격파 크레이터 / Impact Crater",
+      "actionType": "실크바인드 기술",
+      "description": "실크바인드 와이어를 지면에 발사한 반동으로 공중에 솟구친 뒤 해머를 회전시키며 강력한 연속 강타를 내리꽂는 기술이다. 마지막 타격 착지 시 충격파가 지면을 타고 퍼지며 광역 피해를 준다. 공중 체공 중 미세한 방향 조정이 가능해 위치 수정과 타격점 조준을 동시에 처리할 수 있다.",
+      "motionType": [
+        "overhead",
+        "spin",
+        "leap",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aerial",
+          "aoe"
+        ],
+        "resourceCost": "실크바인드 게이지",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~22f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "실크바인드 자원을 공격적으로 소비하는 구조는 기동성과 화력 사이의 근본적인 트레이드오프를 플레이어에게 강요한다. 공중으로 솟구치는 명확한 사전 모션(telegraph)은 높은 피해를 정당화하는 동시에 상대 몬스터와 파티원에게 예측 기회를 제공하는 공정성을 유지한다. 착지 충격파의 광역 판정은 복수 몬스터 상황에서 협력 시너지의 원천이 되며, 멀티플레이 가치를 단독 기술 이상으로 끌어올린다. 공중 체공 중 방향 미세 조정 기능은 숙련 플레이어에게 추가적인 스킬 표현 기회를 부여해 레벨 셀링 효과를 강화한다. 해머의 핵심 정체성인 '느리지만 압도적'을 실크바인드 시스템과 결합해 고위험-고보상 구조의 모범으로 완성한 기술이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise%3A+Sunbreak+%EC%B6%A9%EA%B2%A9%ED%8C%8C+%ED%81%AC%EB%A0%88%EC%9D%B4%ED%84%B0+%2F+Impact+Crater+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Impact+Crater",
+        "gif": null
+      },
+      "tags": [
+        "silkbind",
+        "aerial",
+        "overhead-slam",
+        "aoe",
+        "knockdown",
+        "poise-breaking",
+        "resource-trade-off",
+        "finisher",
+        "high-risk-high-reward",
+        "hammer"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "중력 해머 (Gravity Hammer)",
+      "game": "Lost Ark",
+      "developer": "Smilegate RPG",
+      "actionName": "빅뱅 / Big Bang",
+      "actionType": "각성기 (Awakening Skill)",
+      "description": "데스트로이어가 중력 해머를 땅에 내리꽂아 강력한 중력장을 생성하고 주변의 적들을 중심부로 끌어당긴 후 거대한 중력 폭발을 일으키는 각성기다. 발동 전 차지 단계에서 레벨에 따라 폭발 위력과 범위가 단계적으로 증가한다. 중력 흡인 효과가 광역 군중 제어를 자동으로 보조해 다수의 적 상대 상황에서 독보적인 효율을 발휘한다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "purple",
+          "black",
+          "white"
+        ],
+        "effectStyle": [
+          "explosion",
+          "aura",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "aoe",
+          "pull-effect",
+          "awakening"
+        ],
+        "resourceCost": "각성 게이지",
+        "frameApprox": {
+          "startup": "~120f",
+          "active": "~60f",
+          "recovery": "~80f"
+        }
+      },
+      "designNotes": "각성기를 평소 전투의 지속적인 자원 관리에 대한 최종 보상으로 설계해 전투의 클라이맥스 경험을 구조화했다. 중력장으로 적을 흡인하는 선행 단계는 광역 스킬의 전형적 약점인 '적 분산 시 빗나감' 문제를 자체적으로 해소하는 자기완결적 구조를 형성한다. 긴 발동 시간은 강력한 피해를 정당화하면서 동시에 '강력할수록 노출 위험이 크다'는 리스크-리워드 원칙을 강제한다. 폭발 규모와 이펙트 밀도는 MMORPG 각성기가 달성해야 할 파워 피크 피드백 설계의 기준점을 제시한다. 데스트로이어의 '중력 마스터' 정체성을 단 하나의 스킬에 압축한 캐릭터 아이덴티티 설계의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lost+Ark+%EB%B9%85%EB%B1%85+%2F+Big+Bang+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "awakening-skill",
+        "gravity",
+        "crowd-control",
+        "pull-effect",
+        "aoe",
+        "charge",
+        "finisher",
+        "ultimate",
+        "knockdown",
+        "mmorpg-action"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-011",
+      "addedDate": "2026-03-15"
     }
   ]
 }
