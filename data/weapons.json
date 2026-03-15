@@ -12099,6 +12099,218 @@
       ],
       "id": "ax-018",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "쌍낫 하베스터 (Dual Scythes — Harvester)",
+      "game": "Darksiders II",
+      "developer": "Vigil Games",
+      "actionName": "리퍼 폼 / Reaper Form",
+      "actionType": "변신 특수기",
+      "description": "Death가 리퍼 게이지가 가득 찬 시점에 수동으로 발동하는 궁극 변신 기술로, 거대한 사신 실루엣으로 변형되어 광범위 선풍 베기를 연속으로 가한다. 변신 지속 시간은 축적된 게이지에 비례하며, 기간 중 무적 판정이 부여된다. 게이지 소진 또는 수동 해제 시 대형 마무리 슬래시로 종료되어 주변 적에게 폭발적 피해를 준다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "invincible-frames",
+          "crowd-control",
+          "knockdown",
+          "poise-breaking",
+          "aoe"
+        ],
+        "resourceCost": "리퍼 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~300f (게이지 의존)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "리퍼 폼은 '천천히 쌓고 결정적 순간에 폭발'하는 리소스 루프의 교과서적 구현이다. 일반 콤보로 게이지를 적립하는 과정 자체가 보상 기대감을 형성하고, '언제 쓰느냐'는 판단이 전투 흐름의 핵심 변수가 된다. 무적 판정 덕분에 위기 탈출과 공세 전환을 동일 입력으로 처리할 수 있어 리소스 관리와 생존 판단이 동시에 요구되는 복합적 의사결정을 유도한다. Death의 사신 정체성을 시각적·게임플레이적 양면에서 일치시킨 내러티브-메카닉 통합의 우수 사례로, 거대화된 리퍼 실루엣이 주는 카타르시스는 슬래셔 장르 최고 수준의 판타지 완성도를 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+II+%EB%A6%AC%ED%8D%BC+%ED%8F%BC+%2F+Reaper+Form+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Reaper_Form",
+        "gif": null
+      },
+      "tags": [
+        "reaper-form",
+        "transformation",
+        "aoe",
+        "crowd-control",
+        "dark-energy",
+        "resource-management",
+        "invincible-frames",
+        "darksiders"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "쌍검"
+      ],
+      "id": "sc-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "낫 발톱 (Scythe Claws)",
+      "game": "Dead Cells",
+      "developer": "Motion Twin",
+      "actionName": "연속 베기 콤보 / Scythe Claws Combo",
+      "actionType": "기본 공격 콤보",
+      "description": "양손 낫 발톱으로 고속 4타 연속 베기를 가하는 근접 콤보다. 초반 3타는 교차 횡베기로 출혈을 빠르게 누적시키고, 4번째 타격은 짧은 전방 대시를 동반한 강타로 출혈 폭발 피해를 유발한다. 출혈 상태 적에게 콤보를 유지할수록 초당 지속 피해가 스택 방식으로 누적되어 DPS가 가속적으로 증가한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red",
+          "purple"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "gap-closer",
+          "multi-hit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~6f (타격당)",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "출혈 누적-폭발 구조는 '얼마나 오래 붙어있을 수 있느냐'를 핵심 플레이 질문으로 만들어 리스크-리워드 사이클을 명확히 한다. 근접 유지의 위험과 출혈 DPS 극대화 보상 사이의 긴장감이 Dead Cells의 공격적 전투 철학을 무기 설계 층위에서 표현한다. 빠른 선딜은 로그라이크 특성상 즉흥적 전투 상황에서도 일관된 전투 리듬을 보장하며, 4번째 타격의 대시 연동은 콤보 완결에 자연스러운 리듬감과 시각적 쾌감을 부여한다. 출혈 시너지 아이템과의 조합 가능성이 빌드 다양성을 넓혀 반복 플레이를 추동하는 핵심 동기로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dead+Cells+%EC%97%B0%EC%86%8D+%EB%B2%A0%EA%B8%B0+%EC%BD%A4%EB%B3%B4+%2F+Scythe+Claws+Combo+gameplay",
+        "images": [],
+        "wiki": "https://deadcells.wiki.gg/wiki/Scythe_Claws",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "fast-attack",
+        "close-range",
+        "multi-hit",
+        "combo",
+        "brutality",
+        "roguelike",
+        "dead-cells"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "쌍검"
+      ],
+      "id": "sc-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "배리언트 사이즈 (Variant Scythe)",
+      "game": "God Eater 3",
+      "developer": "Marvelous Inc.",
+      "actionName": "롱 폼 회전 베기 / Long Form Spinning Slash",
+      "actionType": "특수기",
+      "description": "배리언트 사이즈를 숏 폼에서 롱 폼으로 전환하는 순간 낫 날이 확장되며 360도 회전 베기를 연속 발동하는 광역 공격이다. 폼 체인지 전환 중 짧은 무적 판정이 부여되어 적의 공격과 겹쳐 카운터 용도로 활용할 수 있다. 히트 수가 많아 아라가미 약점 부위를 집중 타격하는 데 효과적이며 마지막 히트에 강한 경직을 부여한다.",
+      "motionType": [
+        "spin",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "aoe",
+          "multi-hit",
+          "poise-breaking",
+          "form-change",
+          "invincible-frames"
+        ],
+        "resourceCost": "없음 (폼 게이지 소모)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~40f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "폼 체인지 시스템은 무기 하나에 두 개의 전투 언어(기민한 근접 숏 폼 vs. 광역 스위퍼 롱 폼)를 담아 전황 판단에 따른 즉흥 전술 전환을 가능하게 한다. 롱 폼 선풍 베기는 근거리 무기의 단거리 약점을 범위로 상쇄하면서 다수 히트로 약점 파괴 효율을 극대화하는 트레이드오프를 내포한다. 폼 전환 구간의 무적은 위험 회피 타이밍과 공격 개시를 동일 입력에 압축해, 숙련 플레이어에게 '읽기+반격' 심층 레이어를 제공한다. Monster Hunter 시리즈의 부위 파괴 철학을 계승하면서도 폼 체인지라는 독자적 리듬으로 낫 무기의 조작 정체성을 확립한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+Eater+3+%EB%A1%B1+%ED%8F%BC+%ED%9A%8C%EC%A0%84+%EB%B2%A0%EA%B8%B0+%2F+Long+Form+Spinning+Slash+gameplay",
+        "images": [],
+        "wiki": "https://godeater.fandom.com/wiki/Variant_Scythe",
+        "gif": null
+      },
+      "tags": [
+        "form-change",
+        "spin-attack",
+        "aoe",
+        "multi-hit",
+        "long-range",
+        "god-eater",
+        "weapon-transform",
+        "stagger",
+        "part-break"
+      ],
+      "applicableWeapons": [
+        "낫"
+      ],
+      "id": "sc-009",
+      "addedDate": "2026-03-15"
     }
   ]
 }
