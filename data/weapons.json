@@ -17401,6 +17401,79 @@
       ],
       "id": "db-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "대형 전쟁낫 (War Scythe)",
+      "game": "Final Fantasy XIV Online",
+      "developer": "Square Enix",
+      "actionName": "풍성한 수확 / Plentiful Harvest",
+      "actionType": "특수기",
+      "description": "아케인 서클(Arcane Circle) 버프가 활성화된 동안 파티원의 공격으로 축적된 '불멸의 희생(Immortal Sacrifice)' 스택을 전부 소모해 낫을 크게 내리긋는 강타다. 스택 수(최대 8)에 비례해 위력이 상승하며, 영혼 아바타(아바타 소환 상태)와 연동 시 타격 이펙트가 이중으로 겹쳐 시각적 포화감을 더한다. 발동 시 보라빛 허공 에너지가 폭발하듯 퍼지며 주변 광역 대미지도 함께 적용된다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "stack-consumption",
+          "scaling-damage",
+          "party-synergy",
+          "aoe"
+        ],
+        "resourceCost": "Immortal Sacrifice 2~8스택",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~10f",
+          "recovery": "~42f"
+        }
+      },
+      "designNotes": "풍성한 수확은 파티 협력을 직접 대미지 수치로 환산하는 독창적인 소셜 리소스 설계의 교과서다. 개인 버프가 아닌 파티원의 행동이 자원을 공급하는 구조는, 리퍼를 단순한 딜러가 아닌 '수확하는 자'라는 직업 정체성과 서사적으로도 일치시킨다. 스택 상한(8)과 하한(2)을 두어 파티 구성이나 버프 타이밍에 따른 전략적 최적화 여지를 남기며, 단순 버튼 하나임에도 리스크-리워드 구조가 명확하다. 영혼 아바타 시스템과 연계될 때 이중 타격 이펙트가 터지는 피드백 설계는, 플레이어가 최상의 타이밍을 맞췄을 때 강한 성취감을 제공하도록 계산된 시각·청각 보상이다. 결과적으로 이 스킬은 리소스 관리, 파티 시너지, 직업 테마를 하나의 버튼에 압축한 MMO 액션 디자인의 정교한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+Online+%ED%92%8D%EC%84%B1%ED%95%9C+%EC%88%98%ED%99%95+%2F+Plentiful+Harvest+gameplay",
+        "images": [],
+        "wiki": "https://na.finalfantasyxiv.com/jobguide/reaper/",
+        "gif": null
+      },
+      "tags": [
+        "stack-mechanic",
+        "party-synergy",
+        "scaling-damage",
+        "void-energy",
+        "reaper",
+        "finisher",
+        "soul-gauge",
+        "mmo-action",
+        "dark-magic",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "전쟁낫"
+      ],
+      "id": "sc-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
