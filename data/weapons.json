@@ -2398,88 +2398,294 @@
     },
     {
       "weaponCategory": "대검",
-      "weaponSubtype": "대검 (Greatsword)",
+      "weaponSubtype": "Great Sword",
       "game": "Monster Hunter: World",
       "developer": "Capcom",
-      "actionName": "진 차지 슬래시 / True Charged Slash",
-      "actionType": "차지 공격",
-      "description": "대검의 3단계 차지를 모두 완료한 후 발동하는 최강 단일 타격 공격이다. 게임 내 최상위 동작 배율(Motion Value)을 보유하며 한 번의 강타로 방어력을 뚫고 막대한 피해를 준다. 아이스본 이후 슬링어 버스트 연계로 '강진 차지 슬래시'로 이어가면 추가 충격파가 발생해 더욱 큰 피해를 줄 수 있다.",
+      "actionName": "태클 (Tackle)",
+      "actionType": "특수기",
+      "description": "검사가 어깨로 적을 치받으며 전진하는 방어적 돌진 기술. 방어력을 높인 상태로 몇 칸을 이동하며 적의 공격을 버틸 수 있고, 이후 강력한 반격 기회를 만든다.",
       "motionType": [
         "charge",
-        "overhead",
-        "slash"
+        "dash",
+        "counter"
       ],
       "element": {
         "type": "없음",
-        "effectColor": [
-          "white",
-          "yellow"
-        ],
+        "effectColor": [],
         "effectStyle": [
-          "slash-trail",
-          "particle"
+          "none"
         ]
       },
       "mechanics": {
-        "startupSpeed": "slow",
-        "range": "medium-long",
-        "staggerPower": "very-high",
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
         "comboRole": [
-          "finisher",
-          "ender"
+          "gap-closer",
+          "defensive"
         ],
         "specialProperties": [
-          "poise-breaking",
-          "knockdown",
-          "highest-motion-value"
+          "guard-break",
+          "knockback"
         ],
         "resourceCost": "스태미나",
         "frameApprox": {
-          "startup": "~60f (풀차지 기준)",
-          "active": "~8f",
-          "recovery": "~40f"
+          "startup": "~8f",
+          "active": "~20f",
+          "recovery": "~10f"
         }
       },
-      "designNotes": "차지 단계를 3레벨로 나눠 데미지가 기하급수적으로 증가하도록 설계한 리스크-리워드 구조의 정수다. 1~2레벨 부분 차지에도 실용성을 부여해 초보자가 부분적 보상을 경험할 수 있지만, 풀차지 시도 여부가 핵심 판단 요소가 된다. 차지 중 이동 불가 페널티는 몬스터 행동 패턴 학습을 자연스럽게 강제하며 '언제 차지를 시작하고 언제 포기할 것인가'라는 심리전을 만든다. 아이스본의 슬링어 버스트 연계는 수동적 대기를 능동적 포지셔닝 게임으로 전환시키는 세련된 레이어 추가다. 단 한 번의 타격에 모든 것을 거는 구조는 대검이라는 무기 판타지를 게임플레이 언어로 완벽하게 번역한 교과서적 사례다.",
+      "designNotes": "Monster Hunter의 대검은 느린 공격 속도를 보정하는 이동성 기술로 Tackle을 제공한다. 단순 회피가 아닌 공격적 방어로 설계되어 플레이어가 적의 공격에 대응하면서 위치를 유리하게 이동할 수 있다. 명확한 리스크-리워드 구조로 초보자도 배우기 쉽지만 숙련자는 고급 타이밍으로 더 효과적으로 활용할 수 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%A7%84+%EC%B0%A8%EC%A7%80+%EC%8A%AC%EB%9E%98%EC%8B%9C+%2F+True+Charged+Slash+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%ED%83%9C%ED%81%B4+%28Tackle%29+gameplay",
         "images": [],
-        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Greatsword",
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
         "gif": null
       },
       "tags": [
-        "charge-attack",
-        "high-damage",
-        "risk-reward",
-        "poise-breaking",
-        "timing-based",
-        "greatsword",
-        "finisher",
-        "monster-hunter"
+        "mobility",
+        "defensive",
+        "gap-closer",
+        "charging",
+        "stamina-management",
+        "positioning",
+        "combo-starter"
       ],
       "applicableWeapons": [
-        "대검"
+        "대검",
+        "도끼",
+        "해머"
       ],
       "id": "gs-016",
       "addedDate": "2026-03-15"
     },
     {
       "weaponCategory": "대검",
-      "weaponSubtype": "대태도 (Odachi)",
-      "game": "Nioh 2",
-      "developer": "Team Ninja",
-      "actionName": "회전 베기 / Spinning Blades (旋刃)",
+      "weaponSubtype": "Leviathan Axe",
+      "game": "God of War Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "글레이브 스톰 (Glaive Storm)",
       "actionType": "무기술",
-      "description": "대태도를 중심축으로 빠르게 회전하며 주변의 다수 적을 연속으로 베어 나가는 광역 스킬이다. 단일 적보다 여러 적이 밀집한 상황에서 극적인 효율을 발휘하며, 회전 중 슈퍼아머 판정이 존재해 피격 중에도 동작을 이어갈 수 있다. 발동 후 즉각 Ki 펄스를 입력하면 소모된 기를 빠르게 회수해 연속 스킬 발동이 가능하다.",
+      "description": "레비아탄 도끼를 회전시켜 주변의 모든 적에게 빙결 피해를 주는 범위 공격. 강력한 회전력으로 여러 적을 동시에 타격하며, 높은 쿨다운이 있지만 극도의 광역 피해로 군중 제어에 탁월하다.",
       "motionType": [
         "spin",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "얼음",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "crowd-control"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "freeze-effect",
+          "multi-hit",
+          "aoe"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~30f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "God of War Ragnarök의 Glaive Storm은 폭발적인 파워와 시각적 임팩트로 플레이어에게 만족감을 제공한다. 범위 기술임에도 정확한 타이밍 입력이 필요해 숙련도가 반영되며, 쿨다운 제약이 있어 남용을 방지한다. 프로즌 이펙트의 청각적-시각적 피드백이 뛰어나 플레이어가 강력한 영향을 직관적으로 느낀다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EA%B8%80%EB%A0%88%EC%9D%B4%EB%B8%8C+%EC%8A%A4%ED%86%B0+%28Glaive+Storm%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Leviathan_Axe",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "crowd-control",
+        "freeze",
+        "elemental",
+        "cooldown",
+        "finisher",
+        "multi-target",
+        "high-impact"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "해머",
+        "마법"
+      ],
+      "id": "gs-017",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Odachi",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "달그림자 (Moon Shadow)",
+      "actionType": "무기술",
+      "description": "오다치 사용자가 달빛을 타고 재빠르게 이동하며 여러 번 참격을 가하는 신비로운 기술. 빠른 이동으로 적을 피하면서 동시에 강력한 피해를 입히며, 적을 통과하는 이동성과 공격을 함께 제공한다.",
+      "motionType": [
+        "slash",
+        "leap",
+        "dash",
+        "combo"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "purple",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "gap-closer",
+          "launcher",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "ki-drain",
+          "mobility",
+          "invulnerability-frame"
+        ],
+        "resourceCost": "Ki",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~40f",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "Moon Shadow는 Nioh 2의 Odachi 신비로운 기술로 이동성과 공격을 동시에 제공하는 설계가 우수하다. 발동 중 무적 프레임이 있어 타이밍 좋은 회피로 피해를 완전히 무시할 수 있으며, 높은 Ki 소모로 스팸 방지가 가능하다. 달의 궤적을 따라 이동하는 연출이 직관적이며, 숙련된 플레이어는 이 기술로 공격과 방어를 동시에 수행할 수 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EB%8B%AC%EA%B7%B8%EB%A6%BC%EC%9E%90+%28Moon+Shadow%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Odachi",
+        "gif": null
+      },
+      "tags": [
+        "mobility",
+        "gap-closer",
+        "multi-hit",
+        "ki-management",
+        "invulnerability-frame",
+        "mystical-art",
+        "teleport-slash",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "카타나",
+        "쌍검"
+      ],
+      "id": "gs-018",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Sakai Clan Katana",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "스탠드오프 (Standoff)",
+      "actionType": "카운터",
+      "description": "Jin이 단독 적과 대치한 상태에서 정확한 타이밍에 적의 공격을 반격하는 Quick-Time Event 카운터. 성공 시 적을 경직시키고 큰 데미지를 주며, 게임의 긴장감과 검술의 반응성을 구현한 핵심 메커닉.",
+      "motionType": [
+        "counter",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish"
+        ],
+        "specialProperties": [
+          "counter",
+          "timing-based",
+          "stagger"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~10f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "스탠드오프는 플레이어의 반응 속도와 리듬감각을 직접 시험하며, 정확한 타이밍 요구로 습득 곡선을 형성한다. 성공 시 극적인 시각 피드백으로 만족감을 극대화하여, 일본 검술의 '마(間)' 개념—거리와 시간 감각—을 게임 메커닉으로 우아하게 구현했다. 또한 플레이어의 숙련도가 전투 효율을 직접 좌우하도록 설계하여 성장의 쾌감을 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghost+of+Tsushima+%EC%8A%A4%ED%83%A0%EB%93%9C%EC%98%A4%ED%94%84+%28Standoff%29+gameplay",
+        "images": [],
+        "wiki": "https://ghostoftsushima.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "timing-based",
+        "japanese-swordplay",
+        "parry",
+        "stagger",
+        "responsive",
+        "quick-time-event"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-022",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "카타나 중단 콤보 (Mid-Stance Combo Chain)",
+      "actionType": "콤보",
+      "description": "니오 2의 카타나 중단 자세에서 구성되는 4~5단 연속 슬래시 콤보. 각 연격은 누적 경직도를 쌓으며, 마지막 동작은 강화 공격(Skill)으로 전환 가능하여 플레이어가 상황에 맞춰 콤보를 변칙적으로 운영할 수 있다.",
+      "motionType": [
         "slash",
         "combo"
       ],
       "element": {
         "type": "없음",
         "effectColor": [
-          "white"
+          "white",
+          "gold"
         ],
         "effectStyle": [
           "slash-trail",
@@ -2488,117 +2694,324 @@
       },
       "mechanics": {
         "startupSpeed": "fast",
-        "range": "medium",
+        "range": "short-medium",
         "staggerPower": "medium",
         "comboRole": [
           "opener",
-          "extender"
+          "extender",
+          "finisher"
         ],
         "specialProperties": [
-          "aoe",
-          "multi-hit",
-          "super-armor",
-          "ki-pulse-cancel"
+          "skill-transition",
+          "combo-extender",
+          "stance-dependent"
         ],
-        "resourceCost": "기(Ki)",
+        "resourceCost": "스태미나",
         "frameApprox": {
-          "startup": "~15f",
-          "active": "~30f (회전 지속)",
+          "startup": "~8f",
+          "active": "~6-8f per hit",
           "recovery": "~20f"
         }
       },
-      "designNotes": "Nioh 2의 Ki 관리 시스템과 스탠스 철학을 대검류 무기에서 잘 표현한 스킬이다. 중형급 Ki 소모에 대해 광역 타격이라는 명확한 보상을 제공하여 자원 관리 의사결정을 유의미하게 만든다. 회전 중 슈퍼아머는 '강하게 밀고 들어가는' 공격형 플레이를 지원하며, 대형 무기의 둔중함과 대조되는 기동성이 대태도 특유의 이중성을 시각적으로 표현한다. 다수전에서 효율적이지만 단일 보스전에서는 포지셔닝 리스크가 발생하는 구조가 상황 판단을 지속적으로 요구한다. Ki 펄스와의 연계는 숙련자만이 극대화할 수 있는 스킬 천장을 만들어 장기적 학습 동기를 유지시키는 좋은 설계다.",
+      "designNotes": "니오 2의 스탠스 시스템(저/중/고)과 연계된 카타나 콤보는 플레이어가 상황에 맞춰 공격 속도와 리치를 선택하도록 유도한다. 중단은 균형 잡힌 선택지로서 빠른 연타 압박과 강화 공격으로의 리스크-리워드 선택을 제공한다. 이는 '액션성'과 '전략성'의 교점을 보여주며, 플레이어의 숙련도에 따라 운용 폭이 기하급수적으로 확장되는 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%9A%8C%EC%A0%84+%EB%B2%A0%EA%B8%B0+%2F+Spinning+Blades+%28%E6%97%8B%E5%88%83%29+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%B9%B4%ED%83%80%EB%82%98+%EC%A4%91%EB%8B%A8+%EC%BD%A4%EB%B3%B4+%28Mid-Stance+Combo+Chain%29+gameplay",
         "images": [],
-        "wiki": "https://nioh2.wiki.fextralife.com/Odachi",
+        "wiki": "https://nioh2.wiki.fextralife.com/Katana",
         "gif": null
       },
       "tags": [
-        "spin-attack",
-        "aoe",
-        "ki-management",
-        "multi-hit",
-        "super-armor",
-        "heavy-weapon",
         "stance-system",
+        "combo-chain",
+        "skill-transition",
+        "fast-weapon",
+        "dexterity-scaling",
+        "multi-hit",
         "crowd-control"
       ],
       "applicableWeapons": [
-        "대검"
+        "카타나",
+        "1H검",
+        "쌍검"
       ],
-      "id": "gs-017",
+      "id": "kt-023",
       "addedDate": "2026-03-15"
     },
     {
-      "weaponCategory": "대검",
-      "weaponSubtype": "클레이모어 (Claymore)",
-      "game": "Genshin Impact",
-      "developer": "HoYoverse",
-      "actionName": "빙설 조명 / Glacial Illumination (氷雪を照らす光)",
-      "actionType": "특수기 (원소 폭발)",
-      "description": "오일라(Eula)가 거대한 얼음 검 '낙하의 광검(Lightfall Sword)'을 소환해 전장에 설치하는 원소 폭발 스킬이다. 광검은 오일라의 공격 및 특정 조건 충족 시 에너지 스택을 축적하며, 지속시간 종료 또는 오일라가 필드를 이탈하는 순간 축적된 스택에 비례한 막대한 물리 폭발 피해를 발동한다. 최대 스택 폭발은 게임 내 최상위권 단발 피해량을 자랑하는 대검류의 극한 딜을 구현한다.",
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Jian (Chinese Straight Sword)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "치 강화 참격 (Fortified Spirit Attack)",
+      "actionType": "차지 공격",
+      "description": "우롱의 검 무기(Jian)는 플레이어의 치(Chi) 게이지를 소비하여 강화된 참격을 시연한다. 치 강화 상태에서의 공격은 발광 이펙트와 함께 범위가 확대되고 높은 경직력을 가지며, 우롱의 핵심 전투 메커닉인 리소스 관리를 대표하는 액션.",
       "motionType": [
-        "charge",
         "slash",
-        "explosion"
+        "charge",
+        "aura"
       ],
       "element": {
-        "type": "얼음",
+        "type": "비전",
         "effectColor": [
-          "cyan",
           "blue",
+          "purple",
+          "cyan"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "chi-based",
+          "enhanced-range",
+          "poise-breaking",
+          "spirit-damage"
+        ],
+        "resourceCost": "치(Chi) 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~12f",
+          "recovery": "~16f"
+        }
+      },
+      "designNotes": "우롱의 설계 철학은 플레이어의 '리소스 관리'를 전투의 핵심으로 삼는다. 치 강화 공격은 강력하지만 제한된 자원을 소비하므로, 플레이어는 적의 패턴 분석과 최적 타이밍 계산으로 언제 강화를 쓸지 판단해야 한다. 이는 전투를 '선택과 기다림의 연쇄'로 만들어 전략적 깊이를 부여하며, 동양 검술의 '기(氣)' 개념을 게임 메커닉으로 자연스럽게 구현한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%B9%98+%EA%B0%95%ED%99%94+%EC%B0%B8%EA%B2%A9+%28Fortified+Spirit+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://wulong.wiki.fextralife.com/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "chi-management",
+        "resource-based",
+        "spiritual-damage",
+        "enhanced-attack",
+        "poise-breaker",
+        "eastern-philosophy",
+        "team-ninja"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-024",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Dual Blades)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "데몬 모드 (Demon Mode)",
+      "actionType": "특수기",
+      "description": "쌍검을 고속 회전시키며 발동하는 변신 상태. 이 상태에서는 모든 공격의 속도가 극적으로 상승하며 움직임도 빨라진다. 체력과 스태미나를 지속적으로 소모하므로 적절한 타이밍에 해제하여 관리해야 한다.",
+      "motionType": [
+        "spin",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "purple",
           "white"
         ],
         "effectStyle": [
           "aura",
           "particle",
-          "explosion",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short",
+        "staggerPower": "low",
+        "comboRole": [
+          "extender",
+          "launcher"
+        ],
+        "specialProperties": [
+          "stance-change",
+          "continuous-hit",
+          "speed-boost",
+          "resource-draining"
+        ],
+        "resourceCost": "체력 + 스태미나",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "continuous",
+          "recovery": "none"
+        }
+      },
+      "designNotes": "쌍검의 정체성을 정의하는 핵심 메카닉으로, 빠른 공격 속도를 추구하는 플레이어에게 극단적으로 보상을 제공한다. 체력과 스태미나라는 이중 자원을 소모하여 무한 사용을 제한하며, 리소스 관리 vs 화력 극대화라는 전술적 선택을 강요한다. 숙련도가 높을수록 DPS 상승이 극적이어서 '익히기 보상' 설계의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%8D%B0%EB%AA%AC+%EB%AA%A8%EB%93%9C+%28Demon+Mode%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Dual+Blades",
+        "gif": null
+      },
+      "tags": [
+        "demon-mode",
+        "stance-change",
+        "continuous-hit",
+        "resource-management",
+        "damage-boost",
+        "fast-paced"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Dual Swords)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "회오리 (Tempest)",
+      "actionType": "무기술",
+      "description": "두 검을 정렬하여 고속 회전시키며 전진하는 공격. 이동 경로의 모든 적과 환경 물체를 연속으로 베어낸다. 회전 중에도 부분적으로 적의 공격을 무시하고 계속 진군할 수 있어 공격적인 전투 스타일에 최적화되어 있다.",
+      "motionType": [
+        "spin",
+        "slash",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
           "shimmer"
         ]
       },
       "mechanics": {
         "startupSpeed": "fast",
-        "range": "medium",
-        "staggerPower": "very-high",
+        "range": "short-medium",
+        "staggerPower": "medium",
         "comboRole": [
-          "finisher",
-          "ender"
+          "extender",
+          "gap-closer",
+          "launcher"
         ],
         "specialProperties": [
-          "stack-mechanic",
-          "delayed-detonation",
-          "burst-damage",
-          "physical-damage"
+          "crowd-control",
+          "mobility",
+          "continuous-hit",
+          "interruption-resistant"
         ],
-        "resourceCost": "원소 에너지 80",
+        "resourceCost": "Ki (기)",
         "frameApprox": {
-          "startup": "~30f (소환)",
-          "active": "~7초 (스택 축적 구간)",
-          "recovery": "~20f (폭발 후)"
+          "startup": "~20f",
+          "active": "~40f",
+          "recovery": "~15f"
         }
       },
-      "designNotes": "스택 축적 후 단발 폭발이라는 구조는 필드 유지 시간과 파티원 로테이션의 긴밀한 조율을 요구하는 깊이 있는 팀 플레이 메카닉을 만든다. '오일라를 필드 밖으로 내보내면 광검이 즉시 폭발한다'는 패널티는 파티 구성에 강한 제약을 걸어 빌드 다양성을 제한하지만, 대신 오일라 전용 최적화의 깊이를 극대화하는 설계 트레이드오프다. 원소 반응에 의존하지 않는 물리 피해 기반이 원소 중심의 게임 시스템 내에서 독자적인 플레이 스타일을 정의한다. 스택이 시각적으로 표시되어 폭발 타이밍을 향한 긴장감과 기대감을 조성하며, '준비→축적→터뜨리기'라는 심리적 만족 루프가 대검 판타지의 강력한 한방을 가챠 전투 시스템 안에서 효과적으로 구현한 사례다.",
+      "designNotes": "높은 Ki 소모를 통해 사용 빈도를 제한하되, 이동성과 연속 피해로 충분한 대가를 제공한다. 회전 중 약한 적의 공격을 관통하도록 설계해, 방어보다 공격으로 상황을 주도하는 '공격적 방어' 철학을 구현했다. Nioh 2의 고 난도 콘텐츠에서 핵심 생존 전술이 되며, 리스크와 리워드의 균형이 뛰어나다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Genshin+Impact+%EB%B9%99%EC%84%A4+%EC%A1%B0%EB%AA%85+%2F+Glacial+Illumination+%28%E6%B0%B7%E9%9B%AA%E3%82%92%E7%85%A7%E3%82%89%E3%81%99%E5%85%89%29+gameplay",
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%9A%8C%EC%98%A4%EB%A6%AC+%28Tempest%29+gameplay",
         "images": [],
-        "wiki": "https://genshin-impact.fandom.com/wiki/Glacial_Illumination",
+        "wiki": "https://nioh2.wiki.fextralife.com/Dual+Swords",
         "gif": null
       },
       "tags": [
-        "stack-mechanic",
-        "burst-damage",
-        "physical-damage",
-        "delayed-detonation",
-        "rotation-dependent",
-        "cryo",
-        "greatsword",
-        "genshin-impact"
+        "tempest",
+        "spin-attack",
+        "gap-closer",
+        "crowd-control",
+        "ki-management",
+        "continuous-hit",
+        "interruption-resistant"
       ],
       "applicableWeapons": [
-        "대검"
+        "쌍검"
       ],
-      "id": "gs-018",
+      "id": "db-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Twin Blades)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "천인참 (Heavens' Wrath)",
+      "actionType": "무기술",
+      "description": "두 검을 교차시켜 번개 모양의 궤적으로 전방의 적을 강하게 베는 무기술. 성공 시 적을 경직시키고 이후 추가 콤보의 기회를 열어준다. 기 소비가 적지 않지만, 적절한 타이밍에 사용하면 전투의 주도권을 빠르게 확보할 수 있다.",
+      "motionType": [
+        "slash",
+        "cross-slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "launcher"
+        ],
+        "specialProperties": [
+          "stagger-inducing",
+          "positioning-requirement",
+          "interrupt-window"
+        ],
+        "resourceCost": "Chi (기)",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~15f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Wo Long의 전투 철학인 '기 관리와 타이밍'을 집약한 액션이다. 높은 스태거 파워로 적을 경직시키고 콤보 윈도우를 열지만, 앞으로 돌진하는 모션으로 인해 포지셔닝 리스크를 감수해야 한다. 리스크와 리워드가 명확하며, 숙련도에 따라 전투 템포 조절과 거리 관리의 중요성을 자연스럽게 학습하게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wo+Long%3A+Fallen+Dynasty+%EC%B2%9C%EC%9D%B8%EC%B0%B8+%28Heavens%27+Wrath%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "heavens-wrath",
+        "stagger-inducing",
+        "positioning",
+        "chi-management",
+        "tempo-control",
+        "punish-window",
+        "cross-slash"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-003",
       "addedDate": "2026-03-15"
     }
   ]
