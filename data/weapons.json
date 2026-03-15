@@ -10863,7 +10863,7 @@
       },
       "designNotes": "패리는 다크 소울 시리즈에서 가장 높은 스킬 상한을 가진 기술로, 적의 공격 애니메이션을 읽고 능동적으로 역전을 노리는 디자인 철학을 담고 있다. 활성 프레임이 약 6프레임으로 매우 짧아 정밀한 타이밍을 요구하지만, 성공 시 치명타로 적 체력의 30~50%를 단번에 깎는 극단적인 보상을 제공한다. 방패를 수비 도구가 아닌 공격 기회의 트리거로 재정의함으로써, 소극적 가드와 공격적 읽기 사이의 전략적 선택을 지속적으로 강제한다. 초보자가 자동 가드에 의존하다 패리 실패로 큰 피해를 경험하며 자연스럽게 능동적 플레이로 유도되는 학습 설계 구조도 돋보인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%ED%8C%A8%EB%A6%AC+%2F+Parry+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=voC2Zd04nHc",
         "images": [],
         "wiki": "https://darksouls3.wiki.fextralife.com/Parry",
         "gif": null
@@ -10933,7 +10933,7 @@
       },
       "designNotes": "하데스의 에기스는 방패라는 도구를 수비에서 공격적 돌진으로 전환한 역발상 디자인이다. 불 러쉬는 차지 시간과 보상이 정비례하는 구조로 플레이어가 위험 상황에서도 의도적으로 기회를 엿보는 능동적 게임플레이를 유도한다. 차지 중에도 전방 피해를 일부 흡수하는 특성 덕분에 공격과 방어가 단일 행동으로 통합되어, 조작 부담 없이 직관적인 리스크-리워드를 체감하게 한다. 불사 보너스(Boons) 시스템과 결합하면 돌진에 한기·번개·화염 등 속성을 부여해 매 런마다 다른 전략을 실험하게 하는 높은 확장성도 갖추고 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Hades+%EB%B6%88+%EB%9F%AC%EC%89%AC+%2F+Bull+Rush+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=8eOEniUoxbk",
         "images": [],
         "wiki": "https://hades.wiki.gg/wiki/Shield_of_Chaos",
         "gif": null
@@ -11002,7 +11002,7 @@
       },
       "designNotes": "대담한 방패의 완벽 방어는 방어적 플레이의 극한을 추구하는 플레이어를 위한 고난이도 옵션으로, 리스크와 리워드 사이의 설계 긴장감을 극대화한다. 일반 방패 대비 훨씬 좁은 타이밍 창은 숙련도의 계단식 장벽을 형성하면서, 성공 보상을 광역 군중 제어로 확대해 능숙한 플레이어가 다수 전에서도 전략적 우위를 점하게 한다. 연속 성공 에스컬레이션 구조는 숙련도가 쌓일수록 전략적 가능성이 기하급수적으로 늘어나는 '스킬 익스프레션 플라이휠'을 구현한다. 화면 진동·충격파 이펙트·사운드 등 넓은 피드백이 즉각 제공되어 성공 여부를 플레이어가 직관적으로 인지하도록 설계된 점도 UX 측면에서 높이 평가할 만하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnarok+%EC%99%84%EB%B2%BD%ED%95%9C+%EB%B0%A9%EC%96%B4+%2F+Perfect+Block+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=njCbWoqsAhg",
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Dauntless_Shield",
         "gif": null
