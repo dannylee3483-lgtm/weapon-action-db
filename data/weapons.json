@@ -15860,6 +15860,78 @@
       ],
       "id": "wh-013",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "엘프 활 (Elf Bow / Bow of the Galadhrim)",
+      "game": "Middle-earth: Shadow of Mordor",
+      "developer": "Monolith Productions",
+      "actionName": "집중 사격 (Focus Shot)",
+      "actionType": "특수기",
+      "description": "집중(Focus) 게이지를 소모해 시간을 극적으로 느리게 만든 뒤, 슬로우 모션 상태에서 여러 적의 약점을 겨냥해 연속 화살을 발사하는 기술이다. 각 화살은 머리나 무기 팔 등 취약 부위에 명중 시 추가 피해를 입히며, '드레인(Drain)' 능력과 연계하면 원거리에서 오크 캡틴의 체력을 급속히 소진시킬 수 있다. 활성화 시 화면에 흑백 필터와 렝스(Wraith) 에너지 오라가 겹쳐져 Talion의 초인적 상태를 시각적으로 강조한다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "black",
+          "gold"
+        ],
+        "effectStyle": [
+          "aura",
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "multi-target",
+          "headshot-enabled",
+          "stealth-compatible",
+          "synergy-drain"
+        ],
+        "resourceCost": "집중(Focus) 게이지",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~240f (슬로우 모션 지속)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "슬로우 모션 사격은 플레이어에게 '영웅적 순간'을 직접 연출할 수 있는 자율성을 부여한다는 점에서 탁월한 선택이다. 집중 게이지라는 한정 자원이 남용을 방지하면서도, 게이지를 소모했을 때의 보상(다수 적 동시 처리, 헤드샷 환경 조성)이 충분히 크기 때문에 리스크-리워드 구조가 명확하다. 네미시스 시스템의 캡틴을 원거리 약화시키는 '드레인'과 시너지를 형성해 전투 전 정보 수집과 자원 확보를 동시에 수행할 수 있는 전략 깊이를 더한다. 시각적으로 Wraith 필터와 흑백 색조를 적용해 능력 발동을 즉시 인지시키고, 슬로우 상태에서의 화살 궤적 가시화는 '내가 조준하고 있다'는 감각적 피드백을 극대화하는 UX 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Middle-earth%3A+Shadow+of+Mordor+%EC%A7%91%EC%A4%91+%EC%82%AC%EA%B2%A9+%28Focus+Shot%29+gameplay",
+        "images": [],
+        "wiki": "https://shadowofmordor.fandom.com/wiki/Focus",
+        "gif": null
+      },
+      "tags": [
+        "time-slow",
+        "precision-shot",
+        "stealth",
+        "focus-mechanic",
+        "multi-target",
+        "resource-management",
+        "open-world",
+        "nemesis-system",
+        "wraith-power"
+      ],
+      "applicableWeapons": [
+        "활",
+        "크로스보우"
+      ],
+      "id": "bw-013",
+      "addedDate": "2026-03-15"
     }
   ]
 }
