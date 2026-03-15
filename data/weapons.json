@@ -13141,6 +13141,217 @@
       ],
       "id": "bw-012",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "롱소드 (Longsword)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "패리 & 리포스트 (Parry & Riposte)",
+      "actionType": "패리|카운터",
+      "description": "소형 방패나 패리 가능 무기로 적의 공격 타이밍에 맞춰 입력하면 적을 비틀거림 상태(Stance Break)로 만들고, 이후 밀착하여 R1을 누르면 치명타 애니메이션과 함께 대량의 피해를 입힌다. 성공 시 적 최대 HP의 30~60%에 달하는 치명타가 발동되며, 보스를 포함한 대부분의 인간형 적에게 적용된다. 패리 윈도우는 약 8프레임으로 매우 좁아 숙련을 요구하지만, 성공 시의 압도적인 리워드가 도전을 정당화한다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "critical-hit",
+          "stance-break"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~8f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "패리-리포스트는 극단적인 리스크-리워드 구조의 교과서적 사례다. 좁은 패리 윈도우는 플레이어에게 적의 공격 모션을 적극적으로 학습할 강한 동기를 부여하고, 실패 시 큰 피해를 감수해야 하므로 모든 도전이 의미 있는 판단으로 작동한다. 성공 시의 치명타 애니메이션은 극적인 시각·청각 피드백으로 숙련의 보람을 극대화하며, '방어'를 단순 피해 감소가 아닌 '반격 기회'로 재정의한다. 이 설계는 공격적 플레이스타일을 장려하면서도 패턴 학습이라는 핵심 루프를 강화하는 이중 효과를 발휘한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%ED%8C%A8%EB%A6%AC+%26+%EB%A6%AC%ED%8F%AC%EC%8A%A4%ED%8A%B8+%28Parry+%26+Riposte%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Parrying",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "riposte",
+        "counter",
+        "critical-hit",
+        "risk-reward",
+        "timing-based",
+        "stance-break",
+        "punish",
+        "skill-expression",
+        "pattern-learning"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "단검",
+        "곡검"
+      ],
+      "id": "sw-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "리벨리온 (Rebellion)",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "스팅어 (Stinger)",
+      "actionType": "특수기",
+      "description": "전방으로 폭발적으로 돌진하며 강력한 찌르기를 가하는 갭 클로저 기술로, 단일 타격이지만 관통력과 경직값이 높아 대형 적도 휘청거리게 만든다. 버튼을 길게 눌러 차지하면 '슈퍼 스팅어'로 강화되어 이동 거리와 범위가 증가하고 주변 적들도 함께 타격한다. 시리즈 전통의 시그니처 무브로, 스타일리시 콤보의 진입 기술이자 거리를 좁히는 동시에 딜링을 수행하는 다기능 핵심 기술이다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "gap-closer",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "knockdown",
+          "charge-variant",
+          "pierce"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~4f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "스팅어는 DMC 시리즈가 추구하는 '스타일리시 액션'의 본질을 단 하나의 기술에 압축한 사례다. 이동과 공격을 동시에 수행하여 '접근하면서 딜링'이라는 이중 가치를 제공하므로, 플레이어는 어떤 상황에서도 이 기술을 선택할 이유를 갖는다. 차지 파생 버전의 존재는 단순 버튼 입력을 전략적 선택으로 확장하며, 숙련 플레이어가 상황에 따라 버전을 선택하게 유도한다. 관통 특성으로 다수 적을 연속 타격하는 장면은 DMC의 핵심 경험인 '멋진 전투'를 직접적으로 구현하며, 성공 시 강한 시각적 쾌감을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EC%8A%A4%ED%8C%85%EC%96%B4+%28Stinger%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Stinger",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "thrust",
+        "charge-attack",
+        "combo-starter",
+        "stylish-action",
+        "high-stagger",
+        "signature-move",
+        "pierce",
+        "punish",
+        "multi-purpose"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "대검"
+      ],
+      "id": "sw-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "브로드소드 (Broadsword)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix",
+      "actionName": "이그니션 (Ignition)",
+      "actionType": "특수기",
+      "description": "이프리트 에이콘의 화염 능력으로 발동하는 다중 히트 돌진 기술로, 클라이브가 화염을 두른 채 적을 향해 연속 돌진하며 여러 차례 타격을 가한다. 돌진 중 약한 적들을 밀쳐내며 관통하고, 마지막 타격에서 폭발적인 화염 폭발로 마무리된다. 히트 수가 많아 적의 Will Gauge(브레이크 게이지)를 빠르게 소모시키는 역할을 하며, 보스의 스턴 상태를 유도하는 핵심 기술이다.",
+      "motionType": [
+        "charge",
+        "combo",
+        "gap-closer",
+        "sweep"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "multi-hit",
+          "will-gauge-damage",
+          "aoe-finisher",
+          "fire-element"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~60f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "이그니션은 FFXVI의 '에이콘 능력과 검술 시너지' 철학을 잘 구현한 기술이다. 다중 히트 구조는 단순 데미지가 아닌 Will Gauge라는 별도 자원을 소모시켜 강화 딜타임(스턴 상태)을 준비하는 전략적 목적을 수행하므로, 플레이어는 타이밍을 계획하며 기술을 사용하게 된다. 화염 비주얼 연출은 이프리트의 정체성을 즉각적으로 전달하여 능력의 테마를 직관적으로 이해하도록 돕는 시각적 내러티브 기능도 담당한다. 쿨다운 기반 리소스는 남용을 방지하면서도 적절한 타이밍에 사용 시 강한 보상을 제공하는 리듬 설계를 만들어내며, 갭 클로저와 다중 히트의 결합은 원거리 보스에게 접근하는 동시에 브레이크 압박을 유지하는 공격적 흐름을 지원한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EC%9D%B4%EA%B7%B8%EB%8B%88%EC%85%98+%28Ignition%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Ignition_(Final_Fantasy_XVI)",
+        "gif": null
+      },
+      "tags": [
+        "fire-element",
+        "multi-hit",
+        "gap-closer",
+        "eikon-ability",
+        "will-gauge",
+        "aoe",
+        "boss-punish",
+        "combo-extender",
+        "visual-feedback",
+        "cooldown-management"
+      ],
+      "applicableWeapons": [
+        "1H검"
+      ],
+      "id": "sw-012",
+      "addedDate": "2026-03-15"
     }
   ]
 }
