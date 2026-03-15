@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weapon Action DB — 무기 액션 레퍼런스</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="logo">⚔️ Weapon Action DB <span>액션 게임 레퍼런스 수집기</span></div>
+  <div class="header-stats">
+    <div class="stat-badge">총 <strong id="total-count">0</strong>개</div>
+    <div class="stat-badge">표시 <strong id="filtered-count">0</strong>개</div>
+    <button class="combine-mode-btn" id="combine-mode-btn" onclick="toggleCombineMode()">⚗️ 조합 모드</button>
+    <button class="collect-open-btn" onclick="openCollect()">🔬 수집</button>
+  </div>
+</header>
+
+<!-- ─── LAYOUT ─── -->
+<div class="layout">
+
+  <!-- ─── SIDEBAR ─── -->
+  <aside class="sidebar">
+
+    <!-- 검색 -->
+    <div class="sidebar-section">
+      <h4>검색</h4>
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search" placeholder="기술명, 게임, 태그..." oninput="applyFilters()">
+      </div>
+    </div>
+
+    <!-- 무기 카테고리 -->
+    <div class="sidebar-section">
+      <h4>무기 종류</h4>
+      <select id="filter-category" onchange="applyFilters()">
+        <option value="">전체 무기</option>
+      </select>
+    </div>
+
+    <!-- 게임 -->
+    <div class="sidebar-section">
+      <h4>게임</h4>
+      <select id="filter-game" onchange="applyFilters()">
+        <option value="">전체 게임</option>
+      </select>
+    </div>
+
+    <!-- 모션 타입 -->
+    <div class="sidebar-section">
+      <h4>모션 타입</h4>
+      <select id="filter-motion" onchange="applyFilters()">
+        <option value="">전체 모션</option>
+      </select>
+    </div>
+
+    <!-- 발동 속도 -->
+    <div class="sidebar-section">
+      <h4>발동 속도</h4>
+      <select id="filter-startup" onchange="applyFilters()">
+        <option value="">전체 속도</option>
+        <option value="very-fast">⚡ 매우 빠름</option>
+        <option value="fast">⚡ 빠름</option>
+        <option value="medium">⏱ 보통</option>
+        <option value="slow">🐢 느림</option>
+        <option value="very-slow">🐢 매우 느림</option>
+      </select>
+    </div>
+
+    <!-- 속성 필터 -->
+    <div class="sidebar-section">
+      <h4>속성</h4>
+      <select id="filter-element" onchange="applyFilters()">
+        <option value="">전체 속성</option>
+      </select>
+    </div>
+
+    <!-- 태그 클라우드 -->
+    <div class="sidebar-section">
+      <h4>태그 (다중 선택 가능)</h4>
+      <div class="tag-filter-grid" id="tag-cloud"></div>
+    </div>
+
+    <!-- 미디어 필터 -->
+    <div class="sidebar-section">
+      <h4>미디어</h4>
+      <label class="media-filter-row">
+        <input type="checkbox" id="filter-media" onchange="applyFilters()">
+        🎥 미디어 있는 항목만
+      </label>
+    </div>
+
+    <!-- 리셋 -->
+    <button class="reset-btn" onclick="resetFilters()">↺ 필터 초기화</button>
+
+    <!-- 단축키 안내 -->
+    <div class="sidebar-section" style="margin-top:auto;padding-top:16px;border-top:1px solid var(--border)">
+      <h4>단축키</h4>
+      <div style="font-size:11px;color:var(--text-dim);line-height:2">
+        <div><kbd style="background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:1px 5px">/</kbd> 검색 포커스</div>
+        <div><kbd style="background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:1px 5px">Esc</kbd> 모달 닫기</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ─── MAIN ─── -->
+  <main class="main">
+
+    <!-- 툴바 -->
+    <div class="toolbar">
+      <div class="result-count"><strong id="result-label">0개 레퍼런스</strong></div>
+      <div class="view-toggle">
+        <button class="view-btn active" data-view="grid" onclick="setView('grid')">▦ 그리드</button>
+        <button class="view-btn" data-view="list" onclick="setView('list')">☰ 리스트</button>
+      </div>
+    </div>
+
+    <!-- 카드 그리드 -->
+    <div class="cards-grid" id="cards"></div>
+
+  </main>
+</div>
+
+<!-- ─── COMBINE BAR ─── -->
+<div class="combine-bar" id="combine-bar">
+  <div style="font-size:12px;color:var(--text-dim);white-space:nowrap">
+    ⚗️ <strong style="color:var(--accent)">조합 선택</strong>
+  </div>
+  <div class="combine-selected-list" id="combine-selected-list"></div>
+  <button class="combine-clear" onclick="clearCombine()">초기화</button>
+  <button class="combine-btn" onclick="openCombineResult()">조합 분석 →</button>
+</div>
+
+<!-- ─── MODAL ─── -->
+<div class="modal-overlay" id="modal">
+  <div class="modal" id="modal-content">
+  </div>
+</div>
+
+<!-- ─── COLLECT OVERLAY ─── -->
+<div class="collect-overlay" id="collect-overlay" onclick="closeCollect()"></div>
+
+<!-- ─── COLLECT PANEL ─── -->
+<div class="collect-panel" id="collect-panel">
+  <div class="collect-panel-header">
+    <h3>🔬 레퍼런스 수집</h3>
+    <button class="login-btn" id="login-btn" onclick="startLogin()" title="Claude 계정 로그인">🔑 로그인</button>
+    <button class="panel-close" onclick="closeCollect()">×</button>
+  </div>
+
+  <div class="collect-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label>무기 카테고리</label>
+        <select id="col-category">
+          <option value="">전체</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>게임</label>
+        <input type="text" id="col-game" placeholder="예: Sekiro">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label>메카닉</label>
+        <input type="text" id="col-mechanic" placeholder="예: parry">
+      </div>
+      <div class="form-group">
+        <label>자유 검색어</label>
+        <input type="text" id="col-query" placeholder="예: 공중 콤보">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group" style="flex:1">
+        <label>모델</label>
+        <select id="col-model">
+          <option value="claude-sonnet-4-6">Sonnet 4.6 · 기본 (균형)</option>
+          <option value="claude-opus-4-6">Opus 4.6 · 최고 품질</option>
+          <option value="claude-haiku-4-5-20251001">Haiku 4.5 · 빠름</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>목표 수량 <span style="font-weight:400;color:var(--text-dim);font-size:11px">(배치당 3개씩 자동 반복)</span></label>
+      <div class="count-row">
+        <input type="range" id="col-count" min="3" max="60" step="3" value="9"
+               oninput="document.getElementById('col-count-display').textContent=this.value">
+        <span class="count-display" id="col-count-display">9</span>개
+      </div>
+    </div>
+
+    <label class="dryrun-row">
+      <input type="checkbox" id="col-dry-run">
+      미리보기 모드 — 저장 없이 확인만
+    </label>
+
+    <div class="collect-btn-row">
+      <button class="collect-submit-btn" id="collect-submit-btn" onclick="startCollect()">▶ 수집 시작</button>
+      <button class="collect-infinite-btn" id="infinite-btn" onclick="toggleInfinite()" title="전 카테고리를 중단할 때까지 자동 순환">∞ 무한 수집</button>
+    </div>
+  </div>
+
+  <div class="collect-console-wrap">
+    <div class="collect-console-toolbar">
+      <span>출력 로그</span>
+      <button class="console-clear-btn" onclick="clearConsole()">지우기</button>
+    </div>
+    <div class="collect-console" id="collect-console">
+      <div class="collect-idle-msg">
+        <span class="idle-icon">🔬</span>
+        위 옵션을 설정하고 수집을 시작하세요.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

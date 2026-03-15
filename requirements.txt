@@ -1,0 +1,5 @@
+# collect.py는 Claude Code CLI(claude 명령)를 사용합니다.
+# 별도 패키지 설치 불필요 — Python 표준 라이브러리만 사용합니다.
+#
+# server.py용 (Python 표준 라이브러리, 설치 불필요):
+#   http.server, socketserver, webbrowser, os, sys

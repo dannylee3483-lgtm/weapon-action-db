@@ -1,0 +1,1976 @@
+{
+  "lastUpdated": "2026-03-15",
+  "weapons": [
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Great Sword (대검)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "진화강격참 (True Charged Slash)",
+      "actionType": "차지 공격",
+      "description": "대검의 기본 공격 버튼을 3단계까지 완전히 유지해 해제하는 최종 강격참. 상단에서 비스듬히 내리찍는 단일 타격으로 게임 내 최고 수준의 모션값(최대 ~570)을 자랑한다. 차지 도중 적의 공격에 맞으면 즉시 차지가 취소되므로 타이밍 선택과 포지셔닝이 핵심이다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "wound-trigger"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~85f",
+          "active": "~12f",
+          "recovery": "~50f"
+        }
+      },
+      "designNotes": "진화강격참은 '집중 투자형 리스크-리워드' 설계의 교과서적 사례다. 최소 2초 이상의 무방비 차지 상태를 감수해야만 최대 화력을 끌어낼 수 있어, 리스크와 보상이 극명하게 비례한다. 차지 3레벨에서 이펙트가 오렌지에서 백열로 변화하고 캐릭터가 미세하게 떨리는 연출이 누적 긴장감을 시각·촉각적으로 전달해 릴리즈 순간 강한 카타르시스를 부여한다. 헤드·꼬리·다리 등 약점 부위 조준이 필수이기 때문에 적 모션 읽기와 포지셔닝 스킬 향상을 자연스럽게 유도하는 교육적 구조도 갖추고 있다. '느린 무기'라는 페널티를 정직하게 보여주면서도 그것을 극복했을 때의 보상을 극대화함으로써 대검 플레이어 정체성의 핵심을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=fhxHZw5IMVY",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
+        "gif": null
+      },
+      "tags": [
+        "charged-attack",
+        "single-hit",
+        "high-damage",
+        "risk-reward",
+        "positioning",
+        "poise-breaking",
+        "finisher",
+        "greatsword",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Sacred Relic Sword (성스러운 유물검)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "황금 물결 (Wave of Gold)",
+      "actionType": "무기술",
+      "description": "검을 지면에 찌른 후 황금빛 에너지 파동을 전방 초장거리로 방사하는 무기술. 파동은 지면을 따라 넓게 퍼지며 범위 내 다수의 적을 연속 히트한다. 차지 시 범위와 위력이 대폭 증가하며 FP 소모량도 높아진다.",
+      "motionType": [
+        "charge",
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "신성",
+        "effectColor": [
+          "gold",
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "wave",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "crowd-control",
+          "aoe",
+          "holy-damage"
+        ],
+        "resourceCost": "FP 32 / 차지 시 FP 48",
+        "frameApprox": {
+          "startup": "~55f",
+          "active": "~90f",
+          "recovery": "~55f"
+        }
+      },
+      "designNotes": "Wave of Gold는 '보스 능력 체험의 민주화' 원칙과 '서사적 보상 연동' 설계를 동시에 구현한다. 엘든 비스트 격파 이후에만 획득 가능하도록 설계해 서사적 정점과 플레이어 능력 전환이 같은 순간에 발생하며, 최종 보스의 상징적 기술을 직접 사용하는 경험이 강한 감정적 공명을 만든다. 황금 이펙트의 색채 언어는 엘든 링 전체 세계관에서 '질서·신성·엘든 링의 빛'을 의미해 시각 내러티브와 메카닉이 일치한다. 차지 유무에 따른 FP 비용-범위 트레이드오프가 명확해 전투 중 자원 관리 판단을 자연스럽게 요구하며, 뉴게임 플러스 반복 회차에서도 골든 오더 계열 적을 제외한 대부분 적에게 강력한 효과를 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=SPPyw4yN59A",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Sacred+Relic+Sword",
+        "gif": null
+      },
+      "tags": [
+        "holy",
+        "wave",
+        "aoe",
+        "long-range",
+        "boss-weapon",
+        "crowd-control",
+        "charged-skill",
+        "poise-breaking",
+        "end-game",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Farron Greatsword (파론 대검)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "군단의 예법 (Legion Etiquette)",
+      "actionType": "무기술",
+      "description": "대검과 소단검을 동시에 사용해 지면을 쓸듯 빠르게 회전하며 전방 180도를 연속으로 베어 넘기는 무기술. 다단 히트 판정으로 넓은 범위를 커버하며, 발동 후 R1으로 언더핸드 어퍼 슬래시를, R2로 고속 찌르기를 연결할 수 있다. 어비스 워처(파론 군단)의 야생적 전투 양식에서 직접 유래한 독자 기술이다.",
+      "motionType": [
+        "spin",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "crowd-control",
+          "poise-breaking",
+          "follow-up-branch"
+        ],
+        "resourceCost": "스태미나 (FP 소모 없음)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~65f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Legion Etiquette는 세계관과 전투 메카닉을 긴밀하게 통합한 '무브셋 내러티브' 설계의 대표 사례다. 어비스 워처가 구사하는 이중 무기의 회전 공격을 플레이어 무기에 직접 이식해 장비 획득 자체가 스토리텔링의 일부가 된다. 대형 무기임에도 스타트업이 빠른 것은 '느린 울트라 그레이트소드' 스테레오타입을 의도적으로 역전하는 서브버시브 디자인으로, 좁은 실내 공간에서도 유효한 독특한 플레이 정체성을 형성한다. 후속 R1/R2 분기 선택이 상황 대응 능력을 요구하며, 정확한 조작 타이밍을 숙달했을 때만 풀 데미지를 실현할 수 있어 숙련도 의존성과 성장 곡선이 뚜렷하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=3mYRW9vkY90",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Farron+Greatsword",
+        "gif": null
+      },
+      "tags": [
+        "dual-wield",
+        "spin-attack",
+        "multi-hit",
+        "lore-driven",
+        "weapon-art",
+        "abyss-watchers",
+        "acrobatic",
+        "crowd-control",
+        "combo-extender",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-003",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Kusabimaru (쿠사비마루)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "Mortal Draw (모탈 드로우 / 필살 발도)",
+      "actionType": "특수기|차지 공격",
+      "description": "초고속 발도 공격으로 상대를 베어내는 기술. 차징 후 강력한 베기 공격을 수행하며, 높은 자세해제 데미지를 가진다. Sekiro의 특징적인 검술 메카닉 중 하나로 포즈 시스템과 결합되어 전략적 깊이를 제공한다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gray"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "uninterruptible-frames"
+        ],
+        "resourceCost": "정력 + 차징 시간",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~10f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "높은 데미지와 자세해제력으로 강력한 리워드를 제공하지만, 차징 시간이 길어 읽기 쉬운 공격이다. 이는 숙련된 플레이어가 회피나 방어로 대응해야 하는 리스크-리워드 구조를 형성한다. 포즈 시스템과 결합되어 근접 전투의 긴장감을 극대화하는 핵심 메카닉이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=j1TJxpurmxA",
+        "images": [],
+        "wiki": "https://sekiroshadowsdie.wiki.fextralife.com/Mortal+Draw",
+        "gif": null
+      },
+      "tags": [
+        "samurai",
+        "charge-attack",
+        "unblockable",
+        "high-damage",
+        "risk-reward",
+        "parry-counter"
+      ],
+      "applicableWeapons": [
+        "katana"
+      ],
+      "id": "kt-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana (Standard)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "Iaijutsu / Quick Draw (발도술 / 빠른 발도)",
+      "actionType": "무기술|특수기",
+      "description": "고속 발도 후 강력한 슬래시를 날리는 Nioh 2의 카타나 고유 무기술. Ki 시스템과 연동되어 정확한 타이밍에 Ki 회복을 할 수 있다. 근거리 갭 클로저로도 활용되며 공격과 방어의 리듬을 형성한다.",
+      "motionType": [
+        "slash",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "ki-recovery-timing"
+        ],
+        "resourceCost": "Ki(기) + 쿨다운",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~12f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Nioh 2의 핵심 메카닉인 Ki 시스템과 깊게 결합되어, 공격 후 즉시 Ki 회복 타이밍을 노려 공격을 연결할 수 있는 구조다. 이는 플레이어의 숙련도를 직접적으로 반영하게 하며, 근접전 흐름을 매끄럽게 유지하도록 설계되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=0CgZUsKHkZk",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Katana",
+        "gif": null
+      },
+      "tags": [
+        "loot-action",
+        "ki-system",
+        "fast-attack",
+        "flow-state",
+        "stance-system",
+        "combo"
+      ],
+      "applicableWeapons": [
+        "katana"
+      ],
+      "id": "kt-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Sakai Clan Katana (사카이 가문의 검)",
+      "game": "Ghost of Tsushima",
+      "developer": "Sucker Punch Productions",
+      "actionName": "Standoff Duel (스탠드오프 / 대면 결투)",
+      "actionType": "카운터|특수기",
+      "description": "상대가 칼을 뽑으려 할 때 동시에 발도하여 공격하는 카운터 기술. Samurai 검술의 핵심인 순간의 포착과 결정적인 한 검으로 전투를 끝내는 철학을 구현한다. 단 한 번의 공격으로 적 그룹을 제거할 수 있는 강력한 유동성 기술이다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "group-clear"
+        ],
+        "specialProperties": [
+          "counter-mechanic",
+          "instant-animation",
+          "crowd-control"
+        ],
+        "resourceCost": "없음 (자동 판정)",
+        "frameApprox": {
+          "startup": "~2f",
+          "active": "~8f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "타이밍 기반 카운터로 플레이어의 주의력과 반응성을 강조한다. 스탠드오프의 압도적인 리워드는 고조된 긴장감을 즉시 쾌감으로 변환하는 피드백 루프를 만들어낸다. Ghost of Tsushima의 우아한 전투 철학을 상징하는 메카닉으로, 숙련된 전투가 시각적으로 화려하게 표현되도록 설계되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=KewVAkQDJ1w",
+        "images": [],
+        "wiki": "https://ghostoftsushima.wiki.fextralife.com/Combat",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "samurai",
+        "timing-based",
+        "instant-kill",
+        "crowd-clear",
+        "visual-feedback"
+      ],
+      "applicableWeapons": [
+        "katana"
+      ],
+      "id": "kt-003",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Nodachi",
+      "game": "For Honor",
+      "developer": "Ubisoft",
+      "actionName": "Riptide Strike / 파도 참격",
+      "actionType": "차지 공격",
+      "description": "오로치의 주력 공격으로 노다치를 크게 휘둘러 적을 횡으로 베어넘기는 기술. 높은 리버건으로 이어지며 백스텝을 통한 회피 유도로 설계되었다. PvP에서 상대의 방어 패턴을 흔드는 견제 역할을 수행한다.",
+      "motionType": [
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "knockback"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~600ms",
+          "active": "~400ms",
+          "recovery": "~400ms"
+        }
+      },
+      "designNotes": "노다치의 리치를 최대한 활용하면서도 강력한 백스텝 회피가 가능하게 설계된 리스크-리워드 구조. 공격 후 바로 방어 자세로 전환 가능하여 적극적 견제와 수비의 균형을 유지할 수 있다. 상대의 반격 타이밍을 읽고 회피하는 미니게임적 구조가 PvP 깊이를 더한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=qlF7U4rVLkA",
+        "images": [],
+        "wiki": "https://for-honor.fandom.com/wiki/Orochi",
+        "gif": null
+      },
+      "tags": [
+        "nodachi",
+        "risk-reward",
+        "stance-switch",
+        "pvp-oriented",
+        "feint",
+        "position-control"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "노다치"
+      ],
+      "id": "kt-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "Kasha / 카샤",
+      "actionType": "콤보 피니셔",
+      "description": "사무라이 직업의 세 번째 콤보 피니셔로, 카타나를 진동시켜 적을 강타하는 기술. 하겟제 → 진푸 → 카샤의 기본 콤보 마무리이며 센(Meditatio 에너지)을 생성한다. 높은 댐지와 빠른 시전 속도로 DPS 로테이션의 핵심을 이룬다.",
+      "motionType": [
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "finisher",
+          "extender"
+        ],
+        "specialProperties": [],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~1.5s",
+          "active": "~0.5s",
+          "recovery": "~1s"
+        }
+      },
+      "designNotes": "사무라이 로테이션의 시간당 손실(GCD) 피니셔로 설계되어, 초기 콤보 자들의 빠른 리드백을 통해 지속적인 딜 흐름을 만든다. 센 생성 메커니즘이 특수 기술(켄즈츠 등)의 문을 열기 때문에, 플레이어는 콤보 완성의 즉각적 보상을 경험한다. 짧은 글로벌 쿨다운으로 인한 높은 실행 속도가 직업의 정체성을 드러낸다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=YMrAGBAocm0",
+        "images": [],
+        "wiki": "https://ffxiv.gamerescape.com/wiki/Samurai",
+        "gif": null
+      },
+      "tags": [
+        "combo-finisher",
+        "rotation-core",
+        "gcd-action",
+        "resource-generation",
+        "dps",
+        "fast-combo"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Straight Sword (Katana-style)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "Rising Thrust / 상단 찌르기",
+      "actionType": "차지 공격",
+      "description": "카타나류 직검의 상향 차지 공격으로 아래에서 위로 강렬하게 찌르는 기술. 적의 패리(정령 회피)를 뚫기 쉽고 높은 기(Ki) 대미지를 입혀 적을 흔들 수 있다. 차지 레벨에 따라 범위와 대미지가 증가한다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "ki-damage"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~1.2s",
+          "active": "~0.6s",
+          "recovery": "~1.1s"
+        }
+      },
+      "designNotes": "Team Ninja의 정령 방어(Spirit Defense) 시스템과의 상호작용을 고려하여, 느린 시전으로 인한 높은 기 대미지로 적의 방어를 무너뜨리는 구조. 차지 메커니즘이 플레이어의 공격 타이밍 선택을 강조하며, 높은 리스크를 감수한 플레이어에게 즉각적인 보상(기 게이지 축적)을 제공한다. 패리와의 상성 차이를 통해 전술적 다양성을 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=wq3YXFe-p4A",
+        "images": [],
+        "wiki": "https://wolong.fandom.com/wiki/Straight_Sword",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "thrust",
+        "ki-damage",
+        "poise-break",
+        "risk-reward",
+        "stance-pressure"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "직검"
+      ],
+      "id": "kt-006",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나",
+      "game": "Honkai: Star Rail",
+      "developer": "HoYoverse",
+      "actionName": "천지한한 (Universe-Spanning Swordsmanship)",
+      "actionType": "기본공격|콤보",
+      "description": "위로 휘적이며 베는 동작으로 시작하여 회전베기와 내려찍기로 마무리하는 3단 일반공격 콤보. 각 단계에서 높은 안정감과 판정을 제공하며, 일반공격 강화 효과와 조화를 이룬다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "기",
+        "effectColor": [
+          "blue",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "energy-generation",
+          "follow-up-capable"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~18f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "3단 콤보 구조로 안정적인 DPS 제공 뿐 아니라, 각 단계에서 원소스킬 연계가 가능하도록 설계되었다. 리듬감 있는 비트 매칭으로 플레이어의 참여감을 높이고, 일반공격 강화 버프와의 상호작용으로 빌드 선택의 자유도를 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=aQCGeaovlC4",
+        "images": [],
+        "wiki": "https://honkai-star-rail.fandom.com/wiki/Dan_Feng",
+        "gif": null
+      },
+      "tags": [
+        "combo",
+        "rhythm-based",
+        "energy-generation",
+        "blade-trail",
+        "dps",
+        "elemental",
+        "multi-hit"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일도류"
+      ],
+      "id": "kt-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나",
+      "game": "Genshin Impact",
+      "developer": "HoYoverse",
+      "actionName": "지행합일 (Chihayaburu)",
+      "actionType": "원소스킬|특수기",
+      "description": "카즈하가 상향으로 베어올리며 공중으로 도약한 후, 내려찍으며 자신 주변에 풍원소 영역을 생성한다. 쿨타임 기반 리소스로 관리되며, 최대 3개 스택까지 축적 가능한 흡수 메커니즘을 지닌다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "leap",
+        "counter"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "green",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "gap-closer",
+          "punish",
+          "launcher"
+        ],
+        "specialProperties": [
+          "knockup",
+          "absorption-mechanic",
+          "elemental-infusion"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~25f",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "빠른 발동으로 높은 반응성을 제공하며, 도약 중 무적 프레임으로 피격 회피를 가능하게 한다. 쿨타임 기반 리소스와 스택 축적 메커니즘이 결합되어 플레이어의 타이밍 의사결정을 심화시킨다. 팀 내 원소 반응 시스템과의 상호작용이 뛰어나 다양한 빌드 조합을 허용한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=ytUO6XLh2pU",
+        "images": [],
+        "wiki": "https://genshin-impact.fandom.com/wiki/Kazuha",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "i-frame",
+        "elemental-support",
+        "crowd-control",
+        "knockup",
+        "cooldown-based",
+        "absorption"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일도류"
+      ],
+      "id": "kt-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나",
+      "game": "Soulcalibur VI",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "표준 자세 베기 (Standard Stance Slash)",
+      "actionType": "기본공격|패턴",
+      "description": "미츠루기의 카타나 표준 자세에서 좌우로 휘둘러 베는 기본 공격. 방향에 따라 공격 판정과 범위가 세밀하게 변하며, 연속 입력으로 콤보 확장이 가능하다. 격투게임 특유의 프레임 데이터 기반 설계로 고도의 심화 플레이를 지원한다.",
+      "motionType": [
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "stance-transition",
+          "directional-variation",
+          "frame-advantage"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~14f",
+          "recovery": "~11f"
+        }
+      },
+      "designNotes": "기본공격임에도 방향성 변화를 통해 뛰어난 상황 대응성을 제공한다. 각 방향별 판정 범위의 세밀한 조정으로 압박과 회피의 리스크-리워드 밸런스를 정교하게 조율했다. 자세 변환 시스템과의 연계로 단순해 보이지만 경쟁 격투게임 수준의 깊이 있는 러닝을 가능하게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=wwX760k0eYg",
+        "images": [],
+        "wiki": "https://soulcalibur.fandom.com/wiki/Mitsurugi",
+        "gif": null
+      },
+      "tags": [
+        "stance-system",
+        "directional-variation",
+        "frame-data",
+        "fighting-game",
+        "risk-reward",
+        "frame-advantage",
+        "opener"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일도류"
+      ],
+      "id": "kt-009",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Swordmaster Blade",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Studios",
+      "actionName": "Iaijutsu Slash / 납도 베기",
+      "actionType": "특수기",
+      "description": "격투 게임의 프레임 제약 속에서 구현한 일본식 납도 기법. 빠른 발도와 동시에 가로 베기를 수행하여 높은 데미지와 상대 경직을 노린다. 시작이 빠르지만 회피 가능한 선딜이 있어 예측이 필요하다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "gap-closer"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "high-priority",
+          "armor-break"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~8f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "격투 게임에서 무기 사용 캐릭터의 차별성을 위해 설계됨. 빠른 시작과 강한 경직력으로 주도권 확보가 가능하지만, 발도 모션의 명확한 시각적 피드백으로 상대에게 대응 기회를 제공한다. 리스크-리워드 구조로 캐릭터 난이도를 상승시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=0W134L6Zj-g",
+        "images": [],
+        "wiki": "https://tekken.fandom.com/wiki/Swordmaster",
+        "gif": null
+      },
+      "tags": [
+        "fast-startup",
+        "high-damage",
+        "counter-attack",
+        "fighting-game",
+        "weapon-character",
+        "armor-break",
+        "gap-closer"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "검",
+        "도검"
+      ],
+      "id": "kt-010",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Okatana",
+      "game": "Persona 5 Royal",
+      "developer": "Atlus",
+      "actionName": "Oniyanagi / 귀버들",
+      "actionType": "기본 공격",
+      "description": "페르소나 5의 검술 능력. 일본식 검을 올려 강력한 수직 베기를 시전한다. 단순하지만 확실한 피해를 주는 물리 공격으로, 약점 공격 후 추가 행동 기회 획득의 기초가 된다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "weakness-exploitable"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~12f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "턴제 JRPG에서 기본 공격의 역할 재정의. 약점 공격으로 추가 행동 획득 시스템의 핵심 축으로, 전술적 판단 (약점 찾기 vs 스킬 사용)을 플레이어에게 강요한다. 시각적으로 명확한 베기 모션으로 일본식 전통 무술의 정체성을 강조한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=J28tSKqUW6E",
+        "images": [],
+        "wiki": "https://megamitensei.fandom.com/wiki/Persona_5_Royal",
+        "gif": null
+      },
+      "tags": [
+        "jrpg",
+        "basic-attack",
+        "turn-based",
+        "physical-damage",
+        "weakness-system",
+        "japanese-weapon",
+        "character-action"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검",
+        "검"
+      ],
+      "id": "kt-011",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Demon Piercer",
+      "game": "Code Vein",
+      "developer": "Bandai Namco Studios",
+      "actionName": "Thrust Combo / 연속 찌르기",
+      "actionType": "무기술",
+      "description": "액션 RPG 스타일의 찌르기 콤보. 한 손 검으로 빠르게 찌르는 일련의 공격을 연속 시전한다. 스태미나 소비로 제어되며, 적의 경직 상태에서 확정 데미지로 활용할 수 있다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "launcher"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "stamina-gated"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~10f",
+          "recovery": "~16f"
+        }
+      },
+      "designNotes": "소울라이크 액션 게임의 스태미나 시스템 속에서 순간적 화력을 제공하도록 설계됨. 빠른 연속 타격으로 적의 자세를 무너뜨리고, 스태미나 소비로 플레이어의 공격 욕심을 자제하게 한다. 경직 상태에서의 확정 데미지로 포지셔닝의 중요성을 강조한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=s0A85P7Dfns",
+        "images": [],
+        "wiki": "https://codevein.fandom.com/wiki/Code_Vein",
+        "gif": null
+      },
+      "tags": [
+        "action-rpg",
+        "combo-system",
+        "stamina-management",
+        "poise-breaking",
+        "fast-attack",
+        "soulslike",
+        "physical-damage"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검",
+        "검"
+      ],
+      "id": "kt-012",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Pincushion",
+      "game": "Cyberpunk 2077",
+      "developer": "CD Projekt Red",
+      "actionName": "Overhead Strike / 수직 베기",
+      "actionType": "기본 공격",
+      "description": "카타나를 높이 들어올린 후 위에서 아래로 내려치는 빠른 슬래시. 연쇄 공격으로 사용되거나 단독 타격으로도 효과적이며, 특히 전기 강화 모드에서 추가 대미지를 입힌다.",
+      "motionType": [
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "빠른 시작 속도와 낮은 경직력으로 플레이어에게 연쇄 공격의 자유도를 제공한다. 사이버네틱 강화와 속성 추가 시스템과의 호환성으로 빌드 다양성을 높이며, 근접 전투의 리스크-리워드 구조를 명확하게 설정한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=_s7h9Few11A",
+        "images": [],
+        "wiki": "https://cyberpunk.fandom.com/wiki/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "quick-attack",
+        "slash-combo",
+        "cyber-weapon",
+        "close-range",
+        "combo-friendly"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-013",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana",
+      "game": "Samurai Warriors 5",
+      "developer": "Omega Force, Koei Tecmo",
+      "actionName": "Spinning Blade / 회전 베기",
+      "actionType": "콤보",
+      "description": "카타나를 축으로 빠르게 회전시키며 주변 모든 적을 베는 광역 공격. 무쌍 게임의 특징적인 화끈한 액션으로, 연속된 공격에서 여러 적을 동시에 제거할 수 있다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~20f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "광역 범위와 높은 경직력으로 다수의 적을 효과적으로 제거하면서도 개별 적에 대한 명확한 피드백을 제공한다. 무쌍 게임의 쾌감을 극대화하는 동시에 전술적 포지셔닝을 고려한 설계로, 플레이어의 성취감을 증대시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=il1ehoP29LY",
+        "images": [],
+        "wiki": "https://samuraiwarriors.fandom.com/wiki/Samurai_Warriors_5",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "multi-hit",
+        "area-of-effect",
+        "combo-finisher",
+        "warrior-action",
+        "high-stagger"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검",
+        "대검"
+      ],
+      "id": "kt-014",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Katana",
+      "game": "Like a Dragon: Infinite Wealth",
+      "developer": "Ryu Ga Gotoku Studio",
+      "actionName": "Swift Cut / 빠른 베기",
+      "actionType": "기본 공격",
+      "description": "손목의 회전으로 날카로운 베기를 연속으로 날리는 공격. 야쿠자 시리즈의 근접 전투 스타일을 유지하면서도 카타나의 우아한 움직임을 표현하며, 다양한 콤보 루트의 시작점 역할을 한다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~8f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "초단위 시작 속도와 짧은 회복 시간으로 플레이어의 입력에 즉각적으로 응하며, 근접 거리에서 높은 콤보 자유도를 제공한다. 거리감 있는 전투 시스템 속에서 카타나 사용자에게 신뢰할 수 있는 기본기를 제공하고, 연타로 압박 가능한 구조를 설계했다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=KkL9wzsbaw0",
+        "images": [],
+        "wiki": "https://ryu-ga-gotoku.fandom.com/wiki/Like_a_Dragon:_Infinite_Wealth",
+        "gif": null
+      },
+      "tags": [
+        "fast-combo",
+        "melee",
+        "swift-attack",
+        "close-range",
+        "combo-opener",
+        "punish-attack"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-015",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "호라이 카타나",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "모탈 드로우 (Mortal Draw)",
+      "actionType": "특수기",
+      "description": "적을 향해 카타나를 재빠르게 뽑으며 동시에 공격하는 고속 발도 기술. 강한 포즈 대미지를 가져 방어 루프를 깨뜨리는 데 효과적이다.",
+      "motionType": [
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~8f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "발도의 빠른 시작과 강한 포즈 대미지는 방어 루프 탈출의 핵심 도구다. 높은 리워드(대미지)와 명확한 리스크(회피 불가 모션)의 균형으로 플레이어 선택에 무게감을 부여한다. 'Sekiro의 근거리 전투' 철학에서 압박과 위험의 시너지를 완벽하게 구현했다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=j1TJxpurmxA",
+        "images": [],
+        "wiki": "https://sekiro.wiki.fextralife.com/Mortal+Draw",
+        "gif": null
+      },
+      "tags": [
+        "fast-startup",
+        "poise-breaking",
+        "high-risk-reward",
+        "shinobi-arts",
+        "counter-attack"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-016",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "곡도 (Curved Sabre)",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "회전 베기 (Spinning Slash)",
+      "actionType": "기본 공격",
+      "description": "곡도를 회전시키며 범위 공격을 하는 동작. 정령 에너지를 활용하여 강화할 수 있으며, 여러 적을 동시에 타격하거나 딜링 파괴에 활용된다.",
+      "motionType": [
+        "slash",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "crowd-control"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~20f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "Wo Long의 정령 에너지 시스템과 연동하는 회전 공격은 군중 제어와 단일 대상 딜 사이의 유연한 전환을 제공한다. 스태미나 관리와 정령 에너지 차징을 통해 플레이어가 공격 페이즈를 직접 조율하는 경험을 만든다. 시각적 이펙트(회전 궤적, 파티클)로 강대함을 강조한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=wq3YXFe-p4A",
+        "images": [],
+        "wiki": "https://wo-long.wiki.fextralife.com/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "crowd-control",
+        "stamina-management",
+        "spirit-energy",
+        "eastern-blade"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "곡도"
+      ],
+      "id": "kt-017",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "일본도 (Japanese Katana)",
+      "game": "Persona 5",
+      "developer": "Atlus",
+      "actionName": "기본 공격 (Normal Attack)",
+      "actionType": "기본 공격",
+      "description": "Junpei Takeba가 사용하는 일본도 스타일의 기본 공격. 턴제 전투 시스템 내에서 물리 속성 단일 또는 다중 타격을 제공하는 기초 수단이다.",
+      "motionType": [
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener"
+        ],
+        "specialProperties": [],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "즉시",
+          "active": "턴제",
+          "recovery": "다음 턴"
+        }
+      },
+      "designNotes": "Persona 5의 턴제 시스템에서 무기는 캐릭터 정체성을 강화하는 시각적 언어다. Junpei의 카타나는 그의 성격(핫헤드)과 역할(물리 딜러)을 동시에 표현하며, 기본 공격은 항상 선택 가능한 안전한 옵션으로서 게임의 전술 깊이를 지탱한다. 페르소나 스킬과의 조합으로 플레이어가 장기적 전략을 수립하게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=fl3elI7hqRM",
+        "images": [],
+        "wiki": "https://megamitensei.fandom.com/wiki/Persona_5",
+        "gif": null
+      },
+      "tags": [
+        "turn-based-jrpg",
+        "physical-damage",
+        "character-identity",
+        "combo-foundation",
+        "free-action"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "검"
+      ],
+      "id": "kt-018",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Shinobi Sword",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "Mortal Draw / 치살용검",
+      "actionType": "특수기|차지 공격",
+      "description": "카타나를 빠르게 뽑아내며 강력한 내려치기를 수행하는 기술. 높은 포즈 데미지를 입혀 적의 경직 상태를 유도하며, 정확한 타이밍에 사용해야 하는 리스크-리워드 구조의 핵심 기술.",
+      "motionType": [
+        "slash",
+        "draw",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gray"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "posture-damage"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~12f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Mortal Draw는 FromSoftware의 우아한 어려움(elegant difficulty) 철학을 구현한 가장 좋은 예시다. 빠른 시작 속도로 공격 기회를 만들지만, 긴 회복시간은 실패의 즉각적 페널티를 제시한다. 높은 포즈 데미지는 리워드로 작용하지만, 사용자는 항상 위험을 감수해야 한다. 이러한 명확한 리스크-리워드 구조는 플레이어의 판단 능력을 직접적으로 검증한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=j1TJxpurmxA",
+        "images": [],
+        "wiki": "https://sekiro.wiki.fextralife.com/Prosthetics+and+Tools",
+        "gif": null
+      },
+      "tags": [
+        "posture-damage",
+        "finisher",
+        "high-risk-reward",
+        "counter-attack",
+        "fast-startup",
+        "parry-punish"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "동양식 검"
+      ],
+      "id": "kt-019",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Jian",
+      "game": "Wo Long: Fallen Dynasty",
+      "developer": "Team Ninja",
+      "actionName": "Spirit Attack / 정기 공격",
+      "actionType": "특수기|콤보",
+      "description": "게임의 Spirit 시스템을 활용한 특별한 공격으로, 효과적인 카운터 후나 Spirit 게이지 소비로 발동. 높은 판정력과 다양한 콤보 루트를 제공하며, 적의 경직 상태를 극대화하는 창 공격으로 진화.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "cyan",
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "spirit-cost",
+          "counter-reward",
+          "gap-closer"
+        ],
+        "resourceCost": "Spirit 게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~18f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Team Ninja의 중국 무술 기반 게임으로서, Spirit 게이지 시스템은 플레이어의 공격 패턴을 전략적으로 제한한다. Spirit Attack은 단순 강공격을 넘어 적의 경직 상태와 플레이어의 리소스 관리를 연결하는 브릿지 역할을 수행한다. 차이니스 게임만의 독특한 격투 템포와 빠른 속도감을 유지하면서도 명확한 행동-결과 피드백 루프를 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=wq3YXFe-p4A",
+        "images": [],
+        "wiki": "https://wolong.wiki.fextralife.com/Weapons",
+        "gif": null
+      },
+      "tags": [
+        "spirit-cost",
+        "counter-attack",
+        "combo-extender",
+        "chinese-martial-arts",
+        "stagger-punish",
+        "posture-system"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "Jian",
+        "동양 검"
+      ],
+      "id": "kt-020",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Nodachi / Okatana",
+      "game": "Samurai Warriors 5",
+      "developer": "Omega Force / Koei Tecmo",
+      "actionName": "Clashing Blade Attack / 격돌 공격",
+      "actionType": "기본 공격|차지 공격|콤보",
+      "description": "여러 카타나 캐릭터들이 사용하는 핵심 공격 패턴으로, 빠른 연격 콤보와 힘을 모은 차지 공격을 결합. 다수의 적을 동시에 처리하는 Musou 게임의 설계 철학을 구현하며, 캐릭터마다 다른 비주얼과 범위를 제공.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "area-of-effect"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~8f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "Samurai Warriors는 Musou 장르의 핵심 설계 원칙인 '수십 명 동시 처리'를 카타나를 통해 구현한다. 빠른 시작 속도와 넓은 범위는 플레이어에게 전장 통제감을 주며, 차지 공격의 명확한 시각적 구분은 학습 곡선을 낮춘다. 각 캐릭터의 고유한 콤보 루트는 반복 플레이 속에서 캐릭터 차별성을 강조하며, 이는 오래된 게임임에도 재플레이 가치를 제공하는 핵심 메커니즘이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=il1ehoP29LY",
+        "images": [],
+        "wiki": "https://samuraiwarriors.fandom.com/wiki/Samurai_Warriors_5",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "area-of-effect",
+        "fast-combo",
+        "charge-attack",
+        "musou-action",
+        "multi-hit"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "Nodachi",
+        "대형 검"
+      ],
+      "id": "kt-021",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Warrior Greatsword",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "천공참 / Heavenward Slash",
+      "actionType": "차지 공격",
+      "description": "전사(Warrior)가 대검을 머리 위로 치켜들고 최대 차지 상태까지 모은 뒤, 강력한 수직 하향 베기를 내려치는 기술이다. 차지 단계에 따라 대미지가 배율로 증가하며, 임팩트 지점에 광역 충격파를 발생시켜 주변 적을 강제 넉다운시킨다. 파티 플레이에서 Mystic Spearhand의 지원을 받아 차지 중 무적 상태를 유지하면 최대 위력으로 안전하게 발동할 수 있다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "area-of-effect",
+          "charge-scaling"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~90f (max charge)",
+          "active": "~12f",
+          "recovery": "~50f"
+        }
+      },
+      "designNotes": "차지 시간과 보상이 선형으로 비례하는 설계는 '리스크-리워드'의 교과서적 구조를 보여준다. 긴 선딜은 명확한 취약점이 되지만 최대 차지 시의 강력한 넉다운은 그 위험을 감수할 충분한 유인을 제공한다. 파티 시너지(Mystic Spearhand의 공중 부양, Warfarer 조합)와 결합했을 때 전략적 깊이가 폭발적으로 늘어난다는 점에서 솔로·협동 플레이 모두를 고려한 다층적 설계 의도가 돋보인다. 시각적으로 검이 빛을 발하며 차지되는 연출이 최대 차지 타이밍을 직관적으로 알 수 있게 해주어 명확한 플레이어 피드백을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=MWKgxVnEVH4",
+        "images": [],
+        "wiki": "https://dragonsdogma2.wiki.fextralife.com/Heavenward+Slash",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "overhead-slam",
+        "knockdown",
+        "poise-breaking",
+        "area-of-effect",
+        "risk-reward",
+        "greatsword",
+        "warrior",
+        "charge-scaling",
+        "co-op-synergy"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-004",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Buster Sword",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "브레이버 / Braver",
+      "actionType": "특수기",
+      "description": "Cloud가 ATB 게이지 1칸을 소모하여 도약과 함께 검을 높이 들어 올리고, 적의 머리 위에서 수직으로 강하게 내려치는 시그니처 기술이다. 히트 시 적에게 '프레셔' 게이지를 크게 누적시키며, 이미 프레셔 상태인 적에게 사용하면 '스태거'로 전환하는 주요 수단이 된다. Buster Sword의 무게감과 Cloud의 전투 스타일을 상징하며 전투 국면 전환의 핵심 역할을 담당한다.",
+      "motionType": [
+        "overhead",
+        "leap",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "stagger-buildup",
+          "pressure-amplifier"
+        ],
+        "resourceCost": "ATB 1칸",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~8f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "ATB 소모라는 명확한 리소스 코스트에 비해 스태거 게이지 축적이라는 강력한 전략적 가치를 제공함으로써, '지금 쓸 것인가 아낄 것인가'의 전술적 판단을 매 순간 요구한다. 도약→하강이라는 두 단계 모션은 공격 예고 시간을 주면서도 시각적 카타르시스를 극대화하는 연출 설계로, 원작 FF7의 리미트 기술에서 이어지는 팬 서비스와 전투 기능성을 동시에 달성한다. Stagger 시스템과 깊이 연동된 설계는 단순 피해 도구를 넘어 전투 국면 전환의 핵심 열쇠로 기능하게 만들며, ATB 실시간 시스템 전체의 전략성을 뒷받침하는 앵커 기술로 자리매김한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=DgnX-O1nIvk",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Braver",
+        "gif": null
+      },
+      "tags": [
+        "atb-skill",
+        "overhead-slash",
+        "gap-closer",
+        "stagger-buildup",
+        "iconic-move",
+        "greatsword",
+        "buster-sword",
+        "pressure-system",
+        "resource-management",
+        "finisher"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "1H검"
+      ],
+      "id": "gs-005",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Rebellion",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "하이 타임 / High Time",
+      "actionType": "무기술",
+      "description": "Dante가 Rebellion 대검으로 적을 강하게 위쪽으로 쳐올리는 수직 런처 기술이다. 히트된 적은 공중으로 부양하며 이후 Aerial Rave, Sky Star 등 공중 콤보로의 전환을 자연스럽게 유도한다. 입력 유지(hold) 시 Dante 자신도 적을 따라 공중으로 도약해 공중전을 직접 이어갈 수 있는 분기 옵션이 제공된다.",
+      "motionType": [
+        "slash",
+        "launcher",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "air-launch",
+          "juggle-starter",
+          "self-launch-option",
+          "style-point-amplifier"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~6f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Hold 입력으로 추가 행동(자기 부양)이 분기되는 설계는 단일 입력에 두 개의 전술적 결과를 부여해 중급~고급 플레이어에게 지속적인 발견의 재미를 제공한다. 지상→공중 전환의 '게이트키퍼'로서 이 기술을 통해 콤보 가능성의 공간이 수직으로 확장된다는 점은 DMC 시리즈 전투 설계의 3차원 활용 철학을 잘 보여준다. Style Point 시스템과 결합되어 High Time을 활용한 공중 콤보 유지는 SSS 랭크로 향하는 직접적인 경로가 되어 게임의 핵심 피드백 루프를 강화한다. 빠른 선딜과 명확한 히트 반응은 게임의 빠른 템포와 일치하며 초보자도 즉시 활용할 수 있는 접근성을 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/watch?v=YVPKoh-6bJo",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/High_Time",
+        "gif": null
+      },
+      "tags": [
+        "launcher",
+        "air-juggle",
+        "combo-starter",
+        "vertical-attack",
+        "greatsword",
+        "rebellion",
+        "style-action",
+        "hold-input",
+        "self-launch",
+        "juggle-system"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-006",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Greatsword)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "진 용격참 (True Charged Slash / 真・溜め斬り)",
+      "actionType": "차지 공격",
+      "description": "그레이트소드 최대 위력의 3단 풀충전 피니셔 공격이다. 어깨 뒤로 무기를 당겨 3단계까지 충전한 후 수직으로 강력하게 내리꽂으며, 모션값(MV) 기준 게임 내 단일 타격 최상위 대미지를 자랑한다. 충전 완료 시 몬스터를 강제 다운시키거나 해당 부위를 파괴하는 압도적인 파괴력을 지닌다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "high-damage-single-hit",
+          "part-break"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~108f (3단 충전 완료 기준)",
+          "active": "~8f",
+          "recovery": "~42f"
+        }
+      },
+      "designNotes": "그레이트소드는 MHW에서 '기다림'과 '빈틈 포착'을 핵심 스킬로 만든 무기다. TCS는 충전 레벨이 시각·청각적으로 명확히 구분되어 플레이어가 현재 상태를 즉시 인지할 수 있고, 충전 중단 vs 완성이라는 실시간 의사결정을 지속적으로 요구한다. 몬스터의 행동 사이클을 숙지한 플레이어만이 풀충전을 완성할 수 있어 지식-실행-보상이 직결되는 구조를 형성한다. 충전 성공 후 터지는 굉음과 대미지 숫자는 강력한 피드백 루프를 제공하며, 단일 타격 무기의 극한을 표현한 교과서적 고위험-고보상 설계다.",
+      "mediaLinks": {
+        "youtube": null,
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Great+Sword",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "high-damage",
+        "single-hit",
+        "risk-reward",
+        "punish",
+        "part-break",
+        "knockdown",
+        "patience-gameplay",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-007",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "루드비히의 성검 변형 (Ludwig's Holy Blade - Transformed)",
+      "game": "Bloodborne",
+      "developer": "FromSoftware",
+      "actionName": "전변 충전 내리베기 (Transform Charged Strike)",
+      "actionType": "무기술",
+      "description": "한손검 상태에서 R2 충전 공격 직후 L1을 입력해 양손 대검으로 변형하면서 강력한 수직 내리베기를 동시에 발동하는 기술이다. 변형 모션과 공격이 하나로 합쳐져 예측하기 어려운 타이밍의 큰 대미지를 만들어낸다. Rally(반격 회복) 시스템과 결합하면 피격 직후 이 기술로 반격해 잃은 HP 일부를 즉시 회복할 수 있다.",
+      "motionType": [
+        "combo",
+        "overhead",
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "aura",
+          "shimmer",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "rally-recovery",
+          "poise-breaking",
+          "transform-cancel",
+          "stance-switch",
+          "mix-up"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~20f (변형 후 타격 기준)",
+          "active": "~10f",
+          "recovery": "~36f"
+        }
+      },
+      "designNotes": "루드비히의 성검은 블러드본 트릭 웨폰 시스템의 본질을 가장 명료하게 보여주는 무기다. 변형 공격은 단순한 스탠스 전환이 아니라 그 자체로 완결된 공격 행위이며, 콤보 중간에 삽입해 박자를 뒤흔드는 믹스업 도구로 기능한다. 한손-양손 전환의 파워 곡선이 명확해 상황에 따른 최적 선택을 플레이어 스스로 판단하게 만든다. Rally 메카닉과의 시너지는 '피격 → 즉각 반격 → HP 회복'이라는 극적 서사를 단 두 번의 입력으로 실현시켜, 위험 감수와 능동적 반격이 보상받는 블러드본의 전투 철학을 단일 기술로 압축해 보여준다.",
+      "mediaLinks": {
+        "youtube": null,
+        "images": [],
+        "wiki": "https://bloodborne.wiki.fextralife.com/Ludwig%27s+Holy+Blade",
+        "gif": null
+      },
+      "tags": [
+        "transform-attack",
+        "stance-switch",
+        "rally",
+        "mix-up",
+        "risk-reward",
+        "poise-break",
+        "trick-weapon",
+        "fromsoft",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "1H검"
+      ],
+      "id": "gs-008",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대태도 (Odachi)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "회전베기 (Spinning Blade / 旋風斬り)",
+      "actionType": "무기술",
+      "description": "대태도를 중심축으로 제자리에서 크게 회전하며 360도 범위에 걸쳐 다단 베기를 가하는 스킬이다. 회전 중 여러 차례 연속 타격이 발생하며 마지막 회전에서 강화된 최종타가 발동된다. 광범위 다단히트 특성 덕분에 다수의 적을 동시에 처리하는 군중 제어기로 활용된다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "multi-hit",
+          "360-range"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~16f",
+          "active": "~64f (다단 히트)",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "Nioh 2의 대태도는 '스탠스'와 '기(Ki) 관리'라는 이중 레이어 위에 전투를 설계해, 각 스킬이 특정 상황에 최적화된 역할을 갖는다. 회전베기는 중단 스탠스의 핵심 군중 제어 옵션으로, 광역 커버리지와 다단히트를 통해 다수 적 처리 효율을 극대화한다. 다단히트 구조는 기 펄스(Ki Pulse) 타이밍을 자연스럽게 유도해 고숙련 플레이어가 기 회수를 극대화하도록 설계된 피드백 구조를 갖는다. 길고 화려한 이펙트 지속 시간은 스펙터클을 제공하는 동시에 대태도 고유의 물리적 무게감과 호쾌함을 연출하며, 스탠스 전환을 통해 군중 제어와 강타를 상황에 맞게 선택하게 하는 구조는 전투 판단력을 핵심 역량으로 만드는 Team Ninja 설계 철학의 정수다.",
+      "mediaLinks": {
+        "youtube": null,
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Odachi",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "crowd-control",
+        "multi-hit",
+        "aoe",
+        "ki-management",
+        "stance-system",
+        "360-range",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-009",
+      "addedDate": "2026-03-15"
+    }
+  ]
+}
