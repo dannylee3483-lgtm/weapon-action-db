@@ -18393,6 +18393,79 @@
       ],
       "id": "sw-016",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "Dauntless Shield (무모한 방패)",
+      "game": "God of War Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "이중 연타 패리 (Double Tap Parry / Dauntless Parry)",
+      "actionType": "패리|카운터",
+      "description": "적의 공격이 닿기 직전 L1을 빠르게 두 번 연타하여 강력한 방패 충격파로 반격하는 기술. 기본 가이아드너 방패의 단타 패리보다 입력 타이밍 창이 훨씬 좁지만, 성공 시 광범위한 폭발 충격으로 주변 적들을 경직 및 넉백시킨다. 위험을 감수하는 만큼 훨씬 큰 보상을 제공하는 고위험-고보상 방어 메카닉이다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue",
+          "gold"
+        ],
+        "effectStyle": [
+          "explosion",
+          "shimmer",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "parry",
+          "area-of-effect",
+          "poise-breaking",
+          "knockback",
+          "timing-window"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~8f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "Dauntless Shield는 '더 어려운 입력 = 더 큰 보상'이라는 리스크-리워드 철학을 방패 메카닉에 직접 구현한 사례다. Guardian Shield(단타 패리)와 Dauntless Shield(이중 연타 패리)를 나란히 배치함으로써, 초보자와 숙련자가 동일한 전투 상황에서 전혀 다른 전략적 선택을 내리도록 유도한다. 이중 연타라는 모호한 타이밍 입력이 플레이어에게 지속적인 긴장감을 조성하며, 성공 시 광역 충격파가 방어 행위를 공세적 개입으로 전환시켜 심리적 만족감을 극대화한다. '방어가 곧 공격'이라는 전투 철학을 플레이어가 직접 체감하게 만드는 설계이며, 세 가지 방패 옵션 사이의 스킬-플로어/스킬-실링 격차를 통해 학습 곡선을 자연스럽게 구성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EC%9D%B4%EC%A4%91+%EC%97%B0%ED%83%80+%ED%8C%A8%EB%A6%AC+%28Double+Tap+Parry+%2F+Dauntless+Parry%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Dauntless_Shield",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "counter",
+        "shield",
+        "risk-reward",
+        "double-tap",
+        "timing-based",
+        "area-of-effect",
+        "crowd-control",
+        "defensive-offense",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "방패"
+      ],
+      "id": "sh-013",
+      "addedDate": "2026-03-15"
     }
   ]
 }
