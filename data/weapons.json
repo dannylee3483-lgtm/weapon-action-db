@@ -6347,6 +6347,214 @@
       ],
       "id": "sh-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "버스터 소드 (Buster Sword)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "패니셔 모드 카운터 (Punisher Mode Counter)",
+      "actionType": "카운터",
+      "description": "Cloud이 패니셔 모드(Punisher Mode)로 전환한 상태에서 적의 근거리 일반 공격을 블록하는 순간 자동으로 강력한 반격 베기가 발동된다. 블록 직후 거의 즉각적으로 역베기를 실행하며, 반격 성공 시 ATB 게이지를 빠르게 누적시켜 다음 행동의 선택지를 넓힌다. 단, 투사체와 특수기에는 반응하지 않으므로 공격 유형을 판별하는 상황 판단이 핵심이다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "auto-counter",
+          "atb-gain",
+          "poise-breaking",
+          "guard-point"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "패니셔 모드 카운터는 '공격 특화 모드에도 방어적 보상을 부여'하는 역발상 리스크-리워드 구조를 구현한다. 일반적으로 공격 모드는 방어력을 희생하는 트레이드오프를 갖지만, 이 시스템은 반대로 공격 모드에서 올바른 타이밍에 블록할 경우 더 큰 보상을 주는 능동적 방어를 장려한다. ATB 게이지 누적이라는 리소스 보상이 연동되어, 카운터 성공이 다음 행동의 자유도를 높여주는 긍정적 피드백 루프를 형성한다. 투사체와 특수기에 반응하지 않는 제약은 '만능 반격'을 막는 균형추 역할을 하며, 플레이어가 적 행동 패턴을 능동적으로 학습하도록 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%ED%8C%A8%EB%8B%88%EC%85%94+%EB%AA%A8%EB%93%9C+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28Punisher+Mode+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Punisher_Mode",
+        "gif": null
+      },
+      "tags": [
+        "auto-counter",
+        "mode-switch",
+        "atb-mechanic",
+        "guard-point",
+        "risk-reward",
+        "reactive-defense",
+        "greatsword",
+        "punisher-mode"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "1H검"
+      ],
+      "id": "gs-022",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "투핸디드 소드 (Two-Handed Sword)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "아크 오브 마이트 (Arc of Might)",
+      "actionType": "차지 공격",
+      "description": "워리어(Warrior) 직업의 핵심 차지 스킬로, 대검을 머리 위로 높이 들어올린 후 지면을 내리찍어 광역 충격파를 발생시키는 공격이다. 차지 시간에 따라 3단계로 위력이 강화되며, 최대 차지 시 넓은 반경의 충격파가 다수의 적을 동시에 다운시킨다. 거대 몬스터를 상대로는 부위 파괴를 유발할 만큼의 압도적인 스태거를 부여한다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "AoE",
+          "charge-levels",
+          "part-break"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60-120f (차지 단계에 따라)",
+          "active": "~15f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "아크 오브 마이트는 차지 공격 설계의 교과서적 사례를 보여준다. 3단계 차지 시스템은 플레이어에게 '얼마나 기다릴 것인가'라는 지속적인 의사결정 압박을 부여하며, 각 단계마다 뚜렷한 시각·청각 피드백으로 현재 차지 상태를 즉각 전달한다. 긴 선딜레임이라는 높은 리스크는 부위 파괴와 광역 다운이라는 압도적 보상으로 균형을 맞추며, 특히 거대 몬스터 전투에서 '완벽한 타이밍을 기다리는 긴장감'을 핵심 재미 요소로 만든다. 워리어 직업의 정체성인 '묵직한 물리적 판타지'를 시각적 무게감 및 카메라 흔들림과 결합해 히트감을 극대화한 점도 탁월하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%95%84%ED%81%AC+%EC%98%A4%EB%B8%8C+%EB%A7%88%EC%9D%B4%ED%8A%B8+%28Arc+of+Might%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Arc_of_Might_(Dragon%27s_Dogma_2)",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "aoe",
+        "knockdown",
+        "part-break",
+        "risk-reward",
+        "poise-breaking",
+        "two-handed",
+        "warrior-vocation",
+        "greatsword"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-023",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "오다치 (Odachi / 大太刀)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "월영설 (月影の雪 / Moonlit Snow)",
+      "actionType": "무기술",
+      "description": "오다치 상단 자세(上段)에서 발동하는 3연격 콤보 무기술로, 첫 번째와 두 번째 타격은 빠른 횡베기로 적의 기력(Ki)을 대량 삭감하고 세 번째 타격이 전방 광범위한 강력한 오버헤드 참격으로 마무리된다. 발동 중 캐릭터가 전방으로 이동하며 적을 추격하는 기동성이 내장되어 있어 도주하는 적도 끝까지 포착한다. 세 번째 타격의 Ki 피해량이 특히 높아 기력 파괴(Ki Break)로 연결하는 확정 딜 루트로 자주 활용된다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "poise-breaking",
+          "ki-damage",
+          "multi-hit"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~30f (3타 합산)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "월영설은 오다치의 느리고 묵직한 이미지와 상반되는 유동적인 3연격을 통해 '대형 무기의 의외성'을 재미 요소로 삼는다. 첫 두 타격이 빠른 속도로 기력을 깎아내고 세 번째 타격이 기 파괴 직전의 적에게 결정타를 꽂는 3단 구조는 니오 2의 기력 관리 시스템과 유기적으로 맞물린다. 추격 기동성이 내장되어 있어 단순한 딜링 스킬을 넘어 공간 제어 도구로도 기능하며, 무기술 발동에 필요한 기력 소비라는 리소스 관리가 사용 빈도를 자연스럽게 조절한다. 시각적으로도 세 타격이 각기 다른 궤적을 그려 단조롭지 않은 전투 리듬감을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%9B%94%EC%98%81%EC%84%A4+%28%E6%9C%88%E5%BD%B1%E3%81%AE%E9%9B%AA+%2F+Moonlit+Snow%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Moonlit+Snow",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "ki-damage",
+        "gap-closer",
+        "combo-finisher",
+        "odachi",
+        "greatsword",
+        "stance-based",
+        "ki-break",
+        "active-skill"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-024",
+      "addedDate": "2026-03-15"
     }
   ]
 }
