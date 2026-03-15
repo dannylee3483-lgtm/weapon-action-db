@@ -15644,6 +15644,77 @@
       ],
       "id": "ax-019",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "전쟁낫 (War Scythe)",
+      "game": "Final Fantasy XIV Online",
+      "developer": "Square Enix",
+      "actionName": "코무니오 / Communio",
+      "actionType": "특수기",
+      "description": "리퍼(Reaper) 직업이 앙상블 상태(Enshroud)에서 이계인(Avatar)과 완전히 합체한 후 발동하는 광역 폭발기. Lemure Shroud 5스택을 전부 소모하여 전방에 허공(Void)의 어둠 에너지를 집중·폭발시키며, 검보라색 충격파가 범위 내 적에게 강력한 피해를 입힌다. Enshroud 사이클의 대미를 장식하는 피니셔로, 발동 직후 일반 상태로 복귀한다.",
+      "motionType": [
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black"
+        ],
+        "effectStyle": [
+          "explosion",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "burst-finisher",
+          "resource-dump",
+          "void-energy",
+          "aoe"
+        ],
+        "resourceCost": "Lemure Shroud x5 (Enshroud 상태 자동 종료)",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~12f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Communio는 리퍼의 Enshroud 사이클을 완성하는 폭발 피니셔로, '자원을 전량 소진해야 최대 위력 발휘'라는 리스크-리워드 구조의 교과서적 사례다. 플레이어는 파티 버프 창(party buff window)과 Enshroud 진입 타이밍을 정렬해야 하며, 개인 리소스 관리와 파티 협력이 교차하는 복합 판단 요소를 만들어낸다. 검보라색 허공 에너지가 응축되었다가 한꺼번에 터지는 시청각 연출은 '해방'의 쾌감을 극대화하여 피니셔로서의 카타르시스를 명확하게 전달한다. '5스택 완전 소비 후에만 발동 가능'한 구조는 중도 이탈을 설계적으로 차단하고 플레이어가 사이클을 끝까지 완주하도록 행동을 유도하는 훌륭한 강제 완결 메커니즘이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+Online+%EC%BD%94%EB%AC%B4%EB%8B%88%EC%98%A4+%2F+Communio+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Communio",
+        "gif": null
+      },
+      "tags": [
+        "void-magic",
+        "burst-finisher",
+        "resource-management",
+        "enshroud-cycle",
+        "aoe",
+        "dark-element",
+        "mmorpg",
+        "scythe",
+        "phase-mechanic",
+        "peak-dps"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "전쟁낫"
+      ],
+      "id": "sc-010",
+      "addedDate": "2026-03-15"
     }
   ]
 }
