@@ -22391,6 +22391,73 @@
       ],
       "id": "wh-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Bare-Knuckle Martial Arts)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "카운터 그래플 / Counter Grapple",
+      "actionType": "카운터",
+      "description": "적의 공격이 들어오기 직전 타이밍에 그래플 버튼을 눌러 Wei Shen이 적을 붙잡고 주변 환경 오브젝트에 내리꽂는 카운터 공격. 근처에 차 보닛, 전기 박스, 화로, 가스레인지 등 '환경 위험 요소'가 존재할 경우 해당 오브젝트에 연계된 처형 연출이 자동 발동된다. 단순한 반격을 넘어 전장 지형 읽기와 적 위치 유도가 전술의 핵심이 된다.",
+      "motionType": [
+        "counter",
+        "throw"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "environmental-kill",
+          "context-sensitive",
+          "knockdown",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f (카운터 윈도우 내)",
+          "active": "~20f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "카운터 그래플은 '적 행동 예측'과 '공간 인식'을 동시에 요구하는 이중 레이어 스킬 체크로, 단순 버튼 반응 이상의 전략적 깊이를 제공한다. 환경 처형 연출은 플레이어가 전장을 능동적으로 읽고 활용하도록 유도하며, 매 전투를 서로 다른 시네마틱 경험으로 변환하는 '절차적 내러티브' 설계 원칙의 교과서적 사례다. 방어 행동(카운터)에 공격적 보상(환경 처형)을 결합함으로써 리스크-리워드 역전 구조를 완성하며, 수세적 플레이를 선택해도 위협적 결과를 낼 수 있다는 점이 전투 다양성을 극적으로 높인다. 타격음, 슬로우 모션 연출, 적 반응 애니메이션 등 다중 감각 피드백이 카운터 성공 시 강렬한 숙련 만족감을 제공하는 점도 탁월한 피드백 루프 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EA%B7%B8%EB%9E%98%ED%94%8C+%2F+Counter+Grapple+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "environmental-kill",
+        "grapple",
+        "context-sensitive",
+        "open-world",
+        "martial-arts",
+        "risk-reward",
+        "cinematic",
+        "timing-based"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손 격투"
+      ],
+      "id": "ft-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
