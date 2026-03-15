@@ -19680,6 +19680,78 @@
       ],
       "id": "ft-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "한손 검 (One-Handed Sword)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "맹공 연격 / Flurry Rush",
+      "actionType": "카운터",
+      "description": "적의 공격 직전 완벽한 타이밍에 회피(백스텝 또는 사이드스텝)를 성공하면 주변 시간이 슬로우 모션으로 전환된다. 이 상태에서 링크가 빠른 속도로 검을 수십 회 연속 휘두르는 집중 공격을 가하며, 버튼 연타 횟수에 따라 총 피해량이 달라진다. 슬로우 모션이 끝나면 전투가 정상 속도로 돌아오며, 다수의 타격 누적으로 보스와 강적 처치에 특히 효과적이다.",
+      "motionType": [
+        "dodge-cancel",
+        "combo",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "multi-hit",
+          "perfect-dodge-trigger",
+          "no-resource-cost"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f (회피 성공 직후 즉시)",
+          "active": "~120f (슬로우 모션 지속 구간)",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "맹공 연격은 '완벽한 회피'라는 고위험 행동에 슬로우 모션과 다중 타격이라는 극적인 보상을 결합해, 방어적 행동을 최고의 공격 기회로 재정의하는 디자인이다. 슬로우 모션 연출 자체가 성공 여부를 즉각적으로 시각화하는 피드백 역할을 하며, 플레이어에게 강한 통제감과 만족감을 동시에 선사한다. 버튼 연타에 따라 추가 타격이 누적되는 구조는 숙련자일수록 더 많은 보상을 얻는 스킬 표현의 층위를 만들어, 입문자와 고수 모두 각자의 방식으로 성취감을 느낄 수 있게 한다. 검·창·양손검 등 무기 종류에 관계없이 동일하게 발동되는 범용 메카닉으로 설계해 무기 다양성을 해치지 않으면서도 '타이밍이 스펙을 이긴다'는 전투 철학을 일관되게 전달한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EB%A7%B9%EA%B3%B5+%EC%97%B0%EA%B2%A9+%2F+Flurry+Rush+gameplay",
+        "images": [],
+        "wiki": "https://zelda.wiki.gg/wiki/Flurry_Rush",
+        "gif": null
+      },
+      "tags": [
+        "perfect-dodge",
+        "counter",
+        "time-slow",
+        "multi-hit",
+        "combo",
+        "dodge-cancel",
+        "risk-reward",
+        "punish",
+        "universal-mechanic",
+        "skill-expression"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "창",
+        "대검"
+      ],
+      "id": "sw-018",
+      "addedDate": "2026-03-16"
     }
   ]
 }
