@@ -17053,6 +17053,75 @@
       ],
       "id": "wh-015",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "마셜 아츠 (Martial Arts / 格闘術)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "역공 잡기 (Grapple Counter / 逆攻格闘)",
+      "actionType": "카운터",
+      "description": "적의 공격이 들어오는 직전 타이밍에 카운터 버튼을 입력하면, 웨이 선이 상대의 팔을 흘려내며 즉시 몸통을 잡아채는 역공 잡기를 발동한다. 잡기 성공 후 근처 환경 오브젝트(차 보닛, 가스레인지, 전기 분전함 등)로 끌고 가 처형하는 '환경 마무리(Environmental Kill)'로 자동 연계되며, 주변의 다른 적들이 이를 목격해 일시적으로 위축되는 심리적 부수 효과도 발생한다. 경찰 잠입 요원 출신인 웨이의 거리 격투 스타일—절도 있는 제압 후 상황 장악—을 가장 압축적으로 표현하는 핵심 메카닉이다.",
+      "motionType": [
+        "counter",
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "counter-window",
+          "environmental-kill",
+          "crowd-control",
+          "knockdown",
+          "one-hit-ko-context"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f (카운터 판정 창 약 10f)",
+          "active": "~8f",
+          "recovery": "~22f (환경 마무리 미연계 시)"
+        }
+      },
+      "designNotes": "Sleeping Dogs의 역공 잡기는 '능동적 수비'를 전투의 핵심 언어로 삼은 디자인 철학의 정수다. 피하거나 막는 대신 상대의 공격 모션에 몸을 맡겨 잡아채는 행동은 타이밍 숙련도와 심리적 대담함을 동시에 요구하며, 성공 시 환경 오브젝트 활용 처형이라는 극적 보상으로 이어져 리스크-리워드 곡선이 매우 가파르다. 이 시스템은 레벨 디자인(주방, 주차장, 나이트클럽 등 밀집 공간)과 전투를 유기적으로 통합해, 단순한 반사 반응을 '공간 독해 능력'으로 격상시킨다. 목격한 적이 위축·도주하는 군중 반응 피드백은 한 번의 성공적 카운터가 전황 자체를 뒤집는 경험을 제공하며, 실제 격투 심리전—선제 제압으로 다수를 무력화—을 게임 메카닉으로 번역한 우수한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%EC%97%AD%EA%B3%B5+%EC%9E%A1%EA%B8%B0+%28Grapple+Counter+%2F+%E9%80%86%E6%94%BB%E6%A0%BC%E9%97%98%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "grapple",
+        "environmental-kill",
+        "risk-reward",
+        "martial-arts",
+        "timing-based",
+        "crowd-control",
+        "punish",
+        "context-kill"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "격투"
+      ],
+      "id": "ft-014",
+      "addedDate": "2026-03-15"
     }
   ]
 }
