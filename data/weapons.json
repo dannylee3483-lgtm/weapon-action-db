@@ -22177,6 +22177,76 @@
       ],
       "id": "ft-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "스틸 소드 / 실버 소드 (Steel/Silver Sword)",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt RED",
+      "actionName": "회오리 베기 / Whirl",
+      "actionType": "무기술",
+      "description": "게롤트가 검을 쥔 채 제자리에서 연속 회전하며 주변 360도의 적에게 반복적인 베기 피해를 입히는 지속형 공격이다. 공격 버튼을 누른 채로 유지하는 동안 계속 회전하며, 스태미나가 소진되거나 버튼을 놓으면 종료된다. 다수의 적이 밀집한 상황에서 강력한 범위 제어를 발휘하지만, 회전 중에는 이동이 제한되어 적의 반격에 취약해진다.",
+      "motionType": [
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "sustained-damage",
+          "360-hitbox",
+          "stamina-drain"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "지속형 (버튼 유지)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Whirl은 '버튼을 얼마나 오래 유지하느냐'에 따라 리스크와 리워드가 선형적으로 증가하는 구조로, 단순한 홀드 입력 안에 깊은 판단을 내재시킨 설계다. 회전 중 이동 불가와 빠른 스태미나 소모라는 명확한 패널티가 있어, 다수의 적을 상대할 때 포지셔닝과 타이밍 판단을 동시에 요구한다. 사전에 오일이나 증강제를 적용하면 지속 피해가 크게 상승하므로, 전투 준비 단계와 실행 단계를 유기적으로 연결하는 설계 의도도 담겨 있다. 숙련자는 적의 공격 패턴 사이 짧은 공백에만 회전을 삽입하여 리스크를 최소화하는 반면, 초보자는 무분별하게 사용해 역공을 맞는 차별화된 학습 곡선을 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%ED%9A%8C%EC%98%A4%EB%A6%AC+%EB%B2%A0%EA%B8%B0+%2F+Whirl+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Whirl",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "crowd-control",
+        "stamina-management",
+        "sustained-damage",
+        "hold-mechanic",
+        "aoe",
+        "risk-reward",
+        "360-attack",
+        "multi-target",
+        "open-world-rpg"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "스틸 소드",
+        "실버 소드"
+      ],
+      "id": "sw-022",
+      "addedDate": "2026-03-16"
     }
   ]
 }
