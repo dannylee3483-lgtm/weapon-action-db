@@ -5929,6 +5929,212 @@
       ],
       "id": "sw-003",
       "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "암흑 마법 지팡이 (Dark Arts Wand)",
+      "game": "Hogwarts Legacy",
+      "developer": "Avalanche Software",
+      "actionName": "아바다 케다브라 / Avada Kedavra",
+      "actionType": "특수기",
+      "description": "세바스찬 솔로우의 퀘스트라인을 완료한 후 해금되는 세 가지 용서받지 못할 저주 중 하나. 지팡이를 겨누고 주문을 발동하면 강렬한 녹색 광선이 발사되어 일반 적을 즉사시킨다. 쿨다운이 매우 길며, 대형 보스에게는 즉사가 적용되지 않는 대신 막대한 대미지를 준다.",
+      "motionType": [
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "green",
+          "black"
+        ],
+        "effectStyle": [
+          "beam",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "one-shot-kill",
+          "poise-breaking",
+          "boss-execution"
+        ],
+        "resourceCost": "쿨다운 (매우 긴 재사용 대기)",
+        "frameApprox": {
+          "startup": "~72f",
+          "active": "~8f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "아바다 케다브라는 '리스크 없는 즉사'라는 강력한 판타지를 제공하면서도 극단적으로 긴 쿨다운을 통해 리소스 관리 압박을 설계한다. 해금 자체를 도덕적 선택지(악의 마법을 배울 것인가)와 결합하여 기술 획득이 단순한 능력 해금이 아니라 플레이어의 서사적 결정처럼 느껴지게 만든다. 즉사 효과는 전투 복잡성을 일시적으로 해소하는 카타르시스를 제공하며, 보스에 대한 '조건부 즉사'가 아닌 '대폭 강화된 대미지'로 설계한 점이 보스 전투의 긴장감을 유지한다. 비주얼 피드백(녹색 광선, 적의 즉사 연출)이 강렬하여 발동 자체가 플레이어에게 강한 임팩트를 남긴다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hogwarts+Legacy+%EC%95%84%EB%B0%94%EB%8B%A4+%EC%BC%80%EB%8B%A4%EB%B8%8C%EB%9D%BC+%2F+Avada+Kedavra+gameplay",
+        "images": [],
+        "wiki": "https://hogwartslegacy.fandom.com/wiki/Avada_Kedavra",
+        "gif": null
+      },
+      "tags": [
+        "instant-kill",
+        "dark-magic",
+        "cooldown-management",
+        "high-risk-reward",
+        "one-shot",
+        "boss-execution",
+        "moral-choice",
+        "green-beam"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-001",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "피닉스 에이콘 능력 (Phoenix Eikon Power)",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix / Creative Business Unit III",
+      "actionName": "피닉스 시프트 / Phoenix Shift",
+      "actionType": "특수기",
+      "description": "클라이브가 피닉스의 힘을 사용해 불꽃 잔상을 남기며 목표 적에게 순식간에 쇄도하는 고속 돌진 기술. 이동 중 불꽃 대미지를 주며, 근접 공격 콤보의 선행 진입 수단으로 기능한다. 어빌리티 슬롯에 장착하여 에이콘 능력 게이지(Ability Points) 없이 쿨다운 기반으로 사용한다.",
+      "motionType": [
+        "charge",
+        "gap-closer",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "fire-trail",
+          "evasion-tool",
+          "combo-initiator"
+        ],
+        "resourceCost": "쿨다운 (짧음)",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~25f",
+          "recovery": "~12f"
+        }
+      },
+      "designNotes": "피닉스 시프트는 마법 기반 액션 게임에서 '이동'과 '공격'의 이분법을 해소한 설계 사례다. 이동 자체가 대미지를 발생시키므로 적 간 이동이 낭비 없는 공격 행위가 되어 플레이어의 행동 효율을 극대화한다. 쿨다운이 짧아 콤보 루프 내에서 반복 사용이 가능하며, 이는 근접 타격 → 시프트 → 근접 타격의 리드미컬한 루프를 자연스럽게 유도한다. 시각적으로 불꽃 궤적이 뚜렷하여 플레이어가 공간을 가로지르는 '불사조의 비행' 판타지를 직관적으로 체험할 수 있다. 에이콘 교체 시스템과 결합해 이 기술은 하나의 빌딩 블록으로 기능하며, 플레이어가 다양한 에이콘 조합을 실험하도록 장려한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%ED%94%BC%EB%8B%89%EC%8A%A4+%EC%8B%9C%ED%94%84%ED%8A%B8+%2F+Phoenix+Shift+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Phoenix_Shift",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "fire",
+        "eikon-ability",
+        "mobility",
+        "combo-initiator",
+        "action-rpg",
+        "seamless-magic-melee",
+        "dash"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-002",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "텔레키네시스 능력 (Telekinetic Service Weapon)",
+      "game": "Control",
+      "developer": "Remedy Entertainment",
+      "actionName": "투척 / Launch",
+      "actionType": "특수기",
+      "description": "제시 페이든이 환경 내 물체(콘크리트 파편, 사무용품 등)를 텔레키네시스로 집어올린 뒤 고속으로 발사하는 초능력. 투척물의 종류에 따라 대미지와 관통력이 다르며, 적을 명중 시 뒤로 날려 보내는 강력한 경직을 부여한다. 마나 대신 에너지 게이지를 소모하며 충전 시간이 필요하다.",
+      "motionType": [
+        "throw",
+        "charge"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "white",
+          "purple",
+          "cyan"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "launcher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "environmental-interaction",
+          "crowd-control"
+        ],
+        "resourceCost": "에너지 게이지 (Energy)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~6f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Launch는 전투 공간 자체를 무기화하는 '환경 파괴 기반 전투'의 핵심 설계 사례다. 플레이어는 의도적으로 장애물을 부수거나 적을 특정 위치로 몰아 투척 가능 물체를 확보하는 전략적 사고를 하게 되며, 이는 전투 공간을 단순한 이동 지형이 아니라 능동적 자원으로 인식하게 만든다. 발사체의 다양성(크기, 재질, 무게)이 대미지 차이를 직관적으로 전달하므로 별도의 튜토리얼 없이도 플레이어가 '큰 물체 = 강한 공격'을 자연스럽게 학습한다. 강한 경직과 넉백이 결합되어 군중 제어 수단으로도 기능하며, 이는 다수의 적을 마주하는 Control의 전투 설계 의도와 정확히 맞닿아 있다. SFX와 VFX(파편이 공중에 떠오르며 보라색 에너지로 감싸이는 연출)가 초능력 판타지를 강력하게 강화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Control+%ED%88%AC%EC%B2%99+%2F+Launch+gameplay",
+        "images": [],
+        "wiki": "https://control.fandom.com/wiki/Launch",
+        "gif": null
+      },
+      "tags": [
+        "telekinesis",
+        "environmental-interaction",
+        "crowd-control",
+        "knockback",
+        "resource-management",
+        "poise-breaking",
+        "projectile",
+        "physics-based"
+      ],
+      "applicableWeapons": [
+        "마법"
+      ],
+      "id": "mg-003",
+      "addedDate": "2026-03-15"
     }
   ]
 }
