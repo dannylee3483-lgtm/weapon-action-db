@@ -25315,6 +25315,79 @@
       ],
       "id": "ax-030",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "War Scythe (전쟁 낫)",
+      "game": "Final Fantasy XIV Online",
+      "developer": "Square Enix",
+      "actionName": "수확의 달 / Harvest Moon",
+      "actionType": "특수기",
+      "description": "대지에 영혼의 씨앗을 심는 '영혼 파종(Soulsow)' 버프를 보유한 상태에서만 발동 가능한 광역 원거리 낫 공격이다. 낫을 크게 휘둘러 강렬한 에너지 파동을 방출하며, 전방의 모든 적에게 광역 암흑 피해를 입힌다. Soulsow 버프가 소비되기 때문에 준비 타이밍과 사용 타이밍의 선택이 이 액션의 핵심이다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "wave",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "aoe",
+          "conditional-use",
+          "ranged-melee-hybrid",
+          "burst-window-opener"
+        ],
+        "resourceCost": "Soulsow 버프 소비 (쿨다운 없음, 조건부 발동)",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Harvest Moon은 '파종(Soulsow)'과 '수확(Harvest Moon)'이라는 농경 은유를 전투 메카닉으로 구현한 독창적 설계다. Soulsow는 전투 외 상황이나 보스 Phase 전환 중 빈 시간에만 시전 가능하고, Harvest Moon은 그 버프를 폭발적으로 소비하는 구조로 '준비-폭발' 리듬을 형성한다. 이는 플레이어로 하여금 전투 외 여백을 전략적 준비 기회로 인식하게 만들며, 레이드 보스의 다운타임 패턴을 숙지할수록 DPS가 직접 상승하는 숙련도-보상 연동 구조를 구현한다. 근접 무기인 낫으로 원거리 광역 공격을 수행한다는 점에서 '근접 무기 = 근거리 한정' 고정관념을 깨고 포지셔닝 유연성을 제공한다. 테마적 일관성(리퍼 판타지)과 게임플레이 원칙이 완벽하게 일치하는 디자인의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+Online+%EC%88%98%ED%99%95%EC%9D%98+%EB%8B%AC+%2F+Harvest+Moon+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Harvest_Moon",
+        "gif": null
+      },
+      "tags": [
+        "conditional-activation",
+        "aoe",
+        "downtime-prep",
+        "ranged-scythe",
+        "resource-management",
+        "soul-mechanic",
+        "burst-window",
+        "skill-expression",
+        "phase-transition",
+        "mmo-action"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "War Scythe"
+      ],
+      "id": "sc-020",
+      "addedDate": "2026-03-16"
     }
   ]
 }
