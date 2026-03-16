@@ -24601,6 +24601,77 @@
       ],
       "id": "wh-031",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Bare-Knuckle Martial Arts)",
+      "game": "Sleeping Dogs",
+      "developer": "United Front Games",
+      "actionName": "카운터 테이크다운 (Counter Takedown)",
+      "actionType": "카운터",
+      "description": "적이 공격 직전 붉은 빛으로 번쩍일 때 정확한 타이밍에 반격을 입력하면 Wei Shen이 상대를 잡아 환경 오브젝트(전신주, 차 보닛, 테이블 등)에 내던지거나 즉석 관절기를 시전한다. 환경에 따라 다양한 피니시 모션이 재생되며, 일반 카운터보다 대폭 높은 피해와 연속 기절 효과를 부여한다. 성공 시 주변 군중 반응과 함께 Wei Shen의 전투 위신(Face) 점수도 상승한다.",
+      "motionType": [
+        "counter",
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "environmental-kill",
+          "context-sensitive",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~8f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "붉은 섬광이라는 단일하고 직관적인 시각 신호로 카운터 타이밍을 명확하게 전달하며, 플레이어가 위험 부담을 감수하는 고위험-고보상 선택을 자연스럽게 내리도록 유도한다. 환경 오브젝트와 연동된 수십 가지 상황별 피니시 연출은 반복 전투에서도 신선함을 유지시키고, 공간 인식을 전투 스킬로 전환하는 독창적인 설계다. 리스크(공격 판정 일시 수용)와 리워드(환경 KO 또는 즉각 제압)의 비율이 정교하게 조율되어 초보자는 기본 반격으로, 숙련자는 환경 연계 콤보로 플레이 깊이를 확장할 수 있다. 또한 성공 시 위신 점수 보상을 연결함으로써 전투 스킬과 서사적 보상 회로를 통합한 점은 오픈 월드 격투 설계의 우수한 참고 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sleeping+Dogs+%EC%B9%B4%EC%9A%B4%ED%84%B0+%ED%85%8C%EC%9D%B4%ED%81%AC%EB%8B%A4%EC%9A%B4+%28Counter+Takedown%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "environmental-kill",
+        "risk-reward",
+        "context-sensitive",
+        "timing-based",
+        "takedown",
+        "open-world",
+        "martial-arts",
+        "visual-cue",
+        "face-system"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "격투"
+      ],
+      "id": "ft-028",
+      "addedDate": "2026-03-16"
     }
   ]
 }
