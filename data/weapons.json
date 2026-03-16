@@ -32296,6 +32296,75 @@
       ],
       "id": "mg-026",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "Two-Handed Hammer (양손 해머)",
+      "game": "Warhammer: Vermintide 2",
+      "developer": "Fatshark",
+      "actionName": "양손 해머 갑옷 관통 강타 / Two-Handed Hammer Overhead Charged Strike",
+      "actionType": "차지 공격",
+      "description": "바딘 고렉슨이 양손 해머를 머리 위로 높이 들어올린 뒤 전방 단일 대상에게 수직으로 강력한 낙하 타격을 가하는 차지 공격이다. 갑옷 관통(Armor Penetration) 특성을 보유하여 완전 차지 상태에서의 타격은 엘리트 및 중갑 적에게도 유효타를 넣을 수 있다. 집중된 단일 타격 구조로 광역 소탕이 아닌 고가치 표적의 즉각 제거에 특화되어 있다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gray",
+          "white"
+        ],
+        "effectStyle": [
+          "none",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "armor-penetration",
+          "knockdown"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~42f",
+          "active": "~8f",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "Vermintide 2의 양손 해머 강타는 '역할 분담 무기 설계'의 교과서적 사례로, 기본 경타가 다수의 약한 적을 수평으로 쓸어내는 역할이라면 강타는 갑옷 관통 수직 타격으로 엘리트 적을 처리하는 역할을 명확히 분리한다. 이 이분법적 구조는 플레이어가 전장 상황을 읽고 적의 유형에 따라 공격 방식을 전환하도록 자연스럽게 유도하며, 협동 플레이에서 역할 분담의 필요성도 강화한다. 무거운 타격음과 적이 화면 밖으로 날아가는 피드백이 리스크(긴 선딜)에 걸맞은 보상감을 제공하며, 유사한 '묵직한 무기' 군 내에서 해머만의 정체성을 확립한다. 차지 타이밍을 요구하는 구조는 단순히 강력한 버튼을 누르는 것이 아니라 상황 판단 능력을 게임플레이 스킬로 전환시키는 좋은 설계 원칙을 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warhammer%3A+Vermintide+2+%EC%96%91%EC%86%90+%ED%95%B4%EB%A8%B8+%EA%B0%91%EC%98%B7+%EA%B4%80%ED%86%B5+%EA%B0%95%ED%83%80+%2F+Two-Handed+Hammer+Overhead+Charged+Strike+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "armor-penetration",
+        "crowd-control",
+        "stagger",
+        "overhead-strike",
+        "charge-attack",
+        "elite-killer",
+        "cooperative",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "Two-Handed Hammer",
+        "War Hammer",
+        "Great Hammer"
+      ],
+      "id": "hm-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
