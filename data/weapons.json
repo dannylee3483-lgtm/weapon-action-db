@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 05:53",
+  "lastUpdated": "2026-03-17 05:55",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32751,6 +32751,76 @@
       ],
       "id": "sw-032",
       "addedDate": "2026-03-17 05:51"
+    },
+    {
+      "weaponCategory": "건블레이드",
+      "weaponSubtype": "Blaze Edge (변형 건블레이드)",
+      "game": "Lightning Returns: Final Fantasy XIII",
+      "developer": "Square Enix",
+      "actionName": "아미 오브 원 / Army of One",
+      "actionType": "특수기|콤보",
+      "description": "라이트닝이 Blaze Edge를 검 모드와 총 모드로 고속 전환하며 단일 대상에게 수십 회의 타격을 퍼붓는 시그니처 어빌리티. 초반 연속 베기 후 총신으로 전환해 사격, 다시 검날로 마무리하는 3단 페이즈 구조로 구성된다. 마지막 일격은 검과 총을 동시에 기폭시키는 폭발성 피니시로 강렬한 시각적 클라이맥스를 제공한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "purple",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "stagger-exploit",
+          "transform-weapon"
+        ],
+        "resourceCost": "ATB 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~150f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Army of One은 건블레이드라는 하이브리드 무기의 정체성을 가장 극적으로 압축한 기술로, 검과 총의 역할 전환을 단일 어빌리티 안에서 서사적으로 연출한다. 다수의 히트가 빠르게 이어지는 구조는 히트스톱과 효과음 레이어링으로 타격감을 지속적으로 누적시키며, 피니시 폭발이 명확한 종료 신호를 제공해 플레이어에게 서사적 만족감을 선사한다. LR:FF13의 실시간 전투에서 이 기술은 ATB 소모량 대비 높은 위력을 갖도록 설계되어, 타이밍과 리소스 관리의 리스크-리워드 구조를 형성한다. 무기 변형이 단순한 시각 연출이 아닌 실제 히트 패턴 변화로 구현되어, 건블레이드가 '총기이면서 검'이라는 개념을 전투 메카닉 수준에서 설득력 있게 전달한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lightning+Returns%3A+Final+Fantasy+XIII+%EC%95%84%EB%AF%B8+%EC%98%A4%EB%B8%8C+%EC%9B%90+%2F+Army+of+One+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "gunblade",
+        "multi-hit",
+        "sword-gun-hybrid",
+        "transform-weapon",
+        "stagger-exploit",
+        "finisher",
+        "lightning",
+        "final-fantasy",
+        "action-rpg"
+      ],
+      "applicableWeapons": [
+        "건블레이드"
+      ],
+      "id": "gb-003",
+      "addedDate": "2026-03-17 05:55"
     }
   ]
 }
