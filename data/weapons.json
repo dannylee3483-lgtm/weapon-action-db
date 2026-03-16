@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:50",
+  "lastUpdated": "2026-03-17 07:51",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37264,6 +37264,77 @@
       ],
       "id": "wh-057",
       "addedDate": "2026-03-17 07:50"
+    },
+    {
+      "weaponCategory": "사슬낫",
+      "weaponSubtype": "쿠사리가마 (鎖鎌)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "수차 (水車 / Waterwheel)",
+      "actionType": "무기술",
+      "description": "쿠사리가마의 추를 단 쇠사슬을 몸 주위로 크게 원형으로 회전시키며 전방위 광역 타격을 가하는 무기술이다. 회전 중 범위 내 적에게 연속 타격이 적용되어 기력(Ki)을 지속적으로 삭감하며, 모션 종료 직전 추가 입력으로 낫 베기 공격으로 자연스럽게 이어지는 캔슬 구조를 갖추고 있다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gray"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "ender"
+        ],
+        "specialProperties": [
+          "ki-damage",
+          "crowd-control",
+          "360-hitbox",
+          "multi-hit"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~42f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "수차는 사슬낫이라는 무기의 물리적 본질—무거운 추를 달아 원심력을 극대화하는 구조—을 가장 직관적으로 시각화한 액션이다. 360도 광역 판정은 포위 상황에서 유효한 리스크 해소 수단이 되며, Ki 삭감 효과는 이 기술이 단순 대미지 딜링을 넘어 적의 가드와 스탠스를 무너뜨리는 전략적 도구임을 게임플레이로 직접 전달한다. 회전 모션 중 본인도 피격에 취약하다는 구조적 취약점은 리스크-리워드 판단을 강제하여 숙련 플레이어가 상황을 읽어 사용하는 맥락을 만든다. 캔슬 입력 창을 통한 낫 베기 연계 옵션은 기술을 마무리로 쓸지 브릿지로 쓸지를 플레이어가 결정하게 하여 숙련도에 따른 플레이 깊이를 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%88%98%EC%B0%A8+%28%E6%B0%B4%E8%BB%8A+%2F+Waterwheel%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh2.wiki.fextralife.com/Kusarigama",
+        "gif": null
+      },
+      "tags": [
+        "kusarigama",
+        "spin-attack",
+        "ki-damage",
+        "crowd-control",
+        "chain-weapon",
+        "360-attack",
+        "multi-hit",
+        "combo-cancel",
+        "area-of-effect"
+      ],
+      "applicableWeapons": [
+        "사슬낫",
+        "채찍",
+        "쌍절곤"
+      ],
+      "id": "ks-001",
+      "addedDate": "2026-03-17 07:51"
     }
   ]
 }
