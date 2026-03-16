@@ -23887,6 +23887,82 @@
       ],
       "id": "sh-017",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "스위치액스 (Switch Axe)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "비상용검 (飛翔竜剣 / Soaring Wyvern Blade)",
+      "actionType": "실크바인드 기술",
+      "description": "벌레실을 사용해 공중으로 도약한 후, 도끼 모드로 연속 내리치기를 가하다가 착지 직전 검 모드로 전환해 강력한 속성 방출을 터뜨리는 기술이다. 체공 중에는 몬스터의 지상 공격을 자연스럽게 회피하면서 다단 히트를 쌓을 수 있다. 피알(Phial) 게이지를 빠르게 소진해 한 동작 안에 최대 딜을 압축 전달한다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "combo",
+        "slash"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "white",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "launcher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aerial-evasion",
+          "poise-breaking",
+          "phial-discharge",
+          "multi-hit",
+          "gap-closer"
+        ],
+        "resourceCost": "벌레실 게이지 1개",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~60f (체공 전체 구간)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "Soaring Wyvern Blade는 '무기 형태 전환'이라는 스위치액스의 핵심 판타지를 수직 공간까지 확장한 사례다. 단순한 공중 공격이 아니라, 도끼→검 전환 타이밍을 플레이어가 눈으로 확인하며 수행하는 능동적 조작이 피알 폭발의 만족감을 증폭시킨다. 도약 자체가 회피 판정을 겸하므로 몬스터의 연속 공격을 '도망치지 않고 뚫고 올라가는' 시각적 쾌감을 제공하며, 리스크-리워드 구조에서 공격적인 선택이 곧 생존 수단이 되는 설계다. 벌레실 비용이라는 자원 관리 요소가 남용을 억제하면서도, 게이지가 찼을 때 자연스럽게 '지금 써야 한다'는 의사결정을 유도한다. MH Rise의 기동성 강화 철학을 가장 극적으로 표현한 액션 중 하나로, 세로 방향 전투 공간 활용의 교과서적 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EB%B9%84%EC%83%81%EC%9A%A9%EA%B2%80+%28%E9%A3%9B%E7%BF%94%E7%AB%9C%E5%89%A3+%2F+Soaring+Wyvern+Blade%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Switch+Axe",
+        "gif": null
+      },
+      "tags": [
+        "aerial-combat",
+        "phial-discharge",
+        "silkbind",
+        "weapon-morph",
+        "gap-closer",
+        "multi-hit",
+        "resource-management",
+        "risk-reward",
+        "vertical-space",
+        "capcom"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "스위치액스"
+      ],
+      "id": "ax-028",
+      "addedDate": "2026-03-16"
     }
   ]
 }
