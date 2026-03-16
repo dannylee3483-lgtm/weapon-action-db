@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:39",
+  "lastUpdated": "2026-03-17 07:42",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36715,6 +36715,78 @@
       ],
       "id": "hm-029",
       "addedDate": "2026-03-17 07:37"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "스피어 / Spear",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "연속 찌르기 / Repeating Thrust",
+      "actionType": "무기술 (Ash of War)",
+      "description": "스피어 계열 무기에 장착 가능한 전회(戰技)로, 전진 자세를 취하며 빠른 찌르기를 연달아 퍼붓는다. 버튼을 반복 입력해 찌르기 횟수를 5~6회까지 늘릴 수 있으며, 마지막 입력에서는 강한 추진력을 실은 확정 찌르기로 마무리된다. 각 타격마다 조금씩 전진하는 모션이 이어져 상대를 구석으로 몰아붙이는 압박감이 있다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "bleed-buildup",
+          "multi-hit",
+          "gap-closer"
+        ],
+        "resourceCost": "FP + 스태미나",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~4f (타격당)",
+          "recovery": "~26f"
+        }
+      },
+      "designNotes": "연속 찌르기는 '확장 가능한 투자(Scalable Commitment)' 원칙의 교과서적 사례다. 플레이어는 각 찌르기마다 계속 누를지 멈출지 실시간으로 판단해야 하며, 이는 매 입력을 독립적인 리스크·리워드 결정 지점으로 만든다. 다단 히트 구조는 출혈(Bleed)·서리(Frostbite) 등 상태이상 빌드와 강한 시너지를 내어 무기 선택의 폭을 넓히는 메타 레이어를 형성한다. 타격마다 전진하는 모션은 창 무기 고유의 '공간 장악' 정체성을 행동으로 체감하게 하며, 파이널 타격의 시각적 가속 이펙트가 연속 입력의 긴장감을 깔끔하게 해소한다. FP 소모를 통해 일반 공격 대비 명확한 기회비용을 설정해 전회 사용 자체가 전술적 선택이 되도록 설계된 점도 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EC%97%B0%EC%86%8D+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Repeating+Thrust+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Repeating+Thrust",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "bleed-buildup",
+        "poise-breaking",
+        "ash-of-war",
+        "spear",
+        "scalable-combo",
+        "status-synergy",
+        "thrust-spam",
+        "fp-cost",
+        "space-control"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스",
+        "할버드",
+        "대창"
+      ],
+      "id": "sp-039",
+      "addedDate": "2026-03-17 07:42"
     }
   ]
 }
