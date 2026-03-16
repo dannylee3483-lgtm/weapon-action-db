@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:02",
+  "lastUpdated": "2026-03-16 22:05",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -29792,6 +29792,72 @@
       ],
       "id": "gs-054",
       "addedDate": "2026-03-16 22:02"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "선풍참 / 旋風斬り (Whirlwind Slash)",
+      "actionType": "무기술",
+      "description": "세키로가 그 자리에서 칼을 수평으로 뻗어 360도 회전 베기를 가하는 광역 무기술이다. 회전 동작이 지속되는 동안 주변의 다수 적에게 연속으로 히트 판정이 발생하며, 좁은 공간에서 포위당한 상황에서 특히 위력을 발휘한다. 스피릿 엠블럼 2개를 소모하며 발동되고, 보스전보다 다수의 소적을 처리하는 상황에 최적화된 기술이다.",
+      "motionType": [
+        "spin",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "multi-hit",
+          "360-degree",
+          "aoe"
+        ],
+        "resourceCost": "스피릿 엠블럼 2개",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~22f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "세키로의 전투 철학은 본질적으로 1대1 결투에 최적화되어 있으나, 선풍참은 이 구조를 의도적으로 깨는 '예외 도구'로 설계되었다. 대부분의 무기술이 단일 적의 자세를 무너뜨리는 데 집중하는 반면, 이 기술은 포위 상황이라는 게임의 약점 시나리오에 명확한 탈출구를 제공한다. 360도 회전이라는 직관적인 시각 언어 덕분에 플레이어는 범위를 즉각 이해하고 적극적으로 활용할 수 있으며, 스피릿 엠블럼 비용을 매 사용마다 지불하게 하여 남용 없이 상황적 선택지로 남도록 조율하였다. 이는 '전투 도구는 다용도가 아닌 상황 특화 설계가 게임플레이를 풍부하게 한다'는 원칙의 전형적인 예다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%84%A0%ED%92%8D%EC%B0%B8+%2F+%E6%97%8B%E9%A2%A8%E6%96%AC%E3%82%8A+%28Whirlwind+Slash%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Whirlwind+Slash",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "spin-attack",
+        "multi-hit",
+        "aoe",
+        "combat-art",
+        "spirit-emblem",
+        "situational",
+        "fromsoft",
+        "katana"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-061",
+      "addedDate": "2026-03-16 22:05"
     }
   ]
 }
