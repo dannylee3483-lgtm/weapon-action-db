@@ -27036,6 +27036,80 @@
       ],
       "id": "wh-038",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (스트리트 파이터 6 드라이브 시스템)",
+      "game": "Street Fighter 6",
+      "developer": "Capcom",
+      "actionName": "드라이브 임팩트 (Drive Impact)",
+      "actionType": "특수기",
+      "description": "드라이브 게이지 2칸을 소모하여 발동하는 아머 내장 강타 공격으로, 발동 중 상대의 공격을 최대 2회까지 흡수하며 전진한다. 히트 시 상대를 코너 방향으로 강제 이동시키고, 코너에 몰린 상태에서 피격되면 경직이 크게 늘어나 강력한 추가 콤보가 확정된다. 상대의 드라이브 임팩트와 동시에 발동되면 양측이 상쇄되는 '클래시' 연출이 발생하며, 상대방의 드라이브 임팩트를 드라이브 임팩트로 받아내는 것도 가능하다.",
+      "motionType": [
+        "charge",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "launcher",
+          "ender"
+        ],
+        "specialProperties": [
+          "super-armor",
+          "corner-carry",
+          "wall-splat",
+          "poise-breaking",
+          "clash-cancel"
+        ],
+        "resourceCost": "드라이브 게이지 2칸",
+        "frameApprox": {
+          "startup": "~26f",
+          "active": "~6f",
+          "recovery": "~31f (가드 시)"
+        }
+      },
+      "designNotes": "드라이브 임팩트는 '강한 수단에는 반드시 강한 취약점이 있어야 한다'는 파이팅 게임 디자인의 교과서적 사례다. 아머와 코너 운반이라는 압도적 보상은, 느린 선딩·대용량 게이지 소모·상대 드라이브 임팩트에 의한 상쇄라는 세 겹의 취약점으로 정밀하게 균형이 잡혀 있다. 클래시 메카닉의 도입으로 미러 상황에서 양방 드라이브 임팩트가 충돌하면 서로 상쇄되어 심리전이 한 단계 깊어지며, 이는 단순 '강한 기술' 이상의 가위바위보 레이어를 추가한다. 이 기술의 존재 자체가 모든 플레이어에게 거리·게이지·타이밍을 동시에 읽도록 강요함으로써, 지상전 공방 전체의 전략적 밀도를 근본적으로 끌어올린 시스템 디자인의 핵심 축이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Street+Fighter+6+%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C+%EC%9E%84%ED%8C%A9%ED%8A%B8+%28Drive+Impact%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "super-armor",
+        "corner-carry",
+        "wall-splat",
+        "drive-gauge",
+        "risk-reward",
+        "clash-mechanic",
+        "punish-tool",
+        "mind-game",
+        "fighting-game",
+        "fist"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "격투 스타일 전반"
+      ],
+      "id": "ft-032",
+      "addedDate": "2026-03-16"
     }
   ]
 }
