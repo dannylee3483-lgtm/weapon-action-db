@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:24",
+  "lastUpdated": "2026-03-17 06:25",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33808,6 +33808,81 @@
       ],
       "id": "ck-001",
       "addedDate": "2026-03-17 06:24"
+    },
+    {
+      "weaponCategory": "변형무기",
+      "weaponSubtype": "카발리에레 (Cavaliere)",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "분리 발진 (Moto Split)",
+      "actionType": "변형 공격",
+      "description": "단테가 전기 오토바이 형태의 카발리에레를 두 개의 거대 원형 전기톱으로 분리하여 공격하는 트릭 무기 핵심 메카닉이다. 오토바이 형태에서는 돌진과 광역 압박이 가능하고, 분리 형태에서는 양손에 각각 전기톱을 들어 고속 연속 베기를 구사한다. 두 형태 간의 전환은 콤보 중간에 자유롭게 이루어져 무한에 가까운 스타일리시 루트를 만들어낸다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "yellow",
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "poise-breaking",
+          "crowd-control",
+          "stance-change"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~20f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "카발리에레는 단일 무기 안에 두 가지 전혀 다른 전투 철학을 내포하는 트릭 무기 설계의 정점을 보여준다. 오토바이 형태는 대형 광역 압박 도구로서 리치와 공간 지배력을 제공하고, 쌍 전기톱 형태는 근거리 고속 딜링 루트를 열어 플레이어가 상황에 따라 역할을 즉각 전환할 수 있게 한다. 형태 전환 자체가 공격 모션과 연계되어 전환 비용이 사실상 0에 가깝다는 점이 리스크 없는 표현 자유도를 극대화한다. 전기 속성 시각 효과는 오토바이의 엔진 에너지와 세계관적 일관성을 유지해 무기의 서사적 근거를 제공하고, 스타일리시 액션 장르 고유의 '멋있음' 피드백 루프를 강화한다. 이 무기는 플레이어의 상상력 자체가 콤보 설계 도구가 되는 열린 표현계 디자인의 대표 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EB%B6%84%EB%A6%AC+%EB%B0%9C%EC%A7%84+%28Moto+Split%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Cavaliere",
+        "gif": null
+      },
+      "tags": [
+        "trick-weapon",
+        "stance-change",
+        "electric",
+        "dual-form",
+        "stylish-action",
+        "crowd-control",
+        "motorcycle",
+        "chainsaw",
+        "gap-closer",
+        "combo-extender"
+      ],
+      "applicableWeapons": [
+        "변형무기",
+        "쌍검"
+      ],
+      "id": "tw-001",
+      "addedDate": "2026-03-17 06:25"
     }
   ]
 }
