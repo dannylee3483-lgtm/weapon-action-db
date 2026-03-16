@@ -33883,6 +33883,76 @@
       ],
       "id": "tw-001",
       "addedDate": "2026-03-17 06:25"
+    },
+    {
+      "weaponCategory": "암기",
+      "weaponSubtype": "수리검 의수 (Loaded Shuriken)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "수리검 투척 / Loaded Shuriken",
+      "actionType": "특수기",
+      "description": "의수 도구 '수리검'을 장착한 상태에서 Spirit Emblem을 소비해 적에게 수리검을 투척한다. 발동이 매우 빠르고 탄속도 우수해 돌진하는 적이나 공중으로 도약한 적을 즉각 견제할 수 있다. 업그레이드 시 이단 수리검(Loaded Shuriken II)으로 발전하여 연속 2발 투척이 가능해지며, 콤보 연장 수단으로도 활용된다.",
+      "motionType": [
+        "throw"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "silver",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "low",
+        "comboRole": [
+          "punish",
+          "extender"
+        ],
+        "specialProperties": [
+          "anti-air",
+          "interrupt",
+          "posture-chip",
+          "combo-extender"
+        ],
+        "resourceCost": "Spirit Emblem (의수 게이지)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~4f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "수리검은 카타나 근접 전투에 '원거리 공백 메우기' 역할을 부여해, 적이 후퇴하거나 도약할 때 플레이어의 공격 흐름이 끊기지 않도록 돕는다. Spirit Emblem이라는 별도 자원을 소모하기 때문에 무제한 남용이 불가능하고, 이 자원 관리가 자연스럽게 전략적 판단을 강제한다. 공중 패턴을 가진 보스(진쇼, 각종 사무라이 엘리트)에게 수리검이 명확히 유효하도록 설계해 의수 시스템의 학습 가치가 전투 내에서 즉각 보상받는 구조를 완성했다. 시각적으로 은빛 파티클과 투척 잔상이 간결하게 표현되어 명중 여부를 직관적으로 인식할 수 있으며, 작은 피격 효과음이 원거리 피드백을 보완한다. 단발이지만 높은 발동 속도가 리스크-리워드 비율을 납득 가능한 수준으로 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%88%98%EB%A6%AC%EA%B2%80+%ED%88%AC%EC%B2%99+%2F+Loaded+Shuriken+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Loaded+Shuriken",
+        "gif": null
+      },
+      "tags": [
+        "shuriken",
+        "prosthetic-tool",
+        "anti-air",
+        "interrupt",
+        "resource-management",
+        "ranged",
+        "ninja",
+        "combo-extender",
+        "throwing-weapon",
+        "posture-chip"
+      ],
+      "applicableWeapons": [
+        "암기",
+        "투척",
+        "수리검"
+      ],
+      "id": "nj-001",
+      "addedDate": "2026-03-17 06:25"
     }
   ]
 }
