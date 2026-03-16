@@ -28923,6 +28923,73 @@
       ],
       "id": "sw-026",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Blades of Chaos (혼돈의 칼날)",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "히페리온 당기기 / Hyperion Pull",
+      "actionType": "룬 공격",
+      "description": "크라토스가 혼돈의 칼날 체인을 전방 적에게 투척하여 강제로 끌어당기는 경량 룬 공격이다. 경량 적은 크라토스 앞으로 끌려와 즉시 추가 공격에 노출되며, 중량 적에게는 반대로 크라토스 자신이 끌려가며 근접 전투를 강제로 개시한다. 이 비대칭적 결과 구조가 상황 판독과 전술적 선택을 동시에 요구하는 핵심 메카닉이다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "gap-closer",
+          "knockdown"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~12f",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "Hyperion Pull은 '체인 무기 = 적을 끌어당긴다'는 직관적 판타지를 충실히 구현하면서도, 적의 질량에 따라 결과가 역전되는 비대칭 메카닉으로 전략적 깊이를 부여한다. 경량 적은 플레이어 앞으로 오고, 중량 적은 플레이어가 끌려가는 구조는 동일한 입력에 대해 상황 판독을 강제하며 숙련도를 차별화한다. 이 단일 기술이 원거리 갭 클로징과 콤보 오프너 기능을 동시에 수행해 공간 제어와 압박 리듬을 하나의 인풋으로 해결한다. 체인이 감기는 시각 피드백과 충격음이 물리적 존재감을 극대화하며, 쿨다운 자원 관리와 결합해 남용 방지와 사용 가치 사이의 균형을 유지한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%ED%9E%88%ED%8E%98%EB%A6%AC%EC%98%A8+%EB%8B%B9%EA%B8%B0%EA%B8%B0+%2F+Hyperion+Pull+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Hyperion_Pull",
+        "gif": null
+      },
+      "tags": [
+        "chain-weapon",
+        "crowd-control",
+        "gap-closer",
+        "pull-mechanic",
+        "asymmetric-result",
+        "runic-attack",
+        "blades-of-chaos",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 무기"
+      ],
+      "id": "wh-044",
+      "addedDate": "2026-03-16"
     }
   ]
 }
