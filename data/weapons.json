@@ -31581,6 +31581,76 @@
       ],
       "id": "ft-039",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "가디언 방패 (Guardian Shield)",
+      "game": "God of War",
+      "developer": "Santa Monica Studio",
+      "actionName": "가디언 방패 패리 / Guardian Shield Parry",
+      "actionType": "패리",
+      "description": "크레토스가 왼팔에 장착한 가디언 방패를 적의 공격 직전 타이밍에 맞춰 앞으로 밀어내는 완벽 가드 기술이다. 성공 시 적을 스턴 상태로 만들어 레비아탄 도끼나 카오스의 블레이드로 강력한 반격을 넣을 수 있는 짧은 창을 열어준다. 일반 블록과 달리 자원 소모가 전혀 없으며, 일부 보스의 '노란색 표시 공격'도 패리로 받아칠 수 있어 고위험-고보상 구조를 형성한다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "parry",
+          "stun",
+          "counter-window",
+          "armor-break",
+          "no-resource-cost"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~5f",
+          "active": "~4f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "가디언 방패 패리는 '수동적 방어'를 '능동적 전환점'으로 재정의한 핵심 설계 사례다. 일반 블록은 피해를 줄여주는 안전한 선택이지만, 패리 타이밍을 성공적으로 읽어내면 전투 흐름 자체가 역전되는 비대칭 보상 구조를 제공한다. 패리 성공 시 금속 충격음과 황금빛 방패 이펙트가 즉각적으로 출력되어 정확한 타이밍 인지를 강화하고 학습 루프를 명확하게 만든다. 타이밍 창이 다크 소울 시리즈보다 관대하게 설계되어 액션 입문자도 접근할 수 있으면서, 보스전에서 노란 표시 공격을 패리로 끊어내는 고난도 활용법은 숙련자에게 별도의 숙달 목표를 제공한다. 방패를 장비하면 회피 굴림이 사라지는 트레이드오프 구조가 있어, 플레이어는 방어적 패리 중심의 플레이와 회피 중심의 공격적 플레이 사이에서 전략적 선택을 강요받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%EA%B0%80%EB%94%94%EC%96%B8+%EB%B0%A9%ED%8C%A8+%ED%8C%A8%EB%A6%AC+%2F+Guardian+Shield+Parry+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Guardian_Shield",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "counter",
+        "shield",
+        "timing-based",
+        "risk-reward",
+        "stun",
+        "defensive-offense",
+        "no-resource-cost",
+        "action-rpg"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "가디언 방패"
+      ],
+      "id": "sh-021",
+      "addedDate": "2026-03-16"
     }
   ]
 }
