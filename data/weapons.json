@@ -30208,6 +30208,81 @@
       ],
       "id": "gs-050",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "Dual Daggers / 닌자 쌍도",
+      "game": "Warframe",
+      "developer": "Digital Extremes",
+      "actionName": "칼날 폭풍 / Bladestorm",
+      "actionType": "특수기",
+      "description": "Ash가 최대 18명의 적을 마킹한 뒤, 각 타겟에게 순간이동하여 쌍도로 급소를 연속 처형하는 어빌리티다. 홀드 입력으로 마크 모드에 진입해 적을 지정하고, 해제 시 Ash와 그의 클론들이 동시에 각 타겟에게 달려들어 교차 쌍도 피니시 모션으로 마무리한다. 발동 중 Ash 본체는 무적 판정을 유지하며 광역 처형을 수행한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "black",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "teleport",
+          "multi-target",
+          "execute",
+          "invincible-during-cast",
+          "clone-assist"
+        ],
+        "resourceCost": "에너지 100",
+        "frameApprox": {
+          "startup": "~60f (마크 모드 진입 기준)",
+          "active": "~30f per target",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Bladestorm은 '닌자의 동시 암살' 판타지를 2단계 마크-실행 구조로 게임 메카닉에 정확히 번역한 설계 사례다. 마크 단계에서 플레이어가 위협 우선순위를 직접 설정하도록 강제함으로써, 단순 광역기를 전략적 사고 행위로 격상시킨다. 클론들이 동시 다발적으로 타겟을 처리하는 연출은 단일 플레이어가 '닌자 부대'를 지휘하는 판타지를 실현하며 리워드 밀도를 극대화한다. 매 처형마다 재생되는 쌍도 교차 피니시 모션은 어빌리티임에도 무기 카테고리의 정체성을 시각적으로 각인시키는 역할을 한다. 에너지 100이라는 고정 비용이 리스크-리워드 균형추로 작동해, 대규모 교전에서만 최대 효용을 발휘하도록 사용 맥락을 자연스럽게 제한한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%B9%BC%EB%82%A0+%ED%8F%AD%ED%92%8D+%2F+Bladestorm+gameplay",
+        "images": [],
+        "wiki": "https://warframe.fandom.com/wiki/Bladestorm",
+        "gif": null
+      },
+      "tags": [
+        "multi-target",
+        "teleport",
+        "execute",
+        "ninja-fantasy",
+        "dual-blades",
+        "clone-assist",
+        "crowd-control",
+        "assassination",
+        "invincible-cast"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "쌍도",
+        "단검"
+      ],
+      "id": "db-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
