@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:43",
+  "lastUpdated": "2026-03-16 22:44",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30851,6 +30851,78 @@
       ],
       "id": "dg-002",
       "addedDate": "2026-03-16 22:43"
+    },
+    {
+      "weaponCategory": "건블레이드",
+      "weaponSubtype": "Gunbreaker Gunblade",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "연아 콤보 / Gnashing Fang Combo",
+      "actionType": "콤보",
+      "description": "Gnashing Fang → Savage Claw → Wicked Talon으로 이어지는 3단 GCD 콤보로, 각 타격 사이마다 Continuation 계열 oGCD 기술(Jugular Rip, Abdomen Tear, Eye Gouge)을 삽입해 총검에서 탄환을 추가 발사하는 연출이 이어진다. 각 단계마다 블레이드 궤적과 총구 섬광이 조합된 독립적인 히트 모션을 가지며, 전체 시퀀스를 완성하면 높은 누적 피해를 입힌다. 30초 쿨다운 기반으로 딜 사이클의 핵심 회전축 역할을 담당한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "red",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "ogcd-weave-window",
+          "combo-branch",
+          "high-damage-sequence"
+        ],
+        "resourceCost": "쿨다운 (30초)",
+        "frameApprox": {
+          "startup": "~2.5s (GCD 기반)",
+          "active": "각 히트당 ~0.5f",
+          "recovery": "GCD 종료까지"
+        }
+      },
+      "designNotes": "GCD 콤보 사이 좁은 윈도우에 oGCD Continuation 기술을 정확히 삽입해야 최대 효율을 내는 구조로, 플레이어에게 리듬감 있는 손가락 정밀도를 요구하며 숙련도의 차이를 명확하게 드러낸다. 각 Continuation은 직전 GCD 공격의 시각적 연장선처럼 연출되어 '베기 후 격발'이라는 건블레이드 정체성을 행동 단위마다 강화한다. 3단계의 명칭 변화(Fang→Claw→Talon)와 이펙트 색상 점층은 플레이어가 별도 UI 없이 콤보 진행 상태를 직관적으로 파악하게 해주는 UX 설계다. 쿨다운 고정 방식은 리소스 부담을 제거하면서도 등장 타이밍이 예측 가능해, 버프 창 맞추기와 파티 시너지 조율의 기준점으로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%97%B0%EC%95%84+%EC%BD%A4%EB%B3%B4+%2F+Gnashing+Fang+Combo+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Gnashing_Fang",
+        "gif": null
+      },
+      "tags": [
+        "gunblade",
+        "combo-chain",
+        "ogcd-weave",
+        "high-damage",
+        "rotation-core",
+        "gunbreaker",
+        "ffxiv",
+        "continuation",
+        "rhythm-based",
+        "cooldown-management"
+      ],
+      "applicableWeapons": [
+        "건블레이드"
+      ],
+      "id": "gb-002",
+      "addedDate": "2026-03-16 22:44"
     }
   ]
 }
