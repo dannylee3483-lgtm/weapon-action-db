@@ -25170,6 +25170,77 @@
       ],
       "id": "gs-047",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "현대 카타나 (Modern Katana)",
+      "game": "Katana ZERO",
+      "developer": "Askiisoft",
+      "actionName": "크로노스 참격 (Chronos Slash)",
+      "actionType": "특수기",
+      "description": "크로노스 약물의 효과로 시간을 감속시킨 상태에서 적과 총알의 경로를 분석한 뒤, 최적 경로로 대시하여 단 한 번의 베기로 적을 처치하는 핵심 전투 기술이다. 시간 감속 중 플레이어는 방어선을 뚫을 이동 경로를 계획하고, 시간이 재개되는 순간 번개같이 움직이며 무력화한다. 총알을 향해 베기를 입력하면 총알이 반사되어 원거리 적을 역이용해 처치하는 것도 가능하다.",
+      "motionType": [
+        "slash",
+        "dodge-cancel",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "one-hit-kill",
+          "bullet-reflect",
+          "time-dilation",
+          "gap-closer"
+        ],
+        "resourceCost": "크로노스 게이지 (Chronos Gauge)",
+        "frameApprox": {
+          "startup": "~2f (실시간 기준)",
+          "active": "~1f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "카타나 제로의 크로노스 참격은 '계획 → 실행'이라는 이분법적 게임플레이 루프를 카타나 한 자루로 완벽하게 구현한 설계다. 시간 감속은 플레이어에게 안전한 '사고 공간'을 부여하여 고위험 상황을 전략적으로 읽게 하고, 시간이 재개되는 순간의 폭발적 속도감으로 극적인 카타르시스를 제공한다. 모든 일반 적이 단 한 방에 죽는다는 원칙은 '무적 사무라이' 판타지를 극대화하는 동시에 실패의 원인을 플레이어 자신의 계획 실수로 귀속시켜 리트라이 동기를 유지시킨다. 총알 반사 메카닉은 방어적 선택지를 넘어 공세적 리소스 재활용으로 기능하며, 최소 입력으로 최대 클리어 경로를 탐색하도록 창의성을 자극하는 우아한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Katana+ZERO+%ED%81%AC%EB%A1%9C%EB%85%B8%EC%8A%A4+%EC%B0%B8%EA%B2%A9+%28Chronos+Slash%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "time-dilation",
+        "one-hit-kill",
+        "bullet-reflect",
+        "planning",
+        "cyberpunk",
+        "indie",
+        "katana",
+        "risk-reward",
+        "speed",
+        "precision"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-050",
+      "addedDate": "2026-03-16"
     }
   ]
 }
