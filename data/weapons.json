@@ -25859,7 +25859,7 @@
       },
       "designNotes": "Harvest는 '죽음의 낫'이라는 캐릭터 테마를 게임플레이 메카닉으로 직접 구현한 사례다. 생명력 흡수는 위험한 근접전을 회피가 아닌 적극적 공세로 타개하도록 유도하여, 플레이어가 피하는 자가 아닌 두려움을 주는 자로서의 정체성을 체감하게 만든다. 다중 타겟 적중 시 회복량이 극대화되는 구조는 소수보다 군중 속에서 더 강해지는 역설적 리스크-리워드를 형성하여, 적에 둘러싸인 위기 상황이 오히려 회복 기회가 된다. 쿨다운 비용은 스킬 남용을 억제하면서도 희소성을 유지해 선택적 사용의 무게감을 부여한다. 흡혈 낫이라는 판타지를 UX 차원에서 가장 직관적으로 번역한 디자인이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Darksiders+II+%EC%88%98%ED%99%95+%28Harvest%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=6O9D0XR8uas",
         "images": [],
         "wiki": "https://darksiders.fandom.com/wiki/Harvest",
         "gif": null
