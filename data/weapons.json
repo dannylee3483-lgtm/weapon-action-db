@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:48",
+  "lastUpdated": "2026-03-17 07:50",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36795,7 +36795,11 @@
       },
       "designNotes": "블리츠는 ATB 비용(2칸)과 광역 타격이라는 리스크-리워드 구조를 명확히 제시한다. 단일 타겟 공격(1칸)보다 자원을 2배 소모하지만 다수 적을 동시에 스태거 게이지에 기여함으로써 '효율 vs 속도' 선택을 플레이어에게 위임한다. 검 모드→총 모드의 무기 전환 애니메이션을 공격 모션에 녹여내어 건블레이드라는 하이브리드 병기의 정체성을 시각적으로 명확히 전달한다. 패러다임 시프트 시스템과 맞물려 Commando 역할에서 스태거 축적기로 기능하며, 연계 전략의 출발점이 되는 액션이다. 광역기임에도 회전 반경이 절제되어 있어 위치 선정과 전투 흐름 읽기가 요구되는 중간 난이도의 기술로 자리잡았다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIII+%EB%B8%94%EB%A6%AC%EC%B8%A0+%2F+Blitz+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=PhuVkGkqXJU",
+          "https://www.youtube.com/watch?v=AobbPst0aZo",
+          "https://www.youtube.com/watch?v=mGjx0ZVeLL0"
+        ],
         "images": [],
         "wiki": "https://finalfantasy.fandom.com/wiki/Blitz_(Final_Fantasy_XIII)",
         "gif": null
@@ -36862,7 +36866,11 @@
       },
       "designNotes": "BotW의 스핀 어택은 '지속 투자-점증 위험' 구조를 해머류에서 극적으로 구현한 디자인이다. 스태미나를 소비하는 동안 다단 히트 광역 효과를 누릴 수 있지만, 회전 중에는 회피와 방향 전환이 불가능해 플레이어가 스스로 위험 노출을 통제해야 한다는 책임이 생긴다. 라이넬 크러셔 같은 고중량 해머는 관통력과 피격 경직이 커서 적 밀집 구간에서 보상이 배로 커지므로, '언제 돌아서서 도망칠지'를 판단하는 상황 독해 능력을 묻는 문제로 작동한다. 무기 내구도 시스템과 결합되어 강공격을 쓸 때마다 소비를 고려하게 만들며, 이는 강력한 무기일수록 아껴 쓰는 긴장감을 자연스럽게 유도한다. 특정 게임플레이 지식 없이도 '세게 돌리면 다 날아간다'는 직관이 즉시 통하는 범용 피드백 설계가 돋보인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EC%8A%A4%ED%95%80+%EC%96%B4%ED%83%9D+%2F+Spin+Attack+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=HzXascvblWU",
+          "https://www.youtube.com/watch?v=dEf-EXQvIi4",
+          "https://www.youtube.com/watch?v=Sb189U2S96A"
+        ],
         "images": [],
         "wiki": "https://zelda.fandom.com/wiki/Spin_Attack",
         "gif": null
@@ -36932,7 +36940,11 @@
       },
       "designNotes": "연속 찌르기는 '확장 가능한 투자(Scalable Commitment)' 원칙의 교과서적 사례다. 플레이어는 각 찌르기마다 계속 누를지 멈출지 실시간으로 판단해야 하며, 이는 매 입력을 독립적인 리스크·리워드 결정 지점으로 만든다. 다단 히트 구조는 출혈(Bleed)·서리(Frostbite) 등 상태이상 빌드와 강한 시너지를 내어 무기 선택의 폭을 넓히는 메타 레이어를 형성한다. 타격마다 전진하는 모션은 창 무기 고유의 '공간 장악' 정체성을 행동으로 체감하게 하며, 파이널 타격의 시각적 가속 이펙트가 연속 입력의 긴장감을 깔끔하게 해소한다. FP 소모를 통해 일반 공격 대비 명확한 기회비용을 설정해 전회 사용 자체가 전술적 선택이 되도록 설계된 점도 돋보인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EC%97%B0%EC%86%8D+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Repeating+Thrust+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=HLVUQ6qExqw",
+          "https://www.youtube.com/watch?v=HXalyroJEmI",
+          "https://www.youtube.com/watch?v=7r73wwVwGyo"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Repeating+Thrust",
         "gif": null
@@ -37007,7 +37019,9 @@
       },
       "designNotes": "아비살 아이는 '공간 장악'과 '리소스 생성'을 단일 버튼으로 통합한 효율적인 스킬 설계다. 필드를 전개하면서 동시에 게이지를 채우는 구조는 플레이어가 필드 범위를 의식하며 싸우도록 유도하여 공간 전술 사고를 자연스럽게 훈련시킨다. 탱커 캐릭터인 바사라가의 컨셉('맞으면서도 강해지는 전사')을 기계적으로 구현하여 루도내러티브 일관성이 높다. 느린 발동 속도는 팀원의 CC나 보스 패턴 공백을 읽는 게임플레이 리터러시를 요구하는 진입 장벽으로 기능하며, 적절히 사용했을 때의 보상(강화 공격)이 충분히 크기 때문에 리스크-리워드 곡선이 잘 균형잡혀 있다. 협동 플레이 환경에서 파티원의 행동과 타이밍을 맞추는 사회적 설계 요소까지 포함된 복합적인 스킬이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Granblue+Fantasy%3A+Relink+%EC%95%84%EB%B9%84%EC%82%B4+%EC%95%84%EC%9D%B4+%2F+Abyssal+Eye+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=BpiA40cufLA"
+        ],
         "images": [],
         "wiki": "https://granblue-fantasy-relink.wiki.fextralife.com/Vaseraga",
         "gif": null
@@ -37077,7 +37091,11 @@
       },
       "designNotes": "Insect Glaive의 도약 메카닉은 '수직 축 이동'을 전투 핵심 자원으로 삼아 다른 근접 무기와 완전히 차별화된 플레이어 판타지를 구현한다. 공중이라는 상태 자체가 마운트 축적이라는 팀 기여와 부위 선택 공격이라는 개인 효율을 동시에 제공해 리스크 없이 리워드가 복합적으로 쌓이는 구조다. Kinsect 버프(삼색 추출)를 유지하며 공중 콤보를 지속하려면 지상→공중→Kinsect 발사→착지→재도약 루프를 끊임없이 관리해야 하므로, 숙련도에 따른 DPS 차이가 극명하게 드러나는 기술 표현력이 높은 설계다. 착지 타이밍을 맞춘 강화 내려찍기(Power Slam)와의 시너지는 체공 시간 관리라는 추가 레이어를 부여해 중급 이상 플레이어에게 지속적인 목표를 제시한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%8F%84%EC%95%BD+%26+%EA%B3%B5%EC%A4%91+%EC%97%B0%EA%B2%A9+%28Vault+%26+Aerial+Combo%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=n6Qf0XIfeUc",
+          "https://www.youtube.com/watch?v=459d0I8KtW8",
+          "https://www.youtube.com/watch?v=_cMHwz3IeE8"
+        ],
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Insect+Glaive",
         "gif": null
