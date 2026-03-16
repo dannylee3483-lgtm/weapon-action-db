@@ -36578,6 +36578,75 @@
       ],
       "id": "dg-004",
       "addedDate": "2026-03-17 07:32"
+    },
+    {
+      "weaponCategory": "건블레이드",
+      "weaponSubtype": "블레이즈파이어 세이버 (Blazefire Saber)",
+      "game": "Final Fantasy XIII",
+      "developer": "Square Enix",
+      "actionName": "블리츠 / Blitz",
+      "actionType": "특수기",
+      "description": "라이트닝이 건블레이드를 검 모드로 전환하여 고속 회전 베기를 시전, 주변 모든 적을 동시에 타격하는 광역 공격이다. 회전 슬래시 직후 총 모드로 전환해 근접 포격을 추가하여 물리·마법 혼합 피해를 입힌다. ATB 게이지 2칸을 소모하며, 단일 대상 콤보보다 광역 범위를 우선하는 설계로 다수전 상황에서 핵심 선택지가 된다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "area-of-effect",
+          "multi-target",
+          "mode-switch"
+        ],
+        "resourceCost": "ATB 2칸",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~20f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "블리츠는 ATB 비용(2칸)과 광역 타격이라는 리스크-리워드 구조를 명확히 제시한다. 단일 타겟 공격(1칸)보다 자원을 2배 소모하지만 다수 적을 동시에 스태거 게이지에 기여함으로써 '효율 vs 속도' 선택을 플레이어에게 위임한다. 검 모드→총 모드의 무기 전환 애니메이션을 공격 모션에 녹여내어 건블레이드라는 하이브리드 병기의 정체성을 시각적으로 명확히 전달한다. 패러다임 시프트 시스템과 맞물려 Commando 역할에서 스태거 축적기로 기능하며, 연계 전략의 출발점이 되는 액션이다. 광역기임에도 회전 반경이 절제되어 있어 위치 선정과 전투 흐름 읽기가 요구되는 중간 난이도의 기술로 자리잡았다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIII+%EB%B8%94%EB%A6%AC%EC%B8%A0+%2F+Blitz+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Blitz_(Final_Fantasy_XIII)",
+        "gif": null
+      },
+      "tags": [
+        "gunblade",
+        "area-of-effect",
+        "spin-attack",
+        "multi-target",
+        "atb-system",
+        "mode-switch",
+        "stagger-buildup",
+        "lightning-farron",
+        "ff13",
+        "hybrid-weapon"
+      ],
+      "applicableWeapons": [
+        "건블레이드"
+      ],
+      "id": "gb-005",
+      "addedDate": "2026-03-17 07:32"
     }
   ]
 }
