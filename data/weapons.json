@@ -30138,6 +30138,76 @@
       ],
       "id": "ax-038",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "카오스이터 (Chaoseater)",
+      "game": "Darksiders",
+      "developer": "Vigil Games",
+      "actionName": "블레이드 가이저 (Blade Geyser)",
+      "actionType": "특수기",
+      "description": "War가 카오스이터를 양손으로 힘껏 치켜들어 땅에 꽂으면, 충격 지점을 중심으로 거대한 암석·에너지 기둥들이 방사형으로 폭발적으로 솟아오른다. 근거리에 밀집한 복수의 적을 동시에 강타하며 강력한 경직과 넉다운을 유발한다. Wrath 게이지를 소비하는 특수 능력으로, 전략적 타이밍에 활성화해 전투 흐름을 단번에 전환할 수 있다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control",
+          "aoe"
+        ],
+        "resourceCost": "Wrath",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~25f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Blade Geyser는 '살아있는 저주받은 검' 카오스이터의 파괴적 본성을 플레이어블 액션으로 구현한 사례다. 단순 광역기가 아니라 Wrath 리소스 관리와 타이밍 판단을 요구하는 고위험·고보상 구조로, 적이 밀집한 결정적 순간에만 최대 효율을 발휘한다. 검이 박히는 묵직한 충격음과 암석 분출 이펙트가 조합된 강렬한 피드백은 대검 특유의 '느리지만 압도적인' 판타지를 충실히 구현하며, 플레이어에게 체감 가중치(perceived weight)를 극대화한다. 리소스를 소비해 대광역기를 폭발적으로 사용하는 이 구조는 보스전·다수전에서 반전 카드로 기능하도록 설계되어, God of War 시리즈 등 이후 여러 액션 게임에서 유사한 '리소스 기반 대광역기' 패턴의 원형으로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C+%EA%B0%80%EC%9D%B4%EC%A0%80+%28Blade+Geyser%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Blade_Geyser",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "ground-slam",
+        "crowd-control",
+        "knockdown",
+        "greatsword",
+        "wrath-resource",
+        "arena-control",
+        "dark-fantasy"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "해머",
+        "도끼"
+      ],
+      "id": "gs-050",
+      "addedDate": "2026-03-16"
     }
   ]
 }
