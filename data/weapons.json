@@ -28208,6 +28208,79 @@
       ],
       "id": "kt-053",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "문스톤 도끼 (Moonstone Axe)",
+      "game": "Hades II",
+      "developer": "Supergiant Games",
+      "actionName": "오메가 공격 (Ω Attack / Omega Attack)",
+      "actionType": "차지 공격",
+      "description": "멜리노에가 문스톤 도끼를 머리 위로 들어올려 마법(Magick)을 응집시킨 뒤, 넓은 반원 궤적으로 내리찍는 차지 공격이다. 차지 중 도끼 날에 마법 에너지가 가득 차오르며 발광하고, 해제 순간 충격파가 전방 범위에 퍼지며 주변 적을 강하게 넉백시킨다. 차지 유지 시간에 따라 피해량과 경직 범위가 증폭되며, Boon(신의 축복)과 시너지를 이루어 원소 효과나 추가 투사체를 파생시킬 수 있다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan",
+          "purple"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "boon-synergy"
+        ],
+        "resourceCost": "마법(Magick)",
+        "frameApprox": {
+          "startup": "~50f",
+          "active": "~14f",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "오메가 공격은 Hades II에서 새로 도입된 Magick 자원 시스템의 정수를 보여주는 액션이다. 기본 콤보의 빠른 템포와 오메가 공격의 묵직한 차지 사이에서 자원 소비 타이밍을 결정하도록 요구함으로써, 단순 타격 게임을 전략적 자원 관리 게임으로 끌어올린다. 발동 속도가 느린 대신 범위와 경직력이 압도적이라는 리스크-리워드 구조가 명확하며, 이로 인해 플레이어는 적의 행동 패턴을 읽고 빈틈을 노리는 숙련 플레이를 자연스럽게 익히게 된다. Boon과의 조합에 따라 오메가 공격 한 방이 빌드의 완성점 역할을 하도록 설계되어, 같은 무기로도 빌드마다 전혀 다른 플레이 스타일이 나타나는 높은 재플레이 가치를 만들어낸다. 도끼 특유의 묵직함과 느림을 단점이 아닌 '큰 보상을 위한 준비'로 재정의한 교과서적인 차지 공격 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+II+%EC%98%A4%EB%A9%94%EA%B0%80+%EA%B3%B5%EA%B2%A9+%28%CE%A9+Attack+%2F+Omega+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Moonstone_Axe",
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "omega-attack",
+        "aoe",
+        "poise-breaking",
+        "resource-management",
+        "risk-reward",
+        "knockdown",
+        "magick-cost",
+        "boon-synergy",
+        "roguelite"
+      ],
+      "applicableWeapons": [
+        "도끼"
+      ],
+      "id": "ax-035",
+      "addedDate": "2026-03-16"
     }
   ]
 }
