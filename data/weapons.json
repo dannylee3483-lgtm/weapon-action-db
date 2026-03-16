@@ -31143,6 +31143,78 @@
       ],
       "id": "wh-050",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "활 (Bow)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "공중 조준 / Aerial Aim (空中射撃)",
+      "actionType": "실크바인드 기술 (Silkbind Attack)",
+      "description": "와이어버그를 활용해 공중으로 도약한 뒤, 일시적으로 허공에 정지한 상태에서 연속 화살을 발사하는 실크바인드 전용 기술이다. 공중 체공 중에는 지면 공격을 완전히 회피하면서 강화 연사를 퍼부을 수 있으며, 착지 전까지 최대 5~6발의 차지 화살을 쏟아낸다. 대형 몬스터의 상단 약점(머리·등·날개 등)을 지속적으로 조준할 수 있어 지면에서 접근이 어려운 부위를 효과적으로 공략한다.",
+      "motionType": [
+        "leap",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "aerial",
+          "invincibility-frames",
+          "gap-closer",
+          "multi-hit",
+          "weak-point-targeting"
+        ],
+        "resourceCost": "와이어버그 (Wirebug)",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~90f (연사 지속)",
+          "recovery": "~20f (착지 후)"
+        }
+      },
+      "designNotes": "이 기술은 '지면 공격 회피'와 '약점 집중 딜링'이라는 두 플레이어 욕구를 하나의 액션으로 압축한 설계가 핵심이다. 활 무기의 고질적 단점인 근접 몬스터 대처를 와이어버그 이동으로 해소하면서, 공중 체공이라는 새로운 전술 공간을 창출해 역할을 확장했다. 시각적으로 활 사수가 허공에 부유한 채 연사하는 연출이 강렬한 시그니처 무브로 즉각 인식되어 조작 피드백이 매우 높다. '와이어버그 자원 관리'라는 리스크-리워드 구조를 자연스럽게 내재화하여, 쿨다운이 끝나는 타이밍을 읽고 발동 순간을 판단하는 전략적 층위를 추가한다. 또한 체공 중 차지 레벨을 유지하는 메카닉이 숙련 플레이어에게 최적 타이밍 도전 과제로 기능해 스킬 표현의 폭을 넓혀주는 이중 설계를 완성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EA%B3%B5%EC%A4%91+%EC%A1%B0%EC%A4%80+%2F+Aerial+Aim+%28%E7%A9%BA%E4%B8%AD%E5%B0%84%E6%92%83%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunter.fandom.com/wiki/MHRise:_Bow",
+        "gif": null
+      },
+      "tags": [
+        "aerial",
+        "silkbind",
+        "multi-hit",
+        "weak-point",
+        "gap-closer",
+        "wirebug",
+        "resource-management",
+        "bow",
+        "mobility",
+        "punish"
+      ],
+      "applicableWeapons": [
+        "활 (Bow)"
+      ],
+      "id": "bw-030",
+      "addedDate": "2026-03-16"
     }
   ]
 }
