@@ -27181,6 +27181,77 @@
       ],
       "id": "kt-052",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "에테르 창 바라타 (Eternal Spear Varatha)",
+      "game": "Hades",
+      "developer": "Supergiant Games",
+      "actionName": "창 투척 특수기 / Spear Toss Special",
+      "actionType": "특수기",
+      "description": "에테르 창 바라타를 전방으로 투척해 착탄 지점에 꽂아두는 특수 공격. 창이 꽂혀 있는 동안 이후 모든 대시 공격의 궤적이 창의 위치로 자동 유도되어, 전장에 하나의 '집결점(앵커 포인트)'을 형성한다. 창을 회수하거나 특수기를 재사용하기 전까지 유지되며, 붐(Boon)을 통해 착탄 지점에 영역 효과를 추가할 수도 있다.",
+      "motionType": [
+        "throw",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "homing",
+          "battlefield-control",
+          "gap-closer",
+          "ranged"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~8f (투척 판정)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "창을 꽂아두는 '앵커 포인트' 메카닉은 로그라이크 액션 장르에서 보기 드문 공간 전략 레이어를 제공한다. 투창 시점에 이미 2~3수 앞의 이동 경로를 설계해야 하므로, 즉각적 반사 위주인 일반 액션과 달리 체스적 사고를 요구하는 독특한 인지 부하를 만든다. 붐과의 조합으로 앵커 지점에 빙결·둔화 영역 효과를 부여하면, 단순 투사체가 전략적 설치물로 격상되어 공간 지배력이 극대화된다. 이 설계는 '투창 → 유도 대시 → 회수'라는 3단 루프를 반복하게 만들어 스킬 표현(skill expression)의 상한선을 높이고, 숙련 플레이어일수록 창의 위치를 적의 군집 이동 경로와 정밀하게 교차시키는 고수준 플레이를 가능하게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+%EC%B0%BD+%ED%88%AC%EC%B2%99+%ED%8A%B9%EC%88%98%EA%B8%B0+%2F+Spear+Toss+Special+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Eternal_Spear",
+        "gif": null
+      },
+      "tags": [
+        "anchor-point",
+        "homing",
+        "battlefield-control",
+        "spear-throw",
+        "ranged-melee",
+        "boon-synergy",
+        "roguelite",
+        "positional",
+        "dash-synergy",
+        "strategic-placement"
+      ],
+      "applicableWeapons": [
+        "창",
+        "투창",
+        "장창"
+      ],
+      "id": "sp-033",
+      "addedDate": "2026-03-16"
     }
   ]
 }
