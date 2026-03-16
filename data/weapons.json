@@ -23608,6 +23608,76 @@
       ],
       "id": "wh-028",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Combat Cross (전투 십자가 / 사슬 채찍)",
+      "game": "Castlevania: Lords of Shadow",
+      "developer": "MercurySteam",
+      "actionName": "원형 사슬 회전 (Circular Chain Sweep / サークルチェーン)",
+      "actionType": "콤보 피니셔",
+      "description": "가브리엘 벨몬트가 Combat Cross를 머리 위로 들어올려 전방위 360도 회전 채찍 공격을 가한다. 주변 다수의 적을 동시에 휩쓸며, 마지막 회전 타격 시 강한 넉백과 스태거를 부여한다. 버튼 연타로 연속 회전 횟수를 늘릴 수 있어 무리 견제와 공간 장악에 활용된다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "area-of-effect",
+          "knockback",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~44f (회전 지속)",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "사슬 채찍 고유의 '원심력 물리 특성'을 게임플레이 메커니즘으로 정직하게 번역한 설계다. 회전 지속 시간 동안 플레이어가 방향 전환 없이 전방위 판정을 유지하므로, 다방향 포위 상황에서도 일관된 해결책으로 기능한다. 연타 입력으로 회전을 연장할 수 있는 구조는 '얼마나 오래 버티는가'라는 경험 의사결정을 만들어내며, 회전 중 이동이 제한되는 패널티와 맞교환된다. 마지막 회전 타격의 넉백은 적 무리를 재정렬시키는 리셋 기능을 수행하여, 이후 단일 타겟 콤보를 이을 공간을 제공한다. 화려한 이펙트보다 물리 기반 동작 논리에 집중함으로써, 플레이어가 채찍의 관성을 직관적으로 읽고 활용할 수 있게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%EC%9B%90%ED%98%95+%EC%82%AC%EC%8A%AC+%ED%9A%8C%EC%A0%84+%28Circular+Chain+Sweep+%2F+%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "area-of-effect",
+        "spin-attack",
+        "chain-weapon",
+        "whip",
+        "multi-hit",
+        "finisher",
+        "knockback",
+        "360-attack"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬형 무기"
+      ],
+      "id": "wh-029",
+      "addedDate": "2026-03-16"
     }
   ]
 }
