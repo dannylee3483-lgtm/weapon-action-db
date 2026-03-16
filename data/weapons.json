@@ -33666,6 +33666,76 @@
       ],
       "id": "cl-001",
       "addedDate": "2026-03-17 06:21"
+    },
+    {
+      "weaponCategory": "토파",
+      "weaponSubtype": "토파 (Tonfa)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "선풍참 / Tornado Cutter",
+      "actionType": "무기술",
+      "description": "중단 자세에서 토파를 양손으로 회전시키며 전방을 향해 고속 다단 히트를 퍼붓는 회전 베기 기술이다. 회전 중 좌우 이동 입력으로 방향을 조절할 수 있어 복수의 적을 휩쓸거나 단일 대상에 집중적으로 타격을 집중시킬 수 있다. 마지막 회전 타격 이후 강한 피니시 타격으로 마무리되며, 이 피니시 구간에서 키 펄스를 넣으면 높은 기력 회수가 가능하다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "ki-pulse-window",
+          "crowd-control",
+          "tracking"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~40f (다단 히트 구간)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "Tornado Cutter는 토파 무기 계열의 '근접 난전 지배' 판타지를 가장 잘 구현한 기술이다. 다단 히트 구조는 연속 타격이 주는 속도감과 타격감을 극대화하고, 피니시 구간의 키 펄스 타이밍은 공격 중에도 기력 관리를 요구해 숙련도에 따른 퍼포먼스 차이를 만든다. 방향 전환 가능한 회전 동작은 공격과 포지셔닝을 동시에 해결하게 해 리스크-리워드 밸런스가 뛰어나며, 공격 중 이동 자유도가 주어진다는 점에서 초보와 고수 모두에게 직관적으로 만족스럽다. 연속 히트로 인한 기력 소모와 키 펄스 회수의 균형은 공격-회복 루프를 자연스럽게 유도하는 Nioh 시리즈 전반의 핵심 설계 철학을 토파 특유의 회전 모션으로 표현한 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%84%A0%ED%92%8D%EC%B0%B8+%2F+Tornado+Cutter+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Tonfa",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "spin-attack",
+        "ki-pulse",
+        "crowd-control",
+        "close-range",
+        "combo-extender",
+        "nioh2",
+        "tonfa",
+        "ki-management",
+        "tracking"
+      ],
+      "applicableWeapons": [
+        "토파"
+      ],
+      "id": "tf-001",
+      "addedDate": "2026-03-17 06:21"
     }
   ]
 }
