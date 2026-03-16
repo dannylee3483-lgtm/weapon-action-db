@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 05:49",
+  "lastUpdated": "2026-03-17 05:50",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32608,6 +32608,76 @@
       ],
       "id": "kt-063",
       "addedDate": "2026-03-17 05:49"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "단검 (Daggers)",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "백 입맞춤 / Hundred Kisses (百の口付け)",
+      "actionType": "특수기",
+      "description": "적에게 밀착하거나 대형 몬스터에 매달린 상태에서 양손 단검으로 초고속 연속 자상을 퍼붓는 기술. 버튼을 누르는 동안 스태미나가 소진될 때까지 다단 히트가 지속되며, 대형 몬스터의 약점 부위에 정확히 붙어 있을수록 각 타격의 피해량이 극대화된다. 스태미나 소진 직전에 자동으로 발동되는 피니시 타격이 누적 대미지를 집약해 터뜨린다.",
+      "motionType": [
+        "thrust",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "weak-point-exploit",
+          "grapple-dependent",
+          "stamina-drain",
+          "status-buildup"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "지속 (스태미나 소진까지, 약 2~5초)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Hundred Kisses는 '위치'를 리소스로 치환한 독창적인 설계를 보여준다. 대형 몬스터의 약점 부위에 물리적으로 매달려야만 효율이 극대화되는 구조는, 플레이어에게 지형·몬스터의 움직임·자신의 스태미나를 동시에 계산하도록 강요하며 긴장감을 유지시킨다. 다단 히트가 속성·상태이상 누적에 그대로 곱산되기 때문에 독·침묵 마법부여 시 시너지가 폭발적으로 늘어나는 리스크-리워드 층위가 명확하다. 스태미나를 다 쓸 때 자동 발동되는 피니시 구조는 '언제 빠져나올 것인가'라는 판단 타이밍을 플레이어 손에 위임하면서도 끝까지 버텼을 때의 카타르시스를 보장한다. 결과적으로 단순 버튼 연타가 전술적 포지셔닝과 자원 관리의 집약 지점으로 승화된 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EB%B0%B1+%EC%9E%85%EB%A7%9E%EC%B6%A4+%2F+Hundred+Kisses+%28%E7%99%BE%E3%81%AE%E5%8F%A3%E4%BB%98%E3%81%91%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.fandom.com/wiki/Hundred_Kisses",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "weak-point",
+        "grapple",
+        "stamina-management",
+        "status-buildup",
+        "positional-skill",
+        "risk-reward",
+        "close-range"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "단검"
+      ],
+      "id": "db-030",
+      "addedDate": "2026-03-17 05:50"
     }
   ]
 }
