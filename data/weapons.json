@@ -37896,7 +37896,11 @@
       },
       "designNotes": "Shield Drum은 '방패 = 방어'라는 플레이어의 고정관념을 의도적으로 뒤집어 방패를 능동적 공격 도구로 재정의한다. 연속 타격마다 경직이 쌓이는 '스태거 루프' 구조는 적의 행동을 완전히 억제하는 강력한 보상을 주지만, 사용 중에는 가드 불가 상태가 되어 명확한 리스크-리워드 균형을 형성한다. 타격 횟수에 따라 스태미나가 소모되므로 자원 관리 판단이 지속적으로 요구되며, 이는 공격을 '언제 끊느냐'는 전략적 결정으로 이어진다. 방패가 무기 체계 안에서 공격적 역할도 담당하게 함으로써 파이터 직업의 플레이 폭을 크게 넓히는 디자인 사례로, 도구의 다의성(multi-purpose design)이 전투 표현력을 어떻게 확장하는지를 잘 보여준다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EB%B0%A9%ED%8C%A8+%EC%97%B0%ED%83%80+%2F+Shield+Drum+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=GOaoRZgdhmQ",
+          "https://www.youtube.com/watch?v=AAOMLiEJZcE",
+          "https://www.youtube.com/watch?v=f3NRcE4xu6Q"
+        ],
         "images": [],
         "wiki": "https://dragonsdogma.wiki.fextralife.com/Shield+Drum",
         "gif": null
