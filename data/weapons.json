@@ -25954,6 +25954,81 @@
       ],
       "id": "wh-034",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에이콘 어빌리티 (Eikon Ability) — 타이탄",
+      "game": "Final Fantasy XVI",
+      "developer": "Square Enix Creative Business Unit III",
+      "actionName": "랜드슬라이드 / Landslide",
+      "actionType": "특수기",
+      "description": "클라이브가 타이탄의 힘을 빌려 지면에서 거대한 돌 주먹을 솟구치게 해 적을 강타하는 대지 속성 어빌리티다. 기본 탭 입력으로는 즉발 런처로 작동하며, 홀드 입력 시 차지 폭발로 전환되어 폭넓은 범위와 추가 경직을 부여한다. 적중한 중소형 적은 공중으로 날아오르며 이후 공중 콤보의 기점이 된다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "땅",
+        "effectColor": [
+          "brown",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "launcher",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "area-of-effect",
+          "gap-closer"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~14f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "랜드슬라이드는 탭과 홀드라는 단일 입력의 두 층위로 초보자와 숙련자 모두를 수용하는 이중 보상 구조를 구현한다. 탭 버전은 즉각적인 런처로 공중 콤보 루트를 열어주고, 홀드 버전은 더 높은 피해와 넓은 범위를 제공해 리스크-리워드 판단을 자연스럽게 유도한다. '거대한 돌 주먹'이라는 시각적 언어는 타이탄의 정체성을 추상적 파티클 없이 직관적으로 전달하며, 에이콘의 개성이 조작감에 직결되는 좋은 사례다. 다른 에이콘 어빌리티들과의 공중 콤보 시너지를 통해 FFXVI의 전투 시스템 전체와 유기적으로 연결되는 설계 철학이 돋보이며, 쿨다운 구조는 남용 방지와 동시에 타이밍 전략을 전투 흐름의 일부로 통합한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EB%9E%9C%EB%93%9C%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C+%2F+Landslide+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "earth-magic",
+        "launcher",
+        "eikon-ability",
+        "charge-attack",
+        "crowd-control",
+        "poise-break",
+        "aerial-combo-starter",
+        "dual-input",
+        "titan",
+        "action-rpg"
+      ],
+      "applicableWeapons": [
+        "마법",
+        "에이콘 어빌리티"
+      ],
+      "id": "mg-022",
+      "addedDate": "2026-03-16"
     }
   ]
 }
