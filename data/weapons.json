@@ -22952,6 +22952,78 @@
       ],
       "id": "wh-027",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 / 클로 글러브 (Leather Gloves)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "섬머솔트 (Somersault)",
+      "actionType": "ATB 어빌리티",
+      "description": "티파가 ATB 게이지 1칸을 소모해 강력한 상향 발차기로 적을 공중으로 높이 날려 보내는 기술. 발동 시 티파 본인도 도약하며, 발에 집중된 물리 타격이 단일 적에게 높은 경직과 공중 부양 효과를 부여한다. 공중으로 띄워진 적은 일시적 무방비 상태가 되어 이후 공중 추격 공격이나 아군의 연계 공격의 시작점(런처)으로 활용된다.",
+      "motionType": [
+        "leap",
+        "combo",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "opener"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "launch",
+          "stagger-buildup",
+          "atb-ability"
+        ],
+        "resourceCost": "ATB 게이지 1칸",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~6f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "섬머솔트는 FF7R의 전투 시스템에서 '수직 공간'을 전략 요소로 도입하는 핵심 설계 사례다. 일반 콤보가 수평 타격에 집중되는 것과 달리, 이 기술은 적을 공중으로 이동시켜 무방비 상태 및 경직 축적 구간을 창출함으로써 ATB 비용의 정당성을 명확히 부여한다. 발동 후 상황 전환이 즉각적이고 시각적으로 명료해 플레이어가 '런처'로서의 역할을 직관적으로 인식하게 유도한다. 또한 혼자 진행 중에도 공중 추격 연계(공중 콤보)와 즉시 연결되도록 설계되어, ATB 소모가 단발 대미지가 아닌 '상황 이점 창출'에 쓰인다는 고급 RPG 전투 원칙을 잘 보여준다. 티파 캐릭터 디자인 철학(빠른 연타 + 상황 개척)과도 완벽히 정합하는, 역할 일관성이 높은 어빌리티다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EC%84%AC%EB%A8%B8%EC%86%94%ED%8A%B8+%28Somersault%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Somersault_(Final_Fantasy_VII_Remake)",
+        "gif": null
+      },
+      "tags": [
+        "launcher",
+        "atb-ability",
+        "air-combo",
+        "stagger",
+        "fist-combat",
+        "tifa",
+        "ff7r",
+        "single-target",
+        "vertical-space",
+        "combo-starter"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손",
+        "클로"
+      ],
+      "id": "ft-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
