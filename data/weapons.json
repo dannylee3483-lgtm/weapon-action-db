@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:36",
+  "lastUpdated": "2026-03-17 06:40",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34378,6 +34378,78 @@
       ],
       "id": "db-031",
       "addedDate": "2026-03-17 06:36"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "한손검 (Swordsmanship Job)",
+      "game": "Stranger of Paradise: Final Fantasy Origin",
+      "developer": "Team Ninja / Square Enix",
+      "actionName": "소울 버스트 / Soul Burst",
+      "actionType": "특수 피니셔",
+      "description": "적의 Will Gauge(의지 게이지)를 0으로 소진시켰을 때 발동하는 처형형 피니셔. 한손검으로 강렬한 마무리 일격을 가해 적을 크리스탈로 결정화시킨 뒤 산산조각 내며 처치한다. Swordsmanship 직업 특유의 빠른 다단 연타가 의지 게이지를 효율적으로 깎아내 이 액션의 발동 조건을 가장 빠르게 충족시킨다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold",
+          "purple"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "execute",
+          "resource-on-kill"
+        ],
+        "resourceCost": "Will Gauge 완전 소진 조건",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~28f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Soul Burst 시스템은 체력 게이지와 병렬로 작동하는 'Will Gauge(의지 게이지)'를 통해 이중 체력 관리 구조를 구현한다. 일반 피해로는 죽이기 어려운 강적도 의지를 꺾으면 처형 가능해지는 구조는, 전투를 단순한 DPS 레이스가 아닌 '상태 파괴' 목표 중심의 전략적 교전으로 전환시킨다. 1H검의 빠른 다단 타격은 의지 게이지 소진 효율이 높아, 직업-전술-목표 사이의 연계가 자연스럽게 형성되며 직업 선택의 의미를 강화한다. 적이 크리스탈로 결정화되는 연출은 처치 조건 충족을 시각적으로 명시해 플레이어가 '언제 피니셔를 써야 하는가'를 직관적으로 학습하게 만드는 탁월한 피드백 설계다. 의지 게이지 소진을 위한 근접 압박은 반격 리스크를 수반하지만 성공 시 추가 자원을 획득하는 명확한 리스크-리워드 루프가 공격적 플레이를 자연스럽게 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Stranger+of+Paradise%3A+Final+Fantasy+Origin+%EC%86%8C%EC%9A%B8+%EB%B2%84%EC%8A%A4%ED%8A%B8+%2F+Soul+Burst+gameplay",
+        "images": [],
+        "wiki": "https://stranger-of-paradise.wiki.fextralife.com/Soul+Burst",
+        "gif": null
+      },
+      "tags": [
+        "soul-burst",
+        "will-gauge",
+        "execute",
+        "finisher",
+        "poise-break",
+        "dual-health-bar",
+        "team-ninja",
+        "fast-attacks",
+        "resource-management",
+        "crystal-kill"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "모든 근접 무기 (Will Gauge 공유)"
+      ],
+      "id": "sw-033",
+      "addedDate": "2026-03-17 06:40"
     }
   ]
 }
