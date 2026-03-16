@@ -31434,6 +31434,80 @@
       ],
       "id": "ax-039",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "전쟁낫 (War Scythe)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "엔슈라우드 / Enshroud",
+      "actionType": "특수기",
+      "description": "수의 게이지(Shroud Gauge) 50을 소모해 사신의 화신 레뮈르(Lemure)로 몸을 감싸는 변신 상태에 진입한다. 20초간 기본 스킬이 레뮈르 전용 낫 공격으로 대체되며, 정확히 4회의 연계 이후 최종기 '코뮤니오(Communio)'를 사용해야 변신 사이클이 완성된다. 캐릭터 주변에 짙은 보라빛 영혼 오라가 피어오르고, 각 타격마다 유령 형상이 낫 궤적을 잔상으로 남긴다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black",
+          "cyan"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "stance-change",
+          "burst-window",
+          "resource-spend",
+          "poise-breaking"
+        ],
+        "resourceCost": "Shroud Gauge 50",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~20s (지속)",
+          "recovery": "~30f (Communio 사용 후)"
+        }
+      },
+      "designNotes": "엔슈라우드는 '축적-방출(Build-and-Spend)' 자원 사이클의 정점으로, 게이지를 쌓는 준비 국면과 딜을 극대화하는 폭발 국면을 명확히 분리함으로써 전투 리듬에 강한 밀물-썰물 구조를 부여한다. 단순 버튼 하나로 끝나지 않고 '4회 레뮈르 연계 → 코뮤니오 피니쉬'라는 미니 루틴 수행을 강제하여, 버스트 창 안에서도 판단과 실행이 연속적으로 필요하게 만든다. 파티 전체의 공격력 강화 버프와 2분 주기로 맞물리도록 설계되어, 개인 리소스 관리와 팀 조율이 자연스럽게 연결되는 사회적 메카닉으로 기능한다. 이동 집중 구간에서 진입 타이밍을 잘못 잡으면 연계 중단으로 자원이 낭비되는 기회비용 리스크가 있어, '언제 쏠 것인가'라는 전략적 판단을 끊임없이 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%97%94%EC%8A%88%EB%9D%BC%EC%9A%B0%EB%93%9C+%2F+Enshroud+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Enshroud",
+        "gif": null
+      },
+      "tags": [
+        "burst-window",
+        "stance-change",
+        "resource-management",
+        "dark-element",
+        "combo-sequence",
+        "party-sync",
+        "reaper",
+        "scythe",
+        "mmorpg",
+        "build-and-spend"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "전쟁낫"
+      ],
+      "id": "sc-028",
+      "addedDate": "2026-03-16"
     }
   ]
 }
