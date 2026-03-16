@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:43",
+  "lastUpdated": "2026-03-17 06:45",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34588,6 +34588,76 @@
       ],
       "id": "gb-004",
       "addedDate": "2026-03-17 06:43"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "양손 전쟁 해머 (Two-Handed War Hammer)",
+      "game": "Dragon Age: Inquisition",
+      "developer": "BioWare",
+      "actionName": "강력한 일격 / Mighty Blow",
+      "actionType": "특수기",
+      "description": "전사가 양손 전쟁 해머를 머리 위로 높이 들어올린 뒤 수직으로 내리꽂는 기술이다. 명중 시 대상이 즉시 넘어지며 수 초간 스턴 상태가 되어 후속 공격에 무방비로 노출된다. 전략적 전투 흐름에서 강적의 고위험 액션을 강제 취소시키거나 팀 콤보의 시동기로 활용되는 핵심 기술이다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "stun",
+          "interrupt"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~12f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Mighty Blow는 Dragon Age: Inquisition의 전략적 전투 체계 안에서 '인터럽트 + 포지셔닝 리셋'이라는 이중 역할을 수행하도록 설계된 기술이다. 쿨다운이라는 자원 비용을 지불하는 대신 적의 고위험 캐스팅·돌진 등 고비용 행동을 완전히 취소시킬 수 있어 리스크-리워드 구조가 명확하게 정의되어 있다. 해머라는 무기의 물리적 직관성(무게감·충격)과 게임플레이 결과(느린 모션·최대 스턴력)가 정확히 일치하여, 무기 피드백 설계의 교과서적 사례를 보여준다. 전술 일시정지 시스템과 결합하면 플레이어가 최적 타이밍을 계산하고 실행하는 과정 자체가 보상 경험이 되어, 전략 RPG적 만족감과 액션적 피드백을 동시에 달성한다. 특히 근접 보스처럼 포이즈가 높은 적에게 선택적으로 강점을 발휘하도록 설계되어 상황 판단을 지속적으로 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon+Age%3A+Inquisition+%EA%B0%95%EB%A0%A5%ED%95%9C+%EC%9D%BC%EA%B2%A9+%2F+Mighty+Blow+gameplay",
+        "images": [],
+        "wiki": "https://dragonage.fandom.com/wiki/Mighty_Blow_(Inquisition)",
+        "gif": null
+      },
+      "tags": [
+        "stun",
+        "knockdown",
+        "poise-breaking",
+        "overhead-slam",
+        "two-handed",
+        "interrupt",
+        "crowd-control",
+        "war-hammer",
+        "combo-starter",
+        "tactical"
+      ],
+      "applicableWeapons": [
+        "양손 전쟁 해머",
+        "Two-Handed War Hammer"
+      ],
+      "id": "hm-028",
+      "addedDate": "2026-03-17 06:45"
     }
   ]
 }
