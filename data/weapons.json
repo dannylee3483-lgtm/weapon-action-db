@@ -26240,6 +26240,76 @@
       ],
       "id": "hm-020",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "스콘 불꽃 강화 (Scorn — Flame Hollow)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "불꽃 중공 대지 강타 (Flame Hollow Ground Slam)",
+      "actionType": "차지 공격",
+      "description": "퓨리가 불꽃 중공(Flame Hollow) 상태에서 채찍 '스콘'을 머리 위로 들어올린 뒤 지면에 힘껏 내리쳐, 발화 충격파를 방사형으로 퍼뜨리는 차지 공격이다. 차지 유지 시간이 길수록 충격파 반경과 화염 도트 피해가 증폭되며, 범위 내 적 전체를 넘어뜨린다. 이 기술은 퓨리의 근거리 군중 제압 핵심 수단으로, 물리 스턴과 화염 속성이 단일 입력으로 동시 발동된다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "aoe",
+          "crowd-control",
+          "burn-buildup"
+        ],
+        "resourceCost": "없음 (Hollow 발동 상태 유지 필요)",
+        "frameApprox": {
+          "startup": "~42f",
+          "active": "~16f",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "Darksiders III는 단일 무기 채찍에 복수의 '홀로우(Hollow)' 변환 폼을 부여함으로써, 하나의 무기가 서로 다른 전투 상황에 대응하는 다형적 설계를 구현했다. 불꽃 중공 대지 강타는 리스크-리워드 구조가 명확한 기술로, 긴 차지 선딜이 적에게 회피 기회를 주지만 성공 시 광역 제압과 화염 상태이상이 동시에 보상된다. 채찍이라는 중거리 무기의 구조적 약점인 '좁은 유효 범위'를 충격파 연출로 보완하면서, 불꽃 채찍을 지면에 내리꽂는 시각적 연출이 파워감을 극대화한다. Hollow 게이지를 소모하지 않는 대신 타이밍 위험 부담을 기술 자체에 내재시켜, 플레이어가 적의 패턴을 읽은 뒤 보상을 얻는 '숙련 보상형' 설계를 실현한 점이 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EB%B6%88%EA%BD%83+%EC%A4%91%EA%B3%B5+%EB%8C%80%EC%A7%80+%EA%B0%95%ED%83%80+%28Flame+Hollow+Ground+Slam%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Darksiders_III",
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "fire",
+        "aoe",
+        "charge-attack",
+        "hollow-form",
+        "crowd-control",
+        "knockdown",
+        "burn-buildup",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-036",
+      "addedDate": "2026-03-16"
     }
   ]
 }
