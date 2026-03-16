@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:28",
+  "lastUpdated": "2026-03-17 07:30",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36085,6 +36085,80 @@
       ],
       "id": "db-032",
       "addedDate": "2026-03-17 07:28"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "일반 검 / Blazing Sword",
+      "game": "Tales of Arise",
+      "developer": "Bandai Namco Studios",
+      "actionName": "열염난무 / Incineration Gale",
+      "actionType": "무기술",
+      "description": "알펜이 불꽃이 깃든 검으로 수평·수직을 번갈아 4~5회 연속 베기를 퍼붓는 다단 공격 아르테. 발동 전 Blazing Sword 모드를 활성화하면 HP를 소모하는 대신 데미지가 대폭 증가한다. 마지막 타격에서 화염 폭발이 발생하며 강한 에어 런치 효과로 공중 콤보로 자연스럽게 연계된다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "launcher"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "knockback",
+          "hp-cost",
+          "elemental-imbue",
+          "air-launch"
+        ],
+        "resourceCost": "아르테 게이지 + HP (블레이징 소드 활성화 시)",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~42f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "Tales of Arise의 Blazing Sword 시스템은 HP를 전투 자원으로 재정의하는 리스크-리워드 구조의 교과서적 사례다. 플레이어는 '안전하게 싸울 것인가, HP를 태워 폭발적 화력을 낼 것인가'라는 즉각적 트레이드오프를 매 전투마다 직면하게 된다. Incineration Gale은 다단 히트 구조를 통해 각 타격마다 화면 진동과 피격음이 누적되어 타격감이 단계적으로 고조되는 피드백 설계를 보여준다. 마지막 히트의 Air Launch 속성이 공중 콤보로의 자연스러운 전환을 유도해 전투 흐름의 연속성을 보장한다. HP 소비라는 자기 희생 메카닉이 '고통을 느끼지 못하는 팔로 검에 불꽃을 깃드는' 알펜의 서사와 직결되어, 게임플레이와 내러티브가 일체화되는 드문 설계 성취를 달성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tales+of+Arise+%EC%97%B4%EC%97%BC%EB%82%9C%EB%AC%B4+%2F+Incineration+Gale+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "hp-cost",
+        "risk-reward",
+        "multi-hit",
+        "fire-element",
+        "air-launch",
+        "combo-extender",
+        "narrative-mechanic",
+        "elemental-arte",
+        "blazing-sword"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "속성 검"
+      ],
+      "id": "sw-034",
+      "addedDate": "2026-03-17 07:30"
     }
   ]
 }
