@@ -37416,6 +37416,74 @@
       ],
       "id": "bw-033",
       "addedDate": "2026-03-17 07:55"
+    },
+    {
+      "weaponCategory": "석궁",
+      "weaponSubtype": "에블린 (Avelyn)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "연속 사격 / Burst Fire",
+      "actionType": "기본 공격",
+      "description": "에블린을 발사하면 단 한 번의 트리거로 볼트 3발이 자동으로 연속 발사된다. 각 볼트는 독립적인 피격 판정을 가지며, 모든 볼트가 명중하면 단일 석궁 대비 약 3배의 피해를 준다. 볼트 3개를 동시에 소모하므로 보급 관리가 중요하다.",
+      "motionType": [
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "burst-damage",
+          "bolt-consumption",
+          "poise-breaking",
+          "ranged-burst"
+        ],
+        "resourceCost": "볼트 3개 소모",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~24f (3발 연속)",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "에블린의 연속 사격은 '리소스 집중 소비를 통한 순간 화력 극대화'라는 명확한 트레이드오프 구조를 가진다. 볼트 3개를 한 번에 소모함으로써 플레이어는 평소 아끼던 볼트를 결정적 순간에 쏟아붓는 심리적 긴장감을 경험하게 된다. 단순히 피해량을 높이는 것이 아니라, 스태거 누적과 포이즈 파괴 가능성을 버스트 안에 압축시켜 짧은 기회 창(opening window)을 극적으로 활용하게 설계되었다. 또한 거리 조절과 선딜·후딜 관리가 함께 요구되어 숙련도에 따른 성능 차이가 크게 벌어지는 스킬 표현(skill expression) 공간을 제공한다. 이 구조는 'PvP 기습 확정기'와 'PvE 몹 처리기'를 동시에 충족시키며 석궁 카테고리 내 최고 위험-보상 비를 구현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EC%97%B0%EC%86%8D+%EC%82%AC%EA%B2%A9+%2F+Burst+Fire+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Avelyn",
+        "gif": null
+      },
+      "tags": [
+        "burst-fire",
+        "triple-shot",
+        "ranged",
+        "bolt-consumption",
+        "poise-breaking",
+        "punish-tool",
+        "risk-reward",
+        "pvp",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "석궁",
+        "에블린"
+      ],
+      "id": "xb-003",
+      "addedDate": "2026-03-17 07:56"
     }
   ]
 }
