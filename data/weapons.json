@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:09",
+  "lastUpdated": "2026-03-17 06:12",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33176,6 +33176,75 @@
       ],
       "id": "wh-055",
       "addedDate": "2026-03-17 06:09"
+    },
+    {
+      "weaponCategory": "쌍절곤",
+      "weaponSubtype": "쌍절곤 (Nunchaku)",
+      "game": "Sifu",
+      "developer": "Sloclap",
+      "actionName": "회전 연타 강공격 (Spinning Heavy Finisher)",
+      "actionType": "콤보 피니셔",
+      "description": "쌍절곤을 머리 위로 빠르게 회전시키며 상대의 측면과 정면을 연속으로 타격하는 강공격 피니셔다. 라이트 공격 2~3히트 이후 헤비 입력으로 연계되며, 회전 모션 중 공격 판정이 넓게 퍼져 근접한 다수의 적에게 동시에 히트할 수 있다. 공격이 적중하면 상대의 구조(Structure) 게이지를 크게 소모시키며 균형을 무너뜨린다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "multi-hit",
+          "structure-damage"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~18f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Sifu의 쌍절곤은 '무기를 장착한 동안만 누릴 수 있는 리스크-리워드 구조'를 잘 구현한다. 쌍절곤의 회전 연타는 맨손보다 범위가 넓고 Structure 피해가 높지만, 회전 모션 중 이동이 제한되어 역카운터에 취약하다는 트레이드오프가 명확하다. 무기 내구도 시스템(사용 횟수 소진 시 파괴)이 적용되어 플레이어가 강공격을 아껴 쓰도록 유도하며, 자원 관리 판단을 전투 흐름 안에 자연스럽게 녹인다. 회전 모션의 시각·음향 피드백(챙챙 울리는 금속음)이 히트감을 극대화해, 몇 대 치지 않아도 '강력한 무기를 휘두르고 있다'는 만족감을 준다. 또한 다수 근접전에서 회전 판정이 여러 적에게 동시 적용되어, 군중 제어 도구로서의 활용 가치를 자연스럽게 플레이어가 학습하게 만드는 유기적인 교육 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sifu+%ED%9A%8C%EC%A0%84+%EC%97%B0%ED%83%80+%EA%B0%95%EA%B3%B5%EA%B2%A9+%28Spinning+Heavy+Finisher%29+gameplay",
+        "images": [],
+        "wiki": "https://sifu.fandom.com/wiki/Nunchaku",
+        "gif": null
+      },
+      "tags": [
+        "nunchaku",
+        "spin-attack",
+        "structure-damage",
+        "multi-hit",
+        "crowd-control",
+        "weapon-durability",
+        "combo-finisher",
+        "poise-breaking",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "쌍절곤",
+        "사슬무기"
+      ],
+      "id": "nc-001",
+      "addedDate": "2026-03-17 06:12"
     }
   ]
 }
