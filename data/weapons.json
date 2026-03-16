@@ -29922,6 +29922,78 @@
       ],
       "id": "hm-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "용암 채찍 촛대 (Magma Whip Candlestick)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "불꽃 춤 (Flame Dance)",
+      "actionType": "무기술",
+      "description": "플레이어가 용암 채찍 촛대를 두 손으로 쥐고 빠르게 회전하며 사방으로 용암 구슬을 분사하는 무기술이다. 채찍을 크게 휘두르는 동안 넓은 범위에 걸쳐 화염 피해를 지속적으로 입히고, 착지한 용암은 일정 시간 불꽃 웅덩이를 형성해 범위 거부 효과를 제공한다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "area-denial",
+          "multi-hit",
+          "crowd-control",
+          "fire-damage"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~90f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "불꽃 춤은 채찍이라는 무기 유형의 핵심 매력인 '광범위 회전 제압'을 화염 속성과 결합한 설계 사례다. FP를 소모해 발동하는 구조는 리소스 관리 결정을 강요하며 리스크-리워드 구조를 명확하게 만든다. 착지 용암의 지속 화염 효과는 단순 딜링을 넘어 전장 통제력을 부여하며, 이동을 억제하는 지속형 위협으로 기능한다. '촛대+채찍'이라는 독특한 무기 실루엣은 강한 비주얼 아이덴티티를 형성해 플레이어가 이 무기술을 발동하는 순간의 만족감을 극대화한다. 이처럼 무기의 형태 자체가 액션의 콘셉트를 직관적으로 전달하는 설계는 무기 판타지와 조작 피드백을 일치시키는 훌륭한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EB%B6%88%EA%BD%83+%EC%B6%A4+%28Flame+Dance%29+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Magma+Whip+Candlestick",
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "fire",
+        "magma",
+        "area-denial",
+        "crowd-control",
+        "weapon-skill",
+        "multi-hit",
+        "spin-attack",
+        "unique-weapon",
+        "zone-control"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-046",
+      "addedDate": "2026-03-16"
     }
   ]
 }
