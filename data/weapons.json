@@ -30429,6 +30429,78 @@
       ],
       "id": "bw-027",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍검 (Dual Blades)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "수직 강하 / Shrouded Vault (Silkbind Attack)",
+      "actionType": "실크바인드 기술 / 갭 클로저",
+      "description": "와이어버그를 이용해 헌터가 비스듬히 공중으로 도약한 뒤, 쌍검을 회전시키며 목표 지점에 고속 급강하한다. 착지 시 회전 베기로 연결되며 데몬 모드 상태에서 사용하면 이후 콤보로 자연스럽게 연계된다. 거리가 있는 몬스터에게 순간적으로 밀착하는 공격 개시기로 기능한다.",
+      "motionType": [
+        "leap",
+        "spin",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "airborne",
+          "silkbind",
+          "demon-mode-synergy"
+        ],
+        "resourceCost": "와이어버그 1개",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~24f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Shrouded Vault는 와이어버그 소비라는 유한 자원을 '이동+공격'에 동시에 투자하게 만들어, 단순 이동기와 공격기의 경계를 무너뜨린 복합 액션이다. 데몬 모드와의 연계를 전제로 설계되어, 진입 타이밍을 잡으면 그 이후 콤보 사이클 전체의 DPS가 상승하는 리워드 구조를 갖는다. 지상형 무기인 쌍검에 수직 이동 옵션을 부여함으로써 몬스터의 상체·머리 부위 타격 기회를 확장했다는 점에서 버티컬 디자인의 좋은 예다. 와이어버그를 소모하는 리스크가 있어 남발을 억제하고, 쿨링 후 재획득 사이클이 공격 리듬과 맞물리도록 조율되어 있다. 전작 World의 데몬 비행(Aerial)과 구별되는 '도약→급강하' 모션 언어로 Rise 고유의 운동감을 시각적으로 차별화했다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%88%98%EC%A7%81+%EA%B0%95%ED%95%98+%2F+Shrouded+Vault+%28Silkbind+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Dual+Blades",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "silkbind",
+        "aerial",
+        "dual-blades",
+        "demon-mode",
+        "wirebug",
+        "spin-attack",
+        "monster-hunter",
+        "launcher",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-026",
+      "addedDate": "2026-03-16"
     }
   ]
 }
