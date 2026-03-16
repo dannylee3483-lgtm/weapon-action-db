@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:40",
+  "lastUpdated": "2026-03-17 06:42",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34450,6 +34450,73 @@
       ],
       "id": "sw-033",
       "addedDate": "2026-03-17 06:40"
+    },
+    {
+      "weaponCategory": "단검",
+      "weaponSubtype": "블레이드 (Blade)",
+      "game": "Dishonored 2",
+      "developer": "Arkane Studios",
+      "actionName": "리포스트 (Riposte)",
+      "actionType": "카운터",
+      "description": "적의 근접 공격이 들어오는 순간 블록 버튼을 정확한 타이밍에 입력하면 자동으로 카운터 찌르기가 발동된다. 성공 시 캐릭터가 단검을 상대의 복부 또는 목에 꽂아 즉사 혹은 치명적 피해를 입히며, 주변 적에게 시각적으로 노출되지 않는 상황에서는 은신 판정도 유지된다. 연속 공격 도중에도 적용 가능하여 공세를 유지하면서 역전 타이밍을 노릴 수 있다.",
+      "motionType": [
+        "parry",
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "instant-kill",
+          "timing-based",
+          "parry-window",
+          "stealth-compatible"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~5f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "리포스트 시스템은 단순 회피 일변도의 전투 대신 '정면 대응'이라는 선택지를 플레이어에게 제공함으로써 전투 레이어를 크게 확장한다. 타이밍 기반 패리-카운터 구조는 높은 리스크(실패 시 피격 + 경직)와 높은 보상(즉사 + 은신 유지)이 교차하는 긴장감 있는 교환 구조를 형성하며, 단검이라는 무기의 '예리하고 정확한 한 번'이라는 어쌔신 판타지를 전투 메카닉 차원에서 구현한다. 적의 공격 패턴을 읽는 학습 루프를 자연스럽게 유도하여, 게임 중후반으로 갈수록 플레이어가 적을 두려워하지 않고 역이용하도록 성장시키는 설계다. Dishonored 시리즈 전반의 핵심 철학인 '플레이어 에이전시 극대화'를 전투 레벨에서 구현한 대표적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dishonored+2+%EB%A6%AC%ED%8F%AC%EC%8A%A4%ED%8A%B8+%28Riposte%29+gameplay",
+        "images": [],
+        "wiki": "https://dishonored.fandom.com/wiki/Combat",
+        "gif": null
+      },
+      "tags": [
+        "parry-counter",
+        "timing-based",
+        "instant-kill",
+        "risk-reward",
+        "assassin-fantasy",
+        "stealth-compatible",
+        "read-the-enemy",
+        "dagger-precision"
+      ],
+      "applicableWeapons": [
+        "단검",
+        "블레이드"
+      ],
+      "id": "dg-003",
+      "addedDate": "2026-03-17 06:42"
     }
   ]
 }
