@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:55",
+  "lastUpdated": "2026-03-17 07:56",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37388,7 +37388,11 @@
       },
       "designNotes": "레인 오브 애로우즈는 활의 직선 사격이라는 장르적 전제를 포물선 간접 포격으로 역전시킨 디자인이다. 엄폐물 뒤 적이나 밀집 군중에게 일방적 위협을 가할 수 있어, 근거리 중심의 소울본 전투에서 활 플레이어만의 독자적인 지형 지배 역할을 부여한다. 개별 화살 피해는 낮지만 다수 히트로 출혈·독 등 상태이상을 쌓는 리스크-리워드 구조는, 적이 회피와 버팀 사이에서 강제 선택하도록 심리전을 만든다. 긴 선딜은 포지셔닝 숙련도에 대한 리워드로 작용하며, 전투에서 공간 관리를 핵심 변수로 끌어올린다. '범위형 지형 지배'를 근접 전투 중심 시스템 안에 자연스럽게 통합한 방식은 활 무기 카테고리의 설계 독자성을 확립하는 모범 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EB%A0%88%EC%9D%B8+%EC%98%A4%EB%B8%8C+%EC%95%A0%EB%A1%9C%EC%9A%B0%EC%A6%88+%2F+Rain+of+Arrows+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=LXY6YFqW07I",
+          "https://www.youtube.com/watch?v=A9JWDYIs2kE",
+          "https://www.youtube.com/watch?v=3MSfaDfeOew"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Rain+of+Arrows",
         "gif": null
