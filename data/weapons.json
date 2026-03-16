@@ -25882,6 +25882,78 @@
       ],
       "id": "sc-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "전투 십자가 (Combat Cross)",
+      "game": "Castlevania: Lords of Shadow",
+      "developer": "MercurySteam",
+      "actionName": "회전 사슬 공격 (Spinning Chains / スピニングチェーン)",
+      "actionType": "무기술",
+      "description": "가브리엘 벨몽이 전투 십자가의 사슬을 몸 주변으로 고속 회전시켜 360도 전방위의 적을 연속 타격하는 광역 공격이다. 사슬이 원형 궤도를 그리며 다단 히트를 발생시키고, 범위 내 모든 적의 자세를 지속적으로 무너뜨린다. 업그레이드를 통해 회전 범위와 다단 히트 횟수가 증가하며, 선택적으로 쉐도우·라이트 매직을 주입해 속성 피해를 추가할 수 있다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "multi-hit",
+          "360-coverage",
+          "poise-breaking"
+        ],
+        "resourceCost": "마법 (Shadow/Light Magic 선택 소비)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~72f",
+          "recovery": "~26f"
+        }
+      },
+      "designNotes": "360도 커버리지를 제공하는 회전 사슬 공격은 다수에게 포위된 '위기 상황 탈출' 도구로 기능하며, 플레이어가 수세에서 공세로 전환할 수 있는 명확한 역전 루트를 제공한다. 다단 히트 구조는 적의 슈퍼 아머를 점진적으로 누적 소진하는 압력 메카닉으로 설계되어, 단발 고위력 공격과 차별화된 역할 분담을 구현한다. 마법 자원 소비 조건은 무분별한 남용을 억제하면서 진짜 위기 상황에서의 선택 압력을 높이는 리스크-리워드 구조를 만들어내며, 쉐도우·라이트 매직 주입 선택은 같은 기술이 상황에 따라 다른 역할을 수행하는 맥락적 유연성을 제공한다. 사슬이 원심력을 받아 원형 궤도를 그리는 물리적 진실성은 채찍이라는 무기의 특성을 직관적으로 전달하며, 시각적 회전 이펙트는 공격 범위와 지속 시간을 별도 UI 없이 명확하게 표현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%ED%9A%8C%EC%A0%84+%EC%82%AC%EC%8A%AC+%EA%B3%B5%EA%B2%A9+%28Spinning+Chains+%2F+%E3%82%B9%E3%83%94%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "360-attack",
+        "multi-hit",
+        "whip",
+        "spin",
+        "area-denial",
+        "magic-cost",
+        "combat-cross",
+        "poise-break",
+        "resource-conditional"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 무기",
+        "전투 십자가"
+      ],
+      "id": "wh-034",
+      "addedDate": "2026-03-16"
     }
   ]
 }
