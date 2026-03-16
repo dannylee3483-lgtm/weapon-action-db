@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:08",
+  "lastUpdated": "2026-03-16 22:10",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -29999,6 +29999,74 @@
       ],
       "id": "sw-030",
       "addedDate": "2026-03-16 22:08"
+    },
+    {
+      "weaponCategory": "단검",
+      "weaponSubtype": "Dagger (단검)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "퀵스텝 (Quickstep)",
+      "actionType": "무기술",
+      "description": "단검 계열 무기의 고유 무기술로, 스태미나를 소모하여 짧고 빠른 방향 전환 이동을 수행한다. 일반 구르기보다 이동 거리가 짧지만 무적 프레임이 존재하며 연속 발동이 가능해, 상대의 공격을 연속으로 회피하면서 밀착 거리를 유지할 수 있다. 이동 직후 공격으로 캔슬하는 타이밍이 매우 짧아 고속 압박 루프의 핵심 메카닉으로 기능한다.",
+      "motionType": [
+        "dodge-cancel",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "very-low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "invincibility-frames",
+          "gap-closer",
+          "combo-extender",
+          "riposte-setup"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~12f (무적 구간)",
+          "recovery": "~6f"
+        }
+      },
+      "designNotes": "퀵스텝은 단검이라는 무기 카테고리의 정체성을 이동 메카닉 그 자체로 표현한 설계 사례다. 대형 무기의 높은 데미지·스태거 대신 민첩한 발놀림을 고유 능력으로 부여함으로써, '단검 사용자는 빠르게 싸운다'는 직관적 판타지를 게임플레이 수준에서 구현했다. 일반 롤보다 짧은 이동 거리는 리스크를 높이는 동시에 정밀한 위치 조정을 가능하게 해, 숙련자가 공격을 스치듯 피하며 백스텝 크리티컬로 이어지는 고난도 플레이 표현을 지원한다. 방어기와 이동기를 단일 자원(스태미나)으로 통합한 구조는 자원 관리에 복잡성을 더하면서도 단검만의 독특한 전투 리듬을 형성하며, 공격-회피-공격의 루프가 끊기지 않고 유지되는 플로우 상태를 유도하는 피드백 설계가 뛰어나다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%ED%80%B5%EC%8A%A4%ED%85%9D+%28Quickstep%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Dagger",
+        "gif": null
+      },
+      "tags": [
+        "quickstep",
+        "iframes",
+        "dagger",
+        "mobility",
+        "combo-starter",
+        "stamina-management",
+        "close-range",
+        "weapon-art",
+        "riposte",
+        "agility"
+      ],
+      "applicableWeapons": [
+        "단검",
+        "쌍검",
+        "Corvian Greatknife",
+        "Brigand Twindaggers"
+      ],
+      "id": "dg-001",
+      "addedDate": "2026-03-16 22:10"
     }
   ]
 }
