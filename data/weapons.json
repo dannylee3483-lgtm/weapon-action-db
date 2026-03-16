@@ -37029,6 +37029,77 @@
       ],
       "id": "sc-033",
       "addedDate": "2026-03-17 07:46"
+    },
+    {
+      "weaponCategory": "폴암",
+      "weaponSubtype": "Insect Glaive (벌레곤충창)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "도약 & 공중 연격 (Vault & Aerial Combo)",
+      "actionType": "특수기",
+      "description": "달리는 도중 또는 정지 상태에서 창을 땅에 짚어 폴볼팅(pole-vault)으로 공중에 도약한 뒤, 체공 상태에서 최대 3연격의 공중 슬래시를 이어간다. 착지 전 방향 전환이 가능해 몬스터의 머리·등·꼬리 등 부위를 자유롭게 선택하여 타격할 수 있으며, 공중에서 Kinsect를 발사해 추출 버프를 동시에 획득하는 멀티태스킹이 핵심이다.",
+      "motionType": [
+        "leap",
+        "combo",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "launcher"
+        ],
+        "specialProperties": [
+          "airborne",
+          "mount-buildup",
+          "part-targeting",
+          "buff-extend"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~30f (체공 지속)",
+          "recovery": "~18f (착지)"
+        }
+      },
+      "designNotes": "Insect Glaive의 도약 메카닉은 '수직 축 이동'을 전투 핵심 자원으로 삼아 다른 근접 무기와 완전히 차별화된 플레이어 판타지를 구현한다. 공중이라는 상태 자체가 마운트 축적이라는 팀 기여와 부위 선택 공격이라는 개인 효율을 동시에 제공해 리스크 없이 리워드가 복합적으로 쌓이는 구조다. Kinsect 버프(삼색 추출)를 유지하며 공중 콤보를 지속하려면 지상→공중→Kinsect 발사→착지→재도약 루프를 끊임없이 관리해야 하므로, 숙련도에 따른 DPS 차이가 극명하게 드러나는 기술 표현력이 높은 설계다. 착지 타이밍을 맞춘 강화 내려찍기(Power Slam)와의 시너지는 체공 시간 관리라는 추가 레이어를 부여해 중급 이상 플레이어에게 지속적인 목표를 제시한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EB%8F%84%EC%95%BD+%26+%EA%B3%B5%EC%A4%91+%EC%97%B0%EA%B2%A9+%28Vault+%26+Aerial+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Insect+Glaive",
+        "gif": null
+      },
+      "tags": [
+        "airborne",
+        "mount-buildup",
+        "part-targeting",
+        "buff-management",
+        "pole-vault",
+        "kinsect",
+        "aerial-combat",
+        "multi-task",
+        "polearm",
+        "capcom"
+      ],
+      "applicableWeapons": [
+        "폴암",
+        "Insect Glaive"
+      ],
+      "id": "pa-002",
+      "addedDate": "2026-03-17 07:47"
     }
   ]
 }
