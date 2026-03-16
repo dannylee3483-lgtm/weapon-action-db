@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:17",
+  "lastUpdated": "2026-03-17 06:20",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33525,6 +33525,75 @@
       ],
       "id": "gn-001",
       "addedDate": "2026-03-17 06:16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 무술 (Kung Fu)",
+      "game": "Sifu",
+      "developer": "Sloclap",
+      "actionName": "집중 타격 / Focus Strike",
+      "actionType": "특수기",
+      "description": "포커스 게이지가 충전된 상태에서 R2를 눌러 발동하는 슬로모션 정밀 타격. 시간이 느려진 순간 플레이어는 적의 신체 부위(머리·몸통·다리)를 선택해 각각 기절, 자세 붕괴(Structure Break), 다운 등 서로 다른 상태 이상을 유발할 수 있다. 발동 중 주변 적들의 움직임도 일시 정지되어 다중 교전 상황에서 전략적 판단과 숨 고르기를 동시에 제공한다.",
+      "motionType": [
+        "combo",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "knockdown",
+          "crowd-control",
+          "time-slow"
+        ],
+        "resourceCost": "포커스 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "포커스 타격은 리스크-리워드 구조의 교과서적 사례다. 게이지는 정확한 패리·회피·연타 적중으로만 축적되므로, 발동 자격 자체가 '현재 잘 싸우고 있다'는 즉각적 피드백 루프를 형성한다. 슬로모션 구간의 신체 부위 선택은 0.5초 안에 이뤄지는 짧은 의사결정이지만 전투 흐름 전체를 전환할 수 있어 행위자성(agency)을 극대화한다. 노화 페널티 시스템과 맞물려 포커스를 비축하면 생존율이 오르고, 공격적으로 소모하면 전투 리듬이 빨라지는 메타 트레이드오프가 생겨 단순 DPS 자원을 넘어선 전략적 깊이를 만든다. 발동 시 울리는 심장박동 사운드와 파장 이펙트는 '극한 집중에 돌입한 무술가'라는 내러티브를 메카닉 레벨에서 구현해 코어 판타지를 감각적으로 강화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sifu+%EC%A7%91%EC%A4%91+%ED%83%80%EA%B2%A9+%2F+Focus+Strike+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "focus-mechanic",
+        "slow-motion",
+        "body-targeting",
+        "resource-management",
+        "risk-reward",
+        "crowd-control",
+        "precision-strike",
+        "kung-fu",
+        "agency"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "클로"
+      ],
+      "id": "ft-043",
+      "addedDate": "2026-03-17 06:20"
     }
   ]
 }
