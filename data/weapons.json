@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 08:03",
+  "lastUpdated": "2026-03-17 08:05",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37783,6 +37783,75 @@
       ],
       "id": "cl-003",
       "addedDate": "2026-03-17 08:03"
+    },
+    {
+      "weaponCategory": "토파",
+      "weaponSubtype": "토파 (Tonfa)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "천지 (天地 / Heaven and Earth)",
+      "actionType": "무기술",
+      "description": "상단 자세에서 발동하는 양손 동시 하방 강타 기술로, 양 토파를 머리 위로 들어올린 후 지면을 향해 수직으로 내리찍어 충격파를 발생시킨다. 타격 순간 강한 경직 판정이 발생하며 적의 기력(Ki)을 대량으로 깎아낸다. 모션이 크고 선딜이 있는 대신 가드 불가 속성의 충격파가 주변으로 퍼져 밀집 구도에서도 위력을 발휘한다.",
+      "motionType": [
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "ki-crush",
+          "knockdown",
+          "aoe-shockwave"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~22f",
+          "active": "~10f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "천지는 고속 연타라는 토파의 기본 이미지를 역설적으로 활용한 리스크-리워드 기술이다. 평소 빠른 잔타로 적을 압박하다가 이 기술로 '마침표'를 찍는 구조는 플레이어에게 템포 조율의 즐거움을 제공한다. 긴 선딜은 피할 수 없는 리스크이지만, Ki 대량 소모라는 보상이 이를 정당화하며 기력 관리 게임플레이의 핵심 축을 형성한다. 충격파의 비가드 속성은 밀집 전투에서 토파가 대형 무기에 뒤처지지 않는 압도감을 선사해 무기 정체성을 보완한다. 느린 기술과 빠른 기술의 배치라는 Nioh 2 전체 무기 설계 원칙이 토파에서도 충실히 구현된 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%B2%9C%EC%A7%80+%28%E5%A4%A9%E5%9C%B0+%2F+Heaven+and+Earth%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Tonfa",
+        "gif": null
+      },
+      "tags": [
+        "ki-crush",
+        "poise-breaking",
+        "high-stance",
+        "overhead-strike",
+        "aoe",
+        "combo-finisher",
+        "risk-reward",
+        "tonfa",
+        "nioh2"
+      ],
+      "applicableWeapons": [
+        "토파"
+      ],
+      "id": "tf-002",
+      "addedDate": "2026-03-17 08:05"
     }
   ]
 }
