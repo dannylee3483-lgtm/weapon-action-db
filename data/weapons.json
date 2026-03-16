@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:45",
+  "lastUpdated": "2026-03-17 06:46",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34658,6 +34658,74 @@
       ],
       "id": "hm-028",
       "addedDate": "2026-03-17 06:45"
+    },
+    {
+      "weaponCategory": "철퇴",
+      "weaponSubtype": "철퇴 (Mace)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "양손 강공격 팬케이크 다운 (Two-Handed R2 Pancake Knockdown)",
+      "actionType": "강공격",
+      "description": "철퇴를 양손으로 쥐고 머리 위에서 수직으로 내리찍는 강공격. 피격된 적의 균형치(Poise)를 완전히 붕괴시키면 적이 바닥에 납작하게 눌리는 '팬케이크' 넘어짐이 발생한다. 넘어진 적은 일어서는 동안 완전한 무방비 상태가 되어 추가 공격 또는 리포지셔닝 기회를 제공한다.",
+      "motionType": [
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "follow-up-window",
+          "stance-break"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~34f",
+          "active": "~10f",
+          "recovery": "~48f"
+        }
+      },
+      "designNotes": "팬케이크 넘어짐은 단순 경직이 아닌 '완전한 제압'을 시각적으로 연출하여, 느리고 묵직한 무기를 선택한 플레이어에게 강렬한 보상 피드백을 제공한다. 높은 선딜레이와 스태미나 소모라는 명확한 리스크를 설정하고, 그에 대응하는 리워드로 전투 주도권 역전이라는 비대칭 보상을 설계한 것이 핵심이다. 철퇴 계열 무기 고유의 '균형 파괴' 특성을 강공격에서 가장 극적으로 표현한 사례로, '왜 느린 무기를 써야 하는가'에 대한 답을 즉각적인 시각 연출로 전달한다. 쓰러진 적에게 추가 타격을 유도하는 구조는 공격적인 플레이스타일을 자연스럽게 장려하며, PvE 몹 처리와 PvP 심리전 양쪽에서 철퇴 선택의 핵심 동기로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EC%96%91%EC%86%90+%EA%B0%95%EA%B3%B5%EA%B2%A9+%ED%8C%AC%EC%BC%80%EC%9D%B4%ED%81%AC+%EB%8B%A4%EC%9A%B4+%28Two-Handed+R2+Pancake+Knockdown%29+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Mace",
+        "gif": null
+      },
+      "tags": [
+        "pancake-knockdown",
+        "poise-breaking",
+        "overhead-smash",
+        "crowd-control",
+        "punish",
+        "high-stagger",
+        "risk-reward",
+        "stance-break",
+        "mace",
+        "follow-up"
+      ],
+      "applicableWeapons": [
+        "철퇴",
+        "해머",
+        "대검"
+      ],
+      "id": "mc-002",
+      "addedDate": "2026-03-17 06:46"
     }
   ]
 }
