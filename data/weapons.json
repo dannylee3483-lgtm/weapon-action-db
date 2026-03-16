@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:05",
+  "lastUpdated": "2026-03-17 06:07",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32957,6 +32957,83 @@
       ],
       "id": "sc-031",
       "addedDate": "2026-03-17 06:05"
+    },
+    {
+      "weaponCategory": "폴암",
+      "weaponSubtype": "Draupnir Spear (드라우프니르 창)",
+      "game": "God of War Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "창 심기 & 폭발 / Spear Plant & Detonate",
+      "actionType": "특수기",
+      "description": "크라토스가 드라우프니르 창을 던져 지형이나 적에 꽂은 뒤, 심어진 창을 일제히 폭발시키는 2단계 메카닉이다. 최대 3자루의 창을 각기 다른 위치·적체에 심을 수 있으며, 폭발 입력 한 번으로 심긴 모든 창이 동시에 폭발해 넓은 범위에 공중 부양·넉백을 가한다. 지형에 심을 경우 수직 이동용 발판으로도 활용 가능하여 전투 외 상황에서도 의미 있는 사용이 이루어진다.",
+      "motionType": [
+        "throw",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "launcher"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "aoe-detonation",
+          "multi-plant",
+          "crowd-control",
+          "terrain-interaction",
+          "gap-closer"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~폭발 즉시",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "드라우프니르 창의 심기-폭발 메카닉은 '지연 리워드(Deferred Reward)' 설계의 교과서적 사례다. 플레이어는 피해를 즉시 확정하는 대신 전장에 '잠재적 폭탄'을 배치함으로써 공간 전략적 사고를 강요받는다. 심어진 창의 수가 늘어날수록 폭발 피해가 누적되어, 위험을 감수하고 더 많이 심을수록 더 큰 보상이 따르는 명확한 리스크-리워드 곡선이 작동한다. 폭발 타이밍을 플레이어가 완전히 제어하기 때문에 적의 취약 순간을 노리는 읽기·실행 루프가 전투 깊이를 크게 높이며, 이는 단순 딜링 도구를 '전장 장악 도구'로 승격시키는 역할을 한다. 지형 부착이 전투·탐색 두 맥락 모두에서 유효하도록 설계된 것 역시, 단일 메카닉의 활용 문맥을 최대화하는 좋은 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EC%B0%BD+%EC%8B%AC%EA%B8%B0+%26+%ED%8F%AD%EB%B0%9C+%2F+Spear+Plant+%26+Detonate+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Draupnir_Spear",
+        "gif": null
+      },
+      "tags": [
+        "deferred-reward",
+        "aoe",
+        "crowd-control",
+        "terrain-interaction",
+        "spear-plant",
+        "multi-hit",
+        "knockdown",
+        "gap-closer",
+        "risk-reward",
+        "space-control"
+      ],
+      "applicableWeapons": [
+        "폴암",
+        "창",
+        "투척"
+      ],
+      "id": "pa-001",
+      "addedDate": "2026-03-17 06:07"
     }
   ]
 }
