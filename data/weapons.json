@@ -32081,6 +32081,76 @@
       ],
       "id": "kt-056",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "배틀액스 (Battleaxe)",
+      "game": "Valheim",
+      "developer": "Iron Gate Studio",
+      "actionName": "회오리 베기 (Whirlwind)",
+      "actionType": "특수기",
+      "description": "배틀액스를 들고 제자리에서 360도 완전히 회전하며 주변 모든 방향의 적을 동시에 가격하는 광역 공격. 우클릭(보조 공격)으로 발동하며 발동 전 짧은 선딜레이 후 큰 호를 그리며 회전, 범위 내 모든 적에게 강력한 피해와 넉백을 가한다. 많은 스태미나를 소모하므로 포위 상황을 역전시키는 '탈출구' 용도로 사용하는 전술적 판단이 요구된다.",
+      "motionType": [
+        "spin",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "aoe",
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~45f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "생존 크래프팅 게임에서 대형 무기의 아이덴티티를 가장 직관적으로 구현한 사례다. 느린 발동과 높은 스태미나 소모라는 명확한 리스크를 광역 피해와 전방향 넉백이라는 강력한 리워드로 상쇄하는 교과서적 리스크-리워드 구조를 갖춘다. 360도 회전이라는 물리적 직관성 덕분에 튜토리얼 없이도 '포위 돌파' 용도임을 플레이어가 즉시 이해할 수 있어 게임 리터러시가 낮은 플레이어도 쉽게 활용한다. 발동 전 긴 모션이 적 AI에게도 인식되어 공격이 중단될 수 있어, 단순 스팸이 아닌 상황 판단 기반의 결정을 유도하는 깊이를 확보하고 있다. 이는 '단순하지만 얕지 않다'는 생존 게임 전투 설계의 이상적인 지향점을 잘 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Valheim+%ED%9A%8C%EC%98%A4%EB%A6%AC+%EB%B2%A0%EA%B8%B0+%28Whirlwind%29+gameplay",
+        "images": [],
+        "wiki": "https://valheim.fandom.com/wiki/Battleaxe",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "spin-attack",
+        "crowd-control",
+        "knockback",
+        "survival-game",
+        "stamina-management",
+        "risk-reward",
+        "poise-breaking",
+        "battleaxe",
+        "whirlwind"
+      ],
+      "applicableWeapons": [
+        "배틀액스",
+        "대형 도끼"
+      ],
+      "id": "ax-040",
+      "addedDate": "2026-03-16"
     }
   ]
 }
