@@ -29563,6 +29563,76 @@
       ],
       "id": "ax-037",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "쌍낫 (Twin Sickles)",
+      "game": "Mortal Kombat 11",
+      "developer": "NetherRealm Studios",
+      "actionName": "낫 걸기 (Sickle Snag)",
+      "actionType": "특수기",
+      "description": "Noob Saibot이 낫을 앞으로 던져 상대방을 걸어 강제로 끌어당기는 커맨드 잡기 기술이다. 낫이 명중하면 체인으로 연결된 채 상대를 자신 앞으로 끌어와 후속 콤보 연결이 가능해지며, 거리와 타이밍에 따라 공중 슬램이나 추가 타격을 선택할 수 있다. 원거리에서도 발동 가능해 안전 거리를 유지하던 상대를 강제로 위험 범위 안으로 끌어오는 전술적 압박 수단이 된다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "command-grab",
+          "gap-closer",
+          "combo-starter",
+          "knockdown"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~8f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "낫이라는 무기의 '갈고리·수확' 속성을 투사체와 커맨드 잡기라는 게임 메카닉으로 직접 번역한 어포던스 설계의 모범 사례다. 물리적 직관성(낫으로 걸어 당긴다)과 게임플레이 기능(거리 좁히기 + 콤보 시작점)이 완벽히 일치해, 플레이어가 별도 학습 없이 기술 용도를 즉시 이해할 수 있다. 투사체 판정과 잡기 판정을 하나로 통합함으로써 상대에게 이중 심리 압박(방어 불가 잡기 vs 투사체 회피 점프)을 강요하는 구조는 높은 전략적 깊이를 만든다. Noob Saibot의 '그림자·어둠' 테마와 낫의 '포획·수확' 상징성이 결합되어 캐릭터 정체성과 메카닉의 테마 일관성을 달성했으며, 성공 시 후속 선택권(슬램/공중 콤보)을 부여해 숙련도에 따른 보상 체계도 갖추고 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Mortal+Kombat+11+%EB%82%AB+%EA%B1%B8%EA%B8%B0+%28Sickle+Snag%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "command-grab",
+        "gap-closer",
+        "combo-starter",
+        "dark-element",
+        "scythe",
+        "chain-attack",
+        "fighting-game",
+        "affordance-design",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "쌍낫",
+        "사슬낫"
+      ],
+      "id": "sc-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
