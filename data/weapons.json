@@ -26096,6 +26096,76 @@
       ],
       "id": "wh-035",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투술 (Bare-Knuckle Martial Arts)",
+      "game": "Lost Judgment",
+      "developer": "Ryu Ga Gotoku Studio",
+      "actionName": "뱀 자세 카운터 (Snake Style Reversal Counter)",
+      "actionType": "카운터",
+      "description": "야가미 타카야키의 뱀 자세(Snake Style)에서 적의 공격 직전 타이밍에 버튼을 입력해 공격을 흘리고 강력한 반격을 꽂아 넣는 기술이다. 성공 시 야가미가 몸을 낮게 틀어 공격을 피하며 적의 팔을 잡아 비틀거나 측면으로 강타하는 유려한 무술 동작이 연출된다. 뱀 자세 특유의 부드럽고 흐르는 듯한 모션 덕분에 카운터 성공 시 강한 시각적 만족감을 제공하며, 이후 크레인 자세나 타이거 자세 콤보로 이어지는 스탠스 전환의 기점이 된다.",
+      "motionType": [
+        "counter",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "parry",
+          "counter-attack",
+          "stance-transition",
+          "armor-break"
+        ],
+        "resourceCost": "없음 (타이밍 조건)",
+        "frameApprox": {
+          "startup": "~3f (카운터 입력 윈도우)",
+          "active": "~18f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "뱀 자세 카운터는 '타이밍 숙련 → 압도적 보상'이라는 리스크-리워드 구조를 격투 액션에 효과적으로 내재화한 사례다. 단순한 회피가 아닌 '흘리기 후 즉각 반격'이라는 2단계 응답을 요구함으로써 플레이어가 적의 공격 패턴을 능동적으로 읽도록 동기를 부여한다. 성공 시의 유려한 무술 모션과 히트스탑은 숙련에 대한 시각적 보상을 극대화하며, 실패 시에는 뱀 자세 특유의 낮은 피격 판정이 최소한의 안전망이 되어 지나치게 가혹한 처벌을 방지한다. 세 가지 자세(타이거·크레인·뱀) 간의 스탠스 전환 시스템과 결합되어, 카운터 성공이 단순한 피해 교환이 아닌 전체 공세의 시작점으로 기능하게 설계되어 있다는 점이 특히 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lost+Judgment+%EB%B1%80+%EC%9E%90%EC%84%B8+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28Snake+Style+Reversal+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://lostjudgment.fandom.com/wiki/Fighting_Styles",
+        "gif": null
+      },
+      "tags": [
+        "counter-attack",
+        "stance-based",
+        "martial-arts",
+        "risk-reward",
+        "parry",
+        "timing-based",
+        "combo-starter",
+        "unarmed",
+        "pattern-reading",
+        "flow-state"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "격투술"
+      ],
+      "id": "ft-030",
+      "addedDate": "2026-03-16"
     }
   ]
 }
