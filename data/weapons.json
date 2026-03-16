@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:32",
+  "lastUpdated": "2026-03-17 06:34",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34237,6 +34237,73 @@
       ],
       "id": "gs-060",
       "addedDate": "2026-03-17 06:32"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "일본도",
+      "game": "Way of the Samurai 4",
+      "developer": "Acquire",
+      "actionName": "칼날 받기 / 刃受け (Hagane-uke)",
+      "actionType": "카운터",
+      "description": "상대방의 공격이 날아오는 찰나, 맨손으로 적의 칼날을 잡아 동작을 완전히 봉쇄하는 고위험 카운터 기술. 성공 시 적을 무장해제하거나 즉각적인 강력한 반격 기회를 확보한다. 실패하면 그대로 베여 치명상을 입는 극단적인 리스크-리워드 구조가 핵심이다.",
+      "motionType": [
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish"
+        ],
+        "specialProperties": [
+          "disarm",
+          "parry-counter",
+          "high-risk-reward"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~6f",
+          "recovery": "~25f (실패 시)"
+        }
+      },
+      "designNotes": "Way of the Samurai 시리즈의 정체성을 상징하는 칼날 받기는, 무기 없이 맨손으로 적의 검날을 잡는다는 발상에서 출발해 극도의 집중력과 타이밍 판단을 동시에 요구한다. 성공 시 적을 무장해제하는 강력한 리워드는 플레이어에게 영화적 카타르시스를 제공하지만, 실패 시 치명상을 감수해야 하는 리스크가 끝까지 긴장감을 유지시킨다. '읽기-반응-보상'이라는 카운터 디자인의 본질을 극한까지 밀어붙인 사례로, 단순한 패리와 달리 입력 자체가 플레이어의 담력과 경험치를 직접 시험하는 구조다. 숙련된 플레이어에게는 가장 강력한 선택지이자 최고의 성취감을 주는 기술로, 시리즈 팬들이 성공 장면을 적극적으로 공유할 정도의 기억에 남는 모먼트를 설계한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Way+of+the+Samurai+4+%EC%B9%BC%EB%82%A0+%EB%B0%9B%EA%B8%B0+%2F+%E5%88%83%E5%8F%97%E3%81%91+%28Hagane-uke%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "blade-catch",
+        "counter",
+        "disarm",
+        "high-risk-reward",
+        "timing-based",
+        "parry-counter",
+        "samurai",
+        "katana",
+        "cinematic"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일본도",
+        "1H검"
+      ],
+      "id": "kt-064",
+      "addedDate": "2026-03-17 06:34"
     }
   ]
 }
