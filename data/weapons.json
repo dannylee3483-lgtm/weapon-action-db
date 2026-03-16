@@ -27399,6 +27399,81 @@
       ],
       "id": "hm-021",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "혼돈의 검 (Blades of Chaos)",
+      "game": "God of War (2018)",
+      "developer": "Santa Monica Studio",
+      "actionName": "아틀라스 분화 (Atlas Eruption)",
+      "actionType": "특수기",
+      "description": "크라토스가 혼돈의 검 양날을 지면에 동시에 내리꽂아 발밑에서 폭발적인 화염을 분출시키는 전방위 범위 공격 기술. 약 180° 범위의 적들을 동시에 경직·넉백시키며, 스킬 업그레이드 시 화염 지속 피해 효과가 추가된다. 다수의 적에게 포위당한 상황에서 즉각적인 위험 탈출과 공격을 동시에 수행하는 생존기이자 콤보 마무리기로 기능한다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "crowd-control",
+          "escape-tool"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~24f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "아틀라스 분화는 사슬 무기 고유의 근접 포위 취약성에 대한 설계적 해답이다. 채찍·사슬 계열 무기는 원거리에서 강하지만 포위당하면 취약해지는 구조적 딜레마가 있는데, 이 기술은 '최대 위기 상황 = 최대 반격 기회'라는 리스크-리워드 역전을 구현해 플레이어의 위기 대응 쾌감을 극대화한다. 지면에 검을 박는 모션이 채찍을 후리는 것과 전혀 다른 시각 언어를 사용하면서도 '사슬 무기만 가능한 공격'이라는 인상을 유지해, 무기 정체성을 흐리지 않는다. 화염 원소 부여로 단순 물리 충격보다 더 넓은 판정과 지속 피해를 제공하며, 스킬 업그레이드 경로를 통한 단계적 성장 보상 구조까지 갖추고 있어 장기 플레이 투자를 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%282018%29+%EC%95%84%ED%8B%80%EB%9D%BC%EC%8A%A4+%EB%B6%84%ED%99%94+%28Atlas+Eruption%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Atlas_Eruption",
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "aoe",
+        "fire",
+        "crowd-control",
+        "escape-tool",
+        "chain-weapon",
+        "blades-of-chaos",
+        "god-of-war",
+        "combo-ender",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 무기",
+        "쌍검"
+      ],
+      "id": "wh-039",
+      "addedDate": "2026-03-16"
     }
   ]
 }
