@@ -25028,6 +25028,78 @@
       ],
       "id": "wh-032",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 철권 격투 (Bare Fist / Iron Fist)",
+      "game": "Tekken 8",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "풍신권 / Wind God Fist (風神拳)",
+      "actionType": "특수기",
+      "description": "Jin Kazama의 시그니처 기술로, f,N,d,df+2 커맨드 입력으로 발동하는 전진 상단 주먹 공격이다. 일반 히트 시 강한 경직을 주고, 카운터 히트 시 상대를 공중으로 띄워 풀 콤보 연계를 가능하게 한다. 입력을 프레임 퍼펙트로 수행하면 EWGF(Electric Wind God Fist)로 업그레이드되어 스타트업이 단축되고 번개 이펙트와 함께 더 강화된 부상 상태가 부여된다.",
+      "motionType": [
+        "thrust",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "launch",
+          "counter-hit-bonus",
+          "frame-perfect-upgrade",
+          "high-skill-ceiling"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~15f (EWGF: ~13f)",
+          "active": "~3f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "풍신권은 '스킬 표현의 계단'을 가장 명확하게 구현한 격투 게임 기술 중 하나다. 동일한 커맨드 입력을 프레임 퍼펙트로 수행하느냐 아니냐에 따라 성능이 질적으로 달라지며, 숙련도가 곧 직접적인 전투력 차이로 이어지는 구조가 플레이어의 연습 동기를 지속적으로 자극한다. 카운터 히트 시에만 런처로 작동하는 조건부 보상은 상대의 행동을 '읽고 반응하는 능력'에 추가 보상을 부여해 단순 데미지 이상의 의미를 갖게 한다. 번개 이펙트와 강렬한 임팩트음이 성공 여부를 즉각적으로 청각·시각 피드백하여 EWGF 성공 시 선명한 달성감을 제공한다. 30년 이상 이어온 철권 시리즈의 정체성을 상징하는 기술로, 학습 장벽과 숙련 보상의 균형이 격투 게임 디자인의 교과서적 사례로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Tekken+8+%ED%92%8D%EC%8B%A0%EA%B6%8C+%2F+Wind+God+Fist+%28%E9%A2%A8%E7%A5%9E%E6%8B%B3%29+gameplay",
+        "images": [],
+        "wiki": "https://tekken.fandom.com/wiki/Wind_God_Fist",
+        "gif": null
+      },
+      "tags": [
+        "tekken",
+        "launcher",
+        "skill-expression",
+        "frame-perfect",
+        "counter-hit",
+        "ewgf",
+        "combo-starter",
+        "iron-fist",
+        "lightning",
+        "high-skill-ceiling"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "맨손"
+      ],
+      "id": "ft-029",
+      "addedDate": "2026-03-16"
     }
   ]
 }
