@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:24",
+  "lastUpdated": "2026-03-17 07:28",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36011,6 +36011,80 @@
       ],
       "id": "kt-065",
       "addedDate": "2026-03-17 07:24"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍단검 / Short Sword Pair",
+      "game": "NieR: Automata",
+      "developer": "PlatinumGames / Square Enix",
+      "actionName": "분노 모드 / Berserk Mode (A2)",
+      "actionType": "특수기",
+      "description": "A2가 외장 장갑을 자의적으로 해제하여 공격 속도와 피해량을 극한까지 올리는 전투 모드. 모드 발동 중에는 받는 피해가 크게 증가하지만 쌍검 콤보의 모션 속도가 2배 가까이 빨라지며 모든 공격에 폭발적인 화력이 부여된다. 체력 소진 속도를 계산하며 최대 화력 지속 구간을 판단하는 고위험·고보상 설계의 핵심 메카닉이다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "hp-drain",
+          "speed-boost",
+          "damage-amplify",
+          "high-risk-high-reward",
+          "toggle"
+        ],
+        "resourceCost": "HP (지속 소모)",
+        "frameApprox": {
+          "startup": "~10f (모드 전환)",
+          "active": "지속 (토글 방식)",
+          "recovery": "~10f (해제 시)"
+        }
+      },
+      "designNotes": "분노 모드는 스태미나나 쿨다운이 아닌 'HP' 자체를 화력 증폭의 대가로 삼는 독창적인 리스크-리워드 구조를 가진다. 플레이어는 전투 내내 '현재 체력으로 모드를 얼마나 지속할 수 있는가'를 실시간으로 계산해야 하므로, 단순 버튼 입력이 전략적 판단으로 격상된다. 장갑 해제라는 내러티브 맥락—A2의 냉정하고 자기 파괴적인 전투 철학—이 게임플레이 메카닉과 자연스럽게 통합되어, 기계적 선택지가 캐릭터 정체성을 직접 강화한다. 체력이 낮을수록 모드를 유지해야 한다는 역설적 압박감은 전투 클라이맥스에 강렬한 긴장감을 부여한다. 이 '자기 희생형 파워업' 설계는 2B와의 플레이스타일 차이를 명확히 구분 짓는 뛰어난 캐릭터 차별화 수단이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%EB%B6%84%EB%85%B8+%EB%AA%A8%EB%93%9C+%2F+Berserk+Mode+%28A2%29+gameplay",
+        "images": [],
+        "wiki": "https://nier.fandom.com/wiki/A2",
+        "gif": null
+      },
+      "tags": [
+        "berserk-mode",
+        "risk-reward",
+        "hp-drain",
+        "speed-boost",
+        "toggle-mechanic",
+        "character-identity",
+        "armor-break",
+        "self-sacrifice",
+        "dual-blades",
+        "nier"
+      ],
+      "applicableWeapons": [
+        "쌍단검",
+        "쌍검"
+      ],
+      "id": "db-032",
+      "addedDate": "2026-03-17 07:28"
     }
   ]
 }
