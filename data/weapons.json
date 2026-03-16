@@ -32011,6 +32011,76 @@
       ],
       "id": "gs-052",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "귀의 손(鬼の手) 강화 카타나",
+      "game": "Onimusha: Warlords",
+      "developer": "Capcom",
+      "actionName": "일섬 카운터 (一閃 / Issen)",
+      "actionType": "카운터",
+      "description": "적의 공격이 히트하기 직전의 극히 좁은 타이밍에 공격 버튼을 입력하면 발동하는 완벽 카운터 기술. 화면을 가르는 흰 섬광과 함께 단 일격이 작렬하여 대부분의 적을 즉사시키고, 동시에 다량의 혼(魂, Soul)을 흡수한다. 타이밍 윈도우가 매우 좁아 숙련도를 극명하게 갈라내는 고위험-고보상 구조를 갖는다.",
+      "motionType": [
+        "slash",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "soul-absorb",
+          "one-hit-kill",
+          "perfect-timing-reward",
+          "poise-breaking"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~2f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "일섬(一閃)은 단순한 카운터 기술을 넘어 전투 리듬의 핵심 언어가 된다. 적의 공격 직전에만 발동 가능한 극도로 좁은 입력 윈도우는 플레이어에게 '적의 공격을 두려워하지 말고 읽어라'는 설계 철학을 행동으로 내면화시킨다. 성공 시 핵심 자원인 혼(魂)을 대량 획득하는 구조는 리스크와 리워드를 직결시켜, 숙련 플레이어가 자연스럽게 더 강해지는 포지티브 피드백 루프를 형성한다. 극적인 흰 섬광 연출은 성공 판정을 즉각 인지시키는 동시에 일도양단의 검술 미학을 강렬하게 표현하며, 사운드 피드백과 결합해 성취감을 극대화한다. 이 메카닉은 이후 세키로의 강인도(Posture) 시스템, 고스트 오브 쓰시마의 스탠드오프 등 일본 검술 게임 계보에서 완벽 카운터 원형의 참조점으로 자리잡는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Onimusha%3A+Warlords+%EC%9D%BC%EC%84%AC+%EC%B9%B4%EC%9A%B4%ED%84%B0+%28%E4%B8%80%E9%96%83+%2F+Issen%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "perfect-timing",
+        "soul-absorb",
+        "one-hit-kill",
+        "risk-reward",
+        "katana",
+        "issen",
+        "samurai",
+        "high-skill-ceiling",
+        "parry-window"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-056",
+      "addedDate": "2026-03-16"
     }
   ]
 }
