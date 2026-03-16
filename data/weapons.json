@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:54",
+  "lastUpdated": "2026-03-17 06:56",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34941,6 +34941,83 @@
       ],
       "id": "gu-003",
       "addedDate": "2026-03-17 06:54"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "모노와이어 (Monowire)",
+      "game": "Cyberpunk 2077",
+      "developer": "CD Projekt Red",
+      "actionName": "단선 충전 회전 참격 / Monowire Charged Spin",
+      "actionType": "차지 공격",
+      "description": "이동 및 회피로 '모노와이어 충전(Charge Stacks)'을 쌓은 뒤, 강공격 버튼을 길게 눌러 해제하면 V가 제자리에서 고속 회전하며 모노필라멘트 와이어를 360도로 뿌려 주변 적 전체를 다단 히트로 베어낸다. 충전 수치에 비례해 데미지와 히트 횟수가 증가하며, 전기·물리·화학 중 장착한 업그레이드 칩에 따라 속성이 결정된다. 피격된 적은 잠시 스턴 상태가 되어 후속 공격의 창구를 열어준다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "cyan",
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "launcher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "aoe",
+          "charge-resource",
+          "attribute-scaling",
+          "poise-breaking"
+        ],
+        "resourceCost": "충전 스택 (이동/회피로 축적)",
+        "frameApprox": {
+          "startup": "~30f (차지 해제 기준)",
+          "active": "~20f (다단 히트)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "모노와이어는 '무기를 장비하지 않는다'는 사이버펑크 세계관의 신체 개조 철학을 전투 메카닉으로 직결시킨 설계다. 충전 스택을 이동·회피 행동으로 쌓게 함으로써, 플레이어가 적극적으로 공간을 활용하도록 유도하는 '행동 기반 리소스' 구조를 채택했다. 회전 참격은 단일 강적보다 다수 군중에게 더 효과적이어서, 사이버 전사형 빌드에서 포지셔닝과 군중 관리라는 고차원적 의사결정을 자연스럽게 요구한다. 속성 칩 교체만으로 전기·독·물리 중 하나로 즉시 전환되는 모듈 구조는 다양한 적 면역에 대응하는 빌드 유연성을 제공하며, 단 하나의 신체 부위가 기능적 다양성을 전담한다는 압축적 설계 원칙을 보여준다. 화려한 와이어 이펙트와 회전 모션의 결합은 강화 인간이라는 정체성을 시각적으로 강하게 전달한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Cyberpunk+2077+%EB%8B%A8%EC%84%A0+%EC%B6%A9%EC%A0%84+%ED%9A%8C%EC%A0%84+%EC%B0%B8%EA%B2%A9+%2F+Monowire+Charged+Spin+gameplay",
+        "images": [],
+        "wiki": "https://cyberpunk.fandom.com/wiki/Monowire",
+        "gif": null
+      },
+      "tags": [
+        "monowire",
+        "cyberware-weapon",
+        "charge-resource",
+        "crowd-control",
+        "aoe-spin",
+        "attribute-swap",
+        "cyberpunk",
+        "melee-implant",
+        "multi-hit",
+        "positional-play"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬낫",
+        "클로"
+      ],
+      "id": "wh-056",
+      "addedDate": "2026-03-17 06:56"
     }
   ]
 }
