@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:02",
+  "lastUpdated": "2026-03-17 07:03",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35295,6 +35295,75 @@
       ],
       "id": "bg-002",
       "addedDate": "2026-03-17 07:02"
+    },
+    {
+      "weaponCategory": "총기",
+      "weaponSubtype": "에보니 & 아이보리 (Ebony & Ivory)",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "레인스톰 (Rainstorm)",
+      "actionType": "특수기",
+      "description": "단테가 공중에서 두 자루의 권총을 아래 방향으로 난사하며 고속 회전하는 기술이다. 총탄의 반동으로 공중에서 일정 시간 체공하며 지상의 다수 적에게 동시에 대량의 히트를 가할 수 있다. 지상 제압과 공중 체공 연장이라는 두 목적을 동시에 수행하는 복합 기술이다.",
+      "motionType": [
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "aerial-sustain",
+          "multi-hit",
+          "crowd-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~60f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "레인스톰은 총기 액션의 본질인 '다탄 히트와 지속 딜링'을 공중 전투와 결합한 사례로, 단순한 데미지 수단을 넘어 체공 연장 도구로도 기능한다는 점에서 탁월하다. 총탄 반동이 캐릭터를 공중에 부유시키는 물리적 피드백은 직관적이면서도 독창적인 만족감을 제공한다. 다수 적에게 분산 히트가 적용되므로 스타일 포인트 축적에 유리하며, 화려한 퍼포먼스를 낮은 진입장벽으로 구현할 수 있는 접근성 높은 설계다. 착지 후 경직이라는 명확한 리스크가 존재하지만 타이밍 캔슬로 콤보에 자연스럽게 이어지는 구조가 숙련도 표현 폭을 넓힌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%B0+%28Rainstorm%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Rainstorm",
+        "gif": null
+      },
+      "tags": [
+        "aerial",
+        "multi-hit",
+        "dual-pistol",
+        "style-meter",
+        "crowd-control",
+        "air-sustain",
+        "dante",
+        "dmc5",
+        "gun-action",
+        "combo-extender"
+      ],
+      "applicableWeapons": [
+        "총기",
+        "권총"
+      ],
+      "id": "gn-002",
+      "addedDate": "2026-03-17 07:03"
     }
   ]
 }
