@@ -29415,6 +29415,80 @@
       ],
       "id": "gs-049",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "스피어 (Nora Warrior Spear)",
+      "game": "Horizon Zero Dawn",
+      "developer": "Guerrilla Games",
+      "actionName": "공명 폭발 (Resonator Blast)",
+      "actionType": "특수기 / 콤보 피니쉬",
+      "description": "근접 콤보로 창의 공명 장치(Resonator)에 에너지를 충전한 뒤, 집중(Focus) 모드로 발사한 화살이 그 충전부에 명중하면 대규모 에너지 폭발을 일으킨다. 근접-원거리 연계를 하나의 단일 메카닉으로 통합한 구조로, 충전된 부위가 기계 생물의 약점 부위와 겹칠 경우 추가 부위 파괴 데미지가 발생한다. 플레이어는 근접 압박 → 충전 완료 확인 → 즉각 거리 이탈 → 원거리 기폭이라는 4단계 순환 플로우를 익혀야 한다.",
+      "motionType": [
+        "combo",
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "cyan",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "detonation",
+          "ranged-trigger",
+          "part-break",
+          "resource-buildup",
+          "gap-closer-setup"
+        ],
+        "resourceCost": "집중 게이지 + 화살",
+        "frameApprox": {
+          "startup": "~충전 3타 필요(각 ~18f)",
+          "active": "~폭발 반경 유지 ~12f",
+          "recovery": "~원거리 기폭 후 ~20f"
+        }
+      },
+      "designNotes": "공명 폭발은 '근접 전투와 원거리 전투를 순차적으로 강제하는 하이브리드 루프'를 구현한 독창적 메카닉이다. 플레이어는 위험한 근접 거리에서 콤보를 유지해 충전이라는 리소스를 얻고, 충전 완료 즉시 후퇴해 원거리에서 기폭하는 리스크-리워드 구조가 명확하다. 충전 에너지의 시각적 피드백(창 끝 발광)이 직관적으로 준비 상태를 알려 HUD 의존도를 줄이며, 기계 생물의 약점 부위와 연계되는 부위 파괴 보너스는 에이머(aimer)로서의 숙련도를 추가 보상한다. 이 구조는 원거리 특화 게임에서 근접 전투를 기피하지 않도록 유도하는 강력한 인센티브 설계이며, '싸우고 빠지는' 에이로(Aloy)의 캐릭터 아이덴티티를 플레이어 행동 패턴으로 자연스럽게 체화시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Horizon+Zero+Dawn+%EA%B3%B5%EB%AA%85+%ED%8F%AD%EB%B0%9C+%28Resonator+Blast%29+gameplay",
+        "images": [],
+        "wiki": "https://horizon.fandom.com/wiki/Resonator_Blast",
+        "gif": null
+      },
+      "tags": [
+        "resonator-blast",
+        "melee-ranged-hybrid",
+        "detonation",
+        "part-break",
+        "resource-buildup",
+        "risk-reward",
+        "combo-finisher",
+        "gap-punish",
+        "spear",
+        "horizon"
+      ],
+      "applicableWeapons": [
+        "창",
+        "스피어"
+      ],
+      "id": "sp-034",
+      "addedDate": "2026-03-16"
     }
   ]
 }
