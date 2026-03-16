@@ -24812,6 +24812,81 @@
       ],
       "id": "kt-049",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "삼도류 / Deathblade (대검 + 쌍검)",
+      "game": "Lost Ark",
+      "developer": "Smilegate RPG",
+      "actionName": "서지 / Surge (마지막 물결)",
+      "actionType": "정체성 기술 연계 피니셔 (Identity Skill Finisher)",
+      "description": "데스블레이드가 전투 중 축적한 '죽음의 구슬(Death Orb)' 3개를 모두 소모하며 전방을 향해 거대한 어둠 참격 파동을 방출하는 기술이다. 스킬 자체의 직접 피해보다, 발동 이후 일정 시간 동안 모든 스킬 피해를 대폭 증폭시키는 '서지 코어(Surge Core)' 버프 상태로 진입하는 것이 핵심이다. 구슬 3개 만충 상태에서 발동해야 최대 증폭율을 얻으며, 고난이도 레이드의 딜 사이클 전체를 이 기술의 타이밍 중심으로 재편한다.",
+      "motionType": [
+        "slash",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "wave",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "buff-trigger",
+          "resource-dump",
+          "damage-amplifier",
+          "high-skill-ceiling",
+          "burst-window"
+        ],
+        "resourceCost": "죽음의 구슬 3개 (Death Orbs) + 쿨다운",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~30f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "서지는 피해를 직접 가하는 기술이 아니라 '증폭 창(Amplifier Window)'을 여는 방아쇠로 설계되어, 발동 이후의 콤보 운용 능력이 실력 차이를 결정한다는 점에서 독창적이다. 자원(구슬 3개 만충)과 레이드 패턴 타이밍을 동시에 맞춰야 최대 효율이 나오므로, '계획적 자원 관리'와 '실행력(Execution)'을 이중으로 요구하는 고난이도 PvE 설계의 모범 사례다. 세 개의 구슬이 소용돌이치며 합쳐지는 이펙트는 충전-방출의 리듬을 직관적으로 전달해 보상 피드백이 탁월하며, 발동 순간의 짧은 선딜이 오히려 긴장감을 높이는 리스크로 작용한다. 이처럼 '기술 자체의 위력'보다 '발동 타이밍이 전투 구조를 재정의'하는 설계는 액션 MMO에서 자원 관리와 실행력을 핵심 재미 축으로 삼는 훌륭한 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lost+Ark+%EC%84%9C%EC%A7%80+%2F+Surge+%28%EB%A7%88%EC%A7%80%EB%A7%89+%EB%AC%BC%EA%B2%B0%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "resource-management",
+        "damage-amplifier",
+        "burst-window",
+        "identity-skill",
+        "high-skill-ceiling",
+        "raid-optimization",
+        "dark-element",
+        "dual-swords",
+        "deathblade",
+        "finisher"
+      ],
+      "applicableWeapons": [
+        "쌍검"
+      ],
+      "id": "db-023",
+      "addedDate": "2026-03-16"
     }
   ]
 }
