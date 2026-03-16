@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 08:06",
+  "lastUpdated": "2026-03-17 08:07",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37920,6 +37920,77 @@
       ],
       "id": "sh-020",
       "addedDate": "2026-03-17 08:06"
+    },
+    {
+      "weaponCategory": "차크람",
+      "weaponSubtype": "링 블레이드 (Eiserne Drossel)",
+      "game": "Soulcalibur VI",
+      "developer": "Bandai Namco Entertainment",
+      "actionName": "환희의 링 스핀 / Joyful Ring Spin",
+      "actionType": "콤보",
+      "description": "티라(Tira)가 환희(Jolly) 인격 상태에서 링 블레이드를 전방 호 궤도로 투척하며 빠른 회전 다단 히트를 가하는 연속기. 링이 원호를 그리며 날아가 적을 여러 차례 베고, 마지막에 티라가 링을 낚아채며 근접 슬래시로 마무리한다. 환희 상태 특유의 빠른 발동 속도 덕분에 중거리 견제와 근접 콤보 전환을 동시에 담당한다.",
+      "motionType": [
+        "throw",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "persona-locked",
+          "boomerang-return",
+          "arc-trajectory"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~22f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "티라의 이중 인격(Jolly/Gloomy) 시스템은 하나의 캐릭터에서 두 가지 플레이스타일을 제공하는 독창적 설계로, 이 기술은 그 중 환희 상태의 핵심 정체성을 담는다. 링 블레이드 특유의 부메랑 호 궤도는 상대가 가드 방향을 판단하기 어렵게 만드는 인지 부하 설계가 돋보인다. 투척 후 자동 귀환하는 구조 덕분에 별도 리소스 없이도 지속적인 존재 위협(zone threat)을 형성할 수 있어 리스크-리워드 균형이 탁월하다. 또한 인격 전환이 확률적으로 발생하는 구조상 사용자와 상대 모두 다음 행동을 완전히 예측하기 어렵게 만들어, 차크람 투척이라는 단순한 액션에 심리전 레이어를 추가하는 메타 설계가 인상적이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Soulcalibur+VI+%ED%99%98%ED%9D%AC%EC%9D%98+%EB%A7%81+%EC%8A%A4%ED%95%80+%2F+Joyful+Ring+Spin+gameplay",
+        "images": [],
+        "wiki": "https://soulcalibur.fandom.com/wiki/Tira",
+        "gif": null
+      },
+      "tags": [
+        "chakram",
+        "ring-blade",
+        "multi-hit",
+        "persona-swap",
+        "fighting-game",
+        "boomerang-arc",
+        "jolly-state",
+        "zone-control",
+        "arc-trajectory"
+      ],
+      "applicableWeapons": [
+        "차크람",
+        "링 블레이드",
+        "변형무기"
+      ],
+      "id": "ck-003",
+      "addedDate": "2026-03-17 08:07"
     }
   ]
 }
