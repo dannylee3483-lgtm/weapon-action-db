@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:49",
+  "lastUpdated": "2026-03-16 22:56",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30997,6 +30997,77 @@
       ],
       "id": "hm-027",
       "addedDate": "2026-03-16 22:47"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "Reaper Prime (리퍼 프라임)",
+      "game": "Warframe",
+      "developer": "Digital Extremes",
+      "actionName": "스토킹 팬 — 리핑 스파이럴 (Stalking Fan — Reaping Spiral)",
+      "actionType": "콤보",
+      "description": "Stalking Fan 스탠스 장착 시 활성화되는 근접 콤보로, 두 번의 빠른 수평 베기에 이어 낫을 몸 주변으로 크게 휘두르는 전신 회전 참격을 연결한다. 마지막 회전 타격은 360도 범위를 커버해 주변 다수의 적을 동시에 타격하며, 출혈(블리드) 상태이상을 높은 확률로 적용한다. 이 콤보를 반복하면 근접 콤보 카운터가 누적되어 이후 공격의 데미지가 지수적으로 상승한다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red",
+          "black"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "crowd-control",
+          "combo-multiplier",
+          "360-hitbox"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~22f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "Warframe의 스탠스 모드 시스템은 동일 무기 유형에 장착 카드 하나만 바꿔도 완전히 다른 전투 스타일이 생기는 구조로, 무기 커스터마이즈와 전투 리듬을 분리하는 독창적 설계다. Stalking Fan의 리핑 스파이럴은 짧고 빠른 선타-선타-대회전의 리듬으로 플레이어가 다음 타격 타이밍을 직관적으로 예측하게 만들어 콤보 학습 곡선을 낮춘다. 마지막 회전 공격이 360도 범위를 커버함으로써 다수의 적에게 둘러싸인 상황에서도 콤보를 이어갈 수 있어, 슈터 게임임에도 근접전의 판타지를 강하게 실현한다. 출혈 상태이상과 콤보 카운터 누적의 조합은 플레이어에게 '계속 싸울수록 강해진다'는 긍정적 피드백 루프를 제공하며, 탈출보다 전진하는 플레이를 유도하는 리스크-리워드 구조를 완성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%8A%A4%ED%86%A0%ED%82%B9+%ED%8C%AC+%E2%80%94+%EB%A6%AC%ED%95%91+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%9F%B4+%28Stalking+Fan+%E2%80%94+Reaping+Spiral%29+gameplay",
+        "images": [],
+        "wiki": "https://warframe.fandom.com/wiki/Reaper_Prime",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "crowd-control",
+        "combo-system",
+        "spin-attack",
+        "stance-mod",
+        "360-hitbox",
+        "horde-clearing",
+        "close-range",
+        "scythe"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "사슬낫"
+      ],
+      "id": "sc-030",
+      "addedDate": "2026-03-16 22:56"
     }
   ]
 }
