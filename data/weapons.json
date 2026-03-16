@@ -23535,6 +23535,79 @@
       ],
       "id": "sp-028",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "가시 사슬채찍 스콘 (Scorn) — 포스 할로우 형태",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "포스 할로우 인력 강타 / Force Hollow Graviton Lash",
+      "actionType": "특수기",
+      "description": "퓨리가 포스 할로우를 활성화해 Scorn에 중력 에너지를 충전한 뒤 채찍을 원호로 크게 휘두른다. 범위 내 적들이 퓨리 쪽으로 강제 인력되어 지면에 충돌하며 짧은 경직이 발생한다. 연계 타격으로 바로 이어지는 콤보 창구를 제공하며, 분산된 적을 한 지점에 모으는 전술적 용도로도 활용된다.",
+      "motionType": [
+        "sweep",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "중력",
+        "effectColor": [
+          "purple",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "pull",
+          "knockdown",
+          "gap-closer"
+        ],
+        "resourceCost": "Hollow 게이지",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~24f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Darksiders III는 채찍이라는 장거리 무기의 태생적 약점인 '근접 압박에 대한 취약성'을 Force Hollow 인력 메카닉으로 역전시킨 좋은 사례다. 적이 몰려올수록 오히려 Force Lash로 한 지점에 모아 처리할 수 있어, 위기가 기회로 전환되는 리스크-리워드 반전 구조를 형성한다. 단일 무기(Scorn)를 4가지 원소 할로우로 변형시키는 시스템은 '무기 다양성의 압축' 원칙을 구현하며 플레이어가 상황에 따라 채찍의 성질 자체를 바꾸는 전술적 선택을 유도한다. 중력 에너지의 보랏빛 시각 연출은 현재 할로우 상태를 즉각 인식하게 하는 명확한 상태 피드백이며, 인력 이펙트의 방향성은 적이 끌려오는 궤적을 시각적으로 예고해 후속 타격 타이밍 예측을 돕는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%ED%8F%AC%EC%8A%A4+%ED%95%A0%EB%A1%9C%EC%9A%B0+%EC%9D%B8%EB%A0%A5+%EA%B0%95%ED%83%80+%2F+Force+Hollow+Graviton+Lash+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Force_Hollow",
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "gravity",
+        "crowd-control",
+        "hollow-system",
+        "pull-mechanic",
+        "elemental-weapon",
+        "area-of-effect",
+        "combo-opener",
+        "risk-reward",
+        "stance-change"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬채찍",
+        "에너지 채찍"
+      ],
+      "id": "wh-028",
+      "addedDate": "2026-03-16"
     }
   ]
 }
