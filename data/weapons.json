@@ -24887,6 +24887,75 @@
       ],
       "id": "db-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "랜스 (Lance / 槍)",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "점프 / Jump (竜跳)",
+      "actionType": "특수기",
+      "description": "드래군의 상징적 스킬로, 캐릭터가 공중으로 높이 도약한 뒤 지상의 적을 향해 강렬한 랜스 찌르기로 내리꽂는다. 도약 순간 캐릭터가 화면에서 일시적으로 사라지며, 착지 시 강한 물리 피해를 입힌다. 쿨다운 기반 독립 스킬로 주 콤보 루틴과 별개로 사용 가능하며, 갭 클로저 역할도 겸한다.",
+      "motionType": [
+        "thrust",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "airborne",
+          "poise-breaking"
+        ],
+        "resourceCost": "쿨다운 (70초)",
+        "frameApprox": {
+          "startup": "~16f",
+          "active": "~6f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Jump는 드래군 직업 정체성의 핵심으로, '하늘을 가르는 창기사'라는 판타지를 시각적으로 완성하는 대표적 디자인이다. 도약 중 캐릭터가 화면에서 사라지는 연출은 긴장감과 극적 임팩트를 동시에 만들어, 단순 데미지 기술 이상의 경험을 제공한다. 쿨다운 기반 설계는 콤보 루틴 사이의 전략적 타이밍을 요구하면서도 갭 클로저로서의 이동 효용을 겸해, 리스크 없이 고효율 다기능을 제공하는 긍정적 복합 설계 사례다. 이 수직 도약 콘셉트는 이후 Spineshatter Dive, Dragonfire Dive, Stardiver 등 파생 기술로 확장되며, 직업 전체의 무브셋 언어를 '도약-강하'라는 단일 테마로 통일하는 설계 원칙의 기반이 되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%A0%90%ED%94%84+%2F+Jump+%28%E7%AB%9C%E8%B7%B3%29+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Jump",
+        "gif": null
+      },
+      "tags": [
+        "dragoon",
+        "leap-attack",
+        "gap-closer",
+        "job-identity",
+        "cooldown",
+        "aerial",
+        "spear",
+        "ffxiv",
+        "polearm",
+        "high-damage"
+      ],
+      "applicableWeapons": [
+        "창",
+        "랜스"
+      ],
+      "id": "sp-029",
+      "addedDate": "2026-03-16"
     }
   ]
 }
