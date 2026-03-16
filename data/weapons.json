@@ -33034,6 +33034,77 @@
       ],
       "id": "pa-001",
       "addedDate": "2026-03-17 06:07"
+    },
+    {
+      "weaponCategory": "건랜스",
+      "weaponSubtype": "건랜스 (Gunlance)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "총탄 연사 (Bullet Barrage)",
+      "actionType": "특수기 (Switch Skill)",
+      "description": "실크바인드 게이지를 소비해 건랜스를 땅에 고정한 뒤, 장전된 포탄 전탄을 고속 연사로 발사하는 기술이다. 기존 와이번파이어를 대체하는 스위치 스킬로, 더 짧은 쿨다운 대신 한 번에 여러 발을 빠르게 쏟아낸다. 마지막 발사 이후 자동으로 장전 동작이 이어지며, 연속 딜 사이클을 유지하기 쉽다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "beam"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "multi-hit",
+          "fixed-position",
+          "shell-type-scaling"
+        ],
+        "resourceCost": "쿨다운 (실크바인드 게이지)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~80f (연사 전체 구간)",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "Bullet Barrage는 와이번파이어의 '한 방 대기' 판타지를 해체하고, 대신 '지속 딜 버스트'라는 새로운 박자를 제공한다. 쿨다운이 짧아 몬스터의 다운 타이밍에 유연하게 맞출 수 있으며, 헌터가 포탄 타입(노멀·롱·와이드)에 따라 서로 다른 사거리·타격 패턴을 선택하게 만드는 빌드 다양성을 내포한다. 고정 자세로 연사하는 구조는 '회피 불가' 위험을 감수해야 하는 리스크-리워드 구조를 형성하며, 포지셔닝 판단력이 중요해진다. 마지막 발사 후 자동 장전이 연결되는 흐름은 액션 단절 없이 다음 콤보로 이어지게 해 조작 만족도를 높인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%B4%9D%ED%83%84+%EC%97%B0%EC%82%AC+%28Bullet+Barrage%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Gunlance",
+        "gif": null
+      },
+      "tags": [
+        "bullet-barrage",
+        "switch-skill",
+        "burst-fire",
+        "shell-damage",
+        "silkbind",
+        "fixed-position",
+        "risk-reward",
+        "multi-hit",
+        "gunlance",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "건랜스"
+      ],
+      "id": "gu-002",
+      "addedDate": "2026-03-17 06:07"
     }
   ]
 }
