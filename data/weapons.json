@@ -22881,6 +22881,77 @@
       ],
       "id": "sc-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Barbed Chain (가시 철쇄 채찍)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "충전 회전 강타 (Charged Flail Sweep)",
+      "actionType": "차지",
+      "description": "주인공 퓨리(Fury)가 가시 달린 철쇄 채찍을 몸 주위로 고속 회전시키며 원심력을 축적한 뒤, 해제 시 자신 주변 전방위에 걸쳐 강력한 원호 타격을 퍼붓는 차지 공격이다. 공격 버튼을 길게 누르는 시간에 비례해 채찍이 더 넓게 휘어지며 히트 판정 범위와 경직값이 상승한다. 단발 고출력으로 구성되어 무리 지어 접근하는 적이나 방어가 단단한 중형 적을 한꺼번에 견제하는 데 최적화되어 있다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "360-degree",
+          "poise-breaking",
+          "charge-scalable"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~22f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "다크사이더스 3는 퓨리를 채찍 전용 캐릭터로 설계함으로써 '가변 사거리 근접 전투'라는 독자적 전투 문법을 구현한다. 충전 회전 강타는 채찍 특유의 원심력 축적 원리를 차지 시스템과 직결시켜, 플레이어가 적의 공격 텀을 정밀하게 읽어야 하는 리스크-리워드 구조를 만든다. 차지 시간이 길수록 리워드가 커지는 설계는 무기 숙련도를 자연스럽게 내면화하도록 유도한다. 360도 판정은 채찍의 물리적 회전 원리를 충실히 반영하면서 다수 적 포위 상황에서 공간 지배 판타지를 강화하고, 소울라이크 계열에서 보기 드문 채찍 중심 크라우드 컨트롤 설계의 핵심 레퍼런스가 된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EC%B6%A9%EC%A0%84+%ED%9A%8C%EC%A0%84+%EA%B0%95%ED%83%80+%28Charged+Flail+Sweep%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Barbed_Chain",
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "charge-attack",
+        "crowd-control",
+        "360-degree",
+        "spin",
+        "area-of-effect",
+        "poise-breaking",
+        "risk-reward",
+        "darksiders"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "철쇄",
+        "플레일"
+      ],
+      "id": "wh-027",
+      "addedDate": "2026-03-16"
     }
   ]
 }
