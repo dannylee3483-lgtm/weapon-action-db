@@ -23678,6 +23678,75 @@
       ],
       "id": "wh-029",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "활 (Bow)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "공중 서행 조준 (Aerial Slow-Motion Aim / 空中スローエイム)",
+      "actionType": "특수기",
+      "description": "링크가 공중에서 활을 겨냥하는 순간 시간 흐름이 대폭 감속되는 메카닉. 점프·패러세일 중 조준 버튼을 누르면 주변 세계가 슬로 모션으로 전환되어 적의 약점 부위나 먼 거리 목표물을 정밀하게 노릴 수 있다. 스태미나 게이지가 소진되거나 착지하면 즉시 일반 시간으로 복귀하며, 촬영한 화살은 일반 속도로 날아간다.",
+      "motionType": [
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "precision-aim",
+          "aerial",
+          "weak-point-targeting",
+          "stamina-gated"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "스태미나 소진 시까지",
+          "recovery": "~20f (착지 경직)"
+        }
+      },
+      "designNotes": "시간 감속이라는 '보상'을 공중이라는 '취약 상태'와 교환하는 리스크-리워드 구조가 핵심이다. 플레이어는 점프의 무방비 상태를 감수하면서 정밀 조준 창을 얻고, 스태미나라는 유한 자원이 남용을 자연스럽게 제한한다. 별도의 튜토리얼 없이도 '공중에서 활을 꺼내면 슬로가 된다'는 행동-결과가 직관적으로 체화되어 발견의 즐거움을 제공한다. 오픈 월드 내 비선형 전투에서 플레이어가 지형지물을 활용한 선제 포지셔닝을 자발적으로 모색하도록 유도하며, 약점 조준 성공 시 제공되는 피격 리액션(히트스탑·눈동자 붉어짐)이 명확한 시각 피드백으로 작동한다. 이 메카닉은 이후 Tears of the Kingdom의 카메라 기능·건덕트 시스템 등 '관찰-계획-실행' 루프로 확장되는 Nintendo 오픈 월드 설계 철학의 원형이 되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EA%B3%B5%EC%A4%91+%EC%84%9C%ED%96%89+%EC%A1%B0%EC%A4%80+%28Aerial+Slow-Motion+Aim+%2F+%E7%A9%BA%E4%B8%AD%E3%82%B9%E3%83%AD%E3%83%BC%E3%82%A8%E3%82%A4%E3%83%A0%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.wiki.gg/wiki/Bow",
+        "gif": null
+      },
+      "tags": [
+        "aerial",
+        "slow-motion",
+        "time-manipulation",
+        "precision-aim",
+        "stamina-gated",
+        "weak-point",
+        "open-world",
+        "risk-reward",
+        "discovery-mechanic"
+      ],
+      "applicableWeapons": [
+        "활"
+      ],
+      "id": "bw-021",
+      "addedDate": "2026-03-16"
     }
   ]
 }
