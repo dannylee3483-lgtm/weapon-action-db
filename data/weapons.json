@@ -30856,6 +30856,77 @@
       ],
       "id": "wh-049",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "하이랄 전투 활 (Hylian Combat Bow)",
+      "game": "The Legend of Zelda: Tears of the Kingdom",
+      "developer": "Nintendo",
+      "actionName": "공중 슬로우모션 조준 / Aerial Bullet-Time Aiming",
+      "actionType": "특수기",
+      "description": "링크가 점프 또는 낙하 중 활을 뽑아들면 주변 시간이 슬로우 모션으로 전환되어 정밀 조준이 가능해진다. 스태미나 게이지가 빠르게 소모되며 완전히 고갈되면 슬로우 모션이 해제되고 링크는 낙하한다. 이 상태에서 퓨전 화살(폭탄·얼음·번개 등)을 사용하면 원거리 교전에서 압도적인 전술적 우위를 점할 수 있다.",
+      "motionType": [
+        "leap",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "precision-aim",
+          "aerial-control",
+          "fusion-compatible"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "스태미나 지속 (~2~5초)",
+          "recovery": "~15f (착지 후)"
+        }
+      },
+      "designNotes": "시간 압박(스태미나 소모)과 정밀 조준의 트레이드오프를 단 하나의 메카닉으로 구현한 걸작 설계다. 플레이어는 '얼마나 오래 조준할 것인가'라는 즉각적인 의사결정을 강요받으며, 이 자체가 리스크-리워드 구조를 자연스럽게 형성한다. 슬로우 모션이라는 시청각 피드백이 조준 성공의 쾌감을 극대화하고, 퓨전 시스템과 결합해 화살 선택이라는 전략 레이어를 추가로 부여한다. 공중에 머무는 동안만 발동된다는 조건이 포지셔닝과 전술적 판단의 중요성을 강조하며, 단순한 조준 보조를 넘어 전투 흐름 전체를 재구성하는 핵심 메카닉으로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Tears+of+the+Kingdom+%EA%B3%B5%EC%A4%91+%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%AA%A8%EC%85%98+%EC%A1%B0%EC%A4%80+%2F+Aerial+Bullet-Time+Aiming+gameplay",
+        "images": [],
+        "wiki": "https://zelda.wiki.gg/wiki/Bow",
+        "gif": null
+      },
+      "tags": [
+        "bullet-time",
+        "aerial",
+        "precision-aim",
+        "time-manipulation",
+        "stamina-management",
+        "fusion-system",
+        "open-world",
+        "tactical",
+        "skill-expression",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "활",
+        "퓨전 화살",
+        "특수 화살"
+      ],
+      "id": "bw-029",
+      "addedDate": "2026-03-16"
     }
   ]
 }
