@@ -24387,6 +24387,76 @@
       ],
       "id": "sh-018",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "대검 (Greatsword)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "하베스트 문 (Harvest Moon / 刈り取り月)",
+      "actionType": "카운터",
+      "description": "차지 중 몬스터의 공격을 받는 순간 정확한 타이밍에 버튼을 입력하면 피격 모션 대신 강력한 반격 베기를 자동 발동하는 스위치 스킬. 기존 태클(Tackle)의 하이퍼아머를 대체하며, 카운터 슬래시는 일반 차지 베기보다 현저히 높은 배율의 대미지를 지닌다. 타이밍 성공 시 차지 단계를 소비하지 않고 콤보를 이어갈 수 있어 딜 사이클을 유지하면서도 반격 보너스를 챙긴다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "extender"
+        ],
+        "specialProperties": [
+          "counter",
+          "poise-breaking",
+          "hyperarmor-conversion",
+          "damage-multiplier"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f (카운터 윈도우)",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "하베스트 문은 '방어를 공격으로 전환'하는 디자인 철학의 교과서적 사례다. 기존 태클이 하이퍼아머를 통해 수동적으로 피격을 무시했다면, 하베스트 문은 몬스터의 공격 패턴을 읽고 능동적으로 반격을 결정하는 스킬 표현 행위로 바꿨다. 타이밍 성공 시 대미지 보너스로 리워드를 명확히 제공하고, 실패 시 평범한 차지 베기로 폴백되어 리스크를 낮게 유지하는 것이 핵심이다. 몬스터의 공격 선딜을 읽어내는 학습 곡선이 플레이어 성장감을 형성하며, 숙련자와 초보자의 DPS 격차가 자연스럽게 드러나는 숙련도 지표 역할도 한다. 이는 Rise의 전반적인 '공격적 플레이를 장려하는 메카닉 재설계' 방향성과도 일치하는 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%ED%95%98%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EB%AC%B8+%28Harvest+Moon+%2F+%E5%88%88%E3%82%8A%E5%8F%96%E3%82%8A%E6%9C%88%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Greatsword",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "timing-based",
+        "high-reward",
+        "skill-expression",
+        "poise-breaking",
+        "hyperarmor",
+        "switch-skill",
+        "greatsword",
+        "risk-reward",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-046",
+      "addedDate": "2026-03-16"
     }
   ]
 }
