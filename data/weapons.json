@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:03",
+  "lastUpdated": "2026-03-17 06:05",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32887,6 +32887,76 @@
       ],
       "id": "sp-037",
       "addedDate": "2026-03-17 06:03"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "죽음의 낫 (Death's Scythe)",
+      "game": "Dante's Inferno",
+      "developer": "Visceral Games",
+      "actionName": "수확의 대선회 (Reaping Cyclone)",
+      "actionType": "콤보 피니셔",
+      "description": "단테가 죽음의 신에게서 빼앗은 거대한 낫을 전신으로 원을 그리며 풀 스핀하는 중공격 콤보 마무리 기술이다. 광폭한 회전 궤도가 전방위 적을 동시에 타격하고 마지막 타격 시 강한 넉백을 가한다. 경공격 연타 이후 중공격 입력으로 자연스럽게 연결되어 God of War 스타일의 콤보 루프 안에서 리듬감 있는 클리어 순간을 만들어낸다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "black"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockback",
+          "crowd-control",
+          "360-hit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~16f",
+          "active": "~38f",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "Dante's Inferno는 God of War의 체인 기반 콤보 문법을 낫이라는 '수확' 테마 무기에 이식하면서, 피니셔를 통해 중량급 무기의 운동 에너지 해방이라는 디자인 원칙을 명확히 구현했다. 풀 스핀 피니셔는 넓은 판정으로 다수 적을 동시 처리하게 해 플레이어에게 강력한 광역 클리어 만족감을 제공한다. 경공격 → 중공격이라는 직관적인 인풋 체계 덕분에 초보자도 자연스럽게 피니셔 타이밍에 도달할 수 있으며 학습 장벽이 낮다. '죄인을 심판하고 추방한다'는 게임의 서사적 맥락과 연동되어, 전투 액션이 단순한 타격을 넘어 내러티브 일관성을 강화하는 역할을 한다. 스태거된 적에게 피니셔를 꽂는 리스크-리워드 구조는 전투의 공세적 리듬을 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dante%27s+Inferno+%EC%88%98%ED%99%95%EC%9D%98+%EB%8C%80%EC%84%A0%ED%9A%8C+%28Reaping+Cyclone%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "scythe",
+        "spin-attack",
+        "combo-finisher",
+        "crowd-control",
+        "hack-and-slash",
+        "360-sweep",
+        "knockback",
+        "death-theme"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "대검",
+        "폴암",
+        "해머"
+      ],
+      "id": "sc-031",
+      "addedDate": "2026-03-17 06:05"
     }
   ]
 }
