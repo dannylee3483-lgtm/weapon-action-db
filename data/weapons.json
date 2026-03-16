@@ -31866,6 +31866,77 @@
       ],
       "id": "wh-051",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Bare Fists)",
+      "game": "God Hand",
+      "developer": "Clover Studio",
+      "actionName": "슬랩 100 (Slap 100 / 平手百連打)",
+      "actionType": "특수기",
+      "description": "Gene이 룰렛 휠을 통해 발동하는 특수기로, 순식간에 100번의 강력한 손바닥 연타를 적에게 퍼붓는다. 화면을 뒤덮는 속도감 넘치는 이펙트와 함께 적의 체력을 폭발적으로 소진시키며, 과장된 효과음과 유머러스한 연출로 게임의 개성을 극대화한다. 룰렛 게이지가 일정 이상 쌓였을 때만 발동 가능하며, 적중 중에는 적이 스턴 고정되어 전량 히트가 보장된다.",
+      "motionType": [
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "yellow",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "poise-breaking",
+          "knockdown"
+        ],
+        "resourceCost": "룰렛 게이지 (Roulette Gauge)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~120f (연타 지속)",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "슬랩 100은 단순한 데미지 기술을 넘어, 과장된 연출과 유머를 통해 플레이어에게 강렬한 카타르시스를 제공하는 설계 사례다. 룰렛 게이지라는 자원 시스템에 묶여 있어 리스크-리워드 구조가 명확하다—강한 보상을 위해 전투 중 게이지를 축적하고 최적 타이밍을 계획해야 한다. 연타 수를 '100'이라는 구체적 숫자로 고정함으로써 시각적 과장과 실질적 게임성 사이의 균형을 잡았으며, 이는 God Hand 전체의 B급 감성과 일관된 정체성을 유지한다. 기술 발동 시 적이 스턴 고정되는 구조는 '완벽한 순간을 포착했다'는 성취감을 극대화하며 반복 플레이 동기를 부여한다. 스킬 표현과 유머의 공존이라는 God Hand의 핵심 디자인 철학을 하나의 기술 안에 응축한 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+Hand+%EC%8A%AC%EB%9E%A9+100+%28Slap+100+%2F+%E5%B9%B3%E6%89%8B%E7%99%BE%E9%80%A3%E6%89%93%29+gameplay",
+        "images": [],
+        "wiki": "https://godhand.fandom.com/wiki/Gene",
+        "gif": null
+      },
+      "tags": [
+        "roulette-special",
+        "rapid-hits",
+        "resource-management",
+        "crowd-control",
+        "humor-design",
+        "catharsis",
+        "fist-fighting",
+        "poise-break",
+        "finisher",
+        "b-game-aesthetics"
+      ],
+      "applicableWeapons": [
+        "맨손 격투",
+        "권투"
+      ],
+      "id": "ft-040",
+      "addedDate": "2026-03-16"
     }
   ]
 }
