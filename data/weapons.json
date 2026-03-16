@@ -28638,6 +28638,77 @@
       ],
       "id": "sc-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Vampire Killer (성스러운 채찍)",
+      "game": "Castlevania: Symphony of the Night",
+      "developer": "Konami",
+      "actionName": "뱀파이어 킬러 3연타 (Vampire Killer Triple Whip)",
+      "actionType": "기본 공격",
+      "description": "리히터 벨몬드가 뱀파이어 킬러 채찍을 세 번 연속으로 휘두르는 기본 공격 콤보다. 첫 타격은 수평으로 넓게 뻗어나가고, 두 번째는 대각선 하향, 세 번째는 다시 수평으로 최대 사정거리까지 채찍이 완전히 신장된다. 각 타격마다 뚜렷한 히트스탑과 채찍 균열음(whip crack)이 발생해 명중 여부를 청각·시각으로 동시에 전달한다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "신성",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "holy-damage",
+          "poise-breaking",
+          "multi-hit-arc"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~8f per hit",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "클래식 벨몬드 채찍 콤보는 '리치의 명확성(Range Legibility)' 원칙의 교과서적 사례다. 채찍이 완전히 신장되는 순간의 히트박스가 시각적으로 직관적으로 표현되어, 플레이어가 안전 교전 거리를 별도 튜토리얼 없이 체득하도록 설계되었다. 각 타격마다 삽입된 히트스탑과 채찍 균열음은 물리적 임팩트를 멀티모달 피드백으로 전달하는 고전적 게임 디자인의 정수다. 연속 타격 사이의 짧은 딜레이는 서브웨폰(성수, 십자가, 단검 등) 투입 타이밍을 자연스럽게 제공하여, '채찍 콤보 + 서브웨폰' 리듬이 핵심 게임플레이 루프를 구성하도록 유도한다. 단순한 3연타 구조임에도 30년 이상 채찍 무기 액션 설계의 원형(archetype)으로 남아 있는 것은, 리치·속도·피드백의 균형이 그만큼 정밀하게 조율되었기 때문이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Symphony+of+the+Night+%EB%B1%80%ED%8C%8C%EC%9D%B4%EC%96%B4+%ED%82%AC%EB%9F%AC+3%EC%97%B0%ED%83%80+%28Vampire+Killer+Triple+Whip%29+gameplay",
+        "images": [],
+        "wiki": "https://castlevania.fandom.com/wiki/Vampire_Killer",
+        "gif": null
+      },
+      "tags": [
+        "whip-combo",
+        "holy-weapon",
+        "hit-stop",
+        "reach-based",
+        "classic",
+        "multi-hit",
+        "feedback-design",
+        "range-legibility",
+        "subweapon-synergy"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "성스러운 채찍",
+        "모닝스타"
+      ],
+      "id": "wh-043",
+      "addedDate": "2026-03-16"
     }
   ]
 }
