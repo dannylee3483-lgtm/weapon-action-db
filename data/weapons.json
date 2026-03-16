@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:10",
+  "lastUpdated": "2026-03-16 22:12",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30141,6 +30141,77 @@
       ],
       "id": "gb-001",
       "addedDate": "2026-03-16 22:10"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "Stagbreaker (스테그브레이커)",
+      "game": "Valheim",
+      "developer": "Iron Gate Studio",
+      "actionName": "대지 강타 / 헤비 어택 (Ground Slam Heavy Attack)",
+      "actionType": "차지 공격",
+      "description": "공격 버튼을 길게 누르면 Stagbreaker를 머리 위로 천천히 들어올린 뒤 지면에 강력하게 내리찍는다. 착지 충격 시 주변 360도 방향으로 충격파(Shockwave)가 퍼져나가며 범위 내 모든 적에게 피해와 강한 넉백을 가한다. 단단한 지면(흙, 얼음, 석재 등)에서만 충격파가 온전히 발동되므로, 지형 판단이 실전 활용의 핵심 변수가 된다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gray"
+        ],
+        "effectStyle": [
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "aoe",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~20f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "Stagbreaker 헤비 어택은 '긴 선딜 + 높은 스태미나 소모'라는 명확한 비용을 치르고, 360도 AoE 충격파와 강력한 넉백이라는 압도적인 리워드를 돌려주는 리스크-리워드 설계의 교과서다. 초반 무기임에도 군중전에서 절대적인 선택지가 되는 이유는, 시각적으로 직관적인 충격파 범위 덕분에 플레이어가 별도의 학습 없이 최적 타이밍을 스스로 체득할 수 있기 때문이다. 지면 재질에 따라 충격파 유무가 갈리는 환경 상호작용 요소는 지형 활용을 장려하는 서바이벌 장르의 핵심 철학과 맞닿아 있으며, 초보자도 군중 제어의 쾌감을 즉시 경험할 수 있도록 진입 장벽을 낮춘 점이 돋보인다. '느리지만 강하다'는 해머 판타지를 충실히 구현하면서도, 단 하나의 버튼 조작으로 전황을 뒤집는 극적인 역전의 쾌감을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Valheim+%EB%8C%80%EC%A7%80+%EA%B0%95%ED%83%80+%2F+%ED%97%A4%EB%B9%84+%EC%96%B4%ED%83%9D+%28Ground+Slam+Heavy+Attack%29+gameplay",
+        "images": [],
+        "wiki": "https://valheim.fandom.com/wiki/Stagbreaker",
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "aoe",
+        "ground-slam",
+        "crowd-control",
+        "knockback",
+        "charge-attack",
+        "survival",
+        "stamina-trade",
+        "shockwave",
+        "environmental-interaction"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "철퇴"
+      ],
+      "id": "hm-026",
+      "addedDate": "2026-03-16 22:12"
     }
   ]
 }
