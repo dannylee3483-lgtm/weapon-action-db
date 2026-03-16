@@ -29610,7 +29610,7 @@
       },
       "designNotes": "낫이라는 무기의 '갈고리·수확' 속성을 투사체와 커맨드 잡기라는 게임 메카닉으로 직접 번역한 어포던스 설계의 모범 사례다. 물리적 직관성(낫으로 걸어 당긴다)과 게임플레이 기능(거리 좁히기 + 콤보 시작점)이 완벽히 일치해, 플레이어가 별도 학습 없이 기술 용도를 즉시 이해할 수 있다. 투사체 판정과 잡기 판정을 하나로 통합함으로써 상대에게 이중 심리 압박(방어 불가 잡기 vs 투사체 회피 점프)을 강요하는 구조는 높은 전략적 깊이를 만든다. Noob Saibot의 '그림자·어둠' 테마와 낫의 '포획·수확' 상징성이 결합되어 캐릭터 정체성과 메카닉의 테마 일관성을 달성했으며, 성공 시 후속 선택권(슬램/공중 콤보)을 부여해 숙련도에 따른 보상 체계도 갖추고 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Mortal+Kombat+11+%EB%82%AB+%EA%B1%B8%EA%B8%B0+%28Sickle+Snag%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=mVpSK_QI-LI",
         "images": [],
         "wiki": null,
         "gif": null
