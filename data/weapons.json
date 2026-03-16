@@ -30064,6 +30064,80 @@
       ],
       "id": "bw-026",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "대형 도끼 / Greataxe",
+      "game": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "actionName": "펠 클리브 / Fell Cleave (フェルクリーヴ)",
+      "actionType": "특수기",
+      "description": "워리어(용사)가 비스트 게이지 50을 소비해 발동하는 대형 도끼 수직 내리찍기. 양손으로 도끼를 머리 위로 치켜든 뒤 온몸의 무게를 실어 단숨에 내리찍는 단타 고위력 공격으로, 워리어 딜 사이클의 핵심 소비 기술이다. Inner Release(이너 릴리스) 상태에서는 게이지 소모 없이 연속 발동이 가능해, 버스트 구간 내 폭발적인 순간 화력을 집중시킨다.",
+      "motionType": [
+        "overhead",
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "burst-phase-core",
+          "resource-consumer",
+          "inner-release-synergy"
+        ],
+        "resourceCost": "비스트 게이지 50",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~3f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "펠 클리브는 '축적→해방' 리듬을 단일 기술에 압축한 MMO 자원 관리 디자인의 교과서적 사례다. 비스트 게이지는 일반 콤보(Storm's Path/Eye)를 통해 채워지고, 이 기술로 터뜨리는 구조가 반복적인 버튼 누르기에 전략적 박자감을 부여한다. Inner Release 상태와의 시너지는 '분노 해방'이라는 직업 판타지를 기계적으로 체험시키는 설계로, 쿨다운 타이밍과 게이지 잔량을 동시에 계산하는 인지적 긴장감이 간결한 동작 안에 녹아 있다. 큰 풍압 파티클과 중후한 타격음의 시청각 피드백이 고위력 인상을 강화하며, 단순한 외형의 내리찍기가 충분한 카타르시스를 제공하는 '피드백 압축' 원칙의 좋은 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%ED%8E%A0+%ED%81%B4%EB%A6%AC%EB%B8%8C+%2F+Fell+Cleave+%28%E3%83%95%E3%82%A7%E3%83%AB%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B4%29+gameplay",
+        "images": [],
+        "wiki": "https://na.finalfantasyxiv.com/jobguide/warrior/",
+        "gif": null
+      },
+      "tags": [
+        "resource-management",
+        "burst-damage",
+        "gauge-system",
+        "overhead-strike",
+        "greataxe",
+        "mmo-arpg",
+        "warrior",
+        "instant-cast",
+        "inner-release",
+        "high-potency"
+      ],
+      "applicableWeapons": [
+        "대형 도끼",
+        "그레이트액스",
+        "버서커형 양손 무기"
+      ],
+      "id": "ax-038",
+      "addedDate": "2026-03-16"
     }
   ]
 }
