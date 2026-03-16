@@ -27252,6 +27252,78 @@
       ],
       "id": "sp-033",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "쌍 손도끼 (Twin Hand Axes)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "무중단 연속 경공격 / Uninterruptible Light Chain",
+      "actionType": "콤보",
+      "description": "버서커(Berserker) 영웅의 쌍 손도끼 경공격 체인으로, 두 번째 타격부터 '무중단 자세(Uninterruptible Stance)'가 발동되어 상대방의 공격으로 체인을 끊을 수 없다. 좌우 도끼가 빠르게 교차하며 대각선 베기를 이어가고, 상대는 반드시 패리 또는 회피로만 대응할 수 있다. 체인 도중 아무 방향으로나 회피 캔슬(Dodge Cancel)하여 포지션을 리셋하거나 디플렉트(Deflect) 상태로 전환할 수 있다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "uninterruptible",
+          "dodge-cancel",
+          "pressure",
+          "bleed-buildup"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~400ms",
+          "active": "~100ms",
+          "recovery": "dodge-cancel 가능 구간"
+        }
+      },
+      "designNotes": "무중단 자세는 '수비적으로 기다리며 패리하는 전술'에 대한 능동적 카운터 디자인으로, 일단 체인이 시작되면 상대는 반드시 반응해야 하므로 이니셔티브가 공격 측에 완전히 전가된다. 회피 캔슬 옵션이 언제나 열려 있어 경공격 체인을 '페이크 압박'으로 활용하고 실제로는 디플렉트나 재포지셔닝을 준비하는 심리전 레이어가 형성된다. 낮은 스태거 파워와 짧은 사거리라는 명확한 트레이드오프 덕분에 1:1 압박 상황에 특화된 도구로 기능하며, 다대다 전투에서는 오히려 취약해지는 상황 의존적 설계를 보인다. 좌우 교차 리듬이 만들어내는 '엇박자 베기'는 상대가 가드 방향을 직관적으로 읽기 어렵게 만드는 퍼셉션 디자인이기도 하다. 공격자가 체인을 계속할지 캔슬할지 모르는 불확실성이 고스란히 수비자에게 전가되어, 정보 비대칭을 무기로 활용하는 For Honor 특유의 심리전 문법을 잘 구현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EB%AC%B4%EC%A4%91%EB%8B%A8+%EC%97%B0%EC%86%8D+%EA%B2%BD%EA%B3%B5%EA%B2%A9+%2F+Uninterruptible+Light+Chain+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Berserker",
+        "gif": null
+      },
+      "tags": [
+        "uninterruptible",
+        "dual-axe",
+        "combo-chain",
+        "pressure",
+        "dodge-cancel",
+        "for-honor",
+        "berserker",
+        "risk-reward",
+        "read-react",
+        "viking"
+      ],
+      "applicableWeapons": [
+        "Twin Hand Axes",
+        "쌍 손도끼"
+      ],
+      "id": "ax-032",
+      "addedDate": "2026-03-16"
     }
   ]
 }
