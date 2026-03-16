@@ -27689,6 +27689,77 @@
       ],
       "id": "ax-033",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Combat Cross (전투 십자가)",
+      "game": "Castlevania: Lords of Shadow",
+      "developer": "Mercury Steam / Konami",
+      "actionName": "그림자 마법 직격 / Shadow Magic Direct Strike",
+      "actionType": "특수기",
+      "description": "가브리엘이 그림자 마법(Shadow Magic)을 Combat Cross에 충전한 후 체인을 적에게 감아 당겨 근접 거리에서 폭발적인 직격 타격을 날리는 기술이다. Shadow Magic 충전량에 따라 피해와 이펙트가 급격히 증가하며, 적의 방어 자세를 강제로 무너뜨리는 포이즈 브레이킹 효과를 갖는다. 타격 순간 체인이 어두운 보라빛 마법 에너지로 타오르며 주변 적에게도 미약한 범위 피해가 함께 발생한다.",
+      "motionType": [
+        "combo",
+        "charge",
+        "counter"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "magic-empowered",
+          "aoe-secondary",
+          "resource-consume"
+        ],
+        "resourceCost": "Shadow Magic",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~15f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "그림자 마법 연동 강화 공격은 '리소스 적립 → 폭발적 소비'의 리워드 루프를 채찍이라는 무기에 자연스럽게 녹여낸 설계다. 방어 시 Shadow Magic을 충전하고 공격 시 소비하는 구조는 공수 전환을 자발적으로 유도하여 전투 리듬에 전략적 깊이를 더하며, 단순 버튼 연타가 아닌 계획적 전투(deliberate play)를 장려한다. 체인으로 '감아 당기는' 선행 모션은 준비 시간을 시각적으로 고지함으로써 적의 위협 반응을 유도하고, 플레이어가 이를 역이용하는 심리전 레이어를 자연스럽게 형성한다. Shadow Magic의 보라빛 이펙트는 Light Magic의 금빛과 선명한 색채 대비를 이루어, 플레이어가 자신의 전투 상태를 직관적으로 인식하도록 돕는 시각적 UX 설계이기도 하다. 마법 자원 관리를 전투 핵심 축으로 삼은 이 구조는 '언제 소비할 것인가'라는 판단 비용을 지속적으로 발생시켜 긴장감 있는 교전을 유지하게 만든다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%EA%B7%B8%EB%A6%BC%EC%9E%90+%EB%A7%88%EB%B2%95+%EC%A7%81%EA%B2%A9+%2F+Shadow+Magic+Direct+Strike+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "shadow-magic",
+        "resource-management",
+        "poise-breaking",
+        "whip-chain",
+        "dark-empowered",
+        "risk-reward",
+        "deliberate-play",
+        "3d-action"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "chain-weapon"
+      ],
+      "id": "wh-040",
+      "addedDate": "2026-03-16"
     }
   ]
 }
