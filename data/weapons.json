@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:22",
+  "lastUpdated": "2026-03-17 07:24",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35938,6 +35938,79 @@
       ],
       "id": "gs-061",
       "addedDate": "2026-03-17 07:22"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "야마토 (Yamato / 魔剣ヤマト)",
+      "game": "Devil May Cry 3: Dante's Awakening",
+      "developer": "Capcom",
+      "actionName": "저지먼트 컷 / Judgment Cut (ジャッジメントカット)",
+      "actionType": "특수기",
+      "description": "버질이 야마토를 칼집에 꽂은 채 극히 짧은 순간에 발도·납도하여 공간에 눈에 보이지 않는 절단파를 새긴다. 입력 직후 잠시의 침묵 뒤에 베인 자국이 일제히 폭발적으로 개방되며, 복수의 상처가 동시에 출현한다. 버튼을 홀드할수록 절단선 수가 증가하며 근·원거리를 불문하고 발동 가능하다.",
+      "motionType": [
+        "slash",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "white",
+          "purple"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "delayed-activation",
+          "space-control",
+          "charge-scalable"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~8f (지연 폭발)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "저지먼트 컷은 '베었는지 알아채기도 전에 이미 죽어 있다'는 일본 발도술의 낭만적 클리셰를 정밀한 메카닉으로 번역한 탁월한 사례다. 발도 모션을 거의 생략함으로써 플레이어에게 '칼이 아닌 의지로 공간을 자른다'는 판타지를 제공하며, 선딜레이 부재가 캐릭터 파워 판타지를 직접적으로 강화한다. 홀드 차지로 절단선 수가 늘어나는 단순한 이중 입력 구조는 캐주얼 원탭 사용과 콤보 루프 내 심층 활용을 동시에 포용한다. 절단파가 공간에 잠시 잔류하는 특성 덕분에 '미리 설치' 식 전략적 공간 제어라는 상위 레이어가 추가되어 숙련도에 따른 플레이 깊이 차이가 명확하다. 시각 연출에서 발도 직후의 침묵과 지연 폭발 타이밍의 분리는 소리·이펙트 비동기 설계로 극적 긴장감을 증폭시키며, 관람자 경험까지 고려한 연출 우선 디자인의 모범이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%EC%A0%80%EC%A7%80%EB%A8%BC%ED%8A%B8+%EC%BB%B7+%2F+Judgment+Cut+%28%E3%82%B8%E3%83%A3%E3%83%83%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Judgment_Cut",
+        "gif": null
+      },
+      "tags": [
+        "judgment-cut",
+        "iaijutsu",
+        "delayed-slash",
+        "space-control",
+        "charge-scalable",
+        "multi-hit",
+        "vergil",
+        "yamato",
+        "no-startup",
+        "power-fantasy"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "일본도",
+        "발도술 계열 무기"
+      ],
+      "id": "kt-065",
+      "addedDate": "2026-03-17 07:24"
     }
   ]
 }
