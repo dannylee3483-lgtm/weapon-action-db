@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:12",
+  "lastUpdated": "2026-03-17 06:14",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33245,6 +33245,79 @@
       ],
       "id": "nc-001",
       "addedDate": "2026-03-17 06:12"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "합성 활 (Craftable Bow)",
+      "game": "Dying Light 2: Stay Human",
+      "developer": "Techland",
+      "actionName": "UV 화살 발사 / UV Arrow Shot",
+      "actionType": "특수기",
+      "description": "자외선(UV)을 방출하는 특수 제작 화살을 조준·발사하는 기술. 착탄 지점에서 UV 광원이 확산되어 빛에 극도로 취약한 바이럴(Viral)과 볼라티일(Volatile) 변종을 즉각 마비·화상 상태로 만든다. 야간 및 어두운 실내에서 다수의 적을 순간적으로 통제하는 핵심 생존 도구로, 정면 교전 없이 이동 경로를 확보하는 데 사용된다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "purple",
+          "blue",
+          "cyan"
+        ],
+        "effectStyle": [
+          "beam",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "zone-control",
+          "status-effect",
+          "environmental-interaction",
+          "stealth-enabler"
+        ],
+        "resourceCost": "소모성 제작 아이템 (UV Arrow)",
+        "frameApprox": {
+          "startup": "~30f (차지 포함)",
+          "active": "~180~300f (UV 지속 3~5초)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "활이 단순 원거리 피해 도구를 넘어 세계관 내재 규칙 기반의 전략 자원으로 기능하는 설계다. 'UV가 변종을 약화시킨다'는 설정은 튜토리얼 없이 직관적으로 이해되므로, 플레이어는 이 화살의 효과를 처음 목격하는 순간 즉시 전략에 통합할 수 있다. 제작(Crafting) 시스템과 결합되어 이 고가의 소모품을 언제 소비할지의 리스크-리워드 판단을 강요한다. 타임 사이클(낮/밤)과 상호작용하여 야간에는 생존 필수재, 낮에는 여분 유틸리티로 가치가 역동적으로 변하는 맥락 민감형 설계가 핵심이다. 원거리 무기에 '빛'이라는 물리적 속성을 결합함으로써 활이 근접 전투 게임플레이 루프에 능동적으로 개입하는 구조를 만들어냈다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dying+Light+2%3A+Stay+Human+UV+%ED%99%94%EC%82%B4+%EB%B0%9C%EC%82%AC+%2F+UV+Arrow+Shot+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "uv-light",
+        "crowd-control",
+        "status-effect",
+        "zone-control",
+        "crafting",
+        "night-combat",
+        "survival",
+        "environmental-mechanic",
+        "stealth",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "활",
+        "석궁"
+      ],
+      "id": "bw-031",
+      "addedDate": "2026-03-17 06:14"
     }
   ]
 }
