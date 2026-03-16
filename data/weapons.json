@@ -38044,7 +38044,9 @@
       },
       "designNotes": "세 가지 원소 속성을 단일 무기에 통합함으로써, 플레이어가 무기를 교체하지 않고도 전투 상황에 실시간으로 적응할 수 있는 '이동 팔레트' 구조를 구현했다. 전환 비용이 제로(리소스 없음)이므로 진입 장벽이 낮지만, 각 형태의 콤보 트리와 사거리를 모두 숙지해야 최적 출력이 나오는 마스터리 깊이를 동시에 확보한다. 형태마다 리치·속도·판정 모양이 전혀 달라 '어떤 형태로 전환할지'의 결정이 매 순간 의사결정 비용을 발생시키며, 이것이 단순 데미지 증폭이 아닌 전략적 깊이로 작동한다. 삼순환(3-cycle) 구조는 이분법(2형태)보다 선택지가 풍부하면서도 쿼터나프 이상의 복잡도로 가지 않아, 기억 부담과 표현력의 균형점을 잘 찾은 사례다. 결과적으로 '같은 버튼 반복'이 아닌 '타이밍+속성 판단'으로 스킬 표현이 이뤄지는 하이-마스터리 변형무기의 교과서적 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EC%82%BC%EC%9B%90+%EC%A0%84%ED%99%98+%28Tri-Form+Shift%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=FjpZVvX7lxs"
+        ],
         "images": [],
         "wiki": "https://devilmaycry.fandom.com/wiki/King_Cerberus",
         "gif": null
