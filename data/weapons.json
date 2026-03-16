@@ -24672,6 +24672,76 @@
       ],
       "id": "ft-028",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "롱소드 / The Sword",
+      "game": "Furi",
+      "developer": "The Game Bakers",
+      "actionName": "퍼펙트 패리 & 반격 (Perfect Parry & Counter)",
+      "actionType": "패리|카운터",
+      "description": "적의 근접 공격이 닿기 직전 극히 좁은 타이밍 창 안에 검을 세워 막는 퍼펙트 패리. 성공 시 짧은 무적 프레임과 함께 즉각적인 반격 찌르기가 자동 연결되며, 보스의 실드 게이지를 대폭 깎는다. 일반 블록 대비 타이밍 창이 절반 이하로 좁지만, 퍼펙트 패리만이 모든 근접 공격을 완전히 무효화하고 반격 기회를 부여하는 유일한 수단이다.",
+      "motionType": [
+        "parry",
+        "counter",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "invincibility-frames",
+          "shield-damage",
+          "parry-window",
+          "counter-attack"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~5f (패리 창)",
+          "recovery": "~12f (반격 포함)"
+        }
+      },
+      "designNotes": "Furi의 퍼펙트 패리는 게임 전체 언어를 단 하나의 메카닉으로 압축한 교과서적 설계다. 타이밍 창이 극도로 좁아 실패 시 반격을 허용하는 명확한 페널티가 존재하지만, 성공 시 즉각적인 반격으로 실드를 크게 깎아 고위험-고보상 구조가 선명하다. 보스마다 고유한 공격 리듬과 모션이 설계되어 있어 플레이어는 '패턴 암기'가 아닌 '모션 읽기'로 패리 타이밍을 체득하게 되며, 이는 전투를 반사 학습 게임으로 만든다. 퍼펙트 패리 성공 시 제공되는 섬광·타격음·슬로우모션 연출이 즉각적인 시청각 보상을 주어 조건반사적 숙련도 향상을 촉진한다. 이 구조는 총기 원거리 페이즈와 교번하는 하이브리드 전투 흐름 속에서 근접 패리의 카타르시스를 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Furi+%ED%8D%BC%ED%8E%99%ED%8A%B8+%ED%8C%A8%EB%A6%AC+%26+%EB%B0%98%EA%B2%A9+%28Perfect+Parry+%26+Counter%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "counter",
+        "high-risk-reward",
+        "boss-fight",
+        "timing-based",
+        "shield-break",
+        "pattern-recognition",
+        "invincibility-frames",
+        "one-on-one"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "카타나"
+      ],
+      "id": "sw-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
