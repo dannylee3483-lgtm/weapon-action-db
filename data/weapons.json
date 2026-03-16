@@ -32934,6 +32934,74 @@
       ],
       "id": "sw-029",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "일본도 (타치)",
+      "game": "Trek to Yomi",
+      "developer": "Flying Wild Hog",
+      "actionName": "가사베기 / 袈裟斬り (Kesa-giri)",
+      "actionType": "무기술",
+      "description": "어깨에서 반대편 허리 방향으로 대각선을 그리며 내려치는 전통 검술 기법. 불교 승려의 법의인 '가사(袈裟)'를 자르는 방향에서 이름이 유래했으며, 넓은 호를 그리며 상반신 전체를 가로지른다. 빠른 발도와 넓은 판정으로 근접 다수 적 제압 및 가드 상단 돌파에 활용된다.",
+      "motionType": [
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "wide-arc",
+          "upper-body-coverage",
+          "guard-break-high"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~10f",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "Trek to Yomi는 실제 일본 고류 검술(古流剣術)의 용어와 동작을 게임 메카닉으로 직접 번역한 보기 드문 사례다. 가사베기는 직선 베기와 찌르기 사이의 각도 공백을 메우도록 설계되어, 플레이어가 '검술 레퍼토리'를 상황별로 선택하는 전술적 깊이를 부여한다. 복잡한 커맨드 없이 타이밍과 포지셔닝만으로 구동되는 단순한 입력 구조는 액션 초심자도 사무라이 판타지를 즉각 체감하게 하는 접근성 설계다. 흑백 필름 누아르 비주얼과 사이드뷰 카메라가 대각선 베기의 실루엣을 극적으로 부각시켜, 최소한의 이펙트로도 오디오-비주얼 피드백이 극대화되는 '여백의 디자인' 원칙을 보여준다. 역사적 실재성과 게임 플레이 실용성이 동시에 충족되어 교육적 가치와 재미를 겸비한 사례로 꼽힌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Trek+to+Yomi+%EA%B0%80%EC%82%AC%EB%B2%A0%EA%B8%B0+%2F+%E8%A2%88%E8%A3%9F%E6%96%AC%E3%82%8A+%28Kesa-giri%29+gameplay",
+        "images": [],
+        "wiki": "https://trek-to-yomi.fandom.com/wiki/Trek_to_Yomi_Wiki",
+        "gif": null
+      },
+      "tags": [
+        "kesa-giri",
+        "traditional-swordsmanship",
+        "diagonal-slash",
+        "samurai",
+        "authentic-technique",
+        "cinematic",
+        "sideview",
+        "japanese-sword",
+        "historical",
+        "minimalist-design"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "타치",
+        "일본도"
+      ],
+      "id": "kt-059",
+      "addedDate": "2026-03-16"
     }
   ]
 }
