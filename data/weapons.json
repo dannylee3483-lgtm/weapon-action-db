@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:13",
+  "lastUpdated": "2026-03-16 22:21",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30278,6 +30278,84 @@
       ],
       "id": "mc-001",
       "addedDate": "2026-03-16 22:13"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "브로드소드 (Broadsword) — 정산 (Verdant Summit)",
+      "game": "Wuthering Waves",
+      "developer": "Kuro Games",
+      "actionName": "취풍연참 / 翠風連斬 / Emerald Storm (공명 해방)",
+      "actionType": "공명 해방 (Resonance Liberation)",
+      "description": "지얀이 공명 해방을 발동하면 거대한 브로드소드를 풍원소 에너지로 감싸며 공중으로 도약한다. 이후 광범위한 에어리어를 연속 풍원소 대검 베기로 제압하며, 해방 지속 시간 동안 기본 공격 전체가 특수 풍원소 콤보로 교체되어 지속 피해를 입힌다. 해방 종료 직전 강렬한 수직 내리찍기 피니셔를 통해 거대한 풍압 폭발을 일으키며 마무리한다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "spin",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "green",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe",
+          "element-infuse",
+          "sustained-damage",
+          "aerial",
+          "attack-override"
+        ],
+        "resourceCost": "공명 에너지 125",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~300f (지속형)",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "지얀의 공명 해방은 '해방 중 기본 공격 변화(Attack Override)' 메카닉을 통해 단순 1회 입력의 궁극기가 아닌 지속적인 플레이어 참여를 강제한다. 대검 캐릭터 특유의 육중함을 유지하면서도 공중 기동성을 부여해 시각적 카타르시스를 극대화한 사례다. 풍원소 이펙트가 슬래시 궤적을 따라 흐르는 연출은 타격감과 속도감을 동시에 전달하며, 고비용(에너지 125) 리소스에 걸맞은 광역 지속 딜을 보상으로 제공하는 명확한 리스크-리워드 구조를 갖춘다. 해방 마지막의 수직 내리찍기 피니셔는 클라이맥스 액션으로서 전투 절정을 시각·청각적으로 선명히 표시하는 우수한 피드백 설계다. 이 구조는 '궁극기 → 평타 유지 → 피니셔'로 이어지는 전투 리듬을 자연스럽게 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Wuthering+Waves+%EC%B7%A8%ED%92%8D%EC%97%B0%EC%B0%B8+%2F+%E7%BF%A0%E9%A2%A8%E9%80%A3%E6%96%AC+%2F+Emerald+Storm+%28%EA%B3%B5%EB%AA%85+%ED%95%B4%EB%B0%A9%29+gameplay",
+        "images": [],
+        "wiki": "https://wutheringwaves.fandom.com/wiki/Jiyan",
+        "gif": null
+      },
+      "tags": [
+        "resonance-liberation",
+        "aero",
+        "greatsword",
+        "sustained-damage",
+        "aerial",
+        "aoe",
+        "wind-element",
+        "attack-override",
+        "elemental-infuse",
+        "climax-finisher"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "브로드소드"
+      ],
+      "id": "gs-055",
+      "addedDate": "2026-03-16 22:21"
     }
   ]
 }
