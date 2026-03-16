@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:58",
+  "lastUpdated": "2026-03-16 22:59",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -31068,6 +31068,79 @@
       ],
       "id": "sc-030",
       "addedDate": "2026-03-16 22:56"
+    },
+    {
+      "weaponCategory": "건랜스",
+      "weaponSubtype": "건랜스 (Gunlance)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "와이번파이어 (Wyvern's Fire)",
+      "actionType": "특수기",
+      "description": "건랜스 포신을 전방으로 고정한 뒤 약 3.5초간 에너지를 충전하여 전방 광역에 초고화력 화염을 방출하는 필살기. 쉘 계열 고정 대미지로 몬스터 부위 방어력을 무시하며 매우 높은 단발 대미지를 입힌다. 사용 후 포신이 과열되어 약 2분간 재사용이 불가능하며, 과열 상태는 포신 연기 이펙트로 명확히 표시된다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange",
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "explosion",
+          "beam",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-slow",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "fixed-damage",
+          "armor-pierce",
+          "knockdown",
+          "poise-breaking",
+          "heat-cooldown"
+        ],
+        "resourceCost": "쿨다운 (~2분 과열)",
+        "frameApprox": {
+          "startup": "~210f (차지 포함)",
+          "active": "~60f",
+          "recovery": "~90f"
+        }
+      },
+      "designNotes": "와이번파이어는 '최강의 단발'을 위해 플레이어가 긴 차지 중 완전 무방비 상태와 2분 쿨다운이라는 이중 리스크를 감수하게 만드는 극단적 리스크-리워드 구조의 결정체다. 고정 대미지(쉘 시스템) 채택으로 몬스터 부위 방어력을 우회하는 독자적인 딜링 루트를 제공하며, 이는 건랜스라는 무기의 정체성인 '포격으로 부수는 무기'를 메카닉 수준에서 강화한다. 차지 중 취약한 상태는 몬스터 행동 읽기와 파티 협력(다른 플레이어가 다운을 잡아줄 때 사용)을 통한 보상을 극대화하여, 개인 스킬뿐 아니라 팀플레이 판단력도 시험한다. 시각·청각 피드백(화염 폭발, 굉음, 화면 진동)이 강렬하게 연출되어 긴 대기 끝의 카타르시스를 극대화하고, 과열 이펙트와 쿨다운 UI로 자원 상태를 명확히 전달해 플레이어의 전략적 타이밍 관리 부담을 줄인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%99%80%EC%9D%B4%EB%B2%88%ED%8C%8C%EC%9D%B4%EC%96%B4+%28Wyvern%27s+Fire%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Gunlance",
+        "gif": null
+      },
+      "tags": [
+        "wyverns-fire",
+        "fixed-damage",
+        "shelling",
+        "charge-attack",
+        "risk-reward",
+        "cooldown-management",
+        "burst-damage",
+        "armor-pierce",
+        "monster-hunter",
+        "poise-break"
+      ],
+      "applicableWeapons": [
+        "건랜스"
+      ],
+      "id": "gu-001",
+      "addedDate": "2026-03-16 22:59"
     }
   ]
 }
