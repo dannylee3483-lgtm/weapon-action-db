@@ -31722,6 +31722,80 @@
       ],
       "id": "kt-055",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "Agni & Rudra (쌍검 / 악마 쌍도)",
+      "game": "Devil May Cry 3: Dante's Awakening",
+      "developer": "Capcom",
+      "actionName": "회오리바람 / Whirlwind",
+      "actionType": "특수기",
+      "description": "단테가 아그니와 루드라를 양손에 쥔 채 공중으로 도약하며 두 검을 고속으로 회전시켜 거대한 풍압 토네이도를 발생시킨다. 이 회오리는 주변 다수의 적을 끌어들이며 반복 타격하는 범위기로 작용한다. 쌍검의 '불꽃(Agni)'과 '바람(Rudra)' 속성이 합쳐져 시각적으로도 적색-황색의 원소 토네이도가 연출된다.",
+      "motionType": [
+        "spin",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "multi-hit",
+          "aoe",
+          "airborne",
+          "element-fusion"
+        ],
+        "resourceCost": "없음 (Style Meter 소모 없음, 자유 사용)",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~60f (다단 히트)",
+          "recovery": "~24f (착지 후)"
+        }
+      },
+      "designNotes": "Whirlwind은 두 개의 원소 쌍검을 '불 + 바람'이라는 서사적 시너지로 연결해, 무기 자체의 설정이 액션 연출과 직결되도록 설계된 사례다. 단순한 회전기가 아니라 도약 → 회전 → 토네이도 생성이라는 3단계 모션으로 구성되어, 선딜 동안의 리스크를 공중 체공으로 분산시키는 리스크-리워드 구조가 내재되어 있다. 다단 히트의 '연속 히트스톱'이 적의 무력화를 시각·청각적으로 강하게 피드백해 플레이어에게 강력한 조작감을 전달한다. 군중 제어와 피니셔 역할을 동시에 수행하기 때문에, 복수 적 상황에서 콤보 마무리로 활용하면 스타일 포인트 극대화가 가능한 설계로 스타일리시 액션의 핵심 피드백 루프를 충족시킨다. 쌍검 무기 특유의 '이원성(duality)'—불과 바람, 공격과 이동—을 하나의 액션에 압축한 DMC 시리즈의 원소 연출 원형으로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%ED%9A%8C%EC%98%A4%EB%A6%AC%EB%B0%94%EB%9E%8C+%2F+Whirlwind+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Whirlwind",
+        "gif": null
+      },
+      "tags": [
+        "dual-blades",
+        "aoe",
+        "crowd-control",
+        "multi-hit",
+        "elemental-fusion",
+        "airborne",
+        "finisher",
+        "stylish-action",
+        "tornado",
+        "dmc"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "원소 쌍검"
+      ],
+      "id": "db-027",
+      "addedDate": "2026-03-16"
     }
   ]
 }
