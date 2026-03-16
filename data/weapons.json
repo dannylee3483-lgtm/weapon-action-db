@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:12",
+  "lastUpdated": "2026-03-16 22:13",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30212,6 +30212,72 @@
       ],
       "id": "hm-026",
       "addedDate": "2026-03-16 22:12"
+    },
+    {
+      "weaponCategory": "철퇴",
+      "weaponSubtype": "플레일 (Flail)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "풀 블록 스탠스 (Full Block Stance)",
+      "actionType": "특수기",
+      "description": "방패를 전면에 밀착시켜 좌·우·상단 모든 방향의 공격을 동시에 차단하는 완전 방어 자세. 일반적으로 방향을 맞춰야만 막을 수 있는 For Honor의 방어 시스템을 완전히 무력화하며, 스탠스 유지 중 경직 없이 플레일 반격으로 이어갈 수 있다. 단, 잡기(Grab) 공격에는 완전 노출되어 리스크-리워드 관계가 명확하게 설계되어 있다.",
+      "motionType": [
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "counter",
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "omnidirectional-block",
+          "poise-breaking",
+          "stance-cancel"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "유지형 (입력 지속 중 스탠스 유지)",
+          "recovery": "~12f (스탠스 해제 후)"
+        }
+      },
+      "designNotes": "풀 블록 스탠스는 방향 추측 게임이라는 For Honor의 핵심 긴장감을 '한 캐릭터에게는 완전히 제거'하는 극단적 선택으로, 이를 상쇄하기 위해 잡기 취약성을 명확한 카운터플레이로 제공한다. 상대는 '계속 공격을 쏟아낼 것인가, 잡기로 전환할 것인가'를 매 순간 선택해야 하며, 이 이분법적 구조가 전투를 단순하면서도 깊게 만든다. 플레일이라는 무기의 불규칙한 궤적이 방어 올인 전략과 시각적·서사적으로 일치하는 점은 캐릭터 아이덴티티 디자인의 모범 사례다. 한 가지 속성을 극단화하여 플레이어 롤(방어형 파이터)을 명쾌하게 정의하되, 반드시 뚫리는 약점을 삽입해 밸런스를 유지하는 리스크-리워드 설계 원칙을 잘 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%ED%92%80+%EB%B8%94%EB%A1%9D+%EC%8A%A4%ED%83%A0%EC%8A%A4+%28Full+Block+Stance%29+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Conqueror",
+        "gif": null
+      },
+      "tags": [
+        "omnidirectional-block",
+        "risk-reward",
+        "counter-attack",
+        "defensive-stance",
+        "flail",
+        "mace",
+        "punish",
+        "grab-vulnerability",
+        "character-identity"
+      ],
+      "applicableWeapons": [
+        "철퇴",
+        "플레일",
+        "방패"
+      ],
+      "id": "mc-001",
+      "addedDate": "2026-03-16 22:13"
     }
   ]
 }
