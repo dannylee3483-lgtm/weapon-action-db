@@ -28853,6 +28853,76 @@
       ],
       "id": "bw-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "레이저 검 (Laser Sword)",
+      "game": "Furi",
+      "developer": "The Game Bakers",
+      "actionName": "완벽한 패리 & 즉각 반격 / Perfect Parry & Instant Counter",
+      "actionType": "패리/카운터",
+      "description": "적의 공격이 히트 직전, 극도로 좁은 프레임 안에 칼을 정확히 내밀어 막아내면 '퍼펙트 패리' 판정이 발생한다. 성공 즉시 The Stranger가 반격 자세로 전환되며 강력한 카운터 베기가 자동 발동, 적의 실드와 체력에 동시 대미지를 준다. 일반 패리(실드만 흡수)와 달리 퍼펙트 패리는 추가 반격 창을 열어 공격적 압박을 끊김 없이 이어갈 수 있게 해준다.",
+      "motionType": [
+        "parry",
+        "counter",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "parry-counter",
+          "shield-bypass",
+          "poise-breaking",
+          "no-resource-cost"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f",
+          "active": "~3~4f (패리 윈도우)",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "Furi의 퍼펙트 패리는 리스크-리워드 구조를 극단까지 밀어붙인 설계다. 일반 패리도 유효하지만 퍼펙트 타이밍을 달성하면 방어가 즉시 공격 기회로 전환되어 보스 압박을 끊지 않고 유지할 수 있다. 성공과 실패의 결과 차이가 극명해 플레이어가 위험을 감수할 동기를 명확히 제공하고, 타이밍 숙달이 실력의 핵심 척도가 된다. 보스 전용 게임이라는 특성상 각 보스의 공격 패턴을 반복 학습하며 퍼펙트 패리를 완성해가는 과정 자체가 성장 서사를 형성하며, 좁은 판정 윈도우는 의도적으로 높은 난이도를 설정해 달성 시 성취감을 극대화하는 '고난도 보상' 원칙의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Furi+%EC%99%84%EB%B2%BD%ED%95%9C+%ED%8C%A8%EB%A6%AC+%26+%EC%A6%89%EA%B0%81+%EB%B0%98%EA%B2%A9+%2F+Perfect+Parry+%26+Instant+Counter+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "parry-counter",
+        "risk-reward",
+        "precision-timing",
+        "boss-fight",
+        "shield-bypass",
+        "high-skill-ceiling",
+        "instant-counter",
+        "punish-window"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "카타나",
+        "단검"
+      ],
+      "id": "sw-026",
+      "addedDate": "2026-03-16"
     }
   ]
 }
