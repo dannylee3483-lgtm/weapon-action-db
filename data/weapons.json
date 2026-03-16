@@ -26600,6 +26600,77 @@
       ],
       "id": "bw-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 (사마노스케의 원령도)",
+      "game": "Onimusha: Warlords",
+      "developer": "Capcom",
+      "actionName": "이센 (一閃 / Issen)",
+      "actionType": "카운터",
+      "description": "적의 공격이 명중하는 순간 가드 버튼을 정확히 입력하면 발동하는 완벽 반격 기술. 눈부신 백색 섬광과 함께 단 일격으로 적을 즉사시키며, 성공 시 일반 처치보다 훨씬 많은 혼(魂)을 흡수한다. 허용 입력 창이 극히 짧아 반사 신경과 패턴 학습이 동시에 요구되는 고난도 기술이다.",
+      "motionType": [
+        "counter",
+        "slash",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "instant-kill",
+          "soul-absorb-bonus",
+          "poise-breaking",
+          "one-frame-window"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~2f",
+          "active": "~1f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "이센은 '완벽한 타이밍'에 대한 극도로 높은 보상을 제공함으로써 리스크-리워드 설계의 정수를 보여준다. 일반 방어와 동일한 버튼을 사용하되 입력 창을 매우 좁게 설정해, 숙련도의 스펙트럼을 자연스럽게 '방어하는 플레이어'와 '읽고 반격하는 플레이어'로 분리한다. 즉사 판정과 혼 흡수 보너스라는 이중 보상은 성공 시 강렬한 숙련 피드백을 제공하며, 이후 Sekiro의 탄기(패리) 시스템 등 수많은 카운터 디자인에 직접적인 영향을 끼친 원형(原型)으로 평가받는다. 백색 섬광이라는 시각적 연출은 '내가 완벽히 해냈다'는 인식을 즉각적으로 강화하는 훌륭한 주스(juice) 디자인이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Onimusha%3A+Warlords+%EC%9D%B4%EC%84%BC+%28%E4%B8%80%E9%96%83+%2F+Issen%29+gameplay",
+        "images": [],
+        "wiki": "https://onimusha.fandom.com/wiki/Issen",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "parry",
+        "one-shot",
+        "soul-harvest",
+        "perfect-timing",
+        "high-skill-ceiling",
+        "risk-reward",
+        "katana",
+        "classic-action",
+        "instant-kill"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "원령검"
+      ],
+      "id": "kt-051",
+      "addedDate": "2026-03-16"
     }
   ]
 }
