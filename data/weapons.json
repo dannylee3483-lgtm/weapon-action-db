@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:05",
+  "lastUpdated": "2026-03-17 07:07",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35510,6 +35510,74 @@
       ],
       "id": "ft-044",
       "addedDate": "2026-03-17 07:05"
+    },
+    {
+      "weaponCategory": "클로",
+      "weaponSubtype": "클로 (Claws)",
+      "game": "Dark Souls III",
+      "developer": "FromSoftware",
+      "actionName": "도약 베기 / Leaping Slash",
+      "actionType": "무기술",
+      "description": "두 발톱을 앞으로 뻗으며 전방으로 도약한 뒤, 착지 순간 강력한 하향 할퀴기를 내리치는 무기술. 낮은 자세로 시작해 도약 궤적 중에 피격 판정이 낮아 일부 공격을 자연스럽게 회피한다. 착지 시 발생하는 할퀴기는 출혈 축적에 기여하며, 근접 거리의 벽을 허무는 강력한 진입 수단이 된다.",
+      "motionType": [
+        "leap",
+        "slash",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "gap-closer",
+          "finisher"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "gap-closer",
+          "low-profile"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~10f",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "클로의 도약 베기는 단거리·저AR이라는 클로 무기의 내재적 약점을 이동성 기반 무기술로 보완하는 설계다. 도약 중 낮은 히트박스 판정은 '무조건 안전한 갭 클로저'가 아니라 '타이밍을 읽어야 하는 진입기'로 만들어 전술적 깊이를 부여한다. 출혈 축적 특성과 고속 연타를 결합해 낮은 AR을 시간 누적 피해(DoT)로 보상하는 구조이며, 이는 클로 특유의 '짧지만 많이, 빠르지만 위험하게'라는 전투 아이덴티티를 명확히 표현한다. FP 소모 무기술로 설정함으로써 남발을 억제하고, 결정적 진입 순간에 쓰는 리소스 관리 판단을 요구한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EB%8F%84%EC%95%BD+%EB%B2%A0%EA%B8%B0+%2F+Leaping+Slash+gameplay",
+        "images": [],
+        "wiki": "https://darksouls3.wiki.fextralife.com/Claws",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "gap-closer",
+        "low-profile",
+        "weapon-art",
+        "fast-attack",
+        "leaping-attack",
+        "claw",
+        "dot-damage"
+      ],
+      "applicableWeapons": [
+        "클로",
+        "단검"
+      ],
+      "id": "cl-002",
+      "addedDate": "2026-03-17 07:07"
     }
   ]
 }
