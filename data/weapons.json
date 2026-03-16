@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:23",
+  "lastUpdated": "2026-03-17 06:24",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33736,6 +33736,78 @@
       ],
       "id": "tf-001",
       "addedDate": "2026-03-17 06:21"
+    },
+    {
+      "weaponCategory": "차크람",
+      "weaponSubtype": "차크람 (Chakrams)",
+      "game": "Kingdoms of Amalur: Reckoning",
+      "developer": "Big Huge Games / 38 Studios",
+      "actionName": "귀환 투척 / Boomerang Throw",
+      "actionType": "기본 공격",
+      "description": "차크람을 전방으로 투척하면 적을 향해 자동으로 유도되며 날아가고, 적을 타격한 뒤 플레이어에게 스스로 귀환한다. 귀환 경로에서도 연속으로 적에게 데미지를 입히며, 멀리 있는 적을 원거리에서 견제하면서도 근접 콤보의 오프너로 자연스럽게 이어진다.",
+      "motionType": [
+        "throw",
+        "combo",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "cyan",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "homing",
+          "pierce",
+          "return-on-hit",
+          "multi-hit",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~50f (비행 + 귀환 전체)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "차크람의 '투척→귀환' 루프는 원거리 공격과 근접 콤보를 단일 입력으로 연결하는 독특한 리듬을 만들어낸다. 투척 후 귀환을 기다리며 근접 회피로 포지션을 잡는 과정이 플레이어에게 자연스러운 호흡 타이밍을 부여하며, 이는 공격적인 순간과 위치 조정 순간을 교차시키는 전투 템포 설계의 핵심이다. 귀환 경로에도 피격 판정을 부여함으로써 투척 한 번이 전진 타격과 귀환 타격 두 번의 데미지 기회를 제공하는 리워드 구조를 갖춰, 적을 사이에 두고 이동할수록 이득이 커지는 포지셔닝 인센티브를 설계했다. 또한 자동 유도 기능은 조준 부담을 줄여 근접 콤보 전환 타이밍에 집중하게 해주며, 원거리-근거리 하이브리드 전투 스타일을 진입 장벽 없이 즐길 수 있게 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Kingdoms+of+Amalur%3A+Reckoning+%EA%B7%80%ED%99%98+%ED%88%AC%EC%B2%99+%2F+Boomerang+Throw+gameplay",
+        "images": [],
+        "wiki": "https://kingdomsofamalur.fandom.com/wiki/Chakrams",
+        "gif": null
+      },
+      "tags": [
+        "chakram",
+        "boomerang",
+        "return-mechanic",
+        "homing",
+        "ranged-melee-hybrid",
+        "multi-hit",
+        "pierce",
+        "combo-opener",
+        "positioning"
+      ],
+      "applicableWeapons": [
+        "차크람"
+      ],
+      "id": "ck-001",
+      "addedDate": "2026-03-17 06:24"
     }
   ]
 }
