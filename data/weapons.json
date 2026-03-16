@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:42",
+  "lastUpdated": "2026-03-17 06:43",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34517,6 +34517,77 @@
       ],
       "id": "dg-003",
       "addedDate": "2026-03-17 06:42"
+    },
+    {
+      "weaponCategory": "건블레이드",
+      "weaponSubtype": "Redeemer Prime",
+      "game": "Warframe",
+      "developer": "Digital Extremes",
+      "actionName": "차지 블라스트 / Charged Blast",
+      "actionType": "차지",
+      "description": "Redeemer Prime의 핵심 기술로, 근접 콤보 도중 홀드 입력을 통해 총구에서 압축된 샷건 폭발을 발사한다. 근접 타격으로 적을 압박하다가 차지 샷으로 폭발 데미지를 터뜨리는 방식으로, 근거리 베기와 폭발 데미지를 자유롭게 전환할 수 있다. 발사 시 반동으로 인해 플레이어가 뒤로 밀려나며, 이것이 자연스러운 포지션 리셋 수단으로도 기능한다.",
+      "motionType": [
+        "charge",
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "orange",
+          "yellow",
+          "red"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "self-pushback"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~8f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "건블레이드 장르의 핵심 판타지인 '검과 총의 즉각적 전환'을 입력 레벨에서 구현한 설계다. 근접 콤보의 리듬을 유지하면서 홀드 입력 하나로 전혀 다른 피해 유형을 삽입할 수 있어, 플레이어가 단일 무기로 다층적 전술 선택을 경험한다. 차지 샷의 높은 스태거 파워는 긴 차지 시간이라는 리스크에 대한 명확한 보상을 제공하며, 리스크-리워드 구조가 직관적이다. 발사 반동으로 인한 자기 넉백 효과는 불이익처럼 보이지만 Warframe의 고속 이동 전투에서 위험 구역 이탈 수단으로 능숙하게 재활용된다. 콤보 카운터를 유지하면서 폭발을 삽입하는 구조는 근접-원거리 혼합 전투의 가능성을 실질적인 플레이어 표현 공간으로 확장한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%B0%A8%EC%A7%80+%EB%B8%94%EB%9D%BC%EC%8A%A4%ED%8A%B8+%2F+Charged+Blast+gameplay",
+        "images": [],
+        "wiki": "https://warframe.fandom.com/wiki/Redeemer_Prime",
+        "gif": null
+      },
+      "tags": [
+        "gunblade",
+        "charge-shot",
+        "melee-ranged-hybrid",
+        "shotgun-blast",
+        "knockdown",
+        "combo-cancel",
+        "self-knockback",
+        "poise-break",
+        "aoe"
+      ],
+      "applicableWeapons": [
+        "건블레이드"
+      ],
+      "id": "gb-004",
+      "addedDate": "2026-03-17 06:43"
     }
   ]
 }
