@@ -32649,6 +32649,76 @@
       ],
       "id": "gs-053",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 (Katana)",
+      "game": "Katana Zero",
+      "developer": "Askiisoft",
+      "actionName": "총알 반사 베기 (Bullet Reflect Slash)",
+      "actionType": "카운터",
+      "description": "약물로 유발된 시간 지연 지각 능력을 이용해 눈에 보이는 속도로 날아오는 총알을 칼날로 정확히 쳐내어 발사원을 향해 역방향으로 되돌려 보내는 반사 베기다. 반사된 총알은 원거리 적을 즉사시키며, 베기 자체도 근접 적을 일격에 처리한다. 플레이어는 슬로우 상태에서 총알 궤적을 육안으로 확인하고 타이밍을 맞춰 입력해야 하므로 반응 게임이 아닌 '읽기와 판단'의 게임이 된다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "one-hit-kill",
+          "projectile-reflect",
+          "time-dilation",
+          "instantaneous"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~1f (체감, 시간 지연 중)",
+          "active": "~3f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "총알 반사는 원거리 위협을 역이용한다는 비대칭 리스크-리워드 구조의 교과서적 예시다. 시간 지연 메커니즘은 단순한 슬로우 모션이 아니라 '플레이어가 실제로 반응할 수 있는 공간'을 인위적으로 생성하는 접근성 설계이며, 긴장과 여유를 동시에 부여한다. 성공 시 적의 공격을 그대로 돌려주는 연출은 가해자와 피해자의 역전이라는 극적 서사를 단 한 번의 입력에 응축시킨다. 이 액션은 게임 전체를 관통하는 '원히트킬 세계관'을 플레이어가 가장 직관적으로 체험하게 만드는 핵심 메커니즘으로, 칼날 잔상과 총알 궤적의 충돌 이펙트가 성공 여부를 사운드와 함께 즉각 피드백한다. 실패 시 즉사라는 높은 패널티가 반사 성공의 쾌감을 더욱 증폭시킨다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Katana+Zero+%EC%B4%9D%EC%95%8C+%EB%B0%98%EC%82%AC+%EB%B2%A0%EA%B8%B0+%28Bullet+Reflect+Slash%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "bullet-reflect",
+        "time-dilation",
+        "one-hit-kill",
+        "counter",
+        "parry",
+        "projectile-return",
+        "risk-reward",
+        "instant-kill",
+        "katana",
+        "indie"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-058",
+      "addedDate": "2026-03-16"
     }
   ]
 }
