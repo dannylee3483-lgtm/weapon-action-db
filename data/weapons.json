@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 00:05",
+  "lastUpdated": "2026-03-17 05:46",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32467,6 +32467,80 @@
       ],
       "id": "gu-001",
       "addedDate": "2026-03-16 22:59"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "드래곤슬레이어 (Dragonslayer)",
+      "game": "Berserk and the Band of the Hawk",
+      "developer": "Omega Force / Koei Tecmo",
+      "actionName": "광전사 갑옷 발동 / Berserker Armor Activation (狂戦士の甲冑発動)",
+      "actionType": "특수기",
+      "description": "거츠가 광전사의 갑옷을 강제 각성시켜 전투 능력을 폭발적으로 끌어올리는 상태 전환 기술. 발동 순간 검은 기운이 갑옷 전체를 감싸고, 드래곤슬레이어의 모든 스윙 속도·범위·히트 수가 대폭 강화되어 다수의 적을 단시간에 섬멸할 수 있는 광란 상태로 진입한다. 상태 지속 중 피해를 더 받는 대신, 압도적인 공격 출력으로 적을 쉼 없이 학살함으로써 생존하는 하이 리스크-하이 리워드 싸이클이 핵심이다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "red"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "knockdown",
+          "damage-buff",
+          "berserk-state",
+          "crowd-control"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~24f",
+          "active": "지속 약 15~20초",
+          "recovery": "~30f (상태 종료 후 경직)"
+        }
+      },
+      "designNotes": "광전사 갑옷 발동은 원작 만화의 핵심 드라마—인간의 한계를 초월하되 정신과 육체를 잠식당한다는 대가—를 게임플레이 언어로 직접 번역한 디자인이다. 수치적 쿨다운이 아닌 '살육의 연속성'으로 파워 상태를 정당화하도록 설계되어, 플레이어는 자연스럽게 공격성을 유지해야 하는 풀-오펜시브 루프에 진입한다. 방어적 플레이에 암묵적 페널티를 부여하지 않으면서도 공격적 플레이에 폭발적인 보상을 주는 비대칭 리스크 구조가 무쌍 장르의 대규모 적 소탕 판타지와 맞물려 카타르시스를 극대화한다. 발동 연출의 시각적 피드백—갑옷 균열, 흑기(黑氣) 방출—이 실제 능력치 강화를 즉각적으로 체감하게 하는 피드백 설계의 모범 사례이며, IP의 핵심 감성을 장르 특성에 맞게 재해석한 우수한 게임 디자인이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Berserk+and+the+Band+of+the+Hawk+%EA%B4%91%EC%A0%84%EC%82%AC+%EA%B0%91%EC%98%B7+%EB%B0%9C%EB%8F%99+%2F+Berserker+Armor+Activation+%28%E7%8B%82%E6%88%A6%E5%A3%AB%E3%81%AE%E7%94%B2%E5%86%91%E7%99%BA%E5%8B%95%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "berserk-state",
+        "high-risk-high-reward",
+        "state-transition",
+        "damage-amplifier",
+        "crowd-control",
+        "offensive-loop",
+        "ip-faithful",
+        "musou",
+        "greatsword",
+        "visual-feedback"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-059",
+      "addedDate": "2026-03-17 05:46"
     }
   ]
 }
