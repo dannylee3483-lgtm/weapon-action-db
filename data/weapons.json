@@ -29343,6 +29343,78 @@
       ],
       "id": "wh-045",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "다크나이트 그레이트소드 (Dark Knight Greatsword)",
+      "game": "Stranger of Paradise: Final Fantasy Origin",
+      "developer": "Team Ninja / Square Enix",
+      "actionName": "소울이터 (Souleater)",
+      "actionType": "무기술",
+      "description": "다크나이트 잡의 상징적 스킬로, 플레이어 자신의 HP를 소모하여 그레이트소드에 암흑 에너지를 축적한 뒤 적에게 강력한 암흑 속성 대검 참격을 날린다. HP가 낮을수록 데미지가 증폭되는 하이 리스크 구조를 가지며, 명중 시 넓은 범위의 적을 휩쓸어 경직시킨다. 어두운 아우라가 검신 전체를 감싸며 슬로모션에 가까운 중후한 모션으로 강렬한 타격감을 전달한다.",
+      "motionType": [
+        "slash",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "hp-drain",
+          "dark-damage",
+          "knockdown",
+          "poise-breaking",
+          "damage-scales-with-low-hp"
+        ],
+        "resourceCost": "HP + MP",
+        "frameApprox": {
+          "startup": "~28f",
+          "active": "~10f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "소울이터는 'HP를 소모해서 강해진다'는 파이널 판타지 다크나이트의 핵심 판타지를 액션 게임 문법으로 번역한 탁월한 설계다. 플레이어는 생존과 화력 극대화라는 두 가지 목표 사이에서 지속적으로 긴장감 있는 선택을 강요받으며, HP 관리 자체가 또 하나의 리소스 레이어가 된다. 팀 닌자 특유의 무거운 히트스톱과 암흑 이펙트는 '위험한 힘을 사용한다'는 테마를 시각·촉각적으로 강화한다. 또한 소울이터 이후 남은 HP가 낮아지면 잡의 다른 스킬들과의 시너지가 높아지도록 설계되어, 리스크를 의도적으로 끌어안는 '엣지 플레이'에 대한 명확한 리워드가 존재한다. 이는 리소스를 깎으면서도 더 강해진다는 역설적 쾌감을 게임플레이 루프에 내재화한 좋은 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Stranger+of+Paradise%3A+Final+Fantasy+Origin+%EC%86%8C%EC%9A%B8%EC%9D%B4%ED%84%B0+%28Souleater%29+gameplay",
+        "images": [],
+        "wiki": "https://strangerofparadise.wiki.fextralife.com/Souleater",
+        "gif": null
+      },
+      "tags": [
+        "dark-knight",
+        "hp-drain",
+        "risk-reward",
+        "dark-element",
+        "finisher",
+        "poise-break",
+        "resource-management",
+        "high-damage"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "다크나이트 전용 무기"
+      ],
+      "id": "gs-049",
+      "addedDate": "2026-03-16"
     }
   ]
 }
