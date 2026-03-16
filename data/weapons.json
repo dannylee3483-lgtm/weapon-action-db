@@ -26029,6 +26029,73 @@
       ],
       "id": "mg-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "채찍 (Whip)",
+      "game": "Indiana Jones and the Great Circle",
+      "developer": "Machine Games",
+      "actionName": "올가미 발목 트립 (Whip Leg Wrap / Trip)",
+      "actionType": "특수기",
+      "description": "채찍을 낮은 궤도로 수평 휘둘러 적의 발목에 감아 쓰러뜨리는 기술. 채찍이 다리에 감긴 순간 당기는 동작으로 적을 바닥에 넘어뜨리며, 쓰러진 상태의 적은 수 초간 무력화되어 후속 공격이나 도주에 완전히 취약해진다. 근거리 전투를 회피하면서도 적을 제압하는 인디아나 존스 특유의 간접 전투 철학을 핵심적으로 구현한 액션이다.",
+      "motionType": [
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "brown"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "crowd-control",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~10f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "채찍 무기의 핵심 판타지인 '거리를 이용한 신체 통제'를 가장 직접적으로 구현한 액션으로, 단순한 데미지 딜링 대신 상태 이상을 통한 전황 장악이라는 독특한 리스크-리워드 구조를 제시한다. 플레이어가 직접 난투에 참여하지 않고도 우위를 점할 수 있게 함으로써 인디아나 존스라는 캐릭터의 '기지로 이기는 모험가' 아이덴티티를 전투 메카닉 레벨에서 충실히 반영했다. 발목에 채찍이 감기고 당겨지는 물리 기반 시각 피드백은 액션의 인과관계를 직관적으로 전달하며 타격감을 극대화한다. 쓰러진 적에게 후속 공격을 허용하는 '취약 창문' 설계는 공격적 플레이와 보조적 플레이 모두를 자연스럽게 지원하는 콤보 오프너 역할을 수행한다. 채찍의 물리적 특성(유연성, 사거리)을 전투 디자인에 직접 연결시킨 사례로, 무기 정체성과 메카닉의 정합성이 높다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Indiana+Jones+and+the+Great+Circle+%EC%98%AC%EA%B0%80%EB%AF%B8+%EB%B0%9C%EB%AA%A9+%ED%8A%B8%EB%A6%BD+%28Whip+Leg+Wrap+%2F+Trip%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "knockdown",
+        "crowd-control",
+        "trip",
+        "setup",
+        "gap-control",
+        "utility",
+        "non-lethal",
+        "combo-opener",
+        "physics-based"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-035",
+      "addedDate": "2026-03-16"
     }
   ]
 }
