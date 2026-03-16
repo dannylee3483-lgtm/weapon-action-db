@@ -22811,6 +22811,76 @@
       ],
       "id": "wh-026",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "Scythe (大鎌)",
+      "game": "God Eater 3",
+      "developer": "Marvelous / Bandai Namco Entertainment",
+      "actionName": "차지 크래시 / Charge Crush",
+      "actionType": "차지 공격",
+      "description": "낫을 뒤로 크게 빼 올리며 기를 충전한 뒤 전방 호를 그리며 강력하게 내리꽂는 차지 공격이다. 충전량에 비례해 데미지가 폭발적으로 증가하며, 착지 충격파가 주변 광역 범위를 덮어 다수의 적을 동시에 경직시킨다. 버스트 모드 상태에서 시전하면 버스트 아트(Burst Art)로 자동 강화되어 추가 타격과 속성 이펙트가 덧붙는다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe-impact",
+          "burst-art-compatible"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~12f",
+          "recovery": "~38f"
+        }
+      },
+      "designNotes": "차지 공격의 교과서적인 리스크-리워드 구조를 충실히 구현한 사례다. 긴 충전 시간이라는 명확한 취약점을 감수해야만 높은 단발 데미지와 광역 넉다운을 획득할 수 있어, 플레이어에게 공격 타이밍에 관한 의미 있는 판단을 요구한다. 버스트 모드와의 연계 시 자동 강화되는 버스트 아트 시스템은 리소스 축적-방출의 리듬을 전투에 자연스럽게 녹여내어, 단순 입력 이상의 전략적 레이어를 만들어낸다. 낫 특유의 넓은 호형 궤적이 충격파와 결합되어 군중 제어 도구로서의 역할까지 부여됨으로써, 단일 적과의 고화력 결전과 다수 적 정리라는 두 가지 시나리오 모두에서 유효한 다목적 기술로 기능한다. 충전 모션의 시각·청각 피드백이 단계적으로 강해지는 연출은 플레이어에게 방출 타이밍의 만족감을 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+Eater+3+%EC%B0%A8%EC%A7%80+%ED%81%AC%EB%9E%98%EC%8B%9C+%2F+Charge+Crush+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "charge-attack",
+        "knockdown",
+        "burst-art",
+        "crowd-control",
+        "high-damage",
+        "poise-break",
+        "aoe",
+        "scythe",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "낫"
+      ],
+      "id": "sc-018",
+      "addedDate": "2026-03-16"
     }
   ]
 }
