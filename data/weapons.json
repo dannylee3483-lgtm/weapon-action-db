@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:40",
+  "lastUpdated": "2026-03-16 22:42",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30713,6 +30713,75 @@
       ],
       "id": "db-029",
       "addedDate": "2026-03-16 22:40"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "버스터 소드 (단손 모드 / Operator Mode)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "트리플 슬래시 / Triple Slash",
+      "actionType": "ATB 어빌리티 / 콤보",
+      "description": "클라우드가 전방으로 짧게 돌진하며 빠른 세 번의 베기를 연속으로 퍼붓는 ATB 소비 어빌리티. 단손 모드(Operator Mode) 전용이며, 각 타격이 독립 판정으로 히트해 스태거 게이지를 빠르게 누적시킨다. 마지막 세 번째 베기에는 소폭의 넉백이 붙어 추격 타이밍을 자연스럽게 리셋한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "stagger-buildup",
+          "gap-closer"
+        ],
+        "resourceCost": "ATB 1게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~32f (3타 합산)",
+          "recovery": "~14f"
+        }
+      },
+      "designNotes": "트리플 슬래시는 ATB 시스템 내 '비용 대비 효율' 설계의 교과서적 사례다. ATB 1게이지라는 낮은 자원으로 3히트를 보장해 스태거 누적 속도를 극대화하며, 중급 어빌리티 진입 장벽을 낮춰 초보자도 전투 리듬을 빠르게 체득하게 돕는다. 돌진 거리를 의도적으로 짧게 설정해 오버 익스텐드 위험을 줄이고, 발동 즉시 이동이 시작되는 반응성 덕분에 실시간 전투의 긴박감을 유지한다. 단손 모드 전용으로 묶어 무기 스탠스 전환 의사결정에 전략적 무게를 부여한 점도 돋보이는 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%ED%8A%B8%EB%A6%AC%ED%94%8C+%EC%8A%AC%EB%9E%98%EC%8B%9C+%2F+Triple+Slash+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/Triple_Slash",
+        "gif": null
+      },
+      "tags": [
+        "triple-hit",
+        "atb-ability",
+        "stagger-buildup",
+        "gap-closer",
+        "combo",
+        "operator-mode",
+        "one-handed-sword",
+        "multi-hit",
+        "fast-attack"
+      ],
+      "applicableWeapons": [
+        "1H검"
+      ],
+      "id": "sw-031",
+      "addedDate": "2026-03-16 22:42"
     }
   ]
 }
