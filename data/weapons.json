@@ -24035,6 +24035,77 @@
       ],
       "id": "sc-019",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "쿠나이 체인 (Kunai Chain Spear)",
+      "game": "Mortal Kombat 11",
+      "developer": "NetherRealm Studios",
+      "actionName": "이리 와! (Get Over Here! / スピア)",
+      "actionType": "특수기",
+      "description": "스콜피온이 쿠나이가 달린 긴 사슬을 중원거리 적을 향해 직선으로 던져, 명중 시 '이리 와!(Get Over Here!)'라는 대사와 함께 상대를 강제로 자신 앞으로 끌어당기는 체인 공격이다. 끌려온 적은 경직 상태가 되어 근접 콤보로 자연스럽게 연결되며, 빗나갈 경우 긴 딜레이로 인해 스콜피온이 반격에 노출된다. EX 버전을 소모하면 관통 속성이 추가되어 회피 시도를 무효화할 수 있다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "yellow",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "pull",
+          "combo-starter",
+          "hard-knockdown-on-air-hit"
+        ],
+        "resourceCost": "없음 (EX 버전은 방어 미터 소모)",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~5f",
+          "recovery": "~35f (miss 시)"
+        }
+      },
+      "designNotes": "스콜피온의 스피어는 '원거리 강제 접근'이라는 독보적인 아이덴티티를 단 하나의 기술로 정의하는 설계의 정수다. 일반적인 대전 격투 게임에서 체인·채찍 무기의 역할은 거리 유지인 반면, 이 기술은 반대로 적을 당겨옴으로써 근접 전투를 강요하는 역발상 설계를 채택했다. 히트 확인(hit confirm) 의사결정이 명확해 초보자도 맞으면 콤보, 빗나가면 위험이라는 리스크-리워드 구조를 즉각적으로 체감할 수 있다. '이리 와!' 음성 큐가 히트 모션과 동기화되어 시청각 피드백이 완벽하게 통합되었으며, 이는 이 기술이 30년 넘게 시리즈 아이콘으로 남을 수 있었던 핵심 이유다. 적의 점프, 회피, 앉기에 따른 상이한 히트 판정이 존재해 단순한 버튼 하나임에도 고수·하수 간 활용 깊이의 차이가 크게 벌어지는, 단순하지만 층위 깊은 설계의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Mortal+Kombat+11+%EC%9D%B4%EB%A6%AC+%EC%99%80%21+%28Get+Over+Here%21+%2F+%E3%82%B9%E3%83%94%E3%82%A2%29+gameplay",
+        "images": [],
+        "wiki": "https://mortalkombat.fandom.com/wiki/Spear",
+        "gif": null
+      },
+      "tags": [
+        "chain-whip",
+        "gap-closer",
+        "combo-starter",
+        "pull-mechanic",
+        "iconic",
+        "fighting-game",
+        "punish",
+        "risk-reward",
+        "audio-feedback"
+      ],
+      "applicableWeapons": [
+        "체인 무기",
+        "쿠나이",
+        "채찍류",
+        "투척 사슬"
+      ],
+      "id": "wh-030",
+      "addedDate": "2026-03-16"
     }
   ]
 }
