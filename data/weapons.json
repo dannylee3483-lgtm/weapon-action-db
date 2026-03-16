@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:15",
+  "lastUpdated": "2026-03-17 06:16",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33386,6 +33386,74 @@
       ],
       "id": "xb-001",
       "addedDate": "2026-03-17 06:15"
+    },
+    {
+      "weaponCategory": "보우건",
+      "weaponSubtype": "헤비보우건 (Heavy Bowgun)",
+      "game": "Monster Hunter: World",
+      "developer": "Capcom",
+      "actionName": "와이번 하트 (Wyvernheart)",
+      "actionType": "특수기",
+      "description": "헤비보우건에 내장된 특수 병기 모드로, 발동 시 총신이 전개되며 기관총처럼 고속 연사 상태로 전환된다. 트리거를 유지하는 동안 기본 탄약 소모 없이 강력한 연속 탄환을 퍼부을 수 있으며, 전용 게이지가 소진되거나 피격·이동 입력 시 강제 해제된다. 고화력의 지속 딜링이 가능한 대신 이동 불가와 피격 취약이라는 강한 리스크가 따른다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "continuous-damage",
+          "resource-gated",
+          "stationary-required"
+        ],
+        "resourceCost": "와이번 게이지",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "게이지 소진까지 (~180f)",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "와이번 하트는 '정지한 포대'라는 헤비보우건의 정체성을 극단적으로 표현한 디자인이다. 이동 불가라는 치명적 취약점을 감수해야만 최대 화력을 발휘할 수 있어, 몬스터의 행동 패턴을 읽고 안전한 창구를 만들어내는 '타이밍 게임'으로 플레이어를 유도한다. 게이지라는 유한 자원으로 지속 시간을 제한함으로써 무한 딜링의 지루함을 방지하고 각 발동 순간의 긴장감을 유지시킨다. 또한 피격 시 즉시 해제되는 페널티는 방어적 판단 없이 공격에만 집중하는 플레이를 억제하며, 리스크-리워드 사이클을 명확하게 구현한다. 헤비보우건 숙련자에게 있어 와이번 하트 최대 활용은 실력 지표가 되어 마스터리 동기를 자연스럽게 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%99%80%EC%9D%B4%EB%B2%88+%ED%95%98%ED%8A%B8+%28Wyvernheart%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Heavy+Bowgun",
+        "gif": null
+      },
+      "tags": [
+        "heavy-bowgun",
+        "wyvernheart",
+        "stationary-stance",
+        "continuous-fire",
+        "risk-reward",
+        "resource-gated",
+        "high-dps",
+        "punish-window",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "헤비보우건"
+      ],
+      "id": "bg-001",
+      "addedDate": "2026-03-17 06:16"
     }
   ]
 }
