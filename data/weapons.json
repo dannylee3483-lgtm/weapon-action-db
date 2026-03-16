@@ -31360,6 +31360,80 @@
       ],
       "id": "sp-036",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "쌍 전투 도끼 (Dual Axes)",
+      "game": "Warhammer: Vermintide 2",
+      "developer": "Fatshark",
+      "actionName": "도약 강타 / Leap",
+      "actionType": "특수기 (커리어 스킬)",
+      "description": "슬레이어 바딘 고렉슨이 양손 도끼를 앞으로 뻗으며 목표 지점까지 도약한 뒤 지면에 강타해 주변 적을 넘어뜨리는 커리어 스킬. 착지 지점의 적에게 높은 단일 대미지를 입히고 반경 내 잡몹들을 강제 스태거 상태로 만든다. 기본 쿨다운 약 20초로, 전선 돌파와 특수 적(스페셜) 처치를 동시에 수행하는 핵심 갭 클로저다.",
+      "motionType": [
+        "leap",
+        "overhead",
+        "slam"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "opener",
+          "punish",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "gap-closer",
+          "crowd-control",
+          "aoe-stagger"
+        ],
+        "resourceCost": "쿨다운 (~20초)",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~12f (착지 타격)",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Leap는 '도달 수단'과 '오프너 공격'을 단일 입력에 압축한 고전적인 갭 클로저 설계의 교과서다. 슬레이어 클래스의 콘셉트(무모하게 돌진하는 드워프 전사)를 조작감으로 직접 체험시키며, 플레이어는 착지 후 연속 경량 공격으로 자연스럽게 콤보를 이어가는 흐름을 익히게 된다. 중공중 무방비 구간이 존재해 사전에 군중 배치를 읽어야 하므로, 리스크-리워드 구조가 명확하다. 쿨다운 제한으로 자원 관리 레이어가 더해지고, 슬레이어 패시브 스택 시스템과 시너지를 이뤄 킬 보상 루프를 강화한다. 호드 웨이브 중 후방 스페셜 처치용으로도 쓰여 다층적 활용성을 가진다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warhammer%3A+Vermintide+2+%EB%8F%84%EC%95%BD+%EA%B0%95%ED%83%80+%2F+Leap+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "leap-attack",
+        "knockdown",
+        "aoe-stagger",
+        "career-skill",
+        "cooldown-management",
+        "opener",
+        "dwarf",
+        "horde-combat"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "쌍검",
+        "해머"
+      ],
+      "id": "ax-039",
+      "addedDate": "2026-03-16"
     }
   ]
 }
