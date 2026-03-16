@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:00",
+  "lastUpdated": "2026-03-17 06:03",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -32821,6 +32821,72 @@
       ],
       "id": "gb-003",
       "addedDate": "2026-03-17 05:55"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "Spear & Shield (발키리 창)",
+      "game": "For Honor",
+      "developer": "Ubisoft Montreal",
+      "actionName": "돌진 찌르기 / Pouncing Thrust",
+      "actionType": "무기술",
+      "description": "측면 가드 자세에서 전방으로 도약하며 창을 힘껏 내찌르는 언블록어블 공격. 발키리의 대표적인 고위험-고보상 기술로, 방어 방향이 틀린 상대를 강력히 패닐티한다. 히트 시 적을 크게 넘어뜨리며 후속 콤보 연계를 허용한다.",
+      "motionType": [
+        "thrust",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "unblockable",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~500ms",
+          "active": "~200ms",
+          "recovery": "~600ms"
+        }
+      },
+      "designNotes": "For Honor의 삼방향 가드 시스템과 결합된 언블록어블 설계의 정수를 보여주는 기술이다. 상대가 무조건 회피 또는 반격 중 하나를 선택해야 하는 이진 구조를 강제함으로써 심리전 기반의 압박 메타를 형성한다. 히트 시 넘어뜨림이라는 강력한 보상을 제공하되, 회피당하면 긴 딜레이(리커버리)가 남아 리스크-리워드 균형이 명확하게 설계되어 있다. 방패 찌르기(Shield Tackle) 및 다양한 체인 공격과 조합해 '언블록-블록어블 혼합 압박'을 구성하며, 상대가 한 가지 대응만으로 막을 수 없도록 선택지를 분산시키는 믹스업 구조의 핵심 축을 담당한다. 발동 직전까지 가드 방향을 읽기 어려운 모션 덕분에 고수 간의 대결에서도 지속적으로 유효하게 유지되어 경쟁 플레이에서 높은 메타 영향력을 갖는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EB%8F%8C%EC%A7%84+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Pouncing+Thrust+gameplay",
+        "images": [],
+        "wiki": "https://forhonor.fandom.com/wiki/Valkyrie",
+        "gif": null
+      },
+      "tags": [
+        "unblockable",
+        "gap-closer",
+        "knockdown",
+        "high-risk-reward",
+        "mind-game",
+        "spear-thrust",
+        "polearm",
+        "competitive",
+        "mix-up",
+        "pressure"
+      ],
+      "applicableWeapons": [
+        "창",
+        "폴암"
+      ],
+      "id": "sp-037",
+      "addedDate": "2026-03-17 06:03"
     }
   ]
 }
