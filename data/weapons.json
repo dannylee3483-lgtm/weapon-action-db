@@ -29706,6 +29706,77 @@
       ],
       "id": "ft-036",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "장전 창 (Loaded Spear / 仕込み槍)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "회전 관통 / 갑옷 박탈 (Rotating Impalement / 仕込み槍・回転)",
+      "actionType": "특수기",
+      "description": "장전 창을 적에게 찌른 뒤 회전시켜 꿰뚫린 부위를 비틀거나, 중갑 착용 적의 갑옷 피스를 영구적으로 탈거시키는 의수 도구 기술이다. 갑옷이 제거된 적은 이후 공격에 완전히 무방비 상태가 되어 전투 흐름 자체가 전환된다. 업그레이드 시 회전 이후 후퇴하며 적을 날려버리는 마무리 동작이 추가된다.",
+      "motionType": [
+        "thrust",
+        "spin"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "none",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "armor-stripping",
+          "poise-breaking",
+          "setup",
+          "permanent-debuff"
+        ],
+        "resourceCost": "스피릿 엠블럼 (Spirit Emblems)",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~22f",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "일반적인 '피해량' 대신 '적 상태 영구 변경'을 보상으로 설계한 것이 핵심이다. 갑옷 제거 후 적의 AI 행동 패턴과 피격 반응이 달라지므로, 도구 사용 하나가 전투 전체의 리듬을 재편성한다는 점에서 높은 설계 밀도를 보인다. 스피릿 엠블럼이라는 유한 자원을 소모하게 함으로써 '언제 이 전환점을 만들 것인가'라는 전략적 판단을 플레이어에게 위임한다. 회전 모션의 시각적 과장이 '벗겨낸다'는 행위의 의미를 직관적으로 전달해, UX 피드백과 내러티브 연출이 일치한다. 특정 보스(나가 요시미치, 거인 무사 등)에게 필수 취약점으로 설계되어 '도구를 탐색해 활용하라'는 게임 전반의 철학을 자연스럽게 가르치는 튜토리얼 역할도 수행한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%ED%9A%8C%EC%A0%84+%EA%B4%80%ED%86%B5+%2F+%EA%B0%91%EC%98%B7+%EB%B0%95%ED%83%88+%28Rotating+Impalement+%2F+%E4%BB%95%E8%BE%BC%E3%81%BF%E6%A7%8D%E3%83%BB%E5%9B%9E%E8%BB%A2%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Loaded+Spear",
+        "gif": null
+      },
+      "tags": [
+        "armor-stripping",
+        "permanent-debuff",
+        "prosthetic-tool",
+        "resource-management",
+        "spear",
+        "poise-breaking",
+        "setup",
+        "encounter-changing",
+        "fromsoft",
+        "sekiro"
+      ],
+      "applicableWeapons": [
+        "창",
+        "의수 도구",
+        "보조 무기"
+      ],
+      "id": "sp-035",
+      "addedDate": "2026-03-16"
     }
   ]
 }
