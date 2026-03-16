@@ -27760,6 +27760,78 @@
       ],
       "id": "wh-040",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "로봇 팔 (Robotic Arm)",
+      "game": "Hi-Fi Rush",
+      "developer": "Tango Gameworks",
+      "actionName": "오버드라이브 비트 피니셔 (Overdrive Beat Finisher)",
+      "actionType": "특수기",
+      "description": "비트 게이지가 가득 찼을 때 Chai가 오버드라이브를 발동하면, 밴드 멤버들이 등장해 음악 BPM에 정확히 동기화된 연속 타격으로 적을 압도한다. 박자에 맞게 버튼을 누를수록 대미지가 폭발적으로 증가하며, 피니셔는 Peppermint의 전기 충격파로 마무리된다. 성공 시 화면 전체의 시각·청각 이펙트가 음악과 완전히 동기화되어 폭발적인 피드백을 제공한다.",
+      "motionType": [
+        "combo",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "cyan",
+          "yellow",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "rhythm-sync",
+          "meter-consuming"
+        ],
+        "resourceCost": "비트 게이지 (Beat Meter)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~90f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Hi-Fi Rush의 오버드라이브는 '음악과 전투의 완전한 통합'이라는 핵심 디자인 원칙을 가장 극적으로 실현하는 순간이다. 박자를 유지할수록 게이지가 쌓이고, 게이지를 소비해 강력한 기술을 쓰는 구조는 '집중력 보상 루프'를 형성하며 플레이어에게 일관된 리듬 유지 동기를 부여한다. 시각(이펙트), 청각(음악 스파이크), 촉각(컨트롤러 진동) 피드백이 동시에 폭발하며 성취감을 다층적으로 극대화하는 점이 주목할 만하다. 오버드라이브 발동 후에도 박자를 놓치면 대미지가 감소하는 설계는 강력한 기술 사용 중에도 긴장감을 유지시키는 영리한 리스크-리워드 구조다. 이 기술은 단순한 강공격이 아니라 '리듬 게임과 액션 게임의 교차점'을 체험하게 하는 클라이맥스 교육 장치로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hi-Fi+Rush+%EC%98%A4%EB%B2%84%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C+%EB%B9%84%ED%8A%B8+%ED%94%BC%EB%8B%88%EC%85%94+%28Overdrive+Beat+Finisher%29+gameplay",
+        "images": [],
+        "wiki": "https://hi-fi-rush.fandom.com/wiki/Hi-Fi_Rush_Wiki",
+        "gif": null
+      },
+      "tags": [
+        "rhythm-sync",
+        "meter-management",
+        "beat-combat",
+        "overdrive",
+        "audio-visual-feedback",
+        "robotic-arm",
+        "finisher",
+        "poise-breaking",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "로봇 팔",
+        "권투"
+      ],
+      "id": "ft-033",
+      "addedDate": "2026-03-16"
     }
   ]
 }
