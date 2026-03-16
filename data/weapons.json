@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:32",
+  "lastUpdated": "2026-03-17 07:37",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36647,6 +36647,74 @@
       ],
       "id": "gb-005",
       "addedDate": "2026-03-17 07:32"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "라이넬 크러셔 (Lynel Crusher)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "스핀 어택 / Spin Attack",
+      "actionType": "차지 공격",
+      "description": "Y 버튼을 지속적으로 연타하면 링크가 두 손 무기를 수평으로 회전시키며 주변 적 전체를 연속 타격하는 광역 공격. 라이넬 크러셔처럼 무게가 큰 해머 계열 무기를 사용할 경우 각 히트마다 강한 넉백과 경직이 부여되며, 스태미나가 소진될 때까지 회전을 이어갈 수 있다. 회전이 끝나는 순간 자동으로 마지막 강타 모션이 발동되어 가까운 적에게 추가 충격을 가한다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control",
+          "aoe",
+          "stamina-drain"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "스태미나 소진 시까지",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "BotW의 스핀 어택은 '지속 투자-점증 위험' 구조를 해머류에서 극적으로 구현한 디자인이다. 스태미나를 소비하는 동안 다단 히트 광역 효과를 누릴 수 있지만, 회전 중에는 회피와 방향 전환이 불가능해 플레이어가 스스로 위험 노출을 통제해야 한다는 책임이 생긴다. 라이넬 크러셔 같은 고중량 해머는 관통력과 피격 경직이 커서 적 밀집 구간에서 보상이 배로 커지므로, '언제 돌아서서 도망칠지'를 판단하는 상황 독해 능력을 묻는 문제로 작동한다. 무기 내구도 시스템과 결합되어 강공격을 쓸 때마다 소비를 고려하게 만들며, 이는 강력한 무기일수록 아껴 쓰는 긴장감을 자연스럽게 유도한다. 특정 게임플레이 지식 없이도 '세게 돌리면 다 날아간다'는 직관이 즉시 통하는 범용 피드백 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EC%8A%A4%ED%95%80+%EC%96%B4%ED%83%9D+%2F+Spin+Attack+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Spin_Attack",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "aoe",
+        "crowd-control",
+        "stamina-management",
+        "two-handed",
+        "poise-break",
+        "heavy-weapon",
+        "knockback",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "대검",
+        "폴암"
+      ],
+      "id": "hm-029",
+      "addedDate": "2026-03-17 07:37"
     }
   ]
 }
