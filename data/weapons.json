@@ -32792,6 +32792,76 @@
       ],
       "id": "sc-029",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "해머 (Hammer)",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "빅뱅 콤보 피니쉬 (Big Bang Finisher / ビッグバンフィニッシュ)",
+      "actionType": "차지 콤보",
+      "description": "해머를 충전한 뒤 빅뱅 I(측면 스윙) → 빅뱅 II(상향 타격) → 빅뱅 III(내리찍기) 순으로 이어지는 연속 차지 콤보의 최종기. 마지막 피니쉬는 해머를 크게 들어올린 뒤 수직으로 내리꽂아 지면 충격파와 함께 몬스터를 강제 다운시킨다. 머리 부위에 집중적인 KO 누적 피해를 가하며, Monster Hunter Rise에서는 와이어버그 실크 바인드와 연계해 리커버리를 단축하거나 회전 메테오로 추가 딜을 넣는 루트가 생겼다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "KO-buildup",
+          "head-targeting"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~40f (차지 포함)",
+          "active": "~8f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "빅뱅 콤보 피니쉬는 해머 전투의 핵심 철학인 '투자-보상' 구조를 가장 압축적으로 보여주는 기술이다. 각 단계마다 충격 파티클이 점층적으로 커지는 시각·청각 피드백이 '지금 잘 하고 있다'는 확신을 플레이어에게 심어주며, 콤보 도중 어느 단계에서 끊을지를 상황에 따라 판단하게 만드는 '중단 옵션 설계'가 전략 깊이를 더한다. 최종 피니쉬의 높은 모션값(KO 누적치 포함)은 헤드 타겟팅을 강제하는 포지셔닝 압박을 부여하여, 단순 버튼 연타가 아닌 몬스터 움직임 읽기를 요구하는 능동적 플레이로 이어진다. MH Rise에서는 와이어버그로 딜레이 리커버리를 보완하여 고위험 고보상 밸런스를 더 정교하게 조율하였고, 이는 '위험을 감수할 도구'를 플레이어에게 명시적으로 제공한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EB%B9%85%EB%B1%85+%EC%BD%A4%EB%B3%B4+%ED%94%BC%EB%8B%88%EC%89%AC+%28Big+Bang+Finisher+%2F+%E3%83%93%E3%83%83%E3%82%B0%E3%83%90%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%83%E3%82%B7%E3%83%A5%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Hammer",
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "charge-combo",
+        "KO-buildup",
+        "head-targeting",
+        "high-damage",
+        "risk-reward",
+        "overhead-slam",
+        "stagger",
+        "monster-hunter"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
