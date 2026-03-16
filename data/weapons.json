@@ -24742,6 +24742,76 @@
       ],
       "id": "sw-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "사이버네틱 카타나 (Cybernetic Katana)",
+      "game": "Ghostrunner",
+      "developer": "One More Level",
+      "actionName": "템페스트 (Tempest)",
+      "actionType": "특수기",
+      "description": "Jack이 카타나를 전방으로 겨누며 짧은 시간 동안 투사체를 반사하는 에너지 장을 생성한다. 장 내부로 날아드는 총알은 즉시 역방향으로 튕겨 나가며, 반사된 투사체에 맞은 적은 원샷으로 즉사한다. 복수의 투사체를 동시에 반사할 수 있어 군중 속 다수의 원거리 적을 한 번에 처치하는 것도 가능하다.",
+      "motionType": [
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "cyan",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "projectile-reflect",
+          "one-hit-kill",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~45f",
+          "recovery": "~10f"
+        }
+      },
+      "designNotes": "Ghostrunner의 Tempest는 '적의 공격을 역이용 자원으로 전환'하는 디자인 원칙을 극적으로 구현한 기술이다. 원샷 즉사 시스템 하에서 총알은 극도의 위협이지만, Tempest 발동 순간 그 총알들이 곧 처치 도구로 역전되며 고위험-고보상 루프를 완성한다. 플레이어는 총알이 많이 날아올수록 오히려 더 많은 적을 처치하는 역설적 순간을 경험하며, 이는 '위기를 기회로 읽는' 사고 전환을 게임플레이 언어로 가르친다. 쿨다운 제한은 남용을 막아 사용 타이밍 판단이 곧 스킬 표현이 되도록 설계되었으며, 발동 성공 시의 극적인 연쇄 처치 시각 연출이 숙련 피드백을 극대화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostrunner+%ED%85%9C%ED%8E%98%EC%8A%A4%ED%8A%B8+%28Tempest%29+gameplay",
+        "images": [],
+        "wiki": "https://ghostrunner.fandom.com/wiki/Tempest",
+        "gif": null
+      },
+      "tags": [
+        "projectile-reflect",
+        "counter-attack",
+        "one-hit-kill",
+        "crowd-control",
+        "cyberpunk",
+        "risk-reward",
+        "special-ability",
+        "high-reward",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "카타나"
+      ],
+      "id": "kt-049",
+      "addedDate": "2026-03-16"
     }
   ]
 }
