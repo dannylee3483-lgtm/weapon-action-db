@@ -24248,6 +24248,77 @@
       ],
       "id": "bw-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "징표 마법 (Sign Magic) — 아드",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "actionName": "아드 징표 (Aard Sign)",
+      "actionType": "특수기",
+      "description": "게롤트가 두 손가락을 펼쳐 집중된 염동력 충격파를 전방으로 발사하는 징표 마법이다. 충격파는 전방의 적을 강제 넉백 또는 넘어뜨리며, 업그레이드 시 원형 폭발로 광역 범위가 확장된다. 방패로 가드 중인 적의 방어를 무너뜨리거나 취약 오브젝트를 파괴하는 데도 유용하게 활용된다.",
+      "motionType": [
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "wave",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "guard-break",
+          "crowd-control"
+        ],
+        "resourceCost": "스태미나 (Stamina)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~12f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "아드 징표는 근접 위주인 게롤트의 전투에서 거리 조절과 군중 제어를 담당하는 핵심 마법 도구다. 짧고 명확한 시전 모션 뒤에 오는 즉각적인 넉다운 피드백이 '한 방에 상황을 뒤집는' 쾌감을 제공하며, 쓰러진 적에게 검 콤보를 이어가는 리스크-리워드 루프를 자연스럽게 형성한다. 5개의 징표 중 가장 단순한 메카닉이지만 업그레이드를 통해 광역 폭발로 진화하는 확장성이 캐릭터 성장 만족도를 높이며, 방패 적에 대한 카운터 수단으로 자연스럽게 학습되도록 유도하는 튜토리얼적 설계가 돋보인다. 마법과 검술을 번갈아 쓰게 만드는 하이브리드 전투 리듬의 핵심 촉매 역할을 한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EC%95%84%EB%93%9C+%EC%A7%95%ED%91%9C+%28Aard+Sign%29+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Aard",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "knockdown",
+        "guard-break",
+        "telekinesis",
+        "sign-magic",
+        "gap-control",
+        "poise-break",
+        "hybrid-combat",
+        "utility-magic"
+      ],
+      "applicableWeapons": [
+        "마법",
+        "징표 (Signs)"
+      ],
+      "id": "mg-020",
+      "addedDate": "2026-03-16"
     }
   ]
 }
