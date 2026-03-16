@@ -27905,6 +27905,83 @@
       ],
       "id": "ax-034",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "마법 사슬 채찍 (Arcane Chain Whip)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "스타시스 채찍 잡아끌기 (Stasis Hollow Lash & Bind)",
+      "actionType": "특수기",
+      "description": "퓨리가 스타시스 홀로우 형태로 변환하여 채찍을 적에게 감아 일시적으로 시간을 얼리는 기술이다. 채찍이 적의 몸에 닿는 순간 보라빛 시간 에너지가 방출되며 대상의 움직임을 완전히 정지시키고, 이어지는 챠지 스매쉬로 경직된 적에게 폭발적인 피해를 입힌다. 광역 범위의 시간 역장이 주변 적들의 행동까지 둔화시켜 한 번의 기술로 군중 제어와 단일 딜을 동시에 처리한다.",
+      "motionType": [
+        "sweep",
+        "charge",
+        "combo",
+        "throw"
+      ],
+      "element": {
+        "type": "기타",
+        "effectColor": [
+          "purple",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "launcher",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "poise-breaking",
+          "crowd-control",
+          "knockdown",
+          "bind"
+        ],
+        "resourceCost": "홀로우 에너지",
+        "frameApprox": {
+          "startup": "~38f",
+          "active": "~55f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "스타시스 홀로우의 시간 조작 메카닉은 단순한 버프가 아니라 전투 리듬 자체를 재편하는 도구로 설계되었다. 느린 스타트업이 명확한 리스크를 만들어, 플레이어가 적의 공격 패턴을 읽고 빈틈을 포착해야만 안전하게 발동할 수 있는 '읽기-보상' 구조를 형성한다. '채찍으로 묶는다'는 직관적 이미지를 시간 정지라는 판타지로 확장하여, 무기 특성과 홀로우 능력이 서사적으로 일치하는 코히어런스를 달성했다. 채찍의 넓은 도달 거리와 광역 시간 역장이 겹쳐져 다수 적을 동시에 제압하는 압도적인 연출을 만들어내며, 자원(홀로우 에너지) 관리라는 전략 레이어를 추가해 남용을 억제하는 밸런스 설계가 돋보인다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EC%8A%A4%ED%83%80%EC%8B%9C%EC%8A%A4+%EC%B1%84%EC%B0%8D+%EC%9E%A1%EC%95%84%EB%81%8C%EA%B8%B0+%28Stasis+Hollow+Lash+%26+Bind%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Stasis_Hollow",
+        "gif": null
+      },
+      "tags": [
+        "time-manipulation",
+        "stasis",
+        "hollow-form",
+        "whip-combo",
+        "crowd-control",
+        "poise-break",
+        "risk-reward",
+        "elemental-whip",
+        "bind",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬 채찍"
+      ],
+      "id": "wh-041",
+      "addedDate": "2026-03-16"
     }
   ]
 }
