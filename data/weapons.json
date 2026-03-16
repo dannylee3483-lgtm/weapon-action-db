@@ -31287,6 +31287,79 @@
       ],
       "id": "gs-051",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "장병창 (Polearm)",
+      "game": "Genshin Impact",
+      "developer": "HoYoverse",
+      "actionName": "왕생비전기포 / Guide to Afterlife (往生秘传旗袍)",
+      "actionType": "원소 스킬 / 자기강화 특수기",
+      "description": "호두가 자신의 최대 HP의 30%를 소모하며 '피안접무(彼岸蝶舞)' 상태에 진입한다. 이 상태 동안 창의 일반 및 강공격이 불 원소로 주입되고, 적에게 명중 시 혈매향(血梅香) 디버프를 부여해 4초마다 화염 피해를 입힌다. 독특하게도 HP가 낮을수록 공격력 보너스가 극대화되는 구조로, 위기 상태 유지가 최적 딜링 조건이 된다.",
+      "motionType": [
+        "thrust",
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "hp-drain",
+          "elemental-infusion",
+          "self-buff",
+          "dot-application",
+          "hp-scaling-damage"
+        ],
+        "resourceCost": "쿨다운 + 최대 HP 30% 소모",
+        "frameApprox": {
+          "startup": "~15f",
+          "active": "~9초 (지속 상태)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "왕생비전기포는 '자기희생을 통한 강화'라는 역방향 리스크-리워드 루프를 정교하게 구현한 사례다. 일반적인 자원 소모 스킬과 달리, HP라는 생존 자원을 직접 공격 자원으로 전환함으로써 '얼마나 위험하게 플레이할 것인가'를 플레이어의 핵심 판단 축으로 삼는다. 낮은 HP에서 극대화되는 공격력 보너스는 피해를 받는 상황을 전략적 선택지로 재해석하게 만들어, 방어적 힐링 본능과 공격적 딜 최적화 사이의 긴장감을 지속시킨다. 혈매향의 꽃잎 이펙트는 '창이 독을 심는다'는 시각적 메타포를 통해 화염 속성이 상대에게 서서히 스며드는 느낌을 직관적으로 전달하며, 장거리 DoT 피해와 근접 창 콤보의 리듬감을 자연스럽게 연결한다. 이 스킬은 창 무기 고유의 전진 공격성에 HP 관리라는 전략 레이어를 추가하여, 단순한 공격 도구를 넘어 플레이어 심리까지 설계하는 무기 디자인의 좋은 예시다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Genshin+Impact+%EC%99%95%EC%83%9D%EB%B9%84%EC%A0%84%EA%B8%B0%ED%8F%AC+%2F+Guide+to+Afterlife+%28%E5%BE%80%E7%94%9F%E7%A7%98%E4%BC%A0%E6%97%97%E8%A2%8D%29+gameplay",
+        "images": [],
+        "wiki": "https://genshin-impact.fandom.com/wiki/Guide_to_Afterlife",
+        "gif": null
+      },
+      "tags": [
+        "hp-drain",
+        "elemental-infusion",
+        "risk-reward",
+        "pyro",
+        "dot",
+        "self-buff",
+        "hp-scaling",
+        "polearm",
+        "burst-playstyle",
+        "status-application"
+      ],
+      "applicableWeapons": [
+        "창",
+        "폴암"
+      ],
+      "id": "sp-036",
+      "addedDate": "2026-03-16"
     }
   ]
 }
