@@ -29489,6 +29489,80 @@
       ],
       "id": "sp-034",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "이중 도끼 (Dual Axes / Blade of Ares)",
+      "game": "Immortals Fenyx Rising",
+      "developer": "Ubisoft Quebec",
+      "actionName": "아레스의 분노 (Ares's Wrath)",
+      "actionType": "특수기",
+      "description": "페닉스가 이중 도끼를 머리 위로 들어올려 지면에 강력하게 내리찍으며 주변 반경에 원형 충격파를 발생시키는 특수기다. 스태미나와 신의 힘(Stamina of the Gods)을 소모하며, 명중 시 적을 노크다운시키고 광역 피해를 준다. 발동 전 짧은 선딜레이 동안 눈에 띄는 붉은 광채가 도끼 날에 응집되어 플레이어에게 타이밍 신호를 제공한다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "charge"
+      ],
+      "element": {
+        "type": "신성",
+        "effectColor": [
+          "red",
+          "gold",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "stamina-cost"
+        ],
+        "resourceCost": "신의 스태미나 (Stamina of the Gods)",
+        "frameApprox": {
+          "startup": "~40f",
+          "active": "~12f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "아레스의 분노는 자원 소모, 긴 선딜레이, 높은 보상이라는 전형적인 리스크-리워드 삼각 구조를 도끼 특유의 육중한 타격감으로 구현한 예시다. 발동 중 붉은 오라가 도끼에 집중되는 시각 연출은 '차지 완료'의 직관적 피드백 역할을 하며, 플레이어에게 해제 타이밍을 자연스럽게 학습시킨다. 광역 판정 덕분에 다수 적 처리에 유효하지만 선딜레이 동안 피격 리스크가 극대화되어, 적의 행동 패턴을 읽는 숙련도가 직접적으로 데미지 효율로 환원된다. 신화적 분위기와 결합된 '신의 힘 소모' 자원 설계는 일반 콤보와 특수기의 사용 빈도를 자연스럽게 구분지어 전투 리듬에 레이어를 더한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Immortals+Fenyx+Rising+%EC%95%84%EB%A0%88%EC%8A%A4%EC%9D%98+%EB%B6%84%EB%85%B8+%28Ares%27s+Wrath%29+gameplay",
+        "images": [],
+        "wiki": "https://immortals-fenyx-rising.fandom.com/wiki/Ares%27s_Wrath",
+        "gif": null
+      },
+      "tags": [
+        "aoe",
+        "knockdown",
+        "stamina-cost",
+        "risk-reward",
+        "divine-power",
+        "charge-attack",
+        "crowd-control",
+        "poise-break",
+        "dual-axes",
+        "mythological"
+      ],
+      "applicableWeapons": [
+        "이중 도끼",
+        "도끼"
+      ],
+      "id": "ax-037",
+      "addedDate": "2026-03-16"
     }
   ]
 }
