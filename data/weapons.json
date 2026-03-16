@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:03",
+  "lastUpdated": "2026-03-17 07:04",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35364,6 +35364,78 @@
       ],
       "id": "gn-002",
       "addedDate": "2026-03-17 07:03"
+    },
+    {
+      "weaponCategory": "투척",
+      "weaponSubtype": "풍차수리검 (Windmill Shuriken)",
+      "game": "Ninja Gaiden II",
+      "developer": "Team Ninja",
+      "actionName": "귀환 투척 / Windmill Shuriken Charged Throw",
+      "actionType": "차지 공격",
+      "description": "차지 후 대형 풍차 수리검을 전방으로 던지면 고속 회전하며 날아가 적을 관통한 뒤 부메랑처럼 Ryu에게 되돌아온다. 왕복 궤도 전체에 절단 판정이 적용되어 적의 팔·다리를 날릴 수 있으며, 캐치 성공 시 즉시 연속 투척이 가능하다. 군중 속에서 특히 위력적으로, 한 번의 투척으로 귀환까지 포함해 복수의 적을 동시에 처리할 수 있다.",
+      "motionType": [
+        "throw",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "silver",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "penetrating",
+          "returning-projectile",
+          "limb-severance",
+          "crowd-control",
+          "multi-hit"
+        ],
+        "resourceCost": "없음 (무한)",
+        "frameApprox": {
+          "startup": "~28f (차지 포함)",
+          "active": "~70f (왕복 궤도 전체)",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "귀환(boomerang) 메카닉은 단순한 투척에 '타이밍 캐치'라는 2차 인터랙션을 부여해 플레이어가 적을 맞히는 행위와 돌아오는 무기를 받는 행위 두 가지 리듬을 동시에 관리하게 만든다. 이는 '투척 후 멍하니 기다리는' 수동적 패턴을 방지하고, 귀환 궤도를 이용한 측면 견제라는 고급 전술 층을 자연스럽게 파생시킨다. 절단 판정은 단순 피해 이상의 시각·전술 보상(팔 잘린 적의 공격 패턴 변화)을 제공해 리스크-리워드 구조를 강화한다. 차지 시간이라는 선딜레이를 두어 즉발 남발이 불가능하게 하고, 적 밀집도 판단이라는 맥락적 의사결정을 유도하는 점도 훌륭한 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ninja+Gaiden+II+%EA%B7%80%ED%99%98+%ED%88%AC%EC%B2%99+%2F+Windmill+Shuriken+Charged+Throw+gameplay",
+        "images": [],
+        "wiki": "https://ninjagaiden.fandom.com/wiki/Windmill_Shuriken",
+        "gif": null
+      },
+      "tags": [
+        "boomerang",
+        "returning-projectile",
+        "crowd-control",
+        "limb-severance",
+        "multi-hit",
+        "penetrating",
+        "long-range",
+        "charge-attack",
+        "catch-mechanic"
+      ],
+      "applicableWeapons": [
+        "투척",
+        "수리검",
+        "풍차수리검"
+      ],
+      "id": "th-001",
+      "addedDate": "2026-03-17 07:04"
     }
   ]
 }
