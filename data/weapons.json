@@ -29466,7 +29466,7 @@
       },
       "designNotes": "공명 폭발은 '근접 전투와 원거리 전투를 순차적으로 강제하는 하이브리드 루프'를 구현한 독창적 메카닉이다. 플레이어는 위험한 근접 거리에서 콤보를 유지해 충전이라는 리소스를 얻고, 충전 완료 즉시 후퇴해 원거리에서 기폭하는 리스크-리워드 구조가 명확하다. 충전 에너지의 시각적 피드백(창 끝 발광)이 직관적으로 준비 상태를 알려 HUD 의존도를 줄이며, 기계 생물의 약점 부위와 연계되는 부위 파괴 보너스는 에이머(aimer)로서의 숙련도를 추가 보상한다. 이 구조는 원거리 특화 게임에서 근접 전투를 기피하지 않도록 유도하는 강력한 인센티브 설계이며, '싸우고 빠지는' 에이로(Aloy)의 캐릭터 아이덴티티를 플레이어 행동 패턴으로 자연스럽게 체화시킨다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Horizon+Zero+Dawn+%EA%B3%B5%EB%AA%85+%ED%8F%AD%EB%B0%9C+%28Resonator+Blast%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=UH-5dDcHeHM",
         "images": [],
         "wiki": "https://horizon.fandom.com/wiki/Resonator_Blast",
         "gif": null
