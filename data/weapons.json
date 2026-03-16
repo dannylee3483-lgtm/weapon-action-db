@@ -25667,6 +25667,75 @@
       ],
       "id": "sp-030",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "양손 해머 (Two-Handed Hammer)",
+      "game": "Warhammer: Vermintide 2",
+      "developer": "Fatshark",
+      "actionName": "차지 오버헤드 강타 / Charged Overhead Smash",
+      "actionType": "차지 공격",
+      "description": "양손으로 거대한 해머를 머리 위로 들어올려 충전한 뒤 수직으로 내리찍는 강력한 공격이다. 충전 시간에 비례해 위력이 증가하며, 완전 충전 시 중장갑 적과 카오스 워리어의 방어 자세를 즉시 붕괴시킨다. 머리 부위 타격 시 추가 피해 배율이 적용되어 엘리트 적 단일 처치에 특화된 핵심 기술이다.",
+      "motionType": [
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "gray",
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "armor-penetration",
+          "headshot-bonus",
+          "crowd-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~60f (완전 충전 기준)",
+          "active": "~8f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "차지 오버헤드는 리스크-리워드 구조의 교과서적 사례다. 긴 선딜레이로 인해 충전 중 플레이어는 완전히 무방비 상태가 되지만, 완전 충전 시 카오스 워리어급 고체력 엘리트를 단 2~3타로 처치하는 극도의 보상을 제공한다. 이 설계는 팀 역할 분담을 자연스럽게 강제한다: 양손 해머 캐릭터가 엘리트 처리에 집중하는 동안 팀원들이 주변 잡졸 압박을 관리해야 하는 협동 구조다. 머리 부위 타격 배율을 높게 설정해 조준 정밀도에 추가 보상을 부여하고, '언제 충전할 것인가'라는 전술적 판단이 양손 해머의 핵심 플레이 루프를 구성하도록 유도한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warhammer%3A+Vermintide+2+%EC%B0%A8%EC%A7%80+%EC%98%A4%EB%B2%84%ED%97%A4%EB%93%9C+%EA%B0%95%ED%83%80+%2F+Charged+Overhead+Smash+gameplay",
+        "images": [],
+        "wiki": "https://vermintide2.gamepedia.com/Two-Handed_Hammer",
+        "gif": null
+      },
+      "tags": [
+        "hammer",
+        "charge-attack",
+        "poise-breaking",
+        "elite-killer",
+        "armor-penetration",
+        "high-stagger",
+        "risk-reward",
+        "cooperative-design",
+        "overhead-slam",
+        "headshot-bonus"
+      ],
+      "applicableWeapons": [
+        "양손 해머",
+        "Two-Handed Hammer"
+      ],
+      "id": "hm-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
