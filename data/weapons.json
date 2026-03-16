@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 08:08",
+  "lastUpdated": "2026-03-17 08:09",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37995,6 +37995,80 @@
       ],
       "id": "ck-003",
       "addedDate": "2026-03-17 08:07"
+    },
+    {
+      "weaponCategory": "변형무기",
+      "weaponSubtype": "킹 케르베로스 (King Cerberus)",
+      "game": "Devil May Cry 5",
+      "developer": "Capcom",
+      "actionName": "삼원 전환 (Tri-Form Shift)",
+      "actionType": "특수기 / 형태 전환",
+      "description": "킹 케르베로스를 얼음 쌍절곤(Frost) → 불꽃 창봉(Blaze) → 번개 삼지채(Thunder) 순으로 순환 전환하는 액션이다. 각 형태는 사거리·히트박스·속성이 완전히 달라지며, 전환 입력 자체는 거의 무적 프레임 없이 즉시 처리된다. 플레이어는 콤보 딜레이 구간에 전환을 삽입하여 적의 속성 약점에 실시간으로 대응하거나, 동일 형태 연속 사용 시 발동되는 강화 파생기로 자연스럽게 연결할 수 있다.",
+      "motionType": [
+        "combo",
+        "spin"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "extender",
+          "opener"
+        ],
+        "specialProperties": [
+          "elemental-switch",
+          "stance-change",
+          "multi-range",
+          "attribute-exploit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~2f (전환 판정 없음)",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "세 가지 원소 속성을 단일 무기에 통합함으로써, 플레이어가 무기를 교체하지 않고도 전투 상황에 실시간으로 적응할 수 있는 '이동 팔레트' 구조를 구현했다. 전환 비용이 제로(리소스 없음)이므로 진입 장벽이 낮지만, 각 형태의 콤보 트리와 사거리를 모두 숙지해야 최적 출력이 나오는 마스터리 깊이를 동시에 확보한다. 형태마다 리치·속도·판정 모양이 전혀 달라 '어떤 형태로 전환할지'의 결정이 매 순간 의사결정 비용을 발생시키며, 이것이 단순 데미지 증폭이 아닌 전략적 깊이로 작동한다. 삼순환(3-cycle) 구조는 이분법(2형태)보다 선택지가 풍부하면서도 쿼터나프 이상의 복잡도로 가지 않아, 기억 부담과 표현력의 균형점을 잘 찾은 사례다. 결과적으로 '같은 버튼 반복'이 아닌 '타이밍+속성 판단'으로 스킬 표현이 이뤄지는 하이-마스터리 변형무기의 교과서적 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EC%82%BC%EC%9B%90+%EC%A0%84%ED%99%98+%28Tri-Form+Shift%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/King_Cerberus",
+        "gif": null
+      },
+      "tags": [
+        "trick-weapon",
+        "elemental-switch",
+        "stance-change",
+        "multi-attribute",
+        "combo-extender",
+        "mastery-depth",
+        "zero-resource",
+        "triple-form",
+        "real-time-adaptation",
+        "dmc5"
+      ],
+      "applicableWeapons": [
+        "변형무기",
+        "쌍절곤",
+        "창",
+        "삼지창"
+      ],
+      "id": "tw-003",
+      "addedDate": "2026-03-17 08:09"
     }
   ]
 }
