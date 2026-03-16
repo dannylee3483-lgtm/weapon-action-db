@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:07",
+  "lastUpdated": "2026-03-17 06:09",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33105,6 +33105,77 @@
       ],
       "id": "gu-002",
       "addedDate": "2026-03-17 06:07"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "채찍 (Whip)",
+      "game": "The Legend of Zelda: Skyward Sword",
+      "developer": "Nintendo",
+      "actionName": "채찍 그래플 스윙 (Whip Grapple Swing)",
+      "actionType": "특수기",
+      "description": "Link가 채찍을 공중의 채찍 훅(Whip Hook) 고정점에 감아 넓은 간격을 건너는 동작이다. 스윙 호 경로 위의 적에게 자동으로 타격이 가해지며, 착지 후 즉시 추가 공격으로 이어갈 수 있다. 이 하나의 입력 동작은 환경 탐색과 전투를 동시에 처리한다.",
+      "motionType": [
+        "slash",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "brown",
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "launcher"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "environment-interaction",
+          "traversal",
+          "aerial-hit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~45f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "이 액션은 탐색(traversal)과 전투를 단일 메카닉으로 통합한 디자인의 교과서적 사례다. 플레이어는 채찍 훅을 발견하는 순간 '저 곳을 건너갈 수 있다'는 즉각적 직관을 얻으며, 환경 읽기 능력을 자연스럽게 훈련시키는 어포던스(affordance) 설계가 핵심이다. 스윙 호 도중 적을 타격하는 부가 전투 효과는 보상 중첩(reward stacking) 원칙을 구현하여, 이동과 전투라는 두 목적을 동시에 달성하는 효능감을 제공한다. 착지 직후의 전환 프레임을 짧게 설계함으로써 스윙-착지-공격의 흐름이 끊기지 않아 모멘텀이 유지되며, 이는 Indiana Jones 장르 픽션의 시각 언어를 차용한 모험 판타지 강화에도 기여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Skyward+Sword+%EC%B1%84%EC%B0%8D+%EA%B7%B8%EB%9E%98%ED%94%8C+%EC%8A%A4%EC%9C%99+%28Whip+Grapple+Swing%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Whip",
+        "gif": null
+      },
+      "tags": [
+        "traversal",
+        "gap-closer",
+        "environment-interaction",
+        "grapple",
+        "momentum",
+        "reward-stacking",
+        "affordance",
+        "utility-weapon",
+        "swing",
+        "aerial-hit"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "사슬낫",
+        "클로"
+      ],
+      "id": "wh-055",
+      "addedDate": "2026-03-17 06:09"
     }
   ]
 }
