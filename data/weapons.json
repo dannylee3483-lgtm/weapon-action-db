@@ -23024,6 +23024,81 @@
       ],
       "id": "ft-025",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "투핸디드 액스 / 대형 도끼 (Two-Handed Axe)",
+      "game": "Diablo IV",
+      "developer": "Blizzard Entertainment",
+      "actionName": "죽음의 강타 (Death Blow)",
+      "actionType": "특수기",
+      "description": "바바리안이 대형 무기를 높이 들어올려 전방 부채꼴 범위에 강력한 수직 내려치기를 가하는 처형형 피니셔다. 이 공격으로 적이 사망할 경우 쿨다운이 즉시 초기화되어 연속 처형이 가능해진다. 콤보 스킬 시스템과 연동되어 베이직 스킬 3회 시전 후 폭발적인 피해를 가하도록 설계된 리듬형 마무리 기술이다.",
+      "motionType": [
+        "overhead",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "kill-reset",
+          "execute"
+        ],
+        "resourceCost": "쿨다운 (10초 기본, 처치 시 즉시 초기화)",
+        "frameApprox": {
+          "startup": "~25f",
+          "active": "~10f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "죽음의 강타는 '처치 시 쿨다운 초기화'라는 단순한 규칙 하나로 ARPG 근접전의 전략 깊이를 극적으로 끌어올린 사례다. 플레이어는 단순히 데미지를 최대화하는 대신, '지금 이 적을 이 기술로 마무리 지을 수 있는가'를 지속적으로 계산해야 하며, 이는 표적 선택과 체력 관리를 전략의 핵심 요소로 격상시킨다. 처치에 성공했을 때의 연쇄 처형 루프는 강력한 효능감과 함께 '스킬을 낭비했다'는 실패 피드백을 명확히 대비시켜, 성패 판단이 즉각적이고 직관적이다. 강력한 데미지와 긴 쿨다운의 대비는 고위험·고보상 구조를 만들어 스킬 사용 순간에 긴장감을 부여하고, 콤보 포인트 시스템과 연동하여 베이직→처형기의 리듬감 있는 전투 루프를 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%EC%A3%BD%EC%9D%8C%EC%9D%98+%EA%B0%95%ED%83%80+%28Death+Blow%29+gameplay",
+        "images": [],
+        "wiki": "https://diablo4.wiki.fextralife.com/Death+Blow",
+        "gif": null
+      },
+      "tags": [
+        "kill-reset",
+        "execute",
+        "overhead-slam",
+        "barbarian",
+        "arpg",
+        "finisher",
+        "combo-point",
+        "two-handed",
+        "cooldown-reset",
+        "high-damage"
+      ],
+      "applicableWeapons": [
+        "대형 도끼",
+        "대형 검",
+        "해머",
+        "대형 둔기"
+      ],
+      "id": "ax-027",
+      "addedDate": "2026-03-16"
     }
   ]
 }
