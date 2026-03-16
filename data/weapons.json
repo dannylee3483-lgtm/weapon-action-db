@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:04",
+  "lastUpdated": "2026-03-17 07:05",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35436,6 +35436,80 @@
       ],
       "id": "th-001",
       "addedDate": "2026-03-17 07:04"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 / Bare Fists",
+      "game": "God of War (2018)",
+      "developer": "Santa Monica Studio",
+      "actionName": "스파르탄 분노 / Spartan Rage",
+      "actionType": "특수기",
+      "description": "분노 게이지가 일정량 이상 채워진 상태에서 발동하는 극한의 전투 형태. 크라토스가 레비아탄 도끼를 버리고 맨주먹으로 적을 폭력적으로 난타하며, 활성화 중 가한 피해량에 비례해 체력을 회복한다. 슈퍼 아머 상태가 유지되어 일반적인 경직을 무시하고 연속 타격을 이어갈 수 있으며, 게이지가 소진되거나 플레이어가 수동으로 해제할 때까지 지속된다.",
+      "motionType": [
+        "combo",
+        "overhead",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "lifesteal",
+          "super-armor",
+          "poise-breaking",
+          "knockdown",
+          "mode-shift"
+        ],
+        "resourceCost": "분노 게이지",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "지속형 (게이지 소진 시까지)",
+          "recovery": "~20f (해제 후)"
+        }
+      },
+      "designNotes": "스파르탄 분노는 '맨주먹의 원초적 폭력성'을 게임플레이 메카닉으로 번역한 탁월한 사례다. 분노 게이지를 소비해 발동하되 공격으로 체력을 회복하는 구조는, 체력이 부족한 절박한 상황일수록 더 공격적으로 파고들도록 유도하는 역설적 리스크-리워드 설계를 완성한다. 레비아탄 도끼라는 정교한 무기에서 맨주먹이라는 원초적 수단으로 전환됨으로써, 크라토스의 감정 상태와 게임플레이 문법이 서사적으로 완전히 일치한다. 강력한 카메라 쉐이크, 슬로우모션 히트 이펙트, 육중한 타격음의 삼중 피드백 레이어가 '압도적인 힘'이라는 판타지를 체감시키며, 슈퍼 아머는 플레이어가 리스크 계산 없이 폭발적 몰입에만 집중할 수 있도록 보장한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%282018%29+%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%84+%EB%B6%84%EB%85%B8+%2F+Spartan+Rage+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Spartan_Rage",
+        "gif": null
+      },
+      "tags": [
+        "spartan-rage",
+        "lifesteal",
+        "super-armor",
+        "mode-shift",
+        "bare-fist",
+        "resource-management",
+        "risk-reward",
+        "crowd-control",
+        "poise-break",
+        "narrative-mechanic"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투"
+      ],
+      "id": "ft-044",
+      "addedDate": "2026-03-17 07:05"
     }
   ]
 }
