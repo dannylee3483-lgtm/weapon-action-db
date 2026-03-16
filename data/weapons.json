@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:21",
+  "lastUpdated": "2026-03-16 22:26",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30356,6 +30356,78 @@
       ],
       "id": "gs-055",
       "addedDate": "2026-03-16 22:21"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "풍인검 (Fuuenken / Fireseal)",
+      "game": "Guilty Gear Strive",
+      "developer": "Arc System Works",
+      "actionName": "타이런트 레이브 / Tyrant Rave ver.β (タイラントレイブ ver.β)",
+      "actionType": "오버드라이브 (Overdrive / 필살기)",
+      "description": "솔 배드가이가 강렬한 화염 기운을 두르며 전방으로 맹렬히 돌진해 어깨 태클로 상대를 튕겨낸 뒤, 즉각 풍인검을 양손으로 머리 위까지 치켜올려 폭발적인 화염과 함께 강력한 오버헤드 내리찍기를 꽂아넣는 2단 오버드라이브. 1타 돌진이 gap-closer 역할을 하며 상대를 뒤로 밀어내 2타의 오버헤드 스매시를 강제 적중시킨다. 발동 초반 무적 판정이 존재해 역전 리버설 및 콤보 마무리 양쪽에 범용적으로 활용된다.",
+      "motionType": [
+        "charge",
+        "overhead",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "aura",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "invincible",
+          "gap-closer",
+          "poise-breaking",
+          "burst-damage"
+        ],
+        "resourceCost": "50 Tension (게이지)",
+        "frameApprox": {
+          "startup": "~7f",
+          "active": "~4f (1타) + ~5f (2타)",
+          "recovery": "~38f (on block)"
+        }
+      },
+      "designNotes": "2단 구조의 선-딜레이(gap-closer) + 후-타격(overhead slam) 패턴은 플레이어에게 명확한 '리스크 투자 → 리워드 회수' 경험을 제공하며, 첫 번째 돌진이 맞아야만 두 번째 내리찍기가 안정적으로 연결되는 조건부 구조가 스킬 갭을 만들어낸다. 발동 무적 프레임은 이 기술을 단순 콤보 마무리를 넘어 '역전 카드'로 기능하게 해, 열세 상황에서도 한 방의 반전 가능성이 살아있다는 긴장감을 유지시킨다. 50 Tension이라는 자원 비용은 적절한 게이지 관리 딜레마를 만들어, 무제한으로 남발되지 않도록 제어하면서도 임팩트 있는 순간에 플레이어가 쾌감을 폭발적으로 느끼게 설계되었다. 화염 폭발과 함께 대검이 지면에 박히는 화려한 비주얼 피드백은 GG 시리즈 전통의 '필살기 카타르시스'를 계승하며, 솔 배드가이의 거칠고 직선적인 캐릭터 아이덴티티를 동작 하나로 압축해 표현한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Guilty+Gear+Strive+%ED%83%80%EC%9D%B4%EB%9F%B0%ED%8A%B8+%EB%A0%88%EC%9D%B4%EB%B8%8C+%2F+Tyrant+Rave+ver.%CE%B2+%28%E3%82%BF%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%88%E3%83%AC%E3%82%A4%E3%83%96+ver.%CE%B2%29+gameplay",
+        "images": [],
+        "wiki": "https://www.dustloop.com/w/GGST/Sol_Badguy",
+        "gif": null
+      },
+      "tags": [
+        "overdrive",
+        "super-move",
+        "gap-closer",
+        "overhead",
+        "fire",
+        "reversal",
+        "punish",
+        "2-hit",
+        "fighting-game",
+        "invincible"
+      ],
+      "applicableWeapons": [
+        "대검"
+      ],
+      "id": "gs-056",
+      "addedDate": "2026-03-16 22:26"
     }
   ]
 }
