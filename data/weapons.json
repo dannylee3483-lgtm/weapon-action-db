@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:14",
+  "lastUpdated": "2026-03-17 06:15",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33318,6 +33318,74 @@
       ],
       "id": "bw-031",
       "addedDate": "2026-03-17 06:14"
+    },
+    {
+      "weaponCategory": "석궁",
+      "weaponSubtype": "크로스보우 (Crossbow)",
+      "game": "The Witcher 3: Wild Hunt",
+      "developer": "CD Projekt Red",
+      "actionName": "조준 사격 / Aimed Shot",
+      "actionType": "특수기",
+      "description": "게랄트가 석궁을 들어 올려 느린 조준 모드로 진입하며, 조준 중 시간이 소폭 감소해 정밀 타격이 가능해진다. 날아다니는 적(그리핀, 와이번, 가고일 등)을 지면으로 강제 추락시키거나 도주하는 적을 마무리하는 데 특화되어 있다. 수중에서도 동일하게 사용할 수 있으며, 이 환경에서는 유일한 원거리 공격 수단으로 기능해 레마스 등 수중 보스 전투의 핵심 도구가 된다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "interrupt",
+          "anti-air",
+          "underwater-usable",
+          "knockdown"
+        ],
+        "resourceCost": "볼트(소모품)",
+        "frameApprox": {
+          "startup": "~22f",
+          "active": "~4f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "석궁은 게랄트의 전투 시스템에서 '역할 특화형 보조 무기'의 교과서적 사례다. 주력 딜 수단이 아닌 특수 상황 해결사로 명확히 포지셔닝하여, 플레이어가 석궁을 선택하는 순간마다 전술적 의도를 갖게 만든다. 공중 적 격추 인터럽트는 정면 교전이 불리한 대형 비행 보스를 취약 상태로 전환하는 강력한 리워드를 제공하며, 이 하나의 기능이 석궁의 존재 이유를 충분히 정당화한다. 수중이라는 극단적 환경에서도 기존 조작 체계를 그대로 유지해 플레이어 학습 비용 없이 일관된 경험을 제공한다. 볼트 소모 구조는 남용을 억제하면서도 수량이 충분해 결정적 순간에 부족함이 없는 섬세한 균형을 갖추고 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EC%A1%B0%EC%A4%80+%EC%82%AC%EA%B2%A9+%2F+Aimed+Shot+gameplay",
+        "images": [],
+        "wiki": "https://witcher.fandom.com/wiki/Crossbow_(The_Witcher_3)",
+        "gif": null
+      },
+      "tags": [
+        "crossbow",
+        "anti-air",
+        "interrupt",
+        "utility-weapon",
+        "secondary-weapon",
+        "underwater-combat",
+        "bolt",
+        "ranged",
+        "aerial-control",
+        "punish-tool"
+      ],
+      "applicableWeapons": [
+        "석궁",
+        "활"
+      ],
+      "id": "xb-001",
+      "addedDate": "2026-03-17 06:15"
     }
   ]
 }
