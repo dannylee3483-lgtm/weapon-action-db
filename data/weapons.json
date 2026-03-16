@@ -32416,7 +32416,7 @@
       },
       "designNotes": "채찍 무기의 물리적 특성인 '완전 신장 시 최대 반경'을 전투 메카닉으로 직결시킨 설계로, 체인이 회전 원호의 반지름이 되도록 구성해 무기 길이 자체가 리스크-리워드 축으로 기능한다. 어둠 마법 강화 버전은 체인 끝의 에너지 잔류 히트를 추가해 '마법 자원 투자 → 다단 히트 보상'이라는 자원 관리 구조를 명시적으로 제시한다. 포위 상황 탈출과 반격을 단일 입력으로 해결하도록 설계해, 수세에서 공세로 전환하는 모멘텀 역전을 직관적으로 구현했다. 회전 중 이동이 제한되므로 발동 타이밍이 곧 포지셔닝 판단과 연결되며, 이를 통해 플레이어의 공간 인식 능력을 지속적으로 훈련시킨다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%ED%94%BC%EB%A3%A8%EC%97%A3+%ED%9A%8C%EC%A0%84+%EC%B1%84%EC%B0%8D+%28Pirouette+%2F+%EC%8B%AD%EC%9E%90+%ED%9A%8C%EC%A0%84+%EA%B3%B5%EA%B2%A9%29+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=u-_3JKWWtuE",
         "images": [],
         "wiki": null,
         "gif": null
