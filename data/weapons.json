@@ -28422,6 +28422,78 @@
       ],
       "id": "ft-034",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에테리얼 위빙 / Ethereal Weaving",
+      "game": "Ghostwire: Tokyo",
+      "developer": "Tango Gameworks",
+      "actionName": "바람 엮기 / Wind Weaving (風の編み込み)",
+      "actionType": "기본 공격",
+      "description": "아키토가 손가락을 빠르게 교차하며 엮는 독특한 손 동작으로 바람의 정령을 소환, 전방을 향해 소형 바람 구슬을 초당 다발로 연사하는 마법 공격이다. 기본 형태는 연사형 근~중거리 공격이며, 버튼을 길게 눌러 충전하면 넓은 범위의 산탄 형태로 전환되어 근거리 다수 적에게 폭발적인 피해를 준다. 탄약(에테르)이 자동으로 빠르게 재생되어 세 가지 엮기 유형 중 가장 지속적으로 사용 가능한 주력 공격기다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "cyan",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "medium",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "rapid-fire",
+          "ammo-regeneration",
+          "charge-spread",
+          "weak-point-targeting"
+        ],
+        "resourceCost": "에테르 탄약 (자동 회복)",
+        "frameApprox": {
+          "startup": "~4f",
+          "active": "~2f per shot",
+          "recovery": "~6f"
+        }
+      },
+      "designNotes": "바람 엮기는 '마법을 총기처럼 쓴다'는 Ghostwire: Tokyo의 핵심 콘셉트를 가장 직관적으로 구현한 액션이다. 탄약 자동 회복이라는 설계 덕분에 플레이어가 리소스 걱정 없이 적극적으로 교전할 수 있어, 마법사 판타지임에도 수동적인 플레이를 강요하지 않는다는 점이 탁월하다. 충전 시 산탄으로 전환되는 방식은 단일 입력으로 권총과 샷건의 역할을 모두 소화하게 해 인터페이스 복잡성 없이 상황 대응력을 높인다. 적의 핵심 부위(핵)를 정밀 조준해 일격에 즉사시키는 보상 시스템과 결합되어, 단순 연사 이상의 전술적 사고를 유도한다. 손가락을 엮는 애니메이션이 발사 속도와 동기화되어 '마법을 손으로 짜낸다'는 독창적 시각 피드백이 캐릭터 정체성을 강화한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostwire%3A+Tokyo+%EB%B0%94%EB%9E%8C+%EC%97%AE%EA%B8%B0+%2F+Wind+Weaving+%28%E9%A2%A8%E3%81%AE%E7%B7%A8%E3%81%BF%E8%BE%BC%E3%81%BF%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "rapid-fire",
+        "wind-magic",
+        "ethereal-weaving",
+        "charge-shot",
+        "ammo-regen",
+        "spirit-magic",
+        "weak-point",
+        "ranged",
+        "japanese-setting",
+        "crowd-control"
+      ],
+      "applicableWeapons": [
+        "에테리얼 위빙 (바람)",
+        "마법 원거리 공격"
+      ],
+      "id": "mg-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
