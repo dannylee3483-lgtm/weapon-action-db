@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:46",
+  "lastUpdated": "2026-03-17 07:47",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -33149,7 +33149,11 @@
       },
       "designNotes": "Army of One은 건블레이드라는 하이브리드 무기의 정체성을 가장 극적으로 압축한 기술로, 검과 총의 역할 전환을 단일 어빌리티 안에서 서사적으로 연출한다. 다수의 히트가 빠르게 이어지는 구조는 히트스톱과 효과음 레이어링으로 타격감을 지속적으로 누적시키며, 피니시 폭발이 명확한 종료 신호를 제공해 플레이어에게 서사적 만족감을 선사한다. LR:FF13의 실시간 전투에서 이 기술은 ATB 소모량 대비 높은 위력을 갖도록 설계되어, 타이밍과 리소스 관리의 리스크-리워드 구조를 형성한다. 무기 변형이 단순한 시각 연출이 아닌 실제 히트 패턴 변화로 구현되어, 건블레이드가 '총기이면서 검'이라는 개념을 전투 메카닉 수준에서 설득력 있게 전달한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Lightning+Returns%3A+Final+Fantasy+XIII+%EC%95%84%EB%AF%B8+%EC%98%A4%EB%B8%8C+%EC%9B%90+%2F+Army+of+One+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=bcu-yZr61ig",
+          "https://www.youtube.com/watch?v=ojAdT4mpD0Q",
+          "https://www.youtube.com/watch?v=LFYjOZash_8"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -33213,7 +33217,11 @@
       },
       "designNotes": "For Honor의 삼방향 가드 시스템과 결합된 언블록어블 설계의 정수를 보여주는 기술이다. 상대가 무조건 회피 또는 반격 중 하나를 선택해야 하는 이진 구조를 강제함으로써 심리전 기반의 압박 메타를 형성한다. 히트 시 넘어뜨림이라는 강력한 보상을 제공하되, 회피당하면 긴 딜레이(리커버리)가 남아 리스크-리워드 균형이 명확하게 설계되어 있다. 방패 찌르기(Shield Tackle) 및 다양한 체인 공격과 조합해 '언블록-블록어블 혼합 압박'을 구성하며, 상대가 한 가지 대응만으로 막을 수 없도록 선택지를 분산시키는 믹스업 구조의 핵심 축을 담당한다. 발동 직전까지 가드 방향을 읽기 어려운 모션 덕분에 고수 간의 대결에서도 지속적으로 유효하게 유지되어 경쟁 플레이에서 높은 메타 영향력을 갖는다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=For+Honor+%EB%8F%8C%EC%A7%84+%EC%B0%8C%EB%A5%B4%EA%B8%B0+%2F+Pouncing+Thrust+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=BbbZkacUTnY",
+          "https://www.youtube.com/watch?v=Z_uqN4MDXg8",
+          "https://www.youtube.com/watch?v=qLj4u1pcfj0"
+        ],
         "images": [],
         "wiki": "https://forhonor.fandom.com/wiki/Valkyrie",
         "gif": null
@@ -33359,7 +33367,11 @@
       },
       "designNotes": "드라우프니르 창의 심기-폭발 메카닉은 '지연 리워드(Deferred Reward)' 설계의 교과서적 사례다. 플레이어는 피해를 즉시 확정하는 대신 전장에 '잠재적 폭탄'을 배치함으로써 공간 전략적 사고를 강요받는다. 심어진 창의 수가 늘어날수록 폭발 피해가 누적되어, 위험을 감수하고 더 많이 심을수록 더 큰 보상이 따르는 명확한 리스크-리워드 곡선이 작동한다. 폭발 타이밍을 플레이어가 완전히 제어하기 때문에 적의 취약 순간을 노리는 읽기·실행 루프가 전투 깊이를 크게 높이며, 이는 단순 딜링 도구를 '전장 장악 도구'로 승격시키는 역할을 한다. 지형 부착이 전투·탐색 두 맥락 모두에서 유효하도록 설계된 것 역시, 단일 메카닉의 활용 문맥을 최대화하는 좋은 예시다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EC%B0%BD+%EC%8B%AC%EA%B8%B0+%26+%ED%8F%AD%EB%B0%9C+%2F+Spear+Plant+%26+Detonate+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=IaHA_MMl_A4",
+          "https://www.youtube.com/watch?v=OXUV-LVLGZ0",
+          "https://www.youtube.com/watch?v=lAQk1uqNgp0"
+        ],
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Draupnir_Spear",
         "gif": null
@@ -33432,7 +33444,11 @@
       },
       "designNotes": "Bullet Barrage는 와이번파이어의 '한 방 대기' 판타지를 해체하고, 대신 '지속 딜 버스트'라는 새로운 박자를 제공한다. 쿨다운이 짧아 몬스터의 다운 타이밍에 유연하게 맞출 수 있으며, 헌터가 포탄 타입(노멀·롱·와이드)에 따라 서로 다른 사거리·타격 패턴을 선택하게 만드는 빌드 다양성을 내포한다. 고정 자세로 연사하는 구조는 '회피 불가' 위험을 감수해야 하는 리스크-리워드 구조를 형성하며, 포지셔닝 판단력이 중요해진다. 마지막 발사 후 자동 장전이 연결되는 흐름은 액션 단절 없이 다음 콤보로 이어지게 해 조작 만족도를 높인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%B4%9D%ED%83%84+%EC%97%B0%EC%82%AC+%28Bullet+Barrage%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=gH9WaQbA5j8",
+          "https://www.youtube.com/watch?v=KkAX1tr9ch0",
+          "https://www.youtube.com/watch?v=xnMf1R551_g"
+        ],
         "images": [],
         "wiki": "https://monsterhunterrise.wiki.fextralife.com/Gunlance",
         "gif": null
@@ -33501,7 +33517,9 @@
       },
       "designNotes": "이 액션은 탐색(traversal)과 전투를 단일 메카닉으로 통합한 디자인의 교과서적 사례다. 플레이어는 채찍 훅을 발견하는 순간 '저 곳을 건너갈 수 있다'는 즉각적 직관을 얻으며, 환경 읽기 능력을 자연스럽게 훈련시키는 어포던스(affordance) 설계가 핵심이다. 스윙 호 도중 적을 타격하는 부가 전투 효과는 보상 중첩(reward stacking) 원칙을 구현하여, 이동과 전투라는 두 목적을 동시에 달성하는 효능감을 제공한다. 착지 직후의 전환 프레임을 짧게 설계함으로써 스윙-착지-공격의 흐름이 끊기지 않아 모멘텀이 유지되며, 이는 Indiana Jones 장르 픽션의 시각 언어를 차용한 모험 판타지 강화에도 기여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Skyward+Sword+%EC%B1%84%EC%B0%8D+%EA%B7%B8%EB%9E%98%ED%94%8C+%EC%8A%A4%EC%9C%99+%28Whip+Grapple+Swing%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=vguDY8STDTk"
+        ],
         "images": [],
         "wiki": "https://zelda.fandom.com/wiki/Whip",
         "gif": null
@@ -33572,7 +33590,11 @@
       },
       "designNotes": "Sifu의 쌍절곤은 '무기를 장착한 동안만 누릴 수 있는 리스크-리워드 구조'를 잘 구현한다. 쌍절곤의 회전 연타는 맨손보다 범위가 넓고 Structure 피해가 높지만, 회전 모션 중 이동이 제한되어 역카운터에 취약하다는 트레이드오프가 명확하다. 무기 내구도 시스템(사용 횟수 소진 시 파괴)이 적용되어 플레이어가 강공격을 아껴 쓰도록 유도하며, 자원 관리 판단을 전투 흐름 안에 자연스럽게 녹인다. 회전 모션의 시각·음향 피드백(챙챙 울리는 금속음)이 히트감을 극대화해, 몇 대 치지 않아도 '강력한 무기를 휘두르고 있다'는 만족감을 준다. 또한 다수 근접전에서 회전 판정이 여러 적에게 동시 적용되어, 군중 제어 도구로서의 활용 가치를 자연스럽게 플레이어가 학습하게 만드는 유기적인 교육 설계가 돋보인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sifu+%ED%9A%8C%EC%A0%84+%EC%97%B0%ED%83%80+%EA%B0%95%EA%B3%B5%EA%B2%A9+%28Spinning+Heavy+Finisher%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=UELOMV-Hb3U",
+          "https://www.youtube.com/watch?v=7hZSWtkYN_c",
+          "https://www.youtube.com/watch?v=g2qeHJyrtAk"
+        ],
         "images": [],
         "wiki": "https://sifu.fandom.com/wiki/Nunchaku",
         "gif": null
@@ -33644,7 +33666,10 @@
       },
       "designNotes": "활이 단순 원거리 피해 도구를 넘어 세계관 내재 규칙 기반의 전략 자원으로 기능하는 설계다. 'UV가 변종을 약화시킨다'는 설정은 튜토리얼 없이 직관적으로 이해되므로, 플레이어는 이 화살의 효과를 처음 목격하는 순간 즉시 전략에 통합할 수 있다. 제작(Crafting) 시스템과 결합되어 이 고가의 소모품을 언제 소비할지의 리스크-리워드 판단을 강요한다. 타임 사이클(낮/밤)과 상호작용하여 야간에는 생존 필수재, 낮에는 여분 유틸리티로 가치가 역동적으로 변하는 맥락 민감형 설계가 핵심이다. 원거리 무기에 '빛'이라는 물리적 속성을 결합함으로써 활이 근접 전투 게임플레이 루프에 능동적으로 개입하는 구조를 만들어냈다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dying+Light+2%3A+Stay+Human+UV+%ED%99%94%EC%82%B4+%EB%B0%9C%EC%82%AC+%2F+UV+Arrow+Shot+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=gtC-RXUAkPc",
+          "https://www.youtube.com/watch?v=VZE8KwPiw-c"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -33712,7 +33737,11 @@
       },
       "designNotes": "석궁은 게랄트의 전투 시스템에서 '역할 특화형 보조 무기'의 교과서적 사례다. 주력 딜 수단이 아닌 특수 상황 해결사로 명확히 포지셔닝하여, 플레이어가 석궁을 선택하는 순간마다 전술적 의도를 갖게 만든다. 공중 적 격추 인터럽트는 정면 교전이 불리한 대형 비행 보스를 취약 상태로 전환하는 강력한 리워드를 제공하며, 이 하나의 기능이 석궁의 존재 이유를 충분히 정당화한다. 수중이라는 극단적 환경에서도 기존 조작 체계를 그대로 유지해 플레이어 학습 비용 없이 일관된 경험을 제공한다. 볼트 소모 구조는 남용을 억제하면서도 수량이 충분해 결정적 순간에 부족함이 없는 섬세한 균형을 갖추고 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=The+Witcher+3%3A+Wild+Hunt+%EC%A1%B0%EC%A4%80+%EC%82%AC%EA%B2%A9+%2F+Aimed+Shot+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=JdC5JmA49YU",
+          "https://www.youtube.com/watch?v=IYQ3Ltimy2U",
+          "https://www.youtube.com/watch?v=kRI4Ptw_CsY"
+        ],
         "images": [],
         "wiki": "https://witcher.fandom.com/wiki/Crossbow_(The_Witcher_3)",
         "gif": null
@@ -33782,7 +33811,11 @@
       },
       "designNotes": "와이번 하트는 '정지한 포대'라는 헤비보우건의 정체성을 극단적으로 표현한 디자인이다. 이동 불가라는 치명적 취약점을 감수해야만 최대 화력을 발휘할 수 있어, 몬스터의 행동 패턴을 읽고 안전한 창구를 만들어내는 '타이밍 게임'으로 플레이어를 유도한다. 게이지라는 유한 자원으로 지속 시간을 제한함으로써 무한 딜링의 지루함을 방지하고 각 발동 순간의 긴장감을 유지시킨다. 또한 피격 시 즉시 해제되는 페널티는 방어적 판단 없이 공격에만 집중하는 플레이를 억제하며, 리스크-리워드 사이클을 명확하게 구현한다. 헤비보우건 숙련자에게 있어 와이번 하트 최대 활용은 실력 지표가 되어 마스터리 동기를 자연스럽게 제공한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%99%80%EC%9D%B4%EB%B2%88+%ED%95%98%ED%8A%B8+%28Wyvernheart%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=dMXj2m4pb40",
+          "https://www.youtube.com/watch?v=evc9UNvcki8",
+          "https://www.youtube.com/watch?v=sCSW-Xh2Zrc"
+        ],
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Heavy+Bowgun",
         "gif": null
@@ -33851,7 +33884,11 @@
       },
       "designNotes": "미트 훅은 '거리 좁히기'와 '공격 준비'를 단일 입력으로 통합한 공격적 이동 도구다. 전통적인 샷건의 약점인 근접 강제를 역이용해, 플레이어가 능동적으로 근접을 선택하는 도구로 재설계한 점이 핵심이다. 짧은 쿨다운과 이동 중 무적 덕분에 위험한 상황에서도 적극 사용이 보상받으며, 이는 Doom Eternal 전체 전투 철학인 '공격이 최선의 방어'를 구조적으로 체현한다. 갈고리 도달 직후 이어지는 폭발 타이밍이 명확한 결과 피드백을 제공해 스킬 표현의 만족감을 극대화하고, 아레나 전반의 수직·수평 이동 옵션을 넓혀 레벨 디자인과도 긴밀히 연계된다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Doom+Eternal+%EB%AF%B8%ED%8A%B8+%ED%9B%85+%28Meat+Hook%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=V9cpak6UtbI",
+          "https://www.youtube.com/watch?v=K87JhTcLJHg",
+          "https://www.youtube.com/watch?v=OuETT_toV1M"
+        ],
         "images": [],
         "wiki": "https://doom.fandom.com/wiki/Super_shotgun_(Doom_Eternal)",
         "gif": null
@@ -33921,7 +33958,11 @@
       },
       "designNotes": "포커스 타격은 리스크-리워드 구조의 교과서적 사례다. 게이지는 정확한 패리·회피·연타 적중으로만 축적되므로, 발동 자격 자체가 '현재 잘 싸우고 있다'는 즉각적 피드백 루프를 형성한다. 슬로모션 구간의 신체 부위 선택은 0.5초 안에 이뤄지는 짧은 의사결정이지만 전투 흐름 전체를 전환할 수 있어 행위자성(agency)을 극대화한다. 노화 페널티 시스템과 맞물려 포커스를 비축하면 생존율이 오르고, 공격적으로 소모하면 전투 리듬이 빨라지는 메타 트레이드오프가 생겨 단순 DPS 자원을 넘어선 전략적 깊이를 만든다. 발동 시 울리는 심장박동 사운드와 파장 이펙트는 '극한 집중에 돌입한 무술가'라는 내러티브를 메카닉 레벨에서 구현해 코어 판타지를 감각적으로 강화한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sifu+%EC%A7%91%EC%A4%91+%ED%83%80%EA%B2%A9+%2F+Focus+Strike+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=VPWRSh6eMwc",
+          "https://www.youtube.com/watch?v=JHY1Iu4rwFI",
+          "https://www.youtube.com/watch?v=92akPhfxexc"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -33993,7 +34034,11 @@
       },
       "designNotes": "클로라는 무기의 정체성인 '속도와 밀착 압박'을 기술 하나로 응축한 디자인이다. 다단 히트 구조는 각 타격마다 적의 기력(Ki)을 지속적으로 깎아내려, 기력 제로 상태에서 적을 완전히 제압하는 Nioh 2 고유의 ki-break 루프와 자연스럽게 연결된다. 마지막 타격 직후 키 펄스 캔슬로 소비된 기력을 빠르게 회복할 수 있어, 공격적인 플레이어에게 '공격 자체가 자원 관리'가 되는 경험을 제공한다. 전진 이동이 내장된 구조는 짧은 클로의 사거리 단점을 능동적으로 보완하며, 플레이어가 항상 적에게 붙어 있어야 하는 클로의 페르소나를 강화한다. 리스크로는 모션 중 후방이 완전히 노출되어 다중 전투에서 측면 기습에 취약하다는 점이 있으며, 이것이 '단일 강적 딜링' 특화 무기라는 클로의 역할을 명확히 규정한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%E7%8C%9B%E8%99%8E%E4%B9%B1%E8%88%9E+%2F+%EB%A7%B9%ED%98%B8%EB%82%9C%EB%AC%B4+%28Rampaging+Tiger%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Hp_EIGRMCoM",
+          "https://www.youtube.com/watch?v=yXLEEl2Ajbs",
+          "https://www.youtube.com/watch?v=XoFzMC4tDMw"
+        ],
         "images": [],
         "wiki": "https://nioh.wiki.fextralife.com/Claws",
         "gif": null
@@ -34063,7 +34108,11 @@
       },
       "designNotes": "Tornado Cutter는 토파 무기 계열의 '근접 난전 지배' 판타지를 가장 잘 구현한 기술이다. 다단 히트 구조는 연속 타격이 주는 속도감과 타격감을 극대화하고, 피니시 구간의 키 펄스 타이밍은 공격 중에도 기력 관리를 요구해 숙련도에 따른 퍼포먼스 차이를 만든다. 방향 전환 가능한 회전 동작은 공격과 포지셔닝을 동시에 해결하게 해 리스크-리워드 밸런스가 뛰어나며, 공격 중 이동 자유도가 주어진다는 점에서 초보와 고수 모두에게 직관적으로 만족스럽다. 연속 히트로 인한 기력 소모와 키 펄스 회수의 균형은 공격-회복 루프를 자연스럽게 유도하는 Nioh 시리즈 전반의 핵심 설계 철학을 토파 특유의 회전 모션으로 표현한 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EC%84%A0%ED%92%8D%EC%B0%B8+%2F+Tornado+Cutter+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=XlZNdFCFLec",
+          "https://www.youtube.com/watch?v=sfrrvIPwiLo",
+          "https://www.youtube.com/watch?v=edQ8-EgPcwQ"
+        ],
         "images": [],
         "wiki": "https://nioh.wiki.fextralife.com/Tonfa",
         "gif": null
@@ -34136,7 +34185,10 @@
       },
       "designNotes": "차크람의 '투척→귀환' 루프는 원거리 공격과 근접 콤보를 단일 입력으로 연결하는 독특한 리듬을 만들어낸다. 투척 후 귀환을 기다리며 근접 회피로 포지션을 잡는 과정이 플레이어에게 자연스러운 호흡 타이밍을 부여하며, 이는 공격적인 순간과 위치 조정 순간을 교차시키는 전투 템포 설계의 핵심이다. 귀환 경로에도 피격 판정을 부여함으로써 투척 한 번이 전진 타격과 귀환 타격 두 번의 데미지 기회를 제공하는 리워드 구조를 갖춰, 적을 사이에 두고 이동할수록 이득이 커지는 포지셔닝 인센티브를 설계했다. 또한 자동 유도 기능은 조준 부담을 줄여 근접 콤보 전환 타이밍에 집중하게 해주며, 원거리-근거리 하이브리드 전투 스타일을 진입 장벽 없이 즐길 수 있게 한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Kingdoms+of+Amalur%3A+Reckoning+%EA%B7%80%ED%99%98+%ED%88%AC%EC%B2%99+%2F+Boomerang+Throw+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=f_JMHOZZu_A",
+          "https://www.youtube.com/watch?v=tx_GwnY_5Rk"
+        ],
         "images": [],
         "wiki": "https://kingdomsofamalur.fandom.com/wiki/Chakrams",
         "gif": null
@@ -34209,7 +34261,11 @@
       },
       "designNotes": "카발리에레는 단일 무기 안에 두 가지 전혀 다른 전투 철학을 내포하는 트릭 무기 설계의 정점을 보여준다. 오토바이 형태는 대형 광역 압박 도구로서 리치와 공간 지배력을 제공하고, 쌍 전기톱 형태는 근거리 고속 딜링 루트를 열어 플레이어가 상황에 따라 역할을 즉각 전환할 수 있게 한다. 형태 전환 자체가 공격 모션과 연계되어 전환 비용이 사실상 0에 가깝다는 점이 리스크 없는 표현 자유도를 극대화한다. 전기 속성 시각 효과는 오토바이의 엔진 에너지와 세계관적 일관성을 유지해 무기의 서사적 근거를 제공하고, 스타일리시 액션 장르 고유의 '멋있음' 피드백 루프를 강화한다. 이 무기는 플레이어의 상상력 자체가 콤보 설계 도구가 되는 열린 표현계 디자인의 대표 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EB%B6%84%EB%A6%AC+%EB%B0%9C%EC%A7%84+%28Moto+Split%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=uvmABRpkNsg",
+          "https://www.youtube.com/watch?v=IquShTXaeH4",
+          "https://www.youtube.com/watch?v=Yv3l29fFwwc"
+        ],
         "images": [],
         "wiki": "https://devilmaycry.fandom.com/wiki/Cavaliere",
         "gif": null
@@ -34278,7 +34334,11 @@
       },
       "designNotes": "수리검은 카타나 근접 전투에 '원거리 공백 메우기' 역할을 부여해, 적이 후퇴하거나 도약할 때 플레이어의 공격 흐름이 끊기지 않도록 돕는다. Spirit Emblem이라는 별도 자원을 소모하기 때문에 무제한 남용이 불가능하고, 이 자원 관리가 자연스럽게 전략적 판단을 강제한다. 공중 패턴을 가진 보스(진쇼, 각종 사무라이 엘리트)에게 수리검이 명확히 유효하도록 설계해 의수 시스템의 학습 가치가 전투 내에서 즉각 보상받는 구조를 완성했다. 시각적으로 은빛 파티클과 투척 잔상이 간결하게 표현되어 명중 여부를 직관적으로 인식할 수 있으며, 작은 피격 효과음이 원거리 피드백을 보완한다. 단발이지만 높은 발동 속도가 리스크-리워드 비율을 납득 가능한 수준으로 유지한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%88%98%EB%A6%AC%EA%B2%80+%ED%88%AC%EC%B2%99+%2F+Loaded+Shuriken+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=ySjVhG9GCz8",
+          "https://www.youtube.com/watch?v=Du1oBlDVAoA",
+          "https://www.youtube.com/watch?v=64yjFQM8L6Q"
+        ],
         "images": [],
         "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Loaded+Shuriken",
         "gif": null
@@ -34351,7 +34411,11 @@
       },
       "designNotes": "Hollow Knight의 Soul 시스템은 '회복이냐 공격이냐'는 자원 배분 결정을 끊임없이 강요해 전투 긴장감을 유지하는 핵심 레버다. Shade Soul은 동일 입력(위쪽 방향+주문 버튼)을 유지하면서 관통 속성만 추가함으로써 '업그레이드가 플레이 패턴을 바꾸는' 전환점을 만든다—같은 코스트로 다수 처치가 가능해지는 순간, 영혼의 사용 우선순위가 재평가된다. 수평 방향 고정이라는 제약은 플레이어에게 적 배치와 자신의 높낮이를 의식하게 만들어 공간 독해 능력을 보상 구조로 연결한다. 발사체가 화면 끝까지 소멸하지 않는 디자인은 먼 거리 보스 페이즈에서 안전 딜링 창구가 되어 근접과 원거리 전환이라는 전략적 깊이를 확보한다. 짧지만 명확한 선딜은 패널티 없이 남용하지 못하게 막는 마찰 설계로, 리스크-리워드 균형을 유지하는 최소 비용의 제약이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Hollow+Knight+%EA%B7%B8%EB%A6%BC%EC%9E%90+%EC%98%81%ED%98%BC+%2F+Shade+Soul+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Ba56W_ZaZ4k",
+          "https://www.youtube.com/watch?v=mHLJ95uncKw",
+          "https://www.youtube.com/watch?v=ly4xbe_Zr1s"
+        ],
         "images": [],
         "wiki": "https://hollowknight.wiki.fextralife.com/Shade+Soul",
         "gif": null
@@ -34422,7 +34486,11 @@
       },
       "designNotes": "3단계 차지 시스템은 플레이어에게 명확한 리스크-리워드 선택지를 제시한다. 차지 중에는 무방비 상태가 지속되므로, 적의 공격 빈틈을 정확히 읽는 상황 판단이 필수적이다. '지팡이로 마법 대검을 소환해 내려친다'는 발상은 원거리 마법사의 근접 전투 판타지를 충족시키며 강렬한 카타르시스를 제공한다. 최대 차지 시 발동되는 하이퍼아머는 보상의 명확성을 높여 숙련 플레이어가 위험을 감수하는 동기를 부여한다. 블루-화이트 계열의 선명한 이펙트와 넓은 판정 범위는 타격감과 시각적 피드백을 동시에 극대화하며, 포이즈 브레이크 특성 덕분에 콤보의 핵심 엔더로 기능한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EC%B9%B4%EB%A6%AC%EC%95%88+%EA%B7%B8%EB%9E%91%EB%92%A4%EB%A5%B4+%28Carian+Grandeur%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=ABUDuuOwmrg",
+          "https://www.youtube.com/watch?v=QKB-4bpWLFM",
+          "https://www.youtube.com/watch?v=ICxxneW6CXo"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Carian+Grandeur",
         "gif": null
@@ -34493,7 +34561,11 @@
       },
       "designNotes": "Dragon Rage는 '위험 = 보상' 원칙을 가장 직접적으로 구현한 액션 설계 사례다. 피해량이 남은 체력에 반비례하도록 설계함으로써, 플레이어는 최대 효율을 위해 의도적으로 체력을 극한까지 낮추는 '아슬아슬한 생존' 전략을 택하게 된다. 이는 수동적 안전 플레이를 배제하고 공격적이고 극적인 전투 스타일을 자연스럽게 유도한다. HP 감소에 따른 시각적 피드백(붉은 화면 이펙트, 잔상 효과)이 위기감과 흥분을 동시에 전달하며, 플레이어가 리스크의 크기를 직관적으로 인지할 수 있게 한다. 보스전 막판 '위기 역전' 순간을 설계하는 데 이 구조는 매우 효과적이며, 도끼 같은 고위력 양손무기와 결합 시 군중 정리에서도 강력한 만족감을 선사한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon+Age%3A+Inquisition+%EB%93%9C%EB%9E%98%EA%B3%A4+%EB%B6%84%EB%85%B8+%2F+Dragon+Rage+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=c_Z6KwANi1o",
+          "https://www.youtube.com/watch?v=1Y2xA_yhvR8",
+          "https://www.youtube.com/watch?v=29euaVHtkc8"
+        ],
         "images": [],
         "wiki": "https://dragonage.fandom.com/wiki/Dragon_Rage_(Inquisition)",
         "gif": null
@@ -34564,7 +34636,11 @@
       },
       "designNotes": "드라이브는 본질적으로 근접 무기인 대검에 원거리 투사체 기능을 부여함으로써, 무기 정체성을 훼손하지 않고 전략적 사거리를 극적으로 확장하는 디자인이다. 소드마스터 스타일 전용으로 제한함으로써 플레이어가 빌드 선택을 통해 이 역할을 '획득'하게 만들어 소유감과 전략 깊이를 동시에 부여한다. 차지 레벨 2 시스템은 단순한 입력 딜레이만으로 뚜렷한 위험-보상 선택지를 제공하며, 지면을 가르는 파동의 시각·청각 피드백이 대검의 묵직한 무게감을 고스란히 살린다. 이는 스타일 시스템과 무기 특성을 결합해 빌드 다양성을 창출하는 DMC 시리즈 디자인 철학의 정수를 보여주는 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+4+%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C+%2F+Drive+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Zw7s5W8D48s",
+          "https://www.youtube.com/watch?v=JyYHdsXdfF0",
+          "https://www.youtube.com/watch?v=bNOynxsvFgU"
+        ],
         "images": [],
         "wiki": "https://devilmaycry.fandom.com/wiki/Drive",
         "gif": null
@@ -34704,7 +34780,11 @@
       },
       "designNotes": "리프타이드 슬래시는 '상태이상 부여 → 폭발 유발'의 2단계 리워드 루프를 통해 근접 전투에 명확한 리듬감을 부여한다. 노말 어택으로 리프타이드를 쌓고, 차지 공격으로 폭발시키는 흐름은 플레이어에게 직관적인 목표와 달성 쾌감을 동시에 제공하는 우수한 피드백 설계다. 스탠스 전환이라는 고비용 선택에 대한 보상으로서 이 광역 체인 폭발이 존재하며, 스탠스 유지 시간(HP/쿨다운 연동)이 제한되어 플레이어는 근접 구간을 최대한 효율적으로 운용해야 한다는 전략적 압박이 긴장감을 높인다. 원거리(활) ↔ 근접(쌍단검) 간 역할 분리 설계는 단일 캐릭터에서 두 가지 플레이 스타일을 모두 경험하게 해 다양성과 재미를 극대화한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Genshin+Impact+%EB%A6%AC%ED%94%84%ED%83%80%EC%9D%B4%EB%93%9C+%EC%8A%AC%EB%9E%98%EC%8B%9C+%2F+Riptide+Slash+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=1nehICKWMVQ",
+          "https://www.youtube.com/watch?v=n5Zdu3gNcIY",
+          "https://www.youtube.com/watch?v=QBECnZn7Meo"
+        ],
         "images": [],
         "wiki": "https://genshin-impact.fandom.com/wiki/Tartaglia",
         "gif": null
@@ -34776,7 +34856,11 @@
       },
       "designNotes": "Soul Burst 시스템은 체력 게이지와 병렬로 작동하는 'Will Gauge(의지 게이지)'를 통해 이중 체력 관리 구조를 구현한다. 일반 피해로는 죽이기 어려운 강적도 의지를 꺾으면 처형 가능해지는 구조는, 전투를 단순한 DPS 레이스가 아닌 '상태 파괴' 목표 중심의 전략적 교전으로 전환시킨다. 1H검의 빠른 다단 타격은 의지 게이지 소진 효율이 높아, 직업-전술-목표 사이의 연계가 자연스럽게 형성되며 직업 선택의 의미를 강화한다. 적이 크리스탈로 결정화되는 연출은 처치 조건 충족을 시각적으로 명시해 플레이어가 '언제 피니셔를 써야 하는가'를 직관적으로 학습하게 만드는 탁월한 피드백 설계다. 의지 게이지 소진을 위한 근접 압박은 반격 리스크를 수반하지만 성공 시 추가 자원을 획득하는 명확한 리스크-리워드 루프가 공격적 플레이를 자연스럽게 유도한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Stranger+of+Paradise%3A+Final+Fantasy+Origin+%EC%86%8C%EC%9A%B8+%EB%B2%84%EC%8A%A4%ED%8A%B8+%2F+Soul+Burst+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=nw5tFfAxtj8",
+          "https://www.youtube.com/watch?v=w_wYWPp8wM8",
+          "https://www.youtube.com/watch?v=N-s61T6HNsI"
+        ],
         "images": [],
         "wiki": "https://stranger-of-paradise.wiki.fextralife.com/Soul+Burst",
         "gif": null
@@ -34845,7 +34929,11 @@
       },
       "designNotes": "리포스트 시스템은 단순 회피 일변도의 전투 대신 '정면 대응'이라는 선택지를 플레이어에게 제공함으로써 전투 레이어를 크게 확장한다. 타이밍 기반 패리-카운터 구조는 높은 리스크(실패 시 피격 + 경직)와 높은 보상(즉사 + 은신 유지)이 교차하는 긴장감 있는 교환 구조를 형성하며, 단검이라는 무기의 '예리하고 정확한 한 번'이라는 어쌔신 판타지를 전투 메카닉 차원에서 구현한다. 적의 공격 패턴을 읽는 학습 루프를 자연스럽게 유도하여, 게임 중후반으로 갈수록 플레이어가 적을 두려워하지 않고 역이용하도록 성장시키는 설계다. Dishonored 시리즈 전반의 핵심 철학인 '플레이어 에이전시 극대화'를 전투 레벨에서 구현한 대표적 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dishonored+2+%EB%A6%AC%ED%8F%AC%EC%8A%A4%ED%8A%B8+%28Riposte%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=W_Hja1Qq2is",
+          "https://www.youtube.com/watch?v=YU78vHOfe2k",
+          "https://www.youtube.com/watch?v=KrBJom2VZis"
+        ],
         "images": [],
         "wiki": "https://dishonored.fandom.com/wiki/Combat",
         "gif": null
@@ -34916,7 +35004,9 @@
       },
       "designNotes": "건블레이드 장르의 핵심 판타지인 '검과 총의 즉각적 전환'을 입력 레벨에서 구현한 설계다. 근접 콤보의 리듬을 유지하면서 홀드 입력 하나로 전혀 다른 피해 유형을 삽입할 수 있어, 플레이어가 단일 무기로 다층적 전술 선택을 경험한다. 차지 샷의 높은 스태거 파워는 긴 차지 시간이라는 리스크에 대한 명확한 보상을 제공하며, 리스크-리워드 구조가 직관적이다. 발사 반동으로 인한 자기 넉백 효과는 불이익처럼 보이지만 Warframe의 고속 이동 전투에서 위험 구역 이탈 수단으로 능숙하게 재활용된다. 콤보 카운터를 유지하면서 폭발을 삽입하는 구조는 근접-원거리 혼합 전투의 가능성을 실질적인 플레이어 표현 공간으로 확장한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%B0%A8%EC%A7%80+%EB%B8%94%EB%9D%BC%EC%8A%A4%ED%8A%B8+%2F+Charged+Blast+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=hmSIajw-U50"
+        ],
         "images": [],
         "wiki": "https://warframe.fandom.com/wiki/Redeemer_Prime",
         "gif": null
@@ -34984,7 +35074,11 @@
       },
       "designNotes": "Mighty Blow는 Dragon Age: Inquisition의 전략적 전투 체계 안에서 '인터럽트 + 포지셔닝 리셋'이라는 이중 역할을 수행하도록 설계된 기술이다. 쿨다운이라는 자원 비용을 지불하는 대신 적의 고위험 캐스팅·돌진 등 고비용 행동을 완전히 취소시킬 수 있어 리스크-리워드 구조가 명확하게 정의되어 있다. 해머라는 무기의 물리적 직관성(무게감·충격)과 게임플레이 결과(느린 모션·최대 스턴력)가 정확히 일치하여, 무기 피드백 설계의 교과서적 사례를 보여준다. 전술 일시정지 시스템과 결합하면 플레이어가 최적 타이밍을 계산하고 실행하는 과정 자체가 보상 경험이 되어, 전략 RPG적 만족감과 액션적 피드백을 동시에 달성한다. 특히 근접 보스처럼 포이즈가 높은 적에게 선택적으로 강점을 발휘하도록 설계되어 상황 판단을 지속적으로 유도한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon+Age%3A+Inquisition+%EA%B0%95%EB%A0%A5%ED%95%9C+%EC%9D%BC%EA%B2%A9+%2F+Mighty+Blow+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=OwgQvRRfeiU",
+          "https://www.youtube.com/watch?v=w_9XmgnET7E",
+          "https://www.youtube.com/watch?v=pdAPDOWMPNk"
+        ],
         "images": [],
         "wiki": "https://dragonage.fandom.com/wiki/Mighty_Blow_(Inquisition)",
         "gif": null
@@ -35199,7 +35293,10 @@
       },
       "designNotes": "세버는 '망령이 전진 후 귀환하며 두 번 적중'하는 왕복 구조를 통해, 단순한 원거리 투사체 스킬과는 차별화된 공간 판단력을 플레이어에게 요구한다. 적 집단의 밀집 구간에 망령 경로를 정렬할수록 2회 히트를 모두 적중시켜 극대화 딜이 가능하므로, 포지셔닝 리워드가 즉각적으로 체감된다. 해골 형태의 보라색 망령 비주얼은 강령술사의 '죽음을 다루는 수확자' 내러티브와 기능적 역할이 완전히 일치하여 룩앤필 일관성이 높다. Diablo IV의 스킬 트리와 연계 시 치명타 파생 효과·뼈(Bone) 계열 버프가 적용되어 빌드 다양성을 풍부하게 지원하며, 단일 스킬이 다양한 빌드의 중심축이 될 수 있음을 보여주는 모듈식 설계의 좋은 예시다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Diablo+IV+%EC%84%B8%EB%B2%84+%28Sever%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=J8nQGwqbOHE",
+          "https://www.youtube.com/watch?v=eI5MyzkacLo"
+        ],
         "images": [],
         "wiki": "https://diablo.fandom.com/wiki/Sever",
         "gif": null
@@ -35268,7 +35365,11 @@
       },
       "designNotes": "와이번스테이크 블래스트는 기존 건랜스의 '포격 후 즉시 이탈' 패턴을 역전시켜, '밀착 유지'라는 새로운 전략적 목표를 부여한다. 말뚝이 박힌 동안 플레이어가 해당 부위를 계속 공격하면 연속 폭발 대미지를 극대화할 수 있어, 리스크(근접 노출)와 리워드(누적 폭발 DPS)의 균형이 명확하다. 충전 선딜이 길어 발동 타이밍 판단 능력을 시험하고, 성공 시 강렬한 시각·청각 피드백으로 강한 카타르시스를 제공한다. 기존 포격 시스템을 완전히 새로 설계하지 않고 '말뚝을 박는다'는 직관적 아이디어만 추가해 플레이스타일 다양성을 확장한 점이 인상적이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+World%3A+Iceborne+%EC%99%80%EC%9D%B4%EB%B2%88%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC+%EB%B8%94%EB%9E%98%EC%8A%A4%ED%8A%B8+%28Wyrmstake+Blast%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=oqH1V5EQyt0",
+          "https://www.youtube.com/watch?v=0tkajlhAxiU",
+          "https://www.youtube.com/watch?v=i8H5ZY6m7mc"
+        ],
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Gunlance",
         "gif": null
@@ -35343,7 +35444,11 @@
       },
       "designNotes": "모노와이어는 '무기를 장비하지 않는다'는 사이버펑크 세계관의 신체 개조 철학을 전투 메카닉으로 직결시킨 설계다. 충전 스택을 이동·회피 행동으로 쌓게 함으로써, 플레이어가 적극적으로 공간을 활용하도록 유도하는 '행동 기반 리소스' 구조를 채택했다. 회전 참격은 단일 강적보다 다수 군중에게 더 효과적이어서, 사이버 전사형 빌드에서 포지셔닝과 군중 관리라는 고차원적 의사결정을 자연스럽게 요구한다. 속성 칩 교체만으로 전기·독·물리 중 하나로 즉시 전환되는 모듈 구조는 다양한 적 면역에 대응하는 빌드 유연성을 제공하며, 단 하나의 신체 부위가 기능적 다양성을 전담한다는 압축적 설계 원칙을 보여준다. 화려한 와이어 이펙트와 회전 모션의 결합은 강화 인간이라는 정체성을 시각적으로 강하게 전달한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Cyberpunk+2077+%EB%8B%A8%EC%84%A0+%EC%B6%A9%EC%A0%84+%ED%9A%8C%EC%A0%84+%EC%B0%B8%EA%B2%A9+%2F+Monowire+Charged+Spin+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=g9R8ghSQP4c",
+          "https://www.youtube.com/watch?v=xhF4qem9brc",
+          "https://www.youtube.com/watch?v=e_R9_-WvIlg"
+        ],
         "images": [],
         "wiki": "https://cyberpunk.fandom.com/wiki/Monowire",
         "gif": null
@@ -35415,7 +35520,9 @@
       },
       "designNotes": "벨트스크롤 장르에서 쌍절곤의 사용감을 극대화한 설계로, 빠른 다타 구조와 런처 피니셔를 결합해 콤보 지속 욕구를 자연스럽게 유도한다. 각 타격이 경직을 쌓고 마지막 타격이 에어리얼로 이어지는 구조는 리듬감 있는 플로우를 형성하며, 플레이어에게 '다음 타격은 무엇인가'라는 능동적 기대를 심어준다. 다중 적 상황에서 좌우 스윙이 히트박스를 넓게 커버하는 덕분에 군중 제어 도구로도 기능하여 캐릭터 정체성과 실용성을 동시에 충족시킨다. 쌍절곤 특유의 채인 물리감이 애니메이션에 잘 반영되어 타격의 무게감과 속도감이 시각적으로 명확하게 전달된다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Teenage+Mutant+Ninja+Turtles%3A+Shredder%27s+Revenge+%EB%82%AB%EC%B1%A0%EC%BF%A0+%EC%BD%A4%EB%B3%B4+%ED%94%BC%EB%8B%88%EC%85%94+%28Nunchaku+Combo+Finisher%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=DHP2MAa8x68"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -35484,7 +35591,11 @@
       },
       "designNotes": "Nioh 2의 전투는 '기압파'로 자세를 무너뜨리는 구조를 핵심으로 삼는다. 爆裂矢는 이 시스템 안에서 활이 갖기 어려운 '광역 기 소모' 역할을 부여받아, 원거리 무기의 안전 거리 확보라는 장점과 근접 기압파 루프의 연장이라는 두 가치를 동시에 제공한다. 화염 속성 부착으로 원소 상태이상(발화)까지 유발 가능해 불 속성에 취약한 적에 대한 추가 딜 경로를 열어준다. Ki 소모라는 비용은 근접 전투 자원과의 경쟁 관계를 형성해, 활을 보조 무기로 사용할 때 플레이어가 자원 배분을 신중히 고려하게 만드는 트레이드오프 설계다. 근접-원거리 전환의 흐름 속에서 폭발 연출의 임팩트가 전환 타이밍에 명확한 리듬감을 부여하는 점도 게임 필감 강화에 기여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%8F%AD%EB%A0%AC%EC%8B%9C+%2F+%E7%88%86%E8%A3%82%E7%9F%A2+%28Explosive+Arrow%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=c3BSmrztM-U",
+          "https://www.youtube.com/watch?v=mqECL12oOqk",
+          "https://www.youtube.com/watch?v=B2pUGVtx31s"
+        ],
         "images": [],
         "wiki": "https://nioh.wiki.fextralife.com/Exploding+Rounds",
         "gif": null
@@ -35552,7 +35663,11 @@
       },
       "designNotes": "수면 다트는 비살상이라는 명확한 선택지를 플레이어에게 제공하며, 도덕적 딜레마를 게임플레이 메카닉으로 구현한 이머시브 심 디자인의 교과서적 사례다. 피격된 적이 쓰러지며 소음을 낼 수 있기 때문에, 단순히 방아쇠를 당기는 것 이상의 판단—'낙하를 잡을 것인가, 그냥 쓰러뜨릴 것인가'—을 요구하여 스킬 표현 폭이 넓다. 희소한 소모품으로 설계되어 자원 관리와 전술 선택 사이의 긴장감을 유지하고, 살상/비살상 엔딩 분기를 유도하는 내러티브 연계 설계가 돋보인다. 조준 시간과 느린 발사체 속도가 리스크-리워드 구조를 만들어, 원거리 정밀 플레이를 고위험 고보상 행위로 포지셔닝한 피드백 루프가 잘 구성되어 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dishonored+%EC%88%98%EB%A9%B4+%EB%8B%A4%ED%8A%B8+%EC%82%AC%EA%B2%A9+%28Sleep+Dart+Shot%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=rrISCeMWFWo",
+          "https://www.youtube.com/watch?v=X3KCRuIDhr4",
+          "https://www.youtube.com/watch?v=XdpQ7eE0RCQ"
+        ],
         "images": [],
         "wiki": "https://dishonored.fandom.com/wiki/Crossbow",
         "gif": null
@@ -35622,7 +35737,11 @@
       },
       "designNotes": "와이번 스나이프는 '고위험 고보상' 리스크-리워드 구조의 교과서적 사례다. 긴 스타트업과 극단적인 후딜레이는 플레이어에게 몬스터의 행동 패턴을 충분히 읽을 것을 요구하며, 이를 성공적으로 수행했을 때 관통 다중 히트로 돌아오는 보상은 다른 무기 기술에 비해 압도적이다. 차지 메카닉은 상황 판단의 깊이를 한 층 더하는데, 안전하게 즉발로 쏠 것인가 혹은 위험을 감수하고 차지하여 최대 화력을 뽑을 것인가의 선택이 매 교전마다 의미 있는 결정으로 작동한다. 헤비 보우건이라는 무기 컨셉—느리지만 파괴적—을 가장 직관적으로 체현하는 액션이며, 탄약 소모라는 자원 관리 요소까지 더해 짧은 사용 횟수를 아끼는 심리적 긴장감을 유발한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%99%80%EC%9D%B4%EB%B2%88+%EC%8A%A4%EB%82%98%EC%9D%B4%ED%94%84+%28Wyvern+Snipe%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=rIEFwQISUrI",
+          "https://www.youtube.com/watch?v=ywQsHhMhTss",
+          "https://www.youtube.com/watch?v=G1uey1WuHlA"
+        ],
         "images": [],
         "wiki": "https://monsterhunterrise.wiki.fextralife.com/Heavy+Bowgun",
         "gif": null
@@ -35690,7 +35809,11 @@
       },
       "designNotes": "레인스톰은 총기 액션의 본질인 '다탄 히트와 지속 딜링'을 공중 전투와 결합한 사례로, 단순한 데미지 수단을 넘어 체공 연장 도구로도 기능한다는 점에서 탁월하다. 총탄 반동이 캐릭터를 공중에 부유시키는 물리적 피드백은 직관적이면서도 독창적인 만족감을 제공한다. 다수 적에게 분산 히트가 적용되므로 스타일 포인트 축적에 유리하며, 화려한 퍼포먼스를 낮은 진입장벽으로 구현할 수 있는 접근성 높은 설계다. 착지 후 경직이라는 명확한 리스크가 존재하지만 타이밍 캔슬로 콤보에 자연스럽게 이어지는 구조가 숙련도 표현 폭을 넓힌다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+5+%EB%A0%88%EC%9D%B8%EC%8A%A4%ED%86%B0+%28Rainstorm%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Nv158AdWtJY",
+          "https://www.youtube.com/watch?v=CkWa3xvq_-M",
+          "https://www.youtube.com/watch?v=unrN-geJg7Y"
+        ],
         "images": [],
         "wiki": "https://devilmaycry.fandom.com/wiki/Rainstorm",
         "gif": null
@@ -35762,7 +35885,11 @@
       },
       "designNotes": "귀환(boomerang) 메카닉은 단순한 투척에 '타이밍 캐치'라는 2차 인터랙션을 부여해 플레이어가 적을 맞히는 행위와 돌아오는 무기를 받는 행위 두 가지 리듬을 동시에 관리하게 만든다. 이는 '투척 후 멍하니 기다리는' 수동적 패턴을 방지하고, 귀환 궤도를 이용한 측면 견제라는 고급 전술 층을 자연스럽게 파생시킨다. 절단 판정은 단순 피해 이상의 시각·전술 보상(팔 잘린 적의 공격 패턴 변화)을 제공해 리스크-리워드 구조를 강화한다. 차지 시간이라는 선딜레이를 두어 즉발 남발이 불가능하게 하고, 적 밀집도 판단이라는 맥락적 의사결정을 유도하는 점도 훌륭한 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Ninja+Gaiden+II+%EA%B7%80%ED%99%98+%ED%88%AC%EC%B2%99+%2F+Windmill+Shuriken+Charged+Throw+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Y7lbmaNTcOY",
+          "https://www.youtube.com/watch?v=ElXwH9zrecM",
+          "https://www.youtube.com/watch?v=zCnWSnEHPyc"
+        ],
         "images": [],
         "wiki": "https://ninjagaiden.fandom.com/wiki/Windmill_Shuriken",
         "gif": null
@@ -35836,7 +35963,11 @@
       },
       "designNotes": "스파르탄 분노는 '맨주먹의 원초적 폭력성'을 게임플레이 메카닉으로 번역한 탁월한 사례다. 분노 게이지를 소비해 발동하되 공격으로 체력을 회복하는 구조는, 체력이 부족한 절박한 상황일수록 더 공격적으로 파고들도록 유도하는 역설적 리스크-리워드 설계를 완성한다. 레비아탄 도끼라는 정교한 무기에서 맨주먹이라는 원초적 수단으로 전환됨으로써, 크라토스의 감정 상태와 게임플레이 문법이 서사적으로 완전히 일치한다. 강력한 카메라 쉐이크, 슬로우모션 히트 이펙트, 육중한 타격음의 삼중 피드백 레이어가 '압도적인 힘'이라는 판타지를 체감시키며, 슈퍼 아머는 플레이어가 리스크 계산 없이 폭발적 몰입에만 집중할 수 있도록 보장한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=God+of+War+%282018%29+%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%84+%EB%B6%84%EB%85%B8+%2F+Spartan+Rage+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Gp_lzmEwvQc",
+          "https://www.youtube.com/watch?v=QzfHEodK2sA",
+          "https://www.youtube.com/watch?v=o0J0JUwGlYs"
+        ],
         "images": [],
         "wiki": "https://godofwar.fandom.com/wiki/Spartan_Rage",
         "gif": null
@@ -35906,7 +36037,11 @@
       },
       "designNotes": "클로의 도약 베기는 단거리·저AR이라는 클로 무기의 내재적 약점을 이동성 기반 무기술로 보완하는 설계다. 도약 중 낮은 히트박스 판정은 '무조건 안전한 갭 클로저'가 아니라 '타이밍을 읽어야 하는 진입기'로 만들어 전술적 깊이를 부여한다. 출혈 축적 특성과 고속 연타를 결합해 낮은 AR을 시간 누적 피해(DoT)로 보상하는 구조이며, 이는 클로 특유의 '짧지만 많이, 빠르지만 위험하게'라는 전투 아이덴티티를 명확히 표현한다. FP 소모 무기술로 설정함으로써 남발을 억제하고, 결정적 진입 순간에 쓰는 리소스 관리 판단을 요구한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dark+Souls+III+%EB%8F%84%EC%95%BD+%EB%B2%A0%EA%B8%B0+%2F+Leaping+Slash+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=CU5hVmnPdxA",
+          "https://www.youtube.com/watch?v=0FJZAif7gFc",
+          "https://www.youtube.com/watch?v=2ePTUVGM-xk"
+        ],
         "images": [],
         "wiki": "https://darksouls3.wiki.fextralife.com/Claws",
         "gif": null
@@ -35977,7 +36112,11 @@
       },
       "designNotes": "글레이브의 핵심 설계 원칙은 '리콜 메카닉'을 통한 근·원거리 통합 전투 흐름이다. 투척 후 귀환하는 궤적 동안 플레이어가 다른 무기를 사용하거나 회피할 수 있어, 단일 입력으로 다중 위협을 동시에 처리하는 복잡한 전술 공간이 열린다. 폭발 타이밍을 플레이어가 수동으로 결정하는 구조는 '예측 가능한 리스크와 가변적 리워드'라는 스킬 표현의 핵심을 구현하며, 숙련도에 따라 피해 효율이 극적으로 달라진다. 바운스 메카닉은 시각적 화려함과 함께 엄폐물이 많은 환경에서도 유효타를 노리는 퍼즐적 재미를 제공한다. 콤보 도중 자연스럽게 투척으로 전환되는 흐름은 원거리 공격을 별개의 모드가 아닌 근접 콤보의 연장으로 느껴지게 해, 무기 정체성의 일관성을 유지하는 탁월한 구조적 선택이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%B0%A8%EC%A7%80+%ED%88%AC%EC%B2%99+%ED%8F%AD%EB%B0%9C+%2F+Charged+Throw+Detonation+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=bUk7gu8iPrI",
+          "https://www.youtube.com/watch?v=3hISqsK2c_s",
+          "https://www.youtube.com/watch?v=KIdnQE4J6B8"
+        ],
         "images": [],
         "wiki": "https://warframe.fandom.com/wiki/Glaive",
         "gif": null
@@ -36048,7 +36187,10 @@
       },
       "designNotes": "분열 전환격은 '폼 체인지 자체를 공격으로 만든다'는 핵심 디자인 철학을 구현한다. 플레이어는 장거리 지팡이 폼과 근접 쌍봉 폼 사이의 전환 비용을 공격 기회로 전환할 수 있어, 전환이 항상 가치 있는 행동이 된다. 사슬로 연결된 두 무기가 분리 순간 광역을 커버하는 설계는 시각적 명확성과 기능적 리워드를 동시에 제공한다. Ki Pulse 타이밍과 폼 전환을 연동하면 Ki 소모 없이 전환이 가능해, 고수 플레이어에게는 리소스 관리의 층위를 추가로 제공한다. 전환 공격의 판정 방향이 직관적으로 원심력을 따르기 때문에, 물리 법칙에 기반한 무기 판정 설계의 모범 사례이기도 하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%EB%B6%84%EC%97%B4+%EC%A0%84%ED%99%98%EA%B2%A9+%2F+Split+Transition+Strike+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=xgabIOP7V-w",
+          "https://www.youtube.com/watch?v=I4Ce41b7i5o"
+        ],
         "images": [],
         "wiki": "https://nioh2.wiki.fextralife.com/Splitstaff",
         "gif": null
@@ -36121,7 +36263,11 @@
       },
       "designNotes": "혜성 아주르는 '극한의 리스크-리워드' 원칙을 마술 시스템 내에서 가장 순수하게 구현한 스킬이다. 시전 중 이동 불가라는 치명적 취약점은 플레이어로 하여금 단순 버튼 연타가 아닌 상황 판단력(보스 특정 페이즈 진입, 기절 타이밍 활용, 아이템 연계 세팅)을 보상의 조건으로 요구한다. 시현의 물약과의 시너지를 발견하고 활용하는 과정 자체가 하나의 게임플레이 루프를 형성하며, 이는 아이템-스킬 간의 상호작용 설계가 얼마나 깊은 탐구 동기를 유발할 수 있는지를 보여주는 교과서적 사례다. 무한 빔이라는 시각적·청각적 쾌감은 숙련 플레이어에게만 열리는 '보상의 연출'로 기능하여, 커뮤니티 내에서 '알면 사기' 내러티브를 형성하는 데 성공했다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%98%9C%EC%84%B1+%EC%95%84%EC%A3%BC%EB%A5%B4+%2F+Comet+Azur+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Rp22AGqpSAM",
+          "https://www.youtube.com/watch?v=h1HJWnzH36w",
+          "https://www.youtube.com/watch?v=KdV_1s06V00"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Comet+Azur",
         "gif": null
@@ -36191,7 +36337,11 @@
       },
       "designNotes": "로드 액스는 방패 사용 적에 대한 카운터 플레이 도구로서 극히 명료하게 설계되었다. '방패 → 의수 도끼로 파쇄'라는 단순한 가위바위보 구조를 통해 플레이어가 도구를 언제 꺼내야 하는지 직관적으로 학습하게 만든다. 느린 선딜레이는 고위험-고보상 구조를 형성하며, 성공 시 방패를 완전히 제거해 적을 순간적으로 무방비 상태로 만드는 명확한 보상을 제공한다. 영부라는 유한 자원 소모 구조는 사용 빈도에 제약을 두어 매 사용이 의미 있는 전략적 결정처럼 느껴지게 한다. 업그레이드 트리를 통해 동일한 도구가 불꽃, 폭발 등의 변형으로 진화하여 플레이어 표현력과 성장 만족감을 동시에 충족시키는 설계 모범 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%8B%9C%EB%85%B8%EB%B9%84+%EC%9D%98%EC%88%98+%EB%8F%84%EB%81%BC+%2F+Loaded+Axe+%28%E4%BB%95%E8%BE%BC%E3%81%BF%E6%96%A7%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=devsJE4IBFw",
+          "https://www.youtube.com/watch?v=64yjFQM8L6Q",
+          "https://www.youtube.com/watch?v=nlRQzCCb3xg"
+        ],
         "images": [],
         "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Loaded+Axe",
         "gif": null
@@ -36264,7 +36414,11 @@
       },
       "designNotes": "위키드 휠은 '런처 기술의 이중 역할' 원칙을 충실히 구현한 액션이다. 회전 베기라는 단일 입력으로 광역 히트와 에어 런치를 동시에 달성함으로써, 플레이어에게 즉각적인 상황 전환(지상전→공중전)이라는 명확한 리워드를 제공한다. 가루다의 '바람으로 끌어당긴다'는 에이콘 테마를 전투 메카닉으로 직접 번역하여 내러티브와 게임플레이의 일관성을 유지하는 것이 인상적이다. 쿨다운 리소스로 남용을 억제하면서도, 타이밍에 맞춰 사용하면 다수 적을 공중에 묶어두는 강력한 콤보 루프를 형성하게 해 숙련 플레이어에게 높은 리워드를 부여한다. 회전 이펙트의 흡인력 시각화가 '적이 끌려온다'는 피드백을 직관적으로 전달해 공간 인지 부담을 낮춘다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XVI+%EC%9C%84%ED%82%A4%EB%93%9C+%ED%9C%A0+%2F+Wicked+Wheel+%28%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%83%E3%83%89%E3%83%9B%E3%82%A4%E3%83%BC%E3%83%AB%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=dOa3R-XYpoA",
+          "https://www.youtube.com/watch?v=5sNLQLw4z4M",
+          "https://www.youtube.com/watch?v=M7oIb7Zhn9g"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -36336,7 +36490,11 @@
       },
       "designNotes": "저지먼트 컷은 '베었는지 알아채기도 전에 이미 죽어 있다'는 일본 발도술의 낭만적 클리셰를 정밀한 메카닉으로 번역한 탁월한 사례다. 발도 모션을 거의 생략함으로써 플레이어에게 '칼이 아닌 의지로 공간을 자른다'는 판타지를 제공하며, 선딜레이 부재가 캐릭터 파워 판타지를 직접적으로 강화한다. 홀드 차지로 절단선 수가 늘어나는 단순한 이중 입력 구조는 캐주얼 원탭 사용과 콤보 루프 내 심층 활용을 동시에 포용한다. 절단파가 공간에 잠시 잔류하는 특성 덕분에 '미리 설치' 식 전략적 공간 제어라는 상위 레이어가 추가되어 숙련도에 따른 플레이 깊이 차이가 명확하다. 시각 연출에서 발도 직후의 침묵과 지연 폭발 타이밍의 분리는 소리·이펙트 비동기 설계로 극적 긴장감을 증폭시키며, 관람자 경험까지 고려한 연출 우선 디자인의 모범이다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%EC%A0%80%EC%A7%80%EB%A8%BC%ED%8A%B8+%EC%BB%B7+%2F+Judgment+Cut+%28%E3%82%B8%E3%83%A3%E3%83%83%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=qoO5AtpQyKo",
+          "https://www.youtube.com/watch?v=Sh0OPs-p010",
+          "https://www.youtube.com/watch?v=NYSNURwr3Z4"
+        ],
         "images": [],
         "wiki": "https://devilmaycry.fandom.com/wiki/Judgment_Cut",
         "gif": null
@@ -36411,7 +36569,11 @@
       },
       "designNotes": "분노 모드는 스태미나나 쿨다운이 아닌 'HP' 자체를 화력 증폭의 대가로 삼는 독창적인 리스크-리워드 구조를 가진다. 플레이어는 전투 내내 '현재 체력으로 모드를 얼마나 지속할 수 있는가'를 실시간으로 계산해야 하므로, 단순 버튼 입력이 전략적 판단으로 격상된다. 장갑 해제라는 내러티브 맥락—A2의 냉정하고 자기 파괴적인 전투 철학—이 게임플레이 메카닉과 자연스럽게 통합되어, 기계적 선택지가 캐릭터 정체성을 직접 강화한다. 체력이 낮을수록 모드를 유지해야 한다는 역설적 압박감은 전투 클라이맥스에 강렬한 긴장감을 부여한다. 이 '자기 희생형 파워업' 설계는 2B와의 플레이스타일 차이를 명확히 구분 짓는 뛰어난 캐릭터 차별화 수단이기도 하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=NieR%3A+Automata+%EB%B6%84%EB%85%B8+%EB%AA%A8%EB%93%9C+%2F+Berserk+Mode+%28A2%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=7s-rQOE9BRE",
+          "https://www.youtube.com/watch?v=R2rflJ-UcjM",
+          "https://www.youtube.com/watch?v=YoB4_AHq8qg"
+        ],
         "images": [],
         "wiki": "https://nier.fandom.com/wiki/A2",
         "gif": null
@@ -36486,7 +36648,11 @@
       },
       "designNotes": "Tales of Arise의 Blazing Sword 시스템은 HP를 전투 자원으로 재정의하는 리스크-리워드 구조의 교과서적 사례다. 플레이어는 '안전하게 싸울 것인가, HP를 태워 폭발적 화력을 낼 것인가'라는 즉각적 트레이드오프를 매 전투마다 직면하게 된다. Incineration Gale은 다단 히트 구조를 통해 각 타격마다 화면 진동과 피격음이 누적되어 타격감이 단계적으로 고조되는 피드백 설계를 보여준다. 마지막 히트의 Air Launch 속성이 공중 콤보로의 자연스러운 전환을 유도해 전투 흐름의 연속성을 보장한다. HP 소비라는 자기 희생 메카닉이 '고통을 느끼지 못하는 팔로 검에 불꽃을 깃드는' 알펜의 서사와 직결되어, 게임플레이와 내러티브가 일체화되는 드문 설계 성취를 달성한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Tales+of+Arise+%EC%97%B4%EC%97%BC%EB%82%9C%EB%AC%B4+%2F+Incineration+Gale+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=70mXWuzKsAM",
+          "https://www.youtube.com/watch?v=_2YZEZd3jQE",
+          "https://www.youtube.com/watch?v=0-JXgqlNEBo"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -36555,7 +36721,11 @@
       },
       "designNotes": "사비마루는 세키로의 주무기인 카타나와 완전히 다른 역할 축을 담당하는 보조 단검으로, '도구를 도구답게' 사용하게 만드는 상황 판단 유도 설계를 잘 보여준다. 독 취약 적이라는 명확한 소프트 카운터 타겟이 존재함으로써 플레이어가 전투 전 도구를 전략적으로 선택하도록 동기를 부여한다. 다타격 구조는 각 타격 사이에 적의 반격 패턴을 끼워 넣는 리스크를 내포해 단순 스팸을 억제하고, 숙련자에게 '연격 중 상황 판단'이라는 심층적인 플레이 레이어를 제공한다. 선인의 부싯깃이라는 자원 비용이 무한 남용을 막으면서도 충분히 저렴해 전투 내 적극 활용을 장려하는 리소스 설계의 균형점을 보여주는 우수 사례다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%82%AC%EB%B9%84%EB%A7%88%EB%A3%A8+%EC%97%B0%EA%B2%A9+%28Sabimaru+Combo%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=R7V6_BLP7BQ",
+          "https://www.youtube.com/watch?v=NTbQDL6dcLU",
+          "https://www.youtube.com/watch?v=Yx_9R8rTrdQ"
+        ],
         "images": [],
         "wiki": "https://sekiro.wiki.fextralife.com/Sabimaru",
         "gif": null
