@@ -30644,6 +30644,77 @@
       ],
       "id": "wh-048",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Snake Style)",
+      "game": "Lost Judgment",
+      "developer": "Ryu Ga Gotoku Studio",
+      "actionName": "뱀 스타일 카운터 / Snake Style Counter",
+      "actionType": "카운터",
+      "description": "야가미 타카유키가 뱀 스타일(Snake Style) 발동 상태에서 적의 공격을 원형 운동으로 흘려내며 상대의 힘을 역이용해 강력한 반격을 날리는 기술. 공격을 '막는' 것이 아니라 '받아 돌리는' 방식으로 작동하며, 성공 시 적을 스턴 상태로 만들어 추가 연계 공격으로 이어진다. 집단전에서도 연속으로 발동 가능하여 여러 적의 공격을 흘리며 반격 루프를 형성할 수 있다.",
+      "motionType": [
+        "counter",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "counter-attack",
+          "force-absorption",
+          "stun",
+          "crowd-control"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~12f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "뱀 스타일 카운터는 '적의 힘을 역이용한다'는 무술 철학을 게임 메카닉으로 직접 구현한 사례로, 방어가 아닌 적극적 역이용을 통해 주도권을 전환하는 고수익 타이밍 행동으로 설계됐다. 스타일 전환 자체에 리소스 비용이 없어 언제든 접근 가능하지만, 카운터 입력 타이밍은 정밀하게 요구되어 숙련도 분산 곡선이 뚜렷하다. 집단전에서 여러 공격을 연속으로 흘리며 반격 루프를 이어가는 흐름은 '리듬 타기'의 미학을 강조하며, 플레이어에게 피격 직전 상황을 위기가 아닌 기회로 재인식하게 만드는 인지 전환 설계가 핵심이다. 타이거·크레인 스타일과의 스타일 전환 시스템과 연계되어 상황에 따른 전술적 선택지를 폭넓게 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lost+Judgment+%EB%B1%80+%EC%8A%A4%ED%83%80%EC%9D%BC+%EC%B9%B4%EC%9A%B4%ED%84%B0+%2F+Snake+Style+Counter+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "martial-arts",
+        "force-redirection",
+        "crowd-control",
+        "stun",
+        "timing-based",
+        "snake-style",
+        "rhythm-combat",
+        "style-switch",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "맨손 격투"
+      ],
+      "id": "ft-037",
+      "addedDate": "2026-03-16"
     }
   ]
 }
