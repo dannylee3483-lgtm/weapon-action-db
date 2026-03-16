@@ -27474,6 +27474,78 @@
       ],
       "id": "wh-039",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "마법",
+      "weaponSubtype": "에테리얼 위빙 / 결계술 (Ethereal Weaving)",
+      "game": "Ghostwire: Tokyo",
+      "developer": "Tango Gameworks",
+      "actionName": "바람 연사 위빙 (Wind Rapid-Fire Weaving / 風の霊力 速射)",
+      "actionType": "기본 공격",
+      "description": "손가락으로 결계 인(印)을 맺어 고속의 바람 에테리얼 탄을 연속 발사하는 마법 사격 액션이다. 발사 속도가 빠르고 사거리가 길어 원거리에서 다수의 적을 견제하거나 약한 적을 신속하게 제거하는 데 특화되어 있다. 에테리얼 에너지를 소모하며, 에너지 잔량을 의식해 적절한 타이밍에 손 동작 리로드를 실행하지 않으면 빈틈이 생긴다.",
+      "motionType": [
+        "combo",
+        "charge"
+      ],
+      "element": {
+        "type": "바람",
+        "effectColor": [
+          "cyan",
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "particle",
+          "beam",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "low",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "rapid-fire",
+          "energy-management",
+          "crowd-control",
+          "homing"
+        ],
+        "resourceCost": "에테리얼 에너지 (Ethereal Energy)",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~3f (발사당)",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "바람 위빙은 게임의 삼속성(바람·물·불) 균형 구조에서 '속도와 다수 타격' 역할을 담당하며, 마법 액션에 FPS 장르의 탄창 관리 개념을 이식한 점이 핵심 설계 포인트다. 에너지가 완전히 고갈되기 전에 수동 리로드(인 모션 재실행)를 수행하면 보너스 에너지를 회복하는 '퍼펙트 리로드' 구조를 두어, 숙련 플레이어에게 지속적인 스킬 익스프레션 기회를 제공한다. 손가락 인(印) 동작이라는 비주얼 모티프는 '마법 총잡이'라는 장르 혼합 판타지를 직관적으로 전달하고, 빠른 파티클 이펙트와 경쾌한 타격음이 연사 피드백을 강화한다. 셋 중 DPS는 높지만 단발 위력이 낮아 보스전보다 잡졸 대응에 자연스럽게 배정되며, 이는 플레이어가 상황마다 적합한 속성을 스스로 선택하도록 유도하는 전략적 레이어를 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ghostwire%3A+Tokyo+%EB%B0%94%EB%9E%8C+%EC%97%B0%EC%82%AC+%EC%9C%84%EB%B9%99+%28Wind+Rapid-Fire+Weaving+%2F+%E9%A2%A8%E3%81%AE%E9%9C%8A%E5%8A%9B+%E9%80%9F%E5%B0%84%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "rapid-fire",
+        "wind",
+        "ethereal-weaving",
+        "energy-management",
+        "crowd-control",
+        "ranged",
+        "hand-gesture",
+        "magic-shooter",
+        "perfect-reload"
+      ],
+      "applicableWeapons": [
+        "에테리얼 위빙",
+        "결계술",
+        "마법"
+      ],
+      "id": "mg-023",
+      "addedDate": "2026-03-16"
     }
   ]
 }
