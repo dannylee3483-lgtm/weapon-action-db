@@ -29059,6 +29059,75 @@
       ],
       "id": "bw-025",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "키블레이드 / Keyblade (Kingdom Key)",
+      "game": "Kingdom Hearts III",
+      "developer": "Square Enix",
+      "actionName": "아르스 아르카눔 (Ars Arcanum)",
+      "actionType": "콤보 피니셔",
+      "description": "소라가 키블레이드를 초고속으로 휘두르며 전방 적에게 최대 13연타의 연속 참격을 퍼붓는 지상 콤보 피니셔. 마지막 타격은 강력한 수직 내리베기로 마무리되며, 각 히트마다 타격음과 이펙트가 누적되어 피격 적을 계속 경직 상태에 묶어둔다. 광역 판정 덕분에 단일 적 외에 주변 다수의 적에게도 동시에 적중하는 상황이 자주 발생한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "crowd-control",
+          "continuous-stagger"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~65f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "아르스 아르카눔은 KH 시리즈 초창기부터 이어진 상징적 피니셔로, '콤보 유지에 대한 보상'을 시청각적으로 극대화한 설계의 교과서다. 히트 수가 쌓일수록 타격음·이펙트·화면 흔들림이 점층적으로 강해지는 구조는 플레이어가 공격 리듬을 끊지 않고 콤보를 이어가도록 내재적 동기를 부여한다. 또한 연속 경직 특성이 적의 반격 타이밍을 완전히 무력화하기 때문에, 피니셔 발동 자체가 '안전 창문 확보'라는 전술적 의미까지 갖는다. 다수 적 판정 범위를 통해 군중 속에서도 피니셔가 낭비되지 않도록 설계함으로써 실용성과 연출 만족도를 동시에 충족시키며, 이는 이후 수많은 JRPG 콤보 피니셔 설계의 레퍼런스가 되었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Kingdom+Hearts+III+%EC%95%84%EB%A5%B4%EC%8A%A4+%EC%95%84%EB%A5%B4%EC%B9%B4%EB%88%94+%28Ars+Arcanum%29+gameplay",
+        "images": [],
+        "wiki": "https://kingdomhearts.fandom.com/wiki/Ars_Arcanum",
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "combo-finisher",
+        "keyblade",
+        "crowd-control",
+        "continuous-stagger",
+        "action-rpg",
+        "rapid-slash",
+        "high-hitcount",
+        "jrpg"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "키블레이드"
+      ],
+      "id": "sw-027",
+      "addedDate": "2026-03-16"
     }
   ]
 }
