@@ -26743,6 +26743,80 @@
       ],
       "id": "db-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "마술 스피어 (Magick Spear)",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "임플리케이트 (Implicate)",
+      "actionType": "특수기",
+      "description": "스피어핸드가 마술이 깃든 창을 적에게 찔러 관통시킨 뒤, 마력으로 공중에 들어 올려 강하게 내동댕이치는 기술이다. 적을 꿰뚫은 채 이동할 수 있어 '어디에 투척할지'를 실시간으로 선택할 수 있으며, 투척된 적은 다른 주변 적에게 충돌 피해를 준다. 중형 이하 적을 완전히 무력화하는 강력한 군중 제어 기술이다.",
+      "motionType": [
+        "thrust",
+        "throw"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "purple",
+          "blue",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "launcher",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control",
+          "grab",
+          "gap-closer"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~35f (관통 유지 구간 포함)",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "Implicate는 '적을 무기로 직접 제어한다'는 물리적 판타지를 극적으로 구현한 기술로, 단순 피해 딜링을 넘어 적 자체를 투사체로 활용하는 이중 역할 설계가 핵심이다. 관통 후 이동 가능 구간을 두어 버튼만 누르면 끝나는 단순 입력이 아닌 '어디에, 어떤 각도로 던질 것인가'라는 공간적 판단을 요구함으로써 상황 인식의 깊이를 더한다. 마법과 창술을 융합한 스피어핸드 직업 정체성—물리적 돌파력과 마술적 제어력의 교차—을 단 하나의 기술로 함축하며, 적이 피해를 동시에 주고받는 체인 리워드 구조가 고위험 근접 진입에 대한 명확한 보상을 제공한다. 제어 기술임에도 투척 타이밍과 방향 선택으로 숙련도가 뚜렷이 드러나는 스킬 표현 공간이 잘 확보된 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EC%9E%84%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%ED%8A%B8+%28Implicate%29+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.wiki.fextralife.com/Implicate",
+        "gif": null
+      },
+      "tags": [
+        "grab",
+        "crowd-control",
+        "spear-thrust",
+        "throw",
+        "magic-spear",
+        "cc",
+        "poise-breaking",
+        "spearhand",
+        "chain-damage",
+        "positional"
+      ],
+      "applicableWeapons": [
+        "창",
+        "마술 창"
+      ],
+      "id": "sp-032",
+      "addedDate": "2026-03-16"
     }
   ]
 }
