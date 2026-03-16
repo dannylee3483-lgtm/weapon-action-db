@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:14",
+  "lastUpdated": "2026-03-17 07:15",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35578,6 +35578,79 @@
       ],
       "id": "cl-002",
       "addedDate": "2026-03-17 07:07"
+    },
+    {
+      "weaponCategory": "차크람",
+      "weaponSubtype": "글레이브 (Glaive)",
+      "game": "Warframe",
+      "developer": "Digital Extremes",
+      "actionName": "차지 투척 폭발 / Charged Throw Detonation",
+      "actionType": "특수기",
+      "description": "글레이브를 충전하여 전방으로 투척하면 적에게 맞거나 공중에서 수동으로 폭발 입력을 통해 광역 폭발을 일으킬 수 있다. 투척된 글레이브는 벽과 적 사이를 바운스하며 경로상의 모든 적을 타격하고, 폭발 후 손으로 귀환한다. 근접 콤보 도중에도 투척이 가능해 근거리와 원거리를 동시에 커버하는 하이브리드 전투 흐름을 구현한다.",
+      "motionType": [
+        "throw",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "silver",
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "aoe-explosion",
+          "bounce",
+          "crowd-control",
+          "return-mechanic",
+          "gap-closer"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~60f",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "글레이브의 핵심 설계 원칙은 '리콜 메카닉'을 통한 근·원거리 통합 전투 흐름이다. 투척 후 귀환하는 궤적 동안 플레이어가 다른 무기를 사용하거나 회피할 수 있어, 단일 입력으로 다중 위협을 동시에 처리하는 복잡한 전술 공간이 열린다. 폭발 타이밍을 플레이어가 수동으로 결정하는 구조는 '예측 가능한 리스크와 가변적 리워드'라는 스킬 표현의 핵심을 구현하며, 숙련도에 따라 피해 효율이 극적으로 달라진다. 바운스 메카닉은 시각적 화려함과 함께 엄폐물이 많은 환경에서도 유효타를 노리는 퍼즐적 재미를 제공한다. 콤보 도중 자연스럽게 투척으로 전환되는 흐름은 원거리 공격을 별개의 모드가 아닌 근접 콤보의 연장으로 느껴지게 해, 무기 정체성의 일관성을 유지하는 탁월한 구조적 선택이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%B0%A8%EC%A7%80+%ED%88%AC%EC%B2%99+%ED%8F%AD%EB%B0%9C+%2F+Charged+Throw+Detonation+gameplay",
+        "images": [],
+        "wiki": "https://warframe.fandom.com/wiki/Glaive",
+        "gif": null
+      },
+      "tags": [
+        "chakram",
+        "return-mechanic",
+        "aoe-explosion",
+        "crowd-control",
+        "bounce",
+        "hybrid-melee-ranged",
+        "skill-expression",
+        "throw",
+        "combo-integration"
+      ],
+      "applicableWeapons": [
+        "차크람",
+        "투척무기",
+        "글레이브"
+      ],
+      "id": "ck-002",
+      "addedDate": "2026-03-17 07:15"
     }
   ]
 }
