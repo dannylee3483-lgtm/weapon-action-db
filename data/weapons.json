@@ -30715,6 +30715,75 @@
       ],
       "id": "ft-037",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "보우 (Bow) — 목재궁·포레스트 드와프 보우 등 전 종류",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo EPD",
+      "actionName": "공중 조준 슬로우모션 (Aerial Aim / 空中狙い撃ち)",
+      "actionType": "특수기",
+      "description": "점프·백플립·측면 구르기 직후 활을 겨누면 주변 시간이 대폭 느려지는 '공중 탄환 시간(Bullet Time)' 상태가 발동된다. 이 상태에서 링크는 스태미나가 소진될 때까지 정밀 조준으로 화살을 발사할 수 있으며, 적의 눈·무릎·핵심 부위 등 약점을 노려 특수 경직 및 다운을 유발할 수 있다. 스태미나가 다하거나 화살을 쏜 뒤 착지하면 슬로우모션이 즉시 해제된다.",
+      "motionType": [
+        "leap",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "weak-point-targeting",
+          "aerial",
+          "stamina-limited",
+          "multi-shot"
+        ],
+        "resourceCost": "스태미나 (슬로우모션 지속 시간 소모)",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "스태미나 소진 시까지 (약 1~3초)",
+          "recovery": "~20f (착지 후)"
+        }
+      },
+      "designNotes": "점프라는 단순하고 보편적인 행동에 '시간 감속'이라는 보상을 직결시켜, 공중 피격 취약이라는 리스크를 자발적으로 감수하게 만드는 전형적인 리스크-리워드 구조다. 스태미나 게이지가 슬로우모션의 한계를 결정함으로써 자원 관리·순간 판단·조준 정밀도 세 가지가 동시에 요구되며, 숙련자와 초보자의 플레이 격차가 자연스럽게 드러난다. 보스 약점 명중 시 쓰러짐 연출을 즉각 부여하여 정밀 사격의 의미를 명확히 하고, 조준 성공에 대한 피드백이 강렬하다. 높은 지형·몬스터 라이딩·Stasis 연계 등 오픈월드 시스템과 결합하면 전략 폭이 지수적으로 확장되며, 시스템 외부와의 시너지를 통해 탐색 동기와 전투 동기를 동시에 강화하는 보기 드문 설계다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EA%B3%B5%EC%A4%91+%EC%A1%B0%EC%A4%80+%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%AA%A8%EC%85%98+%28Aerial+Aim+%2F+%E7%A9%BA%E4%B8%AD%E7%8B%99%E3%81%84%E6%92%83%E3%81%A1%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Bow_(Breath_of_the_Wild)",
+        "gif": null
+      },
+      "tags": [
+        "bullet-time",
+        "aerial",
+        "weak-point",
+        "time-slow",
+        "stamina-management",
+        "precision-shot",
+        "risk-reward",
+        "open-world-synergy",
+        "bow"
+      ],
+      "applicableWeapons": [
+        "활"
+      ],
+      "id": "bw-028",
+      "addedDate": "2026-03-16"
     }
   ]
 }
