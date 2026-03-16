@@ -23388,6 +23388,79 @@
       ],
       "id": "gs-045",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "Sister Blades (자매의 단도)",
+      "game": "Hades II",
+      "developer": "Supergiant Games",
+      "actionName": "오메가 스페셜 / Omega Special (Ω Special)",
+      "actionType": "차지 특수기",
+      "description": "메가(Melinoë)가 마력(Magick)을 소모하여 양 단도를 충전한 뒤, 전방 넓은 원호를 그리며 강하게 투척하는 강화형 특수기. 단도는 적을 관통하며 날아간 후 자동으로 손에 귀환하여 투척-귀환 경로 전체에 걸쳐 복수의 히트를 발생시킨다. 차지 완료 시 투척 범위와 충격력이 크게 증가하며, 신의 축복(Boon) 효과가 투척 경로 전체에 적용된다.",
+      "motionType": [
+        "throw",
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "비전",
+        "effectColor": [
+          "purple",
+          "cyan",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "homing",
+          "area-denial",
+          "resource-gated"
+        ],
+        "resourceCost": "마력(Magick)",
+        "frameApprox": {
+          "startup": "~45f (차지 완료 기준)",
+          "active": "~35f (귀환 포함)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "오메가 스페셜은 근거리 무기인 쌍검의 고유 약점인 '사거리 한계'를 마력 자원을 소모함으로써 일시적으로 극복하게 해주는 리스크-리워드 설계의 정수다. 차지 중 이동이 제한되는 취약 구간이 존재하므로 사용 타이밍 판단이 요구되며, 이것이 단순 버튼 연타와 차별화되는 기술적 심도를 만든다. 귀환 메카닉은 투척 단계와 귀환 단계 모두에서 히트 판정이 발생해 단일 입력 대비 정보량이 높고, 신의 축복이 전체 경로에 누적 적용되므로 빌드 다양성이 폭발적으로 확장된다. 마력이라는 공유 자원을 사용하기 때문에 다른 오메가 기술과의 우선순위 판단이 매 전투의 핵심 의사결정 구조로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Hades+II+%EC%98%A4%EB%A9%94%EA%B0%80+%EC%8A%A4%ED%8E%98%EC%85%9C+%2F+Omega+Special+%28%CE%A9+Special%29+gameplay",
+        "images": [],
+        "wiki": "https://hades.fandom.com/wiki/Sister_Blades",
+        "gif": null
+      },
+      "tags": [
+        "dual-blades",
+        "charge-attack",
+        "throw-return",
+        "magick-cost",
+        "multi-hit",
+        "boon-synergy",
+        "area-control",
+        "omega-mechanic",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "단도"
+      ],
+      "id": "db-022",
+      "addedDate": "2026-03-16"
     }
   ]
 }
