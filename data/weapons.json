@@ -28780,6 +28780,79 @@
       ],
       "id": "ft-035",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "일반 활 (Standard Bow)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "공중 시간감속 사격 (Mid-Air Bullet Time)",
+      "actionType": "특수기",
+      "description": "점프·낙하·활강 중 활을 꺼내는 순간 주변 시간이 대폭 느려지며 공중에서 정밀 조준이 가능해지는 메카닉이다. 링크는 잠시 허공에 정지한 듯 유영하면서 적의 눈·관절 등 약점 부위나 원거리 스위치를 정확히 겨냥할 수 있다. 스태미나 게이지가 소진되거나 착지하면 시간 감속이 즉시 해제되어 일반 흐름으로 복귀한다.",
+      "motionType": [
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "precision-shot",
+          "aerial",
+          "weak-point-targeting"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "스태미나 소진 시까지 (~2~4초)",
+          "recovery": "착지 후 ~15f"
+        }
+      },
+      "designNotes": "물리적 취약 상태(공중 부유)를 전략적 우위로 전환하는 리스크-리워드 설계의 정수를 보여준다. 시간 감속이라는 즉각적·직관적 피드백이 '영웅적 순간'을 플레이어 스스로 만들어 냈다는 성취감을 극대화한다. 스태미나 제한이 무한 남용을 차단하면서도 진입 문턱이 낮아 초보자도 즉시 시도할 수 있고, 숙련자는 낙하각·화살 종류·목표 부위를 조합해 깊은 숙련도를 표현할 수 있다. 보스전의 약점 공략, 퍼즐 스위치 조작, 스텔스 원샷 등 다양한 맥락에서 동일한 메카닉이 자연스럽게 기능하여 활용 폭이 매우 넓다. 타 장르의 '슬로 모션 회피' 문법을 공중 사격에 접목한 독창적인 해석으로, 이후 수많은 오픈월드 액션 게임에 영향을 주었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EA%B3%B5%EC%A4%91+%EC%8B%9C%EA%B0%84%EA%B0%90%EC%86%8D+%EC%82%AC%EA%B2%A9+%28Mid-Air+Bullet+Time%29+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Bow_(Breath_of_the_Wild)",
+        "gif": null
+      },
+      "tags": [
+        "bullet-time",
+        "aerial",
+        "time-slow",
+        "precision-shot",
+        "weak-point",
+        "stamina-management",
+        "skill-expression",
+        "open-world",
+        "bow",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "활",
+        "연사 활",
+        "장거리 활",
+        "폭발 활",
+        "왕의 활"
+      ],
+      "id": "bw-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
