@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:38",
+  "lastUpdated": "2026-03-16 22:40",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30643,6 +30643,76 @@
       ],
       "id": "kt-062",
       "addedDate": "2026-03-16 22:38"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "엘레오노라의 폴블레이드 (Eleonora's Poleblade)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "피의 날춤 / Bloodblade Dance",
+      "actionType": "무기술 (Ash of War)",
+      "description": "엘레오노라의 폴블레이드 전용 무기술로, 플레이어가 유려한 춤사위 모션으로 연속 회전 베기를 시전하며 핏빛 마법 이펙트를 남긴다. 총 5타 이상의 다단 히트로 구성되며, 마지막 타격은 강력한 상향 베기로 마무리된다. 각 타격마다 출혈 수치가 누적되어 적에게 빠른 속도로 출혈(Hemorrhage)을 유발한다.",
+      "motionType": [
+        "slash",
+        "spin",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "출혈",
+        "effectColor": [
+          "red",
+          "purple"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "bleed-buildup",
+          "multi-hit",
+          "poise-breaking"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~65f",
+          "recovery": "~45f"
+        }
+      },
+      "designNotes": "피의 날춤은 다단 히트와 출혈 메카닉을 결합하여 짧은 유효 범위라는 리스크를 높은 DPS 보상으로 상쇄하는 전형적인 리스크-리워드 구조를 가진다. 애니메이션의 춤추는 듯한 우아한 흐름이 각 타격 타이밍과 자연스럽게 맞물려, 플레이어에게 강한 '블레이드 댄서' 액션 판타지를 제공한다. 출혈 스택이 콤보 내에서 빠르게 임계점에 도달하도록 설계되어, 보스의 큰 딜 창을 짧게 잡아도 출혈 폭발 보상을 얻을 수 있다. 전용 고정 모션으로 제한함으로써 무기의 정체성을 강화하고, 타 무기로 전용 불가 처리해 희소성과 빌드 아이덴티티를 동시에 확보한다. 최종 타격의 상방 베기는 콤보 마무리의 명확한 시각적 결말감을 부여해 피드백 설계 면에서도 완결성이 높다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%94%BC%EC%9D%98+%EB%82%A0%EC%B6%A4+%2F+Bloodblade+Dance+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Bloodblade+Dance",
+        "gif": null
+      },
+      "tags": [
+        "bleed-buildup",
+        "multi-hit",
+        "ash-of-war",
+        "unique-weapon-art",
+        "spin-attack",
+        "high-dps",
+        "dual-blade",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "폴블레이드"
+      ],
+      "id": "db-029",
+      "addedDate": "2026-03-16 22:40"
     }
   ]
 }
