@@ -28566,6 +28566,78 @@
       ],
       "id": "ax-036",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "Nevan (기타형 낫)",
+      "game": "Devil May Cry 3: Dante's Awakening",
+      "developer": "Capcom",
+      "actionName": "잼 세션 (Jam Session)",
+      "actionType": "차지 공격",
+      "description": "단테가 네반을 기타처럼 연주하는 자세를 취하며 공격 버튼을 길게 누르는 동안 주변에 번개와 박쥐 떼를 지속적으로 소환한다. 유지 시간에 비례해 피해량이 증가하며, 근접 적 다수를 동시에 타격하는 지속형 광역 공격이다. 스타일 포인트(Style Meter)를 빠르게 채울 수 있어 콤보 루틴의 핵심 게이지 충전 수단으로 활용된다.",
+      "motionType": [
+        "charge",
+        "combo"
+      ],
+      "element": {
+        "type": "번개",
+        "effectColor": [
+          "purple",
+          "yellow",
+          "black"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "continuous",
+        "comboRole": [
+          "extender",
+          "ender"
+        ],
+        "specialProperties": [
+          "area-of-effect",
+          "hold-to-extend",
+          "multi-hit",
+          "style-meter-builder"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "hold-variable (~60f~)",
+          "recovery": "~28f"
+        }
+      },
+      "designNotes": "잼 세션은 '무기 자체가 퍼포먼스'라는 DMC3의 스타일 철학을 가장 극단적으로 구현한 사례다. 낫이라는 무기에 기타 연주 애니메이션을 결합함으로써 전투를 록 공연처럼 연출하는 시각적·청각적 피드백이 일체화되어 있다. 버튼을 누른 시간만큼 피해가 누적되는 '홀드 & 릴리즈' 구조는 단순한 입력에도 판단의 깊이를 부여하며, 적에게 둘러싸인 상황에서 강력한 리워드를 제공하는 대신 회피 불가 구간을 감수해야 하는 명확한 리스크-리워드 트레이드오프를 형성한다. 스타일 미터와의 연동으로 공격 지속 자체가 다음 기술의 강화로 이어지는 양의 피드백 루프도 정교하게 설계되어 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Devil+May+Cry+3%3A+Dante%27s+Awakening+%EC%9E%BC+%EC%84%B8%EC%85%98+%28Jam+Session%29+gameplay",
+        "images": [],
+        "wiki": "https://devilmaycry.fandom.com/wiki/Nevan_(weapon)",
+        "gif": null
+      },
+      "tags": [
+        "lightning",
+        "area-of-effect",
+        "hold-attack",
+        "style-meter-builder",
+        "multi-hit",
+        "guitar-scythe",
+        "crowd-control",
+        "unique-weapon",
+        "risk-reward",
+        "continuous-damage"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "특수 무기"
+      ],
+      "id": "sc-024",
+      "addedDate": "2026-03-16"
     }
   ]
 }
