@@ -25599,6 +25599,74 @@
       ],
       "id": "wh-033",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "창",
+      "weaponSubtype": "장전 창 (Loaded Spear / 仕込み槍)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "찢기 / Rending (仕込み槍・引き裂き)",
+      "actionType": "특수기",
+      "description": "의수 닌자 도구 '장전 창'으로 적을 찌른 뒤, 레버를 회전 입력하여 창날을 비틀어 내장을 뜯어내는 연계 공격이다. 갑옷이나 방패를 착용한 적에게 특히 강력하며, 일부 적의 장비를 실제로 탈거시키는 고유 인터랙션이 존재한다. 자세(Posture) 피해량이 극도로 높아 특정 미니보스·보스 공략의 필수 수단으로 활용된다.",
+      "motionType": [
+        "thrust",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red"
+        ],
+        "effectStyle": [
+          "particle",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "armor-strip",
+          "interactive-input",
+          "posture-focused"
+        ],
+        "resourceCost": "선인의 먹이 (Spirit Emblems)",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~30f (회전 입력 지속 중)",
+          "recovery": "~25f"
+        }
+      },
+      "designNotes": "장전 창 찢기는 '공격 중 레버 회전 입력'이라는 추가 조작을 요구함으로써 창을 실제로 비틀고 있다는 물리적 몰입감을 극대화한다. 이는 버튼 하나로 완결되는 대부분의 액션과 달리, 플레이어가 능동적으로 공격 과정에 참여하게 만드는 독창적인 UX 설계다. 갑옷·방패 적에게 적용 시 장비가 탈거되는 시스템은 '적의 취약점을 파악하고 그것을 공략하는 보람'을 시각적으로 명확하게 전달한다. 단순 HP 피해가 아닌 자세(Posture) 특화 피해로 설계되어, 도검 공격과 의수 도구가 상호보완적으로 맞물리도록 유도한다. 이는 Sekiro 전투의 핵심 루프인 '자세 파괴 → 인살(처형)'과 완벽하게 통합된 리소스 분배 설계의 모범 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%B0%A2%EA%B8%B0+%2F+Rending+%28%E4%BB%95%E8%BE%BC%E3%81%BF%E6%A7%8D%E3%83%BB%E5%BC%95%E3%81%8D%E8%A3%82%E3%81%8D%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiroshadowsdietwice.wiki.fextralife.com/Loaded+Spear",
+        "gif": null
+      },
+      "tags": [
+        "posture-damage",
+        "armor-strip",
+        "interactive-input",
+        "prosthetic-tool",
+        "poise-breaking",
+        "high-risk-reward",
+        "counter-tool",
+        "spear",
+        "sekiro"
+      ],
+      "applicableWeapons": [
+        "창",
+        "의수 닌자 도구"
+      ],
+      "id": "sp-030",
+      "addedDate": "2026-03-16"
     }
   ]
 }
