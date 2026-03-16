@@ -27546,6 +27546,79 @@
       ],
       "id": "mg-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "불굴의 방패 (Dauntless Shield)",
+      "game": "God of War Ragnarök",
+      "developer": "Santa Monica Studio",
+      "actionName": "완벽 방어 반격 (Perfect Block Counter)",
+      "actionType": "패리|카운터",
+      "description": "적의 공격이 닿기 직전 정확한 타이밍에 L1을 눌러 완벽 방어를 성공시키면, 방패 전면에서 충격파가 폭발하며 주변 적을 넉백시키고 강한 스태거를 부여하는 반격이 발동된다. 일반 방어와 달리 불굴의 방패는 지속 홀드 시 칩 대미지를 일부 받는 대신, 완벽 방어 성공 시 공격자에게 훨씬 큰 패널티를 부과하는 하이리스크-하이리워드 구조를 갖는다. 성공 여부는 화면 진동, 독특한 타격음, 금빛 충격파 이펙트로 즉각 피드백되어 플레이어의 숙련도를 시각·청각적으로 확인시켜준다.",
+      "motionType": [
+        "parry",
+        "counter"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "area-of-effect",
+          "poise-armor",
+          "chip-damage-vulnerability"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~6f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "불굴의 방패의 완벽 방어는 동일 게임 내 다른 방패(가디언 실드의 안전한 홀드 방어, 스톤월 실드의 차지 돌격)와 대비되는 명확한 플레이 스타일 차별화의 좋은 사례다. 같은 입력(L1)에 타이밍 숙련도라는 변수 하나만 추가함으로써, 초보자는 홀드 방어로 생존하고 숙련자는 완벽 방어로 전투 주도권을 빼앗는 두 계층의 플레이를 동시에 지원한다. 완벽 방어 성공 시의 충격파는 멀티 히트 적중과 AoE 넉백을 동반해 방어적 행동이 즉각 공세 전환의 시작점이 되도록 설계되어, '방패=수동적 도구'라는 고정관념을 깨뜨린다. 좁은 패리 윈도우는 실패에 대한 실질적 리스크(칩 대미지)와 결합되어 성공의 보상감을 극대화하며, 플레이어가 적의 공격 패턴을 능동적으로 학습하도록 유도하는 행동 강화 루프를 형성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+of+War+Ragnar%C3%B6k+%EC%99%84%EB%B2%BD+%EB%B0%A9%EC%96%B4+%EB%B0%98%EA%B2%A9+%28Perfect+Block+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://godofwar.fandom.com/wiki/Dauntless_Shield",
+        "gif": null
+      },
+      "tags": [
+        "parry",
+        "counter",
+        "shield",
+        "risk-reward",
+        "perfect-block",
+        "stagger",
+        "knockback",
+        "timing-based",
+        "defensive-offense",
+        "playstyle-differentiation"
+      ],
+      "applicableWeapons": [
+        "방패",
+        "불굴의 방패"
+      ],
+      "id": "sh-019",
+      "addedDate": "2026-03-16"
     }
   ]
 }
