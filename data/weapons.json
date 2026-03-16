@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 08:05",
+  "lastUpdated": "2026-03-17 08:06",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37852,6 +37852,70 @@
       ],
       "id": "tf-002",
       "addedDate": "2026-03-17 08:05"
+    },
+    {
+      "weaponCategory": "방패",
+      "weaponSubtype": "나이트 실드 / Knight Shield",
+      "game": "Dragon's Dogma: Dark Arisen",
+      "developer": "Capcom",
+      "actionName": "방패 연타 / Shield Drum",
+      "actionType": "무기술",
+      "description": "파이터·미스틱 나이트 직업이 방패를 수직으로 연속 강타하는 공격 기술로, 3~4회 반복 타격해 근거리 적을 연속 경직시킨다. 입력을 유지하는 동안 타격이 반복되며, 상대의 자세를 계속 무너뜨려 추가 공격 창구를 만든다. 방어 도구인 방패를 순수 타격 무기로 전환한다는 점에서 직관에 반(反)하는 독특한 디자인이다.",
+      "motionType": [
+        "combo",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "stagger-lock",
+          "interrupt"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~6f (타격당)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Shield Drum은 '방패 = 방어'라는 플레이어의 고정관념을 의도적으로 뒤집어 방패를 능동적 공격 도구로 재정의한다. 연속 타격마다 경직이 쌓이는 '스태거 루프' 구조는 적의 행동을 완전히 억제하는 강력한 보상을 주지만, 사용 중에는 가드 불가 상태가 되어 명확한 리스크-리워드 균형을 형성한다. 타격 횟수에 따라 스태미나가 소모되므로 자원 관리 판단이 지속적으로 요구되며, 이는 공격을 '언제 끊느냐'는 전략적 결정으로 이어진다. 방패가 무기 체계 안에서 공격적 역할도 담당하게 함으로써 파이터 직업의 플레이 폭을 크게 넓히는 디자인 사례로, 도구의 다의성(multi-purpose design)이 전투 표현력을 어떻게 확장하는지를 잘 보여준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma%3A+Dark+Arisen+%EB%B0%A9%ED%8C%A8+%EC%97%B0%ED%83%80+%2F+Shield+Drum+gameplay",
+        "images": [],
+        "wiki": "https://dragonsdogma.wiki.fextralife.com/Shield+Drum",
+        "gif": null
+      },
+      "tags": [
+        "shield-offense",
+        "stagger-lock",
+        "combo",
+        "short-range",
+        "poise-breaking",
+        "multi-hit",
+        "fighter",
+        "resource-management"
+      ],
+      "applicableWeapons": [
+        "방패"
+      ],
+      "id": "sh-020",
+      "addedDate": "2026-03-17 08:06"
     }
   ]
 }
