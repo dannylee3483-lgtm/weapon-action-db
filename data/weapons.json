@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:05",
+  "lastUpdated": "2026-03-16 22:07",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -29858,6 +29858,80 @@
       ],
       "id": "kt-061",
       "addedDate": "2026-03-16 22:05"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "쌍단검 (Twin Swords)",
+      "game": "Granblue Fantasy: Relink",
+      "developer": "Cygames",
+      "actionName": "터뷸런스 / Turbulence",
+      "actionType": "특수기",
+      "description": "란슬롯이 양손의 검을 바깥쪽으로 회전시키며 전방으로 돌진, 경로상의 모든 적을 연속으로 베어 나가는 고속 회전 다단 히트 기술이다. 발동 직후 짧은 무적 판정이 존재하며, 회전 중 발생하는 다수의 타격이 적의 포이즈를 빠르게 소모시킨다. 마지막 타격은 단일 고대미지 슬래시로 마무리되어 리듬감 있는 기승전결 구조를 완성한다.",
+      "motionType": [
+        "spin",
+        "slash",
+        "combo",
+        "gap-closer"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "silver",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "multi-hit",
+          "poise-breaking",
+          "gap-closer",
+          "brief-invincibility"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~6f",
+          "active": "~48f",
+          "recovery": "~18f"
+        }
+      },
+      "designNotes": "Turbulence는 '고속 이동 + 다단 히트 + 강화 피니시'라는 쌍검 판타지의 교과서적 구현이다. 돌진 구간에서의 짧은 무적 프레임은 공격과 회피를 동시에 수행하는 리스크-리워드 설계로, 플레이어가 위험한 타이밍에 기술을 사용하도록 능동적으로 유도한다. 다단 히트 구조는 포이즈 브레이크를 자연스럽게 유도해 파티 플레이에서의 역할 분담(경직 유발 → 동료 대미지)을 명확히 한다. 마지막 단타 피니시는 연속 타격 이후 오는 강한 임팩트로 피드백 대비(contrast)를 극대화하여 타격감의 쾌감 곡선을 의도적으로 설계한 것으로 보인다. 전체 모션이 란슬롯의 기사 캐릭터성과도 일치하며, 기술의 우아한 회전 모션이 시각적 아이덴티티로도 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Granblue+Fantasy%3A+Relink+%ED%84%B0%EB%B7%B8%EB%9F%B0%EC%8A%A4+%2F+Turbulence+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "multi-hit",
+        "gap-closer",
+        "spin-attack",
+        "poise-breaking",
+        "brief-invincibility",
+        "dual-sword",
+        "combo-finisher",
+        "action-rpg",
+        "fantasy"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "쌍단검"
+      ],
+      "id": "db-028",
+      "addedDate": "2026-03-16 22:07"
     }
   ]
 }
