@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:26",
+  "lastUpdated": "2026-03-16 22:30",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30428,6 +30428,79 @@
       ],
       "id": "gs-056",
       "addedDate": "2026-03-16 22:26"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "암흑기사검 (Greatsword of the Dark Knight)",
+      "game": "Final Fantasy XIV Online",
+      "developer": "Square Enix",
+      "actionName": "리빙 섀도우 / Living Shadow (リビングシャドウ)",
+      "actionType": "특수기",
+      "description": "암흑기사가 6000의 혈기(Blood Gauge)를 소모해 자신의 내면 어둠을 실체화한 분신 '에스팀(Esteem)'을 소환하는 기술. 에스팀은 약 24초간 독립적으로 움직이며 암흑기사의 핵심 콤보 기술들(Shadowbringer, Edge of Shadow, Flood of Shadow 등)을 자동으로 모방해 5회의 섀도우 속성 공격을 가한다. 플레이어가 자신의 로테이션을 수행하는 동안 분신이 동시에 공격하여 실질적인 순간 화력을 대폭 증폭시키는 버스트 쿨다운 기술이다.",
+      "motionType": [
+        "slash",
+        "combo"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "purple",
+          "black"
+        ],
+        "effectStyle": [
+          "aura",
+          "slash-trail",
+          "particle",
+          "shimmer"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "summon-clone",
+          "burst-window",
+          "resource-dump",
+          "shadow-damage",
+          "auto-action"
+        ],
+        "resourceCost": "혈기 게이지 6000 (Blood Gauge)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~1440f (24초)",
+          "recovery": "~30f"
+        }
+      },
+      "designNotes": "Living Shadow는 '내면의 어둠과 화해'라는 암흑기사 직업 스토리(Shadowbringers)의 서사적 테마를 전투 메카닉으로 직접 번역한 설계의 정수다. 플레이어 캐릭터의 그림자 분신이 독립적으로 싸운다는 시각적 연출이 직업 정체성의 '자기 파괴적 힘을 다스린다'는 개념과 완벽하게 일치한다. 버스트 창(Burst Window) 설계 면에서도 탁월한데, 분신의 공격이 시작되기까지 딜레이가 있어 플레이어가 분신 소환 직전에 다른 오프글로벌 쿨다운을 정렬(align)해야 하는 타이밍 스킬을 요구하며, 숙련도에 따라 딜 차이가 극명하게 벌어진다. 또한 혈기 게이지 6000 소모라는 명확한 자원 비용이 '최적의 시점에 쏟아붓는다'는 리스크-리워드 의사결정을 지속적으로 강제한다. 보라빛-검정 실루엣이라는 뚜렷한 시각적 피드백이 분신의 활성 상태를 직관적으로 전달하여 플레이어가 별도의 UI 없이도 쿨다운 상태를 인식할 수 있다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+Online+%EB%A6%AC%EB%B9%99+%EC%84%80%EB%8F%84%EC%9A%B0+%2F+Living+Shadow+%28%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%A3%E3%83%89%E3%82%A6%29+gameplay",
+        "images": [],
+        "wiki": "https://ffxiv.consolegameswiki.com/wiki/Living_Shadow",
+        "gif": null
+      },
+      "tags": [
+        "shadow-clone",
+        "burst-window",
+        "resource-management",
+        "mmo-action",
+        "dark-energy",
+        "greatsword",
+        "summon",
+        "cooldown",
+        "identity-design",
+        "rotation-core"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "암흑기사검"
+      ],
+      "id": "gs-057",
+      "addedDate": "2026-03-16 22:30"
     }
   ]
 }
