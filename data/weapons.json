@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:58",
+  "lastUpdated": "2026-03-17 07:01",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -35087,6 +35087,75 @@
       ],
       "id": "nc-002",
       "addedDate": "2026-03-17 06:58"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "弓 (유미, 일본 전통 장궁)",
+      "game": "Nioh 2",
+      "developer": "Team Ninja",
+      "actionName": "폭렬시 / 爆裂矢 (Explosive Arrow)",
+      "actionType": "무기술",
+      "description": "기(Ki)를 소모해 화살촉에 폭발 장약을 장전한 뒤 발사하는 능동 스킬. 화살이 적이나 지형에 명중하는 순간 범위 폭발이 발생해 주변 적 다수에게 화염 피해와 넉백을 가한다. 단일 타격 중심의 활에 광역 견제 옵션을 부여하며, 장거리 폭격으로 군집 분산에 활용 가능하다.",
+      "motionType": [
+        "charge",
+        "throw"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "orange",
+          "red",
+          "yellow"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "finisher"
+        ],
+        "specialProperties": [
+          "aoe",
+          "knockdown",
+          "crowd-control",
+          "poise-breaking"
+        ],
+        "resourceCost": "기(Ki)",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~8f",
+          "recovery": "~50f"
+        }
+      },
+      "designNotes": "Nioh 2의 전투는 '기압파'로 자세를 무너뜨리는 구조를 핵심으로 삼는다. 爆裂矢는 이 시스템 안에서 활이 갖기 어려운 '광역 기 소모' 역할을 부여받아, 원거리 무기의 안전 거리 확보라는 장점과 근접 기압파 루프의 연장이라는 두 가치를 동시에 제공한다. 화염 속성 부착으로 원소 상태이상(발화)까지 유발 가능해 불 속성에 취약한 적에 대한 추가 딜 경로를 열어준다. Ki 소모라는 비용은 근접 전투 자원과의 경쟁 관계를 형성해, 활을 보조 무기로 사용할 때 플레이어가 자원 배분을 신중히 고려하게 만드는 트레이드오프 설계다. 근접-원거리 전환의 흐름 속에서 폭발 연출의 임팩트가 전환 타이밍에 명확한 리듬감을 부여하는 점도 게임 필감 강화에 기여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Nioh+2+%ED%8F%AD%EB%A0%AC%EC%8B%9C+%2F+%E7%88%86%E8%A3%82%E7%9F%A2+%28Explosive+Arrow%29+gameplay",
+        "images": [],
+        "wiki": "https://nioh.wiki.fextralife.com/Exploding+Rounds",
+        "gif": null
+      },
+      "tags": [
+        "explosive-arrow",
+        "aoe",
+        "fire-element",
+        "crowd-control",
+        "ki-cost",
+        "knockdown",
+        "range-control",
+        "resource-tradeoff"
+      ],
+      "applicableWeapons": [
+        "활",
+        "弓"
+      ],
+      "id": "bw-032",
+      "addedDate": "2026-03-17 07:01"
     }
   ]
 }
