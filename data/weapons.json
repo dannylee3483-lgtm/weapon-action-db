@@ -32581,6 +32581,74 @@
       ],
       "id": "wh-053",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "그레이트소드 (Greatsword)",
+      "game": "Dragon Age: Inquisition",
+      "developer": "BioWare",
+      "actionName": "회오리 베기 / Whirlwind",
+      "actionType": "특수기",
+      "description": "전사가 그레이트소드를 양손으로 붙잡고 제자리에서 고속 회전하며 주변 360도 범위의 모든 적에게 연속 타격을 가하는 광역 기술. 회전이 지속되는 동안 범위 내 적 전체가 다단 피해를 받으며, 군중 섬멸에 특화된 딜링 기술이다. 재사용 대기시간이 존재하며 발동 중에는 이동이 제한되어 진입 전 위치 선정이 핵심이다.",
+      "motionType": [
+        "spin",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gray"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "medium",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "360-aoe",
+          "multi-hit"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~20f",
+          "active": "~60f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "Whirlwind은 위치 선정과 발동 타이밍의 트레이드오프를 통해 리스크-리워드 구조를 명확히 구현한 기술이다. 회전 중 이동 불가라는 제약은 플레이어가 군중 한복판으로 뛰어들기 전 전장 구도를 파악하도록 자연스럽게 유도하며, 다수 적 동시 섬멸이라는 강력한 보상으로 이를 정당화한다. 대검 특유의 느린 개별 공격 속도를 회전 지속 시간으로 보완해 '느리지만 강력하다'는 무기 판타지를 유지하면서 군중 처리 능력을 부여하는 설계가 뛰어나다. 업그레이드 트리를 통해 회전 중 방어력 증가나 지속 시간 연장 같은 커스터마이징이 가능해 플레이어의 전투 스타일 표현 폭을 넓힌다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon+Age%3A+Inquisition+%ED%9A%8C%EC%98%A4%EB%A6%AC+%EB%B2%A0%EA%B8%B0+%2F+Whirlwind+gameplay",
+        "images": [],
+        "wiki": "https://dragonage.fandom.com/wiki/Whirlwind",
+        "gif": null
+      },
+      "tags": [
+        "spin-attack",
+        "aoe",
+        "crowd-control",
+        "two-handed",
+        "warrior",
+        "multi-hit",
+        "cooldown",
+        "360-degree"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "두손 무기"
+      ],
+      "id": "gs-053",
+      "addedDate": "2026-03-16"
     }
   ]
 }
