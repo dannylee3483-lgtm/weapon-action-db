@@ -31937,6 +31937,80 @@
       ],
       "id": "ft-040",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "대검",
+      "weaponSubtype": "Starscourge Greatswords (스타스쿠어지 쌍 대검)",
+      "game": "Elden Ring",
+      "developer": "FromSoftware",
+      "actionName": "스타콜러 크라이 (Starcaller Cry)",
+      "actionType": "전회 기술 (Ash of War)",
+      "description": "스타스쿠어지 대검 전용 전회 기술로, 두 팔을 양옆으로 벌리며 중력 에너지를 방출해 주변 적들을 자신의 발 앞으로 강제 끌어당긴다. 집결이 완료되면 쌍 대검을 머리 위로 교차하여 지면에 내리꽂으며 중력 폭발을 일으켜 광역 피해를 준다. 성왕 라단의 시그니처 기술을 플레이어가 계승할 수 있는 구조로, FP를 소모하며 다수의 적을 한 번에 처리하는 데 특화된 고위험-고보상 기술이다.",
+      "motionType": [
+        "sweep",
+        "overhead",
+        "charge"
+      ],
+      "element": {
+        "type": "중력",
+        "effectColor": [
+          "purple",
+          "gold",
+          "white"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control",
+          "gravity-pull",
+          "aoe"
+        ],
+        "resourceCost": "FP",
+        "frameApprox": {
+          "startup": "~45f",
+          "active": "~20f",
+          "recovery": "~55f"
+        }
+      },
+      "designNotes": "스타콜러 크라이는 '보스를 처치하고 그 힘을 계승한다'는 소울즈 시리즈의 핵심 서사 보상 철학을 기계적으로 구현한 사례다. 끌어당기기(Pull)→광역 폭발(Slam)의 명확한 2단계 구조는 첫 단계의 집결 성공 여부가 두 번째 딜의 효율을 전적으로 결정하므로, 위치 선정과 타이밍이라는 전술적 판단을 기술 자체에 내장한다. 느린 선딜레임과 높은 FP 비용은 리스크를, 다수 적 동시 경직 및 넉다운은 그에 상응하는 리워드를 형성해 리스크-리워드 균형이 명쾌하다. 쌍 대검을 하늘로 들어올리는 자세와 중력 소용돌이 이펙트가 무기 아이덴티티를 시각적으로 극대화하며, 사용자에게 '성왕의 중력'을 완전히 체감시키는 피드백 설계가 우수하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%EC%8A%A4%ED%83%80%EC%BD%9C%EB%9F%AC+%ED%81%AC%EB%9D%BC%EC%9D%B4+%28Starcaller+Cry%29+gameplay",
+        "images": [],
+        "wiki": "https://eldenring.wiki.fextralife.com/Starcaller+Cry",
+        "gif": null
+      },
+      "tags": [
+        "gravity",
+        "aoe",
+        "crowd-control",
+        "boss-ability",
+        "ash-of-war",
+        "dual-greatsword",
+        "gravity-pull",
+        "poise-break",
+        "high-risk-high-reward"
+      ],
+      "applicableWeapons": [
+        "대검",
+        "쌍 대검"
+      ],
+      "id": "gs-052",
+      "addedDate": "2026-03-16"
     }
   ]
 }
