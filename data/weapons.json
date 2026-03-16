@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:31",
+  "lastUpdated": "2026-03-17 07:32",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36508,6 +36508,76 @@
       ],
       "id": "sw-034",
       "addedDate": "2026-03-17 07:30"
+    },
+    {
+      "weaponCategory": "단검",
+      "weaponSubtype": "사비마루 (Sabimaru)",
+      "game": "Sekiro: Shadows Die Twice",
+      "developer": "FromSoftware",
+      "actionName": "사비마루 연격 (Sabimaru Combo)",
+      "actionType": "특수기",
+      "description": "의수 닌자 도구 사비마루를 전개하여 짧고 빠른 독침 단검 연격을 3~5회 가하는 공격이다. 각 타격마다 독 축적량이 누적되며, 강화 버전인 '연속 사비마루'는 타격 횟수와 독 축적률이 더욱 증가한다. 도마뱀 계열 적, 아시나 엘리트 등 독에 취약한 적을 상대로 특히 강력한 효과를 발휘한다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "thrust"
+      ],
+      "element": {
+        "type": "독",
+        "effectColor": [
+          "purple",
+          "green"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short",
+        "staggerPower": "medium",
+        "comboRole": [
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "poison-buildup",
+          "posture-damage",
+          "multi-hit"
+        ],
+        "resourceCost": "선인의 부싯깃 (Spirit Emblem) 2개",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~35f (연격 전체)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "사비마루는 세키로의 주무기인 카타나와 완전히 다른 역할 축을 담당하는 보조 단검으로, '도구를 도구답게' 사용하게 만드는 상황 판단 유도 설계를 잘 보여준다. 독 취약 적이라는 명확한 소프트 카운터 타겟이 존재함으로써 플레이어가 전투 전 도구를 전략적으로 선택하도록 동기를 부여한다. 다타격 구조는 각 타격 사이에 적의 반격 패턴을 끼워 넣는 리스크를 내포해 단순 스팸을 억제하고, 숙련자에게 '연격 중 상황 판단'이라는 심층적인 플레이 레이어를 제공한다. 선인의 부싯깃이라는 자원 비용이 무한 남용을 막으면서도 충분히 저렴해 전투 내 적극 활용을 장려하는 리소스 설계의 균형점을 보여주는 우수 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Sekiro%3A+Shadows+Die+Twice+%EC%82%AC%EB%B9%84%EB%A7%88%EB%A3%A8+%EC%97%B0%EA%B2%A9+%28Sabimaru+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://sekiro.wiki.fextralife.com/Sabimaru",
+        "gif": null
+      },
+      "tags": [
+        "poison-buildup",
+        "prosthetic-tool",
+        "multi-hit",
+        "posture-damage",
+        "resource-management",
+        "soft-counter",
+        "short-blade",
+        "dagger",
+        "situational-tool"
+      ],
+      "applicableWeapons": [
+        "단검",
+        "암기",
+        "투척"
+      ],
+      "id": "dg-004",
+      "addedDate": "2026-03-17 07:32"
     }
   ]
 }
