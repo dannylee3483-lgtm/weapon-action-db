@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:42",
+  "lastUpdated": "2026-03-17 07:46",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -36787,6 +36787,78 @@
       ],
       "id": "sp-039",
       "addedDate": "2026-03-17 07:42"
+    },
+    {
+      "weaponCategory": "낫",
+      "weaponSubtype": "대형 낫 (Great Scythe Grynoth / グリノース)",
+      "game": "Granblue Fantasy: Relink",
+      "developer": "Cygames",
+      "actionName": "아비살 아이 / Abyssal Eye",
+      "actionType": "특수기",
+      "description": "바사라가가 대형 낫 그리노스를 지면에 힘껏 내리꽂아 주변에 암흑 에너지 필드를 전개하는 스킬. 필드 안에 있는 동안 모든 공격에 암흑 속성 피해가 추가되며, 피해를 받을수록 역으로 다음 강공격의 위력이 상승하는 '영혼 축적' 메커니즘이 활성화된다. 필드 내에서 적을 타격할수록 게이지가 빠르게 쌓여, 탱커 포지션임에도 불구하고 지속적인 공격 개입을 유도하는 구조다.",
+      "motionType": [
+        "overhead",
+        "charge",
+        "slash"
+      ],
+      "element": {
+        "type": "어둠",
+        "effectColor": [
+          "black",
+          "purple",
+          "dark-red"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "wave"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "extender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "damage-field",
+          "resource-gain",
+          "area-control"
+        ],
+        "resourceCost": "쿨다운",
+        "frameApprox": {
+          "startup": "~30f",
+          "active": "~60f (필드 지속)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "아비살 아이는 '공간 장악'과 '리소스 생성'을 단일 버튼으로 통합한 효율적인 스킬 설계다. 필드를 전개하면서 동시에 게이지를 채우는 구조는 플레이어가 필드 범위를 의식하며 싸우도록 유도하여 공간 전술 사고를 자연스럽게 훈련시킨다. 탱커 캐릭터인 바사라가의 컨셉('맞으면서도 강해지는 전사')을 기계적으로 구현하여 루도내러티브 일관성이 높다. 느린 발동 속도는 팀원의 CC나 보스 패턴 공백을 읽는 게임플레이 리터러시를 요구하는 진입 장벽으로 기능하며, 적절히 사용했을 때의 보상(강화 공격)이 충분히 크기 때문에 리스크-리워드 곡선이 잘 균형잡혀 있다. 협동 플레이 환경에서 파티원의 행동과 타이밍을 맞추는 사회적 설계 요소까지 포함된 복합적인 스킬이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Granblue+Fantasy%3A+Relink+%EC%95%84%EB%B9%84%EC%82%B4+%EC%95%84%EC%9D%B4+%2F+Abyssal+Eye+gameplay",
+        "images": [],
+        "wiki": "https://granblue-fantasy-relink.wiki.fextralife.com/Vaseraga",
+        "gif": null
+      },
+      "tags": [
+        "dark-element",
+        "damage-field",
+        "resource-gain",
+        "heavy-weapon",
+        "poise-breaking",
+        "area-control",
+        "tank",
+        "scythe",
+        "co-op-synergy"
+      ],
+      "applicableWeapons": [
+        "낫",
+        "대형 낫"
+      ],
+      "id": "sc-033",
+      "addedDate": "2026-03-17 07:46"
     }
   ]
 }
