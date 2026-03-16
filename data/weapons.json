@@ -26967,6 +26967,75 @@
       ],
       "id": "sc-023",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Barbs of Scorn (분노의 가시채찍)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "도지 카운터 채찍 반격 (Dodge Counter Whiplash)",
+      "actionType": "카운터",
+      "description": "적의 공격이 닿기 직전 정확한 타이밍에 회피를 입력하면, 퓨리가 즉각 채찍을 크게 휘둘러 넓은 호를 그리는 카운터 공격을 가한다. 회피 직후 공격 버튼을 연계하면 발동되며, 일반 공격보다 강한 대미지와 더 넓은 범위로 인근 다수의 적을 동시에 가격한다. 이 시스템은 Darksiders III 전투의 핵심 기둥으로, 타이밍 숙달이 곧 생존과 효율로 직결된다.",
+      "motionType": [
+        "sweep",
+        "counter",
+        "dodge-cancel"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "punish",
+          "opener"
+        ],
+        "specialProperties": [
+          "dodge-cancel",
+          "poise-breaking",
+          "counter-window",
+          "multi-target"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~14f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Darksiders III는 소울류 리스크-리워드 전투 철학을 채찍이라는 장거리 무기와 결합시켜 독자적인 카운터 시스템을 구축했다. 단순 회피에 그치지 않고 '도지 카운터'라는 즉각적 반격 보상을 설계함으로써, 플레이어가 소극적 방어보다 타이밍 도전을 적극 선택하도록 행동을 유도한다. 채찍 특유의 긴 리치와 호형 궤도 덕분에 카운터 한 번으로 다수 적을 일괄 적중시킬 수 있어, 리워드가 시각적·수치적으로 명확히 전달된다. 회피와 공격이 끊김 없는 단일 입력 흐름으로 연결되어 '읽기 → 회피 → 반격'의 스킬 루프를 직관적으로 학습시키는 훌륭한 교육적 설계이기도 하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%EB%8F%84%EC%A7%80+%EC%B9%B4%EC%9A%B4%ED%84%B0+%EC%B1%84%EC%B0%8D+%EB%B0%98%EA%B2%A9+%28Dodge+Counter+Whiplash%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Darksiders_III",
+        "gif": null
+      },
+      "tags": [
+        "counter",
+        "dodge-cancel",
+        "whip",
+        "risk-reward",
+        "timing-based",
+        "multi-target",
+        "action-rpg",
+        "punish",
+        "long-reach"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-038",
+      "addedDate": "2026-03-16"
     }
   ]
 }
