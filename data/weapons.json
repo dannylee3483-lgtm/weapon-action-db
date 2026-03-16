@@ -24530,6 +24530,77 @@
       ],
       "id": "ax-029",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Barbs of Scorn — Flame Hollow (화염 공허 채찍)",
+      "game": "Darksiders III",
+      "developer": "Gunfire Games",
+      "actionName": "화염 공허 채찍 연격 (Flame Hollow Whip Combo)",
+      "actionType": "콤보",
+      "description": "퓨리가 화염 공허(Flame Hollow) 폼으로 전환해 채찍 '바브스 오브 스콘'에 불꽃 속성을 부여한 뒤, 좌→우→전방 내리치기 순서로 3타 연속 채찍 콤보를 시전한다. 각 타격마다 화염 잔상이 호 궤적을 그리며 번지고, 3타째는 짧은 강타로 적에게 번-누적(burn stack)을 강제 발동시킨다. 공허 폼 전환은 캐릭터 이동 중에도 즉시 가능하여 콤보 흐름을 끊지 않는다.",
+      "motionType": [
+        "slash",
+        "sweep",
+        "combo"
+      ],
+      "element": {
+        "type": "불",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "extender",
+          "finisher"
+        ],
+        "specialProperties": [
+          "burn-buildup",
+          "aoe-trail",
+          "hollow-form-synergy",
+          "knockback"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~7f",
+          "active": "~14f (3타 합산)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "공허 폼 전환이 별도 리소스 없이 이동 중에도 가능하게 설계된 덕분에, 플레이어는 전투 흐름을 끊지 않고 속성을 교체하는 전술적 유연성을 체감할 수 있다. 3타째의 번-스택 강제 발동은 '약한 타격을 이어 가야 강한 효과를 얻는다'는 콤보 완성 보상 구조를 명확히 전달해, 버튼 연타에 전략적 의미를 부여한다. 공허별로 동일 버튼 입력이 전혀 다른 속성·모션을 산출하는 모듈식 설계는 콘텐츠 볼륨 대비 조작 복잡도를 낮추면서도 빌드 다양성을 확보하는 효율적인 방법이다. 채찍 장르 특유의 호 범위 리치와 불꽃 잔상 이펙트가 결합되어, 시각적으로 '강하다'는 피드백이 직관적으로 전달된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Darksiders+III+%ED%99%94%EC%97%BC+%EA%B3%B5%ED%97%88+%EC%B1%84%EC%B0%8D+%EC%97%B0%EA%B2%A9+%28Flame+Hollow+Whip+Combo%29+gameplay",
+        "images": [],
+        "wiki": "https://darksiders.fandom.com/wiki/Barbs_of_Scorn",
+        "gif": null
+      },
+      "tags": [
+        "fire",
+        "whip",
+        "combo",
+        "hollow-form",
+        "burn-buildup",
+        "element-shift",
+        "crowd-control",
+        "aoe",
+        "modular-combat"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-031",
+      "addedDate": "2026-03-16"
     }
   ]
 }
