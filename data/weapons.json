@@ -23246,6 +23246,79 @@
       ],
       "id": "mg-019",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "쌍검",
+      "weaponSubtype": "Dual Keyblades (이중 키블레이드)",
+      "game": "Kingdom Hearts III",
+      "developer": "Square Enix",
+      "actionName": "세컨드 폼 피니시 (Second Form Finisher)",
+      "actionType": "폼 체인지 피니시",
+      "description": "소라가 양손에 키블레이드를 하나씩 장착한 세컨드 폼(Second Form) 상태에서 지상 콤보를 완주하면 발동되는 폼 피니시 공격. 두 키블레이드가 빠르게 교차하며 전방 넓은 범위에 다단 타격을 가한 뒤, 마지막에 강렬한 에너지 방출로 주변 적을 날려보낸다. 세컨드 폼은 키블레이드 변신(Keyblade Transformation) 시스템으로 발동되며, 공격 콤보를 지속해 폼 게이지를 채워야 진입할 수 있다.",
+      "motionType": [
+        "slash",
+        "combo",
+        "spin",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "blue",
+          "white",
+          "silver"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "multi-hit",
+          "aoe",
+          "formchange-reward"
+        ],
+        "resourceCost": "폼 게이지 (콤보 축적으로 충전)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~45f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "세컨드 폼 피니시는 '콤보 지속 → 폼 게이지 충전 → 강력한 피니시'라는 리스크-리워드 루프를 명확하게 구현한다. 플레이어가 적에게 밀착하여 긴 콤보를 유지해야 하는 리스크를 감수해야 하며, 성공 시 다단 타격+넉백이라는 압도적인 보상을 얻는다. 이중 키블레이드가 엇갈리며 교차하는 모션은 쌍검의 시각적 정체성을 충실히 살리면서도 키블레이드 특유의 둔탁한 타격감과 조화시켰다는 점이 특징적이다. 또한 폼 체인지 시스템은 콤보를 끊지 않도록 플레이어 행동을 자연스럽게 유도하여, 적극적인 근접 전투를 장려하는 게임 디자인 의도와 완벽하게 일치한다. 단일 무기와 이중 무기를 하나의 시스템 안에서 자연스럽게 전환하는 구조는 이후 많은 액션 게임의 폼 체인지 설계에 영향을 주었다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Kingdom+Hearts+III+%EC%84%B8%EC%BB%A8%EB%93%9C+%ED%8F%BC+%ED%94%BC%EB%8B%88%EC%8B%9C+%28Second+Form+Finisher%29+gameplay",
+        "images": [],
+        "wiki": "https://www.khwiki.com/Second_Form",
+        "gif": null
+      },
+      "tags": [
+        "dual-keyblade",
+        "formchange",
+        "combo-finisher",
+        "reward-system",
+        "multi-hit",
+        "aoe",
+        "knockdown",
+        "stance-shift",
+        "action-rpg"
+      ],
+      "applicableWeapons": [
+        "쌍검",
+        "1H검"
+      ],
+      "id": "db-021",
+      "addedDate": "2026-03-16"
     }
   ]
 }
