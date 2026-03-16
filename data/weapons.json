@@ -26506,7 +26506,7 @@
       },
       "designNotes": "이 액션은 자원 소비(광마력 게이지)와 이중 보상(광역 타격 + 생명력 회복)의 교환 관계를 명확히 설계한 사례다. 단순한 회전 공격에 '마력 충전' 조건을 붙임으로써, 플레이어가 자원 관리와 발동 타이밍을 능동적으로 고민하게 유도한다. 360° 히트박스는 다수 적 포위 상황에서 절대적 강점을 보이지만 보스 단독 교전에선 효율이 낮아 상황 판단력을 요구하며, 이 비대칭 설계가 전투 전략의 폭을 넓힌다. 사슬이 황금빛으로 빛나며 회전하는 시각 연출은 능력 발동의 즉각적 피드백을 제공하고, HP 바의 실시간 회복은 행동의 결과를 투명하게 시각화한다. '리소스 투자 → 광역 타격 → 자가 회복'의 순환 구조가 전투 리듬에 명확한 절정감과 전략적 의미를 동시에 부여한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%EA%B4%91%EB%A7%88%EB%A0%A5+%ED%9A%8C%EC%A0%84+%EC%B1%84%EC%B0%8D+%2F+Light+Magic+Cyclone+Whip+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=yXicliZsePs",
         "images": [],
         "wiki": "https://castlevania.fandom.com/wiki/Combat_Cross",
         "gif": null
