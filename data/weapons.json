@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 07:59",
+  "lastUpdated": "2026-03-17 08:02",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37633,6 +37633,77 @@
       ],
       "id": "gn-003",
       "addedDate": "2026-03-17 07:58"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "고릴라 암 (Gorilla Arms)",
+      "game": "Cyberpunk 2077",
+      "developer": "CD Projekt Red",
+      "actionName": "고릴라 암 차지 강타 / Gorilla Arms Charged Strike",
+      "actionType": "차지 공격",
+      "description": "V의 전완부를 대형 기계 팔로 교체하는 사이버웨어 '고릴라 암'의 핵심 기술. 차지 버튼을 유지하면 팔의 서보모터가 최대 출력으로 압축되며, 해제 시 적을 즉시 다운시키는 폭발적인 강타를 날린다. 일반 경비원부터 고급 사이버 강화 적까지 차지 강타 한 방으로 기절 불능 상태(Knock Down)로 만들 수 있으며, 잠긴 금속 문이나 장벽도 강제로 파괴할 수 있다.",
+      "motionType": [
+        "charge",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "yellow",
+          "orange"
+        ],
+        "effectStyle": [
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "block-break",
+          "stun",
+          "environment-interaction"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~40f (최대 차지 기준)",
+          "active": "~8f",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "고릴라 암 차지 강타는 'Body(체력)' 스탯 투자에 대한 가장 직접적인 전투 보상으로, 강한 펀치 하나가 전투 도구이자 환경 파괴(잠긴 문·장벽 분쇄) 수단으로 동시에 기능한다. 전투 스킬이 탐색 능력과 연계되도록 설계함으로써 메카닉과 게임 월드 상호작용 사이의 경계를 자연스럽게 허물었다. 차지 모션 중 서보모터 구동음과 전기 이펙트가 점층적으로 강해지는 청각·시각 피드백은 '언제 해제할지'를 별도 UI 없이 직관적으로 전달하는 우수한 게임 피드백 설계다. V의 인조 신체 정체성 및 '힘'의 상징으로서 내러티브와 메카닉이 자연스럽게 일치하여, 사이버웨어 장착이 단순 수치 강화가 아닌 플레이어 정체성 표현으로 느껴지게 만든다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Cyberpunk+2077+%EA%B3%A0%EB%A6%B4%EB%9D%BC+%EC%95%94+%EC%B0%A8%EC%A7%80+%EA%B0%95%ED%83%80+%2F+Gorilla+Arms+Charged+Strike+gameplay",
+        "images": [],
+        "wiki": "https://cyberpunk.fandom.com/wiki/Gorilla_Arms",
+        "gif": null
+      },
+      "tags": [
+        "cyberware",
+        "charge-attack",
+        "knockdown",
+        "environment-interaction",
+        "body-stat",
+        "fist-weapon",
+        "stagger",
+        "door-break",
+        "poise-breaking"
+      ],
+      "applicableWeapons": [
+        "권투",
+        "기타"
+      ],
+      "id": "ft-045",
+      "addedDate": "2026-03-17 08:02"
     }
   ]
 }
