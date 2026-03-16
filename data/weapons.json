@@ -28135,6 +28135,79 @@
       ],
       "id": "mg-024",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "사무라이 카타나 (侍刀)",
+      "game": "Onimusha: Warlords",
+      "developer": "Capcom",
+      "actionName": "일섬 (一閃 / Issen)",
+      "actionType": "카운터",
+      "description": "적의 공격이 닿기 직전 찰나에 방어 버튼을 입력하면 청백색 섬광과 함께 초고속 반격을 터뜨리는 완벽 패리 시스템. 타이밍에 성공하면 일반 잡졸은 즉사에 가까운 대미지를 받으며, 강적에게는 '이센 게이지'를 축적해 최종 처형을 유도한다. 시각적으로는 칼날이 빛을 머금는 짧은 예비 모션 이후 한 획의 광도(光刀)가 화면을 가로질러 적을 일도양단하는 연출이 펼쳐진다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "cyan",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "one-shot-potential",
+          "poise-breaking",
+          "perfect-parry",
+          "risk-reward"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~3f",
+          "active": "~2f",
+          "recovery": "~15f"
+        }
+      },
+      "designNotes": "이센은 '리스크를 감수한 완벽한 타이밍'에 극적인 보상을 부여하는 카운터 설계의 교과서적 사례다. 패리 윈도우가 매우 좁아 숙련도를 요구하면서도, 성공 시 적을 즉사시키는 강렬한 피드백이 플레이어에게 '진짜 사무라이처럼 싸우고 있다'는 강한 판타지를 제공한다. 청백 섬광 이펙트와 특유의 금속음이 성공 여부를 청각·시각 두 채널로 동시에 알려줘 조건 확인의 인지 부하를 최소화한 것이 핵심이다. 이 단순한 메카닉 하나가 전투 전체를 '막고 반격하라'는 명확한 루프로 정의해, 복잡한 버튼 조합 없이도 깊은 전략성을 구현해낸다. 이후 Sekiro의 튕겨내기, Ghost of Tsushima의 스탠드오프 등 수많은 카운터 시스템에 영향을 준 원형적 디자인으로 폭넓게 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Onimusha%3A+Warlords+%EC%9D%BC%EC%84%AC+%28%E4%B8%80%E9%96%83+%2F+Issen%29+gameplay",
+        "images": [],
+        "wiki": "https://onimusha.fandom.com/wiki/Issen",
+        "gif": null
+      },
+      "tags": [
+        "perfect-parry",
+        "counter",
+        "one-shot",
+        "risk-reward",
+        "timing-based",
+        "katana",
+        "samurai",
+        "flash-slash",
+        "classic",
+        "capcom"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "1H검"
+      ],
+      "id": "kt-053",
+      "addedDate": "2026-03-16"
     }
   ]
 }
