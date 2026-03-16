@@ -33454,6 +33454,77 @@
       ],
       "id": "bg-001",
       "addedDate": "2026-03-17 06:16"
+    },
+    {
+      "weaponCategory": "총기",
+      "weaponSubtype": "Super Shotgun (슈퍼 샷건)",
+      "game": "Doom Eternal",
+      "developer": "id Software",
+      "actionName": "미트 훅 (Meat Hook)",
+      "actionType": "특수기",
+      "description": "슈퍼 샷건 하단에 장착된 갈고리 발사기를 적에게 발사해 플레이어를 고속으로 끌어당기는 이동 겸 공격 기술이다. 갈고리가 적의 몸통에 걸리면 순식간에 근접 거리까지 돌진하며, 도달 직후 샷건 사격으로 자연스럽게 이어진다. 이동 중에는 피해를 받지 않아 공격적 접근 수단으로 활용 가치가 극히 높다.",
+      "motionType": [
+        "charge",
+        "combo",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "red"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "gap-closer"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "invincibility-frames",
+          "aerial-repositioning",
+          "combo-enabler"
+        ],
+        "resourceCost": "쿨다운 (~1.5초)",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "이동 중 지속",
+          "recovery": "~6f (착지 후)"
+        }
+      },
+      "designNotes": "미트 훅은 '거리 좁히기'와 '공격 준비'를 단일 입력으로 통합한 공격적 이동 도구다. 전통적인 샷건의 약점인 근접 강제를 역이용해, 플레이어가 능동적으로 근접을 선택하는 도구로 재설계한 점이 핵심이다. 짧은 쿨다운과 이동 중 무적 덕분에 위험한 상황에서도 적극 사용이 보상받으며, 이는 Doom Eternal 전체 전투 철학인 '공격이 최선의 방어'를 구조적으로 체현한다. 갈고리 도달 직후 이어지는 폭발 타이밍이 명확한 결과 피드백을 제공해 스킬 표현의 만족감을 극대화하고, 아레나 전반의 수직·수평 이동 옵션을 넓혀 레벨 디자인과도 긴밀히 연계된다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Doom+Eternal+%EB%AF%B8%ED%8A%B8+%ED%9B%85+%28Meat+Hook%29+gameplay",
+        "images": [],
+        "wiki": "https://doom.fandom.com/wiki/Super_shotgun_(Doom_Eternal)",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "mobility",
+        "aggressive-playstyle",
+        "shotgun",
+        "grapple-hook",
+        "risk-reward",
+        "combo-starter",
+        "invincibility-frames",
+        "action-fps",
+        "arena-movement"
+      ],
+      "applicableWeapons": [
+        "총기",
+        "산탄총"
+      ],
+      "id": "gn-001",
+      "addedDate": "2026-03-17 06:16"
     }
   ]
 }
