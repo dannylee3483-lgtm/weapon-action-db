@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 06:28",
+  "lastUpdated": "2026-03-17 06:29",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -34096,6 +34096,78 @@
       ],
       "id": "rd-001",
       "addedDate": "2026-03-17 06:28"
+    },
+    {
+      "weaponCategory": "도끼",
+      "weaponSubtype": "전투도끼 (Battle Axe)",
+      "game": "Dragon Age: Inquisition",
+      "developer": "BioWare",
+      "actionName": "드래곤 분노 / Dragon Rage",
+      "actionType": "특수기 (지속형 회전 공격)",
+      "description": "Reaver 전문화의 핵심 능력으로, 버튼을 누르는 동안 전사가 도끼(또는 양손무기)를 휘두르며 주변 적을 연속 난타하는 지속형 회전 공격이다. 사용 중 플레이어 체력이 지속적으로 소모되며, 현재 체력이 낮을수록 각 타격의 피해량이 배수로 증가하는 역비례 구조를 가진다. 체력이 위험 수준에 가까울수록 폭발적인 파괴력을 발휘하지만, 잘못 사용하면 자멸할 수 있다.",
+      "motionType": [
+        "spin",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "health-drain",
+          "damage-scales-with-low-hp",
+          "crowd-control",
+          "poise-breaking",
+          "sustained-hits"
+        ],
+        "resourceCost": "체력(HP) 지속 소모",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "지속(버튼 홀드 동안)",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Dragon Rage는 '위험 = 보상' 원칙을 가장 직접적으로 구현한 액션 설계 사례다. 피해량이 남은 체력에 반비례하도록 설계함으로써, 플레이어는 최대 효율을 위해 의도적으로 체력을 극한까지 낮추는 '아슬아슬한 생존' 전략을 택하게 된다. 이는 수동적 안전 플레이를 배제하고 공격적이고 극적인 전투 스타일을 자연스럽게 유도한다. HP 감소에 따른 시각적 피드백(붉은 화면 이펙트, 잔상 효과)이 위기감과 흥분을 동시에 전달하며, 플레이어가 리스크의 크기를 직관적으로 인지할 수 있게 한다. 보스전 막판 '위기 역전' 순간을 설계하는 데 이 구조는 매우 효과적이며, 도끼 같은 고위력 양손무기와 결합 시 군중 정리에서도 강력한 만족감을 선사한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon+Age%3A+Inquisition+%EB%93%9C%EB%9E%98%EA%B3%A4+%EB%B6%84%EB%85%B8+%2F+Dragon+Rage+gameplay",
+        "images": [],
+        "wiki": "https://dragonage.fandom.com/wiki/Dragon_Rage_(Inquisition)",
+        "gif": null
+      },
+      "tags": [
+        "risk-reward",
+        "health-drain",
+        "spin-attack",
+        "crowd-control",
+        "damage-scaling",
+        "reaver",
+        "two-handed",
+        "sustained-damage",
+        "high-risk-high-reward",
+        "berserker"
+      ],
+      "applicableWeapons": [
+        "도끼",
+        "대검",
+        "해머"
+      ],
+      "id": "ax-041",
+      "addedDate": "2026-03-17 06:29"
     }
   ]
 }
