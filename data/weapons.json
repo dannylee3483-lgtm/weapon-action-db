@@ -29273,6 +29273,76 @@
       ],
       "id": "hm-022",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "가죽 채찍 (Leather Whip)",
+      "game": "Indiana Jones and the Great Circle",
+      "developer": "MachineGames",
+      "actionName": "채찍 낚아채기 / Whip Grab",
+      "actionType": "특수기",
+      "description": "채찍을 적에게 감아 순간적으로 잡아당겨 근접 거리로 끌어오는 액션이다. 성공 시 적은 균형을 잃고 경직 상태에 빠지며, 인디아나 존스는 즉시 강타·무장해제·투척 등 후속 행동으로 이어갈 수 있다. 채찍의 사거리로 원거리 적을 끌어당겨 근접 공세로 전환하는 이 메카닉은 전투의 공간 구조를 플레이어가 능동적으로 재편할 수 있게 한다.",
+      "motionType": [
+        "combo",
+        "counter",
+        "throw"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "brown",
+          "orange"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "medium",
+        "comboRole": [
+          "opener",
+          "launcher",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "stagger",
+          "state-change",
+          "combo-setup"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~14f",
+          "active": "~10f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "채찍 낚아채기는 '거리를 내 편으로 만드는' 설계 원칙의 모범 사례다. 대부분의 근접 무기가 적에게 다가가야 하는 반면, 이 액션은 적을 플레이어 쪽으로 끌어옴으로써 공간 주도권의 개념을 역전시킨다. 채찍이라는 무기의 스토리적 정체성(인디아나 존스의 시그니처 도구)을 전투 메카닉과 완벽히 일치시켜, 플레이어가 캐릭터 판타지를 실제로 체험하도록 설계되었다. 낚아채기 성공 후 후속 행동의 자유도(강타·무장해제·투척)를 열어두어 플레이어 선택을 리워드로 강조하며, 타이밍 실패 시 채찍 회수 모션 중 반격 노출이라는 명확한 리스크가 존재해 스킬 표현의 여지도 충분하다. 환경 스윙과 동일한 채찍 입력 시스템을 전투에도 통합함으로써 탐험·전투 문법의 일관성을 확보한 점도 주목할 만하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Indiana+Jones+and+the+Great+Circle+%EC%B1%84%EC%B0%8D+%EB%82%9A%EC%95%84%EC%B1%84%EA%B8%B0+%2F+Whip+Grab+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "whip",
+        "grab",
+        "crowd-control",
+        "state-change",
+        "combo-setup",
+        "identity-design",
+        "risk-reward",
+        "space-control",
+        "gap-closer"
+      ],
+      "applicableWeapons": [
+        "채찍"
+      ],
+      "id": "wh-045",
+      "addedDate": "2026-03-16"
     }
   ]
 }
