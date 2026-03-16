@@ -29850,6 +29850,78 @@
       ],
       "id": "sc-026",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "Hammer",
+      "game": "Monster Hunter Rise",
+      "developer": "Capcom",
+      "actionName": "충격 파동 / Impact Burst (インパクトバースト)",
+      "actionType": "실크바인드 기술",
+      "description": "와이어버그를 소모해 해머에 충격 에너지를 축적하고, 이후 공격 1회에 그 에너지를 폭발적으로 방출하는 실크바인드 기술이다. 발동 시 헌터가 와이어액션으로 짧게 전진하며 상대에게 밀착한 뒤, 다음 타격에 추가 충격파가 겹쳐져 KO 누적 및 기절 유발 효율이 크게 상승한다. 차지 강타나 빅뱅 연속기의 피니쉬 직전에 사용하면 단타로 최대 기절 가치를 끌어낼 수 있는 고리스크-고리워드 순간 판단 기술이다.",
+      "motionType": [
+        "charge",
+        "leap",
+        "combo"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "orange"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "extender",
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "KO-buildup",
+          "poise-breaking",
+          "knockdown",
+          "gap-closer"
+        ],
+        "resourceCost": "와이어버그 1게이지",
+        "frameApprox": {
+          "startup": "~12f",
+          "active": "~8f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Impact Burst는 Rise의 와이어버그 시스템이 해머 무기에 통합된 방식을 가장 잘 보여주는 사례다. 기존 해머의 정공법인 '차지→정면 적중→KO'라는 단선적 루프에, '리소스 소모 → 타이밍 앞당김 → 기절 폭발적 달성'이라는 선택지를 추가함으로써 숙련도에 따라 전혀 다른 전투 패턴이 나타난다. 밀착 전진 모션이 내장되어 있어 갭 클로저와 강화 공격이 한 번의 입력으로 처리되므로 인터페이스 부담이 낮다. 반면 와이어버그 잔량 관리라는 고차원적 리소스 판단이 요구되기 때문에, 고수일수록 더 빈번하게 사용하면서 분명한 성능 차이가 드러나는 '숙련도 가시화 메카닉'으로 기능한다. 이는 간단한 조작 진입 장벽과 깊은 최적화 여지를 동시에 실현한 레이어드 디자인의 좋은 예다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+Rise+%EC%B6%A9%EA%B2%A9+%ED%8C%8C%EB%8F%99+%2F+Impact+Burst+%28%E3%82%A4%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterrise.wiki.fextralife.com/Hammer",
+        "gif": null
+      },
+      "tags": [
+        "KO-buildup",
+        "silkbind",
+        "gap-closer",
+        "poise-breaking",
+        "resource-management",
+        "layered-design",
+        "single-hit-burst",
+        "hammer",
+        "wirebug",
+        "stagger"
+      ],
+      "applicableWeapons": [
+        "해머"
+      ],
+      "id": "hm-023",
+      "addedDate": "2026-03-16"
     }
   ]
 }
