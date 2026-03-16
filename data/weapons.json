@@ -28354,6 +28354,74 @@
       ],
       "id": "wh-042",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 / 권투 글러브 (Bare-Knuckle Martial Arts)",
+      "game": "Final Fantasy VII Remake",
+      "developer": "Square Enix",
+      "actionName": "진정한 일격 (True Strike)",
+      "actionType": "ATB 기술 (특수기)",
+      "description": "티파가 ATB 게이지 1칸을 소모하여 짧게 전진하며 극도로 집중된 강타 한 방을 적에게 꽂는 기술. 일반 공격 대비 높은 물리 데미지와 함께 적의 스태거 게이지를 대량으로 증폭시키는 것이 핵심 역할이다. 스태거 상태의 적에게 사용하면 스태거 타이머가 크게 연장되어 파티 전체의 딜 타임을 추가로 확보한다.",
+      "motionType": [
+        "thrust",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish"
+        ],
+        "specialProperties": [
+          "stagger-extension",
+          "stagger-buildup",
+          "gap-closer"
+        ],
+        "resourceCost": "ATB 게이지 1칸",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~4f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "True Strike는 데미지 딜러가 아닌 '스태거 유발·연장기'라는 명확한 역할 분담을 통해 플레이어가 파티 조합과 전투 우선순위를 전략적으로 고민하게 유도한다. 단일 입력으로 큰 스태거 수치를 제공하는 단순한 구조는 ATB 시스템을 처음 접하는 플레이어에게도 즉각적이고 명확한 전술적 피드백을 전달한다. 스태거 타이머 연장이라는 리워드는 ATB 1칸 소모라는 리스크와 균형 있게 맞물려, 압박 상황에서의 자원 배분 결정을 의미 있는 선택으로 만든다. 격투 기술의 물리적 무게감을 묵직한 타격음과 집중 이펙트로 시각·청각적으로 충실히 구현하여, 단순한 수치 조작이 아닌 '강타'라는 판타지를 완성한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EC%A7%84%EC%A0%95%ED%95%9C+%EC%9D%BC%EA%B2%A9+%28True+Strike%29+gameplay",
+        "images": [],
+        "wiki": "https://finalfantasy.fandom.com/wiki/True_Strike",
+        "gif": null
+      },
+      "tags": [
+        "stagger-buildup",
+        "stagger-extension",
+        "atb-ability",
+        "single-hit",
+        "punish",
+        "gap-closer",
+        "martial-arts",
+        "resource-management",
+        "tifa-lockhart"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "권투 글러브"
+      ],
+      "id": "ft-034",
+      "addedDate": "2026-03-16"
     }
   ]
 }
