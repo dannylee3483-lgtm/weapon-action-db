@@ -25509,7 +25509,7 @@
       },
       "designNotes": "Death's Door의 차지 강타는 리스크-리워드 구조를 매우 순수하게 구현한 사례다. 충전 중 이동 제한이라는 명확한 페널티를 감수해야만 강력한 보상을 얻는 구조는, 플레이어가 전투 상황을 읽고 적극적으로 리스크를 감수하도록 유도한다. 특히 Death's Door에서는 근접 공격 히트로만 마나를 회복할 수 있는 자원 구조 탓에, 차지 강타의 넓은 범위가 복수의 적을 동시에 타격해 자원 효율을 극대화하는 전략적 선택지가 된다. 낫 특유의 큰 모션과 잔광 이펙트는 충전 완료 시점을 시각적으로 명확히 전달해 인터페이스 없이도 타이밍 피드백이 완성된다. 중소 규모 인디 전투 설계에서 단순한 입력 조합(길게 누르기)만으로 고급 전략 선택지를 만들어내는 경제적 디자인의 좋은 본보기다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Death%27s+Door+%EC%B0%A8%EC%A7%80+%EA%B0%95%ED%83%80+%2F+Charged+Heavy+Slash+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=hsAwaU-UamA",
         "images": [],
         "wiki": null,
         "gif": null
