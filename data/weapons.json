@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 08:02",
+  "lastUpdated": "2026-03-17 08:03",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -37708,6 +37708,77 @@
       ],
       "id": "ft-045",
       "addedDate": "2026-03-17 08:02"
+    },
+    {
+      "weaponCategory": "클로",
+      "weaponSubtype": "생체 클로 (Organic Claws)",
+      "game": "Prototype",
+      "developer": "Radical Entertainment",
+      "actionName": "블레이드 프렌지 / Blade Frenzy",
+      "actionType": "특수기",
+      "description": "알렉스 머서가 두 팔을 거대한 생체 클로로 변형한 뒤 공중에서 빠르게 회전하며 주변 모든 적을 난도질하는 광역 공격. 지상 버전은 연속 클로 난타로 연계되며, 다수의 적을 동시에 처리하는 군중 제압 기술로 기능한다. 적의 신체가 절단되며 날아가는 피드백이 극도로 강렬하여 시리즈 내에서 가장 상징적인 기술 중 하나로 손꼽힌다.",
+      "motionType": [
+        "spin",
+        "combo",
+        "slash"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "red",
+          "black"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "knockdown",
+          "air-attack",
+          "multi-hit"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~40f",
+          "recovery": "~20f"
+        }
+      },
+      "designNotes": "Prototype의 클로 파워는 플레이어에게 '초월적 포식자'라는 판타지를 극대화하여 전달하는 데 설계 초점이 맞춰져 있다. Blade Frenzy는 다수의 적 앞에서 느끼는 압도적 열세를 단번에 뒤집는 역전 쾌감을 핵심 보상으로 삼으며, 회전형 광역 공격이라는 단순한 인터랙션으로 최대치의 히트감을 동시다발적으로 전달해 'power fantasy' 피드백 루프를 완성한다. 클로 변형 애니메이션이 리스크 투자의 신호로 작동하여 플레이어가 진입 전 상황을 암묵적으로 판단하게 만드는 리스크-리워드 구조가 내재되어 있다. 적이 절단되어 날아가는 고어 피드백은 공격 성공의 보상감을 시각적으로 극적으로 강화하고, 이것이 반복 사용의 동기로 이어지는 강화 회로를 형성한다. 제약 없는 리소스 구조와 높은 군중 제압력의 조합은 오픈월드 전투에서 플레이어가 항상 공세를 유지하도록 유도하는 페이스 디자인의 핵심 축이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Prototype+%EB%B8%94%EB%A0%88%EC%9D%B4%EB%93%9C+%ED%94%84%EB%A0%8C%EC%A7%80+%2F+Blade+Frenzy+gameplay",
+        "images": [],
+        "wiki": "https://prototype.fandom.com/wiki/Claws",
+        "gif": null
+      },
+      "tags": [
+        "crowd-control",
+        "power-fantasy",
+        "spin-attack",
+        "multi-hit",
+        "air-attack",
+        "organic-weapon",
+        "biomass",
+        "open-world",
+        "gore-feedback",
+        "claw-transform"
+      ],
+      "applicableWeapons": [
+        "클로",
+        "생체무기"
+      ],
+      "id": "cl-003",
+      "addedDate": "2026-03-17 08:03"
     }
   ]
 }
