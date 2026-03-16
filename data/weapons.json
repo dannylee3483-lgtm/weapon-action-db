@@ -26359,7 +26359,7 @@
       },
       "designNotes": "선풍 어퍼는 '힘 해방' 버프와의 강화 연계를 통해 단순 ATB 소비가 아닌 '강화 상태를 언제 소비하느냐'라는 자원 관리 결정을 내포한 레이어드 디자인을 구현한다. 회전 타격과 어퍼컷이라는 시각·타격감 면에서 명확히 구분되는 두 페이즈가 플레이어에게 직관적인 히트 피드백을 제공하며, 마무리 어퍼컷의 강한 이펙트로 카타르시스를 극대화한다. 공중 런처 효과는 파티 AI 또는 플레이어 조작 전환과 연계하여 에어리얼 콤보 루트를 열어줌으로써 턴제 ATB와 실시간 액션의 경계를 자연스럽게 연결하는 설계 포인트가 된다. 강화 없는 기본형과 강화형의 명확한 성능 차이는 플레이어가 버프 타이밍을 전략적으로 계획하도록 유도하며, 학습 곡선과 숙련 보상 구조를 동시에 충족한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%EC%84%A0%ED%92%8D+%EC%96%B4%ED%8D%BC+%2F+Whirling+Uppercut+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=U-Yj99GIJdw",
         "images": [],
         "wiki": "https://finalfantasy.fandom.com/wiki/Whirling_Uppercut",
         "gif": null
