@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:07",
+  "lastUpdated": "2026-03-16 22:08",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -29932,6 +29932,73 @@
       ],
       "id": "db-028",
       "addedDate": "2026-03-16 22:07"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "Fighter's Sword",
+      "game": "Dragon's Dogma 2",
+      "developer": "Capcom",
+      "actionName": "블링크 스트라이크 / Blink Strike",
+      "actionType": "무기술",
+      "description": "파이터가 타겟을 향해 순간적으로 대시하며 강력한 일격을 가하는 무기술이다. 발동 즉시 짧은 공중 도약과 함께 적에게 밀착해 방어를 뚫는 타격을 가하며, 일반 적에게는 넉다운 효과가 발생한다. 스태미나 소모가 크지 않아 전투 흐름을 끊지 않으면서도 간격 차단과 딜을 동시에 수행한다.",
+      "motionType": [
+        "slash",
+        "leap",
+        "gap-closer"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "none"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "gap-closer",
+          "knockdown",
+          "poise-breaking"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~10f",
+          "active": "~6f",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "블링크 스트라이크는 '타이밍 포착→간격 압축→넉다운 보상'이라는 3단계 리스크-리워드 루프를 단일 버튼으로 구현한 모범 사례다. 플레이어가 적의 경직 타이밍이나 빈틈을 시각적으로 읽고 즉각 반응할 수 있게 하여, 방어적 대기 전략에 적극적 보상을 부여한다. 넉다운 효과는 후속 콤보로의 자연스러운 전환을 유도해 플레이의 리듬감을 형성한다. 대형 몬스터의 특정 부위를 조준해 사용하는 전술적 활용도 가능하여 대형 보스전에서도 효용성이 유지된다. 심플한 입력 구조 아래 전략적 깊이를 내포한 설계로, 초보자와 숙련자 모두에게 직관적이면서 매력적인 기술로 기능한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Dogma+2+%EB%B8%94%EB%A7%81%ED%81%AC+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC+%2F+Blink+Strike+gameplay",
+        "images": [],
+        "wiki": "https://dragons-dogma-2.wiki.fextralife.com/Blink+Strike",
+        "gif": null
+      },
+      "tags": [
+        "gap-closer",
+        "knockdown",
+        "poise-breaking",
+        "punish",
+        "one-handed-sword",
+        "fighter",
+        "single-button",
+        "action-rpg",
+        "capcom"
+      ],
+      "applicableWeapons": [
+        "1H검"
+      ],
+      "id": "sw-030",
+      "addedDate": "2026-03-16 22:08"
     }
   ]
 }
