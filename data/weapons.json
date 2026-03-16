@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:44",
+  "lastUpdated": "2026-03-16 22:47",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30923,6 +30923,80 @@
       ],
       "id": "gb-002",
       "addedDate": "2026-03-16 22:44"
+    },
+    {
+      "weaponCategory": "해머",
+      "weaponSubtype": "전쟁 해머 (War Hammer)",
+      "game": "Dragon's Crown",
+      "developer": "Vanillaware",
+      "actionName": "공중 강하 강타 / Aerial Hammer Slam",
+      "actionType": "특수기",
+      "description": "드워프가 점프 중 또는 점프 입력으로 도약하며 전쟁 해머를 양손으로 세게 치켜들었다가 수직 낙하하면서 지면에 강렬한 충격파를 발생시키는 액션이다. 착지 순간 주변 광범위 영역에 타격 판정이 생기며 적을 날려 보내는 노크다운 효과가 있다. 고층 플랫폼에서 아래로 내려찍거나 공중의 적을 지면으로 떨어뜨리는 수직 공격 옵션으로도 활용된다.",
+      "motionType": [
+        "overhead",
+        "leap",
+        "charge"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "particle",
+          "explosion"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender",
+          "punish"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "aoe",
+          "aerial-attack",
+          "vertical-coverage"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~24f",
+          "active": "~10f",
+          "recovery": "~35f"
+        }
+      },
+      "designNotes": "Dragon's Crown 드워프의 공중 강하 강타는 해머 무기의 '수직 위협'이라는 개념을 2D 횡스크롤 액션에 정직하게 구현한 사례다. 점프라는 모션 비용을 선행 투자함으로써 공격 범위가 지면 중심 → 수직 하방으로 전환되는 역발상 설계가 돋보인다. 착지 충격파의 원형 판정은 군중 처리와 단일 대상 피니시 모두에 유용해 다목적성을 확보한다. 도약 선딜이 길어 회피 가능하지만, 낙하 속도 제어와 착지 타이밍 조절로 적의 회피에 대응할 수 있어 숙련도에 따른 보상 곡선이 뚜렷하다. 시각적으로 드워프의 묵직한 체형과 망치가 결합하여 '내리찍음'이라는 본능적 쾌감을 극대화하는 애니메이션 피드백 설계도 우수하다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Crown+%EA%B3%B5%EC%A4%91+%EA%B0%95%ED%95%98+%EA%B0%95%ED%83%80+%2F+Aerial+Hammer+Slam+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "aerial-attack",
+        "overhead-slam",
+        "knockdown",
+        "aoe",
+        "poise-breaking",
+        "crowd-control",
+        "two-handed",
+        "vertical-range",
+        "skill-expression",
+        "2d-action"
+      ],
+      "applicableWeapons": [
+        "해머",
+        "마울",
+        "전쟁 해머"
+      ],
+      "id": "hm-027",
+      "addedDate": "2026-03-16 22:47"
     }
   ]
 }
