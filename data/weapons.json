@@ -30927,6 +30927,81 @@
       ],
       "id": "bw-029",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "권투",
+      "weaponSubtype": "맨손 격투 (Brawling / Gauntlet)",
+      "game": "God Hand",
+      "developer": "Clover Studio",
+      "actionName": "룰렛 휠 발동 (Roulette Wheel)",
+      "actionType": "특수기",
+      "description": "우측 스틱을 회전시켜 룰렛 휠을 발동하면, 플레이어가 사전에 커스터마이즈한 슬롯 중 하나가 선택되어 드래곤 킥·슬랩 100연타·백텀블링 킥 등 수십 종의 강력한 특수 격투 기술이 실행된다. 기술마다 발동 속도, 범위, 타격 수가 상이하며 상황에 따른 슬롯 구성이 전략의 핵심이다. Tension Gauge(위험 게이지)가 높을수록 적이 강해지지만 룰렛 슬롯의 파괴력도 함께 상승하는 연동 구조를 가진다.",
+      "motionType": [
+        "combo",
+        "spin",
+        "leap",
+        "overhead"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold",
+          "orange"
+        ],
+        "effectStyle": [
+          "aura",
+          "particle",
+          "slash-trail"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "medium",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "poise-breaking",
+          "crowd-control"
+        ],
+        "resourceCost": "룰렛 게이지",
+        "frameApprox": {
+          "startup": "~18f",
+          "active": "~30-80f (기술에 따라 상이)",
+          "recovery": "~24f"
+        }
+      },
+      "designNotes": "룰렛 휠 시스템은 플레이어가 슬롯을 직접 구성하되 발동 시 어떤 기술이 나올지는 반(半)랜덤으로 결정되는 독창적인 구조로, 덱빌딩에 가까운 사전 전략과 즉흥적 대응을 동시에 요구한다. 발동 타이밍을 제때 누르지 않으면 게이지가 그냥 소진되는 패널티가 존재해 긴장감을 유지한다. Tension Gauge 시스템과 맞물려 위험 수위가 높을수록 강한 기술이 나올 확률이 증가하므로, 플레이어가 의도적으로 피격을 감수하며 게이지를 올리는 역설적 리스크-리워드 설계가 구현된다. 기술 슬롯 구성이 곧 플레이 스타일 정체성이 되어 캐릭터 커스터마이즈와 전투 시스템이 자연스럽게 결합된 사례로, 격투 액션 장르에서 보기 드문 빌드 다양성을 제공한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=God+Hand+%EB%A3%B0%EB%A0%9B+%ED%9C%A0+%EB%B0%9C%EB%8F%99+%28Roulette+Wheel%29+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "roulette",
+        "risk-reward",
+        "customizable",
+        "brawler",
+        "special-technique",
+        "tension-gauge",
+        "crowd-control",
+        "finisher",
+        "semi-random",
+        "build-diversity"
+      ],
+      "applicableWeapons": [
+        "맨손",
+        "건틀릿",
+        "권투"
+      ],
+      "id": "ft-038",
+      "addedDate": "2026-03-16"
     }
   ]
 }
