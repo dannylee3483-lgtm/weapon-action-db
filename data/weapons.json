@@ -31651,6 +31651,77 @@
       ],
       "id": "sh-021",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "카타나 (제로의 무명검)",
+      "game": "Katana ZERO",
+      "developer": "Askiisoft",
+      "actionName": "크로노스 반사 참격 / Chronos Reflect Slash",
+      "actionType": "특수기",
+      "description": "주인공 제로가 크로노스 약물로 시간을 늦춘 상태에서 날아오는 총알을 카타나로 정확히 쳐내어 발사 방향으로 반사시키는 핵심 메카닉. 슬로우 상태에서 적의 발사체 궤도를 예측하고 카타나 스윙 타이밍을 맞추면 총알이 튕겨나가 적에게 명중한다. 플레이어와 적 모두 원히트킬 구조이기 때문에, 반사 성공 시 총기 적도 즉사시킬 수 있어 근접-원거리 격차를 순식간에 역전시킨다.",
+      "motionType": [
+        "slash",
+        "counter",
+        "parry"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "red"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "punish",
+          "finisher"
+        ],
+        "specialProperties": [
+          "one-hit-kill",
+          "projectile-reflect",
+          "time-slow",
+          "gap-closer"
+        ],
+        "resourceCost": "크로노스 게이지 (시간 지연 지속시간)",
+        "frameApprox": {
+          "startup": "~2f (슬로우 내 체감)",
+          "active": "~4f",
+          "recovery": "~8f"
+        }
+      },
+      "designNotes": "Katana ZERO의 탄환 반사는 '약자가 강자를 역전시키는 순간'을 설계 중심에 둔 메카닉이다. 플레이어와 적 모두 단 한 번의 명중으로 사망하는 대칭 구조는 극도의 긴장감을 만들며, 시간 지연을 통해 그 긴장을 '해결 가능한 퍼즐'로 변환한다. 탄환 반사는 별도 버튼 입력 없이 일반 공격과 동일한 조작으로 발동되어 조작 학습 비용을 최소화하면서도 상황 판단의 깊이를 극대화한다. 슬로우 게이지라는 유한 자원이 '언제 슬로우를 쓸 것인가'라는 전략적 판단을 요구하며, 반사 성공 시 총기 적 즉사라는 강력한 리워드는 리스크-리워드 곡선을 명확히 정의한다. 2D 횡스크롤이라는 제약 안에서 총알 궤도 예측만으로 공간적 긴장을 구현한 것은 최소 입력으로 최대 몰입을 달성한 효율적 설계의 교과서적 사례다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Katana+ZERO+%ED%81%AC%EB%A1%9C%EB%85%B8%EC%8A%A4+%EB%B0%98%EC%82%AC+%EC%B0%B8%EA%B2%A9+%2F+Chronos+Reflect+Slash+gameplay",
+        "images": [],
+        "wiki": "https://katana-zero.fandom.com/wiki/Katana_ZERO_Wiki",
+        "gif": null
+      },
+      "tags": [
+        "projectile-reflect",
+        "time-slow",
+        "one-hit-kill",
+        "risk-reward",
+        "parry-mechanic",
+        "2d-action",
+        "resource-management",
+        "counter-attack",
+        "katana",
+        "indie"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "단검"
+      ],
+      "id": "kt-055",
+      "addedDate": "2026-03-16"
     }
   ]
 }
