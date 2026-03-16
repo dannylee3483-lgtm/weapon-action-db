@@ -34873,6 +34873,74 @@
       ],
       "id": "sc-032",
       "addedDate": "2026-03-17 06:52"
+    },
+    {
+      "weaponCategory": "건랜스",
+      "weaponSubtype": "건랜스 (와이번스테이크형)",
+      "game": "Monster Hunter World: Iceborne",
+      "developer": "Capcom",
+      "actionName": "와이번스테이크 블래스트 (Wyrmstake Blast)",
+      "actionType": "차지 특수기",
+      "description": "건랜스의 포구를 충전하여 폭발성 말뚝(와이번스테이크)을 몬스터에게 박아 넣는 기술. 박힌 말뚝은 일정 시간 동안 연속으로 폭발하며 지속 대미지를 입히고, 최종적으로 큰 폭발과 함께 말뚝이 날아가며 마무리된다. Iceborne에서 추가된 새로운 포격 개념으로, 몬스터와의 밀착 유지가 핵심인 거치형 공격이다.",
+      "motionType": [
+        "charge",
+        "thrust"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "orange",
+          "red"
+        ],
+        "effectStyle": [
+          "explosion",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "short-medium",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "continuous-damage",
+          "embedded-detonation"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~60f",
+          "active": "~180f (지속 폭발 구간)",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "와이번스테이크 블래스트는 기존 건랜스의 '포격 후 즉시 이탈' 패턴을 역전시켜, '밀착 유지'라는 새로운 전략적 목표를 부여한다. 말뚝이 박힌 동안 플레이어가 해당 부위를 계속 공격하면 연속 폭발 대미지를 극대화할 수 있어, 리스크(근접 노출)와 리워드(누적 폭발 DPS)의 균형이 명확하다. 충전 선딜이 길어 발동 타이밍 판단 능력을 시험하고, 성공 시 강렬한 시각·청각 피드백으로 강한 카타르시스를 제공한다. 기존 포격 시스템을 완전히 새로 설계하지 않고 '말뚝을 박는다'는 직관적 아이디어만 추가해 플레이스타일 다양성을 확장한 점이 인상적이다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter+World%3A+Iceborne+%EC%99%80%EC%9D%B4%EB%B2%88%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC+%EB%B8%94%EB%9E%98%EC%8A%A4%ED%8A%B8+%28Wyrmstake+Blast%29+gameplay",
+        "images": [],
+        "wiki": "https://monsterhunterworld.wiki.fextralife.com/Gunlance",
+        "gif": null
+      },
+      "tags": [
+        "gunlance",
+        "continuous-damage",
+        "embedded-detonation",
+        "charge-attack",
+        "shelling",
+        "close-range",
+        "sustained-dps",
+        "monster-hunter",
+        "poise-breaking",
+        "iceborne"
+      ],
+      "applicableWeapons": [
+        "건랜스"
+      ],
+      "id": "gu-003",
+      "addedDate": "2026-03-17 06:54"
     }
   ]
 }
