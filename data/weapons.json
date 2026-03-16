@@ -26527,6 +26527,79 @@
       ],
       "id": "wh-037",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "활",
+      "weaponSubtype": "다목적 활 (Versatile Bow)",
+      "game": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "actionName": "공중 슬로우 조준 / Bullet-Time Arrow",
+      "actionType": "특수기",
+      "description": "링크가 점프 또는 낙하 중에 활을 겨누면 시간이 극적으로 느려지며 정밀 조준 상태가 활성화된다. 이 슬로우모션 상태에서 화살의 포물선 궤적이 시각적으로 뚜렷하게 표현되며, 착지 전까지 연속으로 여러 발을 발사할 수 있다. 적의 취약 부위나 먼 거리 고속 목표물에 정확히 명중시키는 데 이상적이며, 말 위에서 뛰어내리거나 절벽에서 낙하할 때도 동일하게 발동된다.",
+      "motionType": [
+        "charge",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "yellow"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "very-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "opener",
+          "punish"
+        ],
+        "specialProperties": [
+          "time-slow",
+          "aerial",
+          "multi-shot",
+          "precise-aim",
+          "gap-closer"
+        ],
+        "resourceCost": "화살",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "공중 체공 시간 내내",
+          "recovery": "착지 후 ~12f"
+        }
+      },
+      "designNotes": "점프 + 활 조준이라는 두 가지 단순한 입력의 조합으로 강력한 보상(시간 감속)을 제공하는 우아한 리스크-리워드 구조다. 공중 무방비 상태라는 위험 부담이 슬로우 타임의 보상과 정확히 균형을 이루며, 실력 표현 공간과 긴장감을 동시에 제공한다. 화살이라는 소모 자원 레이어가 무제한 남용을 방지하면서도 창의적 전술을 장려한다. 슬로우모션 중 화살 궤적이 시각적으로 명확히 드러나기 때문에, 처음 접하는 플레이어도 즉각적으로 메카닉의 의도를 직관적으로 파악할 수 있는 탁월한 피드백 설계를 보여준다. 열린 세계에서 지형 자체를 전술 자원으로 활용하도록 유도한다는 점에서 오픈월드 활 전투의 교과서적 사례로 평가받는다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=The+Legend+of+Zelda%3A+Breath+of+the+Wild+%EA%B3%B5%EC%A4%91+%EC%8A%AC%EB%A1%9C%EC%9A%B0+%EC%A1%B0%EC%A4%80+%2F+Bullet-Time+Arrow+gameplay",
+        "images": [],
+        "wiki": "https://zelda.fandom.com/wiki/Bow",
+        "gif": null
+      },
+      "tags": [
+        "bullet-time",
+        "aerial",
+        "time-slow",
+        "precision",
+        "risk-reward",
+        "open-world",
+        "bow",
+        "skill-expression",
+        "multi-shot",
+        "zelda"
+      ],
+      "applicableWeapons": [
+        "활",
+        "다목적 활",
+        "강궁",
+        "고대 활"
+      ],
+      "id": "bw-023",
+      "addedDate": "2026-03-16"
     }
   ]
 }
