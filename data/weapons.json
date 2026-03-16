@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17 00:02",
+  "lastUpdated": "2026-03-17 00:05",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -31635,7 +31635,9 @@
       },
       "designNotes": "지얀의 공명 해방은 '해방 중 기본 공격 변화(Attack Override)' 메카닉을 통해 단순 1회 입력의 궁극기가 아닌 지속적인 플레이어 참여를 강제한다. 대검 캐릭터 특유의 육중함을 유지하면서도 공중 기동성을 부여해 시각적 카타르시스를 극대화한 사례다. 풍원소 이펙트가 슬래시 궤적을 따라 흐르는 연출은 타격감과 속도감을 동시에 전달하며, 고비용(에너지 125) 리소스에 걸맞은 광역 지속 딜을 보상으로 제공하는 명확한 리스크-리워드 구조를 갖춘다. 해방 마지막의 수직 내리찍기 피니셔는 클라이맥스 액션으로서 전투 절정을 시각·청각적으로 선명히 표시하는 우수한 피드백 설계다. 이 구조는 '궁극기 → 평타 유지 → 피니셔'로 이어지는 전투 리듬을 자연스럽게 유도한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Wuthering+Waves+%EC%B7%A8%ED%92%8D%EC%97%B0%EC%B0%B8+%2F+%E7%BF%A0%E9%A2%A8%E9%80%A3%E6%96%AC+%2F+Emerald+Storm+%28%EA%B3%B5%EB%AA%85+%ED%95%B4%EB%B0%A9%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=vY7l0ieaRks"
+        ],
         "images": [],
         "wiki": "https://wutheringwaves.fandom.com/wiki/Jiyan",
         "gif": null
@@ -31708,7 +31710,9 @@
       },
       "designNotes": "2단 구조의 선-딜레이(gap-closer) + 후-타격(overhead slam) 패턴은 플레이어에게 명확한 '리스크 투자 → 리워드 회수' 경험을 제공하며, 첫 번째 돌진이 맞아야만 두 번째 내리찍기가 안정적으로 연결되는 조건부 구조가 스킬 갭을 만들어낸다. 발동 무적 프레임은 이 기술을 단순 콤보 마무리를 넘어 '역전 카드'로 기능하게 해, 열세 상황에서도 한 방의 반전 가능성이 살아있다는 긴장감을 유지시킨다. 50 Tension이라는 자원 비용은 적절한 게이지 관리 딜레마를 만들어, 무제한으로 남발되지 않도록 제어하면서도 임팩트 있는 순간에 플레이어가 쾌감을 폭발적으로 느끼게 설계되었다. 화염 폭발과 함께 대검이 지면에 박히는 화려한 비주얼 피드백은 GG 시리즈 전통의 '필살기 카타르시스'를 계승하며, 솔 배드가이의 거칠고 직선적인 캐릭터 아이덴티티를 동작 하나로 압축해 표현한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Guilty+Gear+Strive+%ED%83%80%EC%9D%B4%EB%9F%B0%ED%8A%B8+%EB%A0%88%EC%9D%B4%EB%B8%8C+%2F+Tyrant+Rave+ver.%CE%B2+%28%E3%82%BF%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%88%E3%83%AC%E3%82%A4%E3%83%96+ver.%CE%B2%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=e7QUAaM7hM8"
+        ],
         "images": [],
         "wiki": "https://www.dustloop.com/w/GGST/Sol_Badguy",
         "gif": null
@@ -31780,7 +31784,9 @@
       },
       "designNotes": "Living Shadow는 '내면의 어둠과 화해'라는 암흑기사 직업 스토리(Shadowbringers)의 서사적 테마를 전투 메카닉으로 직접 번역한 설계의 정수다. 플레이어 캐릭터의 그림자 분신이 독립적으로 싸운다는 시각적 연출이 직업 정체성의 '자기 파괴적 힘을 다스린다'는 개념과 완벽하게 일치한다. 버스트 창(Burst Window) 설계 면에서도 탁월한데, 분신의 공격이 시작되기까지 딜레이가 있어 플레이어가 분신 소환 직전에 다른 오프글로벌 쿨다운을 정렬(align)해야 하는 타이밍 스킬을 요구하며, 숙련도에 따라 딜 차이가 극명하게 벌어진다. 또한 혈기 게이지 6000 소모라는 명확한 자원 비용이 '최적의 시점에 쏟아붓는다'는 리스크-리워드 의사결정을 지속적으로 강제한다. 보라빛-검정 실루엣이라는 뚜렷한 시각적 피드백이 분신의 활성 상태를 직관적으로 전달하여 플레이어가 별도의 UI 없이도 쿨다운 상태를 인식할 수 있다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+Online+%EB%A6%AC%EB%B9%99+%EC%84%80%EB%8F%84%EC%9A%B0+%2F+Living+Shadow+%28%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%A3%E3%83%89%E3%82%A6%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=WTv_GMo5490"
+        ],
         "images": [],
         "wiki": "https://ffxiv.consolegameswiki.com/wiki/Living_Shadow",
         "gif": null
@@ -31850,7 +31856,9 @@
       },
       "designNotes": "크로스가드 스탠스는 소울라이크 장르의 대검 아키타입을 라이트세이버 전투에 성공적으로 이식한 사례다. 충전 모션 동안 적에게 읽힐 위험을 감수하는 명확한 리스크-리워드 구조를 제공하며, 플레이어는 '지금 충전을 시작할 수 있는가'를 지속적으로 판단해야 한다. 완전 충전 공격의 가드 브레이크 특성은 방패형 적에 대한 강제 해법이 되어 상황적 유효성을 높인다. 특히 크로스가드 패리 성공 시 즉시 차지 스트라이크로 연결되는 시스템은 방어와 공격의 리듬감 있는 순환을 만들며, 느린 무기를 선택한 플레이어에게 '묵직한 한 방'의 시각·촉각적 만족감을 극대화한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Star+Wars+Jedi%3A+Survivor+%ED%81%AC%EB%A1%9C%EC%8A%A4%EA%B0%80%EB%93%9C+%EC%B0%A8%EC%A7%80+%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%81%AC+%2F+Crossguard+Charged+Strike+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Hs5r16vJjuw"
+        ],
         "images": [],
         "wiki": "https://starwars.fandom.com/wiki/Crossguard_lightsaber",
         "gif": null
@@ -31922,7 +31930,9 @@
       },
       "designNotes": "이즈나 드롭은 '선행 조건이 있는 피니셔'라는 구조를 통해 콤보 전체의 리스크-리워드를 설계한 사례다. 적을 공중에 띄우는 선행 콤보가 성공해야 발동 가능하므로, 이 기술 자체는 숙련된 플레이의 보상 구간에 해당한다. 착지 시 강한 충격 이펙트와 사운드로 즉각적인 만족감을 제공하며, 이는 '기술 완성의 쾌감'을 시청각적으로 강화하는 피드백 설계의 교과서적 예시다. 또한 공중 상태에서 적의 취약점을 이용하는 설계는 플레이어가 적극적으로 적을 띄우도록 유도하며, 전투 리듬을 수직 방향으로 확장한다. 이 기술이 슈퍼 스매시 브라더스 시리즈(시크 기술)를 비롯한 수많은 게임에 레퍼런스될 만큼 '공중 잡기 피니셔' 패턴의 원형으로 기능했다는 점에서 액션 게임 디자인사적 가치도 크다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Ninja+Gaiden+Black+%EC%9D%B4%EC%A6%88%EB%82%98+%EB%93%9C%EB%A1%AD+%2F+Izuna+Drop+%28%E3%82%A4%E3%82%BA%E3%83%8A%E8%90%BD%E3%81%A8%E3%81%97%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=wnrcebnHrSY"
+        ],
         "images": [],
         "wiki": "https://ninjagaiden.fandom.com/wiki/Izuna_Drop",
         "gif": null
@@ -31994,7 +32004,9 @@
       },
       "designNotes": "피의 날춤은 다단 히트와 출혈 메카닉을 결합하여 짧은 유효 범위라는 리스크를 높은 DPS 보상으로 상쇄하는 전형적인 리스크-리워드 구조를 가진다. 애니메이션의 춤추는 듯한 우아한 흐름이 각 타격 타이밍과 자연스럽게 맞물려, 플레이어에게 강한 '블레이드 댄서' 액션 판타지를 제공한다. 출혈 스택이 콤보 내에서 빠르게 임계점에 도달하도록 설계되어, 보스의 큰 딜 창을 짧게 잡아도 출혈 폭발 보상을 얻을 수 있다. 전용 고정 모션으로 제한함으로써 무기의 정체성을 강화하고, 타 무기로 전용 불가 처리해 희소성과 빌드 아이덴티티를 동시에 확보한다. 최종 타격의 상방 베기는 콤보 마무리의 명확한 시각적 결말감을 부여해 피드백 설계 면에서도 완결성이 높다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%94%BC%EC%9D%98+%EB%82%A0%EC%B6%A4+%2F+Bloodblade+Dance+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=u9IHMEstIXE"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Bloodblade+Dance",
         "gif": null
@@ -32063,7 +32075,9 @@
       },
       "designNotes": "트리플 슬래시는 ATB 시스템 내 '비용 대비 효율' 설계의 교과서적 사례다. ATB 1게이지라는 낮은 자원으로 3히트를 보장해 스태거 누적 속도를 극대화하며, 중급 어빌리티 진입 장벽을 낮춰 초보자도 전투 리듬을 빠르게 체득하게 돕는다. 돌진 거리를 의도적으로 짧게 설정해 오버 익스텐드 위험을 줄이고, 발동 즉시 이동이 시작되는 반응성 덕분에 실시간 전투의 긴박감을 유지한다. 단손 모드 전용으로 묶어 무기 스탠스 전환 의사결정에 전략적 무게를 부여한 점도 돋보이는 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+VII+Remake+%ED%8A%B8%EB%A6%AC%ED%94%8C+%EC%8A%AC%EB%9E%98%EC%8B%9C+%2F+Triple+Slash+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=IUxgX82OdRM"
+        ],
         "images": [],
         "wiki": "https://finalfantasy.fandom.com/wiki/Triple_Slash",
         "gif": null
@@ -32131,7 +32145,9 @@
       },
       "designNotes": "단검이라는 극단적 근접 특화 무기에 중거리 투사체를 부여함으로써, 단검 고유의 빠른 공격 템포를 희생하지 않으면서 접근전 취약점을 보완한 독창적인 디자인이다. FP 소모라는 자원 비용이 무분별한 남발을 억제하는 리스크-리워드 구조를 형성하며, 3연속 시전 구조는 플레이어가 상황에 따라 자원 투자량을 스스로 조절하는 전술적 깊이를 제공한다. 출혈 게이지 누적이라는 지연 보상 메커니즘이 지속적인 교전 동기를 부여하고, 혈흔 궤적이라는 시각적 이펙트가 액션의 위협감을 강화한다. 단검 고속 근접 콤보와의 시너지를 통해 접근 후 Blood Blade 연사, 출혈 터뜨리기의 하이브리드 전투 루프를 장려하는 설계다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Elden+Ring+%ED%95%8F%EB%B9%9B+%EB%82%A0+%28Blood+Blade%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=UKcyAFZTXb4"
+        ],
         "images": [],
         "wiki": "https://eldenring.wiki.fextralife.com/Reduvia",
         "gif": null
@@ -32203,7 +32219,9 @@
       },
       "designNotes": "GCD 콤보 사이 좁은 윈도우에 oGCD Continuation 기술을 정확히 삽입해야 최대 효율을 내는 구조로, 플레이어에게 리듬감 있는 손가락 정밀도를 요구하며 숙련도의 차이를 명확하게 드러낸다. 각 Continuation은 직전 GCD 공격의 시각적 연장선처럼 연출되어 '베기 후 격발'이라는 건블레이드 정체성을 행동 단위마다 강화한다. 3단계의 명칭 변화(Fang→Claw→Talon)와 이펙트 색상 점층은 플레이어가 별도 UI 없이 콤보 진행 상태를 직관적으로 파악하게 해주는 UX 설계다. 쿨다운 고정 방식은 리소스 부담을 제거하면서도 등장 타이밍이 예측 가능해, 버프 창 맞추기와 파티 시너지 조율의 기준점으로 기능한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Final+Fantasy+XIV+%EC%97%B0%EC%95%84+%EC%BD%A4%EB%B3%B4+%2F+Gnashing+Fang+Combo+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=vUVywxR8fKU"
+        ],
         "images": [],
         "wiki": "https://ffxiv.consolegameswiki.com/wiki/Gnashing_Fang",
         "gif": null
@@ -32275,7 +32293,9 @@
       },
       "designNotes": "Dragon's Crown 드워프의 공중 강하 강타는 해머 무기의 '수직 위협'이라는 개념을 2D 횡스크롤 액션에 정직하게 구현한 사례다. 점프라는 모션 비용을 선행 투자함으로써 공격 범위가 지면 중심 → 수직 하방으로 전환되는 역발상 설계가 돋보인다. 착지 충격파의 원형 판정은 군중 처리와 단일 대상 피니시 모두에 유용해 다목적성을 확보한다. 도약 선딜이 길어 회피 가능하지만, 낙하 속도 제어와 착지 타이밍 조절로 적의 회피에 대응할 수 있어 숙련도에 따른 보상 곡선이 뚜렷하다. 시각적으로 드워프의 묵직한 체형과 망치가 결합하여 '내리찍음'이라는 본능적 쾌감을 극대화하는 애니메이션 피드백 설계도 우수하다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Dragon%27s+Crown+%EA%B3%B5%EC%A4%91+%EA%B0%95%ED%95%98+%EA%B0%95%ED%83%80+%2F+Aerial+Hammer+Slam+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=D9U_xpVG7ro"
+        ],
         "images": [],
         "wiki": null,
         "gif": null
@@ -32348,7 +32368,9 @@
       },
       "designNotes": "Warframe의 스탠스 모드 시스템은 동일 무기 유형에 장착 카드 하나만 바꿔도 완전히 다른 전투 스타일이 생기는 구조로, 무기 커스터마이즈와 전투 리듬을 분리하는 독창적 설계다. Stalking Fan의 리핑 스파이럴은 짧고 빠른 선타-선타-대회전의 리듬으로 플레이어가 다음 타격 타이밍을 직관적으로 예측하게 만들어 콤보 학습 곡선을 낮춘다. 마지막 회전 공격이 360도 범위를 커버함으로써 다수의 적에게 둘러싸인 상황에서도 콤보를 이어갈 수 있어, 슈터 게임임에도 근접전의 판타지를 강하게 실현한다. 출혈 상태이상과 콤보 카운터 누적의 조합은 플레이어에게 '계속 싸울수록 강해진다'는 긍정적 피드백 루프를 제공하며, 탈출보다 전진하는 플레이를 유도하는 리스크-리워드 구조를 완성한다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Warframe+%EC%8A%A4%ED%86%A0%ED%82%B9+%ED%8C%AC+%E2%80%94+%EB%A6%AC%ED%95%91+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EB%9F%B4+%28Stalking+Fan+%E2%80%94+Reaping+Spiral%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=CetHY4CvhfQ"
+        ],
         "images": [],
         "wiki": "https://warframe.fandom.com/wiki/Reaper_Prime",
         "gif": null
@@ -32421,7 +32443,9 @@
       },
       "designNotes": "와이번파이어는 '최강의 단발'을 위해 플레이어가 긴 차지 중 완전 무방비 상태와 2분 쿨다운이라는 이중 리스크를 감수하게 만드는 극단적 리스크-리워드 구조의 결정체다. 고정 대미지(쉘 시스템) 채택으로 몬스터 부위 방어력을 우회하는 독자적인 딜링 루트를 제공하며, 이는 건랜스라는 무기의 정체성인 '포격으로 부수는 무기'를 메카닉 수준에서 강화한다. 차지 중 취약한 상태는 몬스터 행동 읽기와 파티 협력(다른 플레이어가 다운을 잡아줄 때 사용)을 통한 보상을 극대화하여, 개인 스킬뿐 아니라 팀플레이 판단력도 시험한다. 시각·청각 피드백(화염 폭발, 굉음, 화면 진동)이 강렬하게 연출되어 긴 대기 끝의 카타르시스를 극대화하고, 과열 이펙트와 쿨다운 UI로 자원 상태를 명확히 전달해 플레이어의 전략적 타이밍 관리 부담을 줄인다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Monster+Hunter%3A+World+%EC%99%80%EC%9D%B4%EB%B2%88%ED%8C%8C%EC%9D%B4%EC%96%B4+%28Wyvern%27s+Fire%29+gameplay",
+        "youtube": [
+          "https://www.youtube.com/watch?v=Aw8cMhfoXg8"
+        ],
         "images": [],
         "wiki": "https://monsterhunterworld.wiki.fextralife.com/Gunlance",
         "gif": null
