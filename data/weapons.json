@@ -25529,6 +25529,76 @@
       ],
       "id": "sc-021",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "채찍",
+      "weaponSubtype": "Combat Cross (전투 십자가 체인)",
+      "game": "Castlevania: Lords of Shadow",
+      "developer": "MercurySteam",
+      "actionName": "체인 회전 격타 / Whip Cyclone",
+      "actionType": "차지 공격",
+      "description": "가브리엘 벨몬트가 전투 십자가의 체인을 원심력으로 회전시켜 주변 360도 범위의 적을 전부 타격하는 차지형 광역 공격이다. 공격 버튼을 길게 유지할수록 회전 속도와 체인의 유효 반경이 증가하며, 마지막 타격 시 모든 피격 적이 외곽으로 날아가는 넉백이 발생한다. 다수의 적에게 포위된 위기 상황을 한 번에 역전할 수 있는 생존형 광역기로, 잘못된 타이밍에 사용하면 긴 리커버리로 인해 극심한 반격 위기를 초래한다.",
+      "motionType": [
+        "spin",
+        "charge",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "aura"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "slow",
+        "range": "medium-long",
+        "staggerPower": "high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "crowd-control",
+          "knockdown",
+          "area-of-effect",
+          "360-hitbox"
+        ],
+        "resourceCost": "스태미나",
+        "frameApprox": {
+          "startup": "~35f",
+          "active": "~55f",
+          "recovery": "~40f"
+        }
+      },
+      "designNotes": "체인 무기의 핵심 판타지인 '원심력을 이용한 전방위 제압'을 가장 직관적으로 구현한 액션이다. 차지 시간에 비례해 공격 범위와 위력이 확장되는 구조는 상황 판단을 강요하는 리스크-리워드 레이어를 형성하며, 위기 상황 역전 시 얻는 카타르시스를 극대화한다. 회전하는 체인이 그리는 원형 궤적 자체가 유효 범위를 시각적으로 전달하는 UI 역할을 겸해, 별도의 인디케이터 없이도 범위를 직관적으로 인식할 수 있는 자기 설명적 설계가 돋보인다. 긴 리커버리 프레임은 적의 배치를 읽는 공간 인식 능력을 플레이어에게 요구하는 스킬 체크 장치로 기능하며, 무분별한 남발을 억제해 기술에 무게감을 부여한다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Castlevania%3A+Lords+of+Shadow+%EC%B2%B4%EC%9D%B8+%ED%9A%8C%EC%A0%84+%EA%B2%A9%ED%83%80+%2F+Whip+Cyclone+gameplay",
+        "images": [],
+        "wiki": null,
+        "gif": null
+      },
+      "tags": [
+        "area-of-effect",
+        "crowd-control",
+        "chain-whip",
+        "charge-attack",
+        "spin",
+        "knockback",
+        "360-hitbox",
+        "risk-reward",
+        "castlevania"
+      ],
+      "applicableWeapons": [
+        "채찍",
+        "체인"
+      ],
+      "id": "wh-033",
+      "addedDate": "2026-03-16"
     }
   ]
 }
