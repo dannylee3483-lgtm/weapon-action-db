@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16 22:32",
+  "lastUpdated": "2026-03-16 22:38",
   "weapons": [
     {
       "weaponCategory": "대검",
@@ -30571,6 +30571,78 @@
       ],
       "id": "gs-058",
       "addedDate": "2026-03-16 22:32"
+    },
+    {
+      "weaponCategory": "카타나",
+      "weaponSubtype": "Dragon Sword (류의 검 / 龍の剣)",
+      "game": "Ninja Gaiden Black",
+      "developer": "Team NINJA / Tecmo",
+      "actionName": "이즈나 드롭 / Izuna Drop (イズナ落とし)",
+      "actionType": "공중 잡기 / 콤보 피니셔",
+      "description": "공중에 띄운 적을 향해 도약하며 칼로 위협해 잡아채고, 빠른 회전과 함께 지면에 강하게 내동댕이치는 공중 잡기 기술이다. 반드시 선행 콤보로 적을 공중에 띄운 상태에서만 발동 가능하며, 착지 충격과 함께 강력한 넉다운을 유발한다. 류 하야부사의 전투 루틴에서 가장 아이코닉한 마무리 기술로, 이후 수많은 액션 게임에 '공중 잡기 피니셔'의 원형으로 인용되었다.",
+      "motionType": [
+        "combo",
+        "throw",
+        "leap"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "blue"
+        ],
+        "effectStyle": [
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "finisher",
+          "ender"
+        ],
+        "specialProperties": [
+          "knockdown",
+          "juggle-ender",
+          "high-damage",
+          "requires-airborne-enemy",
+          "aerial-grab"
+        ],
+        "resourceCost": "없음",
+        "frameApprox": {
+          "startup": "~8f",
+          "active": "~4f (잡기 판정)",
+          "recovery": "~32f"
+        }
+      },
+      "designNotes": "이즈나 드롭은 '선행 조건이 있는 피니셔'라는 구조를 통해 콤보 전체의 리스크-리워드를 설계한 사례다. 적을 공중에 띄우는 선행 콤보가 성공해야 발동 가능하므로, 이 기술 자체는 숙련된 플레이의 보상 구간에 해당한다. 착지 시 강한 충격 이펙트와 사운드로 즉각적인 만족감을 제공하며, 이는 '기술 완성의 쾌감'을 시청각적으로 강화하는 피드백 설계의 교과서적 예시다. 또한 공중 상태에서 적의 취약점을 이용하는 설계는 플레이어가 적극적으로 적을 띄우도록 유도하며, 전투 리듬을 수직 방향으로 확장한다. 이 기술이 슈퍼 스매시 브라더스 시리즈(시크 기술)를 비롯한 수많은 게임에 레퍼런스될 만큼 '공중 잡기 피니셔' 패턴의 원형으로 기능했다는 점에서 액션 게임 디자인사적 가치도 크다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Ninja+Gaiden+Black+%EC%9D%B4%EC%A6%88%EB%82%98+%EB%93%9C%EB%A1%AD+%2F+Izuna+Drop+%28%E3%82%A4%E3%82%BA%E3%83%8A%E8%90%BD%E3%81%A8%E3%81%97%29+gameplay",
+        "images": [],
+        "wiki": "https://ninjagaiden.fandom.com/wiki/Izuna_Drop",
+        "gif": null
+      },
+      "tags": [
+        "juggle-finisher",
+        "aerial-grab",
+        "combo-ender",
+        "knockdown",
+        "high-damage",
+        "iconic",
+        "vertical-combat",
+        "ninja",
+        "katana",
+        "risk-reward"
+      ],
+      "applicableWeapons": [
+        "카타나",
+        "닌자도"
+      ],
+      "id": "kt-062",
+      "addedDate": "2026-03-16 22:38"
     }
   ]
 }
