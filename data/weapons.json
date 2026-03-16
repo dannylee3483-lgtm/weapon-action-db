@@ -27982,6 +27982,81 @@
       ],
       "id": "wh-041",
       "addedDate": "2026-03-16"
+    },
+    {
+      "weaponCategory": "1H검",
+      "weaponSubtype": "Puppet's Saber (꼭두각시의 세이버)",
+      "game": "Lies of P",
+      "developer": "Neowiz / Round8 Studio",
+      "actionName": "퍼펙트 가드 & 페이블 아트 반격 (Perfect Guard & Fable Art Counter)",
+      "actionType": "패리|카운터",
+      "description": "적의 공격이 캐릭터에 닿기 직전 가드 버튼을 입력하면 퍼펙트 가드가 발동되어 피해를 완전히 무효화하고 적에게 스태거를 유발한다. 퍼펙트 가드 성공 시 페이블 슬롯이 채워지며, 슬롯이 충분할 때 세이버의 페이블 아트 '긁기(Flamberge Sweep)'를 발동하면 전방 부채꼴 범위를 고속으로 베어 스태거 중인 적에게 막대한 피해를 입힌다. 연속 퍼펙트 가드로 슬롯을 축적한 뒤 한 번의 페이블 아트로 폭발적 딜을 쏟아내는 리스크-리워드 사이클이 이 시스템의 핵심이다.",
+      "motionType": [
+        "parry",
+        "counter",
+        "slash",
+        "sweep"
+      ],
+      "element": {
+        "type": "없음",
+        "effectColor": [
+          "white",
+          "gold"
+        ],
+        "effectStyle": [
+          "shimmer",
+          "slash-trail",
+          "particle"
+        ]
+      },
+      "mechanics": {
+        "startupSpeed": "very-fast",
+        "range": "short-medium",
+        "staggerPower": "very-high",
+        "comboRole": [
+          "counter",
+          "punish",
+          "ender"
+        ],
+        "specialProperties": [
+          "poise-breaking",
+          "damage-negation",
+          "resource-generation",
+          "stagger-inducing"
+        ],
+        "resourceCost": "페이블 슬롯 (Fable Slot) — 퍼펙트 가드 성공 시 충전",
+        "frameApprox": {
+          "startup": "~4f (퍼펙트 가드 허용 윈도우)",
+          "active": "~10f (세이버 스윕)",
+          "recovery": "~22f"
+        }
+      },
+      "designNotes": "Lies of P의 퍼펙트 가드는 세키로의 패리를 계승하되 중요한 구조적 차이를 둔다. 실패해도 일반 가드로 폴백되어 피해는 받지만 즉사하지 않는 '안전망'이 있어, 타이밍 숙련 전 단계의 플레이어도 시스템을 점진적으로 학습할 수 있다. 페이블 슬롯이라는 리소스는 플레이어에게 '적의 공격을 의도적으로 받아쳐서 자원을 비축하라'는 능동적 동기를 부여하며, 이는 단순 회피 중심 플레이와 차별되는 고유한 리듬을 만든다. 슬롯이 가득 찼을 때 페이블 아트를 쓸지, 더 축적해서 더 큰 순간에 터뜨릴지를 결정하는 자원 관리 판단은 전투에 전략 레이어를 추가한다. 또한 퍼펙트 가드는 스태거를 유발하므로, 정교한 타이밍이 방어와 공격 모두를 동시에 처리하는 '공방 일체' 경험을 제공하여 숙련 플레이어에게 강한 자기효능감을 준다.",
+      "mediaLinks": {
+        "youtube": "https://www.youtube.com/results?search_query=Lies+of+P+%ED%8D%BC%ED%8E%99%ED%8A%B8+%EA%B0%80%EB%93%9C+%26+%ED%8E%98%EC%9D%B4%EB%B8%94+%EC%95%84%ED%8A%B8+%EB%B0%98%EA%B2%A9+%28Perfect+Guard+%26+Fable+Art+Counter%29+gameplay",
+        "images": [],
+        "wiki": "https://liesofp.wiki.fextralife.com/Guard",
+        "gif": null
+      },
+      "tags": [
+        "perfect-guard",
+        "parry",
+        "counter",
+        "fable-art",
+        "resource-management",
+        "stagger",
+        "risk-reward",
+        "souls-like",
+        "defensive-offense"
+      ],
+      "applicableWeapons": [
+        "1H검",
+        "단검",
+        "세이버",
+        "블레이드"
+      ],
+      "id": "sw-025",
+      "addedDate": "2026-03-16"
     }
   ]
 }
