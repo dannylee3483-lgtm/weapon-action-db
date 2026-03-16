@@ -32912,7 +32912,7 @@
       },
       "designNotes": "Repulse는 타이밍 기반 패리 시스템의 리스크-리워드 구조를 정밀하게 구현한 기술로, 실패 시 큰 피해를 감수해야 하는 위험성과 성공 시 열리는 카운터 창이라는 보상을 명확히 대비시킨다. 패리 성공 순간 발생하는 짧은 마이크로 슬로모션과 금속성 충돌음이 '완벽한 타이밍'을 청각·시각적으로 동시에 확인시켜, 플레이어가 숙련도를 직관적으로 체감할 수 있게 돕는다. Beta Energy 충전이라는 부수 효과는 단순 생존 수단을 넘어 공격적인 리소스 관리 도구로 기능하게 하여, 플레이어가 피하는 대신 적극적으로 패리를 노리는 공격적 플레이를 유도하는 행동 설계가 돋보인다. Repulse Strike 카운터 창은 콤보 연계의 자연스러운 진입점으로 기능해, 초보자도 흐름을 끊지 않고 공격 루틴을 이어갈 수 있도록 학습 곡선을 완만하게 설계했다.",
       "mediaLinks": {
-        "youtube": "https://www.youtube.com/results?search_query=Stellar+Blade+%EB%A6%AC%ED%8E%84%EC%8A%A4+%2F+Repulse+gameplay",
+        "youtube": "https://www.youtube.com/watch?v=2OgBshwmiVU",
         "images": [],
         "wiki": null,
         "gif": null
